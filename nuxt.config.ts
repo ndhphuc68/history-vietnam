@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt'
   ],
 
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false
+    }
+  },
+
   css: ['~/assets/css/main.css'],
 
   typescript: {
