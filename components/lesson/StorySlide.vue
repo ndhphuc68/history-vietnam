@@ -10,10 +10,16 @@ defineProps<Props>();
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center min-h-[400px] p-6 text-center animate-fade-in">
-    <div class="card max-w-2xl w-full bg-white border-t-8 border-[#FF6B6B] transform transition-all hover:scale-[1.01]">
+  <div
+    class="flex flex-col items-center justify-center min-h-[400px] p-6 text-center animate-fade-in"
+  >
+    <div
+      class="card max-w-2xl w-full bg-white border-t-8 border-[#FF6B6B] transform transition-all hover:scale-[1.01]"
+    >
       <div class="mb-8 text-6xl">✨</div>
-      <p class="text-3xl md:text-4xl font-black text-[#1A535C] leading-relaxed mb-4">
+      <p
+        class="text-3xl md:text-4xl font-black text-[#1A535C] leading-relaxed mb-4"
+      >
         {{ text }}
       </p>
     </div>
