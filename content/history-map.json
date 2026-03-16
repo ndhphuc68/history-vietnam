@@ -1,0 +1,143 @@
+{
+  "eras": [
+    {
+      "id": "founding",
+      "title": "Huyền thoại dựng nước",
+      "levels": [
+        {"id": "dragon-fairy", "title": "Con Rồng Cháu Tiên", "lesson": "dragon-fairy"},
+        {"id": "lac-long-quan-au-co", "title": "Lạc Long Quân và Âu Cơ", "lesson": "lac-long-quan-au-co"},
+        {"id": "hung-kings", "title": "Các vua Hùng lập nước Văn Lang", "lesson": "hung-kings"},
+        {"id": "lac-viet-life", "title": "Đời sống người Lạc Việt", "lesson": "lac-viet-life"},
+        {"id": "dong-son-drum", "title": "Trống đồng Đông Sơn", "lesson": "dong-son-drum"},
+        {"id": "son-tinh-thuy-tinh", "title": "Sơn Tinh Thủy Tinh", "lesson": "son-tinh-thuy-tinh"},
+        {"id": "banh-chung-banh-day", "title": "Bánh chưng bánh dày", "lesson": "banh-chung-banh-day"}
+      ]
+    },
+    {
+      "id": "au-lac",
+      "title": "Nước Âu Lạc",
+      "levels": [
+        {"id": "an-duong-vuong", "title": "An Dương Vương lập nước Âu Lạc", "lesson": "an-duong-vuong"},
+        {"id": "co-loa-citadel", "title": "Thành Cổ Loa", "lesson": "co-loa-citadel"},
+        {"id": "magic-crossbow", "title": "Nỏ thần Kim Quy", "lesson": "magic-crossbow"},
+        {"id": "trieu-da-invasion", "title": "Triệu Đà xâm lược", "lesson": "trieu-da-invasion"}
+      ]
+    },
+    {
+      "id": "northern-domination",
+      "title": "Thời Bắc thuộc",
+      "levels": [
+        {"id": "han-rule", "title": "Nhà Hán cai trị", "lesson": "han-rule"},
+        {"id": "assimilation-policy", "title": "Chính sách đồng hóa", "lesson": "assimilation-policy"},
+        {"id": "life-under-rule", "title": "Cuộc sống người Việt thời Bắc thuộc", "lesson": "life-under-rule"},
+        {"id": "hai-ba-trung", "title": "Khởi nghĩa Hai Bà Trưng", "lesson": "hai-ba-trung"},
+        {"id": "ba-trieu", "title": "Khởi nghĩa Bà Triệu", "lesson": "ba-trieu"},
+        {"id": "other-rebellions", "title": "Các cuộc nổi dậy khác", "lesson": "other-rebellions"}
+      ]
+    },
+    {
+      "id": "autonomy",
+      "title": "Giành quyền tự chủ",
+      "levels": [
+        {"id": "khuc-thua-du", "title": "Họ Khúc giành quyền tự chủ", "lesson": "khuc-thua-du"},
+        {"id": "khuc-hao-reform", "title": "Khúc Hạo cải cách", "lesson": "khuc-hao-reform"},
+        {"id": "duong-dinh-nghe", "title": "Dương Đình Nghệ chống Nam Hán", "lesson": "duong-dinh-nghe"},
+        {"id": "ngo-quyen-prep", "title": "Ngô Quyền chuẩn bị trận Bạch Đằng", "lesson": "ngo-quyen-prep"},
+        {"id": "bach-dang-938", "title": "Chiến thắng Bạch Đằng 938", "lesson": "bach-dang-938"},
+        {"id": "ngo-dynasty", "title": "Nhà Ngô xây dựng đất nước", "lesson": "ngo-dynasty"}
+      ]
+    },
+    {
+      "id": "dinh-early-le",
+      "title": "Nhà Đinh và Tiền Lê",
+      "levels": [
+        {"id": "twelve-warlords", "title": "Loạn 12 sứ quân", "lesson": "twelve-warlords"},
+        {"id": "dinh-bo-linh", "title": "Đinh Bộ Lĩnh thống nhất đất nước", "lesson": "dinh-bo-linh"},
+        {"id": "dinh-dynasty", "title": "Nhà Đinh thành lập", "lesson": "dinh-dynasty"},
+        {"id": "le-hoan", "title": "Lê Hoàn chống quân Tống", "lesson": "le-hoan"}
+      ]
+    },
+    {
+      "id": "ly-dynasty",
+      "title": "Nhà Lý",
+      "levels": [
+        {"id": "ly-cong-uan", "title": "Lý Công Uẩn lên ngôi", "lesson": "ly-cong-uan"},
+        {"id": "move-capital", "title": "Dời đô Thăng Long", "lesson": "move-capital"},
+        {"id": "van-mieu", "title": "Văn Miếu Quốc Tử Giám", "lesson": "van-mieu"},
+        {"id": "ly-economy", "title": "Kinh tế thời Lý", "lesson": "ly-economy"},
+        {"id": "ly-thuong-kiet", "title": "Lý Thường Kiệt chống Tống", "lesson": "ly-thuong-kiet"},
+        {"id": "nhu-nguyet", "title": "Trận sông Như Nguyệt", "lesson": "nhu-nguyet"}
+      ]
+    },
+    {
+      "id": "tran-dynasty",
+      "title": "Nhà Trần",
+      "levels": [
+        {"id": "tran-foundation", "title": "Nhà Trần thành lập", "lesson": "tran-foundation"},
+        {"id": "mongol-war-1", "title": "Mông Cổ xâm lược lần 1", "lesson": "mongol-war-1"},
+        {"id": "mongol-war-2", "title": "Mông Cổ xâm lược lần 2", "lesson": "mongol-war-2"},
+        {"id": "dien-hong", "title": "Hội nghị Diên Hồng", "lesson": "dien-hong"},
+        {"id": "mongol-war-3", "title": "Mông Cổ xâm lược lần 3", "lesson": "mongol-war-3"},
+        {"id": "bach-dang-1288", "title": "Trận Bạch Đằng 1288", "lesson": "bach-dang-1288"}
+      ]
+    },
+    {
+      "id": "lam-son",
+      "title": "Khởi nghĩa Lam Sơn",
+      "levels": [
+        {"id": "ming-rule", "title": "Nhà Minh đô hộ", "lesson": "ming-rule"},
+        {"id": "lam-son-uprising", "title": "Lê Lợi khởi nghĩa Lam Sơn", "lesson": "lam-son-uprising"},
+        {"id": "nguyen-trai", "title": "Nguyễn Trãi giúp khởi nghĩa", "lesson": "nguyen-trai"},
+        {"id": "chi-lang", "title": "Chiến thắng Chi Lăng", "lesson": "chi-lang"},
+        {"id": "binh-ngo", "title": "Bình Ngô đại cáo", "lesson": "binh-ngo"}
+      ]
+    },
+    {
+      "id": "later-le",
+      "title": "Thời Lê sơ",
+      "levels": [
+        {"id": "later-le-dynasty", "title": "Nhà Lê sơ", "lesson": "later-le-dynasty"},
+        {"id": "hong-duc-law", "title": "Luật Hồng Đức", "lesson": "hong-duc-law"},
+        {"id": "education-le", "title": "Giáo dục và khoa cử", "lesson": "education-le"},
+        {"id": "culture-le", "title": "Văn hóa thời Lê", "lesson": "culture-le"}
+      ]
+    },
+    {
+      "id": "tay-son",
+      "title": "Phong trào Tây Sơn",
+      "levels": [
+        {"id": "tay-son-uprising", "title": "Khởi nghĩa Tây Sơn", "lesson": "tay-son-uprising"},
+        {"id": "nguyen-hue", "title": "Nguyễn Huệ lên ngôi", "lesson": "nguyen-hue"},
+        {"id": "qing-war", "title": "Đại phá quân Thanh", "lesson": "qing-war"},
+        {"id": "ngoc-hoi-dong-da", "title": "Ngọc Hồi Đống Đa", "lesson": "ngoc-hoi-dong-da"}
+      ]
+    },
+    {
+      "id": "french-colonial",
+      "title": "Thực dân Pháp",
+      "levels": [
+        {"id": "french-attack-danang", "title": "Pháp tấn công Đà Nẵng", "lesson": "french-attack-danang"},
+        {"id": "nam-ky", "title": "Pháp chiếm Nam Kỳ", "lesson": "nam-ky"},
+        {"id": "can-vuong", "title": "Phong trào Cần Vương", "lesson": "can-vuong"},
+        {"id": "dong-du", "title": "Phong trào Đông Du", "lesson": "dong-du"},
+        {"id": "patriotic-movements", "title": "Các phong trào yêu nước", "lesson": "patriotic-movements"}
+      ]
+    },
+    {
+      "id": "modern-era",
+      "title": "Cách mạng và hiện đại",
+      "levels": [
+        {"id": "communist-party", "title": "Thành lập Đảng Cộng sản", "lesson": "communist-party"},
+        {"id": "august-revolution", "title": "Cách mạng tháng Tám", "lesson": "august-revolution"},
+        {"id": "independence-declaration", "title": "Tuyên ngôn độc lập", "lesson": "independence-declaration"},
+        {"id": "anti-french-war", "title": "Kháng chiến chống Pháp", "lesson": "anti-french-war"},
+        {"id": "dien-bien-phu", "title": "Chiến thắng Điện Biên Phủ", "lesson": "dien-bien-phu"},
+        {"id": "geneva-agreement", "title": "Hiệp định Genève", "lesson": "geneva-agreement"},
+        {"id": "anti-us-war", "title": "Kháng chiến chống Mỹ", "lesson": "anti-us-war"},
+        {"id": "tet-offensive", "title": "Tổng tiến công Mậu Thân", "lesson": "tet-offensive"},
+        {"id": "ho-chi-minh-campaign", "title": "Chiến dịch Hồ Chí Minh", "lesson": "ho-chi-minh-campaign"},
+        {"id": "reunification", "title": "Giải phóng miền Nam 1975", "lesson": "reunification"}
+      ]
+    }
+  ]
+}

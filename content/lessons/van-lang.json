@@ -1,0 +1,38 @@
+{
+  "id": "van-lang",
+  "title": "Thời đại Vua Hùng",
+  "period": "Dựng nước",
+  "summary": "Các vua Hùng được xem là những người đầu tiên lập nên nhà nước của người Việt – nước Văn Lang.",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Cách đây hàng nghìn năm, người Việt cổ sống ở vùng đồng bằng và ven sông."
+    },
+    {
+      "type": "story",
+      "text": "Theo truyền thuyết, cha của người Việt là Lạc Long Quân và mẹ là Âu Cơ."
+    },
+    {
+      "type": "story",
+      "text": "Âu Cơ sinh ra một bọc trăm trứng và nở ra 100 người con."
+    },
+    {
+      "type": "story",
+      "text": "Người con trưởng lên làm vua và được gọi là vua Hùng."
+    },
+    {
+      "type": "story",
+      "text": "Các vua Hùng lập nên nước Văn Lang, nhà nước đầu tiên của người Việt."
+    },
+    {
+      "type": "quiz",
+      "question": "Ai là những vị vua đầu tiên của nước ta?",
+      "options": [
+        "Ngô Quyền",
+        "Hùng Vương",
+        "Lê Lợi"
+      ],
+      "answer": "Hùng Vương"
+    }
+  ]
+}
