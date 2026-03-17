@@ -58,7 +58,7 @@ defineEmits(["next", "prev"]);
           v-else
           class="w-full md:w-[60%] aspect-square md:aspect-auto md:h-full flex flex-col items-center justify-center bg-[#F7FFF7] rounded-[35px] border-4 border-dashed border-[#1A535C]/10"
         >
-          <div class="text-8xl animate-bounce">📜</div>
+          <Icon name="fluent-emoji:scroll" class="text-8xl animate-bounce" />
         </div>
 
         <!-- Story Text Section -->

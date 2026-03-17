@@ -50,7 +50,7 @@ const props = withDefaults(defineProps<Props>(), {
         class="absolute inset-0 bg-black/40 flex items-center justify-center"
       >
         <div class="bg-white/90 p-3 rounded-full shadow-lg">
-          <span class="text-3xl">🔒</span>
+          <Icon name="fluent-emoji:locked" class="text-4xl" />
         </div>
       </div>
 
@@ -70,7 +70,8 @@ const props = withDefaults(defineProps<Props>(), {
           v-if="isCompleted"
           class="text-green-500 font-bold text-xs flex items-center gap-1"
         >
-          <span class="text-base">✅</span> Đã hoàn thành
+          <Icon name="fluent-emoji:check-mark-button" class="text-xl" /> Đã hoàn
+          thành
         </span>
         <span v-else-if="isLocked" class="text-gray-400 font-bold text-xs">
           Sắp ra mắt

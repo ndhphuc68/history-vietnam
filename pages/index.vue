@@ -15,7 +15,8 @@
       <div
         class="inline-block px-4 py-1 mb-6 bg-[#FFE66D] text-[#1A535C] font-bold rounded-full text-sm uppercase tracking-wider transform -rotate-2"
       >
-        🏠 Khám phá 4000 năm Lịch Sử
+        <Icon name="fluent-emoji:house" class="mr-2 text-xl" /> Khám phá 4000
+        năm Lịch Sử
       </div>
 
       <h1
@@ -79,7 +80,7 @@
           <div
             class="w-20 h-20 bg-[#FFE66D] rounded-2xl flex items-center justify-center mb-6 text-4xl"
           >
-            📚
+            <Icon name="fluent-emoji:open-book" class="text-5xl" />
           </div>
           <h3 class="text-2xl font-bold mb-4">Câu chuyện hấp dẫn</h3>
           <p>
@@ -92,7 +93,7 @@
           <div
             class="w-20 h-20 bg-[#4ECDC4] rounded-2xl flex items-center justify-center mb-6 text-4xl"
           >
-            🎮
+            <Icon name="fluent-emoji:video-game" class="text-5xl" />
           </div>
           <h3 class="text-2xl font-bold mb-4">Trò chơi đố vui</h3>
           <p>
@@ -105,7 +106,7 @@
           <div
             class="w-20 h-20 bg-[#FF6B6B] rounded-2xl flex items-center justify-center mb-6 text-4xl"
           >
-            🗺️
+            <Icon name="fluent-emoji:map" class="text-5xl" />
           </div>
           <h3 class="text-2xl font-bold mb-4">Khám phá bản đồ</h3>
           <p>

@@ -14,7 +14,7 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   canNext: false,
   showPrev: true,
-  nextLabel: "TIẾP THEO ➜",
+  nextLabel: "TIẾP THEO",
 });
 
 const emit = defineEmits(["answered", "next", "prev"]);
@@ -50,7 +50,7 @@ const checkAnswer = (option: string) => {
         <span
           class="inline-block px-6 py-2 bg-[#FFE66D] text-[#1A535C] font-black rounded-full text-sm uppercase mb-6 shadow-sm"
         >
-          🧠 CÂU ĐỐ VUI
+          <Icon name="fluent-emoji:brain" class="mr-2" /> CÂU ĐỐ VUI
         </span>
         <h2
           class="text-3xl md:text-4xl font-black text-[#1A535C] leading-tight"
@@ -100,11 +100,13 @@ const checkAnswer = (option: string) => {
               v-if="isCorrect"
               class="text-3xl font-black text-green-600 drop-shadow-sm"
             >
-              Tình yêu ơi! Bạn giỏi quá! 🎉
+              Tình yêu ơi! Bạn giỏi quá!
+              <Icon name="fluent-emoji:party-popper" class="text-4xl" />
             </p>
             <div v-else class="flex flex-col items-center">
               <p class="text-3xl font-black text-red-500 drop-shadow-sm">
-                Ôi, chưa đúng rồi! 💡
+                Ôi, chưa đúng rồi!
+                <Icon name="fluent-emoji:lightbulb" class="text-4xl" />
               </p>
               <button
                 @click="
@@ -134,7 +136,7 @@ const checkAnswer = (option: string) => {
             @click="$emit('next')"
             class="flex-1 py-4 bg-[#FF6B6B] text-white text-xl font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all animate-bounce"
           >
-            {{ nextLabel }}
+            {{ nextLabel }} <Icon name="lucide:arrow-right" class="ml-2" />
           </button>
         </div>
       </div>
