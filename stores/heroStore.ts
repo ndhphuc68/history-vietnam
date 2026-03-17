@@ -11,7 +11,7 @@ export const useHeroStore = defineStore('hero', {
   state: (): HeroState => ({
     unlockedHeroIds: [],
     // Unlock all heroes for content verification in local development
-    devMode: true 
+    devMode: false 
   }),
 
   actions: {
