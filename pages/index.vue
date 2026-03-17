@@ -63,10 +63,11 @@
       <div
         class="mt-20 w-full max-w-[1600px] rounded-[3rem] overflow-hidden shadow-2xl border-[16px] border-white transform hover:scale-[1.005] transition-all duration-700 ease-out cursor-pointer group px-4 md:px-0"
       >
-        <img
+        <UiLazyImage
           src="/images/banner/banner.png"
           alt="Bản đồ các anh hùng dân tộc Việt Nam"
           class="w-full h-auto object-cover group-hover:brightness-105 transition-all duration-700"
+          loading="eager"
         />
       </div>
     </section>

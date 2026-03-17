@@ -37,59 +37,53 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
 
 <template>
   <div
-    class="relative py-40 flex flex-col items-center w-full max-w-6xl mx-auto"
+    class="relative py-20 flex flex-col items-center w-full max-w-4xl mx-auto"
   >
-    <!-- Central Timeline Trunk -->
-    <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-4 z-0">
-      <!-- Bamboo/Vine Texture Trunk -->
-      <div
-        class="h-full w-full bg-gradient-to-b from-[#8B4513] via-[#D4AF37] to-[#8B4513] rounded-full border-x-4 border-white/20 shadow-lg"
-      ></div>
-
-      <!-- Growth Particles -->
-      <div
-        v-for="i in 50"
-        :key="i"
-        class="absolute w-2 h-2 bg-[#FFE66D] rounded-full blur-[2px] opacity-40"
-        :style="{ top: i * 2 + '%', left: Math.sin(i) * 10 + 'px' }"
-      ></div>
-    </div>
+    <!-- Central Timeline Line (Simple Solid Orange) -->
+    <div
+      class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-1.5 z-0 bg-[#D97706] opacity-40"
+    ></div>
 
     <!-- Eras Loop -->
     <div
       v-for="(era, eraIndex) in eras"
       :key="era.id"
-      class="w-full flex flex-col items-center mb-64 last:mb-0 relative"
+      class="w-full flex flex-col items-center mb-32 last:mb-0 relative"
     >
-      <!-- Era Milestone (Sticky Branch) -->
-      <div class="mb-32 sticky top-24 z-40 w-full flex justify-center">
-        <div class="group relative">
-          <!-- Branch sticking out from trunk -->
+      <!-- Era Milestone (Large Gradient Card) -->
+      <div class="mb-24 w-full flex justify-center z-20">
+        <div
+          class="relative w-full max-w-md bg-gradient-to-br from-[#F87171] to-[#EA580C] p-8 rounded-[40px] shadow-2xl overflow-hidden border-b-8 border-orange-800/20 group hover:scale-[1.05] transition-transform duration-300"
+        >
+          <!-- Decorative Background Circles -->
           <div
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-4 bg-[#8B4513] border-y-2 border-[#D4AF37] -z-10 rounded-full"
+            class="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"
+          ></div>
+          <div
+            class="absolute -bottom-10 -left-10 w-40 h-40 bg-black/10 rounded-full blur-3xl"
           ></div>
 
-          <div
-            class="relative bg-white border-8 border-[#D4AF37] px-16 py-8 rounded-3xl shadow-[0_25px_60px_rgba(0,0,0,0.1)] flex items-center gap-6 transform transition-all duration-700 group-hover:scale-110"
-          >
-            <span class="text-5xl">🚩</span>
-            <span
-              class="text-4xl font-black text-[#1A535C] tracking-tighter uppercase"
+          <div class="relative flex flex-col items-center text-center gap-2">
+            <h2
+              class="text-4xl md:text-5xl font-black text-white tracking-tight leading-tight uppercase drop-shadow-lg"
             >
               {{ era.title }}
-            </span>
-            <span class="text-5xl">✨</span>
+            </h2>
+
+            <p class="text-white/80 font-bold text-lg">
+              Giai đoạn khởi đầu lịch sử hào hùng
+            </p>
           </div>
         </div>
       </div>
 
-      <!-- Levels Within Era (Alternating) -->
+      <!-- Levels Within Era -->
       <div
         v-for="(level, levelIndex) in era.levels"
         :key="level.id"
-        class="w-full relative z-10 py-16"
+        class="w-full relative z-10 py-12"
       >
-        <div class="flex justify-center w-full">
+        <div class="flex justify-center w-full px-4">
           <MapNode
             :id="level.id"
             :title="level.title"
@@ -98,24 +92,15 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
               progressStore.completedLessons.includes(level.lesson)
             "
             :align="
-              getGlobalIndex(eraIndex, levelIndex) % 2 === 0 ? 'left' : 'right'
+              getGlobalIndex(eraIndex, levelIndex) % 2 === 0 ? 'right' : 'left'
             "
           />
         </div>
 
         <!-- Timeline Marker (Dot on Trunk) -->
         <div
-          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-white border-4 border-[#FF6B6B] rounded-full shadow-lg z-20 group-hover:scale-150 transition-transform"
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-white border-6 border-[#F87171] rounded-full shadow-xl z-30 transition-transform hover:scale-125"
         ></div>
-      </div>
-    </div>
-
-    <!-- Final Destination Marker -->
-    <div class="relative z-10 mt-32">
-      <div
-        class="w-32 h-32 bg-[#4ECDC4] rounded-full border-8 border-white shadow-2xl flex items-center justify-center animate-bounce"
-      >
-        <span class="text-5xl">🏆</span>
       </div>
     </div>
   </div>

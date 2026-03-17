@@ -6,16 +6,24 @@ interface Props {
   question: string;
   options: string[];
   answer: string;
+  canNext?: boolean;
+  showPrev?: boolean;
+  nextLabel?: string;
 }
 
-const props = defineProps<Props>();
-const emit = defineEmits(["answered"]);
+const props = withDefaults(defineProps<Props>(), {
+  canNext: false,
+  showPrev: true,
+  nextLabel: "TIẾP THEO ➜",
+});
+
+const emit = defineEmits(["answered", "next", "prev"]);
 
 const selectedOption = ref<string | null>(null);
 const isCorrect = ref<boolean | null>(null);
 
 const checkAnswer = (option: string) => {
-  if (selectedOption.value !== null) return; // Prevent multiple clicks
+  if (selectedOption.value !== null) return;
 
   selectedOption.value = option;
   isCorrect.value = option === props.answer;
@@ -28,81 +36,107 @@ const checkAnswer = (option: string) => {
 
 <template>
   <div
-    class="flex flex-col items-center justify-center min-h-[500px] p-6 animate-fade-in"
+    class="flex flex-col items-center justify-center p-4 md:p-8 animate-fade-in"
   >
-    <div class="card max-w-2xl w-full bg-white border-t-8 border-[#4ECDC4]">
-      <div class="mb-6 text-center">
+    <div
+      class="max-w-xl w-full bg-white rounded-[40px] shadow-2xl p-10 border-8 border-white relative overflow-hidden"
+    >
+      <!-- Decorative Background -->
+      <div
+        class="absolute -top-10 -right-10 w-40 h-40 bg-[#4ECDC4]/10 rounded-full blur-3xl"
+      ></div>
+
+      <div class="relative z-10 text-center mb-10">
         <span
-          class="inline-block px-4 py-1 bg-[#FFE66D] text-[#1A535C] font-bold rounded-full text-sm uppercase mb-4"
+          class="inline-block px-6 py-2 bg-[#FFE66D] text-[#1A535C] font-black rounded-full text-sm uppercase mb-6 shadow-sm"
         >
-          🧠 Câu đố vui
+          🧠 CÂU ĐỐ VUI
         </span>
-        <h2 class="text-3xl font-black text-[#1A535C] leading-tight">
+        <h2
+          class="text-3xl md:text-4xl font-black text-[#1A535C] leading-tight"
+        >
           {{ question }}
         </h2>
       </div>
 
-      <div class="space-y-4">
+      <div class="relative z-10 space-y-4">
         <button
           v-for="option in options"
           :key="option"
           @click="checkAnswer(option)"
           :disabled="selectedOption !== null"
-          class="w-full text-left px-6 py-4 rounded-2xl border-4 text-xl font-bold transition-all transform"
+          class="w-full text-center px-8 py-5 rounded-2xl border-4 text-2xl font-black transition-all transform hover:scale-[1.05] active:scale-[0.95]"
           :class="[
             selectedOption === null
-              ? 'border-gray-100 hover:border-[#4ECDC4] hover:bg-[#F7FFF7] hover:-translate-y-1'
+              ? 'border-gray-100 text-[#1A535C] hover:border-[#4ECDC4] bg-gray-50'
               : '',
             selectedOption === option && option === answer
-              ? 'border-green-400 bg-green-50 text-green-700'
+              ? 'border-green-500 bg-green-500 text-white shadow-[0_0_30px_rgba(34,197,94,0.3)] animate-bounce-correct text-white'
               : '',
             selectedOption === option && option !== answer
-              ? 'border-red-400 bg-red-50 text-red-700'
+              ? 'border-red-500 bg-red-500 text-white animate-shake'
               : '',
             selectedOption !== null &&
             option === answer &&
             selectedOption !== answer
-              ? 'border-green-400 bg-green-50'
+              ? 'border-green-500 text-green-600 bg-green-50'
+              : '',
+            selectedOption !== null &&
+            option !== answer &&
+            selectedOption !== option
+              ? 'opacity-40 grayscale'
               : '',
           ]"
         >
-          <div class="flex items-center justify-between">
-            <span>{{ option }}</span>
-            <span
-              v-if="selectedOption === option && option === answer"
-              class="text-2xl"
-              >✅</span
-            >
-            <span
-              v-if="selectedOption === option && option !== answer"
-              class="text-2xl"
-              >❌</span
-            >
-          </div>
+          {{ option }}
         </button>
       </div>
 
-      <!-- Feedback -->
-      <div
-        v-if="selectedOption !== null"
-        class="mt-8 text-center animate-bounce-in"
-      >
-        <p v-if="isCorrect" class="text-2xl font-black text-green-600">
-          Tuyệt vời! Bạn giỏi quá! 🎉
-        </p>
-        <p v-else class="text-2xl font-black text-red-500">
-          Ôi, chưa chính xác rồi. Hãy thử lại xem nhé! 💡
-        </p>
-        <button
-          v-if="!isCorrect"
-          @click="
-            selectedOption = null;
-            isCorrect = null;
-          "
-          class="mt-4 text-[#4ECDC4] font-bold underline"
-        >
-          Thử lại
-        </button>
+      <!-- Feedback Overlay & Navigation -->
+      <div class="mt-12 text-center relative z-10">
+        <transition name="pop" mode="out-in">
+          <div v-if="selectedOption !== null" class="mb-8">
+            <p
+              v-if="isCorrect"
+              class="text-3xl font-black text-green-600 drop-shadow-sm"
+            >
+              Tình yêu ơi! Bạn giỏi quá! 🎉
+            </p>
+            <div v-else class="flex flex-col items-center">
+              <p class="text-3xl font-black text-red-500 drop-shadow-sm">
+                Ôi, chưa đúng rồi! 💡
+              </p>
+              <button
+                @click="
+                  selectedOption = null;
+                  isCorrect = null;
+                "
+                class="mt-4 px-6 py-2 bg-[#4ECDC4] text-white font-black rounded-full shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-transform"
+              >
+                Thử lại ngay
+              </button>
+            </div>
+          </div>
+        </transition>
+
+        <!-- Navigation inside the card -->
+        <div class="flex items-center gap-4 border-t-2 border-gray-50 pt-8">
+          <button
+            v-if="showPrev"
+            @click="$emit('prev')"
+            class="px-6 py-3 rounded-2xl font-black text-sm border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all"
+          >
+            QUAY LẠI
+          </button>
+
+          <button
+            v-if="canNext"
+            @click="$emit('next')"
+            class="flex-1 py-4 bg-[#FF6B6B] text-white text-xl font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all animate-bounce"
+          >
+            {{ nextLabel }}
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -110,17 +144,21 @@ const checkAnswer = (option: string) => {
 
 <style scoped>
 .animate-fade-in {
-  animation: fadeIn 0.5s ease-out forwards;
+  animation: slideUp 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
-.animate-bounce-in {
-  animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+.animate-shake {
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
-@keyframes fadeIn {
+.animate-bounce-correct {
+  animation: bounceCorrect 0.8s ease-out both;
+}
+
+@keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;
@@ -128,19 +166,54 @@ const checkAnswer = (option: string) => {
   }
 }
 
-@keyframes bounceIn {
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes bounceCorrect {
   0% {
-    opacity: 0;
-    transform: scale(0.3);
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1) translateY(-10px);
   }
   50% {
-    opacity: 1;
-    transform: scale(1.05);
+    transform: scale(0.95) translateY(0);
   }
   70% {
-    transform: scale(0.9);
+    transform: scale(1.05) translateY(-5px);
   }
   100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+.pop-enter-active {
+  animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
     transform: scale(1);
   }
 }
