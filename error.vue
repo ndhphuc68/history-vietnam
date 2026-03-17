@@ -70,7 +70,7 @@ const handleError = () => clearError({ redirect: "/" });
           @click="clearError()"
           class="px-10 py-4 bg-white text-[#1A535C] font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-[#1A535C]/5"
         >
-          <Icon name="fluent-emoji:map" /> Xem Bản đồ
+          <Icon name="fluent-emoji:world-map" /> Xem Bản đồ
         </NuxtLink>
       </div>
 

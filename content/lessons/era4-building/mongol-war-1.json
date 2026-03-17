@@ -1,0 +1,45 @@
+{
+  "id": "mongol-war-1",
+  "title": "Kháng chiến chống Nguyên Mông lần 1",
+  "period": "Xây dựng",
+  "summary": "Quân xâm lược Nguyên Mông hùng mạnh nhất thế giới lúc bấy giờ đã phải nếm mùi thất bại đầu tiên tại Đại Việt năm 1258.",
+  "image": "/images/history/mongol-war-1.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết không? Vào thế kỷ 13, có một đạo quân tên là Nguyên Mông cực kỳ đáng sợ, họ đã đánh chiếm được rất nhiều nước trên thế giới.",
+      "image": "/images/history/mongol-war-1/0.png",
+      "imagePrompt": "Map of the world with a huge red area (Mongol Empire) spreading, shadows over other lands, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi chúng kéo quân sang xâm lược nước ta, vua tôi nhà Trần đã dùng kế 'Vườn không nhà trống' - rút hết người và lương thực khỏi kinh thành.",
+      "image": "/images/history/mongol-war-1/1.png",
+      "imagePrompt": "Empty ancient streets of Thang Long, houses with doors closed, no one around, silence, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân giặc vào thành mà không có gì để ăn, lại bị quân ta liên tục tấn công quấy rối. Chúng mệt mỏi và đói khát vô cùng.",
+      "image": "/images/history/mongol-war-1/2.png",
+      "imagePrompt": "Mongol soldiers looking tired and hungry in an empty city, rain falling, campfire with no food, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Năm 1258, tại Đông Bộ Đầu, quân ta đã tổng tấn công, đánh tan quân Nguyên Mông, buộc chúng phải tháo chạy về nước trong nhục nhã.",
+      "image": "/images/history/mongol-war-1/3.png",
+      "imagePrompt": "Vietnamese cavalry charging at the retreating Mongol soldiers, banners of the Tran dynasty flying high, victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Kế sách nổi tiếng của nhà Trần khi đánh giặc là gì?",
+      "options": ["Vườn không nhà trống", "Xây tường thành cao", "Dùng voi đánh trận"],
+      "answer": "Vườn không nhà trống"
+    },
+    {
+      "type": "quiz",
+      "question": "Trận thắng lớn nhất trong lần kháng chiến thứ nhất diễn ra ở đâu?",
+      "options": ["Sông Bạch Đằng", "Đông Bộ Đầu", "Ải Chi Lăng"],
+      "answer": "Đông Bộ Đầu"
+    }
+  ]
+}

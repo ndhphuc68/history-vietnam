@@ -1,0 +1,45 @@
+{
+  "id": "resistance-war-us",
+  "title": "Kháng chiến chống Mỹ cứu nước",
+  "period": "Chống Mỹ",
+  "summary": "Sau năm 1954, đất nước ta bị chia cắt làm hai miền. Nhân dân cả nước lại bước vào cuộc kháng chiến trường kỳ để thống nhất non sông.",
+  "image": "/images/history/resistance-war-us.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết không? Hiệp định Giơ-ne-vơ năm 1954 đã lấy vĩ tuyến 17 (sông Bến Hải) làm ranh giới tạm thời chia cắt đất nước ta thành hai miền Nam - Bắc.",
+      "image": "/images/history/resistance-war-us/0.png",
+      "imagePrompt": "Map of Vietnam with a dashed line at the center (latitude 17), a bridge over a river (Hien Luong bridge), symbolic separation, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đế quốc Mỹ đã nhảy vào miền Nam, dựng lên chính quyền tay sai và ngăn cản sự thống nhất của chúng ta. Nhân dân miền Nam đã anh dũng đứng lên đấu tranh.",
+      "image": "/images/history/resistance-war-us/1.png",
+      "imagePrompt": "Protest in a southern city, people holding banners 'THONG NHAT DAT NUOC', peaceful but firm, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Miền Bắc vừa xây dựng cuộc sống mới, vừa làm 'hậu phương lớn' - luôn sẵn lòng chi viện người và của cho miền Nam đánh giặc.",
+      "image": "/images/history/resistance-war-us/2.png",
+      "imagePrompt": "Trucks carrying goods and food moving along a mountain road, sunlit peaks, sense of shared purpose, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dù kẻ thù có vũ khí hiện đại và tàu bay tối tân, nhưng lòng yêu nước và ý chí thống nhất của nhân dân ta là không gì có thể lay chuyển được.",
+      "image": "/images/history/resistance-war-us/3.png",
+      "imagePrompt": "A bird flying over a peaceful field, shadow of an airplane but the bird remains steady, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Con sông nào là ranh giới chia cắt hai miền Nam - Bắc sau năm 1954?",
+      "options": ["Sông Hồng", "Sông Bến Hải", "Sông Sài Gòn"],
+      "answer": "Sông Bến Hải"
+    },
+    {
+      "type": "quiz",
+      "question": "Miền Bắc có vai trò gì trong cuộc kháng chiến chống Mỹ?",
+      "options": ["Hậu phương lớn chi viện cho miền Nam", "Nơi đi du lịch", "Nơi tập trung sản xuất bánh kẹo"],
+      "answer": "Hậu phương lớn chi viện cho miền Nam"
+    }
+  ]
+}

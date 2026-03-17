@@ -1,0 +1,46 @@
+{
+  "id": "phan-boi-chau",
+  "title": "Nhà yêu nước Phan Bội Châu",
+  "heroId": "phan-boi-chau",
+  "period": "Yêu nước",
+  "summary": "Phan Bội Châu là người khởi xướng phong trào Đông Du, đưa thanh niên yêu nước sang Nhật Bản học tập để trở về cứu nước.",
+  "image": "/images/history/phan-boi-chau.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Phan Bội Châu cho rằng muốn giành độc lập thì phải có kiến thức, ông đã tìm đường sang các nước tiến bộ để học hỏi.",
+      "image": "/images/history/phan-boi-chau/0.png",
+      "imagePrompt": "Phan Boi Chau studying in a library with modern books, looking thoughtful, traditional scholar outfit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông đã thành lập phong trào Đông Du, khích lệ thanh niên sang Nhật Bản du học, rèn luyện tài năng.",
+      "image": "/images/history/phan-boi-chau/1.png",
+      "imagePrompt": "Young Vietnamese students on a boat traveling to Japan, Phan Boi Chau waving goodbye, hope and ambition, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dù gặp nhiều khó khăn, Phan Bội Châu vẫn không ngừng viết sách, làm thơ để đánh thức tinh thần dân tộc.",
+      "image": "/images/history/phan-boi-chau/2.png",
+      "imagePrompt": "Phan Boi Chau writing patriotic poems by candlelight, glowing words in the air, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông là một nhà yêu nước vĩ đại, người đã đặt những viên gạch đầu tiên cho hành trình tìm đường cứu nước hiện đại.",
+      "image": "/images/history/phan-boi-chau/3.png",
+      "imagePrompt": "Portrait of Phan Boi Chau with symbols of education and books, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Phan Bội Châu đã khởi xướng phong trào nào?",
+      "options": ["Phong trào Đông Du", "Phong trào Cần Vương", "Phong trào Tây Sơn"],
+      "answer": "Phong trào Đông Du"
+    },
+    {
+      "type": "quiz",
+      "question": "Ông đã đưa thanh niên yêu nước sang nước nào để học tập?",
+      "options": ["Nhật Bản", "Pháp", "Trung Quốc"],
+      "answer": "Nhật Bản"
+    }
+  ]
+}

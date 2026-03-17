@@ -1,0 +1,57 @@
+{
+  "id": "ngo-quyen-bach-dang",
+  "title": "Ngô Quyền và trận Bạch Đằng",
+  "period": "Tự chủ",
+  "summary": "Trận chiến 'bẫy cọc gỗ' thông minh trên sông Bạch Đằng đã kết thúc hoàn toàn nghìn năm Bắc thuộc.",
+  "image": "/images/history/ngo-quyen-bach-dang.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Năm 938, quân Nam Hán kéo một đoàn thuyền chiến khổng lồ sang xâm lược nước ta. Ngô Quyền đã nghĩ ra một 'món quà' bất ngờ để đón tiếp chúng!",
+      "image": "/images/history/ngo-quyen-bach-dang/0.png",
+      "imagePrompt": "Big fleet of enemy ships approaching, Ngô Quyền standing on the shore looking at the river, planning a secret trap, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông bảo quân sĩ nhổ những cây gỗ lớn, vót nhọn đầu và bịt sắt, sau đó đóng xuống lòng sông Bạch Đằng khi thủy triều đang lên.",
+      "image": "/images/history/ngo-quyen-bach-dang/1.png",
+      "imagePrompt": "Vietnamese soldiers placing giant sharpened wooden stakes into the river bed, mud splashes, hard work, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi nước dâng cao, những chiếc cọc 'biến mất' dưới mặt nước. Ngô Quyền cho thuyền nhỏ ra nhử giặc vào sâu bên trong bẫy.",
+      "image": "/images/history/ngo-quyen-bach-dang/2.png",
+      "imagePrompt": "Small Vietnamese boats leading the big enemy ships into the area where stakes are hidden under water, suspense, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Chờ khi thủy triều rút xuống, những chiếc cọc nhọn nhô lên đâm thủng hết thuyền của giặc. Quân ta lập tức phản công dữ dội!",
+      "image": "/images/history/ngo-quyen-bach-dang/3.png",
+      "imagePrompt": "Water level dropping, enemy ships getting stuck on the sharp stakes and tilting, fire and chaos for invaders, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân Nam Hán đại bại, tướng giặc tử trận. Chiến thắng này đã mở ra một kỷ nguyên mới: Việt Nam hoàn toàn độc lập và tự do!",
+      "image": "/images/history/ngo-quyen-bach-dang/4.png",
+      "imagePrompt": "Ngô Quyền standing heroically on his ship, soldiers cheering, victory on the river, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ngô Quyền đã dùng gì để làm bẫy đánh giặc?",
+      "options": ["Lưới sắt", "Cọc gỗ vót nhọn đầu sắt", "Đá vôi"],
+      "answer": "Cọc gỗ vót nhọn đầu sắt"
+    },
+    {
+      "type": "quiz",
+      "question": "Trận chiến nổi tiếng này diễn ra trên con sông nào?",
+      "options": ["Sông Hồng", "Sông Bạch Đằng", "Sông Cửu Long"],
+      "answer": "Sông Bạch Đằng"
+    },
+    {
+      "type": "quiz",
+      "question": "Chiến thắng năm 938 có ý nghĩa gì cực kỳ quan trọng?",
+      "options": ["Kết thúc nghìn năm Bắc thuộc", "Bắt đầu thời đại đồ đá", "Mở ra thời đại đồ đồng"],
+      "answer": "Kết thúc nghìn năm Bắc thuộc"
+    }
+  ]
+}

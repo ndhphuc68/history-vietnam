@@ -1,0 +1,45 @@
+{
+  "id": "life-under-rule",
+  "title": "Cuộc sống thời Bắc thuộc",
+  "period": "Bắc thuộc",
+  "summary": "Bức tranh cuộc sống đầy gian nan nhưng kiên cường của người dân Việt trong gần một thiên niên kỷ dưới ách đô hộ.",
+  "image": "/images/history/life-under-rule.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Dưới ách cai trị của người Hán, cuộc sống của người Việt vô cùng vất vả. Đa số vẫn làm ruộng nhưng phải nộp hầu hết sản phẩm cho quân đô hộ.",
+      "image": "/images/history/life-under-rule/0.png",
+      "imagePrompt": "Farmers in traditional clothes working hard in fields, looking tired, Han tax collectors waiting nearby, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dù bị đàn áp, các nghề thủ công truyền thống như làm gốm, rèn sắt và dệt vải vẫn được nhân dân ta duy trì và phát triển.",
+      "image": "/images/history/life-under-rule/1.png",
+      "imagePrompt": "Vietnamese women weaving silk and pottery makers at work, colorful fabrics and pots, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Làng chài và các cảng biển vẫn hoạt động. Người Việt vốn giỏi đi biển nên vẫn duy trì việc giao thương dù bị kiểm soát chặt chẽ.",
+      "image": "/images/history/life-under-rule/2.png",
+      "imagePrompt": "Ancient fishing boats at sea, trading goods, sunset, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Trong những ngôi làng Việt, linh hồn dân tộc vẫn luôn được nuôi dưỡng qua những câu chuyện cổ và những buổi sinh hoạt cộng đồng.",
+      "image": "/images/history/life-under-rule/3.png",
+      "imagePrompt": "Village gathering at night, fire in the middle, elders telling stories to children, sense of community, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ngành sản xuất nào vẫn được người dân duy trì mạnh mẽ nhất?",
+      "options": ["Trồng lúa", "Chế tạo đồ chơi", "Sửa chữa ô tô"],
+      "answer": "Trồng lúa"
+    },
+    {
+      "type": "quiz",
+      "question": "Ai là người trực tiếp thu thuế của dân ta thời đó?",
+      "options": ["Các thủ lĩnh Việt", "Các viên quan đô hộ người Hán", "Người dân tự nộp cho nhau"],
+      "answer": "Các viên quan đô hộ người Hán"
+    }
+  ]
+}

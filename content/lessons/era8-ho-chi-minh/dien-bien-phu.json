@@ -1,0 +1,46 @@
+{
+  "id": "dien-bien-phu",
+  "title": "Đại thắng Điện Biên Phủ",
+  "heroId": "vo-nguyen-giap",
+  "period": "Kháng chiến Pháp",
+  "summary": "Chiến thắng 'lừng lẫy năm châu, chấn động địa cầu' năm 1954 đã kết thúc cuộc kháng chiến chống Pháp gian khổ của nhân dân ta.",
+  "image": "/images/history/vo-nguyen-giap.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Tướng quân Võ Nguyên Giáp đã có quyết định lịch sử 'đánh chắc, tiến chắc' để thay đổi toàn bộ cục diện mặt trận.",
+      "image": "/images/history/dien-bien-phu/0.png",
+      "imagePrompt": "General Vo Nguyen Giap at the campaign headquarters, looking at a terrain model of Dien Bien Phu, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Hàng vạn dân công hỏa tuyến đã không quản ngại núi cao, đèo dốc để thồ lương thực, vũ khí phục vụ chiến đấu.",
+      "image": "/images/history/dien-bien-phu/1.png",
+      "imagePrompt": "Civilians pushing bicycles loaded with heavy supplies over steep mountains, unity and strength, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân ta đã dũng mãnh tấn công, đánh chiếm từng cứ điểm, cuối cùng cắm lá cờ đỏ sao vàng lên nóc hầm tướng Đờ-cát.",
+      "image": "/images/history/dien-bien-phu/2.png",
+      "imagePrompt": "Vietnamese soldiers waving the red flag with yellow star on top of De Castries' bunker, smoke and victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Điện Biên Phủ là biểu tượng của tinh thần quật cường, biến những điều không thể thành có thể của dân tộc Việt Nam.",
+      "image": "/images/history/dien-bien-phu/3.png",
+      "imagePrompt": "People celebrating the victory at Dien Bien Phu, fireworks, mountains in the background, happy faces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vị tướng nào đã chỉ huy chiến dịch Điện Biên Phủ?",
+      "options": ["Võ Nguyên Giáp", "Trần Hưng Đạo", "Lê Lợi"],
+      "answer": "Võ Nguyên Giáp"
+    },
+    {
+      "type": "quiz",
+      "question": "Lá cờ của quân ta được cắm lên nóc hầm của tướng Pháp nào?",
+      "options": ["Tướng Đờ-cát", "Tướng Lơ-cléc", "Tướng Na-va"],
+      "answer": "Tướng Đờ-cát"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ export interface LessonData {
   title: string;
   period: string;
   summary: string;
+  image?: string;
+  heroId?: string;
   slides: LessonSlide[];
 }
 

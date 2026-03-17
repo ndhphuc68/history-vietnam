@@ -5,7 +5,7 @@ import historyMap from "~/content/history-map.json";
 const progressStore = useProgressStore();
 
 // Dynamically check all available lesson content from the content/lessons directory
-const lessonFiles = import.meta.glob("../../content/lessons/*.json", {
+const lessonFiles = import.meta.glob("../../content/lessons/**/*.json", {
   eager: true,
 });
 
@@ -20,6 +20,18 @@ const eras = computed(() => historyMap.eras);
 
 const getEraThumbnail = (eraId: string) => {
   return `/images/eras/${eraId}.webp`;
+};
+
+const getLessonThumbnail = (lessonId: string) => {
+  const fileKey = Object.keys(lessonFiles).find((path) =>
+    path.endsWith(`/${lessonId}.json`),
+  );
+  if (fileKey) {
+    const module = (lessonFiles as any)[fileKey];
+    const data = module.default || module;
+    return data.image;
+  }
+  return null;
 };
 </script>
 
@@ -132,6 +144,7 @@ const getEraThumbnail = (eraId: string) => {
             :id="level.lesson"
             :title="level.title"
             :period="era.title"
+            :thumbnail="getLessonThumbnail(level.lesson)"
             :era-thumbnail="getEraThumbnail(era.id)"
             :is-locked="!availableLessonIds.includes(level.lesson)"
             :is-completed="

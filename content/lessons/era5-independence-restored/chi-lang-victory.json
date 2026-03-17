@@ -1,0 +1,45 @@
+{
+  "id": "chi-lang-victory",
+  "title": "Chiến thắng Chi Lăng",
+  "period": "Phục hưng",
+  "summary": "Tại ải Chi Lăng hiểm trở, quân ta đã mưu trí đánh tan đội quân cứu viện của nhà Minh, bảo vệ thành quả của cuộc khởi nghĩa.",
+  "image": "/images/history/chi-lang-victory.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Năm 1427, nhà Minh lại cử một đạo quân cứu viện rầm rộ sang nước ta do tướng Liễu Thăng chỉ huy. Chúng hy vọng sẽ cứu vãn tình thế.",
+      "image": "/images/history/chi-lang-victory/0.png",
+      "imagePrompt": "Large army with many flags entering a narrow mountain pass, arrogance of the enemy general, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lê Lợi và Nguyễn Trãi đã chọn ải Chi Lăng - một nơi có núi cao vực thẳm - làm trận địa phục kích. Quân ta đã mai phục sẵn trên các sườn núi.",
+      "image": "/images/history/chi-lang-victory/1.png",
+      "imagePrompt": "Narrow Chi Lang pass with steep mountains, Vietnamese soldiers hidden behind rocks and trees, silence before the battle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi giặc lọt vào giữa thung lũng, quân ta đồng loạt xông ra. Tướng giặc Liễu Thăng đã tử trận ngay tại gò Mã Yên. Quân giặc tan tành!",
+      "image": "/images/history/chi-lang-victory/2.png",
+      "imagePrompt": "Action scene in the valley, rocks and arrows falling from the mountains, enemy formation broken, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Chiến thắng Chi Lăng đã đập tan ý chí xâm lược cuối cùng của nhà Minh, mở đường cho nước ta trở về với độc lập hoàn toàn.",
+      "image": "/images/history/chi-lang-victory/3.png",
+      "imagePrompt": "Vietnamese soldiers celebrating on the high ground, the sun breaking through the clouds over the mountains, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ải Chi Lăng có đặc điểm gì khiến giặc sợ hãi?",
+      "options": ["Rất rộng lớn", "Rất hiểm trở với núi cao vực thẳm", "Rất nhiều hoa"],
+      "answer": "Rất hiểm trở với núi cao vực thẳm"
+    },
+    {
+      "type": "quiz",
+      "question": "Tướng giặc nào đã tử trận tại gò Mã Yên (Chi Lăng)?",
+      "options": ["Hoằng Tháo", "Liễu Thăng", "Thoát Hoan"],
+      "answer": "Liễu Thăng"
+    }
+  ]
+}

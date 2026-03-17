@@ -1,0 +1,45 @@
+{
+  "id": "khuc-thua-du",
+  "title": "Họ Khúc giành quyền tự chủ",
+  "period": "Tự chủ",
+  "summary": "Ông tiên chỉ (Khúc Thừa Dụ) đã khéo léo giành lại quyền quản lý đất nước từ tay nhà Đường mà không cần đổ máu.",
+  "image": "/images/history/khuc-thua-du.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết không? Sau hàng trăm năm bị người khác cai trị, có một ông cụ rất hiền đức và giàu lòng yêu nước tên là Khúc Thừa Dụ.",
+      "image": "/images/history/khuc-thua-du/0.png",
+      "imagePrompt": "Kind old Vietnamese leader Khuc Thua Du talking to villagers, warm atmosphere, ancient village, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lợi dụng lúc quân đô hộ nhà Đường đang yếu đi, ông đã được nhân dân ủng hộ lên nắm quyền quản lý đất nước vào năm 905.",
+      "image": "/images/history/khuc-thua-du/1.png",
+      "imagePrompt": "People cheering for Khuc Thua Du as he enters the administrative center, sense of freedom and hope, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông tự xưng là Tiết độ sứ, giống như một 'người quản gia' tài giỏi, âm thầm chuẩn bị để nước ta hoàn toàn độc lập.",
+      "image": "/images/history/khuc-thua-du/2.png",
+      "imagePrompt": "Khuc Thua Du working at a desk with ancient scrolls, organizing the country, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Phương châm của ông là: 'Chính trị khoan dung, giản dị, nhân dân yên vui'. Nhờ ông mà cuộc sống của người dân trở nên dễ thở và hạnh phúc hơn nhiều.",
+      "image": "/images/history/khuc-thua-du/3.png",
+      "imagePrompt": "Happy Vietnamese family in a peaceful field, sunlight, birds flying, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Khúc Thừa Dụ đã làm gì để giúp đất nước?",
+      "options": ["Giành lại quyền quản lý đất nước", "Đi du lịch phương Bắc", "Xây dựng lâu đài cho riêng mình"],
+      "answer": "Giành lại quyền quản lý đất nước"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc sống dưới thời họ Khúc được miêu tả như thế nào?",
+      "options": ["Vất vả hơn xưa", "Yên vui và hạnh phúc", "Đầy rẫy chiến tranh"],
+      "answer": "Yên vui và hạnh phúc"
+    }
+  ]
+}

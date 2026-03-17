@@ -1,0 +1,51 @@
+{
+  "id": "magic-crossbow",
+  "title": "Nỏ thần Kim Quy",
+  "period": "Dựng nước",
+  "summary": "Vũ khí huyền thoại giúp Âu Lạc đánh thắng hàng vạn quân xâm lược, niềm tự hào về kỹ thuật quân sự cổ đại.",
+  "image": "/images/history/magic-crossbow.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Trước lúc ra về, Rùa Vàng trao cho An Dương Vương một chiếc móng rùa và dặn: 'Hãy dùng móng này làm lẫy nỏ, giặc đến sẽ không lo'.",
+      "image": "/images/history/magic-crossbow/0.png",
+      "imagePrompt": "Golden Turtle handing a glowing claw to An Dương Vương, sacred moment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vua sai tướng Cao Lỗ - một bậc thầy về vũ khí - chế tạo thành chiếc Nỏ Thần. Mỗi phát bắn ra có thể tiêu diệt hàng vạn tên giặc.",
+      "image": "/images/history/magic-crossbow/1.png",
+      "imagePrompt": "General Cao Lo demonstrating the large Magic Crossbow, glowing arrows, amazing power, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Sử cũ chép rằng nỏ thần có tên là 'Linh Quang Thần Cơ'. Đây chính là biểu tượng cho sự sáng tạo vũ khí đỉnh cao của người Âu Lạc.",
+      "image": "/images/history/magic-crossbow/2.png",
+      "imagePrompt": "Detailed view of the crossbow mechanics, ancient engineering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nhờ có nỏ thần và thành cao, quân Âu Lạc đã nhiều lần đánh bại các cuộc xâm lược từ phương Bắc, giữ vững bờ cõi.",
+      "image": "/images/history/magic-crossbow/3.png",
+      "imagePrompt": "Invading soldiers retreating from arrows flying from Co Loa citadel, victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ai là người trực tiếp chế tạo ra Nỏ Thần?",
+      "options": ["An Dương Vương", "Cao Lỗ", "Lý Thường Kiệt"],
+      "answer": "Cao Lỗ"
+    },
+    {
+      "type": "quiz",
+      "question": "Chiếc lẫy của Nỏ Thần được làm từ gì?",
+      "options": ["Sừng hươu", "Móng Rùa Vàng", "Đồng đen"],
+      "answer": "Móng Rùa Vàng"
+    },
+    {
+      "type": "quiz",
+      "question": "Nỏ Thần tượng trưng cho điều gì của người Âu Lạc?",
+      "options": ["Sự giàu có", "Sức mạnh quân sự và sự sáng tạo", "Lòng yêu hòa bình"],
+      "answer": "Sức mạnh quân sự và sự sáng tạo"
+    }
+  ]
+}

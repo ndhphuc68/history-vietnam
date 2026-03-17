@@ -1,0 +1,46 @@
+{
+  "id": "truong-dinh",
+  "title": "Anh hùng Trương Định",
+  "heroId": "truong-dinh",
+  "period": "Kháng chiến",
+  "summary": "Trương Định thà cãi lệnh vua chứ không bỏ rơi nhân dân trong cuộc kháng chiến chống Pháp tại vùng đất Nam Bộ.",
+  "image": "/images/history/truong-dinh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Khi triều đình ký hòa ước với Pháp, lệnh cho Trương Định phải bãi binh, nhưng nhân dân đã tôn ông là 'Bình Tây Đại Nguyên soái'.",
+      "image": "/images/history/truong-dinh/0.png",
+      "imagePrompt": "People presenting a commander flag to Truong Dinh, huge crowd in Nam Bo landscape, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông đã dũng cảm thốt lên: 'Muốn cứu nước phải thà cãi lệnh vua', và tiếp tục lãnh đạo nghĩa binh đánh Pháp.",
+      "image": "/images/history/truong-dinh/1.png",
+      "imagePrompt": "Truong Dinh holding his sword, looking towards his soldiers, determined and resolute, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dưới sự chỉ huy của ông, nghĩa quân đã dùng lối đánh du kích, khiến quân Pháp nhiều phen mất ăn mất ngủ.",
+      "image": "/images/history/truong-dinh/2.png",
+      "imagePrompt": "Insurrection army hiding in dense bamboo groves, preparing an ambush for French soldiers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Trương Định là biểu tượng của tinh thần yêu nước vì dân quên mình của người dân Nam Bộ anh hùng.",
+      "image": "/images/history/truong-dinh/3.png",
+      "imagePrompt": "Truong Dinh's memorial statue with blooming flowers, peaceful countryside background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Nhân dân tôn Trương Định là gì?",
+      "options": ["Bình Tây Đại Nguyên soái", "Nội tán cao quý", "Đô đốc Thủy quân"],
+      "answer": "Bình Tây Đại Nguyên soái"
+    },
+    {
+      "type": "quiz",
+      "question": "Trương Định đã chỉ huy cuộc kháng chiến chống Pháp ở vùng nào?",
+      "options": ["Nam Bộ", "Bắc Bộ", "Trung Bộ"],
+      "answer": "Nam Bộ"
+    }
+  ]
+}

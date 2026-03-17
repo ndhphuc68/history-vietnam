@@ -1,0 +1,45 @@
+{
+  "id": "tran-foundation",
+  "title": "Nhà Trần thành lập",
+  "period": "Xây dựng",
+  "summary": "Sự chuyển giao quyền lực đặc biệt từ nhà Lý sang nhà Trần, mở ra một triều đại với hào khí 'Đông A' rực lửa.",
+  "image": "/images/history/tran-foundation.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Khi nhà Lý yếu đi, vua Lý Chiêu Hoàng (vị nữ vương duy nhất của nước ta) đã nhường ngôi cho chồng mình là Trần Cảnh.",
+      "image": "/images/history/tran-foundation/0.png",
+      "imagePrompt": "Young Queen Ly Chieu Hoang handing a golden scroll to young Tran Canh, both in royal robes, elegant palace setting, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Năm 1225, triều đại nhà Trần chính thức bắt đầu. Đây là triều đại nổi tiếng với tinh thần đoàn kết và lòng dũng cảm bảo vệ đất nước.",
+      "image": "/images/history/tran-foundation/1.png",
+      "imagePrompt": "King Tran Thai Tong on the throne, with wise advisor Tran Thu Do standing nearby, strong and united look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dưới thời nhà Trần, đất nước ta đã phát triển mạnh mẽ về mọi mặt. Đặc biệt, tinh thần 'Vua tôi đồng lòng, anh em hòa thuận' luôn được đề cao.",
+      "image": "/images/history/tran-foundation/2.png",
+      "imagePrompt": "The King dining with his generals and citizens, a sense of equality and brotherhood, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nhà Trần đã chuẩn bị sẵn sàng để đối mặt với những thử thách lớn lao nhất trong lịch sử: đó là các cuộc xâm lược của quân Nguyên Mông hùng mạnh.",
+      "image": "/images/history/tran-foundation/3.png",
+      "imagePrompt": "Soldiers training hard, sharpening swords, strong fortifications, atmosphere of readiness, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vị nữ vương duy nhất trong lịch sử Việt Nam là ai?",
+      "options": ["Hai Bà Trưng", "Bà Triệu", "Lý Chiêu Hoàng"],
+      "answer": "Lý Chiêu Hoàng"
+    },
+    {
+      "type": "quiz",
+      "question": "Nhà Trần bắt đầu vào năm nào?",
+      "options": ["Năm 1225", "Năm 1010", "Năm 1428"],
+      "answer": "Năm 1225"
+    }
+  ]
+}

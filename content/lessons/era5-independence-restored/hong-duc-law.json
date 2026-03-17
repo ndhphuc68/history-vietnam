@@ -1,0 +1,45 @@
+{
+  "id": "hong-duc-law",
+  "title": "Luật Hồng Đức",
+  "period": "Phục hưng",
+  "summary": "Bộ luật vô cùng tiến bộ của vua Lê Thánh Tông, bảo vệ quyền lợi của nhân dân và đề cao giáo dục.",
+  "image": "/images/history/hong-duc-law.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết không? Dưới thời nhà Lê, có một vị vua cực kỳ tài giỏi tên là Lê Thánh Tông. Ông đã cho soạn thảo một bộ luật rất nổi tiếng: Luật Hồng Đức.",
+      "image": "/images/history/hong-duc-law/0.png",
+      "imagePrompt": "King Le Thanh Tong with his scholars, holding a large thick book titled 'LUAT HONG DUC', gold and red colors, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đây là bộ luật rất công bằng. Nó không chỉ bảo vệ nhà vua mà còn bảo vệ quyền lợi cho tất cả mọi người, đặc biệt là phụ nữ và người nghèo nữa đấy!",
+      "image": "/images/history/hong-duc-law/1.png",
+      "imagePrompt": "An official reading a decree to a diverse group of happy villagers, including women and elderly, atmosphere of fairness, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Luật Hồng Đức quy định rất rõ về việc bảo vệ đất đai, giữ gìn phong tục tập quán tốt đẹp và khuyến khích mọi người chăm chỉ học tập, rèn luyện đạo đức.",
+      "image": "/images/history/hong-duc-law/2.png",
+      "imagePrompt": "Students studying in a sunny courtyard, a teacher pointing to the sky, a well-managed village scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nhờ có bộ luật này, đất nước ta đã trở nên rất trật tự và ổn định. Nó được coi là một công trình pháp luật vĩ đại nhất của Việt Nam thời xưa.",
+      "image": "/images/history/hong-duc-law/3.png",
+      "imagePrompt": "A large ancient library or archive with scrolls, sunlight streaming through windows, a feeling of wisdom and order, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Luật Hồng Đức được đặt theo niên hiệu của vị vua nào?",
+      "options": ["Lê Thái Tổ", "Lê Thánh Tông", "Trần Hưng Đạo"],
+      "answer": "Lê Thánh Tông"
+    },
+    {
+      "type": "quiz",
+      "question": "Điều gì khiến Luật Hồng Đức trở nên rất tiến bộ vào thời đó?",
+      "options": ["Chỉ dành cho nhà vua", "Bảo vệ quyền lợi cho nhiều người, kể cả phụ nữ", "Bắt mọi người phải đi lính"],
+      "answer": "Bảo vệ quyền lợi cho nhiều người, kể cả phụ nữ"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "move-capital",
+  "title": "Dời đô về Thăng Long",
+  "period": "Xây dựng",
+  "summary": "Vua Lý Thái Tổ đã nhìn thấy hình ảnh rồng vàng bay lên và quyết định dời đô từ Hoa Lư về vùng đất mới Thăng Long.",
+  "image": "/images/history/move-capital.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hoa Lư tuy đẹp nhưng chật hẹp, vua Lý Thái Tổ mong muốn tìm một nơi rộng lớn hơn để đất nước phát triển mạnh mẽ. Ông đã chú ý đến vùng đất Đại La.",
+      "image": "/images/history/move-capital/0.png",
+      "imagePrompt": "King Ly Thai To on a ship traveling across a wide river, looking at a beautiful landscape, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Theo lời kể, khi thuyền của vua cập bến Đại La, ông đã nhìn thấy một hình ảnh kỳ diệu: Một chú Rồng Vàng bay vụt lên trời cao!",
+      "image": "/images/history/move-capital/1.png",
+      "imagePrompt": "A majestic golden dragon made of clouds or light rising from the river bank towards the sky, King and soldiers pointing in awe, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vì thấy đây là điềm lành, nhà vua đã quyết định dời đô về đây và đặt tên cho vùng đất này là 'Thăng Long' (nghĩa là Rồng bay lên).",
+      "image": "/images/history/move-capital/2.png",
+      "imagePrompt": "Ancient city construction scene, stone walls rising, the name 'THANG LONG' written in golden characters in the sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thăng Long đã trở thành trung tâm sầm uất, nơi hội tụ của những người tài giỏi và giàu lòng yêu nước cho đến tận ngày nay (Hà Nội!).",
+      "image": "/images/history/move-capital/3.png",
+      "imagePrompt": "Busy and happy market in ancient Thang Long, colorful stalls, people trading, pagodas in the background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vì sao vua Lý Thái Tổ đặt tên kinh đô mới là Thăng Long?",
+      "options": ["Vì ông thấy rồng bay lên", "Vì đây là tên một loại hoa", "Vì ông thích rồng"],
+      "answer": "Vì ông thấy rồng bay lên"
+    },
+    {
+      "type": "quiz",
+      "question": "Thăng Long ngày nay chính là thành phố nào?",
+      "options": ["Đà Nẵng", "TP. Hồ Chí Minh", "Hà Nội"],
+      "answer": "Hà Nội"
+    },
+    {
+      "type": "quiz",
+      "question": "Vua Lý Thái Tổ đã thực hiện việc dời đô vào năm nào?",
+      "options": ["Năm 1010", "Năm 938", "Năm 1428"],
+      "answer": "Năm 1010"
+    }
+  ]
+}

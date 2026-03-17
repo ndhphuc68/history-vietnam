@@ -1,0 +1,45 @@
+{
+  "id": "minh-mang",
+  "title": "Vua Minh Mạng quyết đoán",
+  "period": "Nhà Nguyễn",
+  "summary": "Vị vua thứ hai của triều Nguyễn, nổi tiếng với sự chăm chỉ, những cải cách hành chính quan trọng và lòng yêu thích thơ văn.",
+  "image": "/images/history/minh-mang.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết ai là con trai của vua Gia Long không? Đó là vua Minh Mạng - một người rất thông minh và cực kỳ chăm chỉ làm việc.",
+      "image": "/images/history/minh-mang/0.png",
+      "imagePrompt": "King Minh Mang sitting at a desk late at night, many scrolls around him, a single candle, looking determined, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông đã chia đất nước ta ra thành 31 tỉnh để dễ quản lý hơn. Đây là cách phân chia địa lý rất thông minh mà sau này chúng ta vẫn học tập.",
+      "image": "/images/history/minh-mang/1.png",
+      "imagePrompt": "A large wooden map of Vietnam with 31 colorful pieces, King Minh Mang pointing at it with a wand, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vua Minh Mạng rất yêu thích thơ văn. Ông đã cho xây dựng Quốc Tử Giám ở Huế để khích lệ các sĩ tử học tập rèn luyện tài năng.",
+      "image": "/images/history/minh-mang/2.png",
+      "imagePrompt": "Minh Mang Reading a poem in a beautiful garden, scholarly atmosphere, scholars around, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dưới thời ông, triều đình nhà Nguyễn rất vững mạnh. Tuy nhiên, ông cũng rất nghiêm khắc và luôn lo lắng về những tác động từ bên ngoài.",
+      "image": "/images/history/minh-mang/3.png",
+      "imagePrompt": "The majestic face of Minh Mang, crown with pearls, background of a strong citadel, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vua Minh Mạng đã chia đất nước ta thành bao nhiêu tỉnh?",
+      "options": ["10 tỉnh", "31 tỉnh", "63 tỉnh"],
+      "answer": "31 tỉnh"
+    },
+    {
+      "type": "quiz",
+      "question": "Vua Minh Mạng là vị vua thứ mấy của triều Nguyễn?",
+      "options": ["Thứ nhất", "Thứ hai", "Thứ ba"],
+      "answer": "Thứ hai"
+    }
+  ]
+}

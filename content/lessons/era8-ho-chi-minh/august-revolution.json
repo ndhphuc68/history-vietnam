@@ -1,0 +1,45 @@
+{
+  "id": "august-revolution",
+  "title": "Cách mạng tháng Tám 1945",
+  "period": "Bác Hồ",
+  "summary": "Cuộc tổng khởi nghĩa thần tốc trên khắp cả nước, đập tan xiềng xích nô lệ và giành lại chính quyền về tay nhân dân.",
+  "image": "/images/history/august-revolution.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé biết không? Tháng 8 năm 1945, khi thời cơ đến, Bác Hồ đã ra lệnh Tổng khởi nghĩa. Khắp nơi, nhân dân ta đồng loạt đứng lên giành chính quyền.",
+      "image": "/images/history/august-revolution/0.png",
+      "imagePrompt": "People in a village street holding red flags with yellow stars, rushing towards a government building, sunset, energy and hope, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tại Hà Nội, hàng vạn người dân đã kéo đến chiếm Phủ Khâm sai. Khí thế ngút trời, tiếng hô 'Việt Nam độc lập' vang vọng khắp phố phường.",
+      "image": "/images/history/august-revolution/1.png",
+      "imagePrompt": "Masses of people in front of an old French-style building (Phủ Khâm sai), waving flags, diverse group of workers and peasants, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Chỉ trong vòng 15 ngày, từ Huế đến Sài Gòn, chính quyền của thực dân và phong kiến đã bị đập tan. Nhân dân đã thực sự trở thành người làm chủ đất nước.",
+      "image": "/images/history/august-revolution/2.png",
+      "imagePrompt": "A large chain being broken by a golden light, background showing landmarks of Hue and Saigon, symbolic victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thắng lợi của Cách mạng tháng Tám đã mở ra một kỷ nguyên mới, chuẩn bị cho ngày khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
+      "image": "/images/history/august-revolution/3.png",
+      "imagePrompt": "A new sun rising over a peaceful Vietnamese landscape, people cheering, sense of a fresh beginning, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc Tổng khởi nghĩa tháng Tám diễn ra vào năm nào?",
+      "options": ["Năm 1945", "Năm 1930", "Năm 1954"],
+      "answer": "Năm 1945"
+    },
+    {
+      "type": "quiz",
+      "question": "Cách mạng tháng Tám đã giành lại chính quyền từ tay ai?",
+      "options": ["Thực dân và phong kiến", "Người ngoài hành tinh", "Các bộ tộc cổ đại"],
+      "answer": "Thực dân và phong kiến"
+    }
+  ]
+}

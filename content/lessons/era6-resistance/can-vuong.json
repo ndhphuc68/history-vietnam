@@ -1,0 +1,45 @@
+{
+  "id": "can-vuong",
+  "title": "Phong trào Cần Vương",
+  "period": "Chống Pháp",
+  "summary": "Lời kêu gọi cả nước đứng lên giúp vua cứu nước của vua Hàm Nghi đã khơi dậy lòng yêu nước của nhân dân khắp mọi miền.",
+  "image": "/images/history/can-vuong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Khi kinh thành Huế bị quân Pháp chiếm đóng, vua Hàm Nghi còn rất trẻ đã cùng quan đại thần Tôn Thất Thuyết chạy ra vùng núi Quảng Trị.",
+      "image": "/images/history/can-vuong/0.png",
+      "imagePrompt": "Young King Ham Nghi on a horse traveling through dark mountains at night, Ton That Thuyet leading the way, torches, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tại đây, vua Hàm Nghi đã ban chiếu 'Cần Vương' (nghĩa là giúp vua) nhằm kêu gọi nhân dân cả nước đứng lên đánh đuổi thực dân Pháp.",
+      "image": "/images/history/can-vuong/1.png",
+      "imagePrompt": "King Ham Nghi reading a decree from a cave entrance, officials listening, rugged terrain, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lời kêu gọi của nhà vua như một ngọn lửa bùng cháy, thổi bùng lòng yêu nước của các sĩ tử và nhân dân khắp từ miền Trung ra miền Bắc.",
+      "image": "/images/history/can-vuong/2.png",
+      "imagePrompt": "Small fires spreading across a map of Vietnam, representative of uprisings in different provinces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dù gặp nhiều gian khổ trong rừng sâu, phong trào Cần Vương đã ghi lại những trang sử vô cùng hào hùng về ý chí bất khuất của dân tộc Việt.",
+      "image": "/images/history/can-vuong/3.png",
+      "imagePrompt": "A group of patriots hiding in a lush forest, sharpening spears, looking determined, sunlight through leaves, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Chiếu 'Cần Vương' có ý nghĩa là gì?",
+      "options": ["Mời mọi người đi dự tiệc", "Giúp vua cứu nước", "Kêu gọi mọi người đi buôn bán"],
+      "answer": "Giúp vua cứu nước"
+    },
+    {
+      "type": "quiz",
+      "question": "Vị vua nào đã ban chiếu Cần Vương?",
+      "options": ["Vua Gia Long", "Vua Hàm Nghi", "Vua Minh Mạng"],
+      "answer": "Vua Hàm Nghi"
+    }
+  ]
+}

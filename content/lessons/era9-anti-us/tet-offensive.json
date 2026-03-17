@@ -1,0 +1,45 @@
+{
+  "id": "tet-offensive",
+  "title": "Tổng tiến công Mậu Thân 1968",
+  "period": "Chống Mỹ",
+  "summary": "Cuộc tấn công bất ngờ và đồng loạt của quân ta vào các thành phố lớn ở miền Nam, làm chấn động cả thế giới và thay đổi cục diện cuộc chiến.",
+  "image": "/images/history/tet-offensive.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Đêm giao thừa Tết Mậu Thân 1968, khi tất cả đang đón mừng năm mới, quân ta đã bất ngờ nổ súng tấn công đồng loạt vào các sào huyệt của giặc ở khắp miền Nam.",
+      "image": "/images/history/tet-offensive/0.png",
+      "imagePrompt": "Fireworks in the night sky over a city silhouette, mixed with flashes of energy, sense of sudden movement, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đặc biệt tại Sài Gòn, quân ta đã đánh thẳng vào những nơi quan trọng nhất. Sự táo bạo này đã làm cho quân Mỹ và chính quyền tay sai vô cùng bàng hoàng.",
+      "image": "/images/history/tet-offensive/1.png",
+      "imagePrompt": "Commandos (biệt động) moving skillfully in a city street, shadows at night, atmosphere of courage and surprise, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tiếng súng Tết Mậu Thân đã vang đến tận nước Mỹ và toàn thế giới, buộc quân Mỹ phải thừa nhận rằng họ không thể thắng lợi bằng vũ lực ở Việt Nam.",
+      "image": "/images/history/tet-offensive/2.png",
+      "imagePrompt": "Newspapers around the world with headlines about Vietnam, a globe with a bright spot over Vietnam, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Chiến thắng Mậu Thân đã mở ra một giai đoạn mới, buộc Mỹ phải ngồi vào bàn đàm phán và bắt đầu rút quân về nước.",
+      "image": "/images/history/tet-offensive/3.png",
+      "imagePrompt": "A large negotiation table with many flags, diplomats talking, sun setting over the city, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc tổng tiến công 1968 diễn ra vào dịp đặc biệt nào?",
+      "options": ["Tết Nguyên Đán Mậu Thân", "Ngày Quốc khánh", "Ngày 1/6"],
+      "answer": "Tết Nguyên Đán Mậu Thân"
+    },
+    {
+      "type": "quiz",
+      "question": "Ý nghĩa lớn nhất của cuộc tấn công Mậu Thân là gì?",
+      "options": ["Làm thay đổi cục diện chiến tranh, buộc Mỹ phải đàm phán", "Để bắn pháo hoa", "Để đi sắm Tết"],
+      "answer": "Làm thay đổi cục diện chiến tranh, buộc Mỹ phải đàm phán"
+    }
+  ]
+}

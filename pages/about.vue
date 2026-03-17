@@ -71,11 +71,12 @@
             class="absolute inset-0 bg-[#FF6B6B] rounded-[50px] rotate-3 group-hover:rotate-1 transition-transform duration-500"
           ></div>
           <div
-            class="relative bg-white p-4 rounded-[50px] shadow-2xl border-8 border-white overflow-hidden aspect-square flex items-center justify-center"
+            class="relative bg-white p-2 rounded-[50px] shadow-2xl border-8 border-white overflow-hidden aspect-square flex items-center justify-center"
           >
-            <Icon
-              name="fluent-emoji:flag-vietnam"
-              class="text-[120px] animate-float"
+            <UiLazyImage
+              src="/images/about/mission.png"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              alt="Vietnamese Pride & History Illustration"
             />
           </div>
         </div>
@@ -113,7 +114,7 @@
           class="bg-white p-10 rounded-[40px] shadow-xl border-t-8 border-[#FF6B6B] hover:scale-[1.02] transition-all"
         >
           <div class="text-5xl mb-6">
-            <Icon name="fluent-emoji:direct-hit" />
+            <Icon name="fluent-emoji:shield" />
           </div>
           <h3 class="text-2xl font-black text-[#1A535C] mb-4">Sự thật</h3>
           <p class="font-medium text-gray-600">
@@ -248,7 +249,7 @@
             to="/map"
             class="px-12 py-5 bg-[#FF6B6B] text-white font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
           >
-            Khám phá Bản đồ <Icon name="fluent-emoji:map" class="ml-2" />
+            Khám phá Bản đồ <Icon name="fluent-emoji:world-map" class="ml-2" />
           </NuxtLink>
           <NuxtLink
             to="/lesson"

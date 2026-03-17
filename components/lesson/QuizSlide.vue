@@ -9,12 +9,14 @@ interface Props {
   canNext?: boolean;
   showPrev?: boolean;
   nextLabel?: string;
+  nextIcon?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   canNext: false,
   showPrev: true,
   nextLabel: "TIẾP THEO",
+  nextIcon: "lucide:arrow-right",
 });
 
 const emit = defineEmits(["answered", "next", "prev"]);
@@ -35,11 +37,9 @@ const checkAnswer = (option: string) => {
 </script>
 
 <template>
-  <div
-    class="flex flex-col items-center justify-center p-4 md:p-8 animate-fade-in"
-  >
+  <div class="flex flex-col items-center justify-center p-4 md:p-8">
     <div
-      class="max-w-xl w-full bg-white rounded-[40px] shadow-2xl p-10 border-8 border-white relative overflow-hidden"
+      class="max-w-xl w-full bg-white rounded-[40px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] p-10 border-8 border-white relative overflow-hidden h-full min-h-[550px] flex flex-col"
     >
       <!-- Decorative Background -->
       <div
@@ -48,9 +48,9 @@ const checkAnswer = (option: string) => {
 
       <div class="relative z-10 text-center mb-10">
         <span
-          class="inline-block px-6 py-2 bg-[#FFE66D] text-[#1A535C] font-black rounded-full text-sm uppercase mb-6 shadow-sm"
+          class="inline-flex items-center justify-center px-6 py-2 bg-[#FFE66D] text-[#1A535C] font-black rounded-full text-sm uppercase mb-6 shadow-sm"
         >
-          <Icon name="fluent-emoji:brain" class="mr-2" /> CÂU ĐỐ VUI
+          <Icon name="fluent-emoji:brain" class="mr-2" size="24" /> CÂU ĐỐ VUI
         </span>
         <h2
           class="text-3xl md:text-4xl font-black text-[#1A535C] leading-tight"
@@ -65,7 +65,7 @@ const checkAnswer = (option: string) => {
           :key="option"
           @click="checkAnswer(option)"
           :disabled="selectedOption !== null"
-          class="w-full text-center px-8 py-5 rounded-2xl border-4 text-2xl font-black transition-all transform hover:scale-[1.05] active:scale-[0.95]"
+          class="w-full text-center px-8 py-5 rounded-2xl border-4 text-2xl font-black transition-all transform hover:scale-[1.05] active:scale-[0.95] shadow-[rgba(0,0,0,0.16)_0px_1px_4px]"
           :class="[
             selectedOption === null
               ? 'border-gray-100 text-[#1A535C] hover:border-[#4ECDC4] bg-gray-50'
@@ -122,22 +122,28 @@ const checkAnswer = (option: string) => {
         </transition>
 
         <!-- Navigation inside the card -->
-        <div class="flex items-center gap-4 border-t-2 border-gray-50 pt-8">
+        <div
+          class="flex items-center justify-between gap-6 pt-8 border-t-2 border-gray-50 mt-auto"
+        >
           <button
             v-if="showPrev"
             @click="$emit('prev')"
-            class="px-6 py-3 rounded-2xl font-black text-sm border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all"
+            class="flex-1 max-w-[180px] px-6 py-4 rounded-2xl font-black text-xl border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all shadow-md"
           >
             QUAY LẠI
           </button>
+          <div v-else class="flex-1 max-w-[180px]"></div>
 
-          <button
+          <LessonNextButton
             v-if="canNext"
+            :label="nextLabel"
             @click="$emit('next')"
-            class="flex-1 py-4 bg-[#FF6B6B] text-white text-xl font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all animate-bounce"
+            class="flex-1 max-w-[350px] animate-bounce"
           >
-            {{ nextLabel }} <Icon name="lucide:arrow-right" class="ml-2" />
-          </button>
+            <template #icon>
+              <Icon v-if="props.nextIcon" :name="props.nextIcon" />
+            </template>
+          </LessonNextButton>
         </div>
       </div>
     </div>

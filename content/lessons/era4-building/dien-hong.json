@@ -1,0 +1,45 @@
+{
+  "id": "dien-hong",
+  "title": "Hội nghị Diên Hồng",
+  "period": "Xây dựng",
+  "summary": "Khi quân giặc lại kéo sang lần thứ hai, các vị bô lão đã cùng đồng thanh hô vang: 'ĐÁNH!', thể hiện ý chí của toàn dân tộc.",
+  "image": "/images/history/dien-hong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Năm 1284, quân Nguyên Mông lại chuẩn bị xâm lược nước ta với quân số đông hơn lần trước nhiều lần. Đất nước đứng trước nguy cơ rất lớn.",
+      "image": "/images/history/dien-hong/0.png",
+      "imagePrompt": "Huge dark clouds gathering over a peaceful village, symbol of an approaching storm/danger, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vua Trần Nhân Tông đã mời các vị bô lão (người già có uy tín) từ khắp nơi về điện Diên Hồng để hỏi ý kiến: 'Nên hòa hay nên đánh?'.",
+      "image": "/images/history/dien-hong/1.png",
+      "imagePrompt": "King Tran Nhan Tong sitting among many elderly wise men with white beards, atmosphere of respect and gravity, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Không một chút do dự, hàng ngàn vị bô lão đã cùng giơ nắm tay lên cao và đồng thanh hô vang: 'ĐÁNH!'. Tiếng hô vang động cả đất trời!",
+      "image": "/images/history/dien-hong/2.png",
+      "imagePrompt": "Elderly men raising their fists, determined faces, glowing energy/spirit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Hội nghị Diên Hồng là biểu tượng tuyệt đẹp cho tinh thần đoàn kết của dân tộc Việt Nam. Khi lòng dân đã quyết, không kẻ thù nào có thể ngăn cản!",
+      "image": "/images/history/dien-hong/3.png",
+      "imagePrompt": "A large crowd of people of all ages standing together, looking strong and united, sunset glow, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ai là người đã mời các vị bô lão đến dự Hội nghị Diên Hồng?",
+      "options": ["Vua Trần Nhân Tông", "Vua Lý Thái Tổ", "Vua Ngô Quyền"],
+      "answer": "Vua Trần Nhân Tông"
+    },
+    {
+      "type": "quiz",
+      "question": "Câu trả lời của các vị bô lão tại hội nghị là gì?",
+      "options": ["Hòa!", "Đánh!", "Chạy!"],
+      "answer": "Đánh!"
+    }
+  ]
+}

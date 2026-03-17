@@ -1,0 +1,46 @@
+{
+  "id": "lam-son-uprising",
+  "title": "Lê Lợi khởi nghĩa Lam Sơn",
+  "heroId": "le-loi",
+  "period": "Phục hưng",
+  "summary": "Tại vùng núi Lam Sơn, vị anh hùng Lê Lợi đã tập hợp nhân dân khởi nghĩa chống lại quân Minh xâm lược, giành lại độc lập sau 10 năm gian khổ.",
+  "image": "/images/history/le-loi.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Trong những ngày đầu khởi nghĩa ở Lam Sơn, quân ta gặp rất nhiều khó khăn, thiếu thốn lương thực.",
+      "image": "/images/history/lam-son-uprising/0.png",
+      "imagePrompt": "Le Loi and his soldiers in a dense forest, looking tired but determined, small camp fire, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lê Lợi đã cùng các tướng lĩnh thề chung sức đồng lòng tại hội thề Lũng Nhai để đánh đuổi quân Minh.",
+      "image": "/images/history/lam-son-uprising/1.png",
+      "imagePrompt": "Le Loi and his generals performing a sacred oath ceremony in Lung Nhai, mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dần dần, quân ta lớn mạnh, đánh thắng nhiều trận quan trọng, buộc quân giặc phải rút về cố thủ trong thành.",
+      "image": "/images/history/lam-son-uprising/2.png",
+      "imagePrompt": "Brave insurrection army charging towards enemy forts, high morale, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Có truyền thuyết kể rằng Lê Lợi nhận được thanh gươm thần khắc chữ 'Thuận Thiên' để đánh giặc cứu nước.",
+      "image": "/images/history/lam-son-uprising/3.png",
+      "imagePrompt": "Le Loi holding a glowing magic sword with 'Thuan Thien' text engraved, heroic pose, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc khởi nghĩa của Lê Lợi nổ ra ở đâu?",
+      "options": ["Lam Sơn", "Mê Linh", "Sóc Sơn"],
+      "answer": "Lam Sơn"
+    },
+    {
+      "type": "quiz",
+      "question": "Thanh gươm của vua Lê Lợi nhận được có tên là gì?",
+      "options": ["Thuận Thiên", "Nỏ Thần", "Gươm Báu"],
+      "answer": "Thuận Thiên"
+    }
+  ]
+}

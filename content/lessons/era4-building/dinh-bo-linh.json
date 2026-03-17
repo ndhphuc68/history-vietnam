@@ -1,0 +1,46 @@
+{
+  "id": "dinh-bo-linh",
+  "title": "Đinh Bộ Lĩnh thống nhất",
+  "heroId": "dinh-bo-linh",
+  "period": "Xây dựng",
+  "summary": "Đinh Bộ Lĩnh, người anh hùng từ trò chơi cờ lau, đã dẹp loạn 12 sứ quân, thống nhất đất nước và lên ngôi hoàng đế, lập nên nhà Đinh.",
+  "image": "/images/history/dinh-bo-linh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Khi còn nhỏ, Đinh Bộ Lĩnh thường cùng các bạn chăn trâu lấy bông lau làm cờ, tập trận giả ở vùng Hoa Lư.",
+      "image": "/images/history/dinh-bo-linh/0.png",
+      "imagePrompt": "A group of children playing in a field, boy Dinh Bo Linh holding a reed flower flag, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lớn lên, ông là một người có tài mưu lược, lần lượt dẹp tan 12 sứ quân đang chia cắt đất nước.",
+      "image": "/images/history/dinh-bo-linh/1.png",
+      "imagePrompt": "General Dinh Bo Linh leading his army to unify divided lands, landscape of ancient Vietnam, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Năm 968, ông thống nhất giang sơn, lên ngôi hoàng đế, lấy hiệu là Đinh Tiên Hoàng.",
+      "image": "/images/history/dinh-bo-linh/2.png",
+      "imagePrompt": "Dinh Bo Linh's coronation ceremony as Emperor, royal guards, Hoa Lu city, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông đặt tên nước là Đại Cồ Việt, đóng đô ở Hoa Lư, mở ra một thời kỳ độc lập và vững mạnh mới.",
+      "image": "/images/history/dinh-bo-linh/3.png",
+      "imagePrompt": "Ancient city of Hoa Lu with mountains and palaces, peaceful Dai Co Viet kingdom, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Đinh Bộ Lĩnh thường dùng gì làm cờ khi tập trận giả với bạn bè?",
+      "options": ["Bông lau", "Lá sen", "Vải tơ tằm"],
+      "answer": "Bông lau"
+    },
+    {
+      "type": "quiz",
+      "question": "Ông đã đặt tên nước ta là gì khi lên ngôi?",
+      "options": ["Đại Cồ Việt", "Âu Lạc", "Đại Việt"],
+      "answer": "Đại Cồ Việt"
+    }
+  ]
+}

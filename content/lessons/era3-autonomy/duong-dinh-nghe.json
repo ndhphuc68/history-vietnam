@@ -1,0 +1,45 @@
+{
+  "id": "duong-dinh-nghe",
+  "title": "Dương Đình Nghệ và 3000 con nuôi",
+  "period": "Tự chủ",
+  "summary": "Câu chuyện về sự chuẩn bị lực lượng bền bỉ và lòng trung thành để bảo vệ quyền tự chủ của dân tộc.",
+  "image": "/images/history/duong-dinh-nghe.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết làm thế nào để xây dựng một đội quân hùng mạnh không? Ông Dương Đình Nghệ đã có một cách rất đặc biệt: nhận 3000 người tài làm con nuôi!",
+      "image": "/images/history/duong-dinh-nghe/0.png",
+      "imagePrompt": "Duong Dinh Nghe gathering many young warriors around him, fatherly and strong look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "3000 người con nuôi này cùng luyện tập võ nghệ, yêu thương nhau như anh em ruột thịt và hết lòng trung thành với đất nước.",
+      "image": "/images/history/duong-dinh-nghe/1.png",
+      "imagePrompt": "Group of warriors practicing with swords and spears together, bonded and united, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi quân Nam Hán định sang xâm chiếm lần nữa, đội quân 'anh em' này đã đánh một trận ra trò, giải phóng thành Đại La (Hà Nội).",
+      "image": "/images/history/duong-dinh-nghe/2.png",
+      "imagePrompt": "The army of 3000 warriors charging towards the city gates of Dai La, bravery, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dương Đình Nghệ đã nối tiếp họ Khúc, giữ vững ngọn lửa tự chủ cho dân tộc trước khi Ngô Quyền tạo nên bước ngoặt vĩ đại.",
+      "image": "/images/history/duong-dinh-nghe/3.png",
+      "imagePrompt": "Duong Dinh Nghe sitting with Ngô Quyền (his son-in-law), passing down the spirit of resistance, historical moment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Dương Đình Nghệ đã có cách nào đặc biệt để xây dựng lực lượng?",
+      "options": ["Thuê lính nước ngoài", "Nhận 3000 người tài làm con nuôi", "Đi xin viện trợ"],
+      "answer": "Nhận 3000 người tài làm con nuôi"
+    },
+    {
+      "type": "quiz",
+      "question": "Đội quân của Dương Đình Nghệ nổi tiếng về điều gì?",
+      "options": ["Sự giàu có", "Lòng trung thành và đoàn kết như anh em", "Khả năng nấu ăn ngon"],
+      "answer": "Lòng trung thành và đoàn kết như anh em"
+    }
+  ]
+}

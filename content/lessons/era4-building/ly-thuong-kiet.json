@@ -1,0 +1,46 @@
+{
+  "id": "ly-thuong-kiet",
+  "title": "Lý Thường Kiệt chống Tống",
+  "heroId": "ly-thuong-kiet",
+  "period": "Xây dựng",
+  "summary": "Danh tướng Lý Thường Kiệt đã chỉ huy quân dân nhà Lý đánh tan quân xâm lược nhà Tống, nổi tiếng với bài thơ thần 'Nam quốc sơn hà'.",
+  "image": "/images/history/ly-thuong-kiet.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Lý Thường Kiệt là vị tướng tài ba, ông đã chủ động tiến quân sang phần đất của nhà Tống để chặn đứng âm mưu xâm lược.",
+      "image": "/images/history/ly-thuong-kiet/0.png",
+      "imagePrompt": "General Ly Thuong Kiet riding a horse, pointing his sword forward, leading an army through a pass, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tại phòng tuyến sông Như Nguyệt, quân giặc đã phải dừng bước trước sự phòng thủ kiên cường của quân ta.",
+      "image": "/images/history/ly-thuong-kiet/1.png",
+      "imagePrompt": "The defensive line at Nhu Nguyet river, soldiers guarding with spears and shields, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Trong đêm tối, từ ngôi đền vang lên bài thơ thần: 'Nam quốc sơn hà Nam đế cư...', khẳng định chủ quyền của dân tộc.",
+      "image": "/images/history/ly-thuong-kiet/2.png",
+      "imagePrompt": "An ancient temple by the river at night, mystical voice manifesting the poem 'Nam Quoc Son Ha', glowing text in the sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân Tống nghe thấy thì hoang mang, khiếp sợ, sau đó bị quân ta tấn công và phải rút chạy về nước.",
+      "image": "/images/history/ly-thuong-kiet/3.png",
+      "imagePrompt": "Terrified Song soldiers retreating across the river, victory for Dai Viet army, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Bài thơ 'Nam quốc sơn hà' vang lên ở dòng sông nào?",
+      "options": ["Như Nguyệt", "Bạch Đằng", "Hồng"],
+      "answer": "Như Nguyệt"
+    },
+    {
+      "type": "quiz",
+      "question": "Lý Thường Kiệt làm gì để ngăn giặc xâm lược?",
+      "options": ["Chủ động tiến quân sang nhà Tống", "Chờ giặc đến mới đánh", "Xin hòa"],
+      "answer": "Chủ động tiến quân sang nhà Tống"
+    }
+  ]
+}

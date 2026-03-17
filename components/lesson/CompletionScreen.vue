@@ -19,9 +19,9 @@ const emit = defineEmits(["finished"]);
     >
       <!-- Icon -->
       <div
-        class="text-8xl mb-6 transform hover:rotate-12 transition-transform cursor-pointer"
+        class="text-8xl mb-6 transform hover:rotate-12 transition-transform cursor-pointer flex justify-center"
       >
-        🏆
+        <Icon name="fluent-emoji:trophy" />
       </div>
 
       <h2 class="text-4xl md:text-5xl font-black text-[#1A535C] mb-4">
@@ -39,9 +39,9 @@ const emit = defineEmits(["finished"]);
       <div class="space-y-4">
         <button
           @click="emit('finished')"
-          class="w-full py-5 bg-[#FF6B6B] text-white text-2xl font-black rounded-2xl shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-all"
+          class="w-full py-5 bg-[#FF6B6B] text-white text-2xl font-black rounded-2xl shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-all flex items-center justify-center gap-3"
         >
-          TIẾP TỤC KHÁM PHÁ 🚀
+          TIẾP TỤC KHÁM PHÁ <Icon name="fluent-emoji:rocket" />
         </button>
       </div>
 
@@ -50,10 +50,18 @@ const emit = defineEmits(["finished"]);
       <div
         class="absolute inset-x-0 -top-20 flex justify-center gap-4 text-4xl opacity-50 select-none pointer-events-none"
       >
-        <span class="animate-bounce" style="animation-delay: 0.1s">🌟</span>
-        <span class="animate-bounce" style="animation-delay: 0.3s">🎉</span>
-        <span class="animate-bounce" style="animation-delay: 0.5s">✨</span>
-        <span class="animate-bounce" style="animation-delay: 0.2s">🎈</span>
+        <div class="animate-bounce" style="animation-delay: 0.1s">
+          <Icon name="fluent-emoji:star" />
+        </div>
+        <div class="animate-bounce" style="animation-delay: 0.3s">
+          <Icon name="fluent-emoji:party-popper" />
+        </div>
+        <div class="animate-bounce" style="animation-delay: 0.5s">
+          <Icon name="fluent-emoji:sparkles" />
+        </div>
+        <div class="animate-bounce" style="animation-delay: 0.2s">
+          <Icon name="fluent-emoji:balloon" />
+        </div>
       </div>
     </div>
   </div>

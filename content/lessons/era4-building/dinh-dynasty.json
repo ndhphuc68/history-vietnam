@@ -1,0 +1,45 @@
+{
+  "id": "dinh-dynasty",
+  "title": "Nhà Đinh thành lập",
+  "period": "Xây dựng",
+  "summary": "Năm 968, Đinh Bộ Lĩnh lên ngôi vua, đặt tên nước là Đại Cồ Việt, khẳng định đất nước ta là một quốc gia độc lập.",
+  "image": "/images/history/dinh-dynasty.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Đại thắng 12 sứ quân, Đinh Bộ Lĩnh chính thức lên ngôi Hoàng đế, lấy hiệu là Đinh Tiên Hoàng. Đây là sự kiện vô cùng trọng đại!",
+      "image": "/images/history/dinh-dynasty/0.png",
+      "imagePrompt": "Imperial ceremony at Hoa Lu citadel, golden banners, King Dinh sitting on the throne, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông chọn Hoa Lư làm kinh đô. Nơi đây có những dãy núi đá cao vút bao quanh như những bức tường thành tự nhiên bảo vệ nhà vua.",
+      "image": "/images/history/dinh-dynasty/1.png",
+      "imagePrompt": "Landscape of Hoa Lu ancient capital, limestone mountains, peaceful river, ancient palace roofs peeking through, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vua Đinh còn cho đúc tiền đồng để nhân dân mua bán dễ dàng hơn. Đó là đồng tiền đầu tiên trong lịch sử nước ta đấy các bé ạ!",
+      "image": "/images/history/dinh-dynasty/2.png",
+      "imagePrompt": "Close-up of ancient round coins with a square hole in the middle, shine of copper, happy market scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đất nước thống nhất, cuộc sống của người dân bắt đầu ổn định và no ấm. Mọi người đều biết ơn vị 'Vạn Thắng Vương' tài ba.",
+      "image": "/images/history/dinh-dynasty/3.png",
+      "imagePrompt": "Vietnamese farmers celebrating a harvest, smiling faces, sun shining, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ông Đinh Bộ Lĩnh đã chọn nơi nào làm kinh đô?",
+      "options": ["Cổ Loa", "Hoa Lư", "Thăng Long"],
+      "answer": "Hoa Lư"
+    },
+    {
+      "type": "quiz",
+      "question": "Đinh Bộ Lĩnh đã làm gì để kinh tế phát triển hơn?",
+      "options": ["Cho đúc tiền đồng đầu tiên", "Xây dựng siêu thị", "Kêu gọi đầu tư nước ngoài"],
+      "answer": "Cho đúc tiền đồng đầu tiên"
+    }
+  ]
+}

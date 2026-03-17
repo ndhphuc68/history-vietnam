@@ -9,6 +9,7 @@ interface Level {
   id: string;
   title: string;
   lesson: string;
+  year?: string;
   icon?: string;
 }
 
@@ -26,10 +27,22 @@ const props = defineProps<Props>();
 
 const progressStore = useProgressStore();
 
+// Dynamically check available lessons
+const lessonFiles = import.meta.glob("~/content/lessons/**/*.json", {
+  eager: true,
+});
+const availableLessons = Object.keys(lessonFiles).map((path) =>
+  path.split("/").pop()?.replace(".json", ""),
+);
+
+const isLessonAvailable = (lessonId: string) => {
+  return availableLessons.includes(lessonId);
+};
+
 const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
   let count = 0;
   for (let i = 0; i < eraIndex; i++) {
-    count += props.eras[i].levels.length;
+    count += props.eras[i]?.levels?.length || 0;
   }
   return count + levelIndex;
 };
@@ -69,10 +82,6 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
             >
               {{ era.title }}
             </h2>
-
-            <p class="text-white/80 font-bold text-lg">
-              Giai đoạn khởi đầu lịch sử hào hùng
-            </p>
           </div>
         </div>
       </div>
@@ -91,6 +100,8 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
             :is-completed="
               progressStore.completedLessons.includes(level.lesson)
             "
+            :is-unlocked="isLessonAvailable(level.lesson)"
+            :year="level.year"
             :align="
               getGlobalIndex(eraIndex, levelIndex) % 2 === 0 ? 'right' : 'left'
             "

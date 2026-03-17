@@ -1,0 +1,45 @@
+{
+  "id": "french-invasion",
+  "title": "Pháp xâm lược Việt Nam",
+  "period": "Chống Pháp",
+  "summary": "Năm 1858, tiếng súng của thực dân Pháp vang lên tại Đà Nẵng, mở đầu thời kỳ khó khăn khi dân tộc ta phải đối mặt với kẻ thù mới.",
+  "image": "/images/history/french-invasion.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Vào giữa thế kỷ 19, các nước phương Tây muốn sang chiếm các nước khác để lấy tài nguyên. Ngày 1/9/1858, quân Pháp đã nổ súng đánh vào bán đảo Sơn Trà (Đà Nẵng).",
+      "image": "/images/history/french-invasion/0.png",
+      "imagePrompt": "French warships with large chimneys smoke in Da Nang bay, firing cannons towards the shore, dramatic sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân dân ta ở Đà Nẵng dưới sự chỉ huy của tướng Nguyễn Tri Phương đã anh dũng chống trả, khiến quân Pháp không thể tiến sâu vào đất liền.",
+      "image": "/images/history/french-invasion/1.png",
+      "imagePrompt": "General Nguyen Tri Phuong commanding soldiers behind sandbags near the beach, cannons firing back, dust and energy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tuy nhiên, với vũ khí hiện đại như súng dài và tàu to, quân Pháp sau đó đã chuyển hướng tấn công vào Gia Định (TP. Hồ Chí Minh ngày nay).",
+      "image": "/images/history/french-invasion/2.png",
+      "imagePrompt": "French troops marching with rifles, tropical palm trees background, sense of challenge, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Từ đây, cuộc kháng chiến bảo vệ đất nước của nhân dân ta bước sang một giai đoạn mới đầy gian khổ nhưng cũng vô cùng anh dũng.",
+      "image": "/images/history/french-invasion/3.png",
+      "imagePrompt": "Vietnamese peasants sharpening bamboo stakes under the rain, faces full of determination, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Thực dân Pháp bắt đầu nổ súng xâm lược nước ta ở đâu?",
+      "options": ["Hà Nội", "Đà Nẵng", "Huế"],
+      "answer": "Đà Nẵng"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc xâm lược của thực dân Pháp bắt đầu vào năm nào?",
+      "options": ["Năm 1858", "Năm 1802", "Năm 1945"],
+      "answer": "Năm 1858"
+    }
+  ]
+}

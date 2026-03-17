@@ -1,0 +1,46 @@
+{
+  "id": "nguyen-hue",
+  "title": "Nguyễn Huệ lên ngôi Quang Trung",
+  "heroId": "nguyen-hue",
+  "period": "Phục hưng",
+  "summary": "Nguyễn Huệ là vị thiên tài quân sự, sau khi đánh tan quân Xiêm đã lên ngôi hoàng đế Quang Trung để huy động toàn quân đánh đuổi quân Thanh.",
+  "image": "/images/history/quang-trung.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Nguyễn Huệ cùng hai người anh em của mình đã phất cờ khởi nghĩa tại vùng đất Tây Sơn rạng danh sử sách.",
+      "image": "/images/history/nguyen-hue/0.png",
+      "imagePrompt": "The three Tay Son brothers standing in front of traditional martial arts masters, mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tại Rạch Gầm - Xoài Mút, ông đã chỉ huy quân thủy bộ đánh tan 5 vạn quân Xiêm một cách oai hùng.",
+      "image": "/images/history/nguyen-hue/1.png",
+      "imagePrompt": "Naval battle on the Mekong river, Tay Son fleet winning, great heroism, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Năm 1788, khi giặc Thanh tràn sang, ông lên ngôi hoàng đế tại núi Bân để chính thức lãnh đạo cuộc kháng chiến.",
+      "image": "/images/history/nguyen-hue/2.png",
+      "imagePrompt": "Coronation of King Quang Trung at Mount Ban, huge crowd, solemn atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Vua Quang Trung chính là biểu tượng của tinh thần quật cường và ý chí chiến thắng của dân tộc ta.",
+      "image": "/images/history/nguyen-hue/3.png",
+      "imagePrompt": "Heroic portrait of King Quang Trung, symbols of victory and power, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Nguyễn Huệ lên ngôi hoàng đế tại đâu?",
+      "options": ["Núi Bân (Huế)", "Thăng Long", "Hoa Lư"],
+      "answer": "Núi Bân (Huế)"
+    },
+    {
+      "type": "quiz",
+      "question": "Ba anh em khởi nghĩa Tây Sơn gồm Nguyễn Huệ, Nguyễn Nhạc và ai?",
+      "options": ["Nguyễn Lữ", "Nguyễn Ánh", "Nguyễn Trãi"],
+      "answer": "Nguyễn Lữ"
+    }
+  ]
+}

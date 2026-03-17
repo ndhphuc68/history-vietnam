@@ -9,7 +9,10 @@
     <div
       class="text-center max-w-2xl bg-white p-12 rounded-[3rem] border-8 border-[#FFE66D] shadow-2xl transform rotate-1"
     >
-      <div class="text-8xl mb-6 animate-bounce">🤔</div>
+      <Icon
+        name="fluent-emoji:thinking-face"
+        class="text-8xl mb-6 animate-bounce"
+      />
       <h1 class="text-4xl md:text-6xl font-black text-[#1A535C] mb-4">
         Góc Đố Vui
       </h1>

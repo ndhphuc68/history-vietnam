@@ -8,24 +8,24 @@ interface Props {
   canNext?: boolean;
   showPrev?: boolean;
   nextLabel?: string;
+  nextIcon?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   canNext: true,
   showPrev: true,
-  nextLabel: "TIẾP THEO ➜",
+  nextLabel: "TIẾP THEO",
+  nextIcon: "lucide:arrow-right",
 });
 
 defineEmits(["next", "prev"]);
 </script>
 
 <template>
-  <div
-    class="flex flex-col items-center justify-center p-4 md:p-8 animate-fade-in h-full"
-  >
+  <div class="flex flex-col items-center justify-center p-4 md:p-8 h-full">
     <!-- Storybook Frame -->
     <div
-      class="max-w-5xl w-full bg-white rounded-[40px] shadow-2xl overflow-hidden border-8 border-white p-6 md:p-10 flex flex-col gap-8 transition-all duration-500 min-h-[500px]"
+      class="max-w-5xl w-full bg-white rounded-[40px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] overflow-hidden border-8 border-white p-6 md:p-10 flex flex-col gap-8 transition-all duration-500 h-full min-h-[550px]"
     >
       <!-- Top Content Section (Horizontal) -->
       <div class="flex flex-col md:flex-row gap-8 flex-1 min-h-0 items-center">
@@ -75,23 +75,27 @@ defineEmits(["next", "prev"]);
 
       <!-- Navigation Row (Bottom) -->
       <div
-        class="flex items-center gap-6 pt-4 border-t-2 border-dashed border-gray-100"
+        class="flex items-center justify-between gap-6 pt-6 border-t-2 border-dashed border-gray-100 mt-auto"
       >
         <button
           v-if="showPrev"
           @click="$emit('prev')"
-          class="px-8 py-4 rounded-2xl font-black text-sm border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all whitespace-nowrap shadow-sm"
+          class="flex-1 max-w-[200px] px-8 py-5 rounded-2xl font-black text-xl border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all whitespace-nowrap shadow-md"
         >
           QUAY LẠI
         </button>
+        <div v-else class="flex-1 max-w-[200px]"></div>
 
-        <button
+        <LessonNextButton
           v-if="canNext"
+          :label="nextLabel"
           @click="$emit('next')"
-          class="flex-1 py-5 bg-[#FF6B6B] text-white text-2xl font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all whitespace-nowrap"
+          class="flex-1 max-w-[400px]"
         >
-          {{ nextLabel }}
-        </button>
+          <template #icon>
+            <Icon v-if="nextIcon" :name="nextIcon" />
+          </template>
+        </LessonNextButton>
       </div>
     </div>
   </div>

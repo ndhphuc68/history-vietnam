@@ -1,0 +1,57 @@
+{
+  "id": "dong-son-drum",
+  "title": "Trống đồng Đông Sơn",
+  "period": "Dựng nước",
+  "summary": "Biểu tượng rực rỡ của nền văn minh Sông Hồng, thể hiện tài năng đúc đồng thượng thừa của tổ tiên.",
+  "image": "/images/history/dong-son-drum.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Trống đồng Đông Sơn là loại nhạc khí đặc biệt, biểu tượng của quyền lực và sự giàu có của các thủ lĩnh thời Văn Lang.",
+      "image": "/images/history/dong-son-drum/0.png",
+      "imagePrompt": "A magnificent bronze Dong Son drum in a tribal setting, golden sunlight highlights its complex patterns, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Trên mặt trống là những hình ảnh sinh động về cuộc sống cổ xưa: người nhảy múa, đánh trống, giã gạo và những đoàn thuyền chiến.",
+      "image": "/images/history/dong-son-drum/1.png",
+      "imagePrompt": "Close up of the surface of a Dong Son drum, showing relief patterns of ancient people dancing and rowing boats, children book illustration, cartoon style, simplified patterns"
+    },
+    {
+      "type": "story",
+      "text": "Chính giữa mặt trống là hình ngôi sao nhiều cánh, tượng trưng cho Thần Mặt Trời - vị thần tối cao trong tín ngưỡng người Việt cổ.",
+      "image": "/images/history/dong-son-drum/2.png",
+      "imagePrompt": "The star pattern at the center of a bronze drum glowing like the sun, mythical atmosphere, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Chim Lạc - loài chim huyền thoại thường thấy trên mặt trống, tượng trưng cho khát vọng vươn tới tự do và sự thịnh vượng.",
+      "image": "/images/history/dong-son-drum/3.png",
+      "imagePrompt": "Stylized Chim Lac birds flying around the sun pattern, ancient Vietnamese aesthetics, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Trống đồng thường được dùng trong các nghi lễ trang trọng, tiếng trống vang rền như tiếng sấm, cổ vũ tinh thần quân sĩ.",
+      "image": "/images/history/dong-son-drum/4.png",
+      "imagePrompt": "Ancient Vietnamese warriors beating a large bronze drum during a ceremony, bonfire, ritual dance, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Hình ảnh nào nằm ở chính giữa mặt trống đồng Đông Sơn?",
+      "options": ["Hình bông hoa", "Hình ngôi sao (Mặt Trời)", "Hình con hổ"],
+      "answer": "Hình ngôi sao (Mặt Trời)"
+    },
+    {
+      "type": "quiz",
+      "question": "Loài chim nào thường xuất hiện trên mặt trống đồng?",
+      "options": ["Chim Lạc", "Chim Phượng hoàng", "Chim Đại bàng"],
+      "answer": "Chim Lạc"
+    },
+    {
+      "type": "quiz",
+      "question": "Trống đồng Đông Sơn được làm từ chất liệu gì?",
+      "options": ["Đá vôi", "Đồng", "Gỗ"],
+      "answer": "Đồng"
+    }
+  ]
+}

@@ -74,46 +74,155 @@
     </section>
 
     <!-- Feature Section -->
-    <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-12">
-        <div class="card flex flex-col items-center text-center">
-          <div
-            class="w-20 h-20 bg-[#FFE66D] rounded-2xl flex items-center justify-center mb-6 text-4xl"
-          >
-            <Icon name="fluent-emoji:open-book" class="text-5xl" />
-          </div>
-          <h3 class="text-2xl font-bold mb-4">Câu chuyện hấp dẫn</h3>
-          <p>
-            Tìm hiểu về các đời vua Hùng, Thánh Gióng, Hai Bà Trưng qua những
-            mẩu truyện tranh sinh động.
-          </p>
+    <section class="relative py-32 bg-[#F7FFF7]/50">
+      <!-- Decorative Background Elements -->
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div
+          class="absolute top-1/2 left-[-10%] w-[40%] h-[40%] bg-[#4ECDC4]/10 rounded-full blur-[120px]"
+        ></div>
+        <div
+          class="absolute bottom-0 right-[-10%] w-[30%] h-[30%] bg-[#FF6B6B]/10 rounded-full blur-[100px]"
+        ></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 relative z-10">
+        <div class="text-center mb-20 animate-fade-in">
+          <h2 class="text-4xl md:text-5xl font-black text-[#1A535C] mb-4">
+            Tại sao bé sẽ thích Lịch sử Nhí?
+          </h2>
+          <div class="h-2 w-24 bg-[#FF6B6B] rounded-full mx-auto"></div>
         </div>
 
-        <div class="card flex flex-col items-center text-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+          <!-- Card 1 -->
           <div
-            class="w-20 h-20 bg-[#4ECDC4] rounded-2xl flex items-center justify-center mb-6 text-4xl"
+            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#FFE66D] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
           >
-            <Icon name="fluent-emoji:video-game" class="text-5xl" />
-          </div>
-          <h3 class="text-2xl font-bold mb-4">Trò chơi đố vui</h3>
-          <p>
-            Thử thách bản thân với các câu hỏi lý thú để nhận được huy hiệu dũng
-            sĩ lịch sử.
-          </p>
-        </div>
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-[#FFE66D]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+            ></div>
 
-        <div class="card flex flex-col items-center text-center">
-          <div
-            class="w-20 h-20 bg-[#FF6B6B] rounded-2xl flex items-center justify-center mb-6 text-4xl"
-          >
-            <Icon name="fluent-emoji:map" class="text-5xl" />
+            <div
+              class="w-28 h-28 bg-[#FFE66D]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+            >
+              <span
+                class="absolute inset-0 bg-[#FFE66D]/10 blur-xl rounded-full scale-75 animate-pulse"
+              ></span>
+              <Icon
+                name="fluent-emoji:open-book"
+                class="text-6xl animate-float relative z-10"
+              />
+            </div>
+
+            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+              Câu chuyện hấp dẫn
+            </h3>
+            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+              Tìm hiểu về các đời vua Hùng, Thánh Gióng, Hai Bà Trưng qua những
+              mẩu truyện tranh sinh động, đưa bé vào thế giới cổ tích nhiệm màu.
+            </p>
           </div>
-          <h3 class="text-2xl font-bold mb-4">Khám phá bản đồ</h3>
-          <p>
-            Theo dõi sự thay đổi của đất nước qua các thời kỳ lịch sử hào hùng.
-          </p>
+
+          <!-- Card 2 -->
+          <div
+            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#4ECDC4] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            style="transition-delay: 100ms"
+          >
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-[#4ECDC4]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+            ></div>
+
+            <div
+              class="w-28 h-28 bg-[#4ECDC4]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:-rotate-12 transition-transform duration-500"
+            >
+              <span
+                class="absolute inset-0 bg-[#4ECDC4]/10 blur-xl rounded-full scale-75 animate-pulse"
+              ></span>
+              <Icon
+                name="fluent-emoji:video-game"
+                class="text-6xl animate-float-delayed relative z-10"
+              />
+            </div>
+
+            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+              Trò chơi đố vui
+            </h3>
+            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+              Thử thách trí thông minh với các câu hỏi lý thú. Càng chơi càng
+              biểu giỏi để nhận được những huy hiệu dũng sĩ lịch sử cực ngầu!
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#FF6B6B] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-[#FF6B6B]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+            ></div>
+
+            <div
+              class="w-28 h-28 bg-[#FF6B6B]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+            >
+              <span
+                class="absolute inset-0 bg-[#FF6B6B]/10 blur-xl rounded-full scale-75 animate-pulse"
+              ></span>
+              <Icon
+                name="fluent-emoji:world-map"
+                class="text-6xl animate-float relative z-10"
+              />
+            </div>
+
+            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+              Khám phá bản đồ
+            </h3>
+            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+              Hành trình dọc theo chiều dài đất nước, theo dõi sự thay đổi của
+              giang sơn qua các thời kỳ lịch sử hào hùng của cha ông ta.
+            </p>
+          </div>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<style scoped>
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 4s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>

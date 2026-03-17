@@ -1,0 +1,75 @@
+{
+  "id": "dragon-fairy",
+  "title": "Con Rồng Cháu Tiên",
+  "period": "Dựng nước",
+  "summary": "Truyền thuyết về nguồn gốc cao quý của người Việt, là con của Rồng và cháu của Tiên.",
+  "image": "/images/history/dragon-fairy.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Ngày xửa ngày xưa, ở miền đất Lạc Việt có một vị thần tên là Lạc Long Quân, thuộc nòi Rồng, sức khỏe vô song.",
+      "image": "/images/history/dragon-fairy/0.png",
+      "imagePrompt": "Lac Long Quan, a powerful dragon god in ancient Vietnamese style, standing near the sea, water swirling, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Ở vùng núi cao phía Bắc có nàng Âu Cơ xinh đẹp tuyệt trần, thuộc dòng dõi Tiên.",
+      "image": "/images/history/dragon-fairy/1.png",
+      "imagePrompt": "Au Co, a beautiful fairy goddess, standing on a lush green mountain with flowers, ethereal atmosphere, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lạc Long Quân và Âu Cơ gặp nhau, yêu nhau và nên duyên vợ chồng.",
+      "image": "/images/history/dragon-fairy/2.png",
+      "imagePrompt": "Lac Long Quan and Au Co meeting in a beautiful landscape combining mountains and sea, romantic and mythical, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Ít lâu sau, Âu Cơ sinh ra một cái bọc trăm trứng. Kỳ lạ thay, bọc trứng nở ra một trăm người con trai khỏe mạnh.",
+      "image": "/images/history/dragon-fairy/3.png",
+      "imagePrompt": "Au Co with a magical glowing sack of 100 eggs, children hatching out, miraculous scene, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lạc Long Quân bảo: 'Ta là Rồng, nàng là Tiên, khó lòng ở lâu một chỗ'. Ông đưa 50 con xuống biển, bà đưa 50 con lên núi.",
+      "image": "/images/history/dragon-fairy/4.png",
+      "imagePrompt": "Lac Long Quan leading 50 children to the sea, Au Co leading 50 children to the mountains, split scene, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Người con trưởng theo Âu Cơ được tôn làm vua, lấy hiệu là Hùng Vương, đặt tên nước là Văn Lang.",
+      "image": "/images/history/dragon-fairy/5.png",
+      "imagePrompt": "The eldest son crowned as Hung King, villagers cheering, flags flying, ancient Vietnamese setting, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Từ đó về sau, người dân Việt Nam luôn tự hào gọi mình là 'Con Rồng Cháu Tiên'.",
+      "image": "/images/history/dragon-fairy/6.png",
+      "imagePrompt": "Vietnamese people from all walks of life standing together, unity, pride, dragon and fairy silhouettes in the sky, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "quiz",
+      "question": "Lạc Long Quân thuộc giống nòi nào?",
+      "options": ["Nòi Rồng", "Dòng Tiên", "Người phàm"],
+      "answer": "Nòi Rồng"
+    },
+    {
+      "type": "quiz",
+      "question": "Âu Cơ đã sinh ra cái gì rất đặc biệt?",
+      "options": ["Một quả trứng", "Một bọc trăm trứng", "10 người con"],
+      "answer": "Một bọc trăm trứng"
+    },
+    {
+      "type": "quiz",
+      "question": "Có bao nhiêu người con theo mẹ lên núi?",
+      "options": ["100 người", "50 người", "10 người"],
+      "answer": "50 người"
+    },
+    {
+      "type": "quiz",
+      "question": "Người Việt thường tự hào gọi mình là gì?",
+      "options": ["Con Rồng Cháu Tiên", "Con của đất trời", "Người anh hùng"],
+      "answer": "Con Rồng Cháu Tiên"
+    }
+  ]
+}

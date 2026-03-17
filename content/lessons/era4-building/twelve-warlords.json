@@ -1,0 +1,45 @@
+{
+  "id": "twelve-warlords",
+  "title": "Loạn 12 sứ quân",
+  "period": "Xây dựng",
+  "summary": "Đất nước bị chia cắt làm 12 vùng khác nhau, ai cũng muốn làm vua khiến cuộc sống nhân dân vất vả.",
+  "image": "/images/history/twelve-warlords.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Các bé có biết không? Sau khi vua Ngô Quyền mất, đất nước ta đã rơi vào một cảnh tượng rất buồn: đó là 'Loạn 12 sứ quân'.",
+      "image": "/images/history/twelve-warlords/0.png",
+      "imagePrompt": "Map of Vietnam divided into 12 colorful regions with different family banners, smoke rising from some areas, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "12 vị thủ lĩnh ở khắp nơi đều muốn tranh giành quyền lực, tự xưng vương và đánh lẫn nhau. Đất nước bị chia cắt thành 12 mảnh nhỏ.",
+      "image": "/images/history/twelve-warlords/1.png",
+      "imagePrompt": "Different warlords arguing and pointing at each other across their boundaries, intense atmosphere but not scary, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Chiến tranh xảy ra liên miên, ruộng vườn bị bỏ hoang, người dân không thể yên ổn làm ăn. Mọi người đều mong chờ một vị anh hùng xuất hiện.",
+      "image": "/images/history/twelve-warlords/2.png",
+      "imagePrompt": "A sad farmer looking at an empty field, a ruined fence, gray sky but still in cartoon style, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đây là giai đoạn thử thách lớn nhất kể từ khi chúng ta giành lại độc lập, đòi hỏi một trái tim dũng cảm và trí tuệ để thống nhất sơn hà.",
+      "image": "/images/history/twelve-warlords/3.png",
+      "imagePrompt": "Sunlight breaking through the clouds over a divided land, a symbol of hope (like a blooming flower), children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vì sao giai đoạn này được gọi là 'Loạn 12 sứ quân'?",
+      "options": ["Vì có 12 vị vua tốt", "Vì đất nước bị 12 thủ lĩnh chia cắt và tranh giành", "Vì có 12 ngày lễ hội"],
+      "answer": "Vì đất nước bị 12 thủ lĩnh chia cắt và tranh giành"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc sống của người dân như thế nào trong thời kỳ này?",
+      "options": ["Vất vả và lo sợ do chiến tranh", "Rất giàu sang", "Bình yên và hạnh phúc"],
+      "answer": "Vất vả và lo sợ do chiến tranh"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "hung-kings",
+  "title": "Mười tám đời vua Hùng",
+  "heroId": "hung-vuong",
+  "period": "Dựng nước",
+  "summary": "Sau khi Lạc Long Quân và Âu Cơ chia con, người con trưởng lên ngôi, lấy hiệu là Hùng Vương, lập nên nước Văn Lang.",
+  "image": "/images/history/hung-kings.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Lạc Long Quân và Âu Cơ chia tay, 50 con theo cha xuống biển, 50 con theo mẹ lên núi để cùng nhau cai quản vùng đất.",
+      "image": "/images/history/hung-kings/0.png",
+      "imagePrompt": "Lac Long Quan and Au Co saying goodbye, 50 children following father to the sea, 50 following mother to the mountains, mythical atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Người con trưởng theo mẹ lên núi, được tôn làm vua, lấy hiệu là Hùng Vương, đóng đô tại Phong Châu (Phú Thọ ngày nay).",
+      "image": "/images/history/hung-kings/1.png",
+      "imagePrompt": "The eldest son being crowned as Hung Vuong king, ancient Vietnamese ceremony, Phong Chau capital background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nhà nước đầu tiên của người Việt được đặt tên là Văn Lang, đánh dấu sự khởi đầu của dân tộc ta.",
+      "image": "/images/history/hung-kings/2.png",
+      "imagePrompt": "Ancient Van Lang kingdom map or landscape, primitive but peaceful village, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Các vua Hùng cùng dân chúng khai khẩn đất hoang, trồng lúa nước và thuần hóa thú dữ.",
+      "image": "/images/history/hung-kings/3.png",
+      "imagePrompt": "Ancient Vietnamese people farming, planting rice, and taming a wild buffalo, hard working and happy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Người Lạc Việt sống thành từng bản, làng, cùng nhau đắp đê ngăn lũ và giúp đỡ lẫn nhau.",
+      "image": "/images/history/hung-kings/4.png",
+      "imagePrompt": "Lạc Việt people building a dike together to stop flood water, unity and community spirit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Kỷ nguyên Hùng Vương kéo dài qua 18 đời vua, mỗi đời đều góp công xây dựng đất nước vững mạnh.",
+      "image": "/images/history/hung-kings/5.png",
+      "imagePrompt": "A succession of Hung Kings standing proudly, symbolizing 18 generations, strong and wise leaders, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Dân ta từ đó có tục lệ thờ cúng tổ tiên, luôn nhớ về cội nguồn và công ơn dựng nước.",
+      "image": "/images/history/hung-kings/6.png",
+      "imagePrompt": "Ancient Vietnamese family paying respect to their ancestors, traditional ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Hằng năm, vào ngày 10 tháng 3 âm lịch, nhân dân cả nước lại hướng về Đền Hùng để làm lễ Giỗ Tổ.",
+      "image": "/images/history/hung-kings/7.png",
+      "imagePrompt": "Modern day people celebrating Hung Kings Festival, colorful parade, Hung Temple mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vua Hùng đóng đô ở đâu?",
+      "options": ["Phong Châu", "Cổ Loa", "Thăng Long"],
+      "answer": "Phong Châu"
+    },
+    {
+      "type": "quiz",
+      "question": "Nhà nước đầu tiên của nước ta tên là gì?",
+      "options": ["Văn Lang", "Âu Lạc", "Đại Việt"],
+      "answer": "Văn Lang"
+    },
+    {
+      "type": "quiz",
+      "question": "Có tất cả bao nhiêu đời vua Hùng?",
+      "options": ["10 đời", "18 đời", "20 đời"],
+      "answer": "18 đời"
+    },
+    {
+      "type": "quiz",
+      "question": "Ngày Giỗ Tổ Hùng Vương là ngày nào?",
+      "options": ["Mùng 1 Tết", "Mùng 10 tháng 3 Âm lịch", "Rằm tháng Tám"],
+      "answer": "Mùng 10 tháng 3 Âm lịch"
+    }
+  ]
+}

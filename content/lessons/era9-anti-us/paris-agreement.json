@@ -1,0 +1,45 @@
+{
+  "id": "paris-agreement",
+  "title": "Hiệp định Paris 1973",
+  "period": "Chống Mỹ",
+  "summary": "Sau nhiều năm đấu tranh trên cả mặt trận quân sự và ngoại giao, Mỹ đã phải ký hiệp định rút quân về nước, công nhận độc lập của Việt Nam.",
+  "image": "/images/history/paris-agreement.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Để ép Mỹ phải ngồi vào bàn đàm phán, quân dân ta đã chiến đấu vô cùng anh dũng. Cuối cùng, một cuộc gặp gỡ lịch sử tại thủ đô Paris (Pháp) đã diễn ra.",
+      "image": "/images/history/paris-agreement/0.png",
+      "imagePrompt": "Eiffel Tower in the background, a grand building with many flags, diplomats in suits entering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Cuộc đàm phán kéo dài ròng rã 5 năm trời. Các nhà ngoại giao của ta, như bà Nguyễn Thị Bình, đã rất khéo léo và kiên quyết bảo vệ lợi ích của dân tộc.",
+      "image": "/images/history/paris-agreement/1.png",
+      "imagePrompt": "Madam Nguyen Thi Bin in a traditional Ao Dai, sitting at a long table, speaking firmly, focus of the room, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ngày 27/1/1973, Hiệp định Paris chính thức được ký kết. Mỹ cam kết tôn trọng độc lập của Việt Nam và phải rút hết quân đội về nước.",
+      "image": "/images/history/paris-agreement/2.png",
+      "imagePrompt": "Hands signing a large golden document, fountain pen, background of Vietnamese and International flags, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đây là một thắng lợi vĩ đại, tạo điều kiện thuận lợi để quân dân ta tiến tới giải phóng hoàn toàn miền Nam và thống nhất đất nước.",
+      "image": "/images/history/paris-agreement/3.png",
+      "imagePrompt": "Last American soldiers boarding a ship to go home, Vietnamese people standing on the shore, sunset, sense of victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Hiệp định Paris được ký kết vào năm nào?",
+      "options": ["Năm 1973", "Năm 1954", "Năm 1945"],
+      "answer": "Năm 1973"
+    },
+    {
+      "type": "quiz",
+      "question": "Sau Hiệp định Paris, quân Mỹ phải làm gì?",
+      "options": ["Rút hết quân về nước", "Ở lại xây thêm nhà", "Đi mua sắm tại Việt Nam"],
+      "answer": "Rút hết quân về nước"
+    }
+  ]
+}

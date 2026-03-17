@@ -1,0 +1,46 @@
+{
+  "id": "bach-dang-938",
+  "title": "Chiến thắng Bạch Đằng 938",
+  "heroId": "ngo-quyen",
+  "period": "Tự chủ",
+  "summary": "Năm 938, với chiến thuật đóng cọc gỗ trên sông Bạch Đằng, Ngô Quyền đã đánh tan quân Nam Hán, mở ra kỷ nguyên độc lập lâu dài cho dân tộc Việt Nam.",
+  "image": "/images/history/ngo-quyen.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Nghe tin quân Nam Hán kéo sang xâm lược, Ngô Quyền đã nảy ra một kế sách vô cùng thông minh.",
+      "image": "/images/history/bach-dang-938/0.png",
+      "imagePrompt": "Ngo Quyền and his generals looking at a map of Bach Dang river, planning the trap, intelligent look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông cho quân đẽo hàng nghìn cọc gỗ nhọn, đầu bọc sắt, rồi đóng xuống lòng sông Bạch Đằng.",
+      "image": "/images/history/bach-dang-938/1.png",
+      "imagePrompt": "Vietnamese soldiers sharpening large wooden stakes and hammering them into the river bed, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi thủy triều lên, mặt sông che lấp các cọc gỗ, quân ta nhử thuyền giặc tiến sâu vào trận địa.",
+      "image": "/images/history/bach-dang-938/2.png",
+      "imagePrompt": "Vietnamese small boats leading large South Han warships into the trap, high tide hiding the stakes, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Đến khi thủy triều rút, thuyền giặc va vào cọc gỗ nhọn bị vỡ và chìm tan tành. Quân ta đồng loạt tấn công khiến giặc đại bại.",
+      "image": "/images/history/bach-dang-938/3.png",
+      "imagePrompt": "South Han warships crashing against the wooden stakes as tide goes down, Ngo Quyen's army attacking from the banks, epic win, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Ngô Quyền đã dùng vũ khí gì để đóng xuống sông Bạch Đằng?",
+      "options": ["Cọc gỗ bọc sắt", "Xích sắt", "Đá nhọn"],
+      "answer": "Cọc gỗ bọc sắt"
+    },
+    {
+      "type": "quiz",
+      "question": "Chiến thắng Bạch Đằng năm 938 đã đánh bại quân xâm lược nào?",
+      "options": ["Nam Hán", "Tống", "Mông Nguyên"],
+      "answer": "Nam Hán"
+    }
+  ]
+}

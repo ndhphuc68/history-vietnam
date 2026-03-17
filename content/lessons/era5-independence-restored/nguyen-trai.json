@@ -1,0 +1,46 @@
+{
+  "id": "nguyen-trai",
+  "title": "Nguyễn Trãi giúp khởi nghĩa",
+  "heroId": "nguyen-trai",
+  "period": "Phục hưng",
+  "summary": "Nguyễn Trãi là nhà quân sự, nhà thơ lớn, người đã dâng 'Bình Ngô sách' cho Lê Lợi và giúp cuộc khởi nghĩa Lam Sơn giành thắng lợi hoàn toàn.",
+  "image": "/images/history/nguyen-trai.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Nguyễn Trãi đã vượt qua vòng vây giặc để tìm đến nghĩa quân Lam Sơn và dâng cho Lê Lợi những kế sách đánh giặc vô giá.",
+      "image": "/images/history/nguyen-trai/0.png",
+      "imagePrompt": "Nguyen Trai meeting Le Loi in a secret forest camp, discussing strategy over a map, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông là người viết bài 'Bình Ngô đại cáo', bản tuyên ngôn độc lập thứ hai khẳng định chủ quyền của nước Đại Việt.",
+      "image": "/images/history/nguyen-trai/1.png",
+      "imagePrompt": "Nguyen Trai writing with a brush on a long scroll, looking inspired, traditional scholar outfit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Với tư tưởng 'lấy chí nhân thay cường bạo', ông đã góp phần thu phục lòng người để đánh đuổi quân Minh.",
+      "image": "/images/history/nguyen-trai/2.png",
+      "imagePrompt": "Nguyen Trai talking to captured enemy soldiers, showing mercy and wisdom, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nguyễn Trãi không chỉ là anh hùng dân tộc mà còn được thế giới vinh danh là Danh nhân văn hóa thế giới.",
+      "image": "/images/history/nguyen-trai/3.png",
+      "imagePrompt": "Statue or portrait of Nguyen Trai with a background of books and symbols of culture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Bản tuyên ngôn độc lập nổi tiếng do Nguyễn Trãi viết tên là gì?",
+      "options": ["Bình Ngô đại cáo", "Nam quốc sơn hà", "Tuyên ngôn Độc lập"],
+      "answer": "Bình Ngô đại cáo"
+    },
+    {
+      "type": "quiz",
+      "question": "Nguyễn Trãi đã giúp vị vua nào đánh đuổi quân Minh?",
+      "options": ["Lê Lợi", "Nguyễn Huệ", "Lý Thái Tổ"],
+      "answer": "Lê Lợi"
+    }
+  ]
+}

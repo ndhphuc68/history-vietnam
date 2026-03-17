@@ -1,5 +1,11 @@
 <script setup lang="ts">
-// Main layout for the app
+import { useHeroStore } from "~/stores/heroStore";
+
+const heroStore = useHeroStore();
+
+onMounted(() => {
+  heroStore.initialize();
+});
 </script>
 
 <template>
@@ -37,6 +43,11 @@
             >Bài học</NuxtLink
           >
           <NuxtLink
+            to="/gallery"
+            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
+            >Anh hùng</NuxtLink
+          >
+          <NuxtLink
             to="/about"
             class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
             >Về chúng mình</NuxtLink
@@ -44,7 +55,7 @@
         </div>
 
         <div class="flex items-center space-x-4">
-          <NuxtLink to="/lesson" class="btn-primary py-2 px-6"
+          <NuxtLink to="/map" class="btn-primary py-2 px-6"
             >Bắt đầu ngay</NuxtLink
           >
         </div>
@@ -119,8 +130,8 @@
                 <NuxtLink
                   to="/map"
                   class="hover:text-[#FF6B6B] transition-colors"
-                  ><Icon name="fluent-emoji:map" class="mr-2" /> Bản đồ Lịch
-                  sử</NuxtLink
+                  ><Icon name="fluent-emoji:world-map" class="mr-2" /> Bản đồ
+                  Lịch sử</NuxtLink
                 >
               </li>
               <li>
@@ -133,10 +144,18 @@
               </li>
               <li>
                 <NuxtLink
+                  to="/gallery"
+                  class="hover:text-[#FF6B6B] transition-colors"
+                  ><Icon name="fluent-emoji:shield-with-sheath" class="mr-2" />
+                  Bộ sưu tập Anh hùng</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
                   to="/quiz"
                   class="hover:text-[#FF6B6B] transition-colors"
-                  ><Icon name="fluent-emoji:direct-hit" class="mr-2" /> Thử
-                  thách Đố vui</NuxtLink
+                  ><Icon name="fluent-emoji:bullseye" class="mr-2" /> Thử thách
+                  Đố vui</NuxtLink
                 >
               </li>
               <li>
@@ -198,7 +217,8 @@
           class="flex flex-col md:flex-row items-center justify-between gap-6 text-sm font-bold text-gray-400"
         >
           <p>
-            © {{ new Date().getFullYear() }} Dòng Máu Lạc Hồng. Made with ❤️ by
+            © {{ new Date().getFullYear() }} Dòng Máu Lạc Hồng. Made with
+            <Icon name="fluent-emoji:heart" class="inline-block mx-1" /> by
             PhucNDH.
           </p>
           <div class="flex space-x-8">

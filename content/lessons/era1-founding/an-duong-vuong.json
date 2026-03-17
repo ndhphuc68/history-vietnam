@@ -1,0 +1,46 @@
+{
+  "id": "an-duong-vuong",
+  "title": "An Dương Vương lập nước Âu Lạc",
+  "heroId": "an-duong-vuong",
+  "period": "Dựng nước",
+  "summary": "Thục Phán An Dương Vương thống nhất hai bộ tộc, lập nên nước Âu Lạc, xây thành Cổ Loa kiên cố để bảo vệ giang sơn.",
+  "image": "/images/history/an-duong-vuong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Sau thời Hùng Vương, Thục Phán đã thống nhất người Tây Âu và Lạc Việt, lập nên nước Âu Lạc.",
+      "image": "/images/history/an-duong-vuong/0.png",
+      "imagePrompt": "Thuc Phan unifying West Au and Lac Viet tribes, creating Au Lac kingdom, ancient Vietnamese people celebrating, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "An Dương Vương chọn vùng Cổ Loa để xây thành. Thành được xây theo hình xoáy ốc rất độc đáo và kiên cố.",
+      "image": "/images/history/an-duong-vuong/1.png",
+      "imagePrompt": "An Duong Vuong standing in front of the construction of Co Loa Citadel, spiral shape walls, ancient architecture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tại đây, vua đã cho đúc nỏ thần Kim Quy, mỗi lần bắn có thể hạ hàng vạn quân giặc xâm lược.",
+      "image": "/images/history/an-duong-vuong/2.png",
+      "imagePrompt": "The Golden Turtle (Kim Quy) giving the magic claw to An Duong Vuong to create the magic crossbow, mystical glow, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Âu Lạc dưới thời An Dương Vương là một quốc gia vững mạnh, khiến quân giặc phương Bắc nhiều lần phải khiếp vía.",
+      "image": "/images/history/an-duong-vuong/3.png",
+      "imagePrompt": "The powerful army of Au Lac with magic crossbows guarding the Co Loa citadel, looking strong and brave, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Vua An Dương Vương đã xây dựng tòa thành nổi tiếng nào?",
+      "options": ["Cổ Loa", "Thăng Long", "Huế"],
+      "answer": "Cổ Loa"
+    },
+    {
+      "type": "quiz",
+      "question": "Nước Âu Lạc được hình thành từ sự thống nhất của hai bộ tộc nào?",
+      "options": ["Tây Âu và Lạc Việt", "Âu Lạc và Văn Lang", "Mông và Thái"],
+      "answer": "Tây Âu và Lạc Việt"
+    }
+  ]
+}

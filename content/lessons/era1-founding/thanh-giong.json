@@ -1,0 +1,52 @@
+{
+  "id": "thanh-giong",
+  "title": "Thánh Gióng đánh giặc Ân",
+  "heroId": "thanh-giong",
+  "period": "Dựng nước",
+  "summary": "Truyền thuyết về cậu bé làng Gióng không biết nói cười, nhưng khi giặc xâm lược đã vươn vai thành tráng sĩ, cưỡi ngựa sắt dẹp tan quân thù.",
+  "image": "/images/history/thanh-giong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Vào đời vua Hùng thứ sáu, có gương mặt trẻ thơ bỗng nhiên biết nói khi sứ giả nhà vua đi tìm người tài đánh giặc.",
+      "image": "/images/history/thanh-giong/0.png",
+      "imagePrompt": "A little boy Giong sitting silently, then suddenly speaking to the royal messenger, amazed parents, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Gióng ăn khỏe lạ thường, lớn nhanh như thổi, cả làng cùng góp gạo nuôi Gióng để Gióng đi đánh giặc cứu nước.",
+      "image": "/images/history/thanh-giong/1.png",
+      "imagePrompt": "Young Giong growing up rapidly, eating big bowls of rice, villagers bringing food, happy and caring community, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khi giặc đến, Gióng bỗng vươn vai thành một tráng sĩ khổng lồ, mặc giáp sắt, cầm roi sắt, cưỡi ngựa sắt phun ra lửa.",
+      "image": "/images/history/thanh-giong/2.png",
+      "imagePrompt": "Giong transforming into a giant hero, wearing iron armor, holding an iron whip, riding a flaming iron horse, epic transformation, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tráng sĩ Gióng xông vào trận tuyến quân thù, roi sắt gãy, Gióng nhổ những cụm tre bên đường để tiếp tục chiến đấu.",
+      "image": "/images/history/thanh-giong/3.png",
+      "imagePrompt": "Hero Giong using a bamboo bush as a weapon to fight enemies, iron horse breathing fire, brave and powerful, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân giặc khiếp sợ bỏ chạy, Gióng đuổi giặc đến chân núi Sóc thì dừng lại, cởi giáp sắt rồi cùng ngựa bay về trời.",
+      "image": "/images/history/thanh-giong/4.png",
+      "imagePrompt": "Giong on his horse flying to the sky from Soc Son mountain, leaving armor behind, heroic departure, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Thánh Gióng đánh giặc vào đời vua Hùng thứ mấy?",
+      "options": ["Thứ sáu", "Thứ mười tám", "Thứ nhất"],
+      "answer": "Thứ sáu"
+    },
+    {
+      "type": "quiz",
+      "question": "Khi roi sắt gãy, Thánh Gióng đã dùng gì làm vũ khí?",
+      "options": ["Tre", "Đá", "Gươm"],
+      "answer": "Tre"
+    }
+  ]
+}

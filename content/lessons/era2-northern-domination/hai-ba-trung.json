@@ -1,0 +1,46 @@
+{
+  "id": "hai-ba-trung",
+  "title": "Khởi nghĩa Hai Bà Trưng",
+  "heroId": "hai-ba-trung",
+  "period": "Bắc thuộc",
+  "summary": "Năm 40, hai chị em Trưng Trắc và Trưng Nhị đã phất cờ khởi nghĩa, đánh đuổi quân Đông Hán, giành lại độc lập cho đất nước sau hơn một thế kỷ bị đô hộ.",
+  "image": "/images/history/hai-ba-trung.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Dưới ách đô hộ của nhà Đông Hán, nhân dân ta vô cùng khổ cực. Ở vùng Mê Linh có hai chị em dũng cảm là Trưng Trắc và Trưng Nhị.",
+      "image": "/images/history/hai-ba-trung/0.png",
+      "imagePrompt": "The Trung sisters, Trung Trac and Trung Nhi, talking to oppressed villagers, sympathetic and brave faces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Năm 40, Hai Bà đã lập lời thề: 'Một xin rửa sạch thù nhà, hai xin đem lại nghiệp xưa họ Hùng'.",
+      "image": "/images/history/hai-ba-trung/1.png",
+      "imagePrompt": "The Trung Sisters taking a sacred oath in front of their army, solemn ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Hàng nghìn người từ khắp nơi đã hưởng ứng, cùng Hai Bà cưỡi voi ra trận đánh quân thù.",
+      "image": "/images/history/hai-ba-trung/2.png",
+      "imagePrompt": "The Trung Sisters riding two big elephants, leading a massive army of Vietnamese people, epic battle scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Quân giặc sợ hãi bỏ chạy, Trưng Trắc được tôn làm vua, đóng đô ở Mê Linh, giành lại quyền tự chủ cho dân tộc.",
+      "image": "/images/history/hai-ba-trung/3.png",
+      "imagePrompt": "Trung Trac being crowned as Queen, Me Linh capital celebration, people cheering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Hai Bà Trưng cưỡi con vật gì ra trận?",
+      "options": ["Voi", "Ngựa", "Hổ"],
+      "answer": "Voi"
+    },
+    {
+      "type": "quiz",
+      "question": "Khi khởi nghĩa thành công, Hai Bà Trưng đóng đô ở đâu?",
+      "options": ["Mê Linh", "Cổ Loa", "Thăng Long"],
+      "answer": "Mê Linh"
+    }
+  ]
+}

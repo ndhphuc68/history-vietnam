@@ -1,0 +1,46 @@
+{
+  "id": "le-hoan",
+  "title": "Lê Hoàn chống quân Tống",
+  "heroId": "le-hoan",
+  "period": "Xây dựng",
+  "summary": "Năm 981, tướng quân Lê Hoàn lên ngôi vua, chỉ huy quân dân Đại Cồ Việt đánh tan cuộc xâm lược của nhà Tống, giữ vững nền độc lập của tổ quốc.",
+  "image": "/images/history/le-hoan.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Đất nước gặp nguy khi quân Tống kéo sang xâm lược, Thái hậu Dương Vân Nga đã trao áo long bào cho Thập đạo tướng quân Lê Hoàn.",
+      "image": "/images/history/le-hoan/0.png",
+      "imagePrompt": "Queen Mother Duong Van Nga handing the royal robe to General Le Hoan, historical ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Lê Hoàn trực tiếp cầm quân ra trận, dùng mưu kế đánh tan quân giặc trên cả đường thủy và đường bộ.",
+      "image": "/images/history/le-hoan/1.png",
+      "imagePrompt": "King Le Hoan in armor leading his army in battle, brave and strong, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ông cho quân giả hàng để nhử giặc vào trận địa, rồi bất ngờ tấn công khiến quân Tống đại bại.",
+      "image": "/images/history/le-hoan/2.png",
+      "imagePrompt": "Vietnamese soldiers launching a surprise attack against Song army, confusion in enemy ranks, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Sau chiến thắng, ông chú trọng phát triển nông nghiệp, vương triều Tiền Lê giúp đất nước yên bình.",
+      "image": "/images/history/le-hoan/3.png",
+      "imagePrompt": "The King plowing a field during 'Tich Dien' festival, promoting agriculture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Lê Hoàn đã đánh tan quân xâm lược của nhà nào?",
+      "options": ["Nhà Tống", "Nhà Hán", "Nhà Minh"],
+      "answer": "Nhà Tống"
+    },
+    {
+      "type": "quiz",
+      "question": "Lê Hoàn lên ngôi vua lấy hiệu là gì?",
+      "options": ["Lê Đại Hành", "Lê Thái Tổ", "Lê Thánh Tông"],
+      "answer": "Lê Đại Hành"
+    }
+  ]
+}
