@@ -1,23 +1,9 @@
 <script setup lang="ts">
+import type { Hero } from "~/types/history";
 /**
  * Detailed Modal for Hero Information.
  * Shows biography, achievements, and premium hero portrait.
  */
-interface Hero {
-  id: string;
-  name: string;
-  realName: string;
-  birthDate: string;
-  deathDate: string;
-  hometown: string;
-  position: string;
-  title: string;
-  era: string;
-  image: string;
-  description: string;
-  achievements: string[];
-}
-
 const props = defineProps<{
   hero: Hero | null;
   show: boolean;
@@ -53,7 +39,7 @@ watch(
       >
         <!-- Backdrop -->
         <div
-          class="absolute inset-0 bg-[#1A535C]/80 backdrop-blur-md"
+          class="absolute inset-0 bg-text/80 backdrop-blur-md"
           @click="close"
         ></div>
 
@@ -63,7 +49,7 @@ watch(
         >
           <!-- Hero Portrait Section -->
           <div
-            class="relative w-full md:w-[40%] h-64 md:h-auto bg-[#F7FFF7] overflow-hidden"
+            class="relative w-full md:w-[40%] h-64 md:h-auto bg-background overflow-hidden"
           >
             <img
               :src="hero.image"
@@ -80,7 +66,7 @@ watch(
                 class="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-lg"
               >
                 <span
-                  class="text-[10px] font-black text-[#FF6B6B] uppercase tracking-widest"
+                  class="text-[10px] font-black text-primary uppercase tracking-widest"
                   >{{ hero.era }}</span
                 >
               </div>
@@ -88,7 +74,7 @@ watch(
 
             <div class="absolute bottom-8 left-8 right-8 text-white">
               <p
-                class="text-sm font-bold text-[#FFE66D] uppercase tracking-widest mb-1"
+                class="text-sm font-bold text-accent uppercase tracking-widest mb-1"
               >
                 {{ hero.title }}
               </p>
@@ -103,7 +89,7 @@ watch(
             <!-- Close Button -->
             <button
               @click="close"
-              class="absolute top-6 right-6 w-12 h-12 bg-[#F7FFF7] text-[#1A535C] rounded-full flex items-center justify-center hover:bg-[#FF6B6B] hover:text-white transition-all shadow-md group z-10"
+              class="absolute top-6 right-6 w-12 h-12 bg-background text-text rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-md group z-10"
             >
               <Icon
                 name="fluent:dismiss-24-filled"
@@ -114,41 +100,41 @@ watch(
             <div class="space-y-10">
               <!-- Basic Info Grid -->
               <div
-                class="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-[#F7FFF7] p-8 rounded-[32px] border-2 border-[#4ECDC4]/20"
+                class="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-background p-8 rounded-[32px] border-2 border-secondary/20"
               >
                 <div class="flex flex-col gap-1">
                   <span
-                    class="text-[10px] font-black text-[#FF6B6B] uppercase tracking-widest"
+                    class="text-[10px] font-black text-primary uppercase tracking-widest"
                     >Tên thật</span
                   >
-                  <span class="text-[#1A535C] font-bold text-lg">{{
+                  <span class="text-text font-bold text-lg">{{
                     hero.realName || "---"
                   }}</span>
                 </div>
                 <div class="flex flex-col gap-1">
                   <span
-                    class="text-[10px] font-black text-[#FF6B6B] uppercase tracking-widest"
+                    class="text-[10px] font-black text-primary uppercase tracking-widest"
                     >Chức vụ</span
                   >
-                  <span class="text-[#1A535C] font-bold text-lg">{{
+                  <span class="text-text font-bold text-lg">{{
                     hero.position || "---"
                   }}</span>
                 </div>
                 <div class="flex flex-col gap-1">
                   <span
-                    class="text-[10px] font-black text-[#FF6B6B] uppercase tracking-widest"
+                    class="text-[10px] font-black text-primary uppercase tracking-widest"
                     >Năm sinh - Năm mất</span
                   >
-                  <span class="text-[#1A535C] font-bold text-lg"
+                  <span class="text-text font-bold text-lg"
                     >{{ hero.birthDate }} - {{ hero.deathDate }}</span
                   >
                 </div>
                 <div class="flex flex-col gap-1">
                   <span
-                    class="text-[10px] font-black text-[#FF6B6B] uppercase tracking-widest"
+                    class="text-[10px] font-black text-primary uppercase tracking-widest"
                     >Quê quán</span
                   >
-                  <span class="text-[#1A535C] font-bold text-lg">{{
+                  <span class="text-text font-bold text-lg">{{
                     hero.hometown || "---"
                   }}</span>
                 </div>
@@ -158,16 +144,16 @@ watch(
               <section>
                 <div class="flex items-center gap-3 mb-4">
                   <div
-                    class="w-10 h-10 bg-[#FF6B6B]/10 rounded-xl flex items-center justify-center"
+                    class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center"
                   >
                     <Icon name="fluent-emoji:scroll" class="text-2xl" />
                   </div>
-                  <h3 class="text-xl font-black text-[#1A535C]">
+                  <h3 class="text-xl font-black text-text">
                     Câu chuyện lịch sử
                   </h3>
                 </div>
                 <p
-                  class="text-[#1A535C]/80 text-lg leading-relaxed font-medium text-justify"
+                  class="text-text/80 text-lg leading-relaxed font-medium text-justify"
                 >
                   {{ hero.description }}
                 </p>
@@ -177,11 +163,11 @@ watch(
               <section>
                 <div class="flex items-center gap-3 mb-4">
                   <div
-                    class="w-10 h-10 bg-[#4ECDC4]/10 rounded-xl flex items-center justify-center"
+                    class="w-10 h-10 bg-secondary/10 rounded-xl flex items-center justify-center"
                   >
                     <Icon name="fluent-emoji:medal" class="text-2xl" />
                   </div>
-                  <h3 class="text-xl font-black text-[#1A535C]">
+                  <h3 class="text-xl font-black text-text">
                     Thành tựu rạng danh
                   </h3>
                 </div>
@@ -189,16 +175,15 @@ watch(
                   <li
                     v-for="(achievement, idx) in hero.achievements"
                     :key="idx"
-                    class="bg-[#F7FFF7] p-5 rounded-3xl border-2 border-dashed border-[#4ECDC4]/30 flex items-start gap-4 transform hover:-translate-y-1 transition-transform"
+                    class="bg-background p-5 rounded-3xl border-2 border-dashed border-secondary/30 flex items-start gap-4 transform hover:-translate-y-1 transition-transform"
                   >
                     <Icon
                       name="fluent-emoji:star"
                       class="text-2xl flex-shrink-0 mt-1"
                     />
-                    <span
-                      class="text-[#1A535C] font-bold text-lg leading-snug"
-                      >{{ achievement }}</span
-                    >
+                    <span class="text-text font-bold text-lg leading-snug">{{
+                      achievement
+                    }}</span>
                   </li>
                 </ul>
               </section>
@@ -218,7 +203,7 @@ watch(
   background: #f1f1f1;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #4ecdc4;
+  background: var(--secondary);
   border-radius: 10px;
 }
 

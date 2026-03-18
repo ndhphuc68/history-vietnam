@@ -1,24 +1,10 @@
 <script setup lang="ts">
+import type { Hero } from "~/types/history";
 /**
  * Interactive Hero Card component.
  * Displays hero information with premium styling and unlock state.
  * Direct click opens the detailed modal.
  */
-interface Hero {
-  id: string;
-  name: string;
-  realName: string;
-  birthDate: string;
-  deathDate: string;
-  hometown: string;
-  position: string;
-  title: string;
-  era: string;
-  image: string;
-  description: string;
-  achievements: string[];
-}
-
 const props = defineProps<{
   hero: Hero;
   isUnlocked: boolean;
@@ -42,7 +28,7 @@ const handleCardClick = () => {
     <div
       class="w-full h-full transition-all duration-300 shadow-xl rounded-[40px] overflow-hidden border-8 transform group-hover:-translate-y-3 group-hover:shadow-2xl"
       :class="
-        isUnlocked ? 'border-[#FFE66D] bg-white' : 'border-gray-200 bg-gray-50'
+        isUnlocked ? 'border-accent bg-white' : 'border-gray-200 bg-gray-50'
       "
     >
       <!-- Locked State -->
@@ -70,12 +56,12 @@ const handleCardClick = () => {
             class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-t from-[#1A535C]/50 via-transparent to-transparent"
+            class="absolute inset-0 bg-gradient-to-t from-text/50 via-transparent to-transparent"
           ></div>
 
           <!-- Era Badge -->
           <div
-            class="absolute top-6 right-6 px-4 py-1.5 bg-white/95 backdrop-blur-sm rounded-full text-xs font-black text-[#1A535C] uppercase tracking-wider shadow-md"
+            class="absolute top-6 right-6 px-4 py-1.5 bg-white/95 backdrop-blur-sm rounded-full text-xs font-black text-text uppercase tracking-wider shadow-md"
           >
             {{ hero.era }}
           </div>
@@ -86,19 +72,19 @@ const handleCardClick = () => {
           class="p-6 flex flex-col items-center text-center justify-center h-[28%] bg-white"
         >
           <h3
-            class="text-2xl md:text-3xl font-black text-[#1A535C] leading-tight mb-1 group-hover:text-[#FF6B6B] transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
+            class="text-2xl md:text-3xl font-black text-text leading-tight mb-1 group-hover:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
           >
             {{ hero.name }}
           </h3>
           <p
-            class="text-base font-bold text-[#FF6B6B] opacity-90 uppercase tracking-tight"
+            class="text-base font-bold text-primary opacity-90 uppercase tracking-tight"
           >
             {{ hero.title }}
           </p>
 
           <!-- Interaction Hint -->
           <div
-            class="mt-3 text-[#4ECDC4] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-2"
+            class="mt-3 text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-2"
           >
             <span class="text-xs font-black uppercase tracking-widest"
               >Khám phá tiểu sử</span

@@ -1,12 +1,9 @@
 <script setup lang="ts">
+import type { CompletionScreenProps } from "~/types/props/lesson";
 /**
  * Celebration screen after completing a lesson.
  */
-interface Props {
-  lessonTitle: string;
-}
-
-defineProps<Props>();
+defineProps<CompletionScreenProps>();
 const emit = defineEmits(["finished"]);
 </script>
 
@@ -15,7 +12,7 @@ const emit = defineEmits(["finished"]);
     class="flex flex-col items-center justify-center min-h-[60vh] p-6 text-center animate-completion"
   >
     <div
-      class="max-w-xl w-full bg-white rounded-[40px] shadow-2xl p-12 border-8 border-[#FFE66D] relative"
+      class="max-w-xl w-full bg-white rounded-[40px] shadow-2xl p-12 border-8 border-accent relative"
     >
       <!-- Icon -->
       <div
@@ -24,22 +21,22 @@ const emit = defineEmits(["finished"]);
         <Icon name="fluent-emoji:trophy" />
       </div>
 
-      <h2 class="text-4xl md:text-5xl font-black text-[#1A535C] mb-4">
+      <h2 class="text-4xl md:text-5xl font-black text-text mb-4">
         Chúc mừng bạn!
       </h2>
 
       <p
-        class="text-xl md:text-2xl font-bold text-[#4ECDC4] mb-10 leading-relaxed"
+        class="text-xl md:text-2xl font-bold text-secondary mb-10 leading-relaxed"
       >
         Bạn đã xuất sắc hoàn thành bài học
         <br />
-        <span class="text-[#FF6B6B] block mt-2">"{{ lessonTitle }}"</span>
+        <span class="text-primary block mt-2">"{{ lessonTitle }}"</span>
       </p>
 
       <div class="space-y-4">
         <button
           @click="emit('finished')"
-          class="w-full py-5 bg-[#FF6B6B] text-white text-2xl font-black rounded-2xl shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-all flex items-center justify-center gap-3"
+          class="w-full py-5 bg-primary text-white text-2xl font-black rounded-2xl shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-all flex items-center justify-center gap-3"
         >
           TIẾP TỤC KHÁM PHÁ <Icon name="fluent-emoji:rocket" />
         </button>

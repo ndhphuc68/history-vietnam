@@ -1,16 +1,10 @@
 <script setup lang="ts">
+import type { LessonContainerProps } from "~/types/props/lesson";
 /**
  * Container component that manages the layout of the lesson.
  * This unifies the progress bar and content area.
  */
-interface Props {
-  progress: number;
-  currentStep: number;
-  totalSteps: number;
-  title: string;
-}
-
-defineProps<Props>();
+defineProps<LessonContainerProps>();
 </script>
 
 <template>
@@ -18,11 +12,11 @@ defineProps<Props>();
     <!-- Header Area -->
     <div class="px-6 py-4">
       <div class="flex items-center justify-between mb-4">
-        <h1 class="text-xl font-black text-[#1A535C] truncate pr-4">
+        <h1 class="text-xl font-black text-text truncate pr-4">
           {{ title }}
         </h1>
         <div
-          class="bg-white/80 backdrop-blur px-4 py-1 rounded-full text-xs font-black text-[#1A535C] shadow-sm whitespace-nowrap"
+          class="bg-white/80 backdrop-blur px-4 py-1 rounded-full text-xs font-black text-text shadow-sm whitespace-nowrap"
         >
           Slide {{ currentStep }} / {{ totalSteps }}
         </div>
@@ -33,7 +27,7 @@ defineProps<Props>();
         class="h-4 bg-gray-100 rounded-full overflow-hidden border-2 border-white shadow-sm"
       >
         <div
-          class="h-full bg-gradient-to-r from-[#FF6B6B] to-[#FF8E8E] transition-all duration-700 ease-out"
+          class="h-full bg-gradient-to-r from-primary to-[#FF8E8E] transition-all duration-700 ease-out"
           :style="{ width: `${progress}%` }"
         ></div>
       </div>

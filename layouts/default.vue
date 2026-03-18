@@ -1,65 +1,179 @@
 <script setup lang="ts">
 import { useHeroStore } from "~/stores/heroStore";
+import { useProgressStore } from "~/stores/progressStore";
 
 const heroStore = useHeroStore();
+const progressStore = useProgressStore();
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+
+// Close menu when route changes
+const route = useRoute();
+watch(
+  () => route.path,
+  () => {
+    isMenuOpen.value = false;
+  },
+);
 
 onMounted(() => {
   heroStore.initialize();
+  progressStore.initialize();
 });
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-[#F7FFF7]">
+  <div class="min-h-screen flex flex-col bg-background">
     <!-- Navigation Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
       <nav
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
       >
-        <NuxtLink to="/" class="flex items-center space-x-2">
+        <NuxtLink to="/" class="flex items-center space-x-2 flex-shrink-0">
           <div
-            class="w-12 h-12 bg-[#FF6B6B] rounded-xl flex items-center justify-center text-white text-2xl font-bold shadow-lg"
+            class="w-10 h-10 md:w-12 md:h-12 bg-primary rounded-xl flex items-center justify-center text-white text-xl md:text-2xl font-bold shadow-lg"
           >
             VN
           </div>
-          <span class="text-2xl font-black tracking-tight text-[#1A535C]">
-            Lịch Sử <span class="text-[#FF6B6B]">Nhí</span>
+          <span
+            class="hidden xs:block text-xl md:text-2xl font-black tracking-tight text-text"
+          >
+            Lịch Sử <span class="text-primary">Nhí</span>
           </span>
         </NuxtLink>
 
         <div class="hidden md:flex items-center space-x-8">
           <NuxtLink
             to="/"
-            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
-            >Trang chủ</NuxtLink
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            exact-active-class="text-primary"
           >
+            Trang chủ
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-exact-active]:opacity-100 transition-all duration-300 transform group-[.router-link-exact-active]:scale-110"
+            ></span>
+          </NuxtLink>
           <NuxtLink
             to="/map"
-            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
-            >Bản đồ</NuxtLink
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
           >
+            Bản đồ
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
           <NuxtLink
             to="/lesson"
-            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
-            >Bài học</NuxtLink
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
           >
+            Bài học
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
           <NuxtLink
             to="/gallery"
-            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
-            >Anh hùng</NuxtLink
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
           >
+            Anh hùng
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
           <NuxtLink
             to="/about"
-            class="text-lg font-bold text-[#1A535C] hover:text-[#FF6B6B] transition-colors"
-            >Về chúng mình</NuxtLink
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
           >
+            Về chúng mình
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
         </div>
 
-        <div class="flex items-center space-x-4">
-          <NuxtLink to="/map" class="btn-primary py-2 px-6"
+        <div class="flex items-center space-x-2 md:space-x-4">
+          <NuxtLink
+            to="/map"
+            class="btn-primary py-2 px-4 md:px-6 text-sm md:text-base whitespace-nowrap"
             >Bắt đầu ngay</NuxtLink
           >
+
+          <!-- Hamburger Button -->
+          <button
+            @click="toggleMenu"
+            class="md:hidden p-2 text-text hover:bg-gray-100 rounded-lg transition-colors"
+          >
+            <Icon
+              :name="
+                isMenuOpen
+                  ? 'fluent-emoji:cross-mark'
+                  : 'fluent-emoji:hamburger'
+              "
+              class="text-2xl"
+            />
+          </button>
         </div>
       </nav>
+
+      <!-- Mobile Navigation Menu -->
+      <Transition
+        enter-active-class="transition-all duration-300 ease-out"
+        enter-from-class="opacity-0 -translate-y-4"
+        enter-to-class="opacity-100 translate-y-0"
+        leave-active-class="transition-all duration-200 ease-in"
+        leave-from-class="opacity-100 translate-y-0"
+        leave-to-class="opacity-0 -translate-y-4"
+      >
+        <div
+          v-if="isMenuOpen"
+          class="md:hidden bg-white border-t border-gray-100 shadow-xl overflow-hidden"
+        >
+          <div class="px-4 py-6 space-y-4">
+            <NuxtLink
+              to="/"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              exact-active-class="bg-primary/5 text-primary"
+            >
+              Trang chủ
+            </NuxtLink>
+            <NuxtLink
+              to="/map"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Bản đồ
+            </NuxtLink>
+            <NuxtLink
+              to="/lesson"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Bài học
+            </NuxtLink>
+            <NuxtLink
+              to="/gallery"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Anh hùng
+            </NuxtLink>
+            <NuxtLink
+              to="/about"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Về chúng mình
+            </NuxtLink>
+          </div>
+        </div>
+      </Transition>
     </header>
 
     <!-- Main Content -->
@@ -68,28 +182,26 @@ onMounted(() => {
     </main>
 
     <!-- Footer -->
-    <footer
-      class="bg-[#1A535C] text-white pt-20 pb-10 relative overflow-hidden"
-    >
+    <footer class="bg-text text-white pt-20 pb-10 relative overflow-hidden">
       <!-- Decoration -->
       <div
-        class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#FF6B6B] via-[#FFE66D] to-[#4ECDC4]"
+        class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-accent to-secondary"
       ></div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 text-center sm:text-left"
         >
           <!-- Brand & Mission -->
-          <div class="space-y-6">
+          <div class="space-y-6 flex flex-col items-center sm:items-start">
             <NuxtLink to="/" class="flex items-center space-x-2">
               <div
-                class="w-10 h-10 bg-[#FF6B6B] rounded-lg flex items-center justify-center text-white text-xl font-bold shadow-lg"
+                class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white text-xl font-bold shadow-lg"
               >
                 VN
               </div>
               <span class="text-xl font-black tracking-tight">
-                Lịch Sử <span class="text-[#FF6B6B]">Nhí</span>
+                Lịch Sử <span class="text-primary">Nhí</span>
               </span>
             </NuxtLink>
             <p class="text-gray-300 font-medium leading-relaxed">
@@ -99,19 +211,19 @@ onMounted(() => {
             <div class="flex space-x-4">
               <a
                 href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FF6B6B] transition-all transform hover:scale-110"
+                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
               >
                 <Icon name="fluent-emoji:blue-book" class="text-2xl" />
               </a>
               <a
                 href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FF6B6B] transition-all transform hover:scale-110"
+                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
               >
-                <Icon name="fluent-emoji:camera-with-flash" class="text-2xl" />
+                <Icon name="fluent-emoji:camera" class="text-2xl" />
               </a>
               <a
                 href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FF6B6B] transition-all transform hover:scale-110"
+                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
               >
                 <Icon name="fluent-emoji:envelope" class="text-2xl" />
               </a>
@@ -121,15 +233,17 @@ onMounted(() => {
           <!-- Quick Links -->
           <div>
             <h4
-              class="text-lg font-black mb-6 uppercase tracking-wider text-[#4ECDC4]"
+              class="text-lg font-black mb-6 uppercase tracking-wider text-secondary"
             >
               Khám phá
             </h4>
-            <ul class="space-y-4 font-bold text-gray-300">
+            <ul
+              class="space-y-4 font-bold text-gray-300 flex flex-col items-center sm:items-start"
+            >
               <li>
                 <NuxtLink
                   to="/map"
-                  class="hover:text-[#FF6B6B] transition-colors"
+                  class="hover:text-primary transition-colors flex items-center"
                   ><Icon name="fluent-emoji:world-map" class="mr-2" /> Bản đồ
                   Lịch sử</NuxtLink
                 >
@@ -137,7 +251,7 @@ onMounted(() => {
               <li>
                 <NuxtLink
                   to="/lesson"
-                  class="hover:text-[#FF6B6B] transition-colors"
+                  class="hover:text-primary transition-colors flex items-center"
                   ><Icon name="fluent-emoji:open-book" class="mr-2" /> Danh sách
                   Bài học</NuxtLink
                 >
@@ -145,15 +259,15 @@ onMounted(() => {
               <li>
                 <NuxtLink
                   to="/gallery"
-                  class="hover:text-[#FF6B6B] transition-colors"
-                  ><Icon name="fluent-emoji:shield-with-sheath" class="mr-2" />
-                  Bộ sưu tập Anh hùng</NuxtLink
+                  class="hover:text-primary transition-colors flex items-center"
+                  ><Icon name="fluent-emoji:shield" class="mr-2" /> Bộ sưu tập
+                  Anh hùng</NuxtLink
                 >
               </li>
               <li>
                 <NuxtLink
                   to="/quiz"
-                  class="hover:text-[#FF6B6B] transition-colors"
+                  class="hover:text-primary transition-colors flex items-center"
                   ><Icon name="fluent-emoji:bullseye" class="mr-2" /> Thử thách
                   Đố vui</NuxtLink
                 >
@@ -161,7 +275,7 @@ onMounted(() => {
               <li>
                 <NuxtLink
                   to="/about"
-                  class="hover:text-[#FF6B6B] transition-colors"
+                  class="hover:text-primary transition-colors flex items-center"
                   ><Icon name="fluent-emoji:seedling" class="mr-2" /> Về chúng
                   mình</NuxtLink
                 >
@@ -170,21 +284,21 @@ onMounted(() => {
           </div>
 
           <!-- Solo Project Info -->
-          <div>
+          <div class="flex flex-col items-center sm:items-start">
             <h4
-              class="text-lg font-black mb-6 uppercase tracking-wider text-[#FFE66D]"
+              class="text-lg font-black mb-6 uppercase tracking-wider text-accent"
             >
               Về Dự án
             </h4>
-            <div class="space-y-4">
+            <div class="space-y-4 w-full">
               <p
-                class="text-gray-300 font-medium leading-relaxed italic border-l-4 border-[#FFE66D] pl-4"
+                class="text-gray-300 font-medium leading-relaxed italic border-l-0 sm:border-l-4 border-accent sm:pl-4"
               >
                 "Dự án tâm huyết được xây dựng bởi PhucNDH với tình yêu dành cho
                 lịch sử Việt Nam."
               </p>
               <div
-                class="flex items-center space-x-3 text-sm font-bold text-[#4ECDC4]"
+                class="flex items-center justify-center sm:justify-start space-x-3 text-sm font-bold text-secondary"
               >
                 <Icon name="fluent-emoji:round-pushpin" class="text-xl" />
                 <span>Bình Định - Gia Lai, Việt Nam</span>
@@ -192,14 +306,16 @@ onMounted(() => {
             </div>
           </div>
 
-          <!-- Disclaimer Header -->
-          <div>
+          <!-- Disclaimer Block -->
+          <div class="flex flex-col items-center sm:items-start">
             <h4
-              class="text-lg font-black mb-6 uppercase tracking-wider text-[#FF6B6B]"
+              class="text-lg font-black mb-6 uppercase tracking-wider text-primary"
             >
               Lưu ý
             </h4>
-            <div class="p-5 bg-white/5 rounded-2xl border border-white/10">
+            <div
+              class="p-5 bg-white/5 rounded-2xl border border-white/10 w-full"
+            >
               <p class="text-xs text-gray-400 font-medium leading-relaxed">
                 Nội dung và hình ảnh được hỗ trợ bởi công nghệ AI và có sự rà
                 soát của cá nhân. Mọi ý kiến đóng góp về sai sót xin vui lòng
@@ -218,17 +334,19 @@ onMounted(() => {
         >
           <p>
             © {{ new Date().getFullYear() }} Dòng Máu Lạc Hồng. Made with
-            <Icon name="fluent-emoji:heart" class="inline-block mx-1" /> by
+            <Icon name="fluent-emoji:red-heart" class="inline-block mx-1" /> by
             PhucNDH.
           </p>
-          <div class="flex space-x-8">
-            <a href="#" class="hover:text-white transition-colors"
-              >Điều khoản</a
+          <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+            <NuxtLink to="/terms" class="hover:text-white transition-colors"
+              >Điều khoản</NuxtLink
             >
-            <a href="#" class="hover:text-white transition-colors">Bảo mật</a>
-            <a href="#" class="hover:text-white transition-colors"
-              >Báo lỗi <Icon name="fluent-emoji:wrench" class="ml-1 text-sm"
-            /></a>
+            <NuxtLink to="/privacy" class="hover:text-white transition-colors"
+              >Bảo mật</NuxtLink
+            >
+            <NuxtLink to="/report" class="hover:text-white transition-colors">
+              Báo lỗi <Icon name="fluent-emoji:wrench" class="ml-1 text-sm" />
+            </NuxtLink>
           </div>
         </div>
       </div>

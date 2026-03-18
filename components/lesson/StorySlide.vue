@@ -1,17 +1,9 @@
 <script setup lang="ts">
+import type { StorySlideProps } from "~/types/props/lesson";
 /**
  * Component to display story-based content for children.
  */
-interface Props {
-  text: string;
-  image?: string;
-  canNext?: boolean;
-  showPrev?: boolean;
-  nextLabel?: string;
-  nextIcon?: string;
-}
-
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<StorySlideProps>(), {
   canNext: true,
   showPrev: true,
   nextLabel: "TIẾP THEO",
@@ -25,7 +17,7 @@ defineEmits(["next", "prev"]);
   <div class="flex flex-col items-center justify-center p-4 md:p-8 h-full">
     <!-- Storybook Frame -->
     <div
-      class="max-w-5xl w-full bg-white rounded-[40px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] overflow-hidden border-8 border-white p-6 md:p-10 flex flex-col gap-8 transition-all duration-500 h-full min-h-[550px]"
+      class="max-w-5xl w-full bg-white rounded-[32px] md:rounded-[40px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] overflow-hidden border-4 md:border-8 border-white p-4 md:p-10 flex flex-col gap-6 md:gap-8 transition-all duration-500 h-full min-h-[500px] md:min-h-[550px]"
     >
       <!-- Top Content Section (Horizontal) -->
       <div class="flex flex-col md:flex-row gap-8 flex-1 min-h-0 items-center">
@@ -46,27 +38,27 @@ defineEmits(["next", "prev"]);
 
           <!-- Decorative corners -->
           <div
-            class="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#1A535C]/20 rounded-tl-lg"
+            class="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-text/20 rounded-tl-lg"
           ></div>
           <div
-            class="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#1A535C]/20 rounded-br-lg"
+            class="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-text/20 rounded-br-lg"
           ></div>
         </div>
 
         <!-- Placeholder if no image -->
         <div
           v-else
-          class="w-full md:w-[60%] aspect-square md:aspect-auto md:h-full flex flex-col items-center justify-center bg-[#F7FFF7] rounded-[35px] border-4 border-dashed border-[#1A535C]/10"
+          class="w-full md:w-[60%] aspect-square md:aspect-auto md:h-full flex flex-col items-center justify-center bg-background rounded-[35px] border-4 border-dashed border-text/10"
         >
           <Icon name="fluent-emoji:scroll" class="text-8xl animate-bounce" />
         </div>
 
         <!-- Story Text Section -->
         <div
-          class="w-full md:w-[40%] flex items-center justify-center px-4 text-center"
+          class="w-full md:w-[40%] flex items-center justify-center px-2 md:px-4 text-center"
         >
           <p
-            class="text-xl md:text-2xl font-black text-[#1A535C] italic leading-relaxed drop-shadow-sm px-4"
+            class="text-lg md:text-2xl font-black text-text italic leading-relaxed drop-shadow-sm px-2 md:px-4"
           >
             "{{ text }}"
           </p>
@@ -80,9 +72,9 @@ defineEmits(["next", "prev"]);
         <button
           v-if="showPrev"
           @click="$emit('prev')"
-          class="flex-1 max-w-[200px] px-8 py-5 rounded-2xl font-black text-xl border-4 border-[#1A535C] text-[#1A535C] hover:bg-[#1A535C] hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all whitespace-nowrap shadow-md"
+          class="flex-1 max-w-[140px] md:max-w-[200px] px-4 md:px-8 py-3 md:py-5 rounded-2xl font-black text-sm md:text-xl border-4 border-text text-text hover:bg-text hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all whitespace-nowrap shadow-md uppercase"
         >
-          QUAY LẠI
+          Quay lại
         </button>
         <div v-else class="flex-1 max-w-[200px]"></div>
 

@@ -15,15 +15,15 @@ const handleError = () => clearError({ redirect: "/" });
 
 <template>
   <div
-    class="min-h-screen bg-[#F7FFF7] flex items-center justify-center px-4 relative overflow-hidden"
+    class="min-h-screen bg-background flex items-center justify-center px-4 relative overflow-hidden"
   >
     <!-- Decorative Background -->
     <div class="absolute inset-0 pointer-events-none opacity-20">
       <div
-        class="absolute top-[15%] left-[10%] w-64 h-64 bg-[#FF6B6B] rounded-full blur-3xl animate-pulse"
+        class="absolute top-[15%] left-[10%] w-64 h-64 bg-primary rounded-full blur-3xl animate-pulse"
       ></div>
       <div
-        class="absolute bottom-[10%] right-[15%] w-80 h-80 bg-[#4ECDC4] rounded-full blur-3xl"
+        class="absolute bottom-[10%] right-[15%] w-80 h-80 bg-secondary rounded-full blur-3xl"
       ></div>
     </div>
 
@@ -31,7 +31,7 @@ const handleError = () => clearError({ redirect: "/" });
       <!-- Illustration Area -->
       <div class="mb-12 relative inline-block group">
         <div
-          class="absolute inset-0 bg-[#FFE66D] rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity"
+          class="absolute inset-0 bg-accent rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity"
         ></div>
         <Icon
           name="fluent-emoji:hourglass-done"
@@ -44,15 +44,13 @@ const handleError = () => clearError({ redirect: "/" });
         </div>
       </div>
 
-      <h1
-        class="text-4xl md:text-6xl font-black text-[#1A535C] mb-6 leading-tight"
-      >
+      <h1 class="text-4xl md:text-6xl font-black text-text mb-6 leading-tight">
         Ôi! Hình như bé bị <br />
-        <span class="text-[#FF6B6B]">lạc giữa dòng lịch sử?</span>
+        <span class="text-primary">lạc giữa dòng lịch sử?</span>
       </h1>
 
       <p
-        class="text-xl text-[#1A535C]/70 font-medium mb-12 max-w-md mx-auto leading-relaxed"
+        class="text-xl text-text/70 font-medium mb-12 max-w-md mx-auto leading-relaxed"
       >
         Trang này có thể đã trôi xa về quá khứ hoặc chưa từng tồn tại. Đừng lo,
         chúng mình cùng quay lại hiện tại nhé!
@@ -61,14 +59,14 @@ const handleError = () => clearError({ redirect: "/" });
       <div class="flex flex-col sm:flex-row gap-6 justify-center">
         <button
           @click="handleError"
-          class="px-10 py-4 bg-[#FF6B6B] text-white font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3"
+          class="px-10 py-4 bg-primary text-white font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3"
         >
           <Icon name="fluent-emoji:house" /> Quay về Trang chủ
         </button>
         <NuxtLink
           to="/map"
           @click="clearError()"
-          class="px-10 py-4 bg-white text-[#1A535C] font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-[#1A535C]/5"
+          class="px-10 py-4 bg-white text-text font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-text/5"
         >
           <Icon name="fluent-emoji:world-map" /> Xem Bản đồ
         </NuxtLink>
@@ -76,9 +74,9 @@ const handleError = () => clearError({ redirect: "/" });
 
       <!-- Secret Historical Fact -->
       <div
-        class="mt-20 p-6 bg-white/50 backdrop-blur-sm rounded-3xl border-2 border-dashed border-[#1A535C]/10 max-w-sm mx-auto"
+        class="mt-20 p-6 bg-white/50 backdrop-blur-sm rounded-3xl border-2 border-dashed border-text/10 max-w-sm mx-auto"
       >
-        <p class="text-sm font-bold text-[#1A535C]/60 italic italic">
+        <p class="text-sm font-bold text-text/60 italic italic">
           "Bé có biết? Kinh đô Thăng Long (Hà Nội ngày nay) được vua Lý Thái Tổ
           chọn đóng đô từ năm 1010 đó!"
         </p>

@@ -1,14 +1,9 @@
 <script setup lang="ts">
+import type { LazyImageProps } from "~/types/props/ui";
 /**
  * A robust lazy-loading image component using Intersection Observer.
  */
-interface Props {
-  src: string;
-  alt?: string;
-  loading?: "lazy" | "eager";
-}
-
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<LazyImageProps>(), {
   alt: "Illustration",
   loading: "lazy",
 });

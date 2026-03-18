@@ -15,29 +15,37 @@ useHead({
 </script>
 
 <template>
-  <div class="min-h-screen relative bg-[#F7FFF7] font-sans overflow-x-hidden">
-    <!-- Soft Decorative Background Texture -->
-    <div
-      class="fixed inset-0 pointer-events-none opacity-20 z-0 bg-[url('https://www.transparenttextures.com/patterns/handmade-paper.png')] bg-repeat"
-    />
-    <!-- Subtle Dot Grid -->
-    <div
-      class="fixed inset-0 pointer-events-none opacity-10 z-0 bg-[url('https://www.transparenttextures.com/patterns/p6.png')] bg-repeat"
-    />
-
+  <div class="min-h-screen relative bg-background font-sans overflow-x-hidden">
     <div class="relative z-10 max-w-screen-xl mx-auto px-4 pt-12 pb-32">
+      <!-- Decorative Floating Blobs -->
+      <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div
+          class="absolute top-20 -left-20 w-80 h-80 bg-secondary/10 rounded-full blur-3xl animate-pulse"
+        ></div>
+        <div
+          class="absolute bottom-40 -right-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse"
+          style="animation-delay: 2s"
+        ></div>
+        <div class="absolute inset-0 opacity-[0.08] map-grid-pattern"></div>
+      </div>
+
       <!-- Main Content -->
-      <div class="max-w-4xl mx-auto">
+      <div class="relative z-10 max-w-4xl mx-auto">
         <MapHistoryMap :eras="mapData.eras" />
       </div>
 
       <!-- Navigation Footer -->
-      <div class="mt-24 text-center">
-        <button
-          class="inline-flex items-center gap-2 px-10 py-4 bg-[#FF6B6B] text-white font-black rounded-full shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-transform duration-300 text-xl"
+      <div class="mt-24 text-center relative z-20">
+        <NuxtLink
+          to="/"
+          class="inline-flex items-center gap-3 px-12 py-5 bg-white text-text font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-xl border-4 border-text/5 group"
         >
-          TIẾP TỤC HÀNH TRÌNH
-        </button>
+          <Icon
+            name="fluent-emoji:house"
+            class="text-2xl group-hover:rotate-12 transition-transform"
+          />
+          QUAY VỀ TRANG CHỦ
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -45,6 +53,13 @@ useHead({
 
 <style scoped>
 .min-h-screen {
-  background: linear-gradient(180deg, #f7fff7 0%, #edf7ed 100%);
+  background: linear-gradient(180deg, var(--background) 0%, #edf7ed 100%);
+}
+
+.map-grid-pattern {
+  background-image:
+    linear-gradient(to right, rgba(26, 83, 92, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 83, 92, 0.12) 1px, transparent 1px);
+  background-size: 48px 48px;
 }
 </style>

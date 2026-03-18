@@ -9,21 +9,21 @@
       class="relative pt-20 pb-32 flex flex-col items-center text-center px-4"
     >
       <div
-        class="absolute inset-0 -z-10 bg-gradient-to-b from-[#F7FFF7] to-white"
+        class="absolute inset-0 -z-10 bg-gradient-to-b from-background to-white"
       />
 
       <div
-        class="inline-block px-4 py-1 mb-6 bg-[#FFE66D] text-[#1A535C] font-bold rounded-full text-sm uppercase tracking-wider transform -rotate-2"
+        class="inline-block px-4 py-1 mb-6 bg-accent text-text font-bold rounded-full text-sm uppercase tracking-wider transform -rotate-2"
       >
         <Icon name="fluent-emoji:house" class="mr-2 text-xl" /> Khám phá 4000
         năm Lịch Sử
       </div>
 
       <h1
-        class="text-5xl md:text-7xl font-black text-[#1A535C] leading-tight mb-8"
+        class="text-4xl sm:text-5xl md:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
       >
         Hành trình ngược thời gian <br />
-        <span class="text-[#FF6B6B] relative">
+        <span class="text-primary relative">
           cùng Bé yêu!
           <svg
             class="absolute -bottom-2 left-0 w-full"
@@ -32,7 +32,7 @@
           >
             <path
               d="M1 11C60 4 120 1 180 1C240 1 300 11 300 11"
-              stroke="#FF6B6B"
+              stroke="var(--primary)"
               stroke-width="3"
               stroke-linecap="round"
             />
@@ -40,21 +40,23 @@
         </span>
       </h1>
 
-      <p class="text-xl md:text-2xl text-[#1A535C] opacity-80 max-w-2xl mb-12">
+      <p class="text-lg md:text-2xl text-text opacity-80 max-w-2xl mb-12 px-2">
         Học lịch sử Việt Nam qua những câu chuyện thú vị, hình ảnh sinh động và
         các trò chơi đố vui hấp dẫn.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4">
+      <div
+        class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 sm:px-0"
+      >
         <NuxtLink
           to="/map"
-          class="btn-primary text-xl px-12 py-5 ring-offset-2 ring-primary focus:ring-4"
+          class="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 md:py-5 ring-offset-2 ring-primary focus:ring-4"
         >
           Bắt đầu Hành Trình
         </NuxtLink>
         <NuxtLink
           to="/lesson"
-          class="bg-white border-4 border-[#4ECDC4] text-[#4ECDC4] text-xl font-bold px-12 py-5 rounded-full hover:bg-[#4ECDC4] hover:text-white transition-all shadow-lg flex items-center justify-center"
+          class="bg-white border-4 border-secondary text-secondary text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full hover:bg-secondary hover:text-white transition-all shadow-lg flex items-center justify-center"
         >
           Danh sách Bài học
         </NuxtLink>
@@ -62,7 +64,7 @@
 
       <!-- Hero Image -->
       <div
-        class="mt-20 w-full max-w-[1600px] rounded-[3rem] overflow-hidden shadow-2xl border-[16px] border-white transform hover:scale-[1.005] transition-all duration-700 ease-out cursor-pointer group px-4 md:px-0"
+        class="mt-16 md:mt-20 w-full max-w-[1600px] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-[8px] md:border-[16px] border-white transform hover:scale-[1.005] transition-all duration-700 ease-out cursor-pointer group px-0"
       >
         <UiLazyImage
           src="/images/banner/banner.png"
@@ -74,39 +76,41 @@
     </section>
 
     <!-- Feature Section -->
-    <section class="relative py-32 bg-[#F7FFF7]/50">
+    <section class="relative py-32 bg-background/50">
       <!-- Decorative Background Elements -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
         <div
-          class="absolute top-1/2 left-[-10%] w-[40%] h-[40%] bg-[#4ECDC4]/10 rounded-full blur-[120px]"
+          class="absolute top-1/2 left-[-10%] w-[40%] h-[40%] bg-secondary/10 rounded-full blur-[120px]"
         ></div>
         <div
-          class="absolute bottom-0 right-[-10%] w-[30%] h-[30%] bg-[#FF6B6B]/10 rounded-full blur-[100px]"
+          class="absolute bottom-0 right-[-10%] w-[30%] h-[30%] bg-primary/10 rounded-full blur-[100px]"
         ></div>
       </div>
 
       <div class="max-w-7xl mx-auto px-4 relative z-10">
-        <div class="text-center mb-20 animate-fade-in">
-          <h2 class="text-4xl md:text-5xl font-black text-[#1A535C] mb-4">
+        <div class="text-center mb-16 md:mb-20 animate-fade-in px-4">
+          <h2 class="text-3xl md:text-5xl font-black text-text mb-4">
             Tại sao bé sẽ thích Lịch sử Nhí?
           </h2>
-          <div class="h-2 w-24 bg-[#FF6B6B] rounded-full mx-auto"></div>
+          <div class="h-2 w-24 bg-primary rounded-full mx-auto"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-16"
+        >
           <!-- Card 1 -->
           <div
-            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#FFE66D] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-accent hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
           >
             <div
-              class="absolute top-0 right-0 w-32 h-32 bg-[#FFE66D]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+              class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
             ></div>
 
             <div
-              class="w-28 h-28 bg-[#FFE66D]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-accent/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
             >
               <span
-                class="absolute inset-0 bg-[#FFE66D]/10 blur-xl rounded-full scale-75 animate-pulse"
+                class="absolute inset-0 bg-accent/10 blur-xl rounded-full scale-75 animate-pulse"
               ></span>
               <Icon
                 name="fluent-emoji:open-book"
@@ -114,10 +118,10 @@
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
               Câu chuyện hấp dẫn
             </h3>
-            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+            <p class="text-lg text-text/70 font-medium leading-relaxed">
               Tìm hiểu về các đời vua Hùng, Thánh Gióng, Hai Bà Trưng qua những
               mẩu truyện tranh sinh động, đưa bé vào thế giới cổ tích nhiệm màu.
             </p>
@@ -125,18 +129,18 @@
 
           <!-- Card 2 -->
           <div
-            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#4ECDC4] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-secondary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
             style="transition-delay: 100ms"
           >
             <div
-              class="absolute top-0 right-0 w-32 h-32 bg-[#4ECDC4]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+              class="absolute top-0 right-0 w-32 h-32 bg-secondary/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
             ></div>
 
             <div
-              class="w-28 h-28 bg-[#4ECDC4]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:-rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-secondary/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:-rotate-12 transition-transform duration-500"
             >
               <span
-                class="absolute inset-0 bg-[#4ECDC4]/10 blur-xl rounded-full scale-75 animate-pulse"
+                class="absolute inset-0 bg-secondary/10 blur-xl rounded-full scale-75 animate-pulse"
               ></span>
               <Icon
                 name="fluent-emoji:video-game"
@@ -144,10 +148,10 @@
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
               Trò chơi đố vui
             </h3>
-            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+            <p class="text-lg text-text/70 font-medium leading-relaxed">
               Thử thách trí thông minh với các câu hỏi lý thú. Càng chơi càng
               biểu giỏi để nhận được những huy hiệu dũng sĩ lịch sử cực ngầu!
             </p>
@@ -155,18 +159,18 @@
 
           <!-- Card 3 -->
           <div
-            class="group bg-white rounded-[50px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-[#FF6B6B] hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group sm:col-span-2 lg:col-span-1 bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-primary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
             style="transition-delay: 200ms"
           >
             <div
-              class="absolute top-0 right-0 w-32 h-32 bg-[#FF6B6B]/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
+              class="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
             ></div>
 
             <div
-              class="w-28 h-28 bg-[#FF6B6B]/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-primary/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
             >
               <span
-                class="absolute inset-0 bg-[#FF6B6B]/10 blur-xl rounded-full scale-75 animate-pulse"
+                class="absolute inset-0 bg-primary/10 blur-xl rounded-full scale-75 animate-pulse"
               ></span>
               <Icon
                 name="fluent-emoji:world-map"
@@ -174,10 +178,10 @@
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-[#1A535C] mb-6">
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
               Khám phá bản đồ
             </h3>
-            <p class="text-lg text-[#1A535C]/70 font-medium leading-relaxed">
+            <p class="text-lg text-text/70 font-medium leading-relaxed">
               Hành trình dọc theo chiều dài đất nước, theo dõi sự thay đổi của
               giang sơn qua các thời kỳ lịch sử hào hùng của cha ông ta.
             </p>

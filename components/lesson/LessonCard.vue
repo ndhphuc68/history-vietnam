@@ -1,19 +1,9 @@
 <script setup lang="ts">
+import type { LessonCardProps } from "~/types/props/lesson";
 /**
  * Component to display a summary of a lesson in a card format.
  */
-interface Props {
-  id: string;
-  title: string;
-  summary?: string;
-  period?: string;
-  isCompleted?: boolean;
-  isLocked?: boolean;
-  thumbnail?: string;
-  eraThumbnail?: string;
-}
-
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<LessonCardProps>(), {
   isCompleted: false,
   isLocked: false,
   summary: "Câu chuyện lịch sử đang chờ bạn khám phá...",
@@ -25,7 +15,7 @@ const props = withDefaults(defineProps<Props>(), {
   <NuxtLink
     v-if="!isLocked"
     :to="`/lesson/${id}`"
-    class="card relative flex flex-col h-full transition-all duration-300 group overflow-hidden border-4 hover:border-[#FF6B6B] hover:shadow-xl hover:-translate-y-1 shadow-md cursor-pointer"
+    class="card relative flex flex-col h-full transition-all duration-300 group overflow-hidden border-4 hover:border-primary hover:shadow-xl hover:-translate-y-1 shadow-md cursor-pointer"
     :class="
       isCompleted ? 'border-green-400 bg-green-50/30' : 'border-white bg-white'
     "
@@ -58,7 +48,7 @@ const props = withDefaults(defineProps<Props>(), {
         <!-- Period Badge -->
         <div class="absolute top-2 left-2 z-20">
           <span
-            class="px-3 py-1 bg-[#FFE66D]/90 backdrop-blur-sm text-[#1A535C] font-black rounded-full text-[10px] uppercase tracking-wider shadow-sm border border-white/20"
+            class="px-3 py-1 bg-accent/90 backdrop-blur-sm text-text font-black rounded-full text-[10px] uppercase tracking-wider shadow-sm border border-white/20"
           >
             {{ period }}
           </span>
@@ -66,14 +56,12 @@ const props = withDefaults(defineProps<Props>(), {
       </div>
       <div class="px-3 py-1.5 flex-grow flex flex-col">
         <h3
-          class="text-lg font-black text-[#1A535C] mb-0.5 group-hover:text-[#FF6B6B] transition-colors line-clamp-1 leading-tight"
+          class="text-lg font-black text-text mb-0.5 group-hover:text-primary transition-colors line-clamp-1 leading-tight"
         >
           {{ title }}
         </h3>
 
-        <p
-          class="text-[#1A535C] opacity-70 line-clamp-2 mb-2 text-xs leading-snug"
-        >
+        <p class="text-text opacity-70 line-clamp-2 mb-2 text-xs leading-snug">
           {{ summary }}
         </p>
 
@@ -87,7 +75,7 @@ const props = withDefaults(defineProps<Props>(), {
           </div>
           <div
             v-else
-            class="flex items-center text-[#FF6B6B] font-bold text-xs group-hover:translate-x-2 transition-transform"
+            class="flex items-center text-primary font-bold text-xs group-hover:translate-x-2 transition-transform"
           >
             Học ngay <Icon name="lucide:arrow-right" class="ml-1 w-3.5 h-3.5" />
           </div>
@@ -98,7 +86,7 @@ const props = withDefaults(defineProps<Props>(), {
 
   <div
     v-else
-    class="card relative flex flex-col h-full transition-all duration-300 group overflow-hidden border-4 cursor-not-allowed border-[#FF6B6B]/10 bg-white shadow-sm"
+    class="card relative flex flex-col h-full transition-all duration-300 group overflow-hidden border-4 cursor-not-allowed border-primary/10 bg-white shadow-sm"
   >
     <!-- Thumbnail Section -->
     <div
@@ -122,7 +110,7 @@ const props = withDefaults(defineProps<Props>(), {
       <!-- Period Badge -->
       <div class="absolute top-2 left-2">
         <span
-          class="px-3 py-1 bg-[#FFE66D]/90 backdrop-blur-sm text-[#1A535C] font-bold rounded-full text-[10px] uppercase tracking-wider shadow-sm"
+          class="px-3 py-1 bg-accent/90 backdrop-blur-sm text-text font-bold rounded-full text-[10px] uppercase tracking-wider shadow-sm"
         >
           {{ period }}
         </span>
@@ -132,25 +120,23 @@ const props = withDefaults(defineProps<Props>(), {
     <div class="px-3 py-1.5 flex-grow flex flex-col">
       <div class="flex items-center justify-between mb-1 min-h-[20px]">
         <span
-          class="text-[#FF6B6B] font-black text-[9px] uppercase tracking-wider bg-[#FF6B6B]/10 px-2 py-0.5 rounded-md"
+          class="text-primary font-black text-[9px] uppercase tracking-wider bg-primary/10 px-2 py-0.5 rounded-md"
         >
           Sắp ra mắt
         </span>
       </div>
 
       <h3
-        class="text-lg font-black text-[#1A535C] mb-0.5 line-clamp-1 leading-tight"
+        class="text-lg font-black text-text mb-0.5 line-clamp-1 leading-tight"
       >
         {{ title }}
       </h3>
 
-      <p
-        class="text-[#1A535C] opacity-70 line-clamp-2 mb-2 text-xs leading-snug"
-      >
+      <p class="text-text opacity-70 line-clamp-2 mb-2 text-xs leading-snug">
         {{ summary }}
       </p>
 
-      <div class="mt-auto pb-1 text-[#FF6B6B]/40 font-bold text-xs italic">
+      <div class="mt-auto pb-1 text-primary/40 font-bold text-xs italic">
         Đang biên soạn...
       </div>
     </div>

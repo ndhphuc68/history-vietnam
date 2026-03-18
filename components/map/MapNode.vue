@@ -1,19 +1,10 @@
 <script setup lang="ts">
+import type { MapNodeProps } from "~/types/props/map";
 /**
  * Redesigned MapNode for an alternating timeline layout.
  * Features significantly larger illustrations for children.
  */
-interface Props {
-  id: string;
-  title: string;
-  lessonId: string;
-  year?: string;
-  isUnlocked?: boolean;
-  isCompleted?: boolean;
-  align?: "left" | "right";
-}
-
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<MapNodeProps>(), {
   isUnlocked: true,
   isCompleted: false,
   align: "left",
@@ -29,15 +20,16 @@ const statusText = computed(() => {
 
 <template>
   <div
-    class="group relative w-full grid grid-cols-2 items-center min-h-[400px]"
+    class="group relative w-full grid grid-cols-1 md:grid-cols-2 items-center min-h-[auto] md:min-h-[400px] gap-8 md:gap-0 py-12 md:py-0"
   >
     <!-- Left Column -->
     <div
-      class="h-full flex flex-col justify-center transition-all duration-500"
+      class="h-full flex flex-col justify-center transition-all duration-500 px-6 sm:px-10 md:px-0 pl-20"
       :class="[
         align === 'right'
-          ? 'order-1 items-end pr-20 text-right'
-          : 'order-2 items-start pl-20 text-left',
+          ? 'md:order-1 md:items-end md:pr-20 md:text-right'
+          : 'md:order-2 md:items-start md:pl-20 md:text-left',
+        'order-2 items-start text-left',
       ]"
     >
       <!-- Tags Row -->
@@ -49,21 +41,21 @@ const statusText = computed(() => {
         </div>
         <div
           v-if="year"
-          class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[10px] font-black rounded shadow-sm tracking-wider flex items-center gap-1"
+          class="px-3 py-1 bg-secondary/20 text-text text-[11px] font-black rounded-full shadow-sm flex items-center gap-1.5 border border-white/50"
         >
-          <Icon name="lucide:calendar" class="text-[10px]" />
+          <Icon name="fluent-emoji:spiral-calendar" class="text-sm" />
           {{ year }}
         </div>
       </div>
 
       <h3
-        class="text-4xl md:text-5xl font-black text-[#1E293B] tracking-tighter leading-tight transition-colors group-hover:text-[#F87171] mb-2"
+        class="text-3xl sm:text-4xl md:text-5xl font-black text-text tracking-tight leading-tight transition-colors group-hover:text-primary mb-2"
       >
         {{ title }}
       </h3>
 
       <p
-        class="text-[#334155] font-bold text-lg max-w-xs leading-relaxed opacity-80 mb-6"
+        class="text-text font-bold text-base md:text-lg max-w-xs leading-relaxed opacity-60 mb-8"
       >
         {{ statusText }}
       </p>
@@ -72,26 +64,27 @@ const statusText = computed(() => {
       <NuxtLink
         v-if="isUnlocked"
         :to="`/lesson/${lessonId}`"
-        class="inline-flex items-center gap-2 px-8 py-3 bg-[#115E59] text-white font-black rounded-xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-transform duration-300 text-sm uppercase tracking-widest group-hover:bg-[#0D9488]"
+        class="inline-flex items-center gap-3 px-8 md:px-10 py-3.5 md:py-4 bg-primary text-white font-black rounded-2xl shadow-xl hover:scale-[1.05] active:scale-[0.95] transition-all duration-300 text-sm md:text-base uppercase tracking-widest group-hover:shadow-primary/20"
       >
-        HỌC NGAY
+        KHÁM PHÁ NGAY <Icon name="fluent-emoji:rocket" class="text-xl" />
       </NuxtLink>
       <div
         v-else
-        class="inline-flex items-center gap-2 px-8 py-3 bg-gray-200 text-gray-500 font-black rounded-xl text-sm uppercase tracking-widest cursor-not-allowed border-2 border-gray-300/50"
+        class="inline-flex items-center gap-3 px-10 py-4 bg-gray-100 text-gray-400 font-black rounded-2xl text-base uppercase tracking-widest cursor-not-allowed border-2 border-dashed border-gray-300"
       >
-        <Icon name="lucide:construction" class="text-lg" />
+        <Icon name="fluent-emoji:tools" class="text-xl" />
         ĐANG BIÊN SOẠN
       </div>
     </div>
 
     <!-- Right Column (Illustration) -->
     <div
-      class="h-full flex items-center transition-all duration-500"
+      class="h-full flex items-center transition-all duration-500 pl-20 md:pl-0"
       :class="[
         align === 'right'
-          ? 'order-2 justify-start pl-20'
-          : 'order-1 justify-end pr-20',
+          ? 'md:order-2 md:justify-start md:pl-20'
+          : 'md:order-1 md:justify-end md:pr-20',
+        'order-1 justify-start',
       ]"
     >
       <div class="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0 z-20">
@@ -104,7 +97,7 @@ const statusText = computed(() => {
             @error="
               (e: Event) =>
                 ((e.target as HTMLImageElement).src =
-                  'https://via.placeholder.com/400x400?text=History')
+                  '/images/history/default-thumb.png')
             "
             class="w-full h-full object-cover transition-transform duration-700"
             :alt="title"

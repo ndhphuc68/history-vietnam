@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { useHeroStore } from "~/stores/heroStore";
-
-const heroStore = useHeroStore();
+import type { Hero } from "~/types/history";
 
 const props = defineProps<{
-  unlockedHero: any | null;
+  unlockedHero: Hero | null;
   show: boolean;
 }>();
 
@@ -13,6 +11,37 @@ const emit = defineEmits(["close"]);
 const close = () => {
   emit("close");
 };
+
+type ConfettiPiece = {
+  left: string;
+  top: string;
+  backgroundColor: string;
+  animationDelay: string;
+  transform: string;
+};
+
+const confettiPieces = ref<ConfettiPiece[]>([]);
+
+watch(
+  () => props.show,
+  (show) => {
+    if (!show) return;
+    const colors = [
+      "var(--primary)",
+      "var(--secondary)",
+      "var(--accent)",
+      "var(--text)",
+    ];
+    confettiPieces.value = Array.from({ length: 12 }, () => ({
+      left: `${Math.random() * 100}%`,
+      top: "-10px",
+      backgroundColor: colors[Math.floor(Math.random() * colors.length)]!,
+      animationDelay: `${Math.random() * 2}s`,
+      transform: `rotate(${Math.random() * 360}deg)`,
+    }));
+  },
+  { immediate: true },
+);
 </script>
 
 <template>
@@ -32,16 +61,11 @@ const close = () => {
         class="relative w-full max-w-sm bg-white rounded-[40px] overflow-hidden shadow-2xl animate-scale-up"
       >
         <!-- Celebration Header -->
-        <div
-          class="bg-gradient-to-br from-[#FFE66D] to-[#FF6B6B] p-6 text-center"
-        >
+        <div class="bg-gradient-to-br from-accent to-primary p-6 text-center">
           <div
             class="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-4 shadow-lg animate-bounce"
           >
-            <Icon
-              name="fluent-emoji:sparkles"
-              class="text-4xl text-[#FF6B6B]"
-            />
+            <Icon name="fluent-emoji:sparkles" class="text-4xl text-primary" />
           </div>
           <h2 class="text-3xl font-black text-white leading-tight">
             BẠN ĐÃ MỞ KHÓA <br />
@@ -52,7 +76,7 @@ const close = () => {
         <!-- Hero Card Preview -->
         <div class="p-8 flex flex-col items-center">
           <div
-            class="w-48 h-64 bg-[#F7FFF7] rounded-3xl border-8 border-[#FFE66D] shadow-inner mb-6 flex items-center justify-center relative overflow-hidden group"
+            class="w-48 h-64 bg-background rounded-3xl border-8 border-accent shadow-inner mb-6 flex items-center justify-center relative overflow-hidden group"
           >
             <img
               :src="unlockedHero?.image"
@@ -72,15 +96,13 @@ const close = () => {
             </div>
           </div>
 
-          <p
-            class="text-center text-[#1A535C] font-medium opacity-80 mb-8 italic"
-          >
+          <p class="text-center text-text font-medium opacity-80 mb-8 italic">
             "{{ unlockedHero?.title }}"
           </p>
 
           <button
             @click="close"
-            class="w-full py-4 bg-[#4ECDC4] text-white font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all text-xl uppercase"
+            class="w-full py-4 bg-secondary text-white font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all text-xl uppercase"
           >
             TUYỆT VỜI!
           </button>
@@ -89,18 +111,10 @@ const close = () => {
         <!-- Confetti Decorations -->
         <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
           <div
-            v-for="n in 12"
-            :key="n"
+            v-for="(piece, idx) in confettiPieces"
+            :key="idx"
             class="absolute animate-confetti"
-            :style="{
-              left: Math.random() * 100 + '%',
-              top: '-10px',
-              backgroundColor: ['#FF6B6B', '#4ECDC4', '#FFE66D', '#1A535C'][
-                Math.floor(Math.random() * 4)
-              ],
-              animationDelay: Math.random() * 2 + 's',
-              transform: `rotate(${Math.random() * 360}deg)`,
-            }"
+            :style="piece"
           ></div>
         </div>
       </div>

@@ -1,75 +1,59 @@
-# Nuxt Minimal Starter
+# Lịch sử Nhí (History Vietnam)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Ứng dụng học **Lịch sử Việt Nam** theo dạng:
+- **Bản đồ hành trình** (timeline/map)
+- **Bài học dạng slide** (story + quiz)
+- **Bộ sưu tập anh hùng** (mở khóa theo tiến trình)
 
-## Setup
+Tech stack: **Nuxt 4 + Vue 3 + TailwindCSS + Pinia**.
 
-Make sure to install dependencies:
+## Chạy dự án
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Mặc định chạy ở `http://localhost:3000`.
 
-Build the application for production:
+## Build/Preview
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Cấu trúc dữ liệu nội dung
+
+- **Bản đồ thời kỳ**: `content/history-map.json`
+  - Gồm các `eras[]`, mỗi era có `levels[]`
+  - Mỗi level trỏ tới `lesson` (id bài học)
+
+- **Bài học**: `content/lessons/**/*.json`
+  - Shape type theo `types/history.ts` (`LessonContent`, `Slide`)
+  - `slides[]` là union:
+    - `type: "story"` + `text`, `image`
+    - `type: "quiz"` + `question`, `options`, `answer`
+
+- **Anh hùng**: `content/heroes.json`
+  - Shape type theo `types/history.ts` (`Hero`)
+
+## Thêm một bài học mới (quick guide)
+
+1. Tạo file JSON trong `content/lessons/<era>/my-lesson.json`
+   - `id` nên khớp filename: `my-lesson`
+2. Thêm node vào `content/history-map.json` ở đúng era:
+   - `lesson: "my-lesson"`
+   - `id` thường trùng với `lesson` để map ảnh dễ hơn
+3. Thêm ảnh minh hoạ:
+   - Node trên map dùng: `public/images/history/<id>.png`
+   - Ảnh cover lesson dùng theo `LessonContent.image`
+
+## Lưu tiến trình
+
+- Tiến trình học (bài đã hoàn thành, badge…) được lưu **trên thiết bị** bằng `localStorage`.
+- Mở khóa anh hùng cũng được lưu local trong `heroStore`.
+
+## Ghi chú
+
+- Trang **Báo lỗi**: `pages/report.vue` (nhớ thay email nhận báo lỗi trước khi public).
