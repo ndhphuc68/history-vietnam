@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { useHeroStore } from "~/stores/heroStore";
 import { useProgressStore } from "~/stores/progressStore";
+import { useBadgeStore } from "~/stores/badgeStore";
 
 const heroStore = useHeroStore();
 const progressStore = useProgressStore();
+const badgeStore = useBadgeStore();
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
@@ -22,6 +24,7 @@ watch(
 onMounted(() => {
   heroStore.initialize();
   progressStore.initialize();
+  badgeStore.initialize();
 });
 </script>
 
@@ -57,16 +60,6 @@ onMounted(() => {
             ></span>
           </NuxtLink>
           <NuxtLink
-            to="/map"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
-            active-class="text-primary"
-          >
-            Bản đồ
-            <span
-              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
-            ></span>
-          </NuxtLink>
-          <NuxtLink
             to="/lesson"
             class="relative text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
@@ -87,6 +80,26 @@ onMounted(() => {
             ></span>
           </NuxtLink>
           <NuxtLink
+            to="/badges"
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
+          >
+            Huy hiệu
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
+          <NuxtLink
+            to="/quiz"
+            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
+          >
+            Đố vui
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
+          <NuxtLink
             to="/about"
             class="relative text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
@@ -100,7 +113,7 @@ onMounted(() => {
 
         <div class="flex items-center space-x-2 md:space-x-4">
           <NuxtLink
-            to="/map"
+            to="/lesson"
             class="btn-primary py-2 px-4 md:px-6 text-sm md:text-base whitespace-nowrap"
             >Bắt đầu ngay</NuxtLink
           >
@@ -144,13 +157,6 @@ onMounted(() => {
               Trang chủ
             </NuxtLink>
             <NuxtLink
-              to="/map"
-              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
-              active-class="bg-primary/5 text-primary"
-            >
-              Bản đồ
-            </NuxtLink>
-            <NuxtLink
               to="/lesson"
               class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
               active-class="bg-primary/5 text-primary"
@@ -163,6 +169,20 @@ onMounted(() => {
               active-class="bg-primary/5 text-primary"
             >
               Anh hùng
+            </NuxtLink>
+            <NuxtLink
+              to="/badges"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Huy hiệu
+            </NuxtLink>
+            <NuxtLink
+              to="/quiz"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Đố vui
             </NuxtLink>
             <NuxtLink
               to="/about"
@@ -180,6 +200,9 @@ onMounted(() => {
     <main class="flex-grow">
       <slot />
     </main>
+
+    <!-- Global UI Components -->
+    <UiBadgeUnlockModal />
 
     <!-- Footer -->
     <footer class="bg-text text-white pt-20 pb-10 relative overflow-hidden">
@@ -208,26 +231,7 @@ onMounted(() => {
               Khơi dậy lòng tự hào dân tộc qua những câu chuyện lịch sử Việt Nam
               sống động và gần gũi nhất dành cho trẻ em.
             </p>
-            <div class="flex space-x-4">
-              <a
-                href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
-              >
-                <Icon name="fluent-emoji:blue-book" class="text-2xl" />
-              </a>
-              <a
-                href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
-              >
-                <Icon name="fluent-emoji:camera" class="text-2xl" />
-              </a>
-              <a
-                href="#"
-                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-all transform hover:scale-110"
-              >
-                <Icon name="fluent-emoji:envelope" class="text-2xl" />
-              </a>
-            </div>
+            <!-- Social icons removed (matches user request) -->
           </div>
 
           <!-- Quick Links -->
@@ -240,14 +244,6 @@ onMounted(() => {
             <ul
               class="space-y-4 font-bold text-gray-300 flex flex-col items-center sm:items-start"
             >
-              <li>
-                <NuxtLink
-                  to="/map"
-                  class="hover:text-primary transition-colors flex items-center"
-                  ><Icon name="fluent-emoji:world-map" class="mr-2" /> Bản đồ
-                  Lịch sử</NuxtLink
-                >
-              </li>
               <li>
                 <NuxtLink
                   to="/lesson"
@@ -266,11 +262,21 @@ onMounted(() => {
               </li>
               <li>
                 <NuxtLink
+                  to="/badges"
+                  class="hover:text-primary transition-colors flex items-center"
+                >
+                  <Icon name="fluent-emoji:medal" class="mr-2" /> Huy hiệu Dũng
+                  sĩ
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink
                   to="/quiz"
                   class="hover:text-primary transition-colors flex items-center"
-                  ><Icon name="fluent-emoji:bullseye" class="mr-2" /> Thử thách
-                  Đố vui</NuxtLink
                 >
+                  <Icon name="fluent-emoji:bullseye" class="mr-2" /> Thử thách
+                  Đố vui
+                </NuxtLink>
               </li>
               <li>
                 <NuxtLink
@@ -341,9 +347,15 @@ onMounted(() => {
             <NuxtLink to="/terms" class="hover:text-white transition-colors"
               >Điều khoản</NuxtLink
             >
-            <NuxtLink to="/privacy" class="hover:text-white transition-colors"
-              >Bảo mật</NuxtLink
-            >
+            <NuxtLink to="/gallery" class="hover:text-white transition-colors">
+              Anh hùng
+            </NuxtLink>
+            <NuxtLink to="/quiz" class="hover:text-white transition-colors">
+              Đố vui
+            </NuxtLink>
+            <NuxtLink to="/badges" class="hover:text-white transition-colors">
+              Huy hiệu
+            </NuxtLink>
             <NuxtLink to="/report" class="hover:text-white transition-colors">
               Báo lỗi <Icon name="fluent-emoji:wrench" class="ml-1 text-sm" />
             </NuxtLink>

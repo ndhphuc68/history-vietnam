@@ -28,7 +28,7 @@ const { eras, availableLessonIds, getEraThumbnail, getLessonThumbnail } =
       </div>
 
       <!-- Eras Sections -->
-      <EraSection
+      <LessonEraSection
         v-for="(era, index) in eras"
         :key="era.id"
         :era="era"

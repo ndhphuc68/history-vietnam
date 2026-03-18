@@ -14,9 +14,9 @@ useHead({
       <!-- Header -->
       <div class="text-center space-y-4">
         <div
-          class="inline-flex items-center justify-center w-20 h-20 bg-secondary rounded-3xl shadow-lg mb-4 transform rotate-6"
+          class="inline-flex items-center justify-center w-24 h-24 bg-secondary rounded-3xl shadow-lg mb-4 transform rotate-6"
         >
-          <Icon name="fluent-emoji:locked-with-key" class="text-4xl" />
+          <Icon name="fluent-emoji:locked-with-key" class="text-5xl" />
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-text tracking-tight">
           Chính sách <span class="text-secondary">Bảo mật</span>
@@ -58,9 +58,9 @@ useHead({
         >
           <div class="flex items-start gap-6">
             <div
-              class="w-12 h-12 bg-secondary/20 rounded-2xl flex items-center justify-center flex-shrink-0"
+              class="w-14 h-14 bg-secondary/20 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="fluent-emoji:no-entry" class="text-2xl text-text" />
+              <Icon name="fluent-emoji:no-entry" class="text-3xl text-text" />
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
@@ -81,11 +81,11 @@ useHead({
         >
           <div class="flex items-start gap-6">
             <div
-              class="w-12 h-12 bg-accent/20 rounded-2xl flex items-center justify-center flex-shrink-0"
+              class="w-14 h-14 bg-accent/20 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
               <Icon
                 name="fluent-emoji:magnifying-glass-tilted-left"
-                class="text-2xl text-[#92400E]"
+                class="text-3xl text-[#92400E]"
               />
             </div>
             <div class="space-y-4">
@@ -108,9 +108,9 @@ useHead({
         >
           <div class="flex items-start gap-6">
             <div
-              class="w-12 h-12 bg-primary/20 rounded-2xl flex items-center justify-center flex-shrink-0"
+              class="w-14 h-14 bg-primary/20 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="fluent-emoji:link" class="text-2xl text-primary" />
+              <Icon name="fluent-emoji:link" class="text-3xl text-primary" />
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
@@ -132,9 +132,12 @@ useHead({
         >
           <div class="flex items-start gap-6">
             <div
-              class="w-12 h-12 bg-text/20 rounded-2xl flex items-center justify-center flex-shrink-0"
+              class="w-14 h-14 bg-text/20 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="fluent-emoji:family" class="text-2xl text-text" />
+              <Icon
+                name="fluent-emoji:family-man-woman-girl-boy"
+                class="text-3xl text-text"
+              />
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">

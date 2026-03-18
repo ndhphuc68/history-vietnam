@@ -23,9 +23,7 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  pinia: {
-    autoImports: ["defineStore", "storeToRefs"],
-  },
+  // No need to auto-import Pinia helpers; stores import what they need.
 
   app: {
     head: {
@@ -34,7 +32,7 @@ export default defineNuxtConfig({
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
-          hid: "description",
+          key: "description",
           name: "description",
           content: "Ứng dụng học lịch sử Việt Nam thú vị và bổ ích cho trẻ em.",
         },
@@ -51,7 +49,6 @@ export default defineNuxtConfig({
     modules: "modules",
     plugins: "plugins",
     public: "public",
-    static: "static",
     assets: "assets",
   },
 });

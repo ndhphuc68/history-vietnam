@@ -45,14 +45,6 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
           :class="thumbnail ? 'object-cover' : 'object-contain'"
           alt="Lesson Thumbnail"
         />
-        <!-- Period Badge -->
-        <div class="absolute top-2 left-2 z-20">
-          <span
-            class="px-3 py-1 bg-accent/90 backdrop-blur-sm text-text font-black rounded-full text-[10px] uppercase tracking-wider shadow-sm border border-white/20"
-          >
-            {{ period }}
-          </span>
-        </div>
       </div>
       <div class="px-3 py-1.5 flex-grow flex flex-col">
         <h3
@@ -105,15 +97,6 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
         >
           <Icon name="fluent-emoji:locked" class="text-4xl opacity-80" />
         </div>
-      </div>
-
-      <!-- Period Badge -->
-      <div class="absolute top-2 left-2">
-        <span
-          class="px-3 py-1 bg-accent/90 backdrop-blur-sm text-text font-bold rounded-full text-[10px] uppercase tracking-wider shadow-sm"
-        >
-          {{ period }}
-        </span>
       </div>
     </div>
 

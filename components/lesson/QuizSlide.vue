@@ -3,12 +3,16 @@ import type { QuizSlideProps } from "~/types/props/lesson";
 /**
  * Component to display a quiz slide for children.
  */
-const props = withDefaults(defineProps<QuizSlideProps>(), {
-  canNext: false,
-  showPrev: true,
-  nextLabel: "TIẾP THEO",
-  nextIcon: "lucide:arrow-right",
-});
+const props = withDefaults(
+  defineProps<QuizSlideProps & { showRetry?: boolean }>(),
+  {
+    canNext: false,
+    showPrev: true,
+    nextLabel: "TIẾP THEO",
+    nextIcon: "lucide:arrow-right",
+    showRetry: true,
+  },
+);
 
 const emit = defineEmits(["answered", "next", "prev"]);
 
@@ -21,9 +25,7 @@ const checkAnswer = (option: string) => {
   selectedOption.value = option;
   isCorrect.value = option === props.answer;
 
-  if (isCorrect.value) {
-    emit("answered", true);
-  }
+  emit("answered", isCorrect.value);
 };
 </script>
 
@@ -62,7 +64,7 @@ const checkAnswer = (option: string) => {
               ? 'border-gray-100 text-text hover:border-secondary bg-gray-50'
               : '',
             selectedOption === option && option === answer
-              ? 'border-green-500 bg-green-500 text-white shadow-[0_0_30px_rgba(34,197,94,0.3)] animate-bounce-correct text-white'
+              ? 'border-green-500 bg-green-500 text-white shadow-[0_0_30px_rgba(34,197,94,0.3)] animate-bounce-correct'
               : '',
             selectedOption === option && option !== answer
               ? 'border-red-500 bg-red-500 text-white animate-shake'
@@ -108,6 +110,7 @@ const checkAnswer = (option: string) => {
                 />
               </p>
               <button
+                v-if="showRetry"
                 @click="
                   selectedOption = null;
                   isCorrect = null;

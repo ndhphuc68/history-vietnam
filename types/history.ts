@@ -112,16 +112,26 @@ export interface Hero {
   era: string;
   /** Key achievements list */
   achievements: string[];
+  /** A fun, child-friendly fact about the hero */
+  funFact?: string;
 }
 
 /**
- * State structure for the User Progress store.
+ * Represents a single quiz attempt by the user.
  */
-export interface ProgressState {
-  /** List of completed lesson IDs */
-  completedLessons: string[];
-  /** List of unlocked badge IDs */
-  unlockedBadges: string[];
-  /** ID of the lesson currently being viewed/active */
-  currentLessonId: string | null;
+export interface QuizAttempt {
+  lessonId: string;
+  score: number;
+  total: number;
+  timestamp: number;
+}
+
+/**
+ * State structure for the Quiz store.
+ */
+export interface QuizState {
+  /** Map of lessonId to best score percentage */
+  quizScores: Record<string, number>;
+  /** List of lessonIds where the user got 100% */
+  masteredQuizzes: string[];
 }

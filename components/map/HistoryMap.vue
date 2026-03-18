@@ -15,15 +15,70 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
   }
   return count + levelIndex;
 };
+
+const totalLessons = computed(() => {
+  return props.eras.reduce((acc, era) => acc + (era.levels?.length || 0), 0);
+});
+
+const currentEra = computed(() => {
+  if (!props.eras || props.eras.length === 0) return { title: "Đang tải..." };
+  // Find the first era with an uncompleted lesson
+  for (const era of props.eras) {
+    if (
+      era.levels?.some(
+        (l) => !progressStore.completedLessons.includes(l.lesson),
+      )
+    ) {
+      return era;
+    }
+  }
+  return props.eras[props.eras.length - 1]; // Default to last if all done
+});
+
+const totalCompletedNodes = computed(() => {
+  let count = 0;
+  let stop = false;
+  for (const era of props.eras) {
+    for (const level of era.levels || []) {
+      if (progressStore.completedLessons.includes(level.lesson)) {
+        count++;
+      } else {
+        stop = true;
+        break;
+      }
+    }
+    if (stop) break;
+  }
+  return count;
+});
+
+const progressLineHeightPercent = computed(() => {
+  if (totalLessons.value === 0) return 0;
+  // A rough estimate: progress based on the last completed node's position
+  // We can also just use completed percentage for simplicity if nodes are evenly spaced
+  return (totalCompletedNodes.value / totalLessons.value) * 100;
+});
 </script>
 
 <template>
   <div
     class="relative py-20 flex flex-col items-center w-full max-w-4xl mx-auto"
   >
-    <!-- Central Timeline Line (Playful Dashed Line) -->
+    <MapProgressHeader
+      v-if="currentEra"
+      :total-lessons="totalLessons"
+      :current-era-title="currentEra.title"
+    />
+
+    <!-- Central Timeline Line (Playful Dashed Line Background) -->
     <div
-      class="absolute inset-y-0 left-10 md:left-1/2 -translate-x-1/2 w-2 z-0 border-l-4 border-dashed border-text/20"
+      class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-2 z-0 border-l-4 border-dashed border-text/10"
+    ></div>
+
+    <!-- Active Progress Line Overlay -->
+    <div
+      class="absolute top-0 left-1/2 -translate-x-1/2 w-2 z-0 border-l-6 border-primary transition-all duration-1000 ease-in-out shadow-[0_0_15px_rgba(26,83,92,0.3)]"
+      :style="{ height: `${progressLineHeightPercent}%`, top: '80px' }"
     ></div>
 
     <!-- Eras Loop -->
@@ -66,13 +121,12 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
         </div>
       </div>
 
-      <!-- Levels Within Era -->
       <div
         v-for="(level, levelIndex) in era.levels"
         :key="level.id"
-        class="w-full relative z-10 py-12"
+        class="w-full relative z-10 py-16 md:py-24"
       >
-        <div class="flex justify-center w-full px-4">
+        <div class="flex justify-center w-full px-6 md:px-0">
           <MapNode
             :id="level.id"
             :title="level.title"
@@ -81,6 +135,10 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
               progressStore.completedLessons.includes(level.lesson)
             "
             :is-unlocked="isLessonAvailable(level.lesson)"
+            :is-current="
+              !progressStore.completedLessons.includes(level.lesson) &&
+              getGlobalIndex(eraIndex, levelIndex) === totalCompletedNodes
+            "
             :year="level.year"
             :align="
               getGlobalIndex(eraIndex, levelIndex) % 2 === 0 ? 'right' : 'left'
@@ -89,10 +147,10 @@ const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
         </div>
 
         <div
-          class="absolute top-1/2 left-10 md:left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white border-6 border-primary rounded-full shadow-2xl z-30 transition-all hover:scale-125 hover:rotate-12 flex items-center justify-center p-1"
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white border-[6px] border-primary rounded-full shadow-2xl z-30 transition-all hover:scale-125 flex items-center justify-center p-1"
         >
           <div
-            class="w-full h-full bg-primary/20 rounded-full animate-pulse"
+            class="w-full h-full bg-primary/20 rounded-full animate-ping"
           ></div>
         </div>
       </div>

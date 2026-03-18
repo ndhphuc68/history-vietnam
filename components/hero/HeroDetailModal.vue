@@ -140,11 +140,36 @@ watch(
                 </div>
               </div>
 
+              <!-- Fun Fact Section (Standout Card) -->
+              <section
+                v-if="hero.funFact"
+                class="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-[32px] border-2 border-amber-200 shadow-inner"
+              >
+                <div
+                  class="absolute -top-4 -right-4 w-24 h-24 bg-amber-200/20 rounded-full blur-2xl"
+                ></div>
+                <div class="flex items-center gap-3 mb-4">
+                  <div
+                    class="w-10 h-10 bg-amber-400 rounded-xl flex items-center justify-center text-white shadow-lg animate-bounce"
+                  >
+                    <Icon name="fluent-emoji:light-bulb" class="text-2xl" />
+                  </div>
+                  <h3 class="text-xl font-black text-amber-900">
+                    Bạn có biết? (Sự thật thú vị)
+                  </h3>
+                </div>
+                <p
+                  class="text-amber-800 text-lg leading-relaxed font-bold italic relative z-10"
+                >
+                  "{{ hero.funFact }}"
+                </p>
+              </section>
+
               <!-- Biography -->
               <section>
                 <div class="flex items-center gap-3 mb-4">
                   <div
-                    class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center"
+                    class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg"
                   >
                     <Icon name="fluent-emoji:scroll" class="text-2xl" />
                   </div>
@@ -153,7 +178,7 @@ watch(
                   </h3>
                 </div>
                 <p
-                  class="text-text/80 text-lg leading-relaxed font-medium text-justify"
+                  class="text-text/80 text-lg leading-relaxed font-medium text-justify bg-white/50 p-6 rounded-3xl border border-primary/10"
                 >
                   {{ hero.description }}
                 </p>
@@ -163,7 +188,7 @@ watch(
               <section>
                 <div class="flex items-center gap-3 mb-4">
                   <div
-                    class="w-10 h-10 bg-secondary/10 rounded-xl flex items-center justify-center"
+                    class="w-10 h-10 bg-secondary rounded-xl flex items-center justify-center text-white shadow-lg"
                   >
                     <Icon name="fluent-emoji:medal" class="text-2xl" />
                   </div>
@@ -175,12 +200,16 @@ watch(
                   <li
                     v-for="(achievement, idx) in hero.achievements"
                     :key="idx"
-                    class="bg-background p-5 rounded-3xl border-2 border-dashed border-secondary/30 flex items-start gap-4 transform hover:-translate-y-1 transition-transform"
+                    class="bg-white p-5 rounded-3xl border-2 border-secondary/10 flex items-start gap-4 transition-all hover:border-secondary/40 hover:bg-secondary/5 group/item"
                   >
-                    <Icon
-                      name="fluent-emoji:star"
-                      class="text-2xl flex-shrink-0 mt-1"
-                    />
+                    <div
+                      class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center group-hover/item:scale-125 transition-transform"
+                    >
+                      <Icon
+                        name="fluent-emoji:star"
+                        class="text-xl text-secondary"
+                      />
+                    </div>
                     <span class="text-text font-bold text-lg leading-snug">{{
                       achievement
                     }}</span>

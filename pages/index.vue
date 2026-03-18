@@ -49,7 +49,7 @@
         class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 sm:px-0"
       >
         <NuxtLink
-          to="/map"
+          to="/lesson"
           class="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 md:py-5 ring-offset-2 ring-primary focus:ring-4"
         >
           Bắt đầu Hành Trình
@@ -107,7 +107,7 @@
             ></div>
 
             <div
-              class="w-28 h-28 bg-accent/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-accent/20 rounded-[35%] flex items-center justify-center mb-6 relative group-hover:rotate-12 transition-transform duration-500"
             >
               <span
                 class="absolute inset-0 bg-accent/10 blur-xl rounded-full scale-75 animate-pulse"
@@ -118,7 +118,7 @@
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
               Câu chuyện hấp dẫn
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
@@ -137,7 +137,7 @@
             ></div>
 
             <div
-              class="w-28 h-28 bg-secondary/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:-rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-secondary/20 rounded-[35%] flex items-center justify-center mb-6 relative group-hover:-rotate-12 transition-transform duration-500"
             >
               <span
                 class="absolute inset-0 bg-secondary/10 blur-xl rounded-full scale-75 animate-pulse"
@@ -148,7 +148,7 @@
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
               Trò chơi đố vui
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
@@ -167,23 +167,23 @@
             ></div>
 
             <div
-              class="w-28 h-28 bg-primary/20 rounded-[35%] flex items-center justify-center mb-10 relative group-hover:rotate-12 transition-transform duration-500"
+              class="w-28 h-28 bg-primary/20 rounded-[35%] flex items-center justify-center mb-6 relative group-hover:rotate-12 transition-transform duration-500"
             >
               <span
                 class="absolute inset-0 bg-primary/10 blur-xl rounded-full scale-75 animate-pulse"
               ></span>
               <Icon
-                name="fluent-emoji:world-map"
+                name="fluent-emoji:shield"
                 class="text-6xl animate-float relative z-10"
               />
             </div>
 
-            <h3 class="text-2xl md:text-3xl font-black text-text mb-6">
-              Khám phá bản đồ
+            <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
+              Dũng sĩ lịch sử
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
-              Hành trình dọc theo chiều dài đất nước, theo dõi sự thay đổi của
-              giang sơn qua các thời kỳ lịch sử hào hùng của cha ông ta.
+              Gặp gỡ và sưu tầm các anh hùng dân tộc hào hùng, học hỏi từ những
+              chiến công vĩ đại đã làm nên tên tuổi nước nhà.
             </p>
           </div>
         </div>

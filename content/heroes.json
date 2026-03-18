@@ -11,7 +11,8 @@
     "era": "Dựng nước",
     "image": "/images/history/hung-kings.png",
     "description": "Các vị vua đầu tiên của dân tộc Việt Nam, người có công lập ra nhà nước sơ khai đầu tiên mang tên Văn Lang.",
-    "achievements": ["Lập nước Văn Lang", "Mở đầu 4000 năm văn hiến"]
+    "achievements": ["Lập nước Văn Lang", "Mở đầu 4000 năm văn hiến"],
+    "funFact": "Truyện kể rằng có tất cả 18 đời Hùng Vương, vị vua nào cũng sống rất thọ và thương dân như con!"
   },
   {
     "id": "thanh-giong",
@@ -25,7 +26,8 @@
     "era": "Dựng nước",
     "image": "/images/history/thanh-giong.png",
     "description": "Cậu bé làng Gióng lớn nhanh như thổi, cưỡi ngựa sắt, cầm tre ngà đánh tan giặc Ân cứu nước.",
-    "achievements": ["Đánh tan giặc Ân", "Biểu tượng sức mạnh tuổi trẻ"]
+    "achievements": ["Đánh tan giặc Ân", "Biểu tượng sức mạnh tuổi trẻ"],
+    "funFact": "Sau khi đánh tan quân giặc, Thánh Gióng đã cưỡi ngựa bay thẳng lên trời từ đỉnh núi Sóc!"
   },
   {
     "id": "an-duong-vuong",
@@ -39,7 +41,8 @@
     "era": "Dựng nước",
     "image": "/images/history/an-duong-vuong.png",
     "description": "Vị vua hợp nhất Lạc Việt và Tây Âu, xây thành Cổ Loa hình xoáy ốc và có nỏ thần tuyệt diệu.",
-    "achievements": ["Xây thành Cổ Loa", "Lập nước Âu Lạc"]
+    "achievements": ["Xây thành Cổ Loa", "Lập nước Âu Lạc"],
+    "funFact": "Thành Cổ Loa được xây với 9 vòng xoáy trôn ốc, dài hàng ngàn mét, là pháo đài cực kỳ kiên cố!"
   },
   {
     "id": "hai-ba-trung",
@@ -53,7 +56,8 @@
     "era": "Bắc thuộc",
     "image": "/images/history/hai-ba-trung.png",
     "description": "Hai chị em dũng cảm cưỡi voi ra trận đánh đuổi quân Hán, giành lại độc lập cho dân tộc sau nhiều năm lầm than.",
-    "achievements": ["Khởi nghĩa thắng lợi năm 40", "Xưng vương, đóng đô ở Mê Linh"]
+    "achievements": ["Khởi nghĩa thắng lợi năm 40", "Xưng vương, đóng đô ở Mê Linh"],
+    "funFact": "Lời thề của Hai Bà Trưng vẫn còn vang vọng: 'Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng'!"
   },
   {
     "id": "ba-trieu",
@@ -81,7 +85,8 @@
     "era": "Tự chủ",
     "image": "/images/history/ngo-quyen-bach-dang.png",
     "description": "Vị tướng tài ba với trận địa cọc gỗ chấn động trên sông Bạch Đằng, chấm dứt hoàn toàn 1000 năm Bắc thuộc.",
-    "achievements": ["Đại thắng quân Nam Hán 938", "Mở ra thời kỳ độc lập tự chủ lâu dài"]
+    "achievements": ["Đại thắng quân Nam Hán 938", "Mở ra thời kỳ độc lập tự chủ lâu dài"],
+    "funFact": "Ngô Quyền là người đầu tiên bãi bỏ chức quan của giặc và xưng Vương, lập lại nền độc lập cho nước nhà!"
   },
   {
     "id": "dinh-bo-linh",

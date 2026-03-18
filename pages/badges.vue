@@ -1,11 +1,12 @@
 <script setup lang="ts">
-// Gallery page for collecting hero cards
+// Badges page for achievements
 useHead({
-  title: "Bộ sưu tập Anh Hùng - Lịch sử Nhí",
+  title: "Huy Hiệu Dũng Sĩ - Lịch sử Nhí",
   meta: [
     {
       name: "description",
-      content: "Xem bộ sưu tập các vị anh hùng dân tộc mà bé đã thu thập được.",
+      content:
+        "Xem các huy hiệu danh giá mà bé đã đạt được trong hành trình khám phá lịch sử.",
     },
   ],
 });
@@ -20,14 +21,14 @@ useHead({
 
     <div class="relative z-10 pt-10 pb-32">
       <UiPageHero
-        tag="Bộ sưu tập cá nhân"
-        titlePrimary="Sổ Tay"
-        titleHighlight="Anh Hùng"
-        subtitle="Gặp gỡ những vị tướng tài ba và những anh hùng kiệt xuất đã viết nên những trang sử vàng chói lọi của dân tộc Việt Nam."
-        icon="fluent-emoji:shield"
-        accentColor="secondary"
+        tag="Thành tựu danh giá"
+        titlePrimary="Huy Hiệu"
+        titleHighlight="Dũng Sĩ"
+        subtitle="Mỗi huy hiệu là một minh chứng cho sự chăm chỉ và lòng yêu nước của bé trên hành trình khám phá 4000 năm lịch sử."
+        icon="fluent-emoji:medal"
+        accentColor="primary"
       />
-      <HeroGalleryView />
+      <HeroBadgeGallery />
     </div>
   </div>
 </template>

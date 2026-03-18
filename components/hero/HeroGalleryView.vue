@@ -15,35 +15,31 @@ const openDetail = (hero: any) => {
 </script>
 
 <template>
-  <div class="w-full max-w-7xl mx-auto px-4 py-12">
-    <!-- Header -->
-    <div class="text-center mb-16">
-      <div
-        class="inline-block px-4 py-1 mb-4 bg-accent text-text font-bold rounded-full text-sm uppercase tracking-2 transform -rotate-2"
-      >
-        Bộ sưu tập của Bé
+  <div class="w-full max-w-7xl mx-auto px-4">
+    <!-- Stats Header (Keep for motivation) -->
+    <div
+      class="flex items-center justify-center gap-12 mb-16 px-4 py-8 bg-white/40 backdrop-blur-sm rounded-[40px] border-2 border-dashed border-primary/20 max-w-2xl mx-auto"
+    >
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-black text-primary">
+          {{ heroStore.totalUnlocked }}
+        </span>
+        <span
+          class="text-xs font-black text-text/60 uppercase tracking-widest mt-1"
+        >
+          Lệnh bài đã mở
+        </span>
       </div>
-      <h2 class="text-4xl md:text-5xl font-black text-text mb-6">
-        Sổ Tay Anh Hùng 🇻🇳
-      </h2>
-      <div class="flex items-center justify-center gap-6">
-        <div class="flex flex-col items-center">
-          <span class="text-3xl font-black text-primary">{{
-            heroStore.totalUnlocked
-          }}</span>
-          <span class="text-xs font-bold text-text/60 uppercase tracking-widest"
-            >Đã mở khóa</span
-          >
-        </div>
-        <div class="h-10 w-px bg-gray-200"></div>
-        <div class="flex flex-col items-center">
-          <span class="text-3xl font-black text-gray-300">{{
-            heroes.length
-          }}</span>
-          <span class="text-xs font-bold text-text/60 uppercase tracking-widest"
-            >Tổng số tướng</span
-          >
-        </div>
+      <div class="h-12 w-px bg-primary/10"></div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-black text-secondary/30">
+          {{ heroes.length }}
+        </span>
+        <span
+          class="text-xs font-black text-text/60 uppercase tracking-widest mt-1"
+        >
+          Tổng số thần tướng
+        </span>
       </div>
     </div>
 
@@ -83,10 +79,10 @@ const openDetail = (hero: any) => {
         Hãy học thêm các bài học mới để hoàn thành bộ sưu tập nhé.
       </p>
       <NuxtLink
-        to="/map"
+        to="/lesson"
         class="mt-8 inline-block px-10 py-4 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all text-lg uppercase"
       >
-        Quay lại Bản đồ
+        Quay lại Bài học
       </NuxtLink>
     </div>
   </div>

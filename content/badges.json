@@ -1,0 +1,250 @@
+[
+  {
+    "id": "apprentice-historian",
+    "title": "Sử gia nhí",
+    "description": "Bắt đầu hành trình với bài học đầu tiên.",
+    "icon": "fluent-emoji:brain",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 1 }
+  },
+  {
+    "id": "five-lessons",
+    "title": "Khởi đầu nan",
+    "description": "Vượt qua 5 bài học lịch sử đầu tiên.",
+    "icon": "fluent-emoji:seedling",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 5 }
+  },
+  {
+    "id": "ten-lessons",
+    "title": "Bước chân nhỏ",
+    "description": "Hoàn thành 10 bài học lịch sử.",
+    "icon": "fluent-emoji:hiking-boot",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 10 }
+  },
+  {
+    "id": "twenty-five-lessons",
+    "title": "Người ham học",
+    "description": "Hoàn thành 25 bài học lịch sử.",
+    "icon": "fluent-emoji:books",
+    "rarity": "rare",
+    "requirement": { "type": "count", "value": 25 }
+  },
+  {
+    "id": "fifty-lessons",
+    "title": "Bậc thầy sử học",
+    "description": "Hoàn thành 50 bài học - Một kho tàng kiến thức!",
+    "icon": "fluent-emoji:crown",
+    "rarity": "legendary",
+    "requirement": { "type": "count", "value": 50 }
+  },
+  {
+    "id": "founding-explorer",
+    "title": "Dòng Máu Lạc Hồng",
+    "description": "Hoàn thành toàn bộ kỷ nguyên Dựng nước.",
+    "icon": "fluent-emoji:dragon-face",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "founding" }
+  },
+  {
+    "id": "thanh-giong-badge",
+    "title": "Sức mạnh Phù Đổng",
+    "description": "Hoàn thành bài học về Thánh Gióng đánh giặc Ân.",
+    "icon": "fluent-emoji:horse",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "thanh-giong" }
+  },
+  {
+    "id": "magic-crossbow-badge",
+    "title": "Nỏ thần Kim Quy",
+    "description": "Hoàn thành bài học về Nỏ thần Âu Lạc.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "magic-crossbow" }
+  },
+  {
+    "id": "northern-domination-survivor",
+    "title": "Kiên cường bất khuất",
+    "description": "Hoàn thành toàn bộ kỷ nguyên Bắc thuộc.",
+    "icon": "fluent-emoji:shield",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "northern-domination" }
+  },
+  {
+    "id": "hai-ba-trung-badge",
+    "title": "Khí phách Trưng Vương",
+    "description": "Hoàn thành bài học về Khởi nghĩa Hai Bà Trưng.",
+    "icon": "fluent-emoji:elephant",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "hai-ba-trung" }
+  },
+  {
+    "id": "bach-dang-hero",
+    "title": "Dũng sĩ Bạch Đằng",
+    "description": "Hoàn thành bài học về Chiến thắng Bạch Đằng 938.",
+    "icon": "fluent-emoji:ship",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "bach-dang-938" }
+  },
+  {
+    "id": "co-lau-badge",
+    "title": "Cờ lau tập trận",
+    "description": "Hoàn thành bài học về Đinh Bộ Lĩnh thống nhất đất nước.",
+    "icon": "fluent-emoji:flags",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "dinh-bo-linh" }
+  },
+  {
+    "id": "thang-long-witness",
+    "title": "Chứng nhân Thăng Long",
+    "description": "Hoàn thành bài học về Dời đô về Thăng Long.",
+    "icon": "fluent-emoji:castle",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "move-capital" }
+  },
+  {
+    "id": "van-mieu-scholar",
+    "title": "Sĩ tử tài năng",
+    "description": "Hoàn thành bài học về Văn Miếu Quốc Tử Giám.",
+    "icon": "fluent-emoji:mortar-board",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "van-mieu" }
+  },
+  {
+    "id": "mongol-warrior",
+    "title": "Hào khí Đông A",
+    "description": "Hoàn thành bài học về Đại thắng Bạch Đằng 1288 chống quân Nguyên.",
+    "icon": "fluent-emoji:crossed-swords",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "bach-dang-1288" }
+  },
+  {
+    "id": "building-era-complete",
+    "title": "Kỷ nguyên huy hoàng",
+    "description": "Hoàn thành toàn bộ kỷ nguyên Lý - Trần - Hồ.",
+    "icon": "fluent-emoji:classical-building",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "building" }
+  },
+  {
+    "id": "lam-son-knight",
+    "title": "Nghĩa quân Lam Sơn",
+    "description": "Hoàn thành toàn bộ kỷ nguyên Lê - Tây Sơn.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "independence-restored" }
+  },
+  {
+    "id": "quang-trung-hero",
+    "title": "Áo vải cờ đào",
+    "description": "Hoàn thành bài học về Đại thắng Ngọc Hồi Đống Đa.",
+    "icon": "fluent-emoji:fire",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "ngoc-hoi-dong-da" }
+  },
+  {
+    "id": "resistance-era-complete",
+    "title": "Tinh thần yêu nước",
+    "description": "Hoàn thành kỷ nguyên Nhà Nguyễn & Kháng Pháp.",
+    "icon": "fluent-emoji:crossed-flags",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "resistance" }
+  },
+  {
+    "id": "modern-independence",
+    "title": "Tự do Độc lập",
+    "description": "Hoàn thành kỷ nguyên Cách mạng & Chống Pháp.",
+    "icon": "fluent-emoji:flag-vietnam",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "ho-chi-minh-era" }
+  },
+  {
+    "id": "dien-bien-phu-badge",
+    "title": "Pháo đài Điện Biên",
+    "description": "Hoàn thành bài học về Đại thắng Điện Biên Phủ.",
+    "icon": "fluent-emoji:mountain",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "dien-bien-phu" }
+  },
+  {
+    "id": "reunification-joy",
+    "title": "Đất nước trọn niềm vui",
+    "description": "Hoàn thành bài học về Chiến dịch Hồ Chí Minh 1975.",
+    "icon": "fluent-emoji:clinking-glasses",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "ho-chi-minh-campaign" }
+  },
+  {
+    "id": "anti-us-era-complete",
+    "title": "Thống nhất giang sơn",
+    "description": "Hoàn thành kỷ nguyên Kháng chiến chống Mỹ.",
+    "icon": "fluent-emoji:handshake",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "anti-us-war" }
+  },
+  {
+    "id": "modern-era-complete",
+    "title": "Việt Nam vươn mình",
+    "description": "Hoàn thành kỷ nguyên Thống nhất & Đổi mới.",
+    "icon": "fluent-emoji:rocket",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "unified-vietnam" }
+  },
+  {
+    "id": "first-hero",
+    "title": "Gặp mặt anh hùng",
+    "description": "Mở khóa vị anh hùng đầu tiên.",
+    "icon": "fluent-emoji:waving-hand",
+    "rarity": "common",
+    "requirement": { "type": "hero-count", "value": 1 }
+  },
+  {
+    "id": "collector",
+    "title": "Người sưu tầm lịch sử",
+    "description": "Gặp gỡ 5 anh hùng khác nhau.",
+    "icon": "fluent-emoji:card-index-dividers",
+    "rarity": "rare",
+    "requirement": { "type": "hero-count", "value": 5 }
+  },
+  {
+    "id": "ten-heroes",
+    "title": "Bảng vàng danh tướng",
+    "description": "Gặp gỡ 10 vị anh hùng dân tộc.",
+    "icon": "fluent-emoji:trophy",
+    "rarity": "epic",
+    "requirement": { "type": "hero-count", "value": 10 }
+  },
+  {
+    "id": "master-collector",
+    "title": "Đại sứ lịch sử",
+    "description": "Gặp gỡ 15 anh hùng dân tộc vĩ đại.",
+    "icon": "fluent-emoji:star-struck",
+    "rarity": "legendary",
+    "requirement": { "type": "hero-count", "value": 15 }
+  },
+  {
+    "id": "mastery-founding",
+    "title": "Bậc thầy Dựng nước",
+    "description": "Vượt qua thử thách Đấu trường Dựng nước với số điểm tuyệt đối.",
+    "icon": "fluent-emoji:crown",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "founding" }
+  },
+  {
+    "id": "mastery-northern-domination",
+    "title": "Bậc thầy Bắc thuộc",
+    "description": "Chinh phục Đấu trường Bắc thuộc - Một kỳ tích thực sự!",
+    "icon": "fluent-emoji:shield",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "northern-domination" }
+  },
+  {
+    "id": "mastery-building",
+    "title": "Bậc thầy Xây dựng",
+    "description": "Làm chủ mọi kiến thức về thời kỳ xây dựng đất nước Lý - Trần.",
+    "icon": "fluent-emoji:classical-building",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "building" }
+  }
+]
