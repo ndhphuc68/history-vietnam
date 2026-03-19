@@ -4,42 +4,50 @@
   "heroId": "ham-nghi",
   "period": "Kháng chiến",
   "summary": "Dù còn nhỏ tuổi, vua Hàm Nghi đã dũng cảm rời kinh thành Huế lên chiến khu, hạ chiếu Cần Vương kêu gọi nhân dân đứng lên đổ Pháp cứu nước.",
-  "image": "/images/history/ham-nghi.png",
+  "image": "/images/history/thumbnails/resistance/ham-nghi.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 1885, trước sự uy hiếp của quân Pháp, vị vua trẻ Hàm Nghi đã bí mật rời khỏi cung điện Thăng Long để ra vùng núi Quảng Trị.",
-      "image": "/images/history/ham-nghi/0.png",
+      "image": "/images/history/lessons/resistance/ham-nghi/0.png",
       "imagePrompt": "Young King Ham Nghi being carried in a palanquin through a dark forest at night, looking worried but determined, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tại đây, vua đã hạ Chiếu Cần Vương, khơi dậy tinh thần yêu nước khắp nơi, thu hút nhiều sĩ phu tham gia kháng chiến.",
-      "image": "/images/history/ham-nghi/1.png",
+      "image": "/images/history/lessons/resistance/ham-nghi/1.png",
       "imagePrompt": "King Ham Nghi reading a royal decree (Chieu Can Vuong), patriotic scholars listening, mountain base camp, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù sống trong rừng núi gian khổ, vua vẫn kiên quyết không hợp tác với giặc Pháp xâm lược.",
-      "image": "/images/history/ham-nghi/2.png",
+      "image": "/images/history/lessons/resistance/ham-nghi/2.png",
       "imagePrompt": "The King wearing simple clothes, living in a wooden hut in the mountains, brave and unyielding, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vua Hàm Nghi là tấm gương sáng về lòng trung kiên và tinh thần không chịu làm nô lệ của một ông vua trẻ.",
-      "image": "/images/history/ham-nghi/3.png",
+      "image": "/images/history/lessons/resistance/ham-nghi/3.png",
       "imagePrompt": "Portrait of young King Ham Nghi with a background of bamboo forests and stars, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Chiếu 'Cần Vương' có ý nghĩa là gì?",
-      "options": ["Giúp vua cứu nước", "Giúp vua xây cung điện", "Giúp vua đi chơi"],
+      "options": [
+        "Giúp vua cứu nước",
+        "Giúp vua xây cung điện",
+        "Giúp vua đi chơi"
+      ],
       "answer": "Giúp vua cứu nước"
     },
     {
       "type": "quiz",
       "question": "Vua Hàm Nghi đã lãnh đạo phong trào nào chống Pháp?",
-      "options": ["Phong trào Cần Vương", "Phong trào Đông Du", "Phong trào Duy Tân"],
+      "options": [
+        "Phong trào Cần Vương",
+        "Phong trào Đông Du",
+        "Phong trào Duy Tân"
+      ],
       "answer": "Phong trào Cần Vương"
     }
   ]

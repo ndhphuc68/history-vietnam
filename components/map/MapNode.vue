@@ -46,12 +46,7 @@ const statusText = computed(() => {
           :class="[align === 'right' ? 'md:order-2' : 'md:order-1']"
         >
           <UiLazyImage
-            :src="`/images/history/${id}.png`"
-            @error="
-              (e: Event) =>
-                ((e.target as HTMLImageElement).src =
-                  '/images/history/default-thumb.png')
-            "
+            :src="`/images/history/thumbnails/${id}.png`"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             :alt="title"
           />

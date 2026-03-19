@@ -3,42 +3,50 @@
   "title": "Nhà Nguyễn thành lập",
   "period": "Nhà Nguyễn",
   "summary": "Năm 1802, sau thời kỳ chiến tranh kéo dài, Nguyễn Ánh đã lên ngôi vương, đặt niên hiệu là Gia Long, mở đầu triều đại nhà Nguyễn.",
-  "image": "/images/history/nguyen-foundation.png",
+  "image": "/images/history/thumbnails/resistance/nguyen-foundation.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé ơi, sau khi triều đại Tây Sơn kết thúc, ông Nguyễn Ánh đã thống nhất được đất nước và lên ngôi vua vào năm 1802, lấy hiệu là Gia Long.",
-      "image": "/images/history/nguyen-foundation/0.png",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/0.png",
       "imagePrompt": "Coronation of King Gia Long in Hue, ancient palace with yellow tiles, golden banners, solemn atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông đã chọn Phú Xuân (Huế) làm kinh đô. Đây là nơi có dòng sông Hương thơ mộng chảy qua và những cung điện rất đẹp.",
-      "image": "/images/history/nguyen-foundation/1.png",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/1.png",
       "imagePrompt": "Imperial City of Hue, the Forbidden Purple City, Perfume River (Sông Hương) with a dragon boat, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Năm 1804, nhà vua chính thức đặt tên nước ta là 'Việt Nam'. Đó cũng chính là tên gọi thiêng liêng và tự hào của chúng ta ngày nay!",
-      "image": "/images/history/nguyen-foundation/2.png",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/2.png",
       "imagePrompt": "King Gia Long writing the characters 'VIET NAM' in gold on a large scroll, Map of a united Vietnam in the background, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Triều đình nhà Nguyễn đã cho xây dựng Kinh thành Huế vô cùng đồ sộ và kiên cố, với những bức tường thành bằng gạch đỏ cao vút.",
-      "image": "/images/history/nguyen-foundation/3.png",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/3.png",
       "imagePrompt": "Close-up of the masonry walls of Hue Citadel, soldiers on patrol, large flags flying, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Nhà Nguyễn được thành lập vào năm nào?",
-      "options": ["Năm 1802", "Năm 1428", "Năm 1010"],
+      "options": [
+        "Năm 1802",
+        "Năm 1428",
+        "Năm 1010"
+      ],
       "answer": "Năm 1802"
     },
     {
       "type": "quiz",
       "question": "Vua Gia Long đã chính thức đổi tên nước ta thành gì vào năm 1804?",
-      "options": ["Đại Cồ Việt", "Đại Việt", "Việt Nam"],
+      "options": [
+        "Đại Cồ Việt",
+        "Đại Việt",
+        "Việt Nam"
+      ],
       "answer": "Việt Nam"
     }
   ]

@@ -3,42 +3,50 @@
   "title": "Khởi nghĩa Tây Sơn",
   "period": "Phục hưng",
   "summary": "Ba anh em nhà Tây Sơn: Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ đã cùng nhân dân đứng lên chống lại sự bất công, mở đầu một trang sử oai hùng.",
-  "image": "/images/history/tay-son-uprising.png",
+  "image": "/images/history/thumbnails/independence-restored/tay-son-uprising.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé ơi, vào thế kỷ 18, đất nước ta bị chia cắt thành Đàng Trong và Đàng Ngoài, cuộc sống của người dân rất khổ cực do sự cai trị không công bằng.",
-      "image": "/images/history/tay-son-uprising/0.png",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/0.png",
       "imagePrompt": "A divided map of Vietnam with two dark shadows, sad farmers working under a hot sun, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tại vùng Tây Sơn (Bình Định), có ba anh em nhà họ Nguyễn rất giỏi võ và yêu nước: Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ.",
-      "image": "/images/history/tay-son-uprising/1.png",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/1.png",
       "imagePrompt": "Three brothers in red warrior clothes practicing martial arts together, strong and united, mountain background, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Với khẩu hiệu: 'Lấy của nhà giàu chia cho người nghèo', cuộc khởi nghĩa Tây Sơn đã nhận được sự ủng hộ nhiệt liệt của hàng vạn người dân.",
-      "image": "/images/history/tay-son-uprising/2.png",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/2.png",
       "imagePrompt": "A large crowd of enthusiastic people following the red flag of Tay Son, giving food to children, joy and hope, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Năm 1771, từ vùng núi Tây Sơn hạ đạo, nghĩa quân bắt đầu cuộc hành trình dẹp tan các thế lực cát cứ, tiến tới thống nhất sơn hà.",
-      "image": "/images/history/tay-son-uprising/3.png",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/3.png",
       "imagePrompt": "The Tay Son army marching with many red flags, elephants leading the way, sunrise over the mountains, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ba anh em nhà Tây Sơn là ai?",
-      "options": ["Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ", "Lê Lợi, Nguyễn Trãi, Lê Thánh Tông", "Lý Thái Tổ, Lý Thái Tông, Lý Thánh Tông"],
+      "options": [
+        "Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ",
+        "Lê Lợi, Nguyễn Trãi, Lê Thánh Tông",
+        "Lý Thái Tổ, Lý Thái Tông, Lý Thánh Tông"
+      ],
       "answer": "Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ"
     },
     {
       "type": "quiz",
       "question": "Khẩu hiệu nổi tiếng của nghĩa quân Tây Sơn là gì?",
-      "options": ["Lấy của nhà giàu chia cho người nghèo", "Lấy của người nghèo chia cho nhà giàu", "Giữ hết cho mình"],
+      "options": [
+        "Lấy của nhà giàu chia cho người nghèo",
+        "Lấy của người nghèo chia cho nhà giàu",
+        "Giữ hết cho mình"
+      ],
       "answer": "Lấy của nhà giàu chia cho người nghèo"
     }
   ]

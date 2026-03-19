@@ -4,42 +4,50 @@
   "heroId": "tran-hung-dao",
   "period": "Xây dựng",
   "summary": "Năm 1288, Hưng Đạo Vương Trần Quốc Tuấn đã lập lại kỳ tích trên sông Bạch Đằng, đánh tan quân Nguyên Mông hùng mạnh, giữ vững chủ quyền dân tộc.",
-  "image": "/images/history/tran-hung-dao.png",
+  "image": "/images/history/thumbnails/building/bach-dang-1288.png",
   "slides": [
     {
       "type": "story",
       "text": "Quân Nguyên Mông xâm lược nước ta lần thứ ba với lực lượng thủy binh hùng hậu chưa từng thấy.",
-      "image": "/images/history/bach-dang-1288/0.png",
+      "image": "/images/history/lessons/building/bach-dang-1288/0.png",
       "imagePrompt": "Large Mongol fleet with many ships sailing into Vietnam, powerful and threatening, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Trần Hưng Đạo đã kế thừa kế sách của Ngô Quyền, cho đóng cọc gỗ trên sông Bạch Đằng để chuẩn bị đón giặc.",
-      "image": "/images/history/bach-dang-1288/1.png",
+      "image": "/images/history/lessons/building/bach-dang-1288/1.png",
       "imagePrompt": "General Tran Hung Dao pointing at the river, soldiers hammering iron headed wooden stakes into the river bed at low tide, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Trận chiến diễn ra quyết liệt, quân ta giả vờ thua để nhử thuyền giặc vào bãi cọc khi thủy triều đang rút.",
-      "image": "/images/history/bach-dang-1288/2.png",
+      "image": "/images/history/lessons/building/bach-dang-1288/2.png",
       "imagePrompt": "Vietnamese small agile boats leading large Mongol ships towards the hidden stakes, river water level dropping, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thuyền giặc bị cọc đâm thủng, vỡ tan tành. Trần Hưng Đạo chỉ huy quân ta tổng tấn công dũng mãnh.",
-      "image": "/images/history/bach-dang-1288/3.png",
+      "image": "/images/history/lessons/building/bach-dang-1288/3.png",
       "imagePrompt": "Mongol ships crashing on wooden stakes, soldiers falling, Tran Hung Dao's army attacking from both sides, heroic victory scene, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Vị tướng nào đã chỉ huy chiến thắng Bạch Đằng năm 1288?",
-      "options": ["Trần Hưng Đạo", "Ngô Quyền", "Lý Thường Kiệt"],
+      "options": [
+        "Trần Hưng Đạo",
+        "Ngô Quyền",
+        "Lý Thường Kiệt"
+      ],
       "answer": "Trần Hưng Đạo"
     },
     {
       "type": "quiz",
       "question": "Quân Nguyên Mông khi xâm lược nước ta lần 3 đã mang theo lực lượng nào rất mạnh?",
-      "options": ["Thủy binh (tàu thuyền)", "Kỵ binh (ngựa)", "Voi chiến"],
+      "options": [
+        "Thủy binh (tàu thuyền)",
+        "Kỵ binh (ngựa)",
+        "Voi chiến"
+      ],
       "answer": "Thủy binh (tàu thuyền)"
     }
   ]

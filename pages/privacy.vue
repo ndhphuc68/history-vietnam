@@ -4,7 +4,17 @@
  * Transparency for parents, safety for kids.
  */
 useHead({
+  title: "Chính sách bảo mật",
+});
+
+useSeoMeta({
   title: "Chính sách bảo mật - Lịch sử Nhí",
+  ogTitle: "Chính sách bảo mật - Lịch sử Nhí",
+  description:
+    "Cam kết bảo vệ quyền riêng tư và an toàn tuyệt đối cho trẻ em khi sử dụng ứng dụng Lịch sử Nhí.",
+  ogDescription:
+    "An toàn của bé là ưu tiên hàng đầu. Tìm hiểu cách chúng mình bảo vệ dữ liệu của bé.",
+  ogImage: "/images/banner/banner.png",
 });
 </script>
 

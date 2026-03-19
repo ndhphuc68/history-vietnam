@@ -3,42 +3,50 @@
   "title": "Vua Gia Long xây dựng đất nước",
   "period": "Nhà Nguyễn",
   "summary": "Vị vua đầu triều Nguyễn với công lao thống nhất lãnh thổ và xây dựng những công trình vĩ đại.",
-  "image": "/images/history/gia-long.png",
+  "image": "/images/history/thumbnails/resistance/gia-long.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé có biết không? Vua Gia Long chính là người đã có công rất lớn trong việc nối liền dải đất hình chữ S của chúng ta từ Lạng Sơn đến Cà Mau.",
-      "image": "/images/history/gia-long/0.png",
+      "image": "/images/history/lessons/resistance/gia-long/0.png",
       "imagePrompt": "Map of Vietnam with a golden thread connecting the north and south, King Gia Long holding a compass, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông đã cho xây dựng hệ thống đê điều kiên cố để bảo vệ ruộng vườn của nhân dân khỏi lũ lụt. Ông cũng rất quan tâm đến việc giao thương buôn bán.",
-      "image": "/images/history/gia-long/1.png",
+      "image": "/images/history/lessons/resistance/gia-long/1.png",
       "imagePrompt": "People building a strong stone dike by a river, green fields, a bustling river market, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đặc biệt, vua Gia Long đã cho soạn thảo bộ luật 'Hoàng Việt luật lệ' để giữ gìn kỷ cương và trật tự cho đất nước sau nhiều năm chiến tranh.",
-      "image": "/images/history/gia-long/2.png",
+      "image": "/images/history/lessons/resistance/gia-long/2.png",
       "imagePrompt": "A large ancient legal book, an official reading a scroll to a crowd, atmosphere of law and order, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dưới thời ông, lãnh thổ Việt Nam được mở rộng và khẳng định chủ quyền vững chắc, đặc biệt là ở các vùng biển đảo thiêng liêng như Hoàng Sa, Trường Sa.",
-      "image": "/images/history/gia-long/3.png",
+      "image": "/images/history/lessons/resistance/gia-long/3.png",
       "imagePrompt": "King Gia Long standing on a cliff by the sea, looking at the islands in the distance, ancient navy boats, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Công lao lớn nhất của vua Gia Long là gì?",
-      "options": ["Thống nhất lãnh thổ đất nước", "Xây dựng siêu thị", "Kêu gọi đầu tư"],
+      "options": [
+        "Thống nhất lãnh thổ đất nước",
+        "Xây dựng siêu thị",
+        "Kêu gọi đầu tư"
+      ],
       "answer": "Thống nhất lãnh thổ đất nước"
     },
     {
       "type": "quiz",
       "question": "Ông đã chọn nơi nào làm kinh đô của nhà Nguyễn?",
-      "options": ["Hà Nội", "Huế", "Đà Nẵng"],
+      "options": [
+        "Hà Nội",
+        "Huế",
+        "Đà Nẵng"
+      ],
       "answer": "Huế"
     }
   ]

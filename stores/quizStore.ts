@@ -38,8 +38,14 @@ export const useQuizStore = defineStore("quiz", () => {
     }
 
     // Mark as mastered if 100%
-    if (percent === 100 && !masteredQuizzes.value.includes(id)) {
-      masteredQuizzes.value.push(id);
+    if (percent === 100) {
+      if (!masteredQuizzes.value.includes(id)) {
+        masteredQuizzes.value.push(id);
+      }
+      
+      // Unlock Hero Letter if available (even if already mastered)
+      const letterStore = useLetterStore();
+      letterStore.unlockLetter(id);
     }
     saveToStorage();
   };

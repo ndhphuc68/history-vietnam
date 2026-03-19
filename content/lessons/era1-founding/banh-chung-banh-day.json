@@ -3,66 +3,82 @@
   "title": "Sự tích Bánh chưng bánh dày",
   "period": "Dựng nước",
   "summary": "Câu chuyện về Lang Liêu và lòng hiếu thảo, tạo ra hai loại bánh tượng trưng cho Trời và Đất.",
-  "image": "/images/history/banh-chung-banh-day.png",
+  "image": "/images/history/thumbnails/founding/banh-chung-banh-day.png",
   "slides": [
     {
       "type": "story",
       "text": "Vua Hùng Vương thứ sáu muốn chọn người nối ngôi, bèn bảo các con: 'Ai tìm được lễ vật ý nghĩa nhất dâng lên tổ tiên sẽ được truyền ngôi'.",
-      "image": "/images/history/banh-chung-banh-day/0.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/0.png",
       "imagePrompt": "Hung King speaking to his many sons in ancient palace, royal setting, Vietnamese traditional architecture, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Các hoàng tử đua nhau tìm kiếm báu vật, sơn hào hải vị khắp nơi. Duy chỉ có hoàng tử thứ 18 là Lang Liêu, nghèo khó và hiền lành, vẫn lo lắng vì không có gì quý giá.",
-      "image": "/images/history/banh-chung-banh-day/1.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/1.png",
       "imagePrompt": "Prince Lang Lieu looking thoughtful and humble in a simple farming village, sunset, peaceful but concerned, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Một đêm, Lang Liêu nằm mộng thấy một vị thần bảo: 'Trong trời đất, không có gì quý bằng hạt gạo... Hãy lấy gạo nếp làm bánh dâng tổ tiên'.",
-      "image": "/images/history/banh-chung-banh-day/2.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/2.png",
       "imagePrompt": "Lang Lieu dreaming, a gentle golden spirit appearing in his dream, rice fields in the background, magical glow, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Lang Liêu chọn gạo nếp trắng thơm, nặn bánh hình tròn tượng trưng cho Trời, và bánh hình vuông tượng trưng cho Đất, bên trong có nhân đỗ và thịt.",
-      "image": "/images/history/banh-chung-banh-day/3.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/3.png",
       "imagePrompt": "Lang Lieu making green square cakes (Banh Chung) and white round cakes (Banh Day), wrapped in leaves, simple kitchen, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Nhà vua nếm thử, thấy bánh không chỉ ngon mà còn chứa đựng tình cảm sâu nặng với quê hương, đất nước. Vua quyết định truyền ngôi cho Lang Liêu.",
-      "image": "/images/history/banh-chung-banh-day/4.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/4.png",
       "imagePrompt": "Hung King tasting the cakes, smiling proudly, Lang Lieu standing nearby, villagers celebrating, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Từ đó, mỗi dịp Tết đến xuân về, người Việt lại cùng nhau gói bánh chưng, bánh dày để nhớ về cội nguồn.",
-      "image": "/images/history/banh-chung-banh-day/5.png",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/5.png",
       "imagePrompt": "A modern Vietnamese family gathering to wrap Banh Chung together, happy atmosphere, traditional Tet decorations, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "quiz",
       "question": "Vị hoàng tử nào đã làm ra bánh chưng, bánh dày?",
-      "options": ["Lang Liêu", "Thánh Gióng", "Mai An Tiêm"],
+      "options": [
+        "Lang Liêu",
+        "Thánh Gióng",
+        "Mai An Tiêm"
+      ],
       "answer": "Lang Liêu"
     },
     {
       "type": "quiz",
       "question": "Bánh chưng có hình gì và tượng trưng cho điều gì?",
-      "options": ["Hình tròn - tượng trưng cho Trời", "Hình vuông - tượng trưng cho Đất", "Hình tam giác - tượng trưng cho Núi"],
+      "options": [
+        "Hình tròn - tượng trưng cho Trời",
+        "Hình vuông - tượng trưng cho Đất",
+        "Hình tam giác - tượng trưng cho Núi"
+      ],
       "answer": "Hình vuông - tượng trưng cho Đất"
     },
     {
       "type": "quiz",
       "question": "Nguyên liệu chính nào Lang Liêu dùng để làm bánh?",
-      "options": ["Hạt ngô", "Hạt gạo nếp", "Khoai sắn"],
+      "options": [
+        "Hạt ngô",
+        "Hạt gạo nếp",
+        "Khoai sắn"
+      ],
       "answer": "Hạt gạo nếp"
     },
     {
       "type": "quiz",
       "question": "Vì sao vua chọn Lang Liêu để truyền ngôi?",
-      "options": ["Vì bánh của Lang Liêu rất đắt tiền", "Vì Lang Liêu khỏe nhất", "Vì lễ vật của Lang Liêu ý nghĩa và hiếu thảo"],
+      "options": [
+        "Vì bánh của Lang Liêu rất đắt tiền",
+        "Vì Lang Liêu khỏe nhất",
+        "Vì lễ vật của Lang Liêu ý nghĩa và hiếu thảo"
+      ],
       "answer": "Vì lễ vật của Lang Liêu ý nghĩa và hiếu thảo"
     }
   ]

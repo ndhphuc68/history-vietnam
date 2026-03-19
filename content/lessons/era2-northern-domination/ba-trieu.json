@@ -4,42 +4,50 @@
   "heroId": "ba-trieu",
   "period": "Bắc thuộc",
   "summary": "Năm 248, người con gái đất Cửu Chân Triệu Thị Trinh đã phất cờ khởi nghĩa chống quân Ngô, để lại câu nói bất hủ về lòng yêu nước.",
-  "image": "/images/history/ba-trieu.png",
+  "image": "/images/history/thumbnails/northern-domination/ba-trieu.png",
   "slides": [
     {
       "type": "story",
       "text": "Bà Triệu tên thật là Triệu Thị Trinh, một người phụ nữ mạnh mẽ và đầy lòng tự trọng dân tộc.",
-      "image": "/images/history/ba-trieu/0.png",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/0.png",
       "imagePrompt": "Young Lady Trieu practicing martial arts in the mountains, determined look, beautiful landscape, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bà nổi tiếng với câu nói: 'Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ, chém cá kình ở biển Đông...'.",
-      "image": "/images/history/ba-trieu/1.png",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/1.png",
       "imagePrompt": "Lady Trieu standing on a high cliff, wind blowing her hair, symbolic image of riding wind and waves, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bà thường mặc áo giáp vàng, đi guốc ngà, cưỡi voi trắng xông vào trận tuyến đánh quân Ngô.",
-      "image": "/images/history/ba-trieu/2.png",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/2.png",
       "imagePrompt": "Lady Trieu in golden armor, riding a white elephant with 3 tusks, leading her army to battle, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Hình ảnh oai phong của Bà khiến quân giặc mỗi khi nghe tên đều run sợ, gọi Bà là 'Nhụy Kiều Tướng quân'.",
-      "image": "/images/history/ba-trieu/3.png",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/3.png",
       "imagePrompt": "Enemies fleeing in fear as Lady Trieu approaches, heroic and majestic presence, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Bà Triệu thường mặc áo giáp màu gì khi ra trận?",
-      "options": ["Màu vàng", "Màu đỏ", "Màu xanh"],
+      "options": [
+        "Màu vàng",
+        "Màu đỏ",
+        "Màu xanh"
+      ],
       "answer": "Màu vàng"
     },
     {
       "type": "quiz",
       "question": "Quân giặc gọi Bà Triệu là gì?",
-      "options": ["Nhụy Kiều Tướng quân", "Nữ vương", "Tướng quân"],
+      "options": [
+        "Nhụy Kiều Tướng quân",
+        "Nữ vương",
+        "Tướng quân"
+      ],
       "answer": "Nhụy Kiều Tướng quân"
     }
   ]

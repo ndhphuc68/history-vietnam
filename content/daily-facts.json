@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hung-vuong-18",
+    "title": "Bí mật về 18 đời vua Hùng",
+    "content": "Truyện kể rằng có tất cả 18 đời Hùng Vương, nhưng thực tế mỗi đời không phải là một người duy nhất mà là một vương triều kéo dài nhiều thế kỷ!",
+    "category": "Truyền thuyết",
+    "icon": "fluent-emoji:crown"
+  },
+  {
+    "id": "thanh-giong-iron",
+    "title": "Cậu bé làng Gióng",
+    "content": "Thánh Gióng không chỉ cưỡi ngựa sắt mà còn dùng cả những bụi tre ngà bên đường để đánh đuổi giặc Ân cứu nước.",
+    "category": "Truyền thuyết",
+    "icon": "fluent-emoji:horse"
+  },
+  {
+    "id": "co-loa-spiral",
+    "title": "Thành Cổ Loa kỳ ảo",
+    "content": "Thành Cổ Loa được xây dựng theo hình xoáy trôn ốc với 9 vòng thành kiên cố, là một kỳ tích quân sự của cha ông ta thời Âu Lạc.",
+    "category": "Kiến trúc",
+    "icon": "fluent-emoji:castle"
+  },
+  {
+    "id": "hai-ba-trung-female",
+    "title": "Hai Bà Trưng cưỡi voi",
+    "content": "Hai Bà Trưng là những vị nữ vương đầu tiên của dân tộc, đã lãnh đạo nhân dân đánh đuổi quân Hán, giành lại độc lập vào năm 40.",
+    "category": "Anh hùng",
+    "icon": "fluent-emoji:elephant"
+  },
+  {
+    "id": "ngo-quyen-stakes",
+    "title": "Trận cọc gỗ thần kỳ",
+    "content": "Năm 938, Ngô Quyền đã dùng mưu đóng cọc gỗ đầu nhọn xuống sông Bạch Đằng để tiêu diệt chiến thuyền quân Nam Hán.",
+    "category": "Chiến công",
+    "icon": "fluent-emoji:anchor"
+  },
+  {
+    "id": "dinh-bo-linh-reeds",
+    "title": "Cờ lau tập trận",
+    "content": "Thuở nhỏ, Đinh Bộ Lĩnh thường cùng bạn chăn trâu lấy bông lau làm cờ, tập trận giả, sau này lớn lên ông đã thống nhất 12 sứ quân.",
+    "category": "Anh hùng",
+    "icon": "fluent-emoji:flag-in-hole"
+  },
+  {
+    "id": "ly-thai-to-dragon",
+    "title": "Rồng vàng hiện lên",
+    "content": "Khi dời đô về thành Đại La, vua Lý Thái Tổ thấy một con rồng vàng bay lên, nên đã đặt tên kinh đô mới là Thăng Long (Rồng bay lên).",
+    "category": "Lịch sử",
+    "icon": "fluent-emoji:dragon"
+  },
+  {
+    "id": "ly-thuong-kiet-poem",
+    "title": "Bài thơ thần trên sông",
+    "content": "Bài thơ 'Nam quốc sơn hà' của Lý Thường Kiệt được coi là bản Tuyên ngôn Độc lập đầu tiên của nước ta, vang lên trên sông Như Nguyệt.",
+    "category": "Văn hóa",
+    "icon": "fluent-emoji:scroll"
+  },
+  {
+    "id": "le-loi-sword",
+    "title": "Sự tích Hồ Gươm",
+    "content": "Sau khi đánh thắng giặc Minh, vua Lê Lợi đã trả lại gươm thần cho Rùa Vàng tại hồ Tả Vọng, từ đó hồ có tên là Hồ Hoàn Kiếm.",
+    "category": "Truyền thuyết",
+    "icon": "fluent-emoji:turtle"
+  },
+  {
+    "id": "quang-trung-speed",
+    "title": "Hành quân thần tốc",
+    "content": "Vua Quang Trung đã thực hiện một cuộc hành quân thần tốc từ Huế ra Thăng Long và đánh tan 29 vạn quân Thanh chỉ trong 5 ngày Tết.",
+    "category": "Chiến công",
+    "icon": "fluent-emoji:zap"
+  },
+  {
+    "id": "ho-chi-minh-reading",
+    "title": "Ngày Tết Độc Lập",
+    "content": "Ngày 2/9/1945, tại quảng trường Ba Đình, Bác Hồ đã đọc bản Tuyên ngôn Độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
+    "category": "Lịch sử",
+    "icon": "fluent-emoji:star"
+  }
+]

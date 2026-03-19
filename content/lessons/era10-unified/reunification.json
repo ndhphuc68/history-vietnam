@@ -3,42 +3,50 @@
   "title": "Đất nước trọn niềm vui",
   "period": "Hiện đại",
   "summary": "Sau ngày 30/4, cả nước bước vào thời kỳ mới, chung tay xây dựng lại quê hương và ổn định cuộc sống sau nhiều năm chiến tranh.",
-  "image": "/images/history/reunification.png",
+  "image": "/images/history/thumbnails/unified-vietnam/reunification.png",
   "slides": [
     {
       "type": "story",
       "text": "Hòa bình lập lại, các bé ở hai miền Nam - Bắc đã có thể gặp nhau. Những đoàn tàu Thống Nhất rộn ràng tiếng cười chạy suốt từ Hà Nội vào Sài Gòn.",
-      "image": "/images/history/reunification/0.png",
+      "image": "/images/history/lessons/unified-vietnam/reunification/0.png",
       "imagePrompt": "A long red and yellow train traveling through beautiful landscapes (mountains and sea), kids waving from windows, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Người dân cùng nhau dọn dẹp bom đạn, sửa sang lại nhà cửa và những cánh đồng bị tàn phá. Sự sống bừng tỉnh trên khắp mọi miền quê.",
-      "image": "/images/history/reunification/1.png",
+      "image": "/images/history/lessons/unified-vietnam/reunification/1.png",
       "imagePrompt": "People working together to plant trees and rebuild a village, blooming flowers, new roofs, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Năm 1976, tên nước ta chính thức được đặt là Cộng hòa Xã hội Chủ nghĩa Việt Nam. Thành phố Sài Gòn mang tên Bác Hồ kính yêu: Thành phố Hồ Chí Minh.",
-      "image": "/images/history/reunification/2.png",
+      "image": "/images/history/lessons/unified-vietnam/reunification/2.png",
       "imagePrompt": "A large welcome sign with the new name of the country, modern buildings and traditional pagodas, city and nature, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chúng ta đã thực sự làm chủ vận mệnh của mình. Một kỷ nguyên mới rực rỡ và đầy hy vọng đang chờ đón tất cả chúng ta phía trước.",
-      "image": "/images/history/reunification/3.png",
+      "image": "/images/history/lessons/unified-vietnam/reunification/3.png",
       "imagePrompt": "A golden horizon, children of all ethnicities in traditional clothes standing together, looking at the future, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Sau khi thống nhất, tên nước ta chính thức là gì?",
-      "options": ["Cộng hòa Xã hội Chủ nghĩa Việt Nam", "Việt Nam Dân chủ Cộng hòa", "Đại Việt"],
+      "options": [
+        "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+        "Việt Nam Dân chủ Cộng hòa",
+        "Đại Việt"
+      ],
       "answer": "Cộng hòa Xã hội Chủ nghĩa Việt Nam"
     },
     {
       "type": "quiz",
       "question": "Thành phố Sài Gòn được vinh dự mang tên vị lãnh tụ nào?",
-      "options": ["Bác Hồ (Hồ Chí Minh)", "Trần Hưng Đạo", "Lê Lợi"],
+      "options": [
+        "Bác Hồ (Hồ Chí Minh)",
+        "Trần Hưng Đạo",
+        "Lê Lợi"
+      ],
       "answer": "Bác Hồ (Hồ Chí Minh)"
     }
   ]

@@ -9,7 +9,7 @@
     "position": "Vua tiên tổ nước Văn Lang",
     "title": "Vua tiên tổ",
     "era": "Dựng nước",
-    "image": "/images/history/hung-kings.png",
+    "image": "/images/history/thumbnails/founding/hung-kings.png",
     "description": "Các vị vua đầu tiên của dân tộc Việt Nam, người có công lập ra nhà nước sơ khai đầu tiên mang tên Văn Lang.",
     "achievements": ["Lập nước Văn Lang", "Mở đầu 4000 năm văn hiến"],
     "funFact": "Truyện kể rằng có tất cả 18 đời Hùng Vương, vị vua nào cũng sống rất thọ và thương dân như con!"
@@ -24,7 +24,7 @@
     "position": "Thiên vương (Thần bảo hộ)",
     "title": "Phù Đổng Thiên Vương",
     "era": "Dựng nước",
-    "image": "/images/history/thanh-giong.png",
+    "image": "/images/history/thumbnails/founding/thanh-giong.png",
     "description": "Cậu bé làng Gióng lớn nhanh như thổi, cưỡi ngựa sắt, cầm tre ngà đánh tan giặc Ân cứu nước.",
     "achievements": ["Đánh tan giặc Ân", "Biểu tượng sức mạnh tuổi trẻ"],
     "funFact": "Sau khi đánh tan quân giặc, Thánh Gióng đã cưỡi ngựa bay thẳng lên trời từ đỉnh núi Sóc!"
@@ -39,7 +39,7 @@
     "position": "Vua nước Âu Lạc",
     "title": "Vua nước Âu Lạc",
     "era": "Dựng nước",
-    "image": "/images/history/an-duong-vuong.png",
+    "image": "/images/history/thumbnails/founding/an-duong-vuong.png",
     "description": "Vị vua hợp nhất Lạc Việt và Tây Âu, xây thành Cổ Loa hình xoáy ốc và có nỏ thần tuyệt diệu.",
     "achievements": ["Xây thành Cổ Loa", "Lập nước Âu Lạc"],
     "funFact": "Thành Cổ Loa được xây với 9 vòng xoáy trôn ốc, dài hàng ngàn mét, là pháo đài cực kỳ kiên cố!"
@@ -54,7 +54,7 @@
     "position": "Nữ vương đầu tiên của dân tộc",
     "title": "Nữ vương đầu tiên",
     "era": "Bắc thuộc",
-    "image": "/images/history/hai-ba-trung.png",
+    "image": "/images/history/thumbnails/northern-domination/hai-ba-trung.png",
     "description": "Hai chị em dũng cảm cưỡi voi ra trận đánh đuổi quân Hán, giành lại độc lập cho dân tộc sau nhiều năm lầm than.",
     "achievements": ["Khởi nghĩa thắng lợi năm 40", "Xưng vương, đóng đô ở Mê Linh"],
     "funFact": "Lời thề của Hai Bà Trưng vẫn còn vang vọng: 'Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng'!"
@@ -69,7 +69,7 @@
     "position": "Thủ lĩnh khởi nghĩa chống quân Ngô",
     "title": "Nhụy Kiều Tướng quân",
     "era": "Bắc thuộc",
-    "image": "/images/history/ba-trieu.png",
+    "image": "/images/history/thumbnails/northern-domination/ba-trieu.png",
     "description": "Người phụ nữ dũng cảm với khí phách phi thường: 'Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ, chém cá kình ở biển Đông'.",
     "achievements": ["Khởi nghĩa chống quân Ngô", "Biểu tượng ý chí bất khuất"]
   },
@@ -83,7 +83,7 @@
     "position": "Vua sáng lập nhà Ngô",
     "title": "Tiền Ngô Vương",
     "era": "Tự chủ",
-    "image": "/images/history/ngo-quyen.png",
+    "image": "/images/history/thumbnails/autonomy/bach-dang-938.png",
     "description": "Vị tướng tài ba với trận địa cọc gỗ chấn động trên sông Bạch Đằng, chấm dứt hoàn toàn 1000 năm Bắc thuộc.",
     "achievements": ["Đại thắng quân Nam Hán 938", "Mở ra thời kỳ độc lập tự chủ lâu dài"],
     "funFact": "Ngô Quyền là người đầu tiên bãi bỏ chức quan của giặc và xưng Vương, lập lại nền độc lập cho nước nhà!"
@@ -98,7 +98,7 @@
     "position": "Hoàng đế sáng lập nhà Đinh",
     "title": "Đinh Tiên Hoàng",
     "era": "Xây dựng",
-    "image": "/images/history/dinh-bo-linh.png",
+    "image": "/images/history/thumbnails/building/dinh-bo-linh.png",
     "description": "Cậu bé chăn trâu cờ lau tập trận đã dũng cảm dẹp loạn 12 sứ quân, thống nhất giang sơn về một mối.",
     "achievements": ["Dẹp loạn 12 sứ quân", "Đặt tên nước là Đại Cồ Việt"]
   },
@@ -112,7 +112,7 @@
     "position": "Hoàng đế sáng lập nhà Tiền Lê",
     "title": "Lê Đại Hành",
     "era": "Xây dựng",
-    "image": "/images/history/le-hoan.png",
+    "image": "/images/history/thumbnails/building/le-hoan.png",
     "description": "Vị tướng quân dũng cảm được Thái hậu trao long bào, chỉ huy quân dân đánh tan quân xâm lược nhà Tống.",
     "achievements": ["Đánh thắng quân Tống 981", "Sáng lập nhà Tiền Lê"]
   },
@@ -126,7 +126,7 @@
     "position": "Hoàng đế sáng lập nhà Lý",
     "title": "Người dời đô về Thăng Long",
     "era": "Xây dựng",
-    "image": "/images/history/ly-thai-to.png",
+    "image": "/images/history/thumbnails/building/ly-thai-to.png",
     "description": "Vị vua nhân từ đã thực hiện cuộc dời đô lịch sử từ Hoa Lư về Thăng Long, mở ra thời kỳ hưng thịnh mới.",
     "achievements": ["Dời đô về Thăng Long 1010", "Sáng lập nhà Lý hùng mạnh"]
   },
@@ -140,7 +140,7 @@
     "position": "Thái úy triều Lý",
     "title": "Người viết bài thơ thần đầu tiên",
     "era": "Xây dựng",
-    "image": "/images/history/ly-thuong-kiet.png",
+    "image": "/images/history/thumbnails/building/ly-thuong-kiet.png",
     "description": "Vị danh tướng lỗi lạc với bài thơ 'Nam quốc sơn hà' khẳng định chủ quyền dân tộc trên sông Như Nguyệt.",
     "achievements": ["Đánh thắng quân Tống trên sông Như Nguyệt", "Tác giả bài thơ Nam quốc sơn hà"]
   },
@@ -154,7 +154,7 @@
     "position": "Quốc công Tiết chế (Tổng tư lệnh)",
     "title": "Hưng Đạo Đại Vương",
     "era": "Xây dựng",
-    "image": "/images/history/tran-hung-dao.png",
+    "image": "/images/history/thumbnails/building/tran-hung-dao.png",
     "description": "Vị thiên tài quân sự kiệt xuất, người chỉ huy nhân dân nhà Trần 3 lần đánh thắng quân Nguyên Mông hùng mạnh.",
     "achievements": ["Đại thắng quân Nguyên Mông", "Viết Hịch tướng sĩ khích lệ quân tâm"]
   },
@@ -168,7 +168,7 @@
     "position": "Hoàng đế sáng lập nhà Hậu Lê",
     "title": "Lê Thái Tổ",
     "era": "Phục hưng",
-    "image": "/images/history/le-loi.png",
+    "image": "/images/history/thumbnails/independence-restored/le-loi.png",
     "description": "Người lãnh đạo cuộc khởi nghĩa Lam Sơn gian khổ ròng rã 10 năm để quét sạch quân Minh xâm lược.",
     "achievements": ["Đánh đuổi quân Minh", "Sáng lập nhà Hậu Lê (Lê Sơ)"]
   },
@@ -182,7 +182,7 @@
     "position": "Khai quốc công thần, Nhà văn hóa",
     "title": "Danh nhân văn hóa thế giới",
     "era": "Phục hưng",
-    "image": "/images/history/nguyen-trai.png",
+    "image": "/images/history/thumbnails/independence-restored/nguyen-trai.png",
     "description": "Cố vấn tài ba của vua Lê Lợi, người viết bản 'Bình Ngô đại cáo' khẳng định nền độc lập tự chủ dân tộc.",
     "achievements": ["Viết Bình Ngô đại cáo", "Mưu sĩ tài ba của khởi nghĩa Lam Sơn"]
   },
@@ -196,7 +196,7 @@
     "position": "Hoàng đế nhà Tây Sơn",
     "title": "Người anh hùng áo vải",
     "era": "Phục hưng",
-    "image": "/images/history/quang-trung.png",
+    "image": "/images/history/thumbnails/independence-restored/quang-trung.png",
     "description": "Vị vua thiên tài quân sự hành quân thần tốc đánh tan 29 vạn quân Thanh chỉ trong những ngày Tết ngắn ngủi.",
     "achievements": ["Đại thắng Ngọc Hồi - Đống Đa", "Đánh tan quân Xiêm tại Rạch Gầm - Xoài Mút"]
   },
@@ -210,7 +210,7 @@
     "position": "Lãnh binh (Bình Tây Đại Nguyên soái)",
     "title": "Bình Tây Đại Nguyên soái",
     "era": "Chống Pháp",
-    "image": "/images/history/truong-dinh.png",
+    "image": "/images/history/thumbnails/resistance/truong-dinh.png",
     "description": "Lãnh tụ nghĩa quân kiên cường, thà cãi lệnh vua để ở lại cùng dân đánh Pháp bảo vệ vùng đất Nam Bộ.",
     "achievements": ["Chỉ huy nghĩa quân Gò Công chống Pháp", "Giữ vững khí tiết anh hùng bất khuất"]
   },
@@ -224,7 +224,7 @@
     "position": "Vị hoàng đế thứ 8 nhà Nguyễn",
     "title": "Vị vua trẻ yêu nước",
     "era": "Chống Pháp",
-    "image": "/images/history/ham-nghi.png",
+    "image": "/images/history/thumbnails/resistance/ham-nghi.png",
     "description": "Vị vua dũng cảm rời kinh thành ra chiến khu, ban chiếu Cần Vương khơi dậy ngọn lửa yêu nước khắp cả nước.",
     "achievements": ["Ban chiếu Cần Vương lãnh đạo kháng chiến", "Biểu tượng tinh thần chống Pháp của hoàng triều"]
   },
@@ -238,7 +238,7 @@
     "position": "Nhà cách mạng, Danh sĩ",
     "title": "Người khởi xướng phong trào Đông Du",
     "era": "Duy tân",
-    "image": "/images/history/phan-boi-chau.png",
+    "image": "/images/history/thumbnails/patriotic-movements/phan-boi-chau.png",
     "description": "Nhà yêu nước vĩ đại chủ trương nâng cao dân trí bằng cách đưa thanh niên sang Nhật Bản du học để tìm đường cứu nước.",
     "achievements": ["Sáng lập Việt Nam Quang phục Hội", "Khởi xướng phong trào Đông Du"]
   },
@@ -252,7 +252,7 @@
     "position": "Chủ tịch nước Việt Nam Dân chủ Cộng hòa",
     "title": "Bác Hồ kính yêu",
     "era": "Hiện đại",
-    "image": "/images/history/modern.png",
+    "image": "/images/history/thumbnails/ho-chi-minh-era/ho-chi-minh.png",
     "description": "Vị lãnh tụ vĩ đại của dân tộc, người đã tìm ra con đường cứu nước đúng đắn và khai sinh ra nước Việt Nam mới.",
     "achievements": ["Đọc Tuyên ngôn Độc lập 2/9/1945", "Lãnh đạo cuộc kháng chiến chống Pháp, Mỹ"]
   },
@@ -266,7 +266,7 @@
     "position": "Đại tướng, Tổng Tư lệnh tối cao",
     "title": "Vị Đại tướng của nhân dân",
     "era": "Hiện đại",
-    "image": "/images/history/dien-bien-phu.png",
+    "image": "/images/history/thumbnails/ho-chi-minh-era/vo-nguyen-giap.png",
     "description": "Vị tướng huyền thoại chỉ huy chiến dịch Điện Biên Phủ 'lừng lẫy năm châu', một trong những thiên tài quân sự thế kỷ XX.",
     "achievements": ["Đại thắng Điện Biên Phủ 1954", "Tổng chỉ huy chiến dịch Hồ Chí Minh 1975"]
   }

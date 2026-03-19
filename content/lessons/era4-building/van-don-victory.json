@@ -3,42 +3,50 @@
   "title": "Chiến thắng Vân Đồn",
   "period": "Xây dựng",
   "summary": "Vị tướng trẻ Trần Khánh Dư đã mưu trí đánh tan đoàn thuyền lương của giặc, khiến chúng rơi vào cảnh đói khát.",
-  "image": "/images/history/van-don-victory.png",
+  "image": "/images/history/thumbnails/building/van-don-victory.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé có biết không? Đội quân lớn muốn đánh thắng thì phải có cái bụng no. Quân Nguyên Mông đã cho một đoàn thuyền chở đầy lương thực đi sau cùng.",
-      "image": "/images/history/van-don-victory/0.png",
+      "image": "/images/history/lessons/building/van-don-victory/0.png",
       "imagePrompt": "Large transport ships heavily loaded with rice bags and barrels, slow moving on the sea, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tướng Trần Khánh Dư đã nhìn ra điểm yếu này. Ông chỉ huy quân ta phục kích tại vùng biển Vân Đồn xinh đẹp.",
-      "image": "/images/history/van-don-victory/1.png",
+      "image": "/images/history/lessons/building/van-don-victory/1.png",
       "imagePrompt": "Small Vietnamese boats hidden behind rocky islands in Ha Long bay style, waiting for the enemy, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khi đoàn thuyền lương đi qua, quân ta bất ngờ xông ra tấn công dữ dội. Toàn bộ lương thực của giặc bị nhấn chìm xuống biển hoặc bị tiêu hủy.",
-      "image": "/images/history/van-don-victory/2.png",
+      "image": "/images/history/lessons/building/van-don-victory/2.png",
       "imagePrompt": "Sea battle, fire on the transport ships, bags of rice falling into the water, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Mất hết lương ăn, quân giặc hoang mang, cơ thể mệt mỏi. Đây chính là bước ngoặt quan trọng giúp quân ta giành đại thắng sau này.",
-      "image": "/images/history/van-don-victory/3.png",
+      "image": "/images/history/lessons/building/van-don-victory/3.png",
       "imagePrompt": "Hungry enemy soldiers looking at the empty sea, stomachs growling (visual effect), children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ai là người chỉ huy chiến thắng Vân Đồn?",
-      "options": ["Trần Hưng Đạo", "Trần Khánh Dư", "Phạm Ngũ Lão"],
+      "options": [
+        "Trần Hưng Đạo",
+        "Trần Khánh Dư",
+        "Phạm Ngũ Lão"
+      ],
       "answer": "Trần Khánh Dư"
     },
     {
       "type": "quiz",
       "question": "Mục tiêu chính của quân ta trong trận Vân Đồn là gì?",
-      "options": ["Đánh vào thuyền chở lính", "Đánh vào đoàn thuyền chở lương thực của giặc", "Đánh vào cung điện"],
+      "options": [
+        "Đánh vào thuyền chở lính",
+        "Đánh vào đoàn thuyền chở lương thực của giặc",
+        "Đánh vào cung điện"
+      ],
       "answer": "Đánh vào đoàn thuyền chở lương thực của giặc"
     }
   ]

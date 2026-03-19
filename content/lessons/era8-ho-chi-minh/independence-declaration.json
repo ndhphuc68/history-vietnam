@@ -4,42 +4,50 @@
   "heroId": "ho-chi-minh",
   "period": "Kháng chiến Pháp",
   "summary": "Ngày 2/9/1945, tại quảng trường Ba Đình, Bác Hồ đã đọc bản Tuyên ngôn Độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
-  "image": "/images/history/ho-chi-minh.png",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/independence-declaration.png",
   "slides": [
     {
       "type": "story",
       "text": "Hàng vạn người từ khắp nơi đã đổ về quảng trường Ba Đình lịch sử trong niềm vui thắng lợi của Cách mạng tháng Tám.",
-      "image": "/images/history/independence-declaration/0.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/0.png",
       "imagePrompt": "Huge crowd of people with red flags at Ba Dinh square, sunny day, ocean of flags, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bác Hồ trong bộ quần áo kaki giản dị, bước lên bục cao và cất tiếng nói ấm áp, thân thương.",
-      "image": "/images/history/independence-declaration/1.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/1.png",
       "imagePrompt": "Ho Chi Minh standing at the podium on Ba Dinh square, simple khaki clothes, speaking into a microphone, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khi Bác hỏi: 'Tôi nói đồng bào nghe rõ không?', cả quảng trường đồng thanh đáp: 'Có!', vang dội cả một góc trời.",
-      "image": "/images/history/independence-declaration/2.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/2.png",
       "imagePrompt": "Uncle Ho smiling and pointing to the crowd, people shouting 'Yes!' in unison, emotional moment, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Lời tuyên bố độc lập đã mở ra một kỷ nguyên mới, kỷ nguyên của tự do và hạnh phúc cho toàn thể dân tộc Việt Nam.",
-      "image": "/images/history/independence-declaration/3.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/3.png",
       "imagePrompt": "Birds flying over Ba Dinh square, symbol of peace and newly born independence, beautiful sky, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Bác Hồ đọc Tuyên ngôn Độc lập vào ngày nào?",
-      "options": ["Ngày 2 tháng 9", "Ngày 19 tháng 8", "Ngày 1 tháng 1"],
+      "options": [
+        "Ngày 2 tháng 9",
+        "Ngày 19 tháng 8",
+        "Ngày 1 tháng 1"
+      ],
       "answer": "Ngày 2 tháng 9"
     },
     {
       "type": "quiz",
       "question": "Bác Hồ đọc Tuyên ngôn Độc lập tại quảng trường nào?",
-      "options": ["Quảng trường Ba Đình", "Quảng trường Đông Kinh Nghĩa Thục", "Quảng trường Lam Sơn"],
+      "options": [
+        "Quảng trường Ba Đình",
+        "Quảng trường Đông Kinh Nghĩa Thục",
+        "Quảng trường Lam Sơn"
+      ],
       "answer": "Quảng trường Ba Đình"
     }
   ]

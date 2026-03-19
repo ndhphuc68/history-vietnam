@@ -4,6 +4,21 @@ import { useGlossary } from "~/composables/useGlossary";
 const { glossary } = useGlossary();
 const searchQuery = ref("");
 const selectedCategory = ref("Tất cả");
+const activeLetter = ref("");
+
+useHead({
+  title: "Từ điển Lịch sử",
+});
+
+useSeoMeta({
+  title: "Từ điển Lịch sử Việt Nam cho Bé",
+  ogTitle: "Từ điển Lịch sử Việt Nam cho Bé",
+  description:
+    "Tra cứu và giải mã những từ ngữ, khái niệm lịch sử Việt Nam một cách dễ hiểu nhất.",
+  ogDescription:
+    "Kho tàng kiến thức về các chức danh, sự vật và khái niệm lịch sử hào hùng.",
+  ogImage: "/images/banner/banner.png",
+});
 
 const categories = [
   "Tất cả",
@@ -14,8 +29,9 @@ const categories = [
   "Thời kỳ",
 ];
 
-const filteredGlossary = computed(() => {
-  return glossary.value.filter((item) => {
+// Group filtered glossary by first letter
+const groupedGlossary = computed(() => {
+  const filtered = glossary.value.filter((item) => {
     const matchesSearch =
       item.term.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
       item.definition.toLowerCase().includes(searchQuery.value.toLowerCase());
@@ -24,11 +40,66 @@ const filteredGlossary = computed(() => {
       item.category === selectedCategory.value;
     return matchesSearch && matchesCategory;
   });
+
+  const groups: Record<string, typeof filtered> = {};
+  filtered
+    .sort((a, b) => a.term.localeCompare(b.term, "vi"))
+    .forEach((item) => {
+      const firstLetter = item.term.charAt(0).toUpperCase();
+      if (!groups[firstLetter]) groups[firstLetter] = [];
+      groups[firstLetter].push(item);
+    });
+
+  return groups;
+});
+
+const availableLetters = computed(() =>
+  Object.keys(groupedGlossary.value).sort(),
+);
+
+const scrollToLetter = (letter: string) => {
+  activeLetter.value = letter;
+  const element = document.getElementById(`section-${letter}`);
+  if (element) {
+    const offset = 120; // Header offset
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  }
+};
+
+// Intersection Observer to update active letter on scroll
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          activeLetter.value = entry.target.id.replace("section-", "");
+        }
+      });
+    },
+    { threshold: 0.1, rootMargin: "-120px 0px -50% 0px" },
+  );
+
+  document.querySelectorAll("[id^='section-']").forEach((section) => {
+    observer.observe(section);
+  });
 });
 </script>
 
 <template>
-  <div class="min-h-screen pb-20">
+  <div class="min-h-screen pb-32 bg-background relative overflow-x-hidden">
+    <!-- Decorative Pattern -->
+    <div
+      class="fixed inset-0 pointer-events-none opacity-[0.05] parchment-pattern z-0"
+    ></div>
+
     <UiPageHero
       title-primary="Từ điển"
       title-highlight="Tình Việt"
@@ -38,84 +109,119 @@ const filteredGlossary = computed(() => {
       accent-color="secondary"
     />
 
-    <div class="max-w-7xl mx-auto px-4 -mt-8 relative z-20">
-      <!-- Search & Filter Bar -->
+    <!-- Main Content Container -->
+    <div class="max-w-7xl mx-auto px-4 md:px-8 -mt-8 relative z-20">
+      <!-- Search & Category Filter (Fixed/Sticky for ease of use) -->
       <div
-        class="bg-white rounded-3xl shadow-xl p-6 md:p-8 mb-12 border-2 border-secondary/10 flex flex-col md:flex-row gap-6 items-center"
+        class="sticky top-24 z-30 bg-white/80 backdrop-blur-xl rounded-[32px] shadow-2xl p-4 md:p-6 mb-12 border-2 border-secondary/10 flex flex-col items-center gap-6"
       >
-        <div class="relative flex-1 w-full">
-          <Icon
-            name="fluent:search-24-filled"
-            class="absolute left-4 top-1/2 -translate-y-1/2 text-text/30 text-xl"
-          />
-          <input
-            v-model="searchQuery"
-            type="text"
-            placeholder="Tìm kiếm từ khóa..."
-            class="w-full pl-12 pr-6 py-4 bg-background rounded-2xl border-2 border-transparent focus:border-secondary focus:bg-white transition-all outline-none font-bold text-text"
-          />
-        </div>
-
-        <div
-          class="flex gap-2 overflow-x-auto pb-2 w-full md:w-auto no-scrollbar"
-        >
-          <button
-            v-for="cat in categories"
-            :key="cat"
-            @click="selectedCategory = cat"
-            class="px-5 py-2.5 rounded-full text-sm font-black transition-all whitespace-nowrap"
-            :class="
-              selectedCategory === cat
-                ? 'bg-secondary text-white shadow-lg'
-                : 'bg-background text-text/60 hover:bg-secondary/10 hover:text-secondary'
-            "
-          >
-            {{ cat }}
-          </button>
-        </div>
-      </div>
-
-      <!-- Glossary Grid -->
-      <div
-        v-if="filteredGlossary.length > 0"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
-      >
-        <div
-          v-for="item in filteredGlossary"
-          :key="item.id"
-          class="bg-white rounded-[32px] p-8 shadow-md border-b-8 border-secondary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group"
-        >
-          <div class="flex items-center justify-between mb-4">
-            <span
-              class="px-3 py-1 bg-secondary/10 text-secondary text-[10px] font-black rounded-full uppercase tracking-wider"
-            >
-              {{ item.category || "Chung" }}
-            </span>
+        <div class="flex flex-col md:flex-row w-full gap-4 items-center">
+          <div class="relative flex-1 w-full group">
+            <Icon
+              name="fluent:search-24-filled"
+              class="absolute left-5 top-1/2 -translate-y-1/2 text-text/30 text-2xl group-focus-within:text-secondary transition-colors"
+            />
+            <input
+              v-model="searchQuery"
+              type="text"
+              placeholder="Hôm nay bé muốn tìm từ gì nào?..."
+              class="w-full pl-14 pr-8 py-5 bg-background/50 rounded-2xl border-4 border-transparent focus:border-secondary focus:bg-white transition-all outline-none font-black text-xl text-text placeholder:text-text/20"
+            />
           </div>
-          <h3
-            class="text-2xl font-black text-text mb-3 group-hover:text-secondary transition-colors"
+
+          <!-- Category Buttons in Search Bar for secondary filtering -->
+          <div
+            class="flex gap-2 overflow-x-auto pb-2 w-full md:w-auto no-scrollbar justify-center"
           >
-            {{ item.term }}
-          </h3>
-          <p class="text-text/70 font-bold leading-relaxed">
-            {{ item.definition }}
-          </p>
+            <button
+              v-for="cat in categories"
+              :key="cat"
+              @click="selectedCategory = cat"
+              class="px-6 py-2 rounded-2xl font-bold whitespace-nowrap transition-all duration-300 shadow-[0px_2px_8px_0px_rgba(99,99,99,0.2)]"
+              :class="
+                selectedCategory === cat
+                  ? 'bg-secondary text-white scale-105'
+                  : 'bg-white text-text hover:bg-secondary/5 border-2 border-transparent hover:shadow-md'
+              "
+            >
+              {{ cat }}
+            </button>
+          </div>
         </div>
       </div>
 
-      <!-- Empty State -->
-      <div
-        v-else
-        class="text-center py-20 bg-white rounded-[40px] border-4 border-dashed border-text/10"
-      >
-        <Icon
-          name="fluent-emoji:magnifying-glass-tilted-left"
-          class="text-8xl mb-6 opacity-20"
+      <div class="flex flex-col lg:flex-row gap-8 lg:gap-20 items-start">
+        <!-- Sidebar: A-Z Index -->
+        <GlossaryIndex
+          v-if="availableLetters.length > 0"
+          :available-letters="availableLetters"
+          :active-letter="activeLetter"
+          @select="scrollToLetter"
+          class="lg:w-16 flex-shrink-0 z-20 sticky top-40"
         />
-        <h3 class="text-2xl font-black text-text/40">
-          Không tìm thấy từ này bạn ơi!
-        </h3>
-        <p class="text-text/30 font-bold mt-2">Hãy thử tìm một từ khác nhé.</p>
+
+        <!-- Content Area -->
+        <div class="flex-1 w-full space-y-24 lg:pl-8">
+          <div v-if="Object.keys(groupedGlossary).length > 0">
+            <div
+              v-for="(items, letter) in groupedGlossary"
+              :key="letter"
+              :id="'section-' + letter"
+              class="scroll-mt-32 mb-10"
+            >
+              <!-- Letter Header (Ancient Tablet Style) -->
+              <div class="flex items-center gap-6 mb-10 group">
+                <div
+                  class="w-20 h-20 bg-text text-white rounded-3xl flex items-center justify-center text-5xl font-black shadow-2xl transform transition-transform group-hover:rotate-12"
+                >
+                  {{ letter }}
+                </div>
+                <div
+                  class="flex-1 h-1 bg-gradient-to-r from-text/20 to-transparent rounded-full"
+                ></div>
+              </div>
+
+              <!-- Grid of Terms -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <GlossaryCard
+                  v-for="item in items"
+                  :key="item.id"
+                  :item="item"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Empty State -->
+          <div
+            v-else
+            class="text-center py-32 bg-white/50 backdrop-blur-md rounded-[60px] border-4 border-dashed border-text/10"
+          >
+            <div
+              class="inline-flex items-center justify-center w-40 h-40 bg-background rounded-full mb-8 animate-bounce-slow"
+            >
+              <Icon
+                name="fluent-emoji:magnifying-glass-tilted-left"
+                class="text-8xl opacity-40"
+              />
+            </div>
+            <h3 class="text-4xl font-black text-text/40 mb-4">
+              Không tìm thấy từ này bạn ơi!
+            </h3>
+            <p class="text-xl text-text/30 font-bold">
+              Hãy thử nhập một từ khác hoặc xóa bộ lọc nhé.
+            </p>
+            <button
+              @click="
+                searchQuery = '';
+                selectedCategory = 'Tất cả';
+              "
+              class="mt-10 px-10 py-4 bg-secondary text-white font-black rounded-2xl hover:scale-110 active:scale-95 transition-all shadow-xl"
+            >
+              Xem tất cả từ điển
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -128,5 +234,23 @@ const filteredGlossary = computed(() => {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.parchment-pattern {
+  background-image: url("https://www.transparenttextures.com/patterns/parchment.png");
+}
+
+.animate-bounce-slow {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: none;
+  }
 }
 </style>

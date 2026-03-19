@@ -3,42 +3,50 @@
   "title": "Chiến dịch Biên giới 1950",
   "period": "Chống Pháp",
   "summary": "Chiến thắng quan trọng giúp giải phóng vùng biên giới phía Bắc, khai thông đường liên lạc với các nước bạn và thế giới.",
-  "image": "/images/history/border-campaign.png",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/border-campaign.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 1950, để phá thế bao vây của quân Pháp, Bác Hồ và Đại tướng Võ Nguyên Giáp đã quyết định mở chiến dịch tại vùng biên giới phía Bắc.",
-      "image": "/images/history/border-campaign/0.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/0.png",
       "imagePrompt": "Uncle Ho and General Vo Nguyen Giap looking at a map on a wooden table in a cave, candles, strategic atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bác Hồ đã trực tiếp ra mặt trận để động viên các chiến sĩ. Hình ảnh Bác ngồi trên núi quan sát trận đánh đã trở thành biểu tượng sống mãi.",
-      "image": "/images/history/border-campaign/1.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/1.png",
       "imagePrompt": "Uncle Ho in a simple brown suit, sitting on a rock with binoculars, looking at the distant mountains, sunrise, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Quân ta đã anh dũng tấn công và làm chủ các cứ điểm như Đông Khê, Thất Khê. Quân Pháp phải tháo chạy trong hỗn loạn, để rớt lại nhiều vũ khí.",
-      "image": "/images/history/border-campaign/2.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/2.png",
       "imagePrompt": "Vietnamese soldiers charging through smoke, French soldiers retreating, rugged mountain terrain, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chiến thắng này đã giúp nước ta không còn bị cô lập, mở rộng vòng tay đón nhận sự ủng hộ từ bạn bè quốc tế cho cuộc kháng chiến.",
-      "image": "/images/history/border-campaign/3.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/3.png",
       "imagePrompt": "A large iron gate opening on a mountain road, trucks carrying supplies entering, people waving, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ai là người đã trực tiếp ra mặt trận động viên chiến sĩ trong chiến dịch Biên giới 1950?",
-      "options": ["Bác Hồ", "Vua Gia Long", "Ngô Quyền"],
+      "options": [
+        "Bác Hồ",
+        "Vua Gia Long",
+        "Ngô Quyền"
+      ],
       "answer": "Bác Hồ"
     },
     {
       "type": "quiz",
       "question": "Ý nghĩa lớn nhất của chiến thắng Biên giới 1950 là gì?",
-      "options": ["Giải phóng vùng biên giới, khai thông đường quốc tế", "Để đi du lịch", "Để mua thêm quần áo"],
+      "options": [
+        "Giải phóng vùng biên giới, khai thông đường quốc tế",
+        "Để đi du lịch",
+        "Để mua thêm quần áo"
+      ],
       "answer": "Giải phóng vùng biên giới, khai thông đường quốc tế"
     }
   ]

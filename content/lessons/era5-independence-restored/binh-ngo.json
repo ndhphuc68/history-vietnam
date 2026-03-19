@@ -3,42 +3,50 @@
   "title": "Bình Ngô đại cáo",
   "period": "Phục hưng",
   "summary": "Bản tuyên ngôn độc lập thứ hai của dân tộc, khẳng định chủ quyền và hòa bình của đất nước sau 20 năm kháng chiến.",
-  "image": "/images/history/binh-ngo.png",
+  "image": "/images/history/thumbnails/independence-restored/binh-ngo.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 1428, sau khi giặc Minh đã phải rút chạy về nước, Nguyễn Trãi đã thay lời Lê Lợi viết nên bản 'Bình Ngô đại cáo' để báo tin vui cho toàn dân.",
-      "image": "/images/history/binh-ngo/0.png",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/0.png",
       "imagePrompt": "Nguyen Trai reading a large scroll from a high balcony to a crowd of cheering people, golden sunlight, celebration, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bản cáo khẳng định: Nước Việt ta đã có nền văn hiến lâu đời, có núi sông bờ cõi riêng và có những anh hùng hào kiệt đời nào cũng có.",
-      "image": "/images/history/binh-ngo/1.png",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/1.png",
       "imagePrompt": "Symbolic representation of Vietnamese culture: a lotus, a traditional roof, a writing brush, and a sword, all harmonious, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đây được coi là 'Bản Tuyên ngôn Độc lập' thứ hai của Việt Nam. Nó mở ra một thời kỳ hòa bình, xây dựng đất nước sau 20 năm lầm than dưới gót giày quân xâm lược.",
-      "image": "/images/history/binh-ngo/2.png",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/2.png",
       "imagePrompt": "White pigeons flying over a peaceful village, people plowing fields again, kids playing, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Lời văn hào hùng của 'Bình Ngô đại cáo' vẫn còn vang vọng mãi, nhắc nhở chúng ta về lòng tự hào dân tộc và ý chí không bao giờ khuất phục.",
-      "image": "/images/history/binh-ngo/3.png",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/3.png",
       "imagePrompt": "The golden characters of the title 'BINH NGO DAI CAO' shining against a beautiful sunrise, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ai là tác giả của 'Bình Ngô đại cáo'?",
-      "options": ["Lê Lợi", "Nguyễn Trãi", "Lý Thường Kiệt"],
+      "options": [
+        "Lê Lợi",
+        "Nguyễn Trãi",
+        "Lý Thường Kiệt"
+      ],
       "answer": "Nguyễn Trãi"
     },
     {
       "type": "quiz",
       "question": "'Bình Ngô đại cáo' được viết vào năm nào?",
-      "options": ["Năm 1428", "Năm 938", "Năm 1945"],
+      "options": [
+        "Năm 1428",
+        "Năm 938",
+        "Năm 1945"
+      ],
       "answer": "Năm 1428"
     }
   ]

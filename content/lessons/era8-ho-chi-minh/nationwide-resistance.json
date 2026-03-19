@@ -3,42 +3,50 @@
   "title": "Kháng chiến chống Pháp (1945-1954)",
   "period": "Chống Pháp",
   "summary": "Để bảo vệ nền độc lập vừa giành được, toàn dân ta đã bước vào cuộc kháng chiến trường kỳ chống lại sự quay trở lại của thực dân Pháp.",
-  "image": "/images/history/resistance-war-france.png",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/resistance-war-france.png",
   "slides": [
     {
       "type": "story",
       "text": "Không muốn chúng ta được tự do, thực dân Pháp lại kéo quân sang xâm lược nước ta một lần nữa. Bác Hồ đã kêu gọi: 'Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước'.",
-      "image": "/images/history/resistance-war-france/0.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/0.png",
       "imagePrompt": "Vietnamese people from all walks of life gathering under a banner 'QUYET TU CHO TO QUOC QUYET SINH', determined faces, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Cả nước bước vào cuộc kháng chiến gian khổ. Các bé và gia đình đã phải rời bỏ thành phố để lên chiến khu (vùng núi) để bảo vệ lực lượng.",
-      "image": "/images/history/resistance-war-france/1.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/1.png",
       "imagePrompt": "A family traveling through mountain pass at night with torches, carrying simple belongings, moonlit forest, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù thiếu thốn thức ăn, quần áo, nhưng quân và dân ta vẫn luôn lạc quan, cùng nhau tăng gia sản xuất và chiến đấu dũng cảm khắp nơi.",
-      "image": "/images/history/resistance-war-france/2.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/2.png",
       "imagePrompt": "Soldiers and peasants planting corn and rice together in a forest clearing, singing and working, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Những trận đánh vang dội như chiến dịch Việt Bắc, Biên giới đã làm quân Pháp nao núng, khẳng định sức mạnh của cuộc chiến tranh nhân dân.",
-      "image": "/images/history/resistance-war-france/3.png",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/3.png",
       "imagePrompt": "Vietnamese soldiers in green uniforms and pith helmets (mũ cối) using clever tactics in the jungle, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Lời kêu gọi nào của Bác Hồ đã thôi thúc nhân dân đứng lên chống Pháp?",
-      "options": ["Lời kêu gọi toàn quốc kháng chiến", "Lời mời đi du lịch", "Kêu gọi đi tập thể dục"],
+      "options": [
+        "Lời kêu gọi toàn quốc kháng chiến",
+        "Lời mời đi du lịch",
+        "Kêu gọi đi tập thể dục"
+      ],
       "answer": "Lời kêu gọi toàn quốc kháng chiến"
     },
     {
       "type": "quiz",
       "question": "Nhân dân ta đã làm gì để ủng hộ kháng chiến?",
-      "options": ["Ở lại thành phố vui chơi", "Lên chiến khu và tham gia sản xuất, chiến đấu", "Đi xem phim"],
+      "options": [
+        "Ở lại thành phố vui chơi",
+        "Lên chiến khu và tham gia sản xuất, chiến đấu",
+        "Đi xem phim"
+      ],
       "answer": "Lên chiến khu và tham gia sản xuất, chiến đấu"
     }
   ]

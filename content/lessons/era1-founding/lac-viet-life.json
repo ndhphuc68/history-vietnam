@@ -3,54 +3,66 @@
   "title": "Đời sống người Lạc Việt",
   "period": "Dựng nước",
   "summary": "Khám phá cuộc sống bình dị nhưng rực rỡ sắc màu của cư dân Văn Lang thời đại các vua Hùng.",
-  "image": "/images/history/lac-viet-life.png",
+  "image": "/images/history/thumbnails/founding/lac-viet-life.png",
   "slides": [
     {
       "type": "story",
       "text": "Người Lạc Việt chủ yếu sống bằng nghề trồng lúa nước. Họ đắp đê ngăn lũ, dùng trâu bò để cày kéo ruộng đồng.",
-      "image": "/images/history/lac-viet-life/0.png",
+      "image": "/images/history/lessons/founding/lac-viet-life/0.png",
       "imagePrompt": "Ancient Vietnamese farmers working in rice fields with buffalo, green mountains, traditional loincloths, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Họ ở nhà sàn để tránh thú dữ và ẩm ướt. Nhà được làm từ gỗ, tre, nứa với mái hình thuyền hoặc hình tròn.",
-      "image": "/images/history/lac-viet-life/1.png",
+      "image": "/images/history/lessons/founding/lac-viet-life/1.png",
       "imagePrompt": "Ancient Vietnamese stilt houses (nha san) in a village, people doing activities outside, peaceful scene, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Trang phục của người Lạc Việt đơn giản: nam đóng khố, mình trần, xăm mình; nữ mặc váy, áo yếm, đeo nhiều trang sức bằng đá, đồng.",
-      "image": "/images/history/lac-viet-life/2.png",
+      "image": "/images/history/lessons/founding/lac-viet-life/2.png",
       "imagePrompt": "People wearing ancient Lac Viet clothes, necklaces, bracelets, traditional patterns, distinct hairstyles, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Người Lạc Việt giỏi đúc đồng, làm ra nhiều công cụ và đặc biệt là những chiếc Trống đồng tinh xảo.",
-      "image": "/images/history/lac-viet-life/3.png",
+      "image": "/images/history/lessons/founding/lac-viet-life/3.png",
       "imagePrompt": "Ancient craftsmen casting bronze, making tools, a beautiful Dong Son drum in focus, fire glowing, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "story",
       "text": "Họ có nhiều phong tục độc đáo như ăn trầu, nhuộm răng đen và tổ chức các lễ hội với hoạt động đua thuyền, đấu vật, nhảy múa.",
-      "image": "/images/history/lac-viet-life/4.png",
+      "image": "/images/history/lessons/founding/lac-viet-life/4.png",
       "imagePrompt": "Ancient Vietnamese festival, people racing long boats on a river and dancing, joyful atmosphere, children book illustration, cartoon style, bright colors, flat design"
     },
     {
       "type": "quiz",
       "question": "Người Lạc Việt thường ở loại nhà nào?",
-      "options": ["Nhà tầng", "Nhà sàn", "Lâu đài"],
+      "options": [
+        "Nhà tầng",
+        "Nhà sàn",
+        "Lâu đài"
+      ],
       "answer": "Nhà sàn"
     },
     {
       "type": "quiz",
       "question": "Nghề chính của cư dân Văn Lang là gì?",
-      "options": ["Trồng lúa nước", "Săn bắt hải sản biển sâu", "Buôn bán xuyên quốc gia"],
+      "options": [
+        "Trồng lúa nước",
+        "Săn bắt hải sản biển sâu",
+        "Buôn bán xuyên quốc gia"
+      ],
       "answer": "Trồng lúa nước"
     },
     {
       "type": "quiz",
       "question": "Những phong tục nào sau đây là của người Lạc Việt?",
-      "options": ["Ăn trầu, nhuộm răng đen", "Mặc com-lê", "Xem tivi"],
+      "options": [
+        "Ăn trầu, nhuộm răng đen",
+        "Mặc com-lê",
+        "Xem tivi"
+      ],
       "answer": "Ăn trầu, nhuộm răng đen"
     }
   ]

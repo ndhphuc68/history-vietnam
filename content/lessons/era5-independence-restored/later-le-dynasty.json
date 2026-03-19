@@ -3,42 +3,50 @@
   "title": "Nhà Lê sơ phát triển",
   "period": "Phục hưng",
   "summary": "Dưới bàn tay xây dựng của vua Lê Thái Tổ và các vị vua kế nghiệp, đất nước ta đã trở nên giàu mạnh và có nhiều thành tựu rực rỡ.",
-  "image": "/images/history/later-le-dynasty.png",
+  "image": "/images/history/thumbnails/independence-restored/later-le-dynasty.png",
   "slides": [
     {
       "type": "story",
       "text": "Sau khi lên ngôi (vua Lê Thái Tổ), Lê Lợi đã bắt tay ngay vào việc giúp dân phục hồi cuộc sống. Những cánh đồng lúa xanh mướt lại hiện ra khắp nơi.",
-      "image": "/images/history/later-le-dynasty/0.png",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/0.png",
       "imagePrompt": "Vast green rice fields, farmers smiling, irrigation canals with water flowing, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Kinh thành Thăng Long được sửa sang lại lộng lẫy hơn. Nhà vua cho mở các kỳ thi để chọn người tài giúp nước, khuyến khích mọi người học tập.",
-      "image": "/images/history/later-le-dynasty/1.png",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/1.png",
       "imagePrompt": "The imperial palace in Thang Long with colorful flags, a busy school with students and teachers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Để bảo vệ đất nước, nhà vua còn cho vẽ bản đồ lãnh thổ và đặt ra những luật lệ công bằng để mọi người đều sống hòa thuận.",
-      "image": "/images/history/later-le-dynasty/2.png",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/2.png",
       "imagePrompt": "An ancient map of Vietnam being unrolled on a large wooden table, officials examining it, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thời kỳ này, nước ta không chỉ mạnh về quân sự mà còn rực rỡ về văn hóa, giáo dục. Đây là một trong những giai đoạn phát triển nhất trong lịch sử dân tộc.",
-      "image": "/images/history/later-le-dynasty/3.png",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/3.png",
       "imagePrompt": "A panoramic view of a prosperous Thang Long city under the sun, colorful buildings, busy streets, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ai là vị vua đầu tiên của nhà Hậu Lê?",
-      "options": ["Lê Thái Tổ (Lê Lợi)", "Lê Thánh Tông", "Lê Thái Tông"],
+      "options": [
+        "Lê Thái Tổ (Lê Lợi)",
+        "Lê Thánh Tông",
+        "Lê Thái Tông"
+      ],
       "answer": "Lê Thái Tổ (Lê Lợi)"
     },
     {
       "type": "quiz",
       "question": "Hoạt động nào dưới đây được nhà Lê sơ đặc biệt quan tâm?",
-      "options": ["Tổ chức các kỳ thi chọn người tài", "Xây dựng khu vui chơi", "Đi mua sắm"],
+      "options": [
+        "Tổ chức các kỳ thi chọn người tài",
+        "Xây dựng khu vui chơi",
+        "Đi mua sắm"
+      ],
       "answer": "Tổ chức các kỳ thi chọn người tài"
     }
   ]

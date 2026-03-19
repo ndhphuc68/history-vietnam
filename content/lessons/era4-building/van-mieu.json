@@ -3,42 +3,50 @@
   "title": "Văn Miếu Quốc Tử Giám",
   "period": "Xây dựng",
   "summary": "Trường đại học đầu tiên của nước ta, nơi rèn luyện những người tài giỏi để giúp vua xây dựng đất nước.",
-  "image": "/images/history/van-mieu.png",
+  "image": "/images/history/thumbnails/building/van-mieu.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé có thích đi học không? Dưới thời nhà Lý, vào năm 1070, vua Lý Thánh Tông đã cho xây dựng Văn Miếu để thờ các vị thánh hiền.",
-      "image": "/images/history/van-mieu/0.png",
+      "image": "/images/history/lessons/building/van-mieu/0.png",
       "imagePrompt": "The Khue Van Cac pavilion with its round window, ancient architecture, beautiful gardens, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vài năm sau, Quốc Tử Giám được xây dựng bên cạnh. Đây chính là ngôi trường đại học đầu tiên của Việt Nam chúng ta đấy!",
-      "image": "/images/history/van-mieu/1.png",
+      "image": "/images/history/lessons/building/van-mieu/1.png",
       "imagePrompt": "Ancient classroom, students wearing traditional gowns and hats, writing with brushes on scrolls, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Những người học giỏi ở khắp nơi đều về đây để ôn luyện kinh sách. Ai thi đỗ sẽ được vinh danh và khắc tên vào bia đá đặt trên lưng rùa.",
-      "image": "/images/history/van-mieu/2.png",
+      "image": "/images/history/lessons/building/van-mieu/2.png",
       "imagePrompt": "Stone stelae on turtle backs (bia tiến sĩ), a student proudly pointing at a name, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Văn Miếu Quốc Tử Giám đã truyền đi thông điệp: 'Hiền tài là nguyên khí của quốc gia' - Đất nước sẽ mạnh khỏe nếu có nhiều người tài giỏi và đức độ.",
-      "image": "/images/history/van-mieu/3.png",
+      "image": "/images/history/lessons/building/van-mieu/3.png",
       "imagePrompt": "A wise old teacher with young students in the sunlit garden of Van Mieu, atmosphere of learning and respect, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Quốc Tử Giám có ý nghĩa gì đối với lịch sử nước ta?",
-      "options": ["Là ngôi trường đại học đầu tiên", "Là một rạp chiếu phim", "Là một sân bóng đá"],
+      "options": [
+        "Là ngôi trường đại học đầu tiên",
+        "Là một rạp chiếu phim",
+        "Là một sân bóng đá"
+      ],
       "answer": "Là ngôi trường đại học đầu tiên"
     },
     {
       "type": "quiz",
       "question": "Tên của những người đỗ đạt cao được khắc ở đâu trong Văn Miếu?",
-      "options": ["Khắc trên cây", "Khắc trên bia đá đặt trên lưng rùa", "Khắc trên tường"],
+      "options": [
+        "Khắc trên cây",
+        "Khắc trên bia đá đặt trên lưng rùa",
+        "Khắc trên tường"
+      ],
       "answer": "Khắc trên bia đá đặt trên lưng rùa"
     }
   ]

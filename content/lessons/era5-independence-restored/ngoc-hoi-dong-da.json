@@ -1,45 +1,53 @@
 {
   "id": "ngoc-hoi-dong-da",
   "title": "Đại thắng Ngọc Hồi Đống Đa",
-  "heroId": "nguyen-hue",
+  "heroId": "quang-trung",
   "period": "Phục hưng",
   "summary": "Năm 1789, trong chuyến hành quân thần tốc, vua Quang Trung đã chỉ huy quân Tây Sơn đánh tan 29 vạn quân Thanh, giải phóng Thăng Long trong dịp Tết Nguyên Đán.",
-  "image": "/images/history/quang-trung.png",
+  "image": "/images/history/thumbnails/independence-restored/ngoc-hoi-dong-da.png",
   "slides": [
     {
       "type": "story",
       "text": "Để kịp đánh giặc vào đúng dịp Tết, vua Quang Trung đã chỉ huy quân đội hành quân thần tốc từ Nam ra Bắc.",
-      "image": "/images/history/ngoc-hoi-dong-da/0.png",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/0.png",
       "imagePrompt": "Tây Sơn army marching rapidly through mountains and rivers, King Quang Trung on his horse leading, dynamic movement, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vua Quang Trung mặc áo bào sẫm màu, cưỡi voi chỉ huy trận đánh ác liệt tại đồn Ngọc Hồi.",
-      "image": "/images/history/ngoc-hoi-dong-da/1.png",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/1.png",
       "imagePrompt": "King Quang Trung in a dark robe riding a war elephant, charging towards a fortress, battle flames, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Quân Tây Sơn dùng những tấm lá chắn tẩm nước để áp sát phá tan trận địa hỏa lực của quân Thanh.",
-      "image": "/images/history/ngoc-hoi-dong-da/2.png",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/2.png",
       "imagePrompt": "Vietnamese soldiers holding large wet bamboo shields, storming enemy lines, bravery, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đến sáng mồng 5 Tết, quân ta toàn thắng tiến vào Thăng Long trong niềm vui hân hoan của nhân dân.",
-      "image": "/images/history/ngoc-hoi-dong-da/3.png",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/3.png",
       "imagePrompt": "King Quang Trung entering Thang Long citadel, people holding flowers and flags, celebration of Tet victory, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Vua Quang Trung đã đánh tan quân xâm lược phương Bắc nào?",
-      "options": ["Quân Thanh", "Quân Minh", "Quân Nguyên"],
+      "options": [
+        "Quân Thanh",
+        "Quân Minh",
+        "Quân Nguyên"
+      ],
       "answer": "Quân Thanh"
     },
     {
       "type": "quiz",
       "question": "Trận thắng Ngọc Hồi - Đống Đa diễn ra vào dịp lễ nào?",
-      "options": ["Tết Nguyên Đán", "Trung Thu", "Giỗ Tổ Hùng Vương"],
+      "options": [
+        "Tết Nguyên Đán",
+        "Trung Thu",
+        "Giỗ Tổ Hùng Vương"
+      ],
       "answer": "Tết Nguyên Đán"
     }
   ]

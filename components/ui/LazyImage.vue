@@ -52,6 +52,12 @@ onUnmounted(() => {
         class="w-full h-full"
         loading="lazy"
         v-bind="$attrs"
+        @error="
+          (e) => {
+            (e.target as HTMLImageElement).src =
+              '/images/history/default-thumb.png';
+          }
+        "
       />
       <div
         v-else

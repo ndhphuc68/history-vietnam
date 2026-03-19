@@ -1,50 +1,63 @@
 {
   "id": "ngo-dynasty",
   "title": "Nhà Ngô xây dựng đất nước",
+  "heroId": "ngo-quyen",
   "period": "Tự chủ",
   "summary": "Mùa xuân độc lập đầu tiên: Ngô Quyền lên ngôi vua, đóng đô ở Cổ Loa, đặt nền móng cho nền độc lập lâu dài.",
-  "image": "/images/history/ngo-dynasty.png",
+  "image": "/images/history/thumbnails/autonomy/ngo-dynasty.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 939, Ngô Quyền chính thức lên ngôi vua, mở ra vương triều nhà Ngô. Đây là lần đầu tiên sau hơn 1000 năm, Việt Nam có một vị vua thực sự tự chủ.",
-      "image": "/images/history/ngo-dynasty/0.png",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/0.png",
       "imagePrompt": "Coronation of King NGO QUYEN, ceremony in an ancient courtyard, citizens kneeling in respect, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông chọn Cổ Loa - nơi đóng đô cũ của An Dương Vương - làm kinh đô như một lời khẳng định: Chúng ta đã nối tiếp truyền thống hào hùng của cha ông!",
-      "image": "/images/history/ngo-dynasty/1.png",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/1.png",
       "imagePrompt": "King NGO QUYEN entering the gates of Co Loa citadel, standard with 'NGO' character flying high, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vua Ngô Quyền bãi bỏ các chức quan đô hộ, đặt ra các chức quan mới và các quy định để bảo vệ cuộc sống bình yên cho nhân dân.",
-      "image": "/images/history/ngo-dynasty/2.png",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/2.png",
       "imagePrompt": "NGO QUYEN issuing decrees to protect the poor, setting up a new administration, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù thời gian trị vì ngắn ngủi, nhưng Ngô Quyền đã được sử sách tôn vinh là 'Vị tổ trung hưng' của dân tộc Việt Nam.",
-      "image": "/images/history/ngo-dynasty/3.png",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/3.png",
       "imagePrompt": "Statue or painting of NGO QUYEN looking into the distance with pride, historical legacy, sunset, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ngô Quyền đã chọn nơi nào làm kinh đô khi lên ngôi vua?",
-      "options": ["Mê Linh", "Cổ Loa", "Thăng Long"],
+      "options": [
+        "Mê Linh",
+        "Cổ Loa",
+        "Thăng Long"
+      ],
       "answer": "Cổ Loa"
     },
     {
       "type": "quiz",
       "question": "Ngô Quyền lên ngôi vua vào năm nào?",
-      "options": ["Năm 938", "Năm 939", "Năm 905"],
+      "options": [
+        "Năm 938",
+        "Năm 939",
+        "Năm 905"
+      ],
       "answer": "Năm 939"
     },
     {
       "type": "quiz",
       "question": "Ngô Quyền được sử sách khen ngợi là gì?",
-      "options": ["Bố Cái Đại Vương", "Vị tổ trung hưng", "Ngọc Hoàng"],
+      "options": [
+        "Bố Cái Đại Vương",
+        "Vị tổ trung hưng",
+        "Ngọc Hoàng"
+      ],
       "answer": "Vị tổ trung hưng"
     }
   ]

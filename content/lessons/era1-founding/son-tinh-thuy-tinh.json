@@ -3,60 +3,72 @@
   "title": "Sơn Tinh Thủy Tinh",
   "period": "Dựng nước",
   "summary": "Cuộc so tài của hai vị thần Núi và thần Nước để cầu hôn Mỵ Nương, giải thích hiện tượng lũ lụt hằng năm.",
-  "image": "/images/history/son-tinh-thuy-tinh.png",
+  "image": "/images/history/thumbnails/founding/son-tinh-thuy-tinh.png",
   "slides": [
     {
       "type": "story",
       "text": "Vua Hùng Vương thứ 18 có người con gái xinh đẹp tên là Mỵ Nương. Nhà vua muốn tìm cho nàng một người chồng tài giỏi.",
-      "image": "/images/history/son-tinh-thuy-tinh/0.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/0.png",
       "imagePrompt": "Princess My Nuong standing in a garden, beautiful and elegant, ancient Vietnamese palace in background, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bỗng có hai vị thần đến cầu hôn: Sơn Tinh - chúa miền non cao, và Thủy Tinh - chúa vùng nước thẳm. Cả hai đều có phép thuật vô song.",
-      "image": "/images/history/son-tinh-thuy-tinh/1.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/1.png",
       "imagePrompt": "Son Tinh (Mountain God) and Thuy Tinh (Sea God) standing before the King, one with earth powers, one with water powers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vua ra điều kiện: 'Ai mang lễ vật đến trước (voi chín ngà, gà chín cựa, ngựa chín hồng mao) sẽ được cưới Mỵ Nương'.",
-      "image": "/images/history/son-tinh-thuy-tinh/2.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/2.png",
       "imagePrompt": "Magical creatures: elephants with 9 tusks, roosters with 9 spurs, horses with red hair, glowing and legendary, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Sơn Tinh dâng lễ trước và đón Mỵ Nương về núi. Thủy Tinh đến sau, tức giận dâng nước đuổi theo đòi cướp lại công chúa.",
-      "image": "/images/history/son-tinh-thuy-tinh/3.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/3.png",
       "imagePrompt": "Son Tinh leading My Nuong to the mountains, Thuy Tinh behind with a massive wave and sea monsters, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Hai thần giao chiến kịch liệt. Thủy Tinh dâng nước cao bao nhiêu, Sơn Tinh lại dời núi cao lên bấy nhiêu. Cuối cùng Thủy Tinh đuối sức phải rút lui.",
-      "image": "/images/history/son-tinh-thuy-tinh/4.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/4.png",
       "imagePrompt": "Epic battle, mountains rising against floods, thunder and lightning, Son Tinh and Thuy Tinh clashing, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Từ đó, năm nào Thủy Tinh cũng dâng nước làm lũ lụt để trả thù nhưng đều thất bại trước Sơn Tinh.",
-      "image": "/images/history/son-tinh-thuy-tinh/5.png",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/5.png",
       "imagePrompt": "Modern floods in Vietnam, people working together to build dikes and protect homes, symbolic struggle, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Sơn Tinh là vị thần cai quản vùng nào?",
-      "options": ["Vùng biển", "Vùng núi cao", "Vùng đồng bằng"],
+      "options": [
+        "Vùng biển",
+        "Vùng núi cao",
+        "Vùng đồng bằng"
+      ],
       "answer": "Vùng núi cao"
     },
     {
       "type": "quiz",
       "question": "Lễ vật nào sau đây được nhắc đến trong truyện?",
-      "options": ["Voi chín ngà", "Rồng vàng", "Cá chép đỏ"],
+      "options": [
+        "Voi chín ngà",
+        "Rồng vàng",
+        "Cá chép đỏ"
+      ],
       "answer": "Voi chín ngà"
     },
     {
       "type": "quiz",
       "question": "Truyện Sơn Tinh Thủy Tinh nhằm giải thích hiện tượng gì?",
-      "options": ["Động đất hằng năm", "Lũ lụt hằng năm", "Nắng hạn kéo dài"],
+      "options": [
+        "Động đất hằng năm",
+        "Lũ lụt hằng năm",
+        "Nắng hạn kéo dài"
+      ],
       "answer": "Lũ lụt hằng năm"
     }
   ]

@@ -3,42 +3,50 @@
   "title": "Nhà cải cách Phan Châu Trinh",
   "period": "Duy tân",
   "summary": "Vị chí sĩ với tư tưởng 'Khai dân trí, chấn dân khí, hậu dân sinh' - mong muốn đổi mới đất nước bằng con đường giáo dục và văn hóa.",
-  "image": "/images/history/phan-chau-trinh.png",
+  "image": "/images/history/thumbnails/patriotic-movements/phan-chau-trinh.png",
   "slides": [
     {
       "type": "story",
       "text": "Khác với ông Phan Bội Châu, ông Phan Châu Trinh nghĩ rằng để cứu nước, việc đầu tiên là phải giúp nhân dân ta trở nên hiểu biết và mạnh mẽ hơn.",
-      "image": "/images/history/phan-chau-trinh/0.png",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/0.png",
       "imagePrompt": "Phan Chau Trinh in a modern style suite and short hair, looking at a group of people reading newspapers, progressive look, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông đưa ra khẩu hiệu: 'Khai dân trí' (mở mang kiến thức), 'Chấn dân khí' (làm cho tinh thần mạnh mẽ) và 'Hậu dân sinh' (làm cho đời sống no ấm).",
-      "image": "/images/history/phan-chau-trinh/1.png",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/1.png",
       "imagePrompt": "Three icons representing knowledge (a book), spirit (a rising sun), and life (a bowl of rice), glowing and interconnected, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Phan Châu Trinh rất hăng hái trong việc mở trường học, khuyến khích mọi người cắt tóc ngắn, mặc quần áo mới và bỏ đi những hủ tục lạc hậu.",
-      "image": "/images/history/phan-chau-trinh/2.png",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/2.png",
       "imagePrompt": "A busy community school (Duy Tân trường học), people cutting their long hair, wearing modern clothes, sense of excitement, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tư tưởng của ông đã thổi một luồng gió mới vào xã hội Việt Nam lúc bấy giờ, nhắc nhở chúng ta rằng: Kiến thức chính là chìa khóa của sự tự do.",
-      "image": "/images/history/phan-chau-trinh/3.png",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/3.png",
       "imagePrompt": "A large golden key made of light unlocking a library door, symbol of enlightenment, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ông Phan Châu Trinh muốn cứu nước theo con đường nào?",
-      "options": ["Đấu tranh vũ trang ngay lập tức", "Cải cách giáo dục và văn hóa (Duy Tân)", "Đi tìm kho báu"],
+      "options": [
+        "Đấu tranh vũ trang ngay lập tức",
+        "Cải cách giáo dục và văn hóa (Duy Tân)",
+        "Đi tìm kho báu"
+      ],
       "answer": "Cải cách giáo dục và văn hóa (Duy Tân)"
     },
     {
       "type": "quiz",
       "question": "Câu nói nổi tiếng nào sau đây là của ông Phan Châu Trinh?",
-      "options": ["Khai dân trí, chấn dân khí, hậu dân sinh", "Sống dầu đèn, chết kèn trống", "Học đi đôi với hành"],
+      "options": [
+        "Khai dân trí, chấn dân khí, hậu dân sinh",
+        "Sống dầu đèn, chết kèn trống",
+        "Học đi đôi với hành"
+      ],
       "answer": "Khai dân trí, chấn dân khí, hậu dân sinh"
     }
   ]

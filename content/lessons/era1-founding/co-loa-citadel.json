@@ -3,54 +3,66 @@
   "title": "Thành Cổ Loa",
   "period": "Dựng nước",
   "summary": "Kỹ thuật xây dựng kỳ vĩ của người xưa với tòa thành hình xoáy ốc độc đáo, kiên cố nhất Đông Nam Á thời bấy giờ.",
-  "image": "/images/history/co-loa-citadel.png",
+  "image": "/images/history/thumbnails/founding/co-loa-citadel.png",
   "slides": [
     {
       "type": "story",
       "text": "Để bảo vệ kinh đô, An Dương Vương cho xây dựng một tòa thành rất lớn. Nhưng lạ thay, thành cứ xây xong lại đổ.",
-      "image": "/images/history/co-loa-citadel/0.png",
+      "image": "/images/history/lessons/founding/co-loa-citadel/0.png",
       "imagePrompt": "Ancient workers building a wall, but sections are collapsing, frustration and mystery, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Nhờ sự giúp đỡ của Rùa Vàng (Thần Kim Quy), An Dương Vương đã trừ được yêu quái và xây xong tòa thành chỉ trong thời gian ngắn.",
-      "image": "/images/history/co-loa-citadel/1.png",
+      "image": "/images/history/lessons/founding/co-loa-citadel/1.png",
       "imagePrompt": "Golden Turtle appearing with a glowing light, helping the King, magical scene, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thành được xây theo hình xoáy ốc, gồm 3 vòng thành kiên cố. Vì hình dáng này mà thành được gọi là Cổ Loa.",
-      "image": "/images/history/co-loa-citadel/2.png",
+      "image": "/images/history/lessons/founding/co-loa-citadel/2.png",
       "imagePrompt": "Aerial view of Co Loa citadel, spiral shape, wide moats, children book illustration, cartoon style, flat design"
     },
     {
       "type": "story",
       "text": "Xung quanh thành là những hào nước sâu nối thông với sông Hoàng, giúp quân đội có thể triển khai thủy binh dễ dàng.",
-      "image": "/images/history/co-loa-citadel/3.png",
+      "image": "/images/history/lessons/founding/co-loa-citadel/3.png",
       "imagePrompt": "Deep moats with water, soldiers on boats, effective defense system, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Cổ Loa không chỉ là một pháo đài quân sự mà còn là một công trình kiến trúc tuyệt vời thể hiện trí tuệ của tổ tiên.",
-      "image": "/images/history/co-loa-citadel/4.png",
+      "image": "/images/history/lessons/founding/co-loa-citadel/4.png",
       "imagePrompt": "Close up of the massive stone and clay walls of Co Loa, impressive and grand, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Thành Cổ Loa có hình dáng đặc biệt gì?",
-      "options": ["Hình vuông", "Hình tròn", "Hình xoáy ốc"],
+      "options": [
+        "Hình vuông",
+        "Hình tròn",
+        "Hình xoáy ốc"
+      ],
       "answer": "Hình xoáy ốc"
     },
     {
       "type": "quiz",
       "question": "Ai là người đã giúp An Dương Vương xây thành Cổ Loa?",
-      "options": ["Sơn Tinh", "Thần Kim Quy (Rùa Vàng)", "Lạc Long Quân"],
+      "options": [
+        "Sơn Tinh",
+        "Thần Kim Quy (Rùa Vàng)",
+        "Lạc Long Quân"
+      ],
       "answer": "Thần Kim Quy (Rùa Vàng)"
     },
     {
       "type": "quiz",
       "question": "Thành Cổ Loa có bao nhiêu vòng thành?",
-      "options": ["1 vòng", "3 vòng", "9 vòng"],
+      "options": [
+        "1 vòng",
+        "3 vòng",
+        "9 vòng"
+      ],
       "answer": "3 vòng"
     }
   ]

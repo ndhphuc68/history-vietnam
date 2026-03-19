@@ -3,54 +3,66 @@
   "title": "Đường mòn Hồ Chí Minh huyền thoại",
   "period": "Chống Mỹ",
   "summary": "Con đường bí mật xuyên qua dãy Trường Sơn hùng vĩ, là mạch máu giao thông nối liền hai miền Nam - Bắc.",
-  "image": "/images/history/ho-chi-minh-trail.png",
+  "image": "/images/history/thumbnails/anti-us-war/ho-chi-minh-trail.png",
   "slides": [
     {
       "type": "story",
       "text": "Để đưa thuốc men, vũ khí và thực phẩm vào miền Nam, quân dân ta đã xẻ dọc dãy núi Trường Sơn để làm những con đường bí mật.",
-      "image": "/images/history/ho-chi-minh-trail/0.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-trail/0.png",
       "imagePrompt": "A narrow path winding through a deep green jungle, mountains in the back, sunlight through leaves, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dưới làn bom đạn của giặc, những chiếc xe tải vượt đèo lội suối, hay những chú ngựa thồ, những đôi vai gánh gồng của dân công luôn dẻo dai tiến bước.",
-      "image": "/images/history/ho-chi-minh-trail/1.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-trail/1.png",
       "imagePrompt": "Convoy of trucks with camouflage leaves moving at night, headlight beams, dynamic energy, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Các cô chú thanh niên xung phong đã hi sinh tuổi trẻ, không ngại gian khó để sửa đường, đảm bảo con đường luôn thông suốt cho xe đi qua.",
-      "image": "/images/history/ho-chi-minh-trail/2.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-trail/2.png",
       "imagePrompt": "Young people (thanh niên xung phong) with shovels and pickaxes, smiling in the dust, camaraderie, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đường Trường Sơn không chỉ là con đường vận chuyển, mà còn là biểu tượng cho ý chí sắt đá 'Xẻ dọc Trường Sơn đi cứu nước' của dân tộc ta.",
-      "image": "/images/history/ho-chi-minh-trail/3.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-trail/3.png",
       "imagePrompt": "A large map of Vietnam with a glowing golden path from North to South along the mountains, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngày nay, con đường ấy đã trở thành một xa lộ hiện đại, nối liền các vùng miền và nhắc nhở chúng ta về một thời oanh liệt của cha ông.",
-      "image": "/images/history/ho-chi-minh-trail/4.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-trail/4.png",
       "imagePrompt": "A modern highway winding through green mountains, a tourist bus, sunset, peace and development, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Đường mòn Hồ Chí Minh nằm dọc theo dãy núi nào?",
-      "options": ["Dãy Hoàng Liên Sơn", "Dãy Trường Sơn", "Dãy Himalaya"],
+      "options": [
+        "Dãy Hoàng Liên Sơn",
+        "Dãy Trường Sơn",
+        "Dãy Himalaya"
+      ],
       "answer": "Dãy Trường Sơn"
     },
     {
       "type": "quiz",
       "question": "Những ai đã góp công lớn trong việc giữ gìn và thông suốt con đường này?",
-      "options": ["Bộ đội và thanh niên xung phong", "Khách du lịch", "Thợ mỏ"],
+      "options": [
+        "Bộ đội và thanh niên xung phong",
+        "Khách du lịch",
+        "Thợ mỏ"
+      ],
       "answer": "Bộ đội và thanh niên xung phong"
     },
     {
       "type": "quiz",
       "question": "Con đường này còn được gọi là gì để thể hiện tầm quan trọng của nó?",
-      "options": ["Mạch máu giao thông", "Con dốc cao", "Khu rừng rậm"],
+      "options": [
+        "Mạch máu giao thông",
+        "Con dốc cao",
+        "Khu rừng rậm"
+      ],
       "answer": "Mạch máu giao thông"
     }
   ]

@@ -1,96 +1,138 @@
 <script setup lang="ts">
 import { useBadgeStore } from "~/stores/badgeStore";
 
+const props = defineProps<{
+  status: 'all' | 'earned' | 'locked';
+  rarity: string;
+}>();
+
 const badgeStore = useBadgeStore();
 
 const getBadgeStatus = (badgeId: string) => {
   return badgeStore.earnedBadgeIds.includes(badgeId);
 };
 
+const filteredBadges = computed(() => {
+  return badgeStore.allBadges.filter(badge => {
+    // Status filter
+    const earned = getBadgeStatus(badge.id);
+    if (props.status === 'earned' && !earned) return false;
+    if (props.status === 'locked' && earned) return false;
+    
+    // Rarity filter
+    if (props.rarity !== 'all' && badge.rarity !== props.rarity) return false;
+    
+    return true;
+  });
+});
+
 const rarityConfig = {
   common: {
     label: "Cơ bản",
     classes: "bg-slate-100 text-slate-600 border-slate-200",
+    glow: "group-hover:shadow-[0_0_20px_rgba(148,163,184,0.3)]",
   },
   rare: {
     label: "Hiếm",
-    classes:
-      "bg-blue-50 text-blue-600 border-blue-200 shadow-[0_0_15px_rgba(59,130,246,0.1)]",
+    classes: "bg-blue-50 text-blue-600 border-blue-200 shadow-[0_0_15px_rgba(59,130,246,0.1)]",
+    glow: "group-hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]",
   },
   epic: {
     label: "Sử thi",
-    classes:
-      "bg-purple-50 text-purple-600 border-purple-200 shadow-[0_0_15px_rgba(168,85,247,0.1)]",
+    classes: "bg-purple-50 text-purple-600 border-purple-200 shadow-[0_0_15px_rgba(168,85,247,0.1)]",
+    glow: "group-hover:shadow-[0_0_35px_rgba(168,85,247,0.5)]",
   },
   legendary: {
     label: "Huyền thoại",
-    classes:
-      "bg-amber-50 text-amber-600 border-amber-200 shadow-[0_0_20px_rgba(245,158,11,0.2)] animate-pulse-gentle",
+    classes: "bg-amber-50 text-amber-600 border-amber-200 shadow-[0_0_20px_rgba(245,158,11,0.2)]",
+    glow: "group-hover:shadow-[0_0_40px_rgba(245,158,11,0.6)]",
   },
 };
 </script>
 
 <template>
   <div class="max-w-7xl mx-auto px-6 pb-20">
+    <!-- Section Title -->
+    <div class="flex items-center gap-4 mb-10">
+      <div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-white shadow-lg shadow-primary/20">
+        <Icon name="fluent-emoji:military-medal" class="text-2xl" />
+      </div>
+      <div>
+        <h2 class="text-3xl font-black text-text">Huy hiệu Vinh danh</h2>
+        <p class="text-text/60 font-bold">Bộ sưu tập huy hiệu đánh dấu những cột mốc quan trọng của bé.</p>
+      </div>
+    </div>
+
+    <div v-if="filteredBadges.length === 0" class="text-center py-20 bg-white/30 backdrop-blur-md rounded-[40px] border-4 border-dashed border-primary/10">
+      <Icon name="fluent-emoji:magnifying-glass-tilted-left" class="text-8xl opacity-20 mb-6" />
+      <p class="text-2xl font-black text-text/30">Không tìm thấy huy hiệu nào khớp với bộ lọc nè!</p>
+    </div>
+
     <TransitionGroup
+      v-else
       tag="div"
       name="stagger"
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 md:gap-10"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8"
     >
       <div
-        v-for="(badge, index) in badgeStore.allBadges"
+        v-for="(badge, index) in filteredBadges"
         :key="badge.id"
         class="group relative"
-        :style="{ transitionDelay: `${index * 50}ms` }"
+        :style="{ transitionDelay: `${index * 30}ms` }"
       >
-        <!-- Badge Card -->
+        <!-- Badge Card Wrapper -->
         <div
-          class="aspect-square bg-white rounded-[40px] p-6 sm:p-8 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:shadow-2xl hover:-translate-y-2"
+          class="aspect-square bg-white/70 backdrop-blur-md rounded-[48px] p-6 sm:p-8 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 relative overflow-hidden h-full"
           :class="[
             getBadgeStatus(badge.id)
-              ? 'border-primary/20 opacity-100 scale-100'
+              ? `border-white shadow-xl ${rarityConfig[badge.rarity as keyof typeof rarityConfig]?.glow} scale-100`
               : 'border-slate-100 opacity-40 grayscale scale-95 hover:grayscale-0 hover:opacity-100 hover:scale-100',
           ]"
         >
+          <!-- Shiny Glint Effect for Rare+ -->
+          <div 
+            v-if="getBadgeStatus(badge.id) && badge.rarity !== 'common'"
+            class="absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out pointer-events-none z-10"
+          ></div>
+
           <!-- Icon Container -->
           <div
-            class="w-20 h-20 sm:w-24 sm:h-24 rounded-[32px] flex items-center justify-center mb-6 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110 shadow-inner"
-            :class="getBadgeStatus(badge.id) ? 'bg-primary/10' : 'bg-slate-50'"
+            class="w-20 h-20 sm:w-24 sm:h-24 rounded-[36px] flex items-center justify-center mb-6 transition-all duration-500 group-hover:rotate-12 group-hover:scale-110 shadow-inner relative z-0"
+            :class="getBadgeStatus(badge.id) ? 'bg-background shadow-lg shadow-primary/5' : 'bg-slate-50'"
           >
-            <Icon :name="badge.icon" class="text-5xl sm:text-7xl" />
+            <Icon :name="badge.icon" class="text-5xl sm:text-7xl relative z-10" />
+            
+            <!-- Radiance for legendary -->
+            <div 
+              v-if="badge.rarity === 'legendary' && getBadgeStatus(badge.id)"
+              class="absolute inset-0 bg-amber-400/20 blur-xl rounded-full scale-125 animate-pulse"
+            ></div>
           </div>
 
-          <h3
-            class="font-black text-text text-base md:text-xl leading-tight px-2"
-          >
+          <h3 class="font-black text-text text-base md:text-xl leading-tight px-2 mb-4">
             {{ badge.title }}
           </h3>
 
-          <!-- Rarity Tag (only if earned) -->
-          <div class="mt-4">
-            <div
-              v-if="getBadgeStatus(badge.id)"
-              class="px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest border-2 transition-all group-hover:scale-110"
-              :class="
-                rarityConfig[badge.rarity as keyof typeof rarityConfig]?.classes
-              "
-            >
-              {{
-                rarityConfig[badge.rarity as keyof typeof rarityConfig]?.label
-              }}
-            </div>
-            <div
-              v-else
-              class="text-[10px] font-bold text-text/40 bg-slate-50 px-3 py-1 rounded-full border border-slate-100"
-            >
-              Chưa đạt được
-            </div>
+          <!-- Rarity Tag -->
+          <div
+            v-if="getBadgeStatus(badge.id)"
+            class="px-5 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-widest border-2 transition-all group-hover:bg-opacity-100"
+            :class="rarityConfig[badge.rarity as keyof typeof rarityConfig]?.classes"
+          >
+            {{ rarityConfig[badge.rarity as keyof typeof rarityConfig]?.label }}
+          </div>
+          <div
+            v-else
+            class="flex items-center gap-1 text-[10px] font-bold text-text/40 bg-slate-50 px-3 py-1 rounded-full border border-slate-100"
+          >
+            <Icon name="fluent:lock-closed-16-filled" />
+            Chưa đạt được
           </div>
 
           <!-- Stars Decoration (for legendary) -->
           <div
             v-if="badge.rarity === 'legendary' && getBadgeStatus(badge.id)"
-            class="absolute top-4 right-4 pointer-events-none"
+            class="absolute top-6 right-6 pointer-events-none"
           >
             <Icon
               name="fluent-emoji:sparkles"
@@ -112,28 +154,9 @@ const rarityConfig = {
   transform: translateY(30px) scale(0.9);
 }
 
-@keyframes pulse-gentle {
-  0%,
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.95;
-    transform: scale(1.02);
-  }
-}
-.animate-pulse-gentle {
-  animation: pulse-gentle 2s ease-in-out infinite;
-}
-
 @keyframes spin-slow {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 .animate-spin-slow {
   animation: spin-slow 12s linear infinite;

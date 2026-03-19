@@ -20,11 +20,6 @@ const progressStore = useProgressStore();
           :src="getEraThumbnail(era.id)"
           class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
           :alt="era.title"
-          @error="
-            (e: Event) =>
-              ((e.target as HTMLImageElement).src =
-                '/images/history/default-era.png')
-          "
         />
         <div
           class="absolute inset-0 shadow-[inset_0_2px_15px_rgba(0,0,0,0.05)] pointer-events-none"

@@ -1,45 +1,53 @@
 {
   "id": "ly-cong-uan",
   "title": "Lý Công Uẩn lên ngôi",
-  "heroId": "ly-cong-uan",
+  "heroId": "ly-thai-to",
   "period": "Xây dựng",
   "summary": "Năm 1009, Lý Công Uẩn được triều đình tôn làm vua, mở ra vương triều Lý hùng mạnh và thực hiện cuộc dời đô lịch sử về Thăng Long.",
-  "image": "/images/history/ly-cong-uan.png",
+  "image": "/images/history/thumbnails/building/ly-cong-uan.png",
   "slides": [
     {
       "type": "story",
       "text": "Lý Công Uẩn là người đức độ, tài năng, được các quan lại trong triều tin tưởng và tôn lên ngôi vua sau khi vua Lê Long Đĩnh mất.",
-      "image": "/images/history/ly-cong-uan/0.png",
+      "image": "/images/history/lessons/building/ly-cong-uan/0.png",
       "imagePrompt": "Ly Cong Uan being invited by mandarins to be the King, respectful ceremony in ancient palace, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngay khi lên ngôi, ông quyết định dời đô từ vùng núi Hoa Lư về thành Đại La để đất nước phát triển hơn.",
-      "image": "/images/history/ly-cong-uan/1.png",
+      "image": "/images/history/lessons/building/ly-cong-uan/1.png",
       "imagePrompt": "King Ly Cong Uan standing on a boat, traveling on the Red River, looking towards a new land, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khi thuyền rồng đến nơi, vua thấy một con rồng vàng bay lên nên đã đặt tên cho vùng đất mới là Thăng Long.",
-      "image": "/images/history/ly-cong-uan/2.png",
+      "image": "/images/history/lessons/building/ly-cong-uan/2.png",
       "imagePrompt": "A golden dragon rising from the ground into the sky, King Ly Cong Uan and his entourage amazed, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thăng Long từ đó trở thành kinh đô rực rỡ, phồn vinh của nước Đại Việt trong hàng trăm năm.",
-      "image": "/images/history/ly-cong-uan/3.png",
+      "image": "/images/history/lessons/building/ly-cong-uan/3.png",
       "imagePrompt": "Ancient Thang Long citadel with bustling markets and beautiful temples, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Lý Công Uẩn đã dời đô từ Hoa Lư về đâu?",
-      "options": ["Đại La (Thăng Long)", "Cổ Loa", "Phú Xuân"],
+      "options": [
+        "Đại La (Thăng Long)",
+        "Cổ Loa",
+        "Phú Xuân"
+      ],
       "answer": "Đại La (Thăng Long)"
     },
     {
       "type": "quiz",
       "question": "Khi dời đô, vua đã thấy con vật nào bay lên từ vùng đất mới?",
-      "options": ["Rồng vàng", "Chim phụng", "Hổ trắng"],
+      "options": [
+        "Rồng vàng",
+        "Chim phụng",
+        "Hổ trắng"
+      ],
       "answer": "Rồng vàng"
     }
   ]

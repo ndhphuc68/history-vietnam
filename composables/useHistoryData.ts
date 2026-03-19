@@ -51,7 +51,7 @@ export const useHistoryData = () => {
   };
 
   return {
-    eras: computed(() => historyMap.eras),
+    eras: computed(() => historyMap.eras.filter((era) => era.enabled)),
     availableLessonIds,
     isLessonAvailable,
     getEraThumbnail,

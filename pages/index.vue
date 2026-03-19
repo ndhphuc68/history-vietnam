@@ -1,5 +1,19 @@
 <script setup lang="ts">
 // Landing page for the Vietnamese History Learning App
+useHead({
+  title: "Hành trình ngược thời gian",
+});
+
+useSeoMeta({
+  title: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
+  ogTitle: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
+  description:
+    "Học lịch sử Việt Nam qua những câu chuyện hấp dẫn, hình ảnh sinh động và các trò chơi đố vui hấp dẫn dành cho trẻ em.",
+  ogDescription:
+    "Khám phá 4000 năm lịch sử Việt Nam qua ứng dụng học tập tương tác, trực quan và vui nhộn.",
+  ogImage: "/images/banner/banner.png",
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <template>
@@ -74,6 +88,9 @@
         />
       </div>
     </section>
+
+    <!-- Daily Fact Section -->
+    <UiDailyFactCard />
 
     <!-- Feature Section -->
     <section class="relative py-32 bg-background/50">

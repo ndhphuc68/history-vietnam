@@ -3,42 +3,50 @@
   "title": "Nhà Minh đô hộ",
   "period": "Phục hưng",
   "summary": "Năm 1407, nhà Hồ thất bại khiến đất nước ta rơi vào vòng nô lệ của nhà Minh với những chính sách vô cùng tàn bạo.",
-  "image": "/images/history/ming-rule.png",
+  "image": "/images/history/thumbnails/independence-restored/ming-rule.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé ơi, sau thời nhà Trần rực rỡ, đất nước ta lại gặp khó khăn và bị nhà Minh phương Bắc sang xâm lược. Chúng đã đặt ra những luật lệ rất khắt khe.",
-      "image": "/images/history/ming-rule/0.png",
+      "image": "/images/history/lessons/independence-restored/ming-rule/0.png",
       "imagePrompt": "Enemy soldiers in dark armor building a heavy wall, people working with chains, oppressive atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Giặc Minh bắt dân ta phải nộp thuế rất nặng, chúng lấy hết vàng bạc, châu báu và cả những người tài giỏi của nước ta đưa về nước chúng.",
-      "image": "/images/history/ming-rule/1.png",
+      "image": "/images/history/lessons/independence-restored/ming-rule/1.png",
       "imagePrompt": "Carts loaded with treasures and books leaving a village, sad villagers watching, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đặc biệt, chúng tìm mọi cách để xóa bỏ văn hóa của người Việt, đốt hết sách quý và bắt dân ta phải theo phong tục của chúng. Cuộc sống nhân dân vô cùng lầm than.",
-      "image": "/images/history/ming-rule/2.png",
+      "image": "/images/history/lessons/independence-restored/ming-rule/2.png",
       "imagePrompt": "A pile of scrolls being burned (symbolic, not scary), a child hiding a small Vietnamese book behind their back, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Nỗi đau mất nước và sự tàn bạo của giặc đã nung nấu ý chí đấu tranh của muôn dân. Mọi người đều âm thầm chuẩn bị cho một cuộc khởi nghĩa lớn.",
-      "image": "/images/history/ming-rule/3.png",
+      "image": "/images/history/lessons/independence-restored/ming-rule/3.png",
       "imagePrompt": "People talking secretly under the moon, eyes full of hope and fire, a hidden sword, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Nhà Minh bắt đầu đô hộ nước ta vào năm nào?",
-      "options": ["Năm 1407", "Năm 1010", "Năm 938"],
+      "options": [
+        "Năm 1407",
+        "Năm 1010",
+        "Năm 938"
+      ],
       "answer": "Năm 1407"
     },
     {
       "type": "quiz",
       "question": "Chính sách tàn bạo nào của giặc Minh khiến nhân dân ta căm ghét nhất?",
-      "options": ["Cho kẹo trẻ em", "Đốt sách quý và xóa bỏ văn hóa Việt", "Dạy người dân trồng hoa"],
+      "options": [
+        "Cho kẹo trẻ em",
+        "Đốt sách quý và xóa bỏ văn hóa Việt",
+        "Dạy người dân trồng hoa"
+      ],
       "answer": "Đốt sách quý và xóa bỏ văn hóa Việt"
     }
   ]

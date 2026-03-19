@@ -4,6 +4,7 @@ import { useProgressStore } from "~/stores/progressStore";
 import { useBadgeStore } from "~/stores/badgeStore";
 import { useArtifactStore } from "~/stores/artifactStore";
 import { useQuizStore } from "~/stores/quizStore";
+import { useLetterStore } from "~/stores/letterStore";
 
 const route = useRoute();
 const heroStore = useHeroStore();
@@ -11,6 +12,7 @@ const progressStore = useProgressStore();
 const badgeStore = useBadgeStore();
 const artifactStore = useArtifactStore();
 const quizStore = useQuizStore();
+const letterStore = useLetterStore();
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
@@ -31,6 +33,7 @@ onMounted(() => {
   badgeStore.initialize();
   artifactStore.initialize();
   quizStore.initialize();
+  letterStore.initialize();
 });
 </script>
 
@@ -91,6 +94,16 @@ onMounted(() => {
             active-class="text-primary"
           >
             Huy hiệu
+            <span
+              class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
+            ></span>
+          </NuxtLink>
+          <NuxtLink
+            to="/mailbox"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
+            active-class="text-primary"
+          >
+            Hòm thư
             <span
               class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
             ></span>
@@ -184,6 +197,13 @@ onMounted(() => {
               Huy hiệu
             </NuxtLink>
             <NuxtLink
+              to="/mailbox"
+              class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
+              active-class="bg-primary/5 text-primary"
+            >
+              Hòm thư
+            </NuxtLink>
+            <NuxtLink
               to="/quiz"
               class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
               active-class="bg-primary/5 text-primary"
@@ -210,7 +230,8 @@ onMounted(() => {
     <!-- Global UI Components -->
     <UiBadgeUnlockModal />
     <UiArtifactUnlockModal />
-    <UiMascot />
+    <UiHeroLetterModal />
+    <!-- <UiMascot /> -->
     <!-- Footer -->
     <footer class="bg-text text-white pt-20 pb-10 relative overflow-hidden">
       <!-- Decoration -->

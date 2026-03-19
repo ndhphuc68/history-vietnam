@@ -5,6 +5,20 @@ import { useHistoryData } from "~/composables/useHistoryData";
 const progressStore = useProgressStore();
 const { eras, availableLessonIds, getEraThumbnail, getLessonThumbnail } =
   useHistoryData();
+
+useHead({
+  title: "Danh sách Bài học",
+});
+
+useSeoMeta({
+  title: "Khám phá Lịch sử Việt Nam - Danh sách Bài học",
+  ogTitle: "Khám phá Lịch sử Việt Nam - Danh sách Bài học",
+  description:
+    "Hành trình qua 4000 năm lịch sử Việt Nam với các bài học sinh động từ thời kỳ Dựng nước đến nay.",
+  ogDescription:
+    "Chọn bài học và bắt đầu khám phá những trang sử vàng chói lọi của dân tộc Việt Nam.",
+  ogImage: "/images/banner/banner.png",
+});
 </script>
 
 <template>

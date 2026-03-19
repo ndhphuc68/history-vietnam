@@ -3,42 +3,50 @@
   "title": "Cậu bé Nguyễn Sinh Cung",
   "period": "Bác Hồ",
   "summary": "Thuở nhỏ của Bác Hồ tại làng Sen quê nội và làng Hoàng Trù quê ngoại với những bài học đầu đời về tình yêu quê hương.",
-  "image": "/images/history/ho-chi-minh-young.png",
+  "image": "/images/history/thumbnails/patriotic-movements/ho-chi-minh-young.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé có biết Bác Hồ kính yêu lúc nhỏ tên là gì không? Đó là cậu bé Nguyễn Sinh Cung, sinh ra trong một gia đình nhà nho nghèo ở vùng quê Nghệ An.",
-      "image": "/images/history/ho-chi-minh-young/0.png",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/0.png",
       "imagePrompt": "A simple thatched house in a village with many lotus flowers (Làng Sen), a young boy with bright eyes sitting on the porch, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngay từ nhỏ, cậu Cung đã được nghe cha kể những câu chuyện về các vị anh hùng và chứng kiến cảnh nhân dân bị giặc Pháp ngược đãi. Lòng căm thù giặc từ đó cứ lớn dần.",
-      "image": "/images/history/ho-chi-minh-young/1.png",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/1.png",
       "imagePrompt": "Young boy listening to his father by a lamp, shadows of heroes on the wall, serious and thoughtful face, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Cậu rất chăm học và luôn tò mò về thế giới bên ngoài. Cậu tự hỏi: 'Tại sao nước mình lại bị người khác đô hộ? Làm thế nào để cứu dân mình?'",
-      "image": "/images/history/ho-chi-minh-young/2.png",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/2.png",
       "imagePrompt": "Nguyen Sinh Cung reading a book under a banyan tree, looking at the distant mountains, atmosphere of curiosity and purpose, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Những bài học đạo đức và tình yêu thương từ gia đình đã hun đúc nên một người thanh niên có trái tim vĩ đại sau này.",
-      "image": "/images/history/ho-chi-minh-young/3.png",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/3.png",
       "imagePrompt": "A warm family portrait, parents and children together, soft glowing light, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Tên hồi nhỏ của Bác Hồ là gì?",
-      "options": ["Nguyễn Tất Thành", "Nguyễn Sinh Cung", "Văn Ba"],
+      "options": [
+        "Nguyễn Tất Thành",
+        "Nguyễn Sinh Cung",
+        "Văn Ba"
+      ],
       "answer": "Nguyễn Sinh Cung"
     },
     {
       "type": "quiz",
       "question": "Quê nội của Bác Hồ có loài hoa nào rất nổi tiếng?",
-      "options": ["Hoa Hồng", "Hoa Sen", "Hoa Cúc"],
+      "options": [
+        "Hoa Hồng",
+        "Hoa Sen",
+        "Hoa Cúc"
+      ],
       "answer": "Hoa Sen"
     }
   ]

@@ -3,48 +3,60 @@
   "title": "Ngô Quyền chuẩn bị trận Bạch Đằng",
   "period": "Tự chủ",
   "summary": "Mưu đồ đánh giặc thông minh của Ngô Quyền: chuẩn bị những chiếc cọc gỗ bịt sắt làm 'bẫy ngầm' trên sông.",
-  "image": "/images/history/ngo-quyen-prep.png",
+  "image": "/images/history/thumbnails/autonomy/ngo-quyen-prep.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé ơi, khi nghe tin quân Nam Hán sắp kéo thuyền chiến sang, Ngô Quyền đã không hề lo lắng. Ông đã có một kế hoạch vô cùng lợi hại!",
-      "image": "/images/history/ngo-quyen-prep/0.png",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/0.png",
       "imagePrompt": "Ngô Quyền sitting with his generals around a model of the Bach Dang river, planning the stake trap, light of intelligence in his eyes, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông chọn hạ lưu sông Bạch Đằng - nơi có chế độ thủy triều lên xuống mạnh hằng ngày để làm trận địa bẫy giặc.",
-      "image": "/images/history/ngo-quyen-prep/1.png",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/1.png",
       "imagePrompt": "The Bach Dang river at sunset, showing the dramatic rise and fall of water levels, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngô Quyền huy động hàng ngàn quân dân vào rừng chặt những cây gỗ lớn, vót thật nhọn và bịt sắt vào đầu cọc để biến chúng thành những mũi tên khổng lồ.",
-      "image": "/images/history/ngo-quyen-prep/2.png",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/2.png",
       "imagePrompt": "Soldiers and villagers working hard in the forest, sharpening giant wooden stakes and attaching iron tips, smoke from forges, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Những chiếc cọc này được đóng chắc chắn xuống lòng sông. Khi thủy triều lên, mặt nước che kín các đầu cọc, tạo thành một cái bẫy vô hình chết chóc.",
-      "image": "/images/history/ngo-quyen-prep/3.png",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/3.png",
       "imagePrompt": "Stakes being hammered into the river bed, water rising to cover them, peaceful on the surface but dangerous below, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ngô Quyền đã chọn địa điểm nào để làm trận địa đánh giặc?",
-      "options": ["Vùng núi cao", "Sông Bạch Đằng", "Đồng bằng sông Hồng"],
+      "options": [
+        "Vùng núi cao",
+        "Sông Bạch Đằng",
+        "Đồng bằng sông Hồng"
+      ],
       "answer": "Sông Bạch Đằng"
     },
     {
       "type": "quiz",
       "question": "Tại sao Ngô Quyền lại cho người vót nhọn và bịt sắt vào đầu cọc gỗ?",
-      "options": ["Để trang trí cho đẹp", "Để cọc có thể đâm thủng thuyền chiến của giặc", "Để cọc không bị mục nát"],
+      "options": [
+        "Để trang trí cho đẹp",
+        "Để cọc có thể đâm thủng thuyền chiến của giặc",
+        "Để cọc không bị mục nát"
+      ],
       "answer": "Để cọc có thể đâm thủng thuyền chiến của giặc"
     },
     {
       "type": "quiz",
       "question": "Yếu tố thiên nhiên nào đã được Ngô Quyền lợi dụng để giấu kín bẫy cọc?",
-      "options": ["Gió bão", "Nắng hạn", "Thủy triều lên xuống"],
+      "options": [
+        "Gió bão",
+        "Nắng hạn",
+        "Thủy triều lên xuống"
+      ],
       "answer": "Thủy triều lên xuống"
     }
   ]

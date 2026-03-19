@@ -27,15 +27,42 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Lịch sử Việt Nam cho Bé",
+      titleTemplate: "%s | Lịch sử Việt Nam cho Bé",
+      title: "Trang chủ",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
-          key: "description",
           name: "description",
-          content: "Ứng dụng học lịch sử Việt Nam thú vị và bổ ích cho trẻ em.",
+          content:
+            "Ứng dụng học lịch sử Việt Nam thú vị, sinh động và bổ ích dành riêng cho trẻ em. Khám phá 4000 năm lịch sử hào hùng qua truyện kể và đố vui.",
         },
+        { name: "format-detection", content: "telephone=no" },
+        // Open Graph
+        { property: "og:site_name", content: "Lịch sử Việt Nam cho Bé" },
+        { property: "og:type", content: "website" },
+        {
+          property: "og:title",
+          content: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
+        },
+        {
+          property: "og:description",
+          content:
+            "Khám phá lịch sử Việt Nam qua những câu chuyện hấp dẫn và trò chơi đố vui sinh động.",
+        },
+        { property: "og:image", content: "/images/banner/banner.png" },
+        // Twitter
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:title",
+          content: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Khám phá lịch sử Việt Nam qua những câu chuyện hấp dẫn và trò chơi đố vui sinh động.",
+        },
+        { name: "twitter:image", content: "/images/banner/banner.png" },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },

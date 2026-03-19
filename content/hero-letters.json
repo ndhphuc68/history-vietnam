@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hung-vuong-letter",
+    "heroId": "hung-vuong",
+    "lessonId": "dragon-fairy",
+    "title": "Lời nhắn từ Vua Hùng",
+    "content": "Hỡi cháu ngoan của ta, nhìn thấy cháu chăm chỉ học về nguồn cội Rồng Tiên, ta rất ấm lòng. Hãy luôn nhớ rằng, chúng ta đều là anh em một nhà, cùng chung dòng máu Lạc Hồng. Hãy sống yêu thương và đùm bọc lẫn nhau cháu nhé!",
+    "signature": "Hùng Vương Thứ 18",
+    "date": "Thời đại Văn Lang",
+    "icon": "fluent-emoji:dragon-face"
+  },
+  {
+    "id": "hai-ba-trung-letter",
+    "heroId": "hai-ba-trung",
+    "lessonId": "hai-ba-trung",
+    "title": "Lời nhắn từ Hai Bà Trưng",
+    "content": "Cháu có biết không? Lòng yêu nước không phân biệt lứa tuổi hay giới tính. Ta rất tự hào khi thấy cháu hiểu về ý chí quật cường của phụ nữ Việt. Hãy luôn dũng cảm bảo vệ những điều đúng đắn và yêu quý mảnh đất quê hương mình.",
+    "signature": "Trưng Trắc & Trưng Nhị",
+    "date": "Năm 40 sau Công Nguyên",
+    "icon": "fluent-emoji:elephant"
+  },
+  {
+    "id": "ngo-quyen-letter",
+    "heroId": "ngo-quyen",
+    "lessonId": "bach-dang-938",
+    "title": "Lời nhắn từ Ngô Quyền",
+    "content": "Chúc mừng cháu đã vượt qua thử thách trên sông Bạch Đằng! Trí thông minh và sự chuẩn bị kỹ lưỡng chính là chìa khóa của mọi chiến thắng. Cháu hãy học tập thật tốt để sau này đóng góp trí tuệ xây dựng đất nước Việt Nam hùng cường.",
+    "signature": "Ngô Quyền",
+    "date": "Năm 938",
+    "icon": "fluent-emoji:ship"
+  },
+  {
+    "id": "ly-thai-to-letter",
+    "heroId": "ly-thai-to",
+    "lessonId": "move-capital",
+    "title": "Lời nhắn từ Lý Thái Tổ",
+    "content": "Thăng Long - Hà Nội ngàn năm văn hiến chính là nhờ tầm nhìn xa trông rộng của cha ông. Ta mong cháu luôn có những ước mơ lớn lao và không ngừng cố gắng để biến những ước mơ đó thành hiện thực, như cách ta chọn vùng đất Rồng Bay làm kinh đô.",
+    "signature": "Lý Thái Tổ",
+    "date": "Năm 1010",
+    "icon": "fluent-emoji:castle"
+  },
+  {
+    "id": "tran-hung-dao-letter",
+    "heroId": "tran-hung-dao",
+    "lessonId": "bach-dang-1288",
+    "title": "Lời nhắn từ Trần Hưng Đạo",
+    "content": "Hào khí Đông A là sức mạnh của sự đoàn kết. Khi triệu người như một, không kẻ thù nào có thể đánh bại chúng ta. Cháu hãy cùng bạn bè đoàn kết, cùng nhau tiến bộ để xứng đáng là con cháu nhà Trần kiên cường nhé!",
+    "signature": "Hưng Đạo Đại Vương",
+    "date": "Thế kỷ 13",
+    "icon": "fluent-emoji:crossed-swords"
+  },
+  {
+    "id": "quang-trung-letter",
+    "heroId": "quang-trung",
+    "lessonId": "ngoc-hoi-dong-da",
+    "title": "Lời nhắn từ Quang Trung",
+    "content": "Thần tốc và quyết đoán! Đó là cách ta bảo vệ bờ cõi. Trong học tập cũng vậy, cháu cần sự tập trung và quyết tâm cao độ. Đừng bao giờ lùi bước trước những bài toán khó hay những kiến thức mới mẻ. Tiến lên cháu nhé!",
+    "signature": "Quang Trung Hoàng Đế",
+    "date": "Năm 1789",
+    "icon": "fluent-emoji:fire"
+  },
+  {
+    "id": "ho-chi-minh-letter",
+    "heroId": "ho-chi-minh",
+    "lessonId": "independence-declaration",
+    "title": "Lời nhắn từ Bác Hồ",
+    "content": "Non sông Việt Nam có trở nên tươi đẹp hay không, dân tộc Việt Nam có bước tới đài vinh quang để sánh vai với các cường quốc năm châu được hay không, chính là nhờ một phần lớn ở công học tập của các cháu. Bác tin cháu sẽ làm được!",
+    "signature": "Bác Hồ kính yêu",
+    "date": "Ngày 2 tháng 9 năm 1945",
+    "icon": "fluent-emoji:flag-vietnam"
+  }
+]

@@ -4,7 +4,17 @@
  * Friendly, clear rules for children and parents.
  */
 useHead({
+  title: "Điều khoản sử dụng",
+});
+
+useSeoMeta({
   title: "Điều khoản sử dụng - Lịch sử Nhí",
+  ogTitle: "Điều khoản sử dụng - Lịch sử Nhí",
+  description:
+    "Các quy định và hướng dẫn sử dụng ứng dụng Lịch sử Nhí một cách an toàn và hiệu quả cho bé và phụ huynh.",
+  ogDescription:
+    "Luật chơi công bằng cho hành trình khám phá lịch sử đầy thú vị.",
+  ogImage: "/images/banner/banner.png",
 });
 </script>
 

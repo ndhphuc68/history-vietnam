@@ -1,12 +1,20 @@
 <script setup lang="ts">
 import heroesData from "~/content/heroes.json";
 import { useHeroStore } from "~/stores/heroStore";
+import { useHistoryData } from "~/composables/useHistoryData";
 
 const heroStore = useHeroStore();
+const historyData = useHistoryData();
 const selectedHero = ref<any>(null);
 const showModal = ref(false);
 
-const heroes = computed(() => heroesData);
+const enabledEraIds = computed(() => historyData.eras.value.map((e) => e.id));
+
+const heroes = computed(() => {
+  return (heroesData as any[]).filter((hero) =>
+    enabledEraIds.value.includes(hero.era),
+  );
+});
 
 const openDetail = (hero: any) => {
   selectedHero.value = hero;

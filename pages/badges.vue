@@ -1,14 +1,20 @@
 <script setup lang="ts">
 // Badges page for achievements
+const selectedStatus = ref<'all' | 'earned' | 'locked'>('all');
+const selectedRarity = ref('all');
+
 useHead({
-  title: "Huy Hiệu Dũng Sĩ - Lịch sử Nhí",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Xem các huy hiệu danh giá mà bé đã đạt được trong hành trình khám phá lịch sử.",
-    },
-  ],
+  title: "Huy hiệu Dũng sĩ",
+});
+
+useSeoMeta({
+  title: "Hồ sơ Dũng sĩ - Huy hiệu & Thành tựu",
+  ogTitle: "Hồ sơ Dũng sĩ - Huy hiệu & Thành tựu",
+  description:
+    "Chiêm ngưỡng bộ sưu tập huy hiệu danh giá và những báu vật lịch sử mà bé đã chinh phục được.",
+  ogDescription:
+    "Mỗi huy hiệu là một minh chứng cho lòng yêu nước và sự chăm chỉ của bé.",
+  ogImage: "/images/banner/banner.png",
 });
 </script>
 
@@ -28,7 +34,19 @@ useHead({
         icon="fluent-emoji:military-medal"
         accentColor="primary"
       />
-      <HeroBadgeGallery />
+      
+      <HeroAchievementStats />
+      
+      <HeroAchievementFilter 
+        v-model:status="selectedStatus"
+        v-model:rarity="selectedRarity"
+      />
+
+      <HeroBadgeGallery 
+        :status="selectedStatus"
+        :rarity="selectedRarity"
+      />
+      
       <HeroArtifactGallery />
     </div>
   </div>

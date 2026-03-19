@@ -27,6 +27,33 @@ onMounted(() => {
   loadLesson();
 });
 
+useHead({
+  title: computed(() => lessonData.value?.title || "Đang tải bài học..."),
+});
+
+useSeoMeta({
+  title: computed(
+    () => `${lessonData.value?.title || "Bài học"} | Lịch sử Việt Nam cho Bé`,
+  ),
+  ogTitle: computed(
+    () => `${lessonData.value?.title || "Bài học"} | Lịch sử Việt Nam cho Bé`,
+  ),
+  description: computed(
+    () =>
+      lessonData.value?.summary ||
+      "Học lịch sử Việt Nam qua những câu chuyện hấp dẫn và hình ảnh sinh động.",
+  ),
+  ogDescription: computed(
+    () =>
+      lessonData.value?.summary ||
+      "Học lịch sử Việt Nam qua những câu chuyện hấp dẫn và hình ảnh sinh động.",
+  ),
+  ogImage: computed(
+    () => lessonData.value?.image || "/images/banner/banner.png",
+  ),
+  twitterCard: "summary_large_image",
+});
+
 const finishLesson = () => {
   router.push("/lesson");
 };

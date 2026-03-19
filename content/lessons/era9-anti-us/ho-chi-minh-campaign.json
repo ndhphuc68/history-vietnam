@@ -3,54 +3,66 @@
   "title": "Chiến dịch Hồ Chí Minh 1975",
   "period": "Chống Mỹ",
   "summary": "Chiến dịch Hồ Chí Minh lịch sử đã kết thúc hoàn toàn cuộc kháng chiến chống Mỹ, thống nhất hai miền Nam - Bắc về một mối.",
-  "image": "/images/history/spring-offensive-1975.png",
+  "image": "/images/history/thumbnails/anti-us-war/ho-chi-minh-campaign.png",
   "slides": [
     {
       "type": "story",
       "text": "Mùa xuân năm 1975, quân ta mở cuộc tổng tiến công thần tốc vào các tỉnh miền Nam. Các thành phố lần lượt được giải phóng trong niềm vui vỡ òa của nhân dân.",
-      "image": "/images/history/spring-offensive-1975/0.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-campaign/0.png",
       "imagePrompt": "A column of tanks moving through a city gate, people waving flags, colorful flowers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Đúng 11 giờ 30 phút ngày 30/4/1975, chiếc xe tăng mang số hiệu 390 của quân ta đã húc đổ cổng Dinh Độc Lập - sào huyệt cuối cùng của kẻ thù.",
-      "image": "/images/history/spring-offensive-1975/1.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-campaign/1.png",
       "imagePrompt": "A large green tank smashing through a white iron gate of a colonial-style palace, red flag popping out of the hatch, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Lá cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay trên nóc Dinh Độc Lập. Cuộc kháng chiến chống Mỹ kết thúc, đất nước ta đã hoàn toàn thống nhất!",
-      "image": "/images/history/spring-offensive-1975/2.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-campaign/2.png",
       "imagePrompt": "Red and blue flag with a yellow star on top of the palace roof, thousands of people cheering in the plaza below, bright sun, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bắc Nam đã sum họp một nhà. Từ đây, nhân dân Việt Nam bắt đầu xây dựng lại đất nước giàu đẹp và hòa bình như lời Bác Hồ hằng mong ước.",
-      "image": "/images/history/spring-offensive-1975/3.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-campaign/3.png",
       "imagePrompt": "People from the North and South embracing, children holding flowers, a unified map of Vietnam in the back, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngày 30/4 mãi là ngày vui của toàn dân tộc, nhắc nhở chúng ta về giá trị của Độc lập và Tự do mà ông cha đã phải đánh đổi bằng biết bao xương máu.",
-      "image": "/images/history/spring-offensive-1975/4.png",
+      "image": "/images/history/lessons/anti-us-war/ho-chi-minh-campaign/4.png",
       "imagePrompt": "Vietnamese flag waving high, children of different ethnic groups singing together, rainbow, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ngày giải phóng hoàn toàn miền Nam là ngày nào?",
-      "options": ["Ngày 30 tháng 4 năm 1975", "Ngày 2 tháng 9", "Ngày 19 tháng 5"],
+      "options": [
+        "Ngày 30 tháng 4 năm 1975",
+        "Ngày 2 tháng 9",
+        "Ngày 19 tháng 5"
+      ],
       "answer": "Ngày 30 tháng 4 năm 1975"
     },
     {
       "type": "quiz",
       "question": "Chiếc xe tăng húc đổ cổng Dinh Độc Lập mang số hiệu bao nhiêu?",
-      "options": ["Số hiệu 390", "Số hiệu 843", "Số hiệu 123"],
+      "options": [
+        "Số hiệu 390",
+        "Số hiệu 843",
+        "Số hiệu 123"
+      ],
       "answer": "Số hiệu 390"
     },
     {
       "type": "quiz",
       "question": "Tên gọi cuối cùng của chiến dịch giải phóng Sài Gòn là gì?",
-      "options": ["Chiến dịch Hồ Chí Minh", "Chiến dịch Tây Nguyên", "Chiến dịch Huế - Đà Nẵng"],
+      "options": [
+        "Chiến dịch Hồ Chí Minh",
+        "Chiến dịch Tây Nguyên",
+        "Chiến dịch Huế - Đà Nẵng"
+      ],
       "answer": "Chiến dịch Hồ Chí Minh"
     }
   ]

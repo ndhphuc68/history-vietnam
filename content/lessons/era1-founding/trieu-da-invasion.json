@@ -3,54 +3,66 @@
   "title": "Triệu Đà xâm lược",
   "period": "Dựng nước",
   "summary": "Câu chuyện đau lòng về sự mất cảnh giác dẫn đến việc mất nước Âu Lạc, bắt đầu thời kỳ Bắc thuộc dài đằng đẵng.",
-  "image": "/images/history/trieu-da-invasion.png",
+  "image": "/images/history/thumbnails/founding/trieu-da-invasion.png",
   "slides": [
     {
       "type": "story",
       "text": "Triệu Đà - vua nước Nam Việt ở phương Bắc - nhiều lần mang quân sang đánh Âu Lạc nhưng đều thất bại vì nỏ thần.",
-      "image": "/images/history/trieu-da-invasion/0.png",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/0.png",
       "imagePrompt": "Invading army failing at Co Loa walls, arrows in the air, Triệu Đà looking frustrated, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Triệu Đà bèn dùng kế giả vờ cầu hòa, cho con trai là Trọng Thủy sang làm rể An Dương Vương để tìm cách tráo nỏ thần.",
-      "image": "/images/history/trieu-da-invasion/1.png",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/1.png",
       "imagePrompt": "Trong Thuy and My Nuong together, romantic but secret, Trong Thuy looking at the crossbow, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Vì quá tin con rể, An Dương Vương để Trọng Thủy xem nỏ thần. Trọng Thủy đã bí mật tráo chiếc lẫy thật bằng một chiếc lẫy giả.",
-      "image": "/images/history/trieu-da-invasion/2.png",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/2.png",
       "imagePrompt": "Trong Thuy swapping the glowing claw for a plain one, dark background, suspense, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khi chiếm được bí mật, Triệu Đà lập tức đem quân tấn công. An Dương Vương chủ quan mang nỏ ra bắn nhưng không còn phép màu.",
-      "image": "/images/history/trieu-da-invasion/3.png",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/3.png",
       "imagePrompt": "An Dương Vương holding the crossbow, shocked as it fails to fire magical arrows, enemy army approaching, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thành mất, nước tan, An Dương Vương cùng Mỵ Nương chạy về phía biển. Âu Lạc rơi vào tay giặc, mở đầu một thời đại đau thương.",
-      "image": "/images/history/trieu-da-invasion/4.png",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/4.png",
       "imagePrompt": "King and Princess on a horse galloping towards the sea, palace burning in distance, sad scene, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Triệu Đà đã dùng kế gì để thắng An Dương Vương?",
-      "options": ["Cho quân đánh trực diện", "Kế cầu thân (Trọng Thủy làm rể)", "Mua chuộc quân lính"],
+      "options": [
+        "Cho quân đánh trực diện",
+        "Kế cầu thân (Trọng Thủy làm rể)",
+        "Mua chuộc quân lính"
+      ],
       "answer": "Kế cầu thân (Trọng Thủy làm rể)"
     },
     {
       "type": "quiz",
       "question": "Trọng Thủy đã lấy trộm vật gì của Âu Lạc?",
-      "options": ["Bản đồ thành", "Lẫy nỏ thần", "Vương miện của vua"],
+      "options": [
+        "Bản đồ thành",
+        "Lẫy nỏ thần",
+        "Vương miện của vua"
+      ],
       "answer": "Lẫy nỏ thần"
     },
     {
       "type": "quiz",
       "question": "Vì sao An Dương Vương lại bị thua trận?",
-      "options": ["Vì quân lính lười biếng", "Vì chủ quan và quá tin người", "Vì không có thành cao"],
+      "options": [
+        "Vì quân lính lười biếng",
+        "Vì chủ quan và quá tin người",
+        "Vì không có thành cao"
+      ],
       "answer": "Vì chủ quan và quá tin người"
     }
   ]

@@ -1,13 +1,16 @@
 <script setup lang="ts">
 useHead({
-  title: "Báo lỗi - Lịch sử Nhí",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Gửi góp ý hoặc báo lỗi để Lịch sử Nhí ngày càng tốt hơn cho các bé.",
-    },
-  ],
+  title: "Báo lỗi & Góp ý",
+});
+
+useSeoMeta({
+  title: "Báo lỗi & Góp ý - Giúp Lịch sử Nhí hoàn thiện hơn",
+  ogTitle: "Báo lỗi & Góp ý - Giúp Lịch sử Nhí hoàn thiện hơn",
+  description:
+    "Gửi góp ý hoặc báo lỗi để chúng mình cùng xây dựng một môi trường học tập lịch sử tuyệt vời nhất cho các bé.",
+  ogDescription:
+    "Cảm ơn bạn đã đồng hành và giúp đỡ Lịch sử Nhí ngày càng tốt hơn!",
+  ogImage: "/images/banner/banner.png",
 });
 
 const route = useRoute();

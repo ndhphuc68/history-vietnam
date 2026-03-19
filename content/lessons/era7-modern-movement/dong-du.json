@@ -3,42 +3,50 @@
   "title": "Phong trào Đông Du",
   "period": "Duy tân",
   "summary": "Cuộc hành trình sang Nhật Bản của những người con yêu nước để học hỏi kiến thức mới nhằm đưa đất nước đi lên.",
-  "image": "/images/history/dong-du.png",
+  "image": "/images/history/thumbnails/patriotic-movements/dong-du.png",
   "slides": [
     {
       "type": "story",
       "text": "Để đánh thắng giặc Pháp, ông Phan Bội Châu nghĩ rằng chúng ta cần phải học hỏi những điều mới mẻ từ các nước tiên tiến, đặc biệt là Nhật Bản.",
-      "image": "/images/history/dong-du/0.png",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/0.png",
       "imagePrompt": "A boat heading east towards a rising sun over the sea, people on the boat looking excited, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông đã tổ chức phong trào 'Đông Du' (nghĩa là đi về phía Đông) - đưa hàng trăm thanh niên Việt Nam sang Nhật Bản để vừa học kiến thức, vừa học cách đánh giặc.",
-      "image": "/images/history/dong-du/1.png",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/1.png",
       "imagePrompt": "Vietnamese students in traditional hats combined with modern umbrellas in a Japanese street with cherry blossoms, fusion of cultures, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù cuộc sống ở Nhật rất vất vả, các anh thanh niên vẫn chăm chỉ học tập, rèn luyện quân sự với mong ước cháy bỏng là quay về cứu nước.",
-      "image": "/images/history/dong-du/2.png",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/2.png",
       "imagePrompt": "Students studying science and military tactics in a classroom, drawings of machines and maps, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Phong trào Đông Du là một minh chứng tuyệt vời cho tinh thần hiếu học và khát khao đổi mới của nhân dân ta vào đầu thế kỷ 20.",
-      "image": "/images/history/dong-du/3.png",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/3.png",
       "imagePrompt": "Symbolic image of a book and a torch lighting the way across the sea, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Phong trào 'Đông Du' đưa thanh niên Việt Nam đi học ở nước nào?",
-      "options": ["Nhật Bản", "Pháp", "Trung Quốc"],
+      "options": [
+        "Nhật Bản",
+        "Pháp",
+        "Trung Quốc"
+      ],
       "answer": "Nhật Bản"
     },
     {
       "type": "quiz",
       "question": "Mục đích chính của phong trào Đông Du là gì?",
-      "options": ["Đi du lịch", "Học hỏi kiến thức mới để cứu nước", "Đi tìm vàng"],
+      "options": [
+        "Đi du lịch",
+        "Học hỏi kiến thức mới để cứu nước",
+        "Đi tìm vàng"
+      ],
       "answer": "Học hỏi kiến thức mới để cứu nước"
     }
   ]

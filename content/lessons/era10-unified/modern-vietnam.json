@@ -3,42 +3,50 @@
   "title": "Việt Nam ngày nay",
   "period": "Hiện đại",
   "summary": "Một Việt Nam hòa bình, xinh đẹp và hiện đại, nơi thế hệ trẻ đang nỗ lực học tập để xây dựng đất nước rạng rỡ hơn.",
-  "image": "/images/history/modern-vietnam.png",
+  "image": "/images/history/thumbnails/unified-vietnam/modern-vietnam.png",
   "slides": [
     {
       "type": "story",
       "text": "Việt Nam ngày nay có những thành phố rực rỡ ánh đèn như Hà Nội, TP. Hồ Chí Minh, Đà Nẵng... Với những tòa nhà chọc trời và những con đường thơ mộng.",
-      "image": "/images/history/modern-vietnam/0.png",
+      "image": "/images/history/lessons/unified-vietnam/modern-vietnam/0.png",
       "imagePrompt": "Panoramic view of a modern Vietnamese city at night, bright lights, skyscrapers, a river with bridges, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chúng ta vẫn luôn yêu quý và giữ gìn những vẻ đẹp thiên nhiên hùng vĩ như Vịnh Hạ Long, Hang Sơn Đoòng hay những dải bờ biển xanh mát.",
-      "image": "/images/history/modern-vietnam/1.png",
+      "image": "/images/history/lessons/unified-vietnam/modern-vietnam/1.png",
       "imagePrompt": "Beautiful Ha Long Bay with limestone islands and turquoise water, a scenic cruise boat, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thế hệ trẻ Việt Nam đang nỗ lực học tập, sáng tạo để đưa nước mình sánh vai với các cường quốc trên thế giới về công nghệ và khoa học.",
-      "image": "/images/history/modern-vietnam/2.png",
+      "image": "/images/history/lessons/unified-vietnam/modern-vietnam/2.png",
       "imagePrompt": "Children playing with a robot, using tablets, in a futuristic classroom, curious and happy faces, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù đất nước có hiện đại đến đâu, chúng ta cũng đừng quên cội nguồn và những bài học quý báu của cha ông từ hàng ngàn năm lịch sử nhé!",
-      "image": "/images/history/modern-vietnam/3.png",
+      "image": "/images/history/lessons/unified-vietnam/modern-vietnam/3.png",
       "imagePrompt": "A child looking at a history book while standing in a modern city, symbolic bridge between past and future, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Ai là người sẽ tiếp tục xây dựng và bảo vệ đất nước Việt Nam rạng rỡ hơn?",
-      "options": ["Chính là chúng mình - thế hệ trẻ!", "Người ngoài hành tinh", "Chỉ những người lớn"],
+      "options": [
+        "Chính là chúng mình - thế hệ trẻ!",
+        "Người ngoài hành tinh",
+        "Chỉ những người lớn"
+      ],
       "answer": "Chính là chúng mình - thế hệ trẻ!"
     },
     {
       "type": "quiz",
       "question": "Chúng ta nên có thái độ như thế nào với lịch sử dân tộc?",
-      "options": ["Luôn ghi nhớ và tự hào", "Nên quên đi", "Thấy nhàm chán"],
+      "options": [
+        "Luôn ghi nhớ và tự hào",
+        "Nên quên đi",
+        "Thấy nhàm chán"
+      ],
       "answer": "Luôn ghi nhớ và tự hào"
     }
   ]

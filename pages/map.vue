@@ -3,14 +3,17 @@ import mapData from "~/content/history-map.json";
 
 // Metatags for the map page
 useHead({
-  title: "Bản đồ Lịch sử Việt Nam - Lịch sử Nhí",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Khám phá hành trình 4000 năm lịch sử qua bản đồ tương tác thú vị.",
-    },
-  ],
+  title: "Bản đồ Tiến trình",
+});
+
+useSeoMeta({
+  title: "Bản đồ Lịch sử Việt Nam - Hành trình 4000 năm",
+  ogTitle: "Bản đồ Lịch sử Việt Nam - Hành trình 4000 năm",
+  description:
+    "Khám phá hành trình 4000 năm lịch sử Việt Nam qua bản đồ tương tác thú vị và trực quan.",
+  ogDescription:
+    "Theo dấu chân cha ông qua các thời kỳ lịch sử hào hùng trên bản đồ tri thức.",
+  ogImage: "/images/banner/banner.png",
 });
 </script>
 

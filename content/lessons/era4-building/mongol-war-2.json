@@ -3,42 +3,50 @@
   "title": "Kháng chiến chống Nguyên Mông lần 2",
   "period": "Xây dựng",
   "summary": "Trần Hưng Đạo với bài 'Hịch tướng sĩ' đã khơi dậy lòng yêu nước, dẫn dắt quân dân đánh bại 50 vạn quân giặc.",
-  "image": "/images/history/mongol-war-2.png",
+  "image": "/images/history/thumbnails/building/mongol-war-2.png",
   "slides": [
     {
       "type": "story",
       "text": "Lần này, quân Nguyên Mông kéo sang với 50 vạn quân - một con số khổng lồ! Chúng hung hăng đòi đi qua nước ta để đánh nước khác.",
-      "image": "/images/history/mongol-war-2/0.png",
+      "image": "/images/history/lessons/building/mongol-war-2/0.png",
       "imagePrompt": "A vast sea of Mongol soldiers and horses at the border, dust rising, overwhelming numbers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Trước thế giặc mạnh, Hưng Đạo Vương Trần Hưng Đạo đã viết bài 'Hịch tướng sĩ' để cổ vũ tinh thần binh lính. Các chiến sĩ đã tự xăm lên tay hai chữ 'Sát Thát' (Giết giặc Mông Cổ).",
-      "image": "/images/history/mongol-war-2/1.png",
+      "image": "/images/history/lessons/building/mongol-war-2/1.png",
       "imagePrompt": "Soldiers around a campfire, showing their arms with 'SAT THAT' tattoos, look of determination and brotherhood, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Sau nhiều trận chiến cam go, quân ta đã giành được những thắng lợi vang dội ở Hàm Tử, Chương Dương. Quân giặc hoảng sợ chạy tán loạn.",
-      "image": "/images/history/mongol-war-2/2.png",
+      "image": "/images/history/lessons/building/mongol-war-2/2.png",
       "imagePrompt": "Victorious battle at a river port, enemy flags falling, Tran soldiers cheering, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Thoát Hoan - tướng giặc - đã phải chui vào ống đồng để quân lính khiêng chạy trốn khỏi sự truy đuổi của quân ta. Một cảnh tượng thật nực cười cho kẻ xâm lược!",
-      "image": "/images/history/mongol-war-2/3.png",
+      "image": "/images/history/lessons/building/mongol-war-2/3.png",
       "imagePrompt": "Enemies carrying a large copper tube, a scared face looking out from one end, humorous cartoon style, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Vì sao binh lính nhà Trần xăm chữ 'Sát Thát' lên tay?",
-      "options": ["Để trang hoàng cho đẹp", "Thể hiện ý chí quyết tâm giết giặc cứu nước", "Để nhận ra nhau khi chiến đấu"],
+      "options": [
+        "Để trang hoàng cho đẹp",
+        "Thể hiện ý chí quyết tâm giết giặc cứu nước",
+        "Để nhận ra nhau khi chiến đấu"
+      ],
       "answer": "Thể hiện ý chí quyết tâm giết giặc cứu nước"
     },
     {
       "type": "quiz",
       "question": "Tướng giặc Thoát Hoan đã chạy trốn bằng cách nào?",
-      "options": ["Cưỡi ngựa bay", "Chui vào ống đồng", "Đi thuyền buồm"],
+      "options": [
+        "Cưỡi ngựa bay",
+        "Chui vào ống đồng",
+        "Đi thuyền buồm"
+      ],
       "answer": "Chui vào ống đồng"
     }
   ]

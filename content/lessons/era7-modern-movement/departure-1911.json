@@ -3,42 +3,50 @@
   "title": "Bác Hồ ra đi tìm đường cứu nước",
   "period": "Bác Hồ",
   "summary": "Người thanh niên Nguyễn Tất Thành với hai bàn tay trắng đã bắt đầu cuộc hành trình vạn dặm trên con tàu buôn để tìm ánh sáng cho dân tộc.",
-  "image": "/images/history/departure-1911.png",
+  "image": "/images/history/thumbnails/patriotic-movements/departure-1911.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 1911, người thanh niên Nguyễn Tất Thành (tên mới của cậu Cung) quyết định rời quê hương để sang phương Tây tìm con đường cứu nước mới.",
-      "image": "/images/history/departure-1911/0.png",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/0.png",
       "imagePrompt": "Nguyen Tat Thanh in a simple brown suit, standing at the Nha Rong wharf, looking at a large steamship, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tại bến cảng Nhà Rồng (Sài Gòn), ông đã xin làm phụ bếp trên con tàu buôn Pháp tên là Amiral Latouche-Tréville với cái tên Văn Ba.",
-      "image": "/images/history/departure-1911/1.png",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/1.png",
       "imagePrompt": "Văn Ba (Nguyen Tat Thanh) carrying a heavy bag onto a ship, determined face, busy dock scene, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Dù công việc rất vất vả, phải làm việc từ sáng sớm đến tối mịt, nhưng ông vẫn không quên mục tiêu duy nhất: Tìm hiểu xem các nước khác họ làm gì để cứu dân tộc mình.",
-      "image": "/images/history/departure-1911/2.png",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/2.png",
       "imagePrompt": "Van Ba working in the ship's kitchen, steam rising, looking out of a small window at the sea, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ngày 5 tháng 6 năm 1911 đã trở thành một dấu mốc lịch sử. Hành trình 30 năm bôn ba khắp thế giới của Bác bắt đầu từ đây!",
-      "image": "/images/history/departure-1911/3.png",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/3.png",
       "imagePrompt": "The large ship sailing out into the wide ocean, sunset, a trail of white foam, a symbol of a new era beginning, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Bác Hồ rời bến cảng nào để ra nước ngoài?",
-      "options": ["Bến cảng Nhà Rồng", "Cảng Hải Phòng", "Cảng Đà Nẵng"],
+      "options": [
+        "Bến cảng Nhà Rồng",
+        "Cảng Hải Phòng",
+        "Cảng Đà Nẵng"
+      ],
       "answer": "Bến cảng Nhà Rồng"
     },
     {
       "type": "quiz",
       "question": "Bác Hồ ra đi tìm đường cứu nước vào năm nào?",
-      "options": ["Năm 1911", "Năm 1945", "Năm 1930"],
+      "options": [
+        "Năm 1911",
+        "Năm 1945",
+        "Năm 1930"
+      ],
       "answer": "Năm 1911"
     }
   ]

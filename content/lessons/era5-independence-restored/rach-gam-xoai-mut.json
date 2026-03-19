@@ -3,42 +3,50 @@
   "title": "Chiến thắng Rạch Gầm - Xoài Mút",
   "period": "Phục hưng",
   "summary": "Chỉ trong một đêm, quân Tây Sơn dưới sự chỉ huy của Nguyễn Huệ đã đánh tan 5 vạn quân Xiêm xâm lược vùng sông nước miền Tây.",
-  "image": "/images/history/rach-gam-xoai-mut.png",
+  "image": "/images/history/thumbnails/independence-restored/rach-gam-xoai-mut.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 1785, quân Xiêm từ phương Nam kéo sang xâm lược nước ta. Chúng rất hung hăng và cậy thế quân đông, thuyền mạnh.",
-      "image": "/images/history/rach-gam-xoai-mut/0.png",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/0.png",
       "imagePrompt": "Many large war boats with distinct southern style flags entering a wide river, aggressive atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Nguyễn Huệ đã chọn đoạn sông Rạch Gầm - Xoài Mút (Tiền Giang) làm nơi quyết chiến. Ông bí mật mai phục quân lính và đại bác ở hai bên bờ sông.",
-      "image": "/images/history/rach-gam-xoai-mut/1.png",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/1.png",
       "imagePrompt": "A bird's eye view of a winding river with dense coconut trees on both banks, hidden cannons peeking through the leaves, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khi giặc lọt vào trận địa, đại bác từ hai bên bờ đồng loạt khai hỏa. Những chiếc thuyền của giặc bốc cháy dữ dội, không kịp trở tay.",
-      "image": "/images/history/rach-gam-xoai-mut/2.png",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/2.png",
       "imagePrompt": "River battle at night, fire on water, cannons firing from the banks, enemy boats sinking, heroic and intense, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chỉ trong một thời gian ngắn, 5 vạn quân Xiêm đã bị đánh tan. Từ đó về sau, chúng 'sợ quân Tây Sơn như sợ cọp'!",
-      "image": "/images/history/rach-gam-xoai-mut/3.png",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/3.png",
       "imagePrompt": "Enemies running away on land towards the border, looking back in fear, victorious Tay Son soldiers on the river, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Trận Rạch Gầm - Xoài Mút diễn ra ở đâu?",
-      "options": ["Vùng sông nước Tiền Giang", "Vùng núi Lạng Sơn", "Vịnh Hạ Long"],
+      "options": [
+        "Vùng sông nước Tiền Giang",
+        "Vùng núi Lạng Sơn",
+        "Vịnh Hạ Long"
+      ],
       "answer": "Vùng sông nước Tiền Giang"
     },
     {
       "type": "quiz",
       "question": "Vị tướng nào đã chỉ huy chiến thắng Rạch Gầm - Xoài Mút?",
-      "options": ["Nguyễn Huệ", "Lê Lợi", "Trần Hưng Đạo"],
+      "options": [
+        "Nguyễn Huệ",
+        "Lê Lợi",
+        "Trần Hưng Đạo"
+      ],
       "answer": "Nguyễn Huệ"
     }
   ]

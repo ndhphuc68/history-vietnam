@@ -3,42 +3,50 @@
   "title": "Khúc Hạo cải cách",
   "period": "Tự chủ",
   "summary": "Người kế nghiệp họ Khúc với những chính sách 'khoan dung, giản dị', mang lại cuộc sống ấm no cho nhân dân.",
-  "image": "/images/history/khuc-hao-reform.png",
+  "image": "/images/history/thumbnails/autonomy/khuc-hao-reform.png",
   "slides": [
     {
       "type": "story",
       "text": "Tiếp nối cha mình, ông Khúc Hạo lên nắm quyền và bắt tay vào công cuộc 'thay áo mới' cho đất nước. Ông muốn mọi người đều có cuộc sống tốt đẹp hơn.",
-      "image": "/images/history/khuc-hao-reform/0.png",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/0.png",
       "imagePrompt": "Khuc Hao standing with his advisors, pointing at a map of administrative reforms, hopeful and focused, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Ông đã chia lại đất nước thành các đơn vị nhỏ để dễ quản lý, bỏ bớt những thứ thuế nặng nề mà giặc phương Bắc đã đặt ra trước đó.",
-      "image": "/images/history/khuc-hao-reform/1.png",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/1.png",
       "imagePrompt": "Old tax records being burned or put away, officials talking kindly to villagers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Trong thời này, ruộng đất được chia cho dân cày. Ai ai cũng phấn khởi tăng gia sản xuất, xóm làng vang tiếng cười vui.",
-      "image": "/images/history/khuc-hao-reform/2.png",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/2.png",
       "imagePrompt": "Bountiful harvest scene, golden rice fields, happy villagers working together, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Khúc Hạo đã chứng minh rằng: Khi người Việt tự quản lý đất nước mình, chúng ta có thể làm cho đất nước trở nên giàu mạnh và bình yên.",
-      "image": "/images/history/khuc-hao-reform/3.png",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/3.png",
       "imagePrompt": "A panoramic view of a prosperous ancient Vietnamese village under the sun, birds flying, peaceful and thriving, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Chính sách cai trị của Khúc Hạo được gói gọn trong những chữ nào?",
-      "options": ["Nghiêm khắc, cứng rắn", "Khoan dung, giản dị", "Tự do, phóng khoáng"],
+      "options": [
+        "Nghiêm khắc, cứng rắn",
+        "Khoan dung, giản dị",
+        "Tự do, phóng khoáng"
+      ],
       "answer": "Khoan dung, giản dị"
     },
     {
       "type": "quiz",
       "question": "Việc chia lại đất nước của Khúc Hạo nhằm mục đích gì?",
-      "options": ["Để dễ bề bóc lột", "Để quản lý đất nước hiệu quả và giúp dân", "Để chuẩn bị đi chinh phạt nước khác"],
+      "options": [
+        "Để dễ bề bóc lột",
+        "Để quản lý đất nước hiệu quả và giúp dân",
+        "Để chuẩn bị đi chinh phạt nước khác"
+      ],
       "answer": "Để quản lý đất nước hiệu quả và giúp dân"
     }
   ]

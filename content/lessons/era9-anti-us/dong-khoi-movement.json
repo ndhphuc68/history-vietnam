@@ -3,54 +3,66 @@
   "title": "Phong trào Đồng khởi 1960",
   "period": "Chống Mỹ",
   "summary": "Ngọn lửa nổi dậy của nhân dân miền Nam, bắt đầu từ Bến Tre, đã làm lung lay tận gốc chính quyền tay sai của Mỹ.",
-  "image": "/images/history/dong-khoi-movement.png",
+  "image": "/images/history/thumbnails/anti-us-war/dong-khoi-movement.png",
   "slides": [
     {
       "type": "story",
       "text": "Vào cuối năm 1959, nhân dân miền Nam không thể chịu đựng thêm sự áp bức của giặc. Một phong trào nổi dậy đồng loạt đã bùng nổ, gọi là 'Đồng khởi'.",
-      "image": "/images/history/dong-khoi-movement/0.png",
+      "image": "/images/history/lessons/anti-us-war/dong-khoi-movement/0.png",
       "imagePrompt": "People in a dark coconut forest holding torches, faces illuminated by fire, sense of secret meeting and power, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bắt đầu từ Bến Tre, những người mẹ, người chị trong 'Đội quân tóc dài' đã dũng cảm dùng mưu mẹo và lý lẽ để làm quân giặc phải khiếp sợ.",
-      "image": "/images/history/dong-khoi-movement/1.png",
+      "image": "/images/history/lessons/anti-us-war/dong-khoi-movement/1.png",
       "imagePrompt": "A group of women in black 'áo bà ba' marching with banners, long hair flowing, looking firm and dignified, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Bằng gậy gộc, giáo mác và cả những khẩu súng tự chế, nhân dân ta đã đập tan các bộ máy kìm kẹp của giặc, giành lại ruộng vườn của chính mình.",
-      "image": "/images/history/dong-khoi-movement/2.png",
+      "image": "/images/history/lessons/anti-us-war/dong-khoi-movement/2.png",
       "imagePrompt": "Farmers reclaiming their land, tearing down enemy signs, children playing in a liberated village, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Từ Bến Tre, ngọn lửa Đồng khởi đã lan rộng ra khắp Nam Bộ và Tây Nguyên, chứng minh sức mạnh của nhân dân khi cùng nhau đoàn kết.",
-      "image": "/images/history/dong-khoi-movement/3.png",
+      "image": "/images/history/lessons/anti-us-war/dong-khoi-movement/3.png",
       "imagePrompt": "A large flame rising from a coconut grove, symbolic sparks flying across a map of Southern Vietnam, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Phong trào này đã thành lập nên Mặt trận Dân tộc Giải phóng miền Nam Việt Nam, đánh dấu một bước tiến mới trong cuộc đấu tranh giành độc lập.",
-      "image": "/images/history/dong-khoi-movement/4.png",
+      "image": "/images/history/lessons/anti-us-war/dong-khoi-movement/4.png",
       "imagePrompt": "A group of people from different backgrounds (farmers, students, workers) standing under a new flag (red/blue with yellow star), children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Phong trào Đồng khởi bắt đầu sôi nổi nhất ở tỉnh nào?",
-      "options": ["Bến Tre", "Hà Nội", "Huế"],
+      "options": [
+        "Bến Tre",
+        "Hà Nội",
+        "Huế"
+      ],
       "answer": "Bến Tre"
     },
     {
       "type": "quiz",
       "question": "Tổ chức yêu nước độc đáo nào đã xuất hiện trong phong trào Đồng khởi?",
-      "options": ["Đội quân tóc dài", "Đội kỵ binh", "Đội thợ mỏ"],
+      "options": [
+        "Đội quân tóc dài",
+        "Đội kỵ binh",
+        "Đội thợ mỏ"
+      ],
       "answer": "Đội quân tóc dài"
     },
     {
       "type": "quiz",
       "question": "Kết quả lớn nhất của phong trào Đồng khởi là gì?",
-      "options": ["Giành lại ruộng vườn cho nhân dân", "Mua thêm vũ khí mới", "Tổ chức các lễ hội lớn"],
+      "options": [
+        "Giành lại ruộng vườn cho nhân dân",
+        "Mua thêm vũ khí mới",
+        "Tổ chức các lễ hội lớn"
+      ],
       "answer": "Giành lại ruộng vườn cho nhân dân"
     }
   ]

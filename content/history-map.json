@@ -15,7 +15,8 @@
         { "id": "co-loa-citadel", "title": "Thành Cổ Loa", "lesson": "co-loa-citadel", "year": "TK III TCN" },
         { "id": "magic-crossbow", "title": "Nỏ thần Kim Quy", "lesson": "magic-crossbow", "year": "Thời Âu Lạc" },
         { "id": "trieu-da-invasion", "title": "Triệu Đà xâm lược", "lesson": "trieu-da-invasion", "year": "179 TCN" }
-      ]
+      ],
+      "enabled": true
     },
     {
       "id": "northern-domination",
@@ -27,7 +28,8 @@
         { "id": "hai-ba-trung", "title": "Khởi nghĩa Hai Bà Trưng", "lesson": "hai-ba-trung", "year": "40" },
         { "id": "ba-trieu", "title": "Khởi nghĩa Bà Triệu", "lesson": "ba-trieu", "year": "248" },
         { "id": "other-rebellions", "title": "Các cuộc nổi dậy khác", "lesson": "other-rebellions", "year": "TK V - IX" }
-      ]
+      ],
+      "enabled": true
     },
     {
       "id": "autonomy",
@@ -39,7 +41,8 @@
         { "id": "ngo-quyen-prep", "title": "Ngô Quyền chuẩn bị đại chiến", "lesson": "ngo-quyen-prep", "year": "938" },
         { "id": "bach-dang-938", "title": "Chiến thắng Bạch Đằng 938", "lesson": "bach-dang-938", "year": "938" },
         { "id": "ngo-dynasty", "title": "Nhà Ngô xây dựng đất nước", "lesson": "ngo-dynasty", "year": "939" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "building",
@@ -59,7 +62,8 @@
         { "id": "mongol-war-2", "title": "Chống Nguyên Mông lần 2", "lesson": "mongol-war-2", "year": "1285" },
         { "id": "van-don-victory", "title": "Chiến thắng Vân Đồn", "lesson": "van-don-victory", "year": "1287" },
         { "id": "bach-dang-1288", "title": "Đại thắng Bạch Đằng 1288", "lesson": "bach-dang-1288", "year": "1288" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "independence-restored",
@@ -76,7 +80,8 @@
         { "id": "rach-gam-xoai-mut", "title": "Chiến thắng Rạch Gầm Xoài Mút", "lesson": "rach-gam-xoai-mut", "year": "1785" },
         { "id": "nguyen-hue", "title": "Nguyễn Huệ lên ngôi Quang Trung", "lesson": "nguyen-hue", "year": "1788" },
         { "id": "ngoc-hoi-dong-da", "title": "Đại thắng Ngọc Hồi Đống Đa", "lesson": "ngoc-hoi-dong-da", "year": "1789" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "resistance",
@@ -89,7 +94,8 @@
         { "id": "truong-dinh", "title": "Anh hùng Trương Định", "lesson": "truong-dinh", "year": "1862" },
         { "id": "can-vuong", "title": "Phong trào Cần Vương", "lesson": "can-vuong", "year": "1885" },
         { "id": "ham-nghi", "title": "Vua Hàm Nghi yêu nước", "lesson": "ham-nghi", "year": "1885" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "patriotic-movements",
@@ -100,7 +106,8 @@
         { "id": "phan-chau-trinh", "title": "Nhà cải cách Phan Châu Trinh", "lesson": "phan-chau-trinh", "year": "1906" },
         { "id": "ho-chi-minh-young", "title": "Cậu bé Nguyễn Sinh Cung", "lesson": "ho-chi-minh-young", "year": "1890" },
         { "id": "departure-1911", "title": "Bác Hồ ra đi tìm đường cứu nước", "lesson": "departure-1911", "year": "1911" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "ho-chi-minh-era",
@@ -111,7 +118,8 @@
         { "id": "nationwide-resistance", "title": "Toàn quốc kháng chiến", "lesson": "nationwide-resistance", "year": "1946" },
         { "id": "border-campaign", "title": "Chiến dịch Biên giới", "lesson": "border-campaign", "year": "1950" },
         { "id": "dien-bien-phu", "title": "Đại thắng Điện Biên Phủ", "lesson": "dien-bien-phu", "year": "1954" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "anti-us-war",
@@ -124,7 +132,8 @@
         { "id": "air-dien-bien-phu", "title": "Điện Biên Phủ trên không", "lesson": "air-dien-bien-phu", "year": "1972" },
         { "id": "paris-agreement", "title": "Hiệp định Paris 1973", "lesson": "paris-agreement", "year": "1973" },
         { "id": "ho-chi-minh-campaign", "title": "Chiến dịch Hồ Chí Minh", "lesson": "ho-chi-minh-campaign", "year": "1975" }
-      ]
+      ],
+      "enabled": false
     },
     {
       "id": "unified-vietnam",
@@ -133,7 +142,8 @@
         { "id": "reunification", "title": "Đất nước trọn niềm vui", "lesson": "reunification", "year": "1975" },
         { "id": "doi-moi", "title": "Thời kỳ Đổi mới", "lesson": "doi-moi", "year": "1986" },
         { "id": "modern-vietnam", "title": "Việt Nam ngày nay", "lesson": "modern-vietnam", "year": "TK XXI" }
-      ]
+      ],
+      "enabled": false
     }
   ]
 }

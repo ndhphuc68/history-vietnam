@@ -121,12 +121,39 @@ export const useBadgeStore = defineStore('badge', () => {
     return [];
   };
 
+  const totalBadges = computed(() => allBadges.value.length);
+  const earnedCount = computed(() => earnedBadgeIds.value.length);
+  const progressPercent = computed(() => 
+    totalBadges.value > 0 ? Math.round((earnedCount.value / totalBadges.value) * 100) : 0
+  );
+
+  const stats = computed(() => {
+    const counts = {
+      common: 0,
+      rare: 0,
+      epic: 0,
+      legendary: 0
+    };
+    
+    allBadges.value.forEach(badge => {
+      if (earnedBadgeIds.value.includes(badge.id)) {
+        counts[badge.rarity]++;
+      }
+    });
+    
+    return counts;
+  });
+
   return {
     earnedBadgeIds,
     allBadges,
     lastUnlockedBadge,
     perfectQuizStreak,
     viewedGlossaryCount,
+    totalBadges,
+    earnedCount,
+    progressPercent,
+    stats,
     initialize,
     checkNewBadges,
     trackGlossaryView,

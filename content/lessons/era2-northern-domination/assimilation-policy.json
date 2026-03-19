@@ -3,48 +3,60 @@
   "title": "Chính sách đồng hóa",
   "period": "Bắc thuộc",
   "summary": "Mưu đồ thâm hiểm của các triều đại phương Bắc nhằm xóa bỏ văn hóa Việt và biến nước ta thành một phần của họ.",
-  "image": "/images/history/assimilation-policy.png",
+  "image": "/images/history/thumbnails/northern-domination/assimilation-policy.png",
   "slides": [
     {
       "type": "story",
       "text": "Các triều đại phương Bắc không chỉ bóc lột tài nguyên mà còn muốn thay đổi cả con người và văn hóa Việt.",
-      "image": "/images/history/assimilation-policy/0.png",
+      "image": "/images/history/lessons/northern-domination/assimilation-policy/0.png",
       "imagePrompt": "Han schoolroom in ancient Vietnam, teacher teaching Chinese characters, Vietnamese students looking thoughtful, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Họ đưa người Hán sang chung sống, bắt dân ta phải theo phong tục, tập quán và học chữ Hán của họ.",
-      "image": "/images/history/assimilation-policy/1.png",
+      "image": "/images/history/lessons/northern-domination/assimilation-policy/1.png",
       "imagePrompt": "A marketplace where Chinese and Vietnamese people interact, mixing of clothes and customs, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Họ muốn xóa bỏ tiếng nói và những nét văn hóa riêng biệt của tổ tiên ta để dễ bề cai trị lâu dài.",
-      "image": "/images/history/assimilation-policy/2.png",
+      "image": "/images/history/lessons/northern-domination/assimilation-policy/2.png",
       "imagePrompt": "Ancient Vietnamese grandmother teaching a grandchild secret legends in their own language, resisting cultural loss, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Tuy nhiên, người Việt vẫn âm thầm giữ gìn tiếng mẹ đẻ và các phong tục như ăn trầu, nhuộm răng, xăm mình như một biểu tượng của sự phản kháng.",
-      "image": "/images/history/assimilation-policy/3.png",
+      "image": "/images/history/lessons/northern-domination/assimilation-policy/3.png",
       "imagePrompt": "Vietnamese people performing traditional rituals in secret, unity and preservation of spirit, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Mục đích của chính sách đồng hóa là gì?",
-      "options": ["Giúp dân ta phát triển văn hóa", "Xóa bỏ bản sắc dân tộc Việt để dễ cai trị", "Xây dựng các công trình giải trí"],
+      "options": [
+        "Giúp dân ta phát triển văn hóa",
+        "Xóa bỏ bản sắc dân tộc Việt để dễ cai trị",
+        "Xây dựng các công trình giải trí"
+      ],
       "answer": "Xóa bỏ bản sắc dân tộc Việt để dễ cai trị"
     },
     {
       "type": "quiz",
       "question": "Người Việt đã làm gì để chống lại sự đồng hóa?",
-      "options": ["Quên sạch văn hóa cũ", "Giữ gìn tiếng nói và các phong tục tổ tiên", "Chạy trốn sang nước khác"],
+      "options": [
+        "Quên sạch văn hóa cũ",
+        "Giữ gìn tiếng nói và các phong tục tổ tiên",
+        "Chạy trốn sang nước khác"
+      ],
       "answer": "Giữ gìn tiếng nói và các phong tục tổ tiên"
     },
     {
       "type": "quiz",
       "question": "Chữ viết nào được đưa vào để bắt dân ta học?",
-      "options": ["Chữ Latin", "Chữ Hán", "Chữ Nôm"],
+      "options": [
+        "Chữ Latin",
+        "Chữ Hán",
+        "Chữ Nôm"
+      ],
       "answer": "Chữ Hán"
     }
   ]

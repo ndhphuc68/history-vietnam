@@ -1,13 +1,17 @@
 <script setup lang="ts">
 // Gallery page for collecting hero cards
 useHead({
-  title: "Bộ sưu tập Anh Hùng - Lịch sử Nhí",
-  meta: [
-    {
-      name: "description",
-      content: "Xem bộ sưu tập các vị anh hùng dân tộc mà bé đã thu thập được.",
-    },
-  ],
+  title: "Sổ tay Anh hùng",
+});
+
+useSeoMeta({
+  title: "Sổ tay Anh hùng - Danh tướng Việt Nam",
+  ogTitle: "Sổ tay Anh hùng - Danh tướng Việt Nam",
+  description:
+    "Gặp gỡ và tri ân những vị anh hùng dân tộc hào hùng trong lịch sử Việt Nam qua bộ sưu tập thẻ tướng sinh động.",
+  ogDescription:
+    "Bé đã mở khóa được bao nhiêu vị Anh hùng rồi? Khám phá ngay bộ sưu tập cá nhân!",
+  ogImage: "/images/banner/banner.png",
 });
 </script>
 

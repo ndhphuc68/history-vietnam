@@ -3,42 +3,50 @@
   "title": "Các cuộc nổi dậy khác",
   "period": "Bắc thuộc",
   "summary": "Từ Lý Bí, Mai Thúc Loan đến Phùng Hưng... những ngọn lửa đấu tranh bền bỉ không ngừng nghỉ của nhân dân ta.",
-  "image": "/images/history/other-rebellions.png",
+  "image": "/images/history/thumbnails/northern-domination/other-rebellions.png",
   "slides": [
     {
       "type": "story",
       "text": "Thế kỷ VI, Lý Bí khởi nghĩa đánh đuổi quân Lương, lập nên nước Vạn Xuân - hy vọng đất nước mãi mãi tươi đẹp như mùa xuân.",
-      "image": "/images/history/other-rebellions/0.png",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/0.png",
       "imagePrompt": "Ly Bi (Ly Nam De) being crowned, Vạn Xuân flag, festive atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Sau đó là Mai Thúc Loan (Mai Hắc Đế) khởi nghĩa ở Nghệ An và Phùng Hưng (Bố Cái Đại Vương) ở Đường Lâm.",
-      "image": "/images/history/other-rebellions/1.png",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/1.png",
       "imagePrompt": "Collage of different heroes leading their people, determined expressions, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Mỗi cuộc khởi nghĩa, dù thành công hay thất bại, đều góp thêm sức mạnh cho khát vọng độc lập của dân tộc Việt.",
-      "image": "/images/history/other-rebellions/2.png",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/2.png",
       "imagePrompt": "A large bonfire where stories of past heroes are passed down, glowing energy, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Giai đoạn này là minh chứng rõ nhất cho câu nói: 'Giặc đến nhà đàn bà cũng đánh', và lòng yêu nước không bao giờ tắt của dân ta.",
-      "image": "/images/history/other-rebellions/3.png",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/3.png",
       "imagePrompt": "Symbolic image of diverse Vietnamese people (men, women, children) standing together in solidarity, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Lý Bí đã lập nên nước nào?",
-      "options": ["Văn Lang", "Vạn Xuân", "Đại Việt"],
+      "options": [
+        "Văn Lang",
+        "Vạn Xuân",
+        "Đại Việt"
+      ],
       "answer": "Vạn Xuân"
     },
     {
       "type": "quiz",
       "question": "Phùng Hưng được dân ta tôn là gì?",
-      "options": ["Phù Đổng Thiên Vương", "Bố Cái Đại Vương", "Hưng Đạo Đại Vương"],
+      "options": [
+        "Phù Đổng Thiên Vương",
+        "Bố Cái Đại Vương",
+        "Hưng Đạo Đại Vương"
+      ],
       "answer": "Bố Cái Đại Vương"
     }
   ]

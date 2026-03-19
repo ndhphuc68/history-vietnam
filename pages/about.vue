@@ -2,6 +2,19 @@
 /**
  * About page explaining the mission and meaning of the project.
  */
+useHead({
+  title: "Về dự án Lịch sử Nhí",
+});
+
+useSeoMeta({
+  title: "Về dự án Lịch sử Việt Nam cho Bé",
+  ogTitle: "Về dự án Lịch sử Việt Nam cho Bé",
+  description:
+    "Tìm hiểu về sứ mệnh khơi gợi lòng tự hào dân tộc và tình yêu lịch sử nước nhà cho thế hệ mầm non.",
+  ogDescription:
+    "Lịch sử là một chuyến phiêu lưu! Khám phá tâm huyết đằng sau dự án Lịch sử Nhí.",
+  ogImage: "/images/about/mission.png",
+});
 </script>
 
 <template>

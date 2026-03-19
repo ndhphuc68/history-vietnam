@@ -3,54 +3,66 @@
   "title": "Điện Biên Phủ trên không",
   "period": "Chống Mỹ",
   "summary": "12 ngày đêm cuối năm 1972, bầu trời Hà Nội rực sáng lửa đạn khi quân dân ta đánh tan cuộc tập kích bằng máy bay B-52 của Mỹ.",
-  "image": "/images/history/hanoi-dien-bien-phu.png",
+  "image": "/images/history/thumbnails/anti-us-war/hanoi-dien-bien-phu.png",
   "slides": [
     {
       "type": "story",
       "text": "Các bé có biết không? Máy bay B-52 là loại máy bay ném bom khổng lồ và rất hiện đại của Mỹ. Chúng đã ném hàng ngàn tấn bom xuống Hà Nội và Hải Phòng để đe dọa chúng ta.",
-      "image": "/images/history/hanoi-dien-bien-phu/0.png",
+      "image": "/images/history/lessons/anti-us-war/hanoi-dien-bien-phu/0.png",
       "imagePrompt": "Night sky over Hanoi with many bright spots like stars, but they are silhouettes of large airplanes, searchlights scanning the sky, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Nhân dân Hà Nội đã không hề sợ hãi. Các bác bộ đội tên lửa và những chiếc máy bay MiG nhỏ bé nhưng nhanh nhẹn đã dũng cảm cất cánh tiêu diệt giặc.",
-      "image": "/images/history/hanoi-dien-bien-phu/1.png",
+      "image": "/images/history/lessons/anti-us-war/hanoi-dien-bien-phu/1.png",
       "imagePrompt": "A missile launching into the night sky, a trail of fire, a small fighter jet alongside, heroic and dynamic, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Sau 12 ngày đêm kiên cường chiến đấu, chúng ta đã bắn rơi nhiều máy bay B-52, buộc Mỹ phải ngừng ném bom hoàn toàn. Thắng lợi này được gọi là 'Điện Biên Phủ trên không'.",
-      "image": "/images/history/hanoi-dien-bien-phu/2.png",
+      "image": "/images/history/lessons/anti-us-war/hanoi-dien-bien-phu/2.png",
       "imagePrompt": "A large broken wing of an airplane in a lake (Huub Tiep lake), sunset glow, victory of the city, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Hà Nội rực sáng niềm vui chiến thắng. Tinh thần của quân dân thủ đô đã chứng minh cho cả thế giới thấy rằng: Không vũ khí nào có thể khuất phục được lòng người.",
-      "image": "/images/history/hanoi-dien-bien-phu/3.png",
+      "image": "/images/history/lessons/anti-us-war/hanoi-dien-bien-phu/3.png",
       "imagePrompt": "People dancing and singing around One Pillar Pagoda, colorful banners, feeling of light and pride, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "12 ngày đêm khói lửa ấy mãi là một trang sử vàng, nhắc nhở chúng ta về sức mạnh của sự đoàn kết và lòng tự hào dân tộc.",
-      "image": "/images/history/hanoi-dien-bien-phu/4.png",
+      "image": "/images/history/lessons/anti-us-war/hanoi-dien-bien-phu/4.png",
       "imagePrompt": "A monument with a missile pointing up, children paying respect, bright blue sky, feeling of peace and history, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Loại máy bay hiện đại nào của Mỹ đã bị quân dân ta bắn rơi nhiều nhất trong 12 ngày đêm 1972?",
-      "options": ["Máy bay B-52", "Máy bay chuồn chuồn", "Máy bay tiêm kích"],
+      "options": [
+        "Máy bay B-52",
+        "Máy bay chuồn chuồn",
+        "Máy bay tiêm kích"
+      ],
       "answer": "Máy bay B-52"
     },
     {
       "type": "quiz",
       "question": "Vì sao thắng lợi năm 1972 lại được gọi là 'Điện Biên Phủ trên không'?",
-      "options": ["Vì trận chiến diễn ra ở tỉnh Điện Biên", "Vì nó có ý nghĩa vĩ đại như chiến thắng Điện Biên Phủ 1954", "Vì máy bay bay rất cao"],
+      "options": [
+        "Vì trận chiến diễn ra ở tỉnh Điện Biên",
+        "Vì nó có ý nghĩa vĩ đại như chiến thắng Điện Biên Phủ 1954",
+        "Vì máy bay bay rất cao"
+      ],
       "answer": "Vì nó có ý nghĩa vĩ đại như chiến thắng Điện Biên Phủ 1954"
     },
     {
       "type": "quiz",
       "question": "Người dân thủ đô đã làm gì khi nghe còi báo động máy bay Mỹ?",
-      "options": ["Nhanh chóng xuống hầm trú ẩn", "Đi xem pháo hoa", "Đi dạo trên phố"],
+      "options": [
+        "Nhanh chóng xuống hầm trú ẩn",
+        "Đi xem pháo hoa",
+        "Đi dạo trên phố"
+      ],
       "answer": "Nhanh chóng xuống hầm trú ẩn"
     }
   ]

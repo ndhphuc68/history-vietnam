@@ -24,6 +24,8 @@ export interface Era {
   title: string;
   /** List of levels belonging to this era */
   levels: Level[];
+  /** Whether this era is currently visible and accessible to students */
+  enabled?: boolean;
 }
 
 /**

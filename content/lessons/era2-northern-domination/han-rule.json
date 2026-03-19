@@ -3,48 +3,60 @@
   "title": "Nhà Hán cai trị",
   "period": "Bắc thuộc",
   "summary": "Sau khi đánh bại Âu Lạc, nhà Hán bắt đầu thời kỳ cai trị hà khắc, chia đất nước ta thành các quận huyện.",
-  "image": "/images/history/han-rule.png",
+  "image": "/images/history/thumbnails/northern-domination/han-rule.png",
   "slides": [
     {
       "type": "story",
       "text": "Năm 111 TCN, nhà Hán đem quân xâm lược Âu Lạc. Đất nước ta bị chia thành các quận: Giao Chỉ, Cửu Chân và Nhật Nam.",
-      "image": "/images/history/han-rule/0.png",
+      "image": "/images/history/lessons/northern-domination/han-rule/0.png",
       "imagePrompt": "Ancient map of Vietnam divided into Han districts (Giao Chi, Cuu Chan, Nhat Nam), Han officials and soldiers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Các viên quan đô hộ người Hán nắm giữ mọi quyền hành. Họ đặt ra hàng trăm thứ thuế nặng nề khiến dân ta khốn khổ.",
-      "image": "/images/history/han-rule/1.png",
+      "image": "/images/history/lessons/northern-domination/han-rule/1.png",
       "imagePrompt": "A stern Han official collecting taxes (rice, precious goods) from poor Vietnamese villagers, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chúng bắt dân ta phải dâng nộp những sản vật quý hiếm từ rừng sâu và biển cả như ngọc trai, ngà voi, sừng tê giác.",
-      "image": "/images/history/han-rule/2.png",
+      "image": "/images/history/lessons/northern-domination/han-rule/2.png",
       "imagePrompt": "Vietnamese people diving for pearls or hunting in dangerous forests to find products for invaders, risky and sad, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Sự cai trị tàn bạo của nhà Hán đã làm thổi bùng lên ngọn lửa căm thù và ý chí giành lại độc lập của nhân dân Việt Nam.",
-      "image": "/images/history/han-rule/3.png",
+      "image": "/images/history/lessons/northern-domination/han-rule/3.png",
       "imagePrompt": "Villagers gathering in secret, looking determined and angry, preparing for a long struggle, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Nhà Hán đã chia nước ta thành bao nhiêu quận chính?",
-      "options": ["3 quận", "5 quận", "12 quận"],
+      "options": [
+        "3 quận",
+        "5 quận",
+        "12 quận"
+      ],
       "answer": "3 quận"
     },
     {
       "type": "quiz",
       "question": "Mục tiêu chính của việc đặt ra nhiều thứ thuế là gì?",
-      "options": ["Để giúp dân giàu lên", "Để bóc lột sức lao động và tài nguyên", "Để xây dựng trường học"],
+      "options": [
+        "Để giúp dân giàu lên",
+        "Để bóc lột sức lao động và tài nguyên",
+        "Để xây dựng trường học"
+      ],
       "answer": "Để bóc lột sức lao động và tài nguyên"
     },
     {
       "type": "quiz",
       "question": "Sản vật nào sau đây bị quân đô hộ bắt dân ta dâng nộp?",
-      "options": ["Máy móc công nghiệp", "Ngà voi, ngọc trai", "Vàng và dầu mỏ"],
+      "options": [
+        "Máy móc công nghiệp",
+        "Ngà voi, ngọc trai",
+        "Vàng và dầu mỏ"
+      ],
       "answer": "Ngà voi, ngọc trai"
     }
   ]

@@ -3,42 +3,50 @@
   "title": "Thời kỳ Đổi mới",
   "period": "Hiện đại",
   "summary": "Năm 1986, Việt Nam bắt đầu thời kỳ Đổi mới, mở cửa giao lưu với thế giới, giúp đời sống nhân dân ngày càng ấm no và hạnh phúc.",
-  "image": "/images/history/doi-moi.png",
+  "image": "/images/history/thumbnails/unified-vietnam/doi-moi.png",
   "slides": [
     {
       "type": "story",
       "text": "Vào cuối những năm 1980, Việt Nam quyết định thay đổi cách làm kinh tế để đất nước phát triển nhanh hơn. Đó gọi là thời kỳ 'Đổi mới'.",
-      "image": "/images/history/doi-moi/0.png",
+      "image": "/images/history/lessons/unified-vietnam/doi-moi/0.png",
       "imagePrompt": "A giant gear or a door opening to a bright sunlit world, symbols of progress and change, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Chúng ta mở cửa để các nước trên thế giới đến đầu tư và hợp tác. Hàng hóa trở nên dồi dào, các cửa hàng và siêu thị sầm uất mọc lên khắp nơi.",
-      "image": "/images/history/doi-moi/1.png",
+      "image": "/images/history/lessons/unified-vietnam/doi-moi/1.png",
       "imagePrompt": "A modern city street with colorful shop signs, diverse people, busy but happy atmosphere, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Nhiều trường học, bệnh viện và những con đường cao tốc hiện đại được xây dựng. Cuộc sống của các gia đình Việt Nam ngày càng sung túc hơn.",
-      "image": "/images/history/doi-moi/2.png",
+      "image": "/images/history/lessons/unified-vietnam/doi-moi/2.png",
       "imagePrompt": "A modern school building with a large playground, happy students, a hospital with a green garden, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "story",
       "text": "Việt Nam dần khẳng định vị thế của mình trên trường quốc tế. Chúng ta đã trở thành một đất nước năng động và luôn tràn đầy sức sống.",
-      "image": "/images/history/doi-moi/3.png",
+      "image": "/images/history/lessons/unified-vietnam/doi-moi/3.png",
       "imagePrompt": "The Vietnamese flag alongside many international flags at a high palace, global cooperation, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
       "question": "Thời kỳ Đổi mới của Việt Nam bắt đầu từ năm nào?",
-      "options": ["Năm 1986", "Năm 1975", "Năm 2000"],
+      "options": [
+        "Năm 1986",
+        "Năm 1975",
+        "Năm 2000"
+      ],
       "answer": "Năm 1986"
     },
     {
       "type": "quiz",
       "question": "Ý nghĩa lớn nhất của thời kỳ Đổi mới là gì?",
-      "options": ["Làm đời sống nhân dân ấm no, đất nước phát triển", "Bắt mọi người phải đi bộ", "Để đóng cửa đất nước"],
+      "options": [
+        "Làm đời sống nhân dân ấm no, đất nước phát triển",
+        "Bắt mọi người phải đi bộ",
+        "Để đóng cửa đất nước"
+      ],
       "answer": "Làm đời sống nhân dân ấm no, đất nước phát triển"
     }
   ]
