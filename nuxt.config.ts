@@ -51,4 +51,9 @@ export default defineNuxtConfig({
     public: "public",
     assets: "assets",
   },
+  vite: {
+    optimizeDeps: {
+      include: ["canvas-confetti"],
+    },
+  },
 });

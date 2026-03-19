@@ -82,6 +82,7 @@
       "id": "resistance",
       "title": "Nhà Nguyễn & Kháng chiến chống Pháp",
       "levels": [
+        { "id": "nguyen-foundation", "title": "Nhà Nguyễn thành lập", "lesson": "nguyen-foundation", "year": "1802" },
         { "id": "gia-long", "title": "Vua Gia Long xây dựng đất nước", "lesson": "gia-long", "year": "1802" },
         { "id": "minh-mang", "title": "Vua Minh Mạng quyết đoán", "lesson": "minh-mang", "year": "1820" },
         { "id": "french-invasion", "title": "Pháp xâm lược Việt Nam", "lesson": "french-invasion", "year": "1858" },

@@ -42,8 +42,8 @@ const quizStore = useQuizStore();
 <style scoped>
 .quiz-pattern-bg {
   background-image:
-    radial-gradient(#ff6b6b 0.5px, transparent 0.5px),
-    radial-gradient(#4ecdc4 0.5px, transparent 0.5px);
+    radial-gradient(var(--primary) 0.5px, transparent 0.5px),
+    radial-gradient(var(--secondary) 0.5px, transparent 0.5px);
   background-size: 30px 30px;
   background-position:
     0 0,

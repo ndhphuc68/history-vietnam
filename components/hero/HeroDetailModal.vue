@@ -190,7 +190,7 @@ watch(
                   <div
                     class="w-10 h-10 bg-secondary rounded-xl flex items-center justify-center text-white shadow-lg"
                   >
-                    <Icon name="fluent-emoji:medal" class="text-2xl" />
+                    <Icon name="fluent-emoji:military-medal" class="text-2xl" />
                   </div>
                   <h3 class="text-xl font-black text-text">
                     Thành tựu rạng danh
@@ -229,7 +229,7 @@ watch(
   width: 6px;
 }
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  @apply bg-gray-100;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: var(--secondary);

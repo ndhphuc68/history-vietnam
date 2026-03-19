@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { useBadgeStore } from "~/stores/badgeStore";
+import { useMascotStore } from "~/stores/mascotStore";
 
 const badgeStore = useBadgeStore();
+const mascotStore = useMascotStore();
 const show = ref(false);
 const badge = ref<any>(null);
 
@@ -12,6 +14,9 @@ watch(
     if (newBadge) {
       badge.value = newBadge;
       show.value = true;
+
+      // Mascot congratulates
+      mascotStore.congratulate(newBadge.title);
 
       // Auto close after 5 seconds
       setTimeout(() => {
@@ -27,6 +32,26 @@ const close = () => {
   show.value = false;
   badgeStore.lastUnlockedBadge = null;
 };
+
+const getConfettiColor = () => {
+  const colors = [
+    "var(--text)",
+    "var(--primary)",
+    "var(--secondary)",
+    "var(--accent)",
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+};
+
+const getConfettiIcon = () => {
+  const icons = [
+    "fluent-emoji:star",
+    "fluent-emoji:party-popper",
+    "fluent-emoji:sparkles",
+    "fluent-emoji:balloon",
+  ];
+  return icons[Math.floor(Math.random() * icons.length)] as string;
+};
 </script>
 
 <template>
@@ -36,8 +61,7 @@ const close = () => {
         v-if="show && badge"
         class="fixed inset-0 z-[10000] flex items-center justify-center p-4 pointer-events-none"
       >
-        <!-- Backdrop (Optional, but let's keep it transparent for non-blocking if possible) -->
-        <!-- For a "WOW" effect, a light blur backdrop is better -->
+        <!-- Backdrop -->
         <div
           class="absolute inset-0 bg-white/10 backdrop-blur-sm pointer-events-auto"
           @click="close"
@@ -46,24 +70,22 @@ const close = () => {
         <div
           class="relative bg-white rounded-[40px] shadow-[0_30px_100px_rgba(0,0,0,0.2)] p-10 max-w-sm w-full text-center border-[8px] border-primary pointer-events-auto animate-bounce-in"
         >
-          <!-- Confetti Effect (Simple CSS and Icons) -->
+          <!-- Confetti Effect -->
           <div
             class="absolute inset-0 overflow-hidden rounded-[32px] pointer-events-none"
           >
             <div
-              v-for="i in 12"
+              v-for="i in 20"
               :key="i"
               class="absolute text-2xl animate-confetti"
               :style="{
                 left: Math.random() * 100 + '%',
-                top: '-20px',
-                animationDelay: Math.random() * 2 + 's',
-                color: ['#1A535C', '#F76C6C', '#4ECDC4', '#FFE66D'][
-                  Math.floor(Math.random() * 4)
-                ],
+                top: '-40px',
+                animationDelay: Math.random() * 3 + 's',
+                color: getConfettiColor(),
               }"
             >
-              <Icon name="fluent-emoji:star" />
+              <Icon :name="getConfettiIcon()" />
             </div>
           </div>
 

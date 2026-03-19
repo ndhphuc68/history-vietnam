@@ -30,6 +30,12 @@
       "imagePrompt": "Last American soldiers boarding a ship to go home, Vietnamese people standing on the shore, sunset, sense of victory, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "Niềm vui chiến thắng lan tỏa khắp muôn nơi, thắp lên hy vọng về một ngày không xa gia đình sẽ được đoàn tụ, đất nước sẽ được hòa bình.",
+      "image": "/images/history/paris-agreement/4.png",
+      "imagePrompt": "A dove flying over a peaceful Vietnamese village, blooming flowers, children laughing, children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
       "question": "Hiệp định Paris được ký kết vào năm nào?",
       "options": ["Năm 1973", "Năm 1954", "Năm 1945"],
@@ -40,6 +46,12 @@
       "question": "Sau Hiệp định Paris, quân Mỹ phải làm gì?",
       "options": ["Rút hết quân về nước", "Ở lại xây thêm nhà", "Đi mua sắm tại Việt Nam"],
       "answer": "Rút hết quân về nước"
+    },
+    {
+      "type": "quiz",
+      "question": "Ai là nữ nhà ngoại giao nổi tiếng của ta tại Hội nghị Paris?",
+      "options": ["Bà Nguyễn Thị Bình", "Bà Trưng Trắc", "Bà Triệu Thị Trinh"],
+      "answer": "Bà Nguyễn Thị Bình"
     }
   ]
 }

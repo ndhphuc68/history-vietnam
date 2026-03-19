@@ -13,6 +13,22 @@ export const useQuizStore = defineStore("quiz", () => {
   const currentLives = ref(3);
   const isGameOver = ref(false);
 
+  const initialize = () => {
+    if (typeof window !== "undefined") {
+      const savedScores = localStorage.getItem("quiz-scores");
+      if (savedScores) quizScores.value = JSON.parse(savedScores);
+      const savedMastery = localStorage.getItem("mastered-quizzes");
+      if (savedMastery) masteredQuizzes.value = JSON.parse(savedMastery);
+    }
+  };
+
+  const saveToStorage = () => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("quiz-scores", JSON.stringify(quizScores.value));
+      localStorage.setItem("mastered-quizzes", JSON.stringify(masteredQuizzes.value));
+    }
+  };
+
   const setScore = (id: string, score: number, total: number) => {
     const percent = Math.round((score / total) * 100);
     
@@ -25,6 +41,7 @@ export const useQuizStore = defineStore("quiz", () => {
     if (percent === 100 && !masteredQuizzes.value.includes(id)) {
       masteredQuizzes.value.push(id);
     }
+    saveToStorage();
   };
 
   const resetQuizSession = () => {
@@ -48,6 +65,7 @@ export const useQuizStore = defineStore("quiz", () => {
     masteredQuizzes,
     currentLives,
     isGameOver,
+    initialize,
     setScore,
     resetQuizSession,
     loseLife,

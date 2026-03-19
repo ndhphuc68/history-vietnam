@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dong-son-drum",
+    "lessonId": "dong-son-drum",
+    "title": "Trống đồng Đông Sơn",
+    "description": "Biểu tượng văn hóa tinh xảo của người Lạc Việt xưa.",
+    "icon": "fluent-emoji:radio-button",
+    "rarity": "epic"
+  },
+  {
+    "id": "magic-crossbow",
+    "lessonId": "magic-crossbow",
+    "title": "Nỏ thần Kim Quy",
+    "description": "Vũ khí kỳ diệu giúp An Dương Vương bảo vệ thành Cổ Loa.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "legendary"
+  },
+  {
+    "id": "magic-sword",
+    "lessonId": "lam-son-uprising",
+    "title": "Gươm thần Thuận Thiên",
+    "description": "Thanh gươm giúp vua Lê Lợi đánh đuổi quân Minh xâm lược.",
+    "icon": "fluent-emoji:dagger",
+    "rarity": "legendary"
+  },
+  {
+    "id": "tank-390",
+    "lessonId": "ho-chi-minh-campaign",
+    "title": "Xe tăng 390",
+    "description": "Chiếc xe tăng húc đổ cổng Dinh Độc Lập ngày 30/4/1975.",
+    "icon": "fluent-emoji:tank",
+    "rarity": "epic"
+  },
+  {
+    "id": "peach-blossom",
+    "lessonId": "ngoc-hoi-dong-da",
+    "title": "Cành đào báo tiệp",
+    "description": "Món quà phương xa Quang Trung gửi về cho Ngọc Hân sau chiến thắng.",
+    "icon": "fluent-emoji:cherry-blossom",
+    "rarity": "rare"
+  },
+  {
+    "id": "stake-trap",
+    "lessonId": "bach-dang-938",
+    "title": "Cọc gỗ Bạch Đằng",
+    "description": "Mưu kế lừng lẫy của Ngô Quyền trên sông Bạch Đằng.",
+    "icon": "fluent-emoji:wood",
+    "rarity": "rare"
+  }
+]

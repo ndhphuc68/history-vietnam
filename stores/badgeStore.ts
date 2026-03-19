@@ -1,6 +1,9 @@
 import { defineStore } from 'pinia';
 import badgeData from '~/content/badges.json';
 import { useQuizStore } from '~/stores/quizStore';
+import { useProgressStore } from '~/stores/progressStore';
+import { useHeroStore } from '~/stores/heroStore';
+import historyMapData from '~/content/history-map.json';
 
 export interface Badge {
   id: string;
@@ -18,6 +21,8 @@ export const useBadgeStore = defineStore('badge', () => {
   const earnedBadgeIds = ref<string[]>([]);
   const allBadges = ref<Badge[]>(badgeData as Badge[]);
   const lastUnlockedBadge = ref<Badge | null>(null);
+  const perfectQuizStreak = ref(0);
+  const viewedGlossaryCount = ref(0);
 
   const initialize = () => {
     if (typeof window !== 'undefined') {
@@ -25,13 +30,43 @@ export const useBadgeStore = defineStore('badge', () => {
       if (saved) {
         earnedBadgeIds.value = JSON.parse(saved);
       }
+      const streak = localStorage.getItem('quiz-streak');
+      if (streak) perfectQuizStreak.value = parseInt(streak);
+      const views = localStorage.getItem('glossary-views');
+      if (views) viewedGlossaryCount.value = parseInt(views);
     }
   };
 
   const saveToStorage = () => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('earned-badges', JSON.stringify(earnedBadgeIds.value));
+      localStorage.setItem('quiz-streak', perfectQuizStreak.value.toString());
+      localStorage.setItem('glossary-views', viewedGlossaryCount.value.toString());
     }
+  };
+
+  const trackGlossaryView = () => {
+    viewedGlossaryCount.value++;
+    saveToStorage();
+    
+    // Auto check badges
+    const progressStore = useProgressStore();
+    const heroStore = useHeroStore();
+    checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData);
+  };
+
+  const trackQuizResult = (isPerfect: boolean) => {
+    if (isPerfect) {
+      perfectQuizStreak.value++;
+    } else {
+      perfectQuizStreak.value = 0;
+    }
+    saveToStorage();
+
+    // Auto check badges
+    const progressStore = useProgressStore();
+    const heroStore = useHeroStore();
+    checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData);
   };
 
   const checkNewBadges = (completedLessons: string[], unlockedHeroes: string[], historyMap: any) => {
@@ -50,14 +85,26 @@ export const useBadgeStore = defineStore('badge', () => {
         isEligible = completedLessons.includes(value as string);
       } else if (type === 'hero-count') {
         isEligible = unlockedHeroes.length >= (value as number);
-      } else if (type === 'era') {
+      } else if (type === "era") {
         // Find the era in the map
         const era = historyMap.eras.find((e: any) => e.id === value);
         if (era && era.levels) {
-          isEligible = era.levels.every((level: any) => completedLessons.includes(level.lesson));
+          isEligible = era.levels.every((level: any) =>
+            completedLessons.includes(level.lesson),
+          );
         }
-      } else if (type === 'mastery') {
-        isEligible = quizStore.isMastered(`mastery-${value}`);
+      } else if (type === "mastery") {
+        // Mastery check: all lessons in the era must be 100% (in quizStore.masteredQuizzes)
+        const era = historyMap.eras.find((e: any) => e.id === value);
+        if (era && era.levels) {
+          isEligible = era.levels.every((level: any) =>
+            quizStore.masteredQuizzes.includes(level.lesson),
+          );
+        }
+      } else if (type === "perfect_quiz_streak") {
+        isEligible = perfectQuizStreak.value >= (value as number);
+      } else if (type === "glossary_view_count") {
+        isEligible = viewedGlossaryCount.value >= (value as number);
       }
 
       if (isEligible) {
@@ -78,7 +125,11 @@ export const useBadgeStore = defineStore('badge', () => {
     earnedBadgeIds,
     allBadges,
     lastUnlockedBadge,
+    perfectQuizStreak,
+    viewedGlossaryCount,
     initialize,
-    checkNewBadges
+    checkNewBadges,
+    trackGlossaryView,
+    trackQuizResult
   };
 });

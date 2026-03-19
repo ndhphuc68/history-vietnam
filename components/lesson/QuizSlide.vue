@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import { useGlossary } from "~/composables/useGlossary";
+import { useMascotStore } from "~/stores/mascotStore";
 import type { QuizSlideProps } from "~/types/props/lesson";
-/**
- * Component to display a quiz slide for children.
- */
+
 const props = withDefaults(
   defineProps<QuizSlideProps & { showRetry?: boolean }>(),
   {
@@ -15,6 +15,7 @@ const props = withDefaults(
 );
 
 const emit = defineEmits(["answered", "next", "prev"]);
+const mascotStore = useMascotStore();
 
 const selectedOption = ref<string | null>(null);
 const isCorrect = ref<boolean | null>(null);
@@ -25,8 +26,53 @@ const checkAnswer = (option: string) => {
   selectedOption.value = option;
   isCorrect.value = option === props.answer;
 
+  if (isCorrect.value) {
+    mascotStore.say("Cực kỳ chính xác! Bạn giỏi quá!", "happy", 4000);
+  } else {
+    mascotStore.say(
+      "Ôi, chưa đúng rồi. Bạn hãy suy nghĩ thêm một chút nhé!",
+      "thinking",
+      5000,
+    );
+  }
+
   emit("answered", isCorrect.value);
 };
+
+const { glossary } = useGlossary();
+
+/**
+ * Breaks the question into segments of plain text and glossary terms.
+ */
+const parsedSegments = computed(() => {
+  if (!props.question) return [];
+
+  const sortedTerms = [...glossary.value].sort(
+    (a, b) => b.term.length - a.term.length,
+  );
+
+  if (sortedTerms.length === 0)
+    return [{ type: "text", content: props.question }];
+
+  const pattern = sortedTerms.map((t) => t.term).join("|");
+  const regex = new RegExp(`(${pattern})`, "gi");
+
+  const parts = props.question.split(regex);
+  return parts
+    .map((part) => {
+      if (!part) return null;
+      const termMatch = sortedTerms.find(
+        (t) => t.term.toLowerCase() === part.toLowerCase(),
+      );
+      if (termMatch) {
+        return { type: "term", content: part, id: termMatch.id };
+      }
+      return { type: "text", content: part };
+    })
+    .filter(
+      (p): p is { type: string; content: string; id?: string } => p !== null,
+    );
+});
 </script>
 
 <template>
@@ -48,7 +94,14 @@ const checkAnswer = (option: string) => {
         <h2
           class="text-2xl md:text-3xl lg:text-4xl font-black text-text leading-tight px-2"
         >
-          {{ question }}
+          <template v-for="(segment, idx) in parsedSegments" :key="idx">
+            <UiGlossaryTerm
+              v-if="segment.type === 'term'"
+              :term="segment.content"
+              :id="segment.id"
+            />
+            <span v-else>{{ segment.content }}</span>
+          </template>
         </h2>
       </div>
 

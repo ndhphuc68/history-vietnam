@@ -2,10 +2,15 @@
 import { useHeroStore } from "~/stores/heroStore";
 import { useProgressStore } from "~/stores/progressStore";
 import { useBadgeStore } from "~/stores/badgeStore";
+import { useArtifactStore } from "~/stores/artifactStore";
+import { useQuizStore } from "~/stores/quizStore";
 
+const route = useRoute();
 const heroStore = useHeroStore();
 const progressStore = useProgressStore();
 const badgeStore = useBadgeStore();
+const artifactStore = useArtifactStore();
+const quizStore = useQuizStore();
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
@@ -13,7 +18,6 @@ const toggleMenu = () => {
 };
 
 // Close menu when route changes
-const route = useRoute();
 watch(
   () => route.path,
   () => {
@@ -25,6 +29,8 @@ onMounted(() => {
   heroStore.initialize();
   progressStore.initialize();
   badgeStore.initialize();
+  artifactStore.initialize();
+  quizStore.initialize();
 });
 </script>
 
@@ -48,10 +54,10 @@ onMounted(() => {
           </span>
         </NuxtLink>
 
-        <div class="hidden md:flex items-center space-x-8">
+        <div class="hidden md:flex items-center space-x-6">
           <NuxtLink
             to="/"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             exact-active-class="text-primary"
           >
             Trang chủ
@@ -61,7 +67,7 @@ onMounted(() => {
           </NuxtLink>
           <NuxtLink
             to="/lesson"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
           >
             Bài học
@@ -71,7 +77,7 @@ onMounted(() => {
           </NuxtLink>
           <NuxtLink
             to="/gallery"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
           >
             Anh hùng
@@ -81,7 +87,7 @@ onMounted(() => {
           </NuxtLink>
           <NuxtLink
             to="/badges"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
           >
             Huy hiệu
@@ -91,7 +97,7 @@ onMounted(() => {
           </NuxtLink>
           <NuxtLink
             to="/quiz"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
           >
             Đố vui
@@ -100,11 +106,11 @@ onMounted(() => {
             ></span>
           </NuxtLink>
           <NuxtLink
-            to="/about"
-            class="relative text-lg font-bold text-text hover:text-primary transition-all group"
+            to="/glossary"
+            class="relative text-base lg:text-lg font-bold text-text hover:text-primary transition-all group"
             active-class="text-primary"
           >
-            Về chúng mình
+            Từ điển
             <span
               class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-[.router-link-active]:opacity-100 transition-all duration-300 transform group-[.router-link-active]:scale-110"
             ></span>
@@ -185,11 +191,11 @@ onMounted(() => {
               Đố vui
             </NuxtLink>
             <NuxtLink
-              to="/about"
+              to="/glossary"
               class="block text-lg font-bold text-text hover:text-primary p-2 rounded-lg"
               active-class="bg-primary/5 text-primary"
             >
-              Về chúng mình
+              Từ điển
             </NuxtLink>
           </div>
         </div>
@@ -203,7 +209,8 @@ onMounted(() => {
 
     <!-- Global UI Components -->
     <UiBadgeUnlockModal />
-
+    <UiArtifactUnlockModal />
+    <UiMascot />
     <!-- Footer -->
     <footer class="bg-text text-white pt-20 pb-10 relative overflow-hidden">
       <!-- Decoration -->
@@ -265,8 +272,8 @@ onMounted(() => {
                   to="/badges"
                   class="hover:text-primary transition-colors flex items-center"
                 >
-                  <Icon name="fluent-emoji:medal" class="mr-2" /> Huy hiệu Dũng
-                  sĩ
+                  <Icon name="fluent-emoji:military-medal" class="mr-2" /> Huy
+                  hiệu Dũng sĩ
                 </NuxtLink>
               </li>
               <li>
@@ -284,6 +291,14 @@ onMounted(() => {
                   class="hover:text-primary transition-colors flex items-center"
                   ><Icon name="fluent-emoji:seedling" class="mr-2" /> Về chúng
                   mình</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/glossary"
+                  class="hover:text-primary transition-colors flex items-center"
+                  ><Icon name="fluent-emoji:books" class="mr-2" /> Từ điển Tình
+                  Việt</NuxtLink
                 >
               </li>
             </ul>

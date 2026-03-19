@@ -30,6 +30,12 @@
       "imagePrompt": "A large map of Vietnam with a glowing golden path from North to South along the mountains, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "Ngày nay, con đường ấy đã trở thành một xa lộ hiện đại, nối liền các vùng miền và nhắc nhở chúng ta về một thời oanh liệt của cha ông.",
+      "image": "/images/history/ho-chi-minh-trail/4.png",
+      "imagePrompt": "A modern highway winding through green mountains, a tourist bus, sunset, peace and development, children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
       "question": "Đường mòn Hồ Chí Minh nằm dọc theo dãy núi nào?",
       "options": ["Dãy Hoàng Liên Sơn", "Dãy Trường Sơn", "Dãy Himalaya"],
@@ -40,6 +46,12 @@
       "question": "Những ai đã góp công lớn trong việc giữ gìn và thông suốt con đường này?",
       "options": ["Bộ đội và thanh niên xung phong", "Khách du lịch", "Thợ mỏ"],
       "answer": "Bộ đội và thanh niên xung phong"
+    },
+    {
+      "type": "quiz",
+      "question": "Con đường này còn được gọi là gì để thể hiện tầm quan trọng của nó?",
+      "options": ["Mạch máu giao thông", "Con dốc cao", "Khu rừng rậm"],
+      "answer": "Mạch máu giao thông"
     }
   ]
 }

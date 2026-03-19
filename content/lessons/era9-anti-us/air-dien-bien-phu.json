@@ -30,6 +30,12 @@
       "imagePrompt": "People dancing and singing around One Pillar Pagoda, colorful banners, feeling of light and pride, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "12 ngày đêm khói lửa ấy mãi là một trang sử vàng, nhắc nhở chúng ta về sức mạnh của sự đoàn kết và lòng tự hào dân tộc.",
+      "image": "/images/history/hanoi-dien-bien-phu/4.png",
+      "imagePrompt": "A monument with a missile pointing up, children paying respect, bright blue sky, feeling of peace and history, children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
       "question": "Loại máy bay hiện đại nào của Mỹ đã bị quân dân ta bắn rơi nhiều nhất trong 12 ngày đêm 1972?",
       "options": ["Máy bay B-52", "Máy bay chuồn chuồn", "Máy bay tiêm kích"],
@@ -40,6 +46,12 @@
       "question": "Vì sao thắng lợi năm 1972 lại được gọi là 'Điện Biên Phủ trên không'?",
       "options": ["Vì trận chiến diễn ra ở tỉnh Điện Biên", "Vì nó có ý nghĩa vĩ đại như chiến thắng Điện Biên Phủ 1954", "Vì máy bay bay rất cao"],
       "answer": "Vì nó có ý nghĩa vĩ đại như chiến thắng Điện Biên Phủ 1954"
+    },
+    {
+      "type": "quiz",
+      "question": "Người dân thủ đô đã làm gì khi nghe còi báo động máy bay Mỹ?",
+      "options": ["Nhanh chóng xuống hầm trú ẩn", "Đi xem pháo hoa", "Đi dạo trên phố"],
+      "answer": "Nhanh chóng xuống hầm trú ẩn"
     }
   ]
 }

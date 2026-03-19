@@ -83,7 +83,7 @@
     "position": "Vua sáng lập nhà Ngô",
     "title": "Tiền Ngô Vương",
     "era": "Tự chủ",
-    "image": "/images/history/ngo-quyen-bach-dang.png",
+    "image": "/images/history/ngo-quyen.png",
     "description": "Vị tướng tài ba với trận địa cọc gỗ chấn động trên sông Bạch Đằng, chấm dứt hoàn toàn 1000 năm Bắc thuộc.",
     "achievements": ["Đại thắng quân Nam Hán 938", "Mở ra thời kỳ độc lập tự chủ lâu dài"],
     "funFact": "Ngô Quyền là người đầu tiên bãi bỏ chức quan của giặc và xưng Vương, lập lại nền độc lập cho nước nhà!"
@@ -126,7 +126,7 @@
     "position": "Hoàng đế sáng lập nhà Lý",
     "title": "Người dời đô về Thăng Long",
     "era": "Xây dựng",
-    "image": "/images/history/ly-cong-uan.png",
+    "image": "/images/history/ly-thai-to.png",
     "description": "Vị vua nhân từ đã thực hiện cuộc dời đô lịch sử từ Hoa Lư về Thăng Long, mở ra thời kỳ hưng thịnh mới.",
     "achievements": ["Dời đô về Thăng Long 1010", "Sáng lập nhà Lý hùng mạnh"]
   },
@@ -154,7 +154,7 @@
     "position": "Quốc công Tiết chế (Tổng tư lệnh)",
     "title": "Hưng Đạo Đại Vương",
     "era": "Xây dựng",
-    "image": "/images/history/bach-dang-1288.png",
+    "image": "/images/history/tran-hung-dao.png",
     "description": "Vị thiên tài quân sự kiệt xuất, người chỉ huy nhân dân nhà Trần 3 lần đánh thắng quân Nguyên Mông hùng mạnh.",
     "achievements": ["Đại thắng quân Nguyên Mông", "Viết Hịch tướng sĩ khích lệ quân tâm"]
   },
@@ -168,7 +168,7 @@
     "position": "Hoàng đế sáng lập nhà Hậu Lê",
     "title": "Lê Thái Tổ",
     "era": "Phục hưng",
-    "image": "/images/history/lam-son-uprising.png",
+    "image": "/images/history/le-loi.png",
     "description": "Người lãnh đạo cuộc khởi nghĩa Lam Sơn gian khổ ròng rã 10 năm để quét sạch quân Minh xâm lược.",
     "achievements": ["Đánh đuổi quân Minh", "Sáng lập nhà Hậu Lê (Lê Sơ)"]
   },
@@ -196,7 +196,7 @@
     "position": "Hoàng đế nhà Tây Sơn",
     "title": "Người anh hùng áo vải",
     "era": "Phục hưng",
-    "image": "/images/history/ngoc-hoi-dong-da.png",
+    "image": "/images/history/quang-trung.png",
     "description": "Vị vua thiên tài quân sự hành quân thần tốc đánh tan 29 vạn quân Thanh chỉ trong những ngày Tết ngắn ngủi.",
     "achievements": ["Đại thắng Ngọc Hồi - Đống Đa", "Đánh tan quân Xiêm tại Rạch Gầm - Xoài Mút"]
   },

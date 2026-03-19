@@ -138,7 +138,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
           <!-- Quote 1 -->
           <div
-            class="bg-[#FDF6E3] p-8 rounded-[30px] border-l-8 border-primary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-orange-50/50 p-8 rounded-[30px] border-l-8 border-primary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p class="text-xl font-bold text-text leading-relaxed italic">
@@ -149,7 +149,7 @@
 
           <!-- Quote 2 -->
           <div
-            class="bg-[#E0F2F1] p-8 rounded-[30px] border-l-8 border-secondary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-teal-50 p-8 rounded-[30px] border-l-8 border-secondary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p class="text-xl font-bold text-text leading-relaxed italic">
@@ -160,7 +160,7 @@
 
           <!-- Quote 3 -->
           <div
-            class="bg-[#FFFDE7] p-8 rounded-[30px] border-l-8 border-accent shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-yellow-50 p-8 rounded-[30px] border-l-8 border-accent shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p class="text-xl font-bold text-text leading-relaxed italic">
@@ -171,7 +171,7 @@
 
           <!-- Quote 4 -->
           <div
-            class="bg-[#FCE4EC] p-8 rounded-[30px] border-l-8 border-[#E91E63] shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-pink-50 p-8 rounded-[30px] border-l-8 border-pink-500 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p class="text-xl font-bold text-text leading-relaxed italic">

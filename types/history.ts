@@ -135,3 +135,17 @@ export interface QuizState {
   /** List of lessonIds where the user got 100% */
   masteredQuizzes: string[];
 }
+
+/**
+ * Interface for historical terms and their definitions.
+ */
+export interface GlossaryItem {
+  /** Unique identifier for the term (e.g., "lac-hau") */
+  id: string;
+  /** The term to be defined (e.g., "Lạc hầu") */
+  term: string;
+  /** Child-friendly definition of the term */
+  definition: string;
+  /** Optional category for filtering */
+  category?: "Chức danh" | "Sự vật" | "Khái niệm" | "Địa danh" | "Thời kỳ";
+}

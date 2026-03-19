@@ -53,13 +53,17 @@ useHead({
 
 <style scoped>
 .min-h-screen {
-  background: linear-gradient(180deg, var(--background) 0%, #edf7ed 100%);
+  background: linear-gradient(
+    180deg,
+    var(--background) 0%,
+    theme("colors.green.50") 100%
+  );
 }
 
 .map-grid-pattern {
   background-image:
-    linear-gradient(to right, rgba(26, 83, 92, 0.12) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(26, 83, 92, 0.12) 1px, transparent 1px);
+    linear-gradient(to right, var(--text-muted) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--text-muted) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 </style>

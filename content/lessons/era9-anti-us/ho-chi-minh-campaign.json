@@ -1,6 +1,6 @@
 {
-  "id": "spring-offensive-1975",
-  "title": "Đại thắng mùa Xuân 1975",
+  "id": "ho-chi-minh-campaign",
+  "title": "Chiến dịch Hồ Chí Minh 1975",
   "period": "Chống Mỹ",
   "summary": "Chiến dịch Hồ Chí Minh lịch sử đã kết thúc hoàn toàn cuộc kháng chiến chống Mỹ, thống nhất hai miền Nam - Bắc về một mối.",
   "image": "/images/history/spring-offensive-1975.png",
@@ -30,6 +30,12 @@
       "imagePrompt": "People from the North and South embracing, children holding flowers, a unified map of Vietnam in the back, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "Ngày 30/4 mãi là ngày vui của toàn dân tộc, nhắc nhở chúng ta về giá trị của Độc lập và Tự do mà ông cha đã phải đánh đổi bằng biết bao xương máu.",
+      "image": "/images/history/spring-offensive-1975/4.png",
+      "imagePrompt": "Vietnamese flag waving high, children of different ethnic groups singing together, rainbow, children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
       "question": "Ngày giải phóng hoàn toàn miền Nam là ngày nào?",
       "options": ["Ngày 30 tháng 4 năm 1975", "Ngày 2 tháng 9", "Ngày 19 tháng 5"],
@@ -40,6 +46,12 @@
       "question": "Chiếc xe tăng húc đổ cổng Dinh Độc Lập mang số hiệu bao nhiêu?",
       "options": ["Số hiệu 390", "Số hiệu 843", "Số hiệu 123"],
       "answer": "Số hiệu 390"
+    },
+    {
+      "type": "quiz",
+      "question": "Tên gọi cuối cùng của chiến dịch giải phóng Sài Gòn là gì?",
+      "options": ["Chiến dịch Hồ Chí Minh", "Chiến dịch Tây Nguyên", "Chiến dịch Huế - Đà Nẵng"],
+      "answer": "Chiến dịch Hồ Chí Minh"
     }
   ]
 }

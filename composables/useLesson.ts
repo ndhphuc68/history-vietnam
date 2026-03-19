@@ -1,11 +1,14 @@
 import type { Hero, LessonContent, Slide } from "~/types/history";
 import { useProgressStore } from "~/stores/progressStore";
 import { useHeroStore } from "~/stores/heroStore";
+import { useBadgeStore } from "~/stores/badgeStore";
+import { useQuizStore } from "~/stores/quizStore";
 import heroesData from "~/content/heroes.json";
 
 export const useLesson = (lessonId: string) => {
   const progressStore = useProgressStore();
   const heroStore = useHeroStore();
+  const quizStore = useQuizStore();
   const router = useRouter();
 
   const lessonData = ref<LessonContent | null>(null);
@@ -15,6 +18,9 @@ export const useLesson = (lessonId: string) => {
   const transitionName = ref("slide-next");
   const unlockedHero = ref<Hero | null>(null);
   const showUnlockPopup = ref(false);
+  const quizErrors = ref(0);
+
+  const badgeStore = useBadgeStore();
 
   // Lesson files mapping
   const lessonFiles = import.meta.glob("~/content/lessons/**/*.json");
@@ -54,25 +60,33 @@ export const useLesson = (lessonId: string) => {
     currentSlideIndex.value = 0;
   };
 
-  const nextSlide = () => {
+  const nextSlide = async () => {
     if (!lessonData.value) return;
-
+    
     if (currentSlideIndex.value < lessonData.value.slides.length - 1) {
       transitionName.value = "slide-next";
       currentSlideIndex.value++;
       quizSuccess.value = false;
     } else {
-      finishProgress();
+      await finishProgress();
     }
   };
 
-  const finishProgress = () => {
+  const finishProgress = async () => {
     isLessonFinished.value = true;
     progressStore.completeLesson(lessonId);
 
+    // Record quiz score in quizStore
+    // Assume 1 quiz per lesson for now. Total = 1, Score = 1 if quizErrors === 0
+    const finalScore = quizErrors.value === 0 ? 1 : 0;
+    quizStore.setScore(lessonId, finalScore, 1);
+
+    // Track perfect quiz result for badges
+    badgeStore.trackQuizResult(quizErrors.value === 0);
+
     if (lessonData.value?.heroId) {
       const heroId = lessonData.value.heroId;
-      const isNewUnlock = heroStore.unlockHero(heroId);
+      const isNewUnlock = await heroStore.unlockHero(heroId);
       if (isNewUnlock) {
         const heroes = heroesData as Hero[];
         unlockedHero.value = heroes.find((h) => h.id === heroId) ?? null;
@@ -93,7 +107,11 @@ export const useLesson = (lessonId: string) => {
   };
 
   const handleQuizAnswer = (correct: boolean) => {
-    if (correct) quizSuccess.value = true;
+    if (correct) {
+      quizSuccess.value = true;
+    } else {
+      quizErrors.value++;
+    }
   };
 
   const getImagePath = (index: number) => {

@@ -30,8 +30,14 @@
       "imagePrompt": "A large flame rising from a coconut grove, symbolic sparks flying across a map of Southern Vietnam, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "Phong trào này đã thành lập nên Mặt trận Dân tộc Giải phóng miền Nam Việt Nam, đánh dấu một bước tiến mới trong cuộc đấu tranh giành độc lập.",
+      "image": "/images/history/dong-khoi-movement/4.png",
+      "imagePrompt": "A group of people from different backgrounds (farmers, students, workers) standing under a new flag (red/blue with yellow star), children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
-      "question": "Phong trào Đồng khởi bắt đầu sổi nổi nhất ở tỉnh nào?",
+      "question": "Phong trào Đồng khởi bắt đầu sôi nổi nhất ở tỉnh nào?",
       "options": ["Bến Tre", "Hà Nội", "Huế"],
       "answer": "Bến Tre"
     },
@@ -40,6 +46,12 @@
       "question": "Tổ chức yêu nước độc đáo nào đã xuất hiện trong phong trào Đồng khởi?",
       "options": ["Đội quân tóc dài", "Đội kỵ binh", "Đội thợ mỏ"],
       "answer": "Đội quân tóc dài"
+    },
+    {
+      "type": "quiz",
+      "question": "Kết quả lớn nhất của phong trào Đồng khởi là gì?",
+      "options": ["Giành lại ruộng vườn cho nhân dân", "Mua thêm vũ khí mới", "Tổ chức các lễ hội lớn"],
+      "answer": "Giành lại ruộng vườn cho nhân dân"
     }
   ]
 }

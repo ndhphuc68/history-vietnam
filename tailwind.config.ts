@@ -19,6 +19,11 @@ export default {
         background: "var(--background)",
         text: "var(--text)",
       },
+      fontFamily: {
+        heading: ["Be Vietnam Pro", "Fredoka", "sans-serif"],
+        body: ["Be Vietnam Pro", "Quicksand", "sans-serif"],
+        vietnam: ["Be Vietnam Pro", "sans-serif"],
+      },
     },
   },
   plugins: [],

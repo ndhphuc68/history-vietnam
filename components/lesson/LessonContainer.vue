@@ -27,7 +27,7 @@ defineProps<LessonContainerProps>();
         class="h-4 bg-gray-100 rounded-full overflow-hidden border-2 border-white shadow-sm"
       >
         <div
-          class="h-full bg-gradient-to-r from-primary to-[#FF8E8E] transition-all duration-700 ease-out"
+          class="h-full bg-gradient-to-r from-primary to-primary/60 transition-all duration-700 ease-out"
           :style="{ width: `${progress}%` }"
         ></div>
       </div>
@@ -48,7 +48,6 @@ defineProps<LessonContainerProps>();
   background: transparent;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #e2e8f0;
-  border-radius: 10px;
+  @apply bg-slate-200 rounded-full;
 }
 </style>

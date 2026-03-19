@@ -246,5 +246,85 @@
     "icon": "fluent-emoji:classical-building",
     "rarity": "legendary",
     "requirement": { "type": "mastery", "value": "building" }
+  },
+  {
+    "id": "lac-hong-wisdom",
+    "title": "Trí tuệ Lạc Hồng",
+    "description": "Bé thật thông minh khi trả lời đúng hết tất cả câu hỏi Quiz 3 lần liên tiếp!",
+    "icon": "fluent-emoji:brain",
+    "rarity": "epic",
+    "requirement": { "type": "perfect_quiz_streak", "value": 3 }
+  },
+  {
+    "id": "glossary-explorer",
+    "title": "Người bạn của Từ điển",
+    "description": "Bé rất chăm chỉ tra cứu những từ ngữ cổ xưa để hiểu thêm về lịch sử.",
+    "icon": "fluent-emoji:books",
+    "rarity": "rare",
+    "requirement": { "type": "glossary_view_count", "value": 5 }
+  },
+  {
+    "id": "heritage-collector",
+    "title": "Nhà sưu tầm di sản",
+    "description": "Bé đã hoàn thành 10 bài học lịch sử khác nhau.",
+    "icon": "fluent-emoji:scroll",
+    "rarity": "rare",
+    "requirement": { "type": "count", "value": 10 }
+  },
+  {
+    "id": "mastery-autonomy",
+    "title": "Bậc thầy Tự chủ",
+    "description": "Làm chủ mọi kiến thức về thời kỳ giành quyền tự chủ họ Khúc, họ Dương và Ngô Quyền.",
+    "icon": "fluent-emoji:victory-hand",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "autonomy" }
+  },
+  {
+    "id": "mastery-independence-restored",
+    "title": "Bậc thầy Hưng thịnh",
+    "description": "Chinh phục toàn bộ kiến thức về thời Lê sơ và Tây Sơn hùng mạnh.",
+    "icon": "fluent-emoji:sun",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "independence-restored" }
+  },
+  {
+    "id": "mastery-resistance",
+    "title": "Bậc thầy Kháng Pháp",
+    "description": "Hiểu rõ về cuộc đấu tranh kiên cường của nhân dân ta thời Nguyễn và chống Pháp.",
+    "icon": "fluent-emoji:fire",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "resistance" }
+  },
+  {
+    "id": "mastery-patriotic-movements",
+    "title": "Bậc thầy Yêu nước",
+    "description": "Nắm vững các phong trào yêu nước đầu thế kỷ XX và hành trình của Bác Hồ.",
+    "icon": "fluent-emoji:compass",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "patriotic-movements" }
+  },
+  {
+    "id": "mastery-ho-chi-minh-era",
+    "title": "Bậc thầy Độc lập",
+    "description": "Làm chủ kiến thức về Cách mạng tháng Tám và cuộc kháng chiến chống Pháp trường kỳ.",
+    "icon": "fluent-emoji:flag-vietnam",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "ho-chi-minh-era" }
+  },
+  {
+    "id": "mastery-anti-us-war",
+    "title": "Bậc thầy Thống nhất",
+    "description": "Chinh phục toàn bộ thử thách về cuộc kháng chiến chống Mỹ cứu nước.",
+    "icon": "fluent-emoji:peace-symbol",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "anti-us-war" }
+  },
+  {
+    "id": "mastery-unified-vietnam",
+    "title": "Bậc thầy Đổi mới",
+    "description": "Làm chủ kiến thức về Việt Nam thời kỳ thống nhất và phát triển hiện đại.",
+    "icon": "fluent-emoji:rocket",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "unified-vietnam" }
   }
 ]

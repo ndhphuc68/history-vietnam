@@ -36,13 +36,19 @@ export const useProgressStore = defineStore('progress', () => {
       completedLessons.value.push(lessonId);
       saveToStorage();
 
-      // Trigger badge check
+      // Trigger badge and artifact check
       const { useBadgeStore } = await import('./badgeStore');
       const { useHeroStore } = await import('./heroStore');
+      const { useArtifactStore } = await import('./artifactStore');
+      
       const badgeStore = useBadgeStore();
       const heroStore = useHeroStore();
+      const artifactStore = useArtifactStore();
+      
       const historyMap = await import('~/content/history-map.json');
+      
       badgeStore.checkNewBadges(completedLessons.value, heroStore.unlockedHeroIds, historyMap.default);
+      artifactStore.checkArtifactUnlock(lessonId);
     }
   };
 

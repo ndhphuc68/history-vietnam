@@ -25,9 +25,15 @@
     },
     {
       "type": "story",
-      "text": "Dù kẻ thù có vũ khí hiện đại và tàu bay tối tân, nhưng lòng yêu nước và ý chí thống nhất của nhân dân ta là không gì có thể lay chuyển được.",
+      "text": "Dù kẻ thù có vũ khí hiện đại và máy bay tối tân, nhưng lòng yêu nước và ý chí thống nhất của nhân dân ta là không gì có thể lay chuyển được.",
       "image": "/images/history/resistance-war-us/3.png",
       "imagePrompt": "A bird flying over a peaceful field, shadow of an airplane but the bird remains steady, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Cuộc kháng chiến trường kỳ bắt đầu với niềm tin sắt đá rằng: Một ngày không xa, Bắc Nam sẽ sum họp một nhà, non sông liền một dải.",
+      "image": "/images/history/resistance-war-us/4.png",
+      "imagePrompt": "Two children from North and South holding hands across a map, colorful background, hope and unity, children book illustration, cartoon style, bright colors"
     },
     {
       "type": "quiz",
@@ -40,6 +46,12 @@
       "question": "Miền Bắc có vai trò gì trong cuộc kháng chiến chống Mỹ?",
       "options": ["Hậu phương lớn chi viện cho miền Nam", "Nơi đi du lịch", "Nơi tập trung sản xuất bánh kẹo"],
       "answer": "Hậu phương lớn chi viện cho miền Nam"
+    },
+    {
+      "type": "quiz",
+      "question": "Quyết tâm lớn nhất của nhân dân ta lúc bấy giờ là gì?",
+      "options": ["Thống nhất đất nước", "Đi thám hiểm", "Mua sắm vũ khí"],
+      "answer": "Thống nhất đất nước"
     }
   ]
 }

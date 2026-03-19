@@ -39,7 +39,7 @@ useHead({
             >
               <Icon
                 name="fluent-emoji:sparkles"
-                class="text-3xl text-[#92400E]"
+                class="text-3xl text-amber-900"
               />
             </div>
             <div class="space-y-4">

@@ -1,12 +1,22 @@
 <script setup lang="ts">
 import { useProgressStore } from "~/stores/progressStore";
+import { useQuizStore } from "~/stores/quizStore";
 import { useHistoryData } from "~/composables/useHistoryData";
 import type { HistoryMapProps } from "~/types/props/map";
 
 const props = defineProps<HistoryMapProps>();
 
 const progressStore = useProgressStore();
+const quizStore = useQuizStore();
 const { isLessonAvailable } = useHistoryData();
+
+const isEraMastered = (eraId: string) => {
+  const era = props.eras.find((e) => e.id === eraId);
+  if (!era || !era.levels) return false;
+  return era.levels.every((level) =>
+    quizStore.masteredQuizzes.includes(level.lesson),
+  );
+};
 
 const getGlobalIndex = (eraIndex: number, levelIndex: number) => {
   let count = 0;
@@ -112,9 +122,19 @@ const progressLineHeightPercent = computed(() => {
               />
             </div>
             <h2
-              class="text-2xl md:text-4xl font-black text-text tracking-tight leading-tight uppercase drop-shadow-sm px-2"
+              class="text-2xl md:text-4xl font-black text-text tracking-tight leading-tight uppercase drop-shadow-sm px-2 flex items-center justify-center gap-3"
             >
+              <Icon
+                v-if="isEraMastered(era.id)"
+                name="fluent-emoji:crown"
+                class="text-3xl md:text-5xl animate-bounce"
+              />
               {{ era.title }}
+              <Icon
+                v-if="isEraMastered(era.id)"
+                name="fluent-emoji:crown"
+                class="text-3xl md:text-5xl animate-bounce"
+              />
             </h2>
             <div class="h-2 w-24 bg-primary rounded-full"></div>
           </div>

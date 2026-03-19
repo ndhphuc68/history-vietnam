@@ -1,0 +1,776 @@
+[
+  {
+    "id": "vua",
+    "term": "Vua",
+    "definition": "Người đứng đầu cao nhất của một nước trong thời kỳ phong kiến.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "chua",
+    "term": "Chúa",
+    "definition": "Người có quyền lực cai trị một vùng đất, thường đứng dưới vua nhưng đôi khi nắm thực quyền.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "hoang-de",
+    "term": "Hoàng đế",
+    "definition": "Tên gọi khác của vua, thường dùng để khẳng định sự độc lập và quyền lực to lớn.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "thai-hau",
+    "term": "Thái hậu",
+    "definition": "Mẹ của vua, thường được kính trọng và có tiếng nói quan trọng trong triều đình.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "trang-nguyen",
+    "term": "Trạng nguyên",
+    "definition": "Người đỗ cao nhất trong kỳ thi đình thời xưa, là người thông minh nhất nước.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "bang-nhan",
+    "term": "Bảng nhãn",
+    "definition": "Người đỗ hạng nhì trong kỳ thi đình, đứng ngay sau Trạng nguyên.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tham-hoa",
+    "term": "Thám hoa",
+    "definition": "Người đỗ hạng ba trong kỳ thi đình thời phong kiến.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "lac-hau",
+    "term": "Lạc hầu",
+    "definition": "Là những người giúp việc cho vua Hùng, phụ trách các việc quan trọng trong nước.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "lac-tuong",
+    "term": "Lạc tướng",
+    "definition": "Những người đứng đầu các bộ lạc thời xưa, giúp vua Hùng trông coi các vùng đất.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "thai-thu",
+    "term": "Thái thú",
+    "definition": "Người đứng đầu một vùng đất lớn thời xưa, do triều đại phương Bắc cử xuống để cai trị.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "toan-quyen",
+    "term": "Toàn quyền",
+    "definition": "Người đứng đầu cai trị toàn bộ xứ Đông Dương dưới thời Pháp thuộc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "kham-sai",
+    "term": "Khâm sai",
+    "definition": "Người được vua tin tưởng cử đi thực hiện một nhiệm vụ đặc biệt.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "lanh-binh",
+    "term": "Lãnh binh",
+    "definition": "Chức quan võ chỉ huy quân đội tại một tỉnh thời nhà Nguyễn.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "thai-uy",
+    "term": "Thái úy",
+    "definition": "Chức quan võ cao nhất, chỉ huy toàn bộ quân đội của đất nước thời xưa.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tuong-quan",
+    "term": "Tướng quân",
+    "definition": "Người chỉ huy quân đội ra trận đánh giặc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "thai-giam",
+    "term": "Thái giám",
+    "definition": "Người phục vụ trong cung vua, lo liệu việc ăn ở và sinh hoạt cho hoàng gia.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "quan-dai-than",
+    "term": "Quan đại thần",
+    "definition": "Những vị quan giữ chức vụ rất cao, thường xuyên bàn bạc việc nước với vua.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "su-gia",
+    "term": "Sứ giả",
+    "definition": "Người thay mặt vua đi giao tiếp, đàm phán với nước khác.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "nu-vuong",
+    "term": "Nữ vương",
+    "definition": "Người phụ nữ lên làm vua, đứng đầu một đất nước.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "bo-chu",
+    "term": "Bộ chủ",
+    "definition": "Người đứng đầu một bộ lạc thời Văn Lang - Âu Lạc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tho-hao",
+    "term": "Thổ hào",
+    "definition": "Những người giàu có và có uy tín, quyền lực tại địa phương thời xưa.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tiet-do-su",
+    "term": "Tiết độ sứ",
+    "definition": "Chức quan cai trị một vùng đất rộng lớn thời Bắc thuộc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "ngu-su",
+    "term": "Ngự sử",
+    "definition": "Vị quan có nhiệm vụ giám sát các quan khác và can ngăn vua khi thấy điều sai.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "cong-chua",
+    "term": "Công chúa",
+    "definition": "Con gái của vua.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "hoang-tu",
+    "term": "Hoàng tử",
+    "definition": "Con trai của vua.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "chu-tich",
+    "term": "Chủ tịch",
+    "definition": "Người đứng đầu nhà nước Việt Nam hiện đại.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tong-bi-thu",
+    "term": "Tổng bí thư",
+    "definition": "Người đứng đầu Đảng Cộng sản Việt Nam.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "dai-tuong",
+    "term": "Đại tướng",
+    "definition": "Cấp bậc quân hàm cao nhất trong quân đội Việt Nam (ví dụ: Đại tướng Võ Nguyên Giáp).",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tong-tu-lenh",
+    "term": "Tổng tư lệnh",
+    "definition": "Người chỉ huy cao nhất của toàn bộ các lực lượng vũ trang (ví dụ: Đại tướng Võ Nguyên Giáp là Tổng tư lệnh đầu tiên).",
+    "category": "Chức danh"
+  },
+  {
+    "id": "chien-si",
+    "term": "Chiến sĩ",
+    "definition": "Những người trực tiếp cầm súng chiến đấu bảo vệ tổ quốc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "dan-quan",
+    "term": "Dân quân tự vệ",
+    "definition": "Lực lượng vũ trang của quần chúng vừa làm việc vừa bảo vệ quê hương.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "biet-dong",
+    "term": "Biệt động",
+    "definition": "Lực lượng chiến đấu bí mật, bất ngờ ngay trong lòng thành phố (ví dụ: Biệt động Sài Gòn).",
+    "category": "Chức danh"
+  },
+  {
+    "id": "giao-lien",
+    "term": "Giao liên",
+    "definition": "Những người làm nhiệm vụ truyền tin, dẫn đường bí mật cho quân đội.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "tnxp",
+    "term": "Thanh niên xung phong",
+    "definition": "Lực lượng thanh niên trẻ tuổi đi đầu trong các việc khó khăn như mở đường, tải đạn.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "ba-me-vnah",
+    "term": "Bà mẹ Việt Nam Anh hùng",
+    "definition": "Danh hiệu cao quý dành cho những người mẹ có nhiều hy sinh cho tổ quốc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "chinh-uy",
+    "term": "Chính ủy",
+    "definition": "Người phụ trách công tác chính trị và tinh thần trong các đơn vị quân đội.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "ah-llvt",
+    "term": "Anh hùng lực lượng vũ trang",
+    "definition": "Danh hiệu dành cho những người lập chiến công đặc biệt xuất sắc.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "du-kich",
+    "term": "Du kích",
+    "definition": "Lực lượng vũ trang địa phương dùng cách đánh bất ngờ, linh hoạt.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "doi-vien",
+    "term": "Đội viên",
+    "definition": "Thành viên trong các đội thiếu niên tham gia hoạt động cách mạng nhỏ tuổi.",
+    "category": "Chức danh"
+  },
+  {
+    "id": "trong-dong-dong-son",
+    "term": "Trống đồng Đông Sơn",
+    "definition": "Loại trống quý bằng đồng, biểu tượng cho nền văn minh lâu đời của người Việt cổ.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "no-than",
+    "term": "Nỏ thần",
+    "definition": "Vũ khí huyền thoại của vua An Dương Vương, có thể bắn một lúc ra hàng nghìn mũi tên.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "guom-than",
+    "term": "Gươm thần",
+    "definition": "Thanh gươm báu mà Lê Lợi mượn của Long Quân để đánh đuổi quân Minh.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "long-bao",
+    "term": "Long bào",
+    "definition": "Áo của vua mặc, thường có thêu hình rồng bằng chỉ vàng.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "ngai-vang",
+    "term": "Ngai vàng",
+    "definition": "Chiếc ghế trang trọng nhất dành riêng cho vua ngồi khi làm lễ hoặc họp triều đình.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "kim-an",
+    "term": "Kim ấn",
+    "definition": "Con dấu làm bằng vàng của vua, dùng để đóng lên các văn bản quan trọng.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "moc-ban",
+    "term": "Mộc bản",
+    "definition": "Những tấm gỗ được khắc chữ ngược để in ra sách thời xưa.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "chau-ban",
+    "term": "Châu bản",
+    "definition": "Các văn bản hành chính có bút phê bằng mực đỏ của vua.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "co-ngu-sac",
+    "term": "Cờ ngũ sắc",
+    "definition": "Loại cờ truyền thống có 5 màu, thường thấy ở các lễ hội và đền chùa.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "thanh-quach",
+    "term": "Thành quách",
+    "definition": "Hệ thống tường cao và hào sâu bao quanh để bảo vệ kinh đô hoặc các vị trí quan trọng.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "den-tho",
+    "term": "Đền thờ",
+    "definition": "Nơi nhân dân lập nên để tưởng nhớ và thờ cúng các vị anh hùng có công với nước.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "bia-da",
+    "term": "Bia đá",
+    "definition": "Những tấm bia bằng đá khắc tên người đỗ đạt hoặc ghi lại các sự kiện lớn.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "thuyen-thung",
+    "term": "Thuyền thúng",
+    "definition": "Loại thuyền nhỏ hình tròn, đan bằng tre, dùng để di chuyển trên sông nước.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "xe-quet",
+    "term": "Xe quệt",
+    "definition": "Phương tiện vận chuyển thô sơ dùng sức kéo của trâu bò thời xưa.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "luy-tre",
+    "term": "Lũy tre",
+    "definition": "Hàng tre dày đặc bao quanh làng xóm, vừa để chắn gió vừa để bảo vệ dân làng khỏi kẻ thù.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "coc-go",
+    "term": "Cọc gỗ",
+    "definition": "Vũ khí độc đáo được Ngô Quyền cắm xuống sông Bạch Đằng để đánh tan quân giặc.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "sach-dong",
+    "term": "Sách đồng",
+    "definition": "Loại sách có các trang làm bằng đồng, thường dùng để ghi lại gia phả hoàng hội hoặc lệnh vua.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "ao-dai",
+    "term": "Áo dài",
+    "definition": "Trang phục truyền thống của người Việt, mang vẻ đẹp duyên dáng và thanh lịch.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "non-la",
+    "term": "Nón lá",
+    "definition": "Vật dụng che nắng mưa đặc trưng, gắn liền với hình ảnh người dân Việt Nam.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "con-rong-chau-tien",
+    "term": "Con Rồng cháu Tiên",
+    "definition": "Cách gọi thân thương về nguồn gốc cao quý của người Việt Nam.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "chim-lac",
+    "term": "Chim Lạc",
+    "definition": "Hình ảnh loài chim huyền thoại thường thấy trên mặt trống đồng Đông Sơn.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "canh-dieu",
+    "term": "Cánh diều",
+    "definition": "Trò chơi dân gian quen thuộc của trẻ em vùng nông thôn Việt Nam.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "den-long",
+    "term": "Đèn lồng",
+    "definition": "Vật dụng trang trí và thắp sáng trong các dịp lễ tết truyền thống.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "chieu",
+    "term": "Chiếu",
+    "definition": "Văn bản do vua dùng để ban lệnh quan trọng cho toàn dân.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "hich",
+    "term": "Hịch",
+    "definition": "Văn bản vua hoặc tướng dùng để kêu gọi, cổ vũ quân dân cùng đánh giặc.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "doc-lap",
+    "term": "Độc lập",
+    "definition": "Tình trạng một đất nước tự làm chủ, không bị nước khác cai trị.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "tu-chu",
+    "term": "Tự chủ",
+    "definition": "Khả năng tự quyết định và quản lý các công việc của mình.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "bac-thuoc",
+    "term": "Bắc thuộc",
+    "definition": "Thời kỳ nước ta bị các triều đại phương Bắc đô hộ và cai trị trong gần 1000 năm.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "khoi-nghia",
+    "term": "Khởi nghĩa",
+    "definition": "Cuộc nổi đứng lên đánh giặc để giành lại tự do cho đất nước.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "cach-mang",
+    "term": "Cách mạng",
+    "definition": "Sự thay đổi lớn lao, mang tính chất bước ngoặt trong xã hội.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "doi-moi",
+    "term": "Đổi mới",
+    "definition": "Quá trình thay đổi để làm cho mọi thứ tốt đẹp và hiệu quả hơn.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "do-ho",
+    "term": "Đô hộ",
+    "definition": "Việc một nước mạnh chiếm giữ và cai trị một nước khác.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "cong-nap",
+    "term": "Cống nạp",
+    "definition": "Việc nước yếu phải đem sản vật quý tặng cho nước mạnh để giữ hòa bình.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "chieu-doi-do",
+    "term": "Chiếu dời đô",
+    "definition": "Văn bản nổi tiếng của vua Lý Thái Tổ về việc chuyển kinh đô về Thăng Long.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "hich-tuong-si",
+    "term": "Hịch tướng sĩ",
+    "definition": "Bài văn hào hùng của Trần Hưng Đạo nhằm khích lệ tinh thần binh lính đánh quân Mông Cổ.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "binh-ngo-dai-cao",
+    "term": "Bình Ngô Đại Cáo",
+    "definition": "Bản tuyên ngôn độc lập viết bởi Nguyễn Trãi sau khi thắng quân Minh.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "nam-quoc-son-ha",
+    "term": "Nam quốc sơn hà",
+    "definition": "Bài thơ thần khẳng định chủ quyền của nước Nam, tương truyền do Lý Thường Kiệt viết.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "tuyen-ngon-doc-lap",
+    "term": "Tuyên ngôn độc lập",
+    "definition": "Văn bản long trọng tuyên bố một quốc gia đã hoàn toàn độc lập.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "van-hoa",
+    "term": "Văn hóa",
+    "definition": "Những giá trị tốt đẹp của con người được tạo ra và giữ gìn qua nhiều thế hệ.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "van-minh",
+    "term": "Văn minh",
+    "definition": "Sự phát triển cao về vật chất và tinh thần của con người.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "truyen-thong",
+    "term": "Truyền thống",
+    "definition": "Những thói quen, phong tục tốt đẹp được truyền từ đời này sang đời khác.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "yeu-nuoc",
+    "term": "Yêu nước",
+    "definition": "Tình cảm tha thiết và hành động bảo vệ, xây dựng quê hương mình.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "doan-ket",
+    "term": "Đoàn kết",
+    "definition": "Sự gắn bó, giúp đỡ lẫn nhau để cùng đạt được mục tiêu chung.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "bat-khuat",
+    "term": "Bất khuất",
+    "definition": "Tinh thần mạnh mẽ, không chịu cúi đầu trước khó khăn và kẻ thù.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "anh-dung",
+    "term": "Anh dũng",
+    "definition": "Sự dũng cảm, dám hy sinh vì nghĩa lớn.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "chu-quyen",
+    "term": "Chủ quyền",
+    "definition": "Quyền cao nhất và toàn vẹn của một quốc gia đối với lãnh thổ của mình.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "lanh-tho",
+    "term": "Lãnh thổ",
+    "definition": "Vùng đất, vùng biển và vùng trời thuộc quyền làm chủ của một quốc gia.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "bien-gioi",
+    "term": "Biên giới",
+    "definition": "Đường phân chia lãnh thổ giữa các quốc gia.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "bien-dao",
+    "term": "Biển đảo",
+    "definition": "Vùng biển và các hòn đảo thuộc chủ quyền của đất nước.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "ngoai-giao",
+    "term": "Ngoại giao",
+    "definition": "Việc đàm phán, giao thiệp giữa các nước với nhau.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "phong-chau",
+    "term": "Phong Châu",
+    "definition": "Kinh đô của nước Văn Lang thời các vua Hùng (nay thuộc Phú Thọ).",
+    "category": "Địa danh"
+  },
+  {
+    "id": "co-loa",
+    "term": "Cổ Loa",
+    "definition": "Kinh đô nước Âu Lạc với tòa thành cổ hình xoắn ốc nổi tiếng.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "hoa-lu",
+    "term": "Hoa Lư",
+    "definition": "Kinh đô đầu tiên của nước Đại Cồ Việt sau khi Đinh Bộ Lĩnh thống nhất đất nước.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "thang-long",
+    "term": "Thăng Long",
+    "definition": "Tên gọi cũ của thủ đô Hà Nội, do vua Lý Thái Tổ đặt tên.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "tay-do",
+    "term": "Tây Đô",
+    "definition": "Kinh đô xây bằng đá của nhà Hồ (nay thuộc Thanh Hóa).",
+    "category": "Địa danh"
+  },
+  {
+    "id": "phu-xuan",
+    "term": "Phú Xuân",
+    "definition": "Tên gọi cũ của cố đô Huế, nơi triều đình nhà Nguyễn đóng đô.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "gia-dinh",
+    "term": "Gia Định",
+    "definition": "Tên gọi cũ của Thành phố Hồ Chí Minh ngày nay.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "lam-son",
+    "term": "Lam Sơn",
+    "definition": "Vùng đất nảy sinh cuộc khởi nghĩa hào hùng của Lê Lợi chống quân Minh.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "dien-bien-phu",
+    "term": "Điện Biên Phủ",
+    "definition": "Nơi diễn ra trận chiến lẫy lừng, chấn động địa cầu vào năm 1954.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "truong-son",
+    "term": "Trường Sơn",
+    "definition": "Dãy núi hùng vĩ, nơi có con đường huyền thoại giúp sức cho miền Nam trong chiến tranh.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "song-bach-dang",
+    "term": "Sông Bạch Đằng",
+    "definition": "Con sông lịch sử với 3 lần chiến thắng vang dội chống quân xâm lược phương Bắc.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "song-nhu-nguyet",
+    "term": "Sông Như Nguyệt",
+    "definition": "Con sông diễn ra trận chiến quyết định chống quân Tống thời nhà Lý.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "ai-chi-lang",
+    "term": "Ải Chi Lăng",
+    "definition": "Vùng hiểm yếu nơi quân ta đã phục kích và tiêu diệt tướng giặc Liễu Thăng.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "ben-nha-rong",
+    "term": "Bến Nhà Rồng",
+    "definition": "Nơi Bác Hồ kính yêu đã ra đi tìm đường cứu nước.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "pac-bo",
+    "term": "Pác Bó",
+    "definition": "Hang đá nơi Bác Hồ từng sống và làm việc sau khi trở về nước.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "van-lang",
+    "term": "Văn Lang",
+    "definition": "Tên gọi nhà nước đầu tiên của người Việt chúng ta.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "au-lac",
+    "term": "Âu Lạc",
+    "definition": "Nhà nước tiếp theo sau Văn Lang, do Thục Phán An Dương Vương đứng đầu.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "van-xuan",
+    "term": "Vạn Xuân",
+    "definition": "Tên nước do Lý Bí đặt, mong muốn đất nước yên bình mãi mãi như vạn mùa xuân.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "dai-co-viet",
+    "term": "Đại Cồ Việt",
+    "definition": "Tên nước ta thời nhà Đinh và nhà Tiền Lê.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "dai-viet",
+    "term": "Đại Việt",
+    "definition": "Tên gọi đất nước ta trong thời gian lâu nhất lịch sử, bắt đầu từ thời nhà Lý.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "dai-nam",
+    "term": "Đại Nam",
+    "definition": "Tên gọi chính thức của nước Việt Nam dưới thời vua Minh Mạng.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "viet-nam-dan-chu-cong-hoa",
+    "term": "Việt Nam Dân chủ Cộng hòa",
+    "definition": "Tên nước sau Cách mạng tháng Tám năm 1945.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "chxhcnvn",
+    "term": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "definition": "Tên gọi chính thức của nước ta từ năm 1976 đến nay.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "thoi-ky-do-dong",
+    "term": "Thời kỳ Đồ đồng",
+    "definition": "Giai đoạn con người bắt đầu biết đúc các vật dụng bằng đồng.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "thoi-ky-do-da",
+    "term": "Thời kỳ Đồ đá",
+    "definition": "Giai đoạn sơ khai khi con người chủ yếu dùng đá làm công cụ lao động.",
+    "category": "Thời kỳ"
+  },
+  {
+    "id": "xe-tang",
+    "term": "Xe tăng",
+    "definition": "Loại xe bọc thép mạnh mẽ, nổi tiếng nhất là chiếc xe tăng 843 húc đổ cổng Dinh Độc Lập.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "dia-dao",
+    "term": "Địa đạo",
+    "definition": "Hệ thống đường hầm bí mật dưới lòng đất dùng để sinh sống và chiến đấu (ví dụ: Địa đạo Củ Chi).",
+    "category": "Sự vật"
+  },
+  {
+    "id": "mu-coi",
+    "term": "Mũ cối",
+    "definition": "Loại mũ đặc trưng của chiến sĩ Việt Nam, thường có màu xanh lá cây.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "vong",
+    "term": "Võng",
+    "definition": "Vật dụng dùng để ngủ treo giữa hai thân cây, rất quen thuộc với bộ đội khi ở trong rừng.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "gay-truong-son",
+    "term": "Gậy Trường Sơn",
+    "definition": "Chiếc gậy tre giúp các chiến sĩ vững bước khi hành quân vượt qua dãy núi Trường Sơn hùng vĩ.",
+    "category": "Sự vật"
+  },
+  {
+    "id": "tuan-quoc-khang-chien",
+    "term": "Toàn quốc kháng chiến",
+    "definition": "Lời kêu gọi của Bác Hồ khi toàn dân cùng đứng lên đánh giặc Pháp vào năm 1946.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "tong-tien-cong",
+    "term": "Tổng tiến công",
+    "definition": "Các cuộc tấn công lớn và đồng loạt trên khắp các mặt trận để giành thắng lợi cuối cùng.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "hoa-binh",
+    "term": "Hòa bình",
+    "definition": "Trạng thái đất nước không còn chiến tranh, nhân dân được sống trong yên vui.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "thong-nhat",
+    "term": "Thống nhất",
+    "definition": "Sự kiện lịch sử khi hai miền Nam - Bắc về chung một nhà vào năm 1975.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "vi-tuyen-17",
+    "term": "Vĩ tuyến 17",
+    "definition": "Đường biên giới tạm thời chia cắt hai miền Nam - Bắc của nước ta sau năm 1954.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "duong-ho-chi-minh",
+    "term": "Đường Hồ Chí Minh",
+    "definition": "Con đường huyền thoại chạy dọc dãy Trường Sơn, dùng để chở lương thực và vũ khí cho miền Nam.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "hiep-dinh-geneve",
+    "term": "Hiệp định Giơ-ne-vơ",
+    "definition": "Văn bản hòa bình ký năm 1954, kết thúc cuộc chiến với thực dân Pháp.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "hiep-dinh-paris",
+    "term": "Hiệp định Paris",
+    "definition": "Văn bản quan trọng ký năm 1973, buộc quân đội Mỹ phải rút khỏi Việt Nam.",
+    "category": "Khái niệm"
+  },
+  {
+    "id": "dinh-doc-lap",
+    "term": "Dinh Độc Lập",
+    "definition": "Một tòa nhà lớn tại Sài Gòn, nơi chứng kiến ngày miền Nam hoàn toàn giải phóng 30/4/1975.",
+    "category": "Địa danh"
+  },
+  {
+    "id": "song-ben-hai",
+    "term": "Sông Bến Hải",
+    "definition": "Con sông chảy qua vĩ tuyến 17, nơi có cầu Hiền Lương chia cách hai miền đất nước một thời.",
+    "category": "Địa danh"
+  }
+]

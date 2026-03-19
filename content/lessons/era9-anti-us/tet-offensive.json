@@ -30,6 +30,12 @@
       "imagePrompt": "A large negotiation table with many flags, diplomats talking, sun setting over the city, children book illustration, cartoon style, bright colors"
     },
     {
+      "type": "story",
+      "text": "Phong trào phản đối chiến tranh lan rộng khắp thế giới, nhân dân các nước cùng ủng hộ Việt Nam giành lại độc lập tự do.",
+      "image": "/images/history/tet-offensive/4.png",
+      "imagePrompt": "Large crowd in a major world city holding banners 'PEACE FOR VIETNAM', doves flying overhead, children book illustration, cartoon style, bright colors"
+    },
+    {
       "type": "quiz",
       "question": "Cuộc tổng tiến công 1968 diễn ra vào dịp đặc biệt nào?",
       "options": ["Tết Nguyên Đán Mậu Thân", "Ngày Quốc khánh", "Ngày 1/6"],
@@ -40,6 +46,12 @@
       "question": "Ý nghĩa lớn nhất của cuộc tấn công Mậu Thân là gì?",
       "options": ["Làm thay đổi cục diện chiến tranh, buộc Mỹ phải đàm phán", "Để bắn pháo hoa", "Để đi sắm Tết"],
       "answer": "Làm thay đổi cục diện chiến tranh, buộc Mỹ phải đàm phán"
+    },
+    {
+      "type": "quiz",
+      "question": "Cuộc tấn công này diễn ra bất ngờ nhất ở đâu?",
+      "options": ["Các thành phố lớn ở miền Nam", "Ở ngoài biển khơi", "Ở trên núi cao"],
+      "answer": "Các thành phố lớn ở miền Nam"
     }
   ]
 }

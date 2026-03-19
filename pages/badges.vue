@@ -22,13 +22,14 @@ useHead({
     <div class="relative z-10 pt-10 pb-32">
       <UiPageHero
         tag="Thành tựu danh giá"
-        titlePrimary="Huy Hiệu"
+        titlePrimary="Hồ Sơ"
         titleHighlight="Dũng Sĩ"
-        subtitle="Mỗi huy hiệu là một minh chứng cho sự chăm chỉ và lòng yêu nước của bé trên hành trình khám phá 4000 năm lịch sử."
-        icon="fluent-emoji:medal"
+        subtitle="Mỗi huy hiệu và báu vật là một minh chứng cho sự chăm chỉ và lòng yêu nước của bé trên hành trình khám phá 4000 năm lịch sử."
+        icon="fluent-emoji:military-medal"
         accentColor="primary"
       />
       <HeroBadgeGallery />
+      <HeroArtifactGallery />
     </div>
   </div>
 </template>
