@@ -1,0 +1,53 @@
+{
+  "id": "duong-dinh-nghe",
+  "title": "Duong Dinh Nghe and the 3,000 Adopted Sons",
+  "period": "Autonomy",
+  "summary": "The story of persistent force preparation and loyalty to protect the nation's autonomy.",
+  "image": "/images/history/thumbnails/autonomy/duong-dinh-nghe.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Do you know how to build a powerful army? Duong Dinh Nghe had a very special way: he adopted 3,000 talented people as his sons!",
+      "image": "/images/history/lessons/autonomy/duong-dinh-nghe/0.png",
+      "imagePrompt": "Duong Dinh Nghe gathering many young warriors around him, fatherly and strong look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "These 3,000 adopted sons practiced martial arts together, loved each other like biological brothers, and were wholeheartedly loyal to the country.",
+      "image": "/images/history/lessons/autonomy/duong-dinh-nghe/1.png",
+      "imagePrompt": "Group of warriors practicing with swords and spears together, bonded and united, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the Southern Han army tried to invade again, this 'brotherly' army fought a great battle, liberating Dai La Citadel (Hanoi).",
+      "image": "/images/history/lessons/autonomy/duong-dinh-nghe/2.png",
+      "imagePrompt": "The army of 3000 warriors charging towards the city gates of Dai La, bravery, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Duong Dinh Nghe followed the Khuc family's legacy, keeping the flame of autonomy alive for the nation before Ngo Quyen created a great turning point.",
+      "image": "/images/history/lessons/autonomy/duong-dinh-nghe/3.png",
+      "imagePrompt": "Duong Dinh Nghe sitting with Ngô Quyền (his son-in-law), passing down the spirit of resistance, historical moment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What special way did Duong Dinh Nghe use to build his forces?",
+      "options": [
+        "Hiring foreign mercenaries",
+        "Adopting 3,000 talented people as sons",
+        "Asking for foreign aid"
+      ],
+      "answer": "Adopting 3,000 talented people as sons"
+    },
+    {
+      "type": "quiz",
+      "question": "What was Duong Dinh Nghe's army famous for?",
+      "options": [
+        "Their wealth",
+        "Their loyalty and brotherly unity",
+        "Their great cooking skills"
+      ],
+      "answer": "Their loyalty and brotherly unity"
+    }
+  ]
+}

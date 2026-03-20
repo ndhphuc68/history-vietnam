@@ -1,17 +1,35 @@
 <script setup lang="ts">
-import heroesData from "~/content/heroes.json";
-import { useHeroStore } from "~/stores/heroStore";
-import { useHistoryData } from "~/composables/useHistoryData";
-
 const heroStore = useHeroStore();
 const historyData = useHistoryData();
+const { locale } = useI18n();
+const localePath = useLocalePath();
 const selectedHero = ref<any>(null);
 const showModal = ref(false);
+const heroesData = ref<any[]>([]);
+
+onMounted(async () => {
+  const loadData = async () => {
+    try {
+      const data = await import(`../../content/${locale.value}/heroes.json`);
+      heroesData.value = data.default;
+    } catch (e) {
+      console.error("Failed to load heroes", e);
+      const data = await import("../../content/vi/heroes.json");
+      heroesData.value = data.default;
+    }
+  };
+
+  await loadData();
+
+  watch(locale, async () => {
+    await loadData();
+  });
+});
 
 const enabledEraIds = computed(() => historyData.eras.value.map((e) => e.id));
 
 const heroes = computed(() => {
-  return (heroesData as any[]).filter((hero) =>
+  return heroesData.value.filter((hero) =>
     enabledEraIds.value.includes(hero.era),
   );
 });
@@ -35,7 +53,7 @@ const openDetail = (hero: any) => {
         <span
           class="text-xs font-black text-text/60 uppercase tracking-widest mt-1"
         >
-          Lệnh bài đã mở
+          {{ $t("hero_gallery.stats.unlocked") }}
         </span>
       </div>
       <div class="h-12 w-px bg-primary/10"></div>
@@ -46,7 +64,7 @@ const openDetail = (hero: any) => {
         <span
           class="text-xs font-black text-text/60 uppercase tracking-widest mt-1"
         >
-          Tổng số thần tướng
+          {{ $t("hero_gallery.stats.total") }}
         </span>
       </div>
     </div>
@@ -81,16 +99,16 @@ const openDetail = (hero: any) => {
         class="text-5xl mb-4 animate-pulse"
       />
       <h3 class="text-2xl font-black text-text mb-2">
-        Vẫn còn nhiều anh hùng đang chờ bé!
+        {{ $t("hero_gallery.motivation.title") }}
       </h3>
       <p class="text-text/70 font-medium">
-        Hãy học thêm các bài học mới để hoàn thành bộ sưu tập nhé.
+        {{ $t("hero_gallery.motivation.subtitle") }}
       </p>
       <NuxtLink
-        to="/lesson"
+        :to="localePath('/lesson')"
         class="mt-8 inline-block px-10 py-4 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all text-lg uppercase"
       >
-        Quay lại Bài học
+        {{ $t("hero_gallery.motivation.button") }}
       </NuxtLink>
     </div>
   </div>

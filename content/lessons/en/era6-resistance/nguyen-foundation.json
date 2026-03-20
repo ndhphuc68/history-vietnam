@@ -1,0 +1,53 @@
+{
+  "id": "nguyen-foundation",
+  "title": "The Establishment of the Nguyen Dynasty",
+  "period": "The Nguyen Dynasty",
+  "summary": "In 1802, after a long period of war, Nguyen Anh ascended the throne, took the era name Gia Long, and began the Nguyen Dynasty.",
+  "image": "/images/history/thumbnails/resistance/nguyen-foundation.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! After the Tay Son Dynasty ended, Nguyen Anh unified the country and ascended the throne in 1802, taking the title Gia Long.",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/0.png",
+      "imagePrompt": "Coronation of King Gia Long in Hue, ancient palace with yellow tiles, golden banners, solemn atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He chose Phu Xuan (Hue) as the capital. This is where the poetic Perfume River (Huong River) flows through and where beautiful palaces were built.",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/1.png",
+      "imagePrompt": "Imperial City of Hue, the Forbidden Purple City, Perfume River (Sông Hương) with a dragon boat, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 1804, the King officially named our country 'Viet Nam'. That is the sacred and proud name of our nation today!",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/2.png",
+      "imagePrompt": "King Gia Long writing the characters 'VIET NAM' in gold on a large scroll, Map of a united Vietnam in the background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Nguyen court built the massive and solid Hue Citadel, with soaring red brick walls.",
+      "image": "/images/history/lessons/resistance/nguyen-foundation/3.png",
+      "imagePrompt": "Close-up of the masonry walls of Hue Citadel, soldiers on patrol, large flags flying, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "In what year was the Nguyen Dynasty established?",
+      "options": [
+        "1802",
+        "1428",
+        "1010"
+      ],
+      "answer": "1802"
+    },
+    {
+      "type": "quiz",
+      "question": "What sacred name did King Gia Long officially give to our country in 1804?",
+      "options": [
+        "Dai Co Viet",
+        "Dai Viet",
+        "Viet Nam"
+      ],
+      "answer": "Viet Nam"
+    }
+  ]
+}

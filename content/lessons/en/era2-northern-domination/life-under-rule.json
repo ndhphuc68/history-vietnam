@@ -1,0 +1,53 @@
+{
+  "id": "life-under-rule",
+  "title": "Life Under Northern Rule",
+  "period": "Northern Domination",
+  "summary": "A glimpse into the arduous yet resilient life of the Vietnamese people for nearly a millennium under foreign domination.",
+  "image": "/images/history/thumbnails/northern-domination/life-under-rule.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Under the rule of the Han people, life for the Vietnamese was extremely difficult. Most were still farmers, but they had to give most of their products to the colonial army.",
+      "image": "/images/history/lessons/northern-domination/life-under-rule/0.png",
+      "imagePrompt": "Farmers in traditional clothes working hard in fields, looking tired, Han tax collectors waiting nearby, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite the oppression, traditional crafts such as pottery, iron forging, and weaving were still maintained and developed by our people.",
+      "image": "/images/history/lessons/northern-domination/life-under-rule/1.png",
+      "imagePrompt": "Vietnamese women weaving silk and pottery makers at work, colorful fabrics and pots, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Fishing villages and seaports remained active. Being skilled at sea, the Vietnamese continued to maintain trade despite strict control.",
+      "image": "/images/history/lessons/northern-domination/life-under-rule/2.png",
+      "imagePrompt": "Ancient fishing boats at sea, trading goods, sunset, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In Vietnamese villages, the spirit of the nation was always nurtured through ancient stories and community activities.",
+      "image": "/images/history/lessons/northern-domination/life-under-rule/3.png",
+      "imagePrompt": "Village gathering at night, fire in the middle, elders telling stories to children, sense of community, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which production sector was most strongly maintained by the people?",
+      "options": [
+        "Rice cultivation",
+        "Toy manufacturing",
+        "Car repair"
+      ],
+      "answer": "Rice cultivation"
+    },
+    {
+      "type": "quiz",
+      "question": "Who directly collected taxes from our people at that time?",
+      "options": [
+        "Vietnamese leaders",
+        "Han colonial officials",
+        "People collected for each other"
+      ],
+      "answer": "Han colonial officials"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nguyen-trai",
+  "title": "Nguyen Trai Helping the Uprising",
+  "heroId": "nguyen-trai",
+  "period": "Restoration",
+  "summary": "Nguyen Trai was a great military strategist and poet who presented the 'Binh Ngo Book' to Le Loi and helped the Lam Son uprising achieve complete victory.",
+  "image": "/images/history/thumbnails/independence-restored/nguyen-trai.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Nguyen Trai broke through the enemy's blockade to find the Lam Son insurgents and presented Le Loi with invaluable strategies for fighting the enemy.",
+      "image": "/images/history/lessons/independence-restored/nguyen-trai/0.png",
+      "imagePrompt": "Nguyen Trai meeting Le Loi in a secret forest camp, discussing strategy over a map, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He was the author of 'Binh Ngo Dai Cao', the second declaration of independence that reaffirmed the sovereignty of the Dai Viet nation.",
+      "image": "/images/history/lessons/independence-restored/nguyen-trai/1.png",
+      "imagePrompt": "Nguyen Trai writing with a brush on a long scroll, looking inspired, traditional scholar outfit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "With the philosophy of 'Using humanity to replace violence', he contributed to winning over the hearts of the people to drive out the Ming army.",
+      "image": "/images/history/lessons/independence-restored/nguyen-trai/2.png",
+      "imagePrompt": "Nguyen Trai talking to captured enemy soldiers, showing mercy and wisdom, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nguyen Trai is not only a national hero but has also been honored as a World Cultural Celebrity.",
+      "image": "/images/history/lessons/independence-restored/nguyen-trai/3.png",
+      "imagePrompt": "Statue or portrait of Nguyen Trai with a background of books and symbols of culture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the name of the famous declaration of independence written by Nguyen Trai?",
+      "options": [
+        "Binh Ngo Dai Cao",
+        "Nam Quoc Son Ha",
+        "Declaration of Independence"
+      ],
+      "answer": "Binh Ngo Dai Cao"
+    },
+    {
+      "type": "quiz",
+      "question": "Which King did Nguyen Trai help to drive out the Ming army?",
+      "options": [
+        "Le Loi",
+        "Nguyen Hue",
+        "Ly Thai To"
+      ],
+      "answer": "Le Loi"
+    }
+  ]
+}

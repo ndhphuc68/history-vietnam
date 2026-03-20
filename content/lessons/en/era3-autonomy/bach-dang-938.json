@@ -1,0 +1,54 @@
+{
+  "id": "bach-dang-938",
+  "title": "The Battle of Bach Dang 938",
+  "heroId": "ngo-quyen",
+  "period": "Autonomy",
+  "summary": "In 938, using the wooden stake strategy on the Bach Dang River, Ngo Quyen defeated the Southern Han army, opening an era of long-term independence for the Vietnamese nation.",
+  "image": "/images/history/thumbnails/autonomy/bach-dang-938.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hearing that the Southern Han army was coming to invade, Ngo Quyen came up with a brilliant strategy.",
+      "image": "/images/history/lessons/autonomy/bach-dang-938/0.png",
+      "imagePrompt": "Ngo Quyền and his generals looking at a map of Bach Dang river, planning the trap, intelligent look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He ordered his troops to sharpen thousands of wooden stakes, tip them with iron, and hammer them into the bed of the Bach Dang River.",
+      "image": "/images/history/lessons/autonomy/bach-dang-938/1.png",
+      "imagePrompt": "Vietnamese soldiers sharpening large wooden stakes and hammering them into the river bed, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the tide rose, the river surface hid the wooden stakes. Our troops lured the enemy warships deep into the battleground.",
+      "image": "/images/history/lessons/autonomy/bach-dang-938/2.png",
+      "imagePrompt": "Vietnamese small boats leading large South Han warships into the trap, high tide hiding the stakes, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "As the tide receded, the enemy ships crashed against the sharp wooden stakes, breaking and sinking. Our troops launched a simultaneous attack, leading to a crushing defeat for the enemy.",
+      "image": "/images/history/lessons/autonomy/bach-dang-938/3.png",
+      "imagePrompt": "South Han warships crashing against the wooden stakes as tide goes down, Ngo Quyen's army attacking from the banks, epic win, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What weapon did Ngo Quyen use to hammer into the Bach Dang River?",
+      "options": [
+        "Iron-tipped wooden stakes",
+        "Iron chains",
+        "Sharp stones"
+      ],
+      "answer": "Iron-tipped wooden stakes"
+    },
+    {
+      "type": "quiz",
+      "question": "The 938 victory on the Bach Dang River defeated which invading army?",
+      "options": [
+        "Southern Han",
+        "Song",
+        "Mongol-Yuan"
+      ],
+      "answer": "Southern Han"
+    }
+  ]
+}

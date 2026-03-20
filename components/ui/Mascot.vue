@@ -27,24 +27,20 @@ const resetTilt = () => {
   tilt.value = { x: 0, y: 0 };
 };
 
-// Random idle messages
-const idleMessages = [
-  "Bạn có biết Việt Nam có hơn 4000 năm văn hiến không?",
-  "Hãy đọc kỹ từng slide để tìm báu vật bí mật nhé!",
-  "Đừng quên tra từ điển nếu gặp từ khó nhé!",
-  "Học lịch sử thật là thú vị đúng không nào?",
-  "Mình luôn ở đây để giúp đỡ bạn!",
-];
+const { tm, rt } = useI18n();
 
+// Random idle messages from i18n
 const getRandomIdleMessage = () => {
-  const msg = idleMessages[
-    Math.floor(Math.random() * idleMessages.length)
-  ] as string;
-  mascotStore.say(msg, "idle", 6000);
+  const messages = tm("mascot.idle_messages") as string[];
+  if (!messages || messages.length === 0) return;
+  const msg = rt(messages[Math.floor(Math.random() * messages.length)]);
+  if (typeof msg === "string") {
+    mascotStore.say(msg, "idle", 6000);
+  }
 };
 
 // Auto-hide bubble after a long time of idle
-let idleTimer: any = null;
+let idleTimer: ReturnType<typeof setTimeout> | null = null;
 watch(
   () => mascotStore.message,
   () => {

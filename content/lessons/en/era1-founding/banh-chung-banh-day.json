@@ -1,0 +1,85 @@
+{
+  "id": "banh-chung-banh-day",
+  "title": "The Legend of Banh Chung and Banh Day",
+  "period": "Nation Building",
+  "summary": "The story of Lang Lieu and his filial piety, creating two types of cakes symbolizing Heaven and Earth.",
+  "image": "/images/history/thumbnails/founding/banh-chung-banh-day.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The sixth Hung King wanted to choose a successor, so he told his sons: 'Whoever finds the most meaningful offering to present to our ancestors will be given the throne'.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/0.png",
+      "imagePrompt": "Hung King speaking to his many sons in ancient palace, royal setting, Vietnamese traditional architecture, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "The princes raced to find treasures and rare delicacies from everywhere. Only the 18th prince, Lang Lieu, poor and kind-hearted, was worried because he had nothing precious.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/1.png",
+      "imagePrompt": "Prince Lang Lieu looking thoughtful and humble in a simple farming village, sunset, peaceful but concerned, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "One night, Lang Lieu dreamed of a god who told him: 'In heaven and earth, nothing is as precious as the grain of rice... Take glutinous rice to make cakes for the ancestors'.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/2.png",
+      "imagePrompt": "Lang Lieu dreaming, a gentle golden spirit appearing in his dream, rice fields in the background, magical glow, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lang Lieu chose fragrant white glutinous rice, molded a round cake symbolizing Heaven, and a square cake symbolizing Earth, with bean and meat filling inside.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/3.png",
+      "imagePrompt": "Lang Lieu making green square cakes (Banh Chung) and white round cakes (Banh Day), wrapped in leaves, simple kitchen, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "The King tasted them and found the cakes not only delicious but also filled with deep affection for the homeland. He decided to pass the throne to Lang Lieu.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/4.png",
+      "imagePrompt": "Hung King tasting the cakes, smiling proudly, Lang Lieu standing nearby, villagers celebrating, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Since then, every Tet holiday, Vietnamese people gather together to wrap Banh Chung and Banh Day to remember their roots.",
+      "image": "/images/history/lessons/founding/banh-chung-banh-day/5.png",
+      "imagePrompt": "A modern Vietnamese family gathering to wrap Banh Chung together, happy atmosphere, traditional Tet decorations, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "quiz",
+      "question": "Which prince created Banh Chung and Banh Day?",
+      "options": [
+        "Lang Lieu",
+        "Saint Giong",
+        "Mai An Tiem"
+      ],
+      "answer": "Lang Lieu"
+    },
+    {
+      "type": "quiz",
+      "question": "What shape is Banh Chung and what does it symbolize?",
+      "options": [
+        "Round - symbolizing Heaven",
+        "Square - symbolizing Earth",
+        "Triangular - symbolizing Mountains"
+      ],
+      "answer": "Square - symbolizing Earth"
+    },
+    {
+      "type": "quiz",
+      "question": "What main ingredient did Lang Lieu use to make the cakes?",
+      "options": [
+        "Corn kernels",
+        "Glutinous rice",
+        "Cassava"
+      ],
+      "answer": "Glutinous rice"
+    },
+    {
+      "type": "quiz",
+      "question": "Why did the King choose Lang Lieu to inherit the throne?",
+      "options": [
+        "Because Lang Lieu's cakes were very expensive",
+        "Because Lang Lieu was the strongest",
+        "Because Lang Lieu's offering was meaningful and filial"
+      ],
+      "answer": "Because Lang Lieu's offering was meaningful and filial"
+    }
+  ]
+}

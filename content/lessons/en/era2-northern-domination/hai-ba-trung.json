@@ -1,0 +1,54 @@
+{
+  "id": "hai-ba-trung",
+  "title": "The Trung Sisters' Uprising",
+  "heroId": "hai-ba-trung",
+  "period": "Northern Domination",
+  "summary": "In 40 AD, two sisters, Trung Trac and Trung Nhi, raised the flag of rebellion, driving out the Eastern Han army and regaining independence for the country after more than a century of domination.",
+  "image": "/images/history/thumbnails/northern-domination/hai-ba-trung.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Under the rule of the Eastern Han Dynasty, our people lived in great misery. In the Me Linh region, there were two brave sisters, Trung Trac and Trung Nhi.",
+      "image": "/images/history/lessons/northern-domination/hai-ba-trung/0.png",
+      "imagePrompt": "The Trung sisters, Trung Trac and Trung Nhi, talking to oppressed villagers, sympathetic and brave faces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 40 AD, the two sisters took a sacred oath: 'First, to avenge the nation; second, to restore the Hung family's ancient legacy'.",
+      "image": "/images/history/lessons/northern-domination/hai-ba-trung/1.png",
+      "imagePrompt": "The Trung Sisters taking a sacred oath in front of their army, solemn ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thousands of people from all over responded, joining the sisters as they rode elephants into battle against the enemy.",
+      "image": "/images/history/lessons/northern-domination/hai-ba-trung/2.png",
+      "imagePrompt": "The Trung Sisters riding two big elephants, leading a massive army of Vietnamese people, epic battle scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The enemy fled in fear. Trung Trac was honored as Queen, establishing the capital in Me Linh and regaining autonomy for the nation.",
+      "image": "/images/history/lessons/northern-domination/hai-ba-trung/3.png",
+      "imagePrompt": "Trung Trac being crowned as Queen, Me Linh capital celebration, people cheering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What animal did the Trung Sisters ride into battle?",
+      "options": [
+        "Elephant",
+        "Horse",
+        "Tiger"
+      ],
+      "answer": "Elephant"
+    },
+    {
+      "type": "quiz",
+      "question": "When the rebellion succeeded, where did the Trung Sisters establish their capital?",
+      "options": [
+        "Me Linh",
+        "Co Loa",
+        "Thang Long"
+      ],
+      "answer": "Me Linh"
+    }
+  ]
+}

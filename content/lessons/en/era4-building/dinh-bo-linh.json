@@ -1,0 +1,54 @@
+{
+  "id": "dinh-bo-linh",
+  "title": "Dinh Bo Linh Unifies the Nation",
+  "heroId": "dinh-bo-linh",
+  "period": "Building",
+  "summary": "Dinh Bo Linh, the hero from the reed flag game, defeated the 12 warlords, unified the country, and ascended the throne as Emperor, founding the Dinh Dynasty.",
+  "image": "/images/history/thumbnails/building/dinh-bo-linh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "As a child, Dinh Bo Linh often played with buffaloherd friends using reed flowers as flags, practicing mock battles in the Hoa Lu region.",
+      "image": "/images/history/lessons/building/dinh-bo-linh/0.png",
+      "imagePrompt": "A group of children playing in a field, boy Dinh Bo Linh holding a reed flower flag, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Growing up, he was a talented strategist who eventually defeated the 12 warlords dividing the country.",
+      "image": "/images/history/lessons/building/dinh-bo-linh/1.png",
+      "imagePrompt": "General Dinh Bo Linh leading his army to unify divided lands, landscape of ancient Vietnam, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 968, he unified the land and ascended the throne as Emperor, taking the title Dinh Tien Hoang.",
+      "image": "/images/history/lessons/building/dinh-bo-linh/2.png",
+      "imagePrompt": "Dinh Bo Linh's coronation ceremony as Emperor, royal guards, Hoa Lu city, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He named the country Dai Co Viet and established the capital in Hoa Lu, opening a new era of independence and strength.",
+      "image": "/images/history/lessons/building/dinh-bo-linh/3.png",
+      "imagePrompt": "Ancient city of Hoa Lu with mountains and palaces, peaceful Dai Co Viet kingdom, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Dinh Bo Linh use as flags while practicing mock battles with his friends?",
+      "options": [
+        "Reed flowers",
+        "Lotus leaves",
+        "Silk fabric"
+      ],
+      "answer": "Reed flowers"
+    },
+    {
+      "type": "quiz",
+      "question": "What did he name our country when he ascended the throne?",
+      "options": [
+        "Dai Co Viet",
+        "Au Lac",
+        "Dai Viet"
+      ],
+      "answer": "Dai Co Viet"
+    }
+  ]
+}

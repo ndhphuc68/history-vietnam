@@ -55,19 +55,24 @@ const loadEraQuestions = async () => {
   const allQuestions: QuizSlide[] = [];
 
   // Lesson files mapping
-  const lessonFiles = import.meta.glob("~/content/lessons/**/*.json");
+  const lessonFiles = import.meta.glob<{ default: LessonContent }>(
+    "~/content/lessons/**/*.json",
+  );
 
   for (const level of era.levels) {
     const fileKey = Object.keys(lessonFiles).find((path) =>
       path.endsWith(`/${level.lesson}.json`),
     );
     if (fileKey) {
-      const mod = await (lessonFiles[fileKey] as () => Promise<any>)();
-      const content = (mod.default || mod) as LessonContent;
-      const quizzes = content.slides.filter(
-        (s) => s.type === "quiz",
-      ) as QuizSlide[];
-      allQuestions.push(...quizzes);
+      const loader = lessonFiles[fileKey];
+      if (loader) {
+        const mod = await loader();
+        const content = mod.default;
+        const quizzes = content.slides.filter(
+          (s) => s.type === "quiz",
+        ) as QuizSlide[];
+        allQuestions.push(...quizzes);
+      }
     }
   }
 

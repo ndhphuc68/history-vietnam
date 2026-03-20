@@ -26,6 +26,7 @@ export const useHeroStore = defineStore('hero', () => {
   };
 
   const unlockHero = async (heroId: string): Promise<boolean> => {
+    const { locale } = useI18n();
     if (!unlockedHeroIds.value.includes(heroId)) {
       unlockedHeroIds.value.push(heroId);
       saveToStorage();
@@ -35,7 +36,7 @@ export const useHeroStore = defineStore('hero', () => {
       const { useProgressStore } = await import('./progressStore');
       const badgeStore = useBadgeStore();
       const progressStore = useProgressStore();
-      const historyMap = await import('~/content/history-map.json');
+      const historyMap = await import(`../content/${locale.value}/history-map.json`);
       badgeStore.checkNewBadges(progressStore.completedLessons, unlockedHeroIds.value, historyMap.default);
 
       return true;

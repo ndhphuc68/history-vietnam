@@ -1,0 +1,53 @@
+{
+  "id": "gia-long",
+  "title": "King Gia Long Building the Country",
+  "period": "The Nguyen Dynasty",
+  "summary": "The first King of the Nguyen Dynasty who unified the territory and built monumental works.",
+  "image": "/images/history/thumbnails/resistance/gia-long.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Did you know? King Gia Long was the person who had a great merit in joining our S-shaped land from Lang Son to Ca Mau.",
+      "image": "/images/history/lessons/resistance/gia-long/0.png",
+      "imagePrompt": "Map of Vietnam with a golden thread connecting the north and south, King Gia Long holding a compass, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He built solid dike systems to protect the people's fields from floods. He was also very interested in trade.",
+      "image": "/images/history/lessons/resistance/gia-long/1.png",
+      "imagePrompt": "People building a strong stone dike by a river, green fields, a bustling river market, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In particular, King Gia Long drafted the 'Hoang Viet luat le' (The Imperial Code of Vietnam) to maintain discipline and order for the country after many years of war.",
+      "image": "/images/history/lessons/resistance/gia-long/2.png",
+      "imagePrompt": "A large ancient legal book, an official reading a scroll to a crowd, atmosphere of law and order, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "During his reign, Vietnam's territory was expanded and its sovereignty firmly affirmed, especially in the sacred sea and island areas such as Hoang Sa and Truong Sa.",
+      "image": "/images/history/lessons/resistance/gia-long/3.png",
+      "imagePrompt": "King Gia Long standing on a cliff by the sea, looking at the islands in the distance, ancient navy boats, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the greatest merit of King Gia Long?",
+      "options": [
+        "Unifying the country's territory",
+        "Building supermarkets",
+        "Calling for investment"
+      ],
+      "answer": "Unifying the country's territory"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did he choose as the capital of the Nguyen Dynasty?",
+      "options": [
+        "Hanoi",
+        "Hue",
+        "Da Nang"
+      ],
+      "answer": "Hue"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "border-campaign",
+  "title": "The Border Campaign of 1950",
+  "period": "Anti-French",
+  "summary": "An important victory that helped liberate the northern border region, opening communication lines with friendly countries and the world.",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/border-campaign.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1950, to break the blockade by French troops, Uncle Ho and General Vo Nguyen Giap decided to open a campaign in the northern border region.",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/0.png",
+      "imagePrompt": "Uncle Ho and General Vo Nguyen Giap looking at a map on a wooden table in a cave, candles, strategic atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Uncle Ho directly went to the front lines to encourage the soldiers. The image of Uncle Ho sitting on a mountain observing the battle has become a symbol that lives on forever.",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/1.png",
+      "imagePrompt": "Uncle Ho in a simple brown suit, sitting on a rock with binoculars, looking at the distant mountains, sunrise, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Our troops bravely attacked and captured positions such as Dong Khe and That Khe. French troops had to flee in chaos, leaving behind many weapons.",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/2.png",
+      "imagePrompt": "Vietnamese soldiers charging through smoke, French soldiers retreating, rugged mountain terrain, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "This victory helped our country no longer be isolated, opening its arms to receive support from international friends for the resistance.",
+      "image": "/images/history/lessons/ho-chi-minh-era/border-campaign/3.png",
+      "imagePrompt": "A large iron gate opening on a mountain road, trucks carrying supplies entering, people waving, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who directly went to the front lines to encourage soldiers in the Border Campaign of 1950?",
+      "options": [
+        "Uncle Ho",
+        "King Gia Long",
+        "Ngo Quyen"
+      ],
+      "answer": "Uncle Ho"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the greatest significance of the Border Victory of 1950?",
+      "options": [
+        "Liberating the border region, opening international routes",
+        "To go traveling",
+        "To buy more clothes"
+      ],
+      "answer": "Liberating the border region, opening international routes"
+    }
+  ]
+}

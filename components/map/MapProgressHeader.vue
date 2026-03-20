@@ -57,11 +57,14 @@ const progressPercent = computed(() => {
             <h3
               class="text-xs font-black text-primary uppercase tracking-widest whitespace-nowrap"
             >
-              Hành trình của em
+              {{ $t("map.my_journey") }}
             </h3>
-            <span class="text-lg font-black text-text"
-              >{{ progressStore.totalCompleted }}/{{ totalLessons }} Bài</span
-            >
+            <span class="text-lg font-black text-text">{{
+              $t("map.lessons_count", {
+                count: progressStore.totalCompleted,
+                total: totalLessons,
+              })
+            }}</span>
           </div>
 
           <!-- Progress Bar -->
@@ -77,7 +80,7 @@ const progressPercent = computed(() => {
           </div>
 
           <p class="text-[10px] font-bold text-text/60 truncate italic">
-            Đang khám phá: <span class="text-text">{{ currentEraTitle }}</span>
+            {{ $t("map.currently_exploring", { era: currentEraTitle }) }}
           </p>
         </div>
       </div>

@@ -1,0 +1,63 @@
+{
+  "id": "han-rule",
+  "title": "Han Dynasty Rule",
+  "period": "Northern Domination",
+  "summary": "After defeating Au Lac, the Han Dynasty began a harsh ruling period, dividing our land into several districts.",
+  "image": "/images/history/thumbnails/northern-domination/han-rule.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 111 BC, the Han Dynasty invaded Au Lac. Our country was divided into districts: Giao Chi, Cuu Chan, and Nhat Nam.",
+      "image": "/images/history/lessons/northern-domination/han-rule/0.png",
+      "imagePrompt": "Ancient map of Vietnam divided into Han districts (Giao Chi, Cuu Chan, Nhat Nam), Han officials and soldiers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Han colonial officials held all power. They imposed hundreds of heavy taxes, making our people's lives miserable.",
+      "image": "/images/history/lessons/northern-domination/han-rule/1.png",
+      "imagePrompt": "A stern Han official collecting taxes (rice, precious goods) from poor Vietnamese villagers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "They forced our people to provide rare products from the deep forests and the sea, such as pearls, ivory, and rhinoceros horns.",
+      "image": "/images/history/lessons/northern-domination/han-rule/2.png",
+      "imagePrompt": "Vietnamese people diving for pearls or hunting in dangerous forests to find products for invaders, risky and sad, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The brutal rule of the Han Dynasty ignited the fire of hatred and the will to regain independence among the Vietnamese people.",
+      "image": "/images/history/lessons/northern-domination/han-rule/3.png",
+      "imagePrompt": "Villagers gathering in secret, looking determined and angry, preparing for a long struggle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Into how many main districts did the Han Dynasty divide our country?",
+      "options": [
+        "3 districts",
+        "5 districts",
+        "12 districts"
+      ],
+      "answer": "3 districts"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the main goal of imposing many different taxes?",
+      "options": [
+        "To help the people become wealthy",
+        "To exploit labor and resources",
+        "To build schools"
+      ],
+      "answer": "To exploit labor and resources"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following products were our people forced to give to the invaders?",
+      "options": [
+        "Industrial machinery",
+        "Ivory and pearls",
+        "Gold and oil"
+      ],
+      "answer": "Ivory and pearls"
+    }
+  ]
+}

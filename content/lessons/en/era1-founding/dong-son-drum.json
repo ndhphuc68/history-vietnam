@@ -1,0 +1,69 @@
+{
+  "id": "dong-son-drum",
+  "title": "Dong Son Bronze Drum",
+  "period": "Nation Building",
+  "summary": "A brilliant symbol of the Red River civilization, demonstrating the superb bronze-casting talent of our ancestors.",
+  "image": "/images/history/thumbnails/founding/dong-son-drum.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The Dong Son bronze drum is a special musical instrument and a symbol of the power and wealth of the tribal leaders during the Van Lang era.",
+      "image": "/images/history/lessons/founding/dong-son-drum/0.png",
+      "imagePrompt": "A magnificent bronze Dong Son drum in a tribal setting, golden sunlight highlights its complex patterns, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "The surface of the drum features vivid images of ancient life: people dancing, beating drums, pounding rice, and war boat fleets.",
+      "image": "/images/history/lessons/founding/dong-son-drum/1.png",
+      "imagePrompt": "Close up of the surface of a Dong Son drum, showing relief patterns of ancient people dancing and rowing boats, children book illustration, cartoon style, simplified patterns"
+    },
+    {
+      "type": "story",
+      "text": "At the center of the drum is a multi-pointed star pattern symbolizing the Sun God - the supreme deity in ancient Vietnamese beliefs.",
+      "image": "/images/history/lessons/founding/dong-son-drum/2.png",
+      "imagePrompt": "The star pattern at the center of a bronze drum glowing like the sun, mythical atmosphere, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Chim Lac - the legendary bird often seen on the drum's surface, represents the aspiration for freedom and prosperity.",
+      "image": "/images/history/lessons/founding/dong-son-drum/3.png",
+      "imagePrompt": "Stylized Chim Lac birds flying around the sun pattern, ancient Vietnamese aesthetics, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Bronze drums were often used in solemn ceremonies. The drum's thunderous sound encouraged the spirit of the soldiers.",
+      "image": "/images/history/lessons/founding/dong-son-drum/4.png",
+      "imagePrompt": "Ancient Vietnamese warriors beating a large bronze drum during a ceremony, bonfire, ritual dance, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which image lies at the center of the Dong Son bronze drum?",
+      "options": [
+        "A flower pattern",
+        "A star (Sun) pattern",
+        "A tiger pattern"
+      ],
+      "answer": "A star (Sun) pattern"
+    },
+    {
+      "type": "quiz",
+      "question": "Which bird often appears on the surface of the bronze drum?",
+      "options": [
+        "Chim Lac",
+        "Phoenix",
+        "Eagle"
+      ],
+      "answer": "Chim Lac"
+    },
+    {
+      "type": "quiz",
+      "question": "What material is the Dong Son bronze drum made of?",
+      "options": [
+        "Limestone",
+        "Bronze",
+        "Wood"
+      ],
+      "answer": "Bronze"
+    }
+  ]
+}

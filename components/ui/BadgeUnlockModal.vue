@@ -99,7 +99,7 @@ const getConfettiIcon = () => {
             <h4
               class="text-primary font-black uppercase tracking-[0.2em] text-sm mb-2"
             >
-              Thành tựu mới!
+              {{ $t("badge_unlock.header") }}
             </h4>
             <h2 class="text-3xl font-black text-text mb-4">
               {{ badge.title }}
@@ -112,7 +112,7 @@ const getConfettiIcon = () => {
               @click="close"
               class="w-full py-4 bg-primary text-white font-black rounded-2xl shadow-xl hover:scale-105 active:scale-95 transition-all uppercase tracking-widest"
             >
-              TUYỆT VỜI! 🚀
+              {{ $t("badge_unlock.button") }}
             </button>
           </div>
         </div>

@@ -1,0 +1,69 @@
+{
+  "id": "lac-viet-life",
+  "title": "Life of the Lac Viet People",
+  "period": "Nation Building",
+  "summary": "Explore the simple yet vibrant life of the Van Lang residents during the Hung King era.",
+  "image": "/images/history/thumbnails/founding/lac-viet-life.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The Lac Viet people mainly lived by growing wet rice. They built dikes to prevent floods and used buffalo and oxen to plow the fields.",
+      "image": "/images/history/lessons/founding/lac-viet-life/0.png",
+      "imagePrompt": "Ancient Vietnamese farmers working in rice fields with buffalo, green mountains, traditional loincloths, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "They lived in stilt houses to avoid wild animals and dampness. The houses were made from wood and bamboo with boat-shaped or round roofs.",
+      "image": "/images/history/lessons/founding/lac-viet-life/1.png",
+      "imagePrompt": "Ancient Vietnamese stilt houses (nha san) in a village, people doing activities outside, peaceful scene, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lac Viet clothing was simple: men wore loincloths and were bare-chested with tattoos; women wore skirts and halter tops (yem), with stone or bronze jewelry.",
+      "image": "/images/history/lessons/founding/lac-viet-life/2.png",
+      "imagePrompt": "People wearing ancient Lac Viet clothes, necklaces, bracelets, traditional patterns, distinct hairstyles, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "The Lac Viet were skilled in bronze casting, making many tools and especially exquisite Bronze Drums.",
+      "image": "/images/history/lessons/founding/lac-viet-life/3.png",
+      "imagePrompt": "Ancient craftsmen casting bronze, making tools, a beautiful Dong Son drum in focus, fire glowing, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "They had many unique customs like chewing betel, dyeing their teeth black, and organizing festivals with boat racing, wrestling, and dancing.",
+      "image": "/images/history/lessons/founding/lac-viet-life/4.png",
+      "imagePrompt": "Ancient Vietnamese festival, people racing long boats on a river and dancing, joyful atmosphere, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "quiz",
+      "question": "What type of house did the Lac Viet people usually live in?",
+      "options": [
+        "Multi-story house",
+        "Stilt house",
+        "Castle"
+      ],
+      "answer": "Stilt house"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the main occupation of the Van Lang residents?",
+      "options": [
+        "Growing wet rice",
+        "Deep-sea fishing",
+        "International trade"
+      ],
+      "answer": "Growing wet rice"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following customs did the Lac Viet people have?",
+      "options": [
+        "Chewing betel and dyeing teeth black",
+        "Wearing suits",
+        "Watching television"
+      ],
+      "answer": "Chewing betel and dyeing teeth black"
+    }
+  ]
+}

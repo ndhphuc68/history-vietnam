@@ -3,17 +3,17 @@
  * Terms of Service page.
  * Friendly, clear rules for children and parents.
  */
+const { t } = useI18n();
+
 useHead({
-  title: "Điều khoản sử dụng",
+  title: t("terms_page.seo_title"),
 });
 
 useSeoMeta({
-  title: "Điều khoản sử dụng - Lịch sử Nhí",
-  ogTitle: "Điều khoản sử dụng - Lịch sử Nhí",
-  description:
-    "Các quy định và hướng dẫn sử dụng ứng dụng Lịch sử Nhí một cách an toàn và hiệu quả cho bé và phụ huynh.",
-  ogDescription:
-    "Luật chơi công bằng cho hành trình khám phá lịch sử đầy thú vị.",
+  title: t("terms_page.seo_title"),
+  ogTitle: t("terms_page.seo_title"),
+  description: t("terms_page.seo_desc"),
+  ogDescription: t("terms_page.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 </script>
@@ -29,11 +29,13 @@ useSeoMeta({
           <Icon name="fluent-emoji:scroll" class="text-5xl" />
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-text tracking-tight">
-          Điều khoản <span class="text-primary">Sử dụng</span>
+          {{ $t("terms_page.title") }}
+          <span class="text-primary">{{
+            $t("terms_page.title_highlight")
+          }}</span>
         </h1>
         <p class="text-lg md:text-xl text-text/70 font-bold max-w-2xl mx-auto">
-          Những "luật chơi" nhỏ để chúng mình cùng nhau khám phá lịch sử một
-          cách vui vẻ nhất!
+          {{ $t("terms_page.subtitle") }}
         </p>
       </div>
 
@@ -54,14 +56,12 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                1. Mục đích của Lịch sử Nhí
+                {{ $t("terms_page.section_1_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Trang web này được tạo ra để giúp các bé tìm hiểu về lịch sử
-                Việt Nam qua những câu chuyện, hình ảnh và trò chơi đố vui sinh
-                động. Mọi nội dung đều hướng đến sự giáo dục và khơi gợi niềm tự
-                hào dân tộc.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('terms_page.section_1_desc')"
+              ></p>
             </div>
           </div>
         </div>
@@ -78,14 +78,12 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                2. Quyền sở hữu nội dung
+                {{ $t("terms_page.section_2_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Tất cả hình ảnh và câu chuyện trên trang web đều thuộc bản quyền
-                của **Lịch sử Nhí**. Các bé và phụ huynh có thể tự do xem và học
-                tập, nhưng vui lòng không sao chép hoặc sử dụng cho mục đích
-                thương mại khi chưa có sự cho phép nhé.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('terms_page.section_2_desc')"
+              ></p>
             </div>
           </div>
         </div>
@@ -98,17 +96,38 @@ useSeoMeta({
             <div
               class="w-14 h-14 bg-primary/20 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
-              <Icon name="fluent-emoji:rocket" class="text-3xl text-primary" />
+              <Icon name="fluent-emoji:key" class="text-3xl" />
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                3. Trách nhiệm người dùng
+                {{ $t("terms_page.section_3_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Chúng mình mong muốn tạo ra một môi trường học tập tích cực. Các
-                bé hãy sử dụng trang web một cách văn minh, góp ý chân thành để
-                chúng mình ngày càng hoàn thiện hơn.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('terms_page.section_3_desc')"
+              ></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div
+          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-text transform hover:scale-[1.01] transition-transform"
+        >
+          <div class="flex items-start gap-6">
+            <div
+              class="w-14 h-14 bg-text/20 rounded-2xl flex items-center justify-center flex-shrink-0"
+            >
+              <Icon name="fluent-emoji:rocket" class="text-3xl text-text" />
+            </div>
+            <div class="space-y-4">
+              <h2 class="text-2xl font-black text-text">
+                {{ $t("terms_page.section_4_title") }}
+              </h2>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('terms_page.section_4_desc')"
+              ></p>
             </div>
           </div>
         </div>
@@ -119,8 +138,7 @@ useSeoMeta({
         class="text-center p-8 bg-text/5 rounded-[30px] border-2 border-dashed border-text/20"
       >
         <p class="text-text/60 font-bold italic">
-          Nếu có bất kỳ câu hỏi nào, ba mẹ hãy liên hệ với chúng mình qua địa
-          chỉ email ở chân trang nhé!
+          {{ $t("terms_page.footer_note") }}
         </p>
       </div>
     </div>

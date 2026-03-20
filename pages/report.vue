@@ -1,15 +1,16 @@
 <script setup lang="ts">
+const { t } = useI18n();
+const localePath = useLocalePath();
+
 useHead({
-  title: "Báo lỗi & Góp ý",
+  title: t("report_page.seo_title"),
 });
 
 useSeoMeta({
-  title: "Báo lỗi & Góp ý - Giúp Lịch sử Nhí hoàn thiện hơn",
-  ogTitle: "Báo lỗi & Góp ý - Giúp Lịch sử Nhí hoàn thiện hơn",
-  description:
-    "Gửi góp ý hoặc báo lỗi để chúng mình cùng xây dựng một môi trường học tập lịch sử tuyệt vời nhất cho các bé.",
-  ogDescription:
-    "Cảm ơn bạn đã đồng hành và giúp đỡ Lịch sử Nhí ngày càng tốt hơn!",
+  title: t("report_page.seo_title"),
+  ogTitle: t("report_page.seo_title"),
+  description: t("report_page.seo_desc"),
+  ogDescription: t("report_page.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 
@@ -17,24 +18,11 @@ const route = useRoute();
 
 const subject = computed(() => {
   const path = typeof route.fullPath === "string" ? route.fullPath : "/";
-  return `[Lịch sử Nhí] Báo lỗi (${path})`;
+  return t("report_page.email_subject", { path });
 });
 
 const body = computed(() => {
-  return [
-    "Mô tả lỗi:",
-    "- (Bạn mô tả ngắn gọn lỗi gặp phải)",
-    "",
-    "Các bước để gặp lỗi:",
-    "1) ...",
-    "2) ...",
-    "",
-    "Thiết bị/Trình duyệt:",
-    "- Windows/macOS/iOS/Android, Chrome/Edge/Safari...",
-    "",
-    "Ảnh chụp màn hình (nếu có):",
-    "- ...",
-  ].join("\n");
+  return t("report_page.email_body");
 });
 
 const mailtoHref = computed(() => {
@@ -56,10 +44,13 @@ const mailtoHref = computed(() => {
           <Icon name="fluent-emoji:wrench" class="text-4xl" />
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-text tracking-tight">
-          Báo lỗi <span class="text-primary">nhanh</span>
+          {{ $t("report_page.title") }}
+          <span class="text-primary">{{
+            $t("report_page.title_highlight")
+          }}</span>
         </h1>
         <p class="text-lg md:text-xl text-text/70 font-bold">
-          Cảm ơn bạn đã giúp Lịch sử Nhí tốt hơn cho các bé.
+          {{ $t("report_page.subtitle") }}
         </p>
       </div>
 
@@ -69,12 +60,12 @@ const mailtoHref = computed(() => {
         <div class="space-y-6">
           <div class="space-y-2">
             <h2 class="text-2xl font-black text-text">
-              Gợi ý nội dung khi báo lỗi
+              {{ $t("report_page.guide_title") }}
             </h2>
             <ul class="list-disc pl-6 text-text/80 font-medium leading-relaxed">
-              <li>Bạn đang ở trang nào (mình sẽ tự điền trong email)</li>
-              <li>Các bước để tái hiện lỗi</li>
-              <li>Ảnh chụp màn hình (nếu có)</li>
+              <li>{{ $t("report_page.tip_1") }}</li>
+              <li>{{ $t("report_page.tip_2") }}</li>
+              <li>{{ $t("report_page.tip_3") }}</li>
             </ul>
           </div>
 
@@ -83,21 +74,20 @@ const mailtoHref = computed(() => {
               :href="mailtoHref"
               class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-secondary text-white font-black rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-transform"
             >
-              Gửi email báo lỗi
+              {{ $t("report_page.button") }}
               <Icon name="fluent-emoji:envelope" class="text-xl" />
             </a>
             <NuxtLink
-              to="/"
+              :to="localePath('/')"
               class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-text font-black rounded-2xl shadow-lg border-2 border-text/10 hover:scale-[1.02] active:scale-[0.98] transition-transform"
             >
-              Quay về trang chủ
+              {{ $t("report_page.back_home") }}
               <Icon name="fluent-emoji:house" class="text-xl" />
             </NuxtLink>
           </div>
 
           <p class="text-xs text-text/50 font-bold italic">
-            Lưu ý: hãy thay email nhận báo lỗi trong `pages/report.vue` trước
-            khi public.
+            {{ $t("report_page.note") }}
           </p>
         </div>
       </div>

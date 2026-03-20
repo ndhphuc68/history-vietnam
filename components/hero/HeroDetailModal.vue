@@ -105,7 +105,7 @@ watch(
                 <div class="flex flex-col gap-1">
                   <span
                     class="text-[10px] font-black text-primary uppercase tracking-widest"
-                    >Tên thật</span
+                    >{{ $t("hero_detail.real_name") }}</span
                   >
                   <span class="text-text font-bold text-lg">{{
                     hero.realName || "---"
@@ -114,7 +114,7 @@ watch(
                 <div class="flex flex-col gap-1">
                   <span
                     class="text-[10px] font-black text-primary uppercase tracking-widest"
-                    >Chức vụ</span
+                    >{{ $t("hero_detail.position") }}</span
                   >
                   <span class="text-text font-bold text-lg">{{
                     hero.position || "---"
@@ -123,7 +123,7 @@ watch(
                 <div class="flex flex-col gap-1">
                   <span
                     class="text-[10px] font-black text-primary uppercase tracking-widest"
-                    >Năm sinh - Năm mất</span
+                    >{{ $t("hero_detail.years") }}</span
                   >
                   <span class="text-text font-bold text-lg"
                     >{{ hero.birthDate }} - {{ hero.deathDate }}</span
@@ -132,7 +132,7 @@ watch(
                 <div class="flex flex-col gap-1">
                   <span
                     class="text-[10px] font-black text-primary uppercase tracking-widest"
-                    >Quê quán</span
+                    >{{ $t("hero_detail.hometown") }}</span
                   >
                   <span class="text-text font-bold text-lg">{{
                     hero.hometown || "---"
@@ -155,7 +155,7 @@ watch(
                     <Icon name="fluent-emoji:light-bulb" class="text-2xl" />
                   </div>
                   <h3 class="text-xl font-black text-amber-900">
-                    Bạn có biết? (Sự thật thú vị)
+                    {{ $t("hero_detail.fun_fact_title") }}
                   </h3>
                 </div>
                 <p
@@ -174,7 +174,7 @@ watch(
                     <Icon name="fluent-emoji:scroll" class="text-2xl" />
                   </div>
                   <h3 class="text-xl font-black text-text">
-                    Câu chuyện lịch sử
+                    {{ $t("hero_detail.biography_title") }}
                   </h3>
                 </div>
                 <p
@@ -193,7 +193,7 @@ watch(
                     <Icon name="fluent-emoji:military-medal" class="text-2xl" />
                   </div>
                   <h3 class="text-xl font-black text-text">
-                    Thành tựu rạng danh
+                    {{ $t("hero_detail.achievements_title") }}
                   </h3>
                 </div>
                 <ul class="grid grid-cols-1 gap-4">

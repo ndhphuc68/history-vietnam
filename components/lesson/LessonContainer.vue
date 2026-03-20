@@ -18,7 +18,12 @@ defineProps<LessonContainerProps>();
         <div
           class="bg-white/80 backdrop-blur px-4 py-1 rounded-full text-xs font-black text-text shadow-sm whitespace-nowrap"
         >
-          Slide {{ currentStep }} / {{ totalSteps }}
+          {{
+            $t("lesson_container.step", {
+              current: currentStep,
+              total: totalSteps,
+            })
+          }}
         </div>
       </div>
 

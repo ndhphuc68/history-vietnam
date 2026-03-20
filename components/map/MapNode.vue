@@ -14,11 +14,12 @@ const props = withDefaults(
   },
 );
 
+const { t } = useI18n();
+
 const statusText = computed(() => {
-  if (props.isCompleted) return "Bạn đã chinh phục cột mốc này!";
-  if (props.isUnlocked)
-    return "Khám phá câu chuyện hào hùng về nguồn gốc dân tộc.";
-  return "Nội dung đang được soạn thảo, hãy chờ nhé!";
+  if (props.isCompleted) return t("map.node.conquered");
+  if (props.isUnlocked) return t("map.node.explore_desc");
+  return t("map.node.drafting");
 });
 </script>
 
@@ -66,7 +67,8 @@ const statusText = computed(() => {
             <div
               class="bg-green-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg border-2 border-white flex items-center gap-1 uppercase tracking-widest"
             >
-              <Icon name="fluent-emoji:check-mark-button" /> Hoàn thành
+              <Icon name="fluent-emoji:check-mark-button" />
+              {{ $t("map.node.completed") }}
             </div>
           </div>
 
@@ -78,7 +80,7 @@ const statusText = computed(() => {
             <div
               class="bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full shadow-lg border-2 border-white flex items-center gap-1 uppercase tracking-widest"
             >
-              <Icon name="fluent-emoji:star" /> Bé đang ở đây
+              <Icon name="fluent-emoji:star" /> {{ $t("map.node.current") }}
             </div>
           </div>
         </div>
@@ -123,7 +125,8 @@ const statusText = computed(() => {
             :to="`/lesson/${lessonId}`"
             class="inline-flex items-center gap-3 px-8 py-4 bg-primary text-white font-black rounded-2xl shadow-xl hover:scale-105 active:scale-95 transition-all text-sm uppercase tracking-widest"
           >
-            KHÁM PHÁ <Icon name="fluent-emoji:rocket" class="text-lg" />
+            {{ $t("map.node.explore_btn") }}
+            <Icon name="fluent-emoji:rocket" class="text-lg" />
           </NuxtLink>
         </div>
       </div>

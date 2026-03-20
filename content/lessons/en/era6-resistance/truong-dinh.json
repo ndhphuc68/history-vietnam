@@ -1,0 +1,53 @@
+{
+  "id": "truong-dinh",
+  "title": "The Hero Truong Dinh",
+  "period": "Resistance",
+  "summary": "Truong Dinh chose to disobey the King's order rather than abandon the people in the resistance against the French in the Southern region.",
+  "image": "/images/history/thumbnails/resistance/truong-dinh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "When the royal court signed a peace treaty with the French and ordered Truong Dinh to disband his troops, the people instead honored him as the 'Binh Tay Dai Nguyen Soai' (Great Commander Pacificator of the West).",
+      "image": "/images/history/lessons/resistance/truong-dinh/0.png",
+      "imagePrompt": "People presenting a commander flag to Truong Dinh, huge crowd in Nam Bo landscape, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He bravely declared: 'To save the country, one must rather disobey the King', and continued to lead the insurgent troops against the French.",
+      "image": "/images/history/lessons/resistance/truong-dinh/1.png",
+      "imagePrompt": "Truong Dinh holding his sword, looking towards his soldiers, determined and resolute, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Under his command, the insurgent army used guerrilla warfare, causing the French troops many sleepless nights.",
+      "image": "/images/history/lessons/resistance/truong-dinh/2.png",
+      "imagePrompt": "Insurrection army hiding in dense bamboo groves, preparing an ambush for French soldiers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Truong Dinh is a symbol of the spirit of patriotism and selfless devotion to the people of the heroic Southern region.",
+      "image": "/images/history/lessons/resistance/truong-dinh/3.png",
+      "imagePrompt": "Truong Dinh's memorial statue with blooming flowers, peaceful countryside background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What did the people honor Truong Dinh as?",
+      "options": [
+        "Great Commander Pacificator of the West",
+        "High Chancellor",
+        "Admiral of the Navy"
+      ],
+      "answer": "Great Commander Pacificator of the West"
+    },
+    {
+      "type": "quiz",
+      "question": "In which region did Truong Dinh lead the resistance against the French?",
+      "options": [
+        "Nam Bo (South)",
+        "Bac Bo (North)",
+        "Trung Bo (Central)"
+      ],
+      "answer": "Nam Bo (South)"
+    }
+  ]
+}

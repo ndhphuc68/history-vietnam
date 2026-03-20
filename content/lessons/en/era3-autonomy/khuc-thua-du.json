@@ -1,0 +1,53 @@
+{
+  "id": "khuc-thua-du",
+  "title": "The Khuc Family Seizing Autonomy",
+  "period": "Autonomy",
+  "summary": "The elder leader Khuc Thua Du skillfully regained control of the country from the Tang Dynasty without shedding blood.",
+  "image": "/images/history/thumbnails/autonomy/khuc-thua-du.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Did you know? After hundreds of years of being ruled by others, there was a very virtuous and patriotic old man named Khuc Thua Du.",
+      "image": "/images/history/lessons/autonomy/khuc-thua-du/0.png",
+      "imagePrompt": "Kind old Vietnamese leader Khuc Thua Du talking to villagers, warm atmosphere, ancient village, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Taking advantage of the weakening Tang colonial army, he was supported by the people to take over the management of the country in 905.",
+      "image": "/images/history/lessons/autonomy/khuc-thua-du/1.png",
+      "imagePrompt": "People cheering for Khuc Thua Du as he enters the administrative center, sense of freedom and hope, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He называл himself the Jiedushi (Tiet do su), like a talented 'steward', quietly preparing for our country to become completely independent.",
+      "image": "/images/history/lessons/autonomy/khuc-thua-du/2.png",
+      "imagePrompt": "Khuc Thua Du working at a desk with ancient scrolls, organizing the country, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "His motto was: 'Tolerant administration, simplicity, and happy people'. Thanks to him, the people's lives became much easier and happier.",
+      "image": "/images/history/lessons/autonomy/khuc-thua-du/3.png",
+      "imagePrompt": "Happy Vietnamese family in a peaceful field, sunlight, birds flying, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Khuc Thua Du do to help the country?",
+      "options": [
+        "Regained control of the country",
+        "Traveled to the North",
+        "Built a palace for himself"
+      ],
+      "answer": "Regained control of the country"
+    },
+    {
+      "type": "quiz",
+      "question": "How was life described under the Khuc family era?",
+      "options": [
+        "Harder than before",
+        "Peaceful and happy",
+        "Full of wars"
+      ],
+      "answer": "Peaceful and happy"
+    }
+  ]
+}

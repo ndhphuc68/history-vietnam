@@ -1,0 +1,57 @@
+{
+  "id": "ngo-quyen-bach-dang",
+  "title": "Ngô Quyền and the Battle of Bạch Đằng",
+  "period": "Autonomy",
+  "summary": "The clever 'wooden stake trap' on the Bạch Đằng River completely ended a thousand years of Northern domination.",
+  "image": "/images/history/ngo-quyen-bach-dang.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 938, the Southern Han army sent a massive fleet of warships to invade our country. Ngô Quyền came up with a surprise 'gift' to welcome them!",
+      "image": "/images/history/ngo-quyen-bach-dang/0.png",
+      "imagePrompt": "Big fleet of enemy ships approaching, Ngô Quyền standing on the shore looking at the river, planning a secret trap, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He told his soldiers to take large tree trunks, sharpen the tips, and cover them with iron, then drive them into the bed of the Bạch Đằng River while the tide was rising.",
+      "image": "/images/history/ngo-quyen-bach-dang/1.png",
+      "imagePrompt": "Vietnamese soldiers placing giant sharpened wooden stakes into the river bed, mud splashes, hard work, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the water rose high, the stakes 'disappeared' under the surface. Ngô Quyền sent small boats to lure the enemy deep into the trap.",
+      "image": "/images/history/ngo-quyen-bach-dang/2.png",
+      "imagePrompt": "Small Vietnamese boats leading the big enemy ships into the area where stakes are hidden under water, suspense, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Waiting for the tide to recede, the sharp stakes emerged and pierced the enemy ships. Our troops immediately launched a fierce counter-attack!",
+      "image": "/images/history/ngo-quyen-bach-dang/3.png",
+      "imagePrompt": "Water level dropping, enemy ships getting stuck on the sharp stakes and tilting, fire and chaos for invaders, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Southern Han army was defeated, and the enemy general was killed. This victory opened a new era: Vietnam was completely independent and free!",
+      "image": "/images/history/ngo-quyen-bach-dang/4.png",
+      "imagePrompt": "Ngô Quyền standing heroically on his ship, soldiers cheering, victory on the river, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Ngô Quyền use to make a trap to defeat the enemy?",
+      "options": ["Iron nets", "Wooden stakes with sharpened iron tips", "Limestone"],
+      "answer": "Wooden stakes with sharpened iron tips"
+    },
+    {
+      "type": "quiz",
+      "question": "On which river did this famous battle take place?",
+      "options": ["Red River", "Bạch Đằng River", "Mekong River"],
+      "answer": "Bạch Đằng River"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the extremely important significance of the victory in 938?",
+      "options": ["Ended a thousand years of Northern domination", "Started the Stone Age", "Opened the Bronze Age"],
+      "answer": "Ended a thousand years of Northern domination"
+    }
+  ]
+}

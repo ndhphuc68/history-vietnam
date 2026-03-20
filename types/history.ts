@@ -151,3 +151,49 @@ export interface GlossaryItem {
   /** Optional category for filtering */
   category?: "Chức danh" | "Sự vật" | "Khái niệm" | "Địa danh" | "Thời kỳ";
 }
+
+/**
+ * Interface for badges earned by users.
+ */
+export interface Badge {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  rarity: "common" | "rare" | "epic" | "legendary";
+  requirement: BadgeRequirement;
+}
+
+/**
+ * Requirement structure for a badge.
+ */
+export interface BadgeRequirement {
+  type: "count" | "lesson" | "era" | "hero-count" | "mastery" | "perfect_quiz_streak" | "glossary_view_count";
+  value: string | number;
+}
+
+/**
+ * Interface for historical artifacts collected by users.
+ */
+export interface Artifact {
+  id: string;
+  lessonId: string;
+  title: string;
+  description: string;
+  icon: string;
+  rarity: "common" | "rare" | "epic" | "legendary";
+}
+
+/**
+ * Interface for letters from historical heroes.
+ */
+export interface HeroLetter {
+  id: string;
+  heroId: string;
+  lessonId: string;
+  title: string;
+  content: string;
+  signature: string;
+  date: string;
+  icon: string;
+}

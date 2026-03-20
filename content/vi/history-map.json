@@ -1,0 +1,524 @@
+{
+  "eras": [
+    {
+      "id": "founding",
+      "title": "Buổi đầu dựng nước: Văn Lang - Âu Lạc",
+      "levels": [
+        {
+          "id": "dragon-fairy",
+          "title": "Con Rồng Cháu Tiên",
+          "lesson": "dragon-fairy",
+          "year": "Thời khởi thủy"
+        },
+        {
+          "id": "hung-kings",
+          "title": "Các vua Hùng lập nước Văn Lang",
+          "lesson": "hung-kings",
+          "year": "2879 TCN"
+        },
+        {
+          "id": "banh-chung-banh-day",
+          "title": "Sự tích Bánh chưng bánh dày",
+          "lesson": "banh-chung-banh-day",
+          "year": "Hùng Vương VI"
+        },
+        {
+          "id": "thanh-giong",
+          "title": "Thánh Gióng đánh giặc Ân",
+          "lesson": "thanh-giong",
+          "year": "Hùng Vương VI"
+        },
+        {
+          "id": "lac-viet-life",
+          "title": "Đời sống người Lạc Việt",
+          "lesson": "lac-viet-life",
+          "year": "Thời Văn Lang"
+        },
+        {
+          "id": "dong-son-drum",
+          "title": "Trống đồng Đông Sơn",
+          "lesson": "dong-son-drum",
+          "year": "TK VII TCN"
+        },
+        {
+          "id": "son-tinh-thuy-tinh",
+          "title": "Sơn Tinh Thủy Tinh",
+          "lesson": "son-tinh-thuy-tinh",
+          "year": "Hùng Vương XVIII"
+        },
+        {
+          "id": "an-duong-vuong",
+          "title": "An Dương Vương lập nước Âu Lạc",
+          "lesson": "an-duong-vuong",
+          "year": "257 TCN"
+        },
+        {
+          "id": "co-loa-citadel",
+          "title": "Thành Cổ Loa",
+          "lesson": "co-loa-citadel",
+          "year": "TK III TCN"
+        },
+        {
+          "id": "magic-crossbow",
+          "title": "Nỏ thần Kim Quy",
+          "lesson": "magic-crossbow",
+          "year": "Thời Âu Lạc"
+        },
+        {
+          "id": "trieu-da-invasion",
+          "title": "Triệu Đà xâm lược",
+          "lesson": "trieu-da-invasion",
+          "year": "179 TCN"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "northern-domination",
+      "title": "Ngàn năm Bắc thuộc & Đấu tranh",
+      "levels": [
+        {
+          "id": "han-rule",
+          "title": "Nhà Hán cai trị",
+          "lesson": "han-rule",
+          "year": "111 TCN"
+        },
+        {
+          "id": "assimilation-policy",
+          "title": "Chính sách đồng hóa",
+          "lesson": "assimilation-policy",
+          "year": "TK I - X"
+        },
+        {
+          "id": "life-under-rule",
+          "title": "Cuộc sống người Việt bản địa",
+          "lesson": "life-under-rule",
+          "year": "Thời Bắc thuộc"
+        },
+        {
+          "id": "hai-ba-trung",
+          "title": "Khởi nghĩa Hai Bà Trưng",
+          "lesson": "hai-ba-trung",
+          "year": "40"
+        },
+        {
+          "id": "ba-trieu",
+          "title": "Khởi nghĩa Bà Triệu",
+          "lesson": "ba-trieu",
+          "year": "248"
+        },
+        {
+          "id": "other-rebellions",
+          "title": "Các cuộc nổi dậy khác",
+          "lesson": "other-rebellions",
+          "year": "TK V - IX"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "autonomy",
+      "title": "Bước ngoặt lịch sử: Quyền tự chủ",
+      "levels": [
+        {
+          "id": "khuc-thua-du",
+          "title": "Họ Khúc giành quyền tự chủ",
+          "lesson": "khuc-thua-du",
+          "year": "905"
+        },
+        {
+          "id": "khuc-hao-reform",
+          "title": "Khúc Hạo cải cách",
+          "lesson": "khuc-hao-reform",
+          "year": "907"
+        },
+        {
+          "id": "duong-dinh-nghe",
+          "title": "Dương Đình Nghệ chống Nam Hán",
+          "lesson": "duong-dinh-nghe",
+          "year": "931"
+        },
+        {
+          "id": "ngo-quyen-prep",
+          "title": "Ngô Quyền chuẩn bị đại chiến",
+          "lesson": "ngo-quyen-prep",
+          "year": "938"
+        },
+        {
+          "id": "bach-dang-938",
+          "title": "Chiến thắng Bạch Đằng 938",
+          "lesson": "bach-dang-938",
+          "year": "938"
+        },
+        {
+          "id": "ngo-dynasty",
+          "title": "Nhà Ngô xây dựng đất nước",
+          "lesson": "ngo-dynasty",
+          "year": "939"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "building",
+      "title": "Thời đại huy hoàng: Lý - Trần - Hồ",
+      "levels": [
+        {
+          "id": "twelve-warlords",
+          "title": "Loạn 12 sứ quân",
+          "lesson": "twelve-warlords",
+          "year": "944"
+        },
+        {
+          "id": "dinh-bo-linh",
+          "title": "Đinh Bộ Lĩnh thống nhất",
+          "lesson": "dinh-bo-linh",
+          "year": "968"
+        },
+        {
+          "id": "dinh-dynasty",
+          "title": "Nhà Đinh thành lập",
+          "lesson": "dinh-dynasty",
+          "year": "968"
+        },
+        {
+          "id": "le-hoan",
+          "title": "Lê Hoàn chống quân Tống",
+          "lesson": "le-hoan",
+          "year": "981"
+        },
+        {
+          "id": "ly-cong-uan",
+          "title": "Lý Công Uẩn lên ngôi",
+          "lesson": "ly-cong-uan",
+          "year": "1009"
+        },
+        {
+          "id": "move-capital",
+          "title": "Dời đô về Thăng Long",
+          "lesson": "move-capital",
+          "year": "1010"
+        },
+        {
+          "id": "van-mieu",
+          "title": "Văn Miếu Quốc Tử Giám",
+          "lesson": "van-mieu",
+          "year": "1070"
+        },
+        {
+          "id": "ly-thuong-kiet",
+          "title": "Lý Thường Kiệt chống Tống",
+          "lesson": "ly-thuong-kiet",
+          "year": "1075"
+        },
+        {
+          "id": "tran-foundation",
+          "title": "Nhà Trần thành lập",
+          "lesson": "tran-foundation",
+          "year": "1225"
+        },
+        {
+          "id": "mongol-war-1",
+          "title": "Chống Nguyên Mông lần 1",
+          "lesson": "mongol-war-1",
+          "year": "1258"
+        },
+        {
+          "id": "dien-hong",
+          "title": "Hội nghị Diên Hồng",
+          "lesson": "dien-hong",
+          "year": "1284"
+        },
+        {
+          "id": "mongol-war-2",
+          "title": "Chống Nguyên Mông lần 2",
+          "lesson": "mongol-war-2",
+          "year": "1285"
+        },
+        {
+          "id": "van-don-victory",
+          "title": "Chiến thắng Vân Đồn",
+          "lesson": "van-don-victory",
+          "year": "1287"
+        },
+        {
+          "id": "bach-dang-1288",
+          "title": "Đại thắng Bạch Đằng 1288",
+          "lesson": "bach-dang-1288",
+          "year": "1288"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "independence-restored",
+      "title": "Hành trình phục hưng: Lê - Tây Sơn",
+      "levels": [
+        {
+          "id": "ming-rule",
+          "title": "Nhà Minh đô hộ",
+          "lesson": "ming-rule",
+          "year": "1407"
+        },
+        {
+          "id": "lam-son-uprising",
+          "title": "Lê Lợi khởi nghĩa Lam Sơn",
+          "lesson": "lam-son-uprising",
+          "year": "1418"
+        },
+        {
+          "id": "nguyen-trai",
+          "title": "Nguyễn Trãi giúp khởi nghĩa",
+          "lesson": "nguyen-trai",
+          "year": "1420"
+        },
+        {
+          "id": "chi-lang-victory",
+          "title": "Chiến thắng Chi Lăng",
+          "lesson": "chi-lang-victory",
+          "year": "1427"
+        },
+        {
+          "id": "binh-ngo",
+          "title": "Bình Ngô đại cáo",
+          "lesson": "binh-ngo",
+          "year": "1428"
+        },
+        {
+          "id": "later-le-dynasty",
+          "title": "Nhà Lê sơ phát triển",
+          "lesson": "later-le-dynasty",
+          "year": "1428"
+        },
+        {
+          "id": "hong-duc-law",
+          "title": "Luật Hồng Đức",
+          "lesson": "hong-duc-law",
+          "year": "1483"
+        },
+        {
+          "id": "tay-son-uprising",
+          "title": "Khởi nghĩa Tây Sơn",
+          "lesson": "tay-son-uprising",
+          "year": "1771"
+        },
+        {
+          "id": "rach-gam-xoai-mut",
+          "title": "Chiến thắng Rạch Gầm Xoài Mút",
+          "lesson": "rach-gam-xoai-mut",
+          "year": "1785"
+        },
+        {
+          "id": "nguyen-hue",
+          "title": "Nguyễn Huệ lên ngôi Quang Trung",
+          "lesson": "nguyen-hue",
+          "year": "1788"
+        },
+        {
+          "id": "ngoc-hoi-dong-da",
+          "title": "Đại thắng Ngọc Hồi Đống Đa",
+          "lesson": "ngoc-hoi-dong-da",
+          "year": "1789"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "resistance",
+      "title": "Nhà Nguyễn & Kháng chiến chống Pháp",
+      "levels": [
+        {
+          "id": "nguyen-foundation",
+          "title": "Nhà Nguyễn thành lập",
+          "lesson": "nguyen-foundation",
+          "year": "1802"
+        },
+        {
+          "id": "gia-long",
+          "title": "Vua Gia Long xây dựng đất nước",
+          "lesson": "gia-long",
+          "year": "1802"
+        },
+        {
+          "id": "minh-mang",
+          "title": "Vua Minh Mạng quyết đoán",
+          "lesson": "minh-mang",
+          "year": "1820"
+        },
+        {
+          "id": "french-invasion",
+          "title": "Pháp xâm lược Việt Nam",
+          "lesson": "french-invasion",
+          "year": "1858"
+        },
+        {
+          "id": "truong-dinh",
+          "title": "Anh hùng Trương Định",
+          "lesson": "truong-dinh",
+          "year": "1862"
+        },
+        {
+          "id": "can-vuong",
+          "title": "Phong trào Cần Vương",
+          "lesson": "can-vuong",
+          "year": "1885"
+        },
+        {
+          "id": "ham-nghi",
+          "title": "Vua Hàm Nghi yêu nước",
+          "lesson": "ham-nghi",
+          "year": "1885"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "patriotic-movements",
+      "title": "Phong trào yêu nước đầu TK XX",
+      "levels": [
+        {
+          "id": "phan-boi-chau",
+          "title": "Nhà yêu nước Phan Bội Châu",
+          "lesson": "phan-boi-chau",
+          "year": "1904"
+        },
+        {
+          "id": "dong-du",
+          "title": "Phong trào Đông Du",
+          "lesson": "dong-du",
+          "year": "1905"
+        },
+        {
+          "id": "phan-chau-trinh",
+          "title": "Nhà cải cách Phan Châu Trinh",
+          "lesson": "phan-chau-trinh",
+          "year": "1906"
+        },
+        {
+          "id": "ho-chi-minh-young",
+          "title": "Cậu bé Nguyễn Sinh Cung",
+          "lesson": "ho-chi-minh-young",
+          "year": "1890"
+        },
+        {
+          "id": "departure-1911",
+          "title": "Bác Hồ ra đi tìm đường cứu nước",
+          "lesson": "departure-1911",
+          "year": "1911"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "ho-chi-minh-era",
+      "title": "Độc lập & Kháng chiến chống Pháp",
+      "levels": [
+        {
+          "id": "august-revolution",
+          "title": "Cách mạng tháng Tám 1945",
+          "lesson": "august-revolution",
+          "year": "1945"
+        },
+        {
+          "id": "independence-declaration",
+          "title": "Tuyên ngôn Độc lập",
+          "lesson": "independence-declaration",
+          "year": "1945"
+        },
+        {
+          "id": "nationwide-resistance",
+          "title": "Toàn quốc kháng chiến",
+          "lesson": "nationwide-resistance",
+          "year": "1946"
+        },
+        {
+          "id": "border-campaign",
+          "title": "Chiến dịch Biên giới",
+          "lesson": "border-campaign",
+          "year": "1950"
+        },
+        {
+          "id": "dien-bien-phu",
+          "title": "Đại thắng Điện Biên Phủ",
+          "lesson": "dien-bien-phu",
+          "year": "1954"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "anti-us-war",
+      "title": "Kháng chiến chống Mỹ cứu nước",
+      "levels": [
+        {
+          "id": "resistance-war-us",
+          "title": "Cuộc chiến chia cắt sơn hà",
+          "lesson": "resistance-war-us",
+          "year": "1954"
+        },
+        {
+          "id": "ho-chi-minh-trail",
+          "title": "Đường Trường Sơn huyền thoại",
+          "lesson": "ho-chi-minh-trail",
+          "year": "1959"
+        },
+        {
+          "id": "dong-khoi-movement",
+          "title": "Phong trào Đồng khởi",
+          "lesson": "dong-khoi-movement",
+          "year": "1960"
+        },
+        {
+          "id": "tet-offensive",
+          "title": "Tổng tiến công Mậu Thân 1968",
+          "lesson": "tet-offensive",
+          "year": "1968"
+        },
+        {
+          "id": "air-dien-bien-phu",
+          "title": "Điện Biên Phủ trên không",
+          "lesson": "air-dien-bien-phu",
+          "year": "1972"
+        },
+        {
+          "id": "paris-agreement",
+          "title": "Hiệp định Paris 1973",
+          "lesson": "paris-agreement",
+          "year": "1973"
+        },
+        {
+          "id": "ho-chi-minh-campaign",
+          "title": "Chiến dịch Hồ Chí Minh",
+          "lesson": "ho-chi-minh-campaign",
+          "year": "1975"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "unified-vietnam",
+      "title": "Việt Nam Thống nhất & Đổi mới",
+      "levels": [
+        {
+          "id": "reunification",
+          "title": "Đất nước trọn niềm vui",
+          "lesson": "reunification",
+          "year": "1975"
+        },
+        {
+          "id": "doi-moi",
+          "title": "Thời kỳ Đổi mới",
+          "lesson": "doi-moi",
+          "year": "1986"
+        },
+        {
+          "id": "modern-vietnam",
+          "title": "Việt Nam ngày nay",
+          "lesson": "modern-vietnam",
+          "year": "TK XXI"
+        }
+      ],
+      "enabled": false
+    }
+  ]
+}

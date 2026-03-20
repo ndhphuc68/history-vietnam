@@ -1,0 +1,52 @@
+# Prompts with STRENGTHENED CONSISTENCY: era10-unified
+
+> NOTICE: All prompts now use the Master Style Prefix and Suffix for visual unity.
+
+### Lesson: Việt Nam ngày nay
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/unified-vietnam/modern-vietnam.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Một Việt Nam hòa bình, xinh đẹp và hiện đại, nơi thế hệ trẻ đang nỗ lực học tập để xây dựng đất nước rạng rỡ hơn., with Vietnamese text overlay: "Việt Nam ngày nay" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Panoramic view of a modern Vietnamese city at night, bright lights, skyscrapers, a river with bridges, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Việt Nam ngày nay" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Beautiful Ha Long Bay with limestone islands and turquoise water, a scenic cruise boat, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng ta vẫn luôn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Children playing with a robot, using tablets, in a futuristic classroom, curious and happy faces, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thế hệ trẻ Việt" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A child looking at a history book while standing in a modern city, symbolic bridge between past and future, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù đất nước có" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đất nước trọn niềm vui
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/unified-vietnam/reunification.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sau ngày 30/4, cả nước bước vào thời kỳ mới, chung tay xây dựng lại quê hương và ổn định cuộc sống sau nhiều năm chiến tranh., with Vietnamese text overlay: "Đất nước trọn niềm vui" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A long red and yellow train traveling through beautiful landscapes (mountains and sea), kids waving from windows, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hòa bình lập lại," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People working together to plant trees and rebuild a village, blooming flowers, new roofs, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Người dân cùng nhau" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large welcome sign with the new name of the country, modern buildings and traditional pagodas, city and nature, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1976, tên nước" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A golden horizon, children of all ethnicities in traditional clothes standing together, looking at the future, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng ta đã thực" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+

@@ -1,0 +1,54 @@
+{
+  "id": "ba-trieu",
+  "title": "Lady Trieu's Uprising",
+  "heroId": "ba-trieu",
+  "period": "Northern Domination",
+  "summary": "In 248 AD, Trieu Thi Trinh, a daughter of the Cuu Chan land, raised the flag of rebellion against the Wu army, leaving behind immortal words of patriotism.",
+  "image": "/images/history/thumbnails/northern-domination/ba-trieu.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Lady Trieu's real name was Trieu Thi Trinh, a strong woman with a great sense of national pride.",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/0.png",
+      "imagePrompt": "Young Lady Trieu practicing martial arts in the mountains, determined look, beautiful landscape, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "She is famous for the saying: 'I want to ride the strong wind, tread the fierce waves, and slay the giant whales of the Eastern Sea...'.",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/1.png",
+      "imagePrompt": "Lady Trieu standing on a high cliff, wind blowing her hair, symbolic image of riding wind and waves, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "She often wore golden armor, walked on ivory clogs, and rode a white elephant as she charged into battle against the Wu army.",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/2.png",
+      "imagePrompt": "Lady Trieu in golden armor, riding a white elephant with 3 tusks, leading her army to battle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Her majestic presence made the enemy tremble whenever they heard her name, calling her the 'Splendid Flower General' (Nhuy Kieu Tuong quan).",
+      "image": "/images/history/lessons/northern-domination/ba-trieu/3.png",
+      "imagePrompt": "Enemies fleeing in fear as Lady Trieu approaches, heroic and majestic presence, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What color armor did Lady Trieu usually wear into battle?",
+      "options": [
+        "Gold",
+        "Red",
+        "Green"
+      ],
+      "answer": "Gold"
+    },
+    {
+      "type": "quiz",
+      "question": "What did the enemy call Lady Trieu?",
+      "options": [
+        "Splendid Flower General",
+        "Queen Regnant",
+        "Great General"
+      ],
+      "answer": "Splendid Flower General"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "binh-ngo",
+  "title": "Binh Ngo Dai Cao",
+  "period": "Restoration",
+  "summary": "The second declaration of independence of the nation, affirming sovereignty and peace for the country after 20 years of resistance.",
+  "image": "/images/history/thumbnails/independence-restored/binh-ngo.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1428, after the Ming invaders had retreated to their country, Nguyen Trai wrote the 'Binh Ngo Dai Cao' on behalf of Le Loi to announce the joyous news to the entire nation.",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/0.png",
+      "imagePrompt": "Nguyen Trai reading a large scroll from a high balcony to a crowd of cheering people, golden sunlight, celebration, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The proclamation affirmed: Our country of Viet has been a land of ancient culture, with its own mountains and rivers, its own borders, and heroic people in every generation.",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/1.png",
+      "imagePrompt": "Symbolic representation of Vietnamese culture: a lotus, a traditional roof, a writing brush, and a sword, all harmonious, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "This is considered Vietnam's second 'Declaration of Independence'. It opened up a period of peace and nation-building after 20 years of misery under the invaders' heels.",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/2.png",
+      "imagePrompt": "White pigeons flying over a peaceful village, people plowing fields again, kids playing, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The heroic words of 'Binh Ngo Dai Cao' still echo today, reminding us of our national pride and a will that will never surrender.",
+      "image": "/images/history/lessons/independence-restored/binh-ngo/3.png",
+      "imagePrompt": "The golden characters of the title 'BINH NGO DAI CAO' shining against a beautiful sunrise, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who is the author of 'Binh Ngo Dai Cao'?",
+      "options": [
+        "Le Loi",
+        "Nguyen Trai",
+        "Ly Thuong Kiet"
+      ],
+      "answer": "Nguyen Trai"
+    },
+    {
+      "type": "quiz",
+      "question": "In what year was 'Binh Ngo Dai Cao' written?",
+      "options": [
+        "1428",
+        "938",
+        "1945"
+      ],
+      "answer": "1428"
+    }
+  ]
+}

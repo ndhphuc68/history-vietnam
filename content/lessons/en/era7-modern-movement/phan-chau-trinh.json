@@ -1,0 +1,53 @@
+{
+  "id": "phan-chau-trinh",
+  "title": "The Reformer Phan Chau Trinh",
+  "period": "Modernization",
+  "summary": "The scholar with the motto 'Enlighten the people, invigorate the spirit, and improve the people's livelihoods' - desiring to modernize the country through education and culture.",
+  "image": "/images/history/thumbnails/patriotic-movements/phan-chau-trinh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Unlike Phan Boi Chau, Phan Chau Trinh believed that to save the country, the first step was to help our people become more knowledgeable and stronger.",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/0.png",
+      "imagePrompt": "Phan Chau Trinh in a modern style suite and short hair, looking at a group of people reading newspapers, progressive look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He introduced the slogans: 'Khai dan tri' (Enlighten the people), 'Chan dan khi' (Invigorate the spirit), and 'Hau dan sinh' (Improve the people's livelihoods).",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/1.png",
+      "imagePrompt": "Three icons representing knowledge (a book), spirit (a rising sun), and life (a bowl of rice), glowing and interconnected, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Phan Chau Trinh was very enthusiastic about opening schools, encouraging everyone to cut their hair short, wear modern clothes, and discard backward customs.",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/2.png",
+      "imagePrompt": "A busy community school (Duy Tân trường học), people cutting their long hair, wearing modern clothes, sense of excitement, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "His ideas breathed a new life into Vietnamese society at that time, reminding us that knowledge is the key to freedom.",
+      "image": "/images/history/lessons/patriotic-movements/phan-chau-trinh/3.png",
+      "imagePrompt": "A large golden key made of light unlocking a library door, symbol of enlightenment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "By what path did Phan Chau Trinh want to save the country?",
+      "options": [
+        "Immediate armed struggle",
+        "Educational and cultural reform (Duy Tan)",
+        "Finding treasure"
+      ],
+      "answer": "Educational and cultural reform (Duy Tan)"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following famous sayings belongs to Phan Chau Trinh?",
+      "options": [
+        "Enlighten the people, invigorate the spirit, and improve the people's livelihoods",
+        "Live by the light of the lamp, die by the sound of the trumpet",
+        "Learning must go hand in hand with practice"
+      ],
+      "answer": "Enlighten the people, invigorate the spirit, and improve the people's livelihoods"
+    }
+  ]
+}

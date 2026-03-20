@@ -1,16 +1,17 @@
 <script setup lang="ts">
+const { t } = useI18n();
+const localePath = useLocalePath();
+
 // Landing page for the Vietnamese History Learning App
 useHead({
-  title: "Hành trình ngược thời gian",
+  title: t("hero.title_main"),
 });
 
 useSeoMeta({
-  title: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
-  ogTitle: "Lịch sử Việt Nam cho Bé - Hành trình về nguồn cội",
-  description:
-    "Học lịch sử Việt Nam qua những câu chuyện hấp dẫn, hình ảnh sinh động và các trò chơi đố vui hấp dẫn dành cho trẻ em.",
-  ogDescription:
-    "Khám phá 4000 năm lịch sử Việt Nam qua ứng dụng học tập tương tác, trực quan và vui nhộn.",
+  title: t("hero.title_main") + " - " + t("hero.title_sub"),
+  ogTitle: t("hero.title_main") + " - " + t("hero.title_sub"),
+  description: t("hero.description"),
+  ogDescription: t("hero.description"),
   ogImage: "/images/banner/banner.png",
   twitterCard: "summary_large_image",
 });
@@ -29,16 +30,16 @@ useSeoMeta({
       <div
         class="inline-block px-4 py-1 mb-6 bg-accent text-text font-bold rounded-full text-sm uppercase tracking-wider transform -rotate-2"
       >
-        <Icon name="fluent-emoji:house" class="mr-2 text-xl" /> Khám phá 4000
-        năm Lịch Sử
+        <Icon name="fluent-emoji:house" class="mr-2 text-xl" />
+        {{ $t("hero.subtitle") }}
       </div>
 
       <h1
         class="text-4xl sm:text-5xl md:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
       >
-        Hành trình ngược thời gian <br />
+        {{ $t("hero.title_main") }} <br />
         <span class="text-primary relative">
-          cùng Bé yêu!
+          {{ $t("hero.title_sub") }}
           <svg
             class="absolute -bottom-2 left-0 w-full"
             viewBox="0 0 300 12"
@@ -55,24 +56,23 @@ useSeoMeta({
       </h1>
 
       <p class="text-lg md:text-2xl text-text opacity-80 max-w-2xl mb-12 px-2">
-        Học lịch sử Việt Nam qua những câu chuyện thú vị, hình ảnh sinh động và
-        các trò chơi đố vui hấp dẫn.
+        {{ $t("hero.description") }}
       </p>
 
       <div
         class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 sm:px-0"
       >
         <NuxtLink
-          to="/lesson"
+          :to="localePath('/lesson')"
           class="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 md:py-5 ring-offset-2 ring-primary focus:ring-4"
         >
-          Bắt đầu Hành Trình
+          {{ $t("hero.start_journey") }}
         </NuxtLink>
         <NuxtLink
-          to="/lesson"
+          :to="localePath('/lesson')"
           class="bg-white border-4 border-secondary text-secondary text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full hover:bg-secondary hover:text-white transition-all shadow-lg flex items-center justify-center"
         >
-          Danh sách Bài học
+          {{ $t("hero.lesson_list") }}
         </NuxtLink>
       </div>
 
@@ -82,7 +82,7 @@ useSeoMeta({
       >
         <UiLazyImage
           src="/images/banner/banner.png"
-          alt="Bản đồ các anh hùng dân tộc Việt Nam"
+          :alt="$t('lesson_hero.banner_alt')"
           class="w-full h-auto object-cover group-hover:brightness-105 transition-all duration-700"
           loading="eager"
         />
@@ -107,7 +107,7 @@ useSeoMeta({
       <div class="max-w-7xl mx-auto px-4 relative z-10">
         <div class="text-center mb-16 md:mb-20 animate-fade-in px-4">
           <h2 class="text-3xl md:text-5xl font-black text-text mb-4">
-            Tại sao bé sẽ thích Lịch sử Nhí?
+            {{ $t("features.title") }}
           </h2>
           <div class="h-2 w-24 bg-primary rounded-full mx-auto"></div>
         </div>
@@ -136,11 +136,10 @@ useSeoMeta({
             </div>
 
             <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
-              Câu chuyện hấp dẫn
+              {{ $t("features.storytelling.title") }}
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
-              Tìm hiểu về các đời vua Hùng, Thánh Gióng, Hai Bà Trưng qua những
-              mẩu truyện tranh sinh động, đưa bé vào thế giới cổ tích nhiệm màu.
+              {{ $t("features.storytelling.desc") }}
             </p>
           </div>
 
@@ -166,11 +165,10 @@ useSeoMeta({
             </div>
 
             <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
-              Trò chơi đố vui
+              {{ $t("features.quiz.title") }}
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
-              Thử thách trí thông minh với các câu hỏi lý thú. Càng chơi càng
-              biểu giỏi để nhận được những huy hiệu dũng sĩ lịch sử cực ngầu!
+              {{ $t("features.quiz.desc") }}
             </p>
           </div>
 
@@ -196,11 +194,10 @@ useSeoMeta({
             </div>
 
             <h3 class="text-2xl md:text-3xl font-black text-text mb-4">
-              Dũng sĩ lịch sử
+              {{ $t("features.heroes.title") }}
             </h3>
             <p class="text-lg text-text/70 font-medium leading-relaxed">
-              Gặp gỡ và sưu tầm các anh hùng dân tộc hào hùng, học hỏi từ những
-              chiến công vĩ đại đã làm nên tên tuổi nước nhà.
+              {{ $t("features.heroes.desc") }}
             </p>
           </div>
         </div>

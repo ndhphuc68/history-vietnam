@@ -1,0 +1,53 @@
+{
+  "id": "van-don-victory",
+  "title": "The Victory at Van Don",
+  "period": "Building",
+  "summary": "The young general Tran Khanh Du cleverly defeated the enemy's supply fleet, leaving them in a state of hunger and desperation.",
+  "image": "/images/history/thumbnails/building/van-don-victory.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Did you know? For a large army to win, they must have full stomachs. The Mongol-Yuan army had a fleet of ships carrying food following behind them.",
+      "image": "/images/history/lessons/building/van-don-victory/0.png",
+      "imagePrompt": "Large transport ships heavily loaded with rice bags and barrels, slow moving on the sea, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "General Tran Khanh Du recognized this weakness. He led our troops to ambush them in the beautiful sea region of Van Don.",
+      "image": "/images/history/lessons/building/van-don-victory/1.png",
+      "imagePrompt": "Small Vietnamese boats hidden behind rocky islands in Ha Long bay style, waiting for the enemy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "As the supply fleet passed, our troops suddenly launched a fierce attack. All of the enemy's food supplies were sunk into the sea or destroyed.",
+      "image": "/images/history/lessons/building/van-don-victory/2.png",
+      "imagePrompt": "Sea battle, fire on the transport ships, bags of rice falling into the water, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Losing their food, the enemy soldiers panicked and became exhausted. This was a crucial turning point that helped our troops achieve the great victory later.",
+      "image": "/images/history/lessons/building/van-don-victory/3.png",
+      "imagePrompt": "Hungry enemy soldiers looking at the empty sea, stomachs growling (visual effect), children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who commanded the victory at Van Don?",
+      "options": [
+        "Tran Hung Dao",
+        "Tran Khanh Du",
+        "Pham Ngu Lao"
+      ],
+      "answer": "Tran Khanh Du"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the main goal of our troops in the Battle of Van Don?",
+      "options": [
+        "To attack the troop-carrying ships",
+        "To attack the enemy's food supply fleet",
+        "To attack the palace"
+      ],
+      "answer": "To attack the enemy's food supply fleet"
+    }
+  ]
+}

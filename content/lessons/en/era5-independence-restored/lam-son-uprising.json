@@ -1,0 +1,54 @@
+{
+  "id": "lam-son-uprising",
+  "title": "Le Loi and the Lam Son Uprising",
+  "heroId": "le-loi",
+  "period": "Restoration",
+  "summary": "In the Lam Son mountains, the hero Le Loi gathered the people to revolt against the Ming invaders, regaining independence after 10 years of hardship.",
+  "image": "/images/history/thumbnails/independence-restored/lam-son-uprising.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In the early days of the uprising in Lam Son, our troops faced many difficulties and a severe lack of food.",
+      "image": "/images/history/lessons/independence-restored/lam-son-uprising/0.png",
+      "imagePrompt": "Le Loi and his soldiers in a dense forest, looking tired but determined, small camp fire, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Le Loi and his generals swore an oath to work together with one heart at the Lung Nhai Oath ceremony to drive out the Ming army.",
+      "image": "/images/history/lessons/independence-restored/lam-son-uprising/1.png",
+      "imagePrompt": "Le Loi and his generals performing a sacred oath ceremony in Lung Nhai, mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Gradually, our army grew stronger, winning many important battles and forcing the enemy to retreat and entrench themselves in citadels.",
+      "image": "/images/history/lessons/independence-restored/lam-son-uprising/2.png",
+      "imagePrompt": "Brave insurrection army charging towards enemy forts, high morale, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "According to legend, Le Loi received a magic sword engraved with the words 'Thuan Thien' (Heaven's Will) to fight the invaders and save the country.",
+      "image": "/images/history/lessons/independence-restored/lam-son-uprising/3.png",
+      "imagePrompt": "Le Loi holding a glowing magic sword with 'Thuan Thien' text engraved, heroic pose, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did Le Loi's uprising break out?",
+      "options": [
+        "Lam Son",
+        "Me Linh",
+        "Soc Son"
+      ],
+      "answer": "Lam Son"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the name of the magic sword King Le Loi received?",
+      "options": [
+        "Thuan Thien",
+        "Magic Crossbow",
+        "Precious Sword"
+      ],
+      "answer": "Thuan Thien"
+    }
+  ]
+}

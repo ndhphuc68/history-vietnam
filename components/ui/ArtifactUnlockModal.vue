@@ -3,6 +3,8 @@ import { useArtifactStore } from "~/stores/artifactStore";
 import { useMascotStore } from "~/stores/mascotStore";
 import confetti from "canvas-confetti";
 
+const { t } = useI18n();
+const localePath = useLocalePath();
 const artifactStore = useArtifactStore();
 const mascotStore = useMascotStore();
 const show = computed(() => artifactStore.showUnlockModal);
@@ -16,7 +18,7 @@ watch(show, (newVal) => {
   if (newVal && artifact.value) {
     // Mascot congratulates
     mascotStore.say(
-      `Chúc mừng nhé! Bạn đã tìm thấy báu vật "${artifact.value.title}" rồi đấy!`,
+      t("artifact_unlock.mascot_congrat", { title: artifact.value.title }),
       "happy",
       6000,
     );
@@ -35,12 +37,12 @@ watch(show, (newVal) => {
   }
 });
 
-const rarityLabel = {
-  common: "Cơ bản",
-  rare: "Hiếm",
-  epic: "Sử thi",
-  legendary: "Huyền thoại",
-};
+const rarityLabel = computed(() => ({
+  common: t("badge_gallery.rarity.common"),
+  rare: t("badge_gallery.rarity.rare"),
+  epic: t("badge_gallery.rarity.epic"),
+  legendary: t("badge_gallery.rarity.legendary"),
+}));
 
 const rarityClasses = {
   common: "bg-slate-100 text-slate-600",
@@ -76,7 +78,7 @@ const rarityClasses = {
             class="inline-block px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-6"
             :class="rarityClasses[artifact.rarity]"
           >
-            Báu vật mới!
+            {{ $t("artifact_unlock.title") }}
           </div>
 
           <div class="relative mb-8 group">
@@ -113,15 +115,15 @@ const rarityClasses = {
               @click="closeModal"
               class="btn-primary py-5 text-xl w-full shadow-[0_10px_30px_rgba(26,83,92,0.3)] hover:shadow-[0_15px_40px_rgba(26,83,92,0.4)]"
             >
-              Thật tuyệt vời!
+              {{ $t("artifact_unlock.button") }}
             </button>
 
             <NuxtLink
-              to="/badges"
+              :to="localePath('/badges')"
               @click="closeModal"
               class="text-primary font-black text-lg hover:underline underline-offset-8"
             >
-              Xem bộ sưu tập báu vật
+              {{ $t("artifact_unlock.view_all") }}
             </NuxtLink>
           </div>
         </div>

@@ -1,0 +1,53 @@
+{
+  "id": "van-mieu",
+  "title": "Temple of Literature - Quoc Tu Giam",
+  "period": "Building",
+  "summary": "Our country's first university, a place to train talented people to help the King build the nation.",
+  "image": "/images/history/thumbnails/building/van-mieu.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Do you like going to school? During the Ly Dynasty, in 1070, King Ly Thanh Tong ordered the construction of the Temple of Literature (Van Mieu) to worship saints and scholars.",
+      "image": "/images/history/lessons/building/van-mieu/0.png",
+      "imagePrompt": "The Khue Van Cac pavilion with its round window, ancient architecture, beautiful gardens, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "A few years later, Quoc Tu Giam (the Imperial Academy) was built next to it. This was our country's very first university!",
+      "image": "/images/history/lessons/building/van-mieu/1.png",
+      "imagePrompt": "Ancient classroom, students wearing traditional gowns and hats, writing with brushes on scrolls, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The brightness of talented scholars from all over would gather here to master the scriptures. Those who passed the high exams would have their names carved on stone stelae atop large tortoises.",
+      "image": "/images/history/lessons/building/van-mieu/2.png",
+      "imagePrompt": "Stone stelae on turtle backs (bia tiến sĩ), a student proudly pointing at a name, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Van Mieu-Quoc Tu Giam carries the message: 'Talented scholars are the vital energy of the nation' - A country will be strong if it has many gifted and virtuous people.",
+      "image": "/images/history/lessons/building/van-mieu/3.png",
+      "imagePrompt": "A wise old teacher with young students in the sunlit garden of Van Mieu, atmosphere of learning and respect, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the historical significance of Quoc Tu Giam for our country?",
+      "options": [
+        "It was the first university",
+        "It was a movie theater",
+        "It was a soccer field"
+      ],
+      "answer": "It was the first university"
+    },
+    {
+      "type": "quiz",
+      "question": "Where are the names of high-achieving scholars carved in the Temple of Literature?",
+      "options": [
+        "On trees",
+        "On stone stelae atop turtles' backs",
+        "On the walls"
+      ],
+      "answer": "On stone stelae atop turtles' backs"
+    }
+  ]
+}

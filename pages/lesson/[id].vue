@@ -15,12 +15,16 @@ const {
   transitionName,
   unlockedHero,
   showUnlockPopup,
+  unlockedBadges,
+  currentBadgeIndex,
+  showBadgePopup,
   loadLesson,
   startLesson,
   nextSlide,
   prevSlide,
   handleQuizAnswer,
   getImagePath,
+  closeBadgePopup,
 } = useLesson(lessonId);
 
 onMounted(() => {
@@ -152,6 +156,13 @@ const finishLesson = () => {
       :show="showUnlockPopup"
       :unlocked-hero="unlockedHero"
       @close="showUnlockPopup = false"
+    />
+
+    <!-- Badge Unlock Celebration -->
+    <BadgeUnlockPopup
+      :show="showBadgePopup"
+      :badge="unlockedBadges[currentBadgeIndex]"
+      @close="closeBadgePopup"
     />
   </div>
 </template>

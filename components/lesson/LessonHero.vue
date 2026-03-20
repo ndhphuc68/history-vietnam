@@ -17,15 +17,14 @@
         <h1
           class="text-5xl md:text-7xl font-black text-white mb-6 drop-shadow-lg"
         >
-          Dòng Máu Lạc Hồng
+          {{ $t("lesson_hero.title") }}
         </h1>
       </slot>
       <slot name="subtitle">
         <p
           class="text-xl md:text-2xl text-secondary font-bold max-w-3xl mx-auto leading-relaxed"
         >
-          Khám phá hành trình 4000 năm lịch sử hào hùng của dân tộc Việt Nam qua
-          những câu chuyện kể sinh động.
+          {{ $t("lesson_hero.subtitle") }}
         </p>
       </slot>
     </div>

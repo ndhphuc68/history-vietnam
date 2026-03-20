@@ -1,0 +1,54 @@
+{
+  "id": "le-hoan",
+  "title": "Le Hoan Fighting the Song Army",
+  "heroId": "le-hoan",
+  "period": "Building",
+  "summary": "In 981, General Le Hoan ascended the throne and led the Dai Co Viet army and people to defeat the Song invasion, protecting the nation's independence.",
+  "image": "/images/history/thumbnails/building/le-hoan.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The country was in danger when the Song army invaded. Queen Mother Duong Van Nga handed the royal robe to the Commander-in-Chief of the Ten Armies, Le Hoan.",
+      "image": "/images/history/lessons/building/le-hoan/0.png",
+      "imagePrompt": "Queen Mother Duong Van Nga handing the royal robe to General Le Hoan, historical ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Le Hoan directly led the troops into battle, using clever strategies to defeat the enemy on both land and water.",
+      "image": "/images/history/lessons/building/le-hoan/1.png",
+      "imagePrompt": "King Le Hoan in armor leading his army in battle, brave and strong, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He ordered his troops to fake a surrender to lure the enemy into a trap, then launched a surprise attack that led to the Song army's defeat.",
+      "image": "/images/history/lessons/building/le-hoan/2.png",
+      "imagePrompt": "Vietnamese soldiers launching a surprise attack against Song army, confusion in enemy ranks, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Following the victory, he focused on agricultural development. The Early Le Dynasty helped the country live in peace.",
+      "image": "/images/history/lessons/building/le-hoan/3.png",
+      "imagePrompt": "The King plowing a field during 'Tich Dien' festival, promoting agriculture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which invading army did Le Hoan defeat?",
+      "options": [
+        "Song Dynasty",
+        "Han Dynasty",
+        "Ming Dynasty"
+      ],
+      "answer": "Song Dynasty"
+    },
+    {
+      "type": "quiz",
+      "question": "What title did Le Hoan take when he ascended the throne?",
+      "options": [
+        "Le Dai Hanh",
+        "Le Thai To",
+        "Le Thanh Tong"
+      ],
+      "answer": "Le Dai Hanh"
+    }
+  ]
+}

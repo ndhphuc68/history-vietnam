@@ -15,6 +15,7 @@ const props = withDefaults(
 );
 
 const emit = defineEmits(["answered", "next", "prev"]);
+const { t } = useI18n();
 const mascotStore = useMascotStore();
 
 const selectedOption = ref<string | null>(null);
@@ -27,13 +28,9 @@ const checkAnswer = (option: string) => {
   isCorrect.value = option === props.answer;
 
   if (isCorrect.value) {
-    mascotStore.say("Cực kỳ chính xác! Bạn giỏi quá!", "happy", 4000);
+    mascotStore.say(t("quiz.mascot_happy"), "happy", 4000);
   } else {
-    mascotStore.say(
-      "Ôi, chưa đúng rồi. Bạn hãy suy nghĩ thêm một chút nhé!",
-      "thinking",
-      5000,
-    );
+    mascotStore.say(t("quiz.mascot_thinking"), "thinking", 5000);
   }
 
   emit("answered", isCorrect.value);
@@ -89,7 +86,8 @@ const parsedSegments = computed(() => {
         <span
           class="inline-flex items-center justify-center px-4 md:px-6 py-1.5 md:py-2 bg-accent text-text font-black rounded-full text-xs md:text-sm uppercase mb-6 shadow-sm"
         >
-          <Icon name="fluent-emoji:brain" class="mr-2" size="20" /> CÂU ĐỐ VUI
+          <Icon name="fluent-emoji:brain" class="mr-2" size="20" />
+          {{ $t("quiz.title") }}
         </span>
         <h2
           class="text-2xl md:text-3xl lg:text-4xl font-black text-text leading-tight px-2"
@@ -146,7 +144,7 @@ const parsedSegments = computed(() => {
               v-if="isCorrect"
               class="text-2xl md:text-3xl font-black text-green-600 drop-shadow-sm"
             >
-              Tình yêu ơi! Bạn giỏi quá!
+              {{ $t("quiz.correct_feedback") }}
               <Icon
                 name="fluent-emoji:party-popper"
                 class="text-3xl md:text-4xl"
@@ -156,7 +154,7 @@ const parsedSegments = computed(() => {
               <p
                 class="text-2xl md:text-3xl font-black text-red-500 drop-shadow-sm"
               >
-                Ôi, chưa đúng rồi!
+                {{ $t("quiz.wrong_feedback") }}
                 <Icon
                   name="fluent-emoji:lightbulb"
                   class="text-3xl md:text-4xl"
@@ -170,7 +168,7 @@ const parsedSegments = computed(() => {
                 "
                 class="mt-4 px-6 py-2 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-transform"
               >
-                Thử lại ngay
+                {{ $t("quiz.retry") }}
               </button>
             </div>
           </div>
@@ -185,7 +183,7 @@ const parsedSegments = computed(() => {
             @click="$emit('prev')"
             class="flex-1 max-w-[140px] md:max-w-[180px] px-4 md:px-6 py-3 md:py-4 rounded-2xl font-black text-sm md:text-xl border-4 border-text text-text hover:bg-text hover:text-white hover:scale-[1.05] active:scale-[0.95] transition-all shadow-md uppercase"
           >
-            Quay lại
+            {{ $t("quiz.back") }}
           </button>
           <div v-else class="flex-1 max-w-[180px]"></div>
 

@@ -3,17 +3,17 @@
  * Privacy Policy page.
  * Transparency for parents, safety for kids.
  */
+const { t } = useI18n();
+
 useHead({
-  title: "Chính sách bảo mật",
+  title: t("privacy_page.seo_title"),
 });
 
 useSeoMeta({
-  title: "Chính sách bảo mật - Lịch sử Nhí",
-  ogTitle: "Chính sách bảo mật - Lịch sử Nhí",
-  description:
-    "Cam kết bảo vệ quyền riêng tư và an toàn tuyệt đối cho trẻ em khi sử dụng ứng dụng Lịch sử Nhí.",
-  ogDescription:
-    "An toàn của bé là ưu tiên hàng đầu. Tìm hiểu cách chúng mình bảo vệ dữ liệu của bé.",
+  title: t("privacy_page.seo_title"),
+  ogTitle: t("privacy_page.seo_title"),
+  description: t("privacy_page.seo_desc"),
+  ogDescription: t("privacy_page.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 </script>
@@ -29,10 +29,13 @@ useSeoMeta({
           <Icon name="fluent-emoji:locked-with-key" class="text-5xl" />
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-text tracking-tight">
-          Chính sách <span class="text-secondary">Bảo mật</span>
+          {{ $t("privacy_page.title") }}
+          <span class="text-secondary">{{
+            $t("privacy_page.title_highlight")
+          }}</span>
         </h1>
         <p class="text-lg md:text-xl text-text/70 font-bold max-w-2xl mx-auto">
-          An toàn của các bé là ưu tiên hàng đầu của chúng mình!
+          {{ $t("privacy_page.subtitle") }}
         </p>
       </div>
 
@@ -52,11 +55,10 @@ useSeoMeta({
             </div>
             <div class="space-y-4 text-center md:text-left">
               <h2 class="text-2xl font-black text-text">
-                Cam kết an toàn 100%
+                {{ $t("privacy_page.commitment") }}
               </h2>
               <p class="text-text/80 font-bold leading-relaxed italic">
-                "Chúng mình KHÔNG thu thập dữ liệu cá nhân, KHÔNG yêu cầu đăng
-                ký và KHÔNG có quảng cáo gây phiền nhiễu."
+                {{ $t("privacy_page.commitment_quote") }}
               </p>
             </div>
           </div>
@@ -74,13 +76,12 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                1. Không thu thập dữ liệu
+                {{ $t("privacy_page.section_1_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Lịch sử Nhí hoạt động hoàn toàn dựa trên sự trải nghiệm tự do.
-                Bé có thể vào xem bài học và đố vui mà không cần khai báo tên,
-                tuổi hay bất kỳ thông tin cá nhân nào.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('privacy_page.section_1_desc')"
+              ></p>
             </div>
           </div>
         </div>
@@ -100,19 +101,39 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                2. Lưu tiến trình trên thiết bị
+                {{ $t("privacy_page.section_2_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Để bé có thể tiếp tục hành trình vào lần sau, ứng dụng có thể
-                lưu một chút dữ liệu tiến trình (ví dụ: bài đã hoàn thành, thẻ
-                anh hùng đã mở khóa) **ngay trên thiết bị của bé** (Local
-                Storage). Chúng mình không gửi dữ liệu này lên máy chủ.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('privacy_page.section_2_desc')"
+              ></p>
             </div>
           </div>
         </div>
 
-        <!-- Section 3 -->
+        <!-- New Section: Rescue Code -->
+        <div
+          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-blue-500"
+        >
+          <div class="flex items-start gap-6">
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center flex-shrink-0"
+            >
+              <Icon name="fluent-emoji:key" class="text-3xl" />
+            </div>
+            <div class="space-y-4">
+              <h2 class="text-2xl font-black text-text">
+                {{ $t("privacy_page.section_3_title") }}
+              </h2>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('privacy_page.section_3_desc')"
+              ></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4 -->
         <div
           class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-primary"
         >
@@ -124,19 +145,17 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                3. Liên kết bên ngoài
+                {{ $t("privacy_page.section_4_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Mọi liên kết dẫn ra ngoài (nếu có) đều được chúng mình kiểm
-                duyệt rất kỹ để đảm bảo nội dung đó phù hợp và an toàn cho trẻ
-                em. Tuy nhiên, ba mẹ hãy luôn đồng hành cùng bé khi bé sử dụng
-                internet nhé!
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('privacy_page.section_4_desc')"
+              ></p>
             </div>
           </div>
         </div>
 
-        <!-- Section 4 -->
+        <!-- Section 5 -->
         <div
           class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-text"
         >
@@ -151,13 +170,12 @@ useSeoMeta({
             </div>
             <div class="space-y-4">
               <h2 class="text-2xl font-black text-text">
-                4. Dành cho Phụ huynh
+                {{ $t("privacy_page.section_5_title") }}
               </h2>
-              <p class="text-text/80 font-medium leading-relaxed">
-                Chúng mình khuyến khích ba mẹ dành thời gian khám phá ứng dụng
-                cùng con. Nếu ba mẹ có bất kỳ thắc mắc hay góp ý nào về bảo mật,
-                hãy liên hệ với chúng mình qua email hỗ trợ nhé.
-              </p>
+              <p
+                class="text-text/80 font-medium leading-relaxed"
+                v-html="$t('privacy_page.section_5_desc')"
+              ></p>
             </div>
           </div>
         </div>

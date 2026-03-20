@@ -1,0 +1,53 @@
+{
+  "id": "other-rebellions",
+  "title": "Other National Rebellions",
+  "period": "Northern Domination",
+  "summary": "From Ly Bi and Mai Thuc Loan to Phung Hung... the persistent and tireless flames of struggle of our people.",
+  "image": "/images/history/thumbnails/northern-domination/other-rebellions.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In the 6th century, Ly Bi led an uprising to drive out the Liang army and established the state of Van Xuan - hoping the country would be as beautiful as an eternal spring.",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/0.png",
+      "imagePrompt": "Ly Bi (Ly Nam De) being crowned, Vạn Xuân flag, festive atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Following him were Mai Thuc Loan (Mai Hac De) in Nghe An and Phung Hung (Bo Cai Dai Vuong) in Duong Lam.",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/1.png",
+      "imagePrompt": "Collage of different heroes leading their people, determined expressions, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Each uprising, whether successful or not, contributed more strength to the Vietnamese nation's desire for independence.",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/2.png",
+      "imagePrompt": "A large bonfire where stories of past heroes are passed down, glowing energy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "This period is the best proof of the saying: 'When invaders come, even women fight,' and of our people's never-fading patriotism.",
+      "image": "/images/history/lessons/northern-domination/other-rebellions/3.png",
+      "imagePrompt": "Symbolic image of diverse Vietnamese people (men, women, children) standing together in solidarity, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What state did Ly Bi establish?",
+      "options": [
+        "Van Lang",
+        "Van Xuan",
+        "Dai Viet"
+      ],
+      "answer": "Van Xuan"
+    },
+    {
+      "type": "quiz",
+      "question": "What title did our people give to Phung Hung?",
+      "options": [
+        "Phu Dong Thien Vuong",
+        "Bo Cai Dai Vuong",
+        "Hung Dao Dai Vuong"
+      ],
+      "answer": "Bo Cai Dai Vuong"
+    }
+  ]
+}

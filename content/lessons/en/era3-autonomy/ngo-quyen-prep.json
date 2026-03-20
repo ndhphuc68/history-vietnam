@@ -1,0 +1,63 @@
+{
+  "id": "ngo-quyen-prep",
+  "title": "Ngo Quyen Prepares for the Battle of Bach Dang",
+  "period": "Autonomy",
+  "summary": "Ngo Quyen's brilliant strategy to defeat the enemy: preparing iron-tipped wooden stakes as 'underwater traps' in the river.",
+  "image": "/images/history/thumbnails/autonomy/ngo-quyen-prep.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! When Ngo Quyen heard that the Southern Han army was about to sail their warships over, he wasn't worried at all. He had an incredibly powerful plan!",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/0.png",
+      "imagePrompt": "Ngô Quyền sitting with his generals around a model of the Bach Dang river, planning the stake trap, light of intelligence in his eyes, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He chose the lower reaches of the Bach Dang River - where there is a strong daily tidal cycle - as the site for his trap.",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/1.png",
+      "imagePrompt": "The Bach Dang river at sunset, showing the dramatic rise and fall of water levels, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ngo Quyen mobilized thousands of soldiers and villagers to the forest to cut down large trees, sharpen them, and tip them with iron, turning them into giant arrows.",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/2.png",
+      "imagePrompt": "Soldiers and villagers working hard in the forest, sharpening giant wooden stakes and attaching iron tips, smoke from forges, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "These stakes were firmly hammered into the riverbed. When the tide rose, the water completely covered the tops of the stakes, creating a deadly invisible trap.",
+      "image": "/images/history/lessons/autonomy/ngo-quyen-prep/3.png",
+      "imagePrompt": "Stakes being hammered into the river bed, water rising to cover them, peaceful on the surface but dangerous below, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which location did Ngo Quyen choose for his battleground?",
+      "options": [
+        "High mountainous region",
+        "Bach Dang River",
+        "Red River Delta"
+      ],
+      "answer": "Bach Dang River"
+    },
+    {
+      "type": "quiz",
+      "question": "Why did Ngo Quyen have people sharpen and tip the wooden stakes with iron?",
+      "options": [
+        "To make them look decorative",
+        "To pierce the enemy's warships",
+        "To prevent the stakes from rotting"
+      ],
+      "answer": "To pierce the enemy's warships"
+    },
+    {
+      "type": "quiz",
+      "question": "What natural element did Ngo Quyen use to hide the stake trap?",
+      "options": [
+        "Wind and storms",
+        "Long droughts",
+        "The rising and falling tides"
+      ],
+      "answer": "The rising and falling tides"
+    }
+  ]
+}

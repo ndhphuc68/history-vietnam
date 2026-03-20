@@ -10,7 +10,7 @@ const tellFact = () => {
     mascotStore.say(
       dailyFact.value.content,
       "talking",
-      Math.max(8000, dailyFact.value.content.length * 100)
+      Math.max(8000, dailyFact.value.content.length * 100),
     );
   }
 };
@@ -47,7 +47,7 @@ const tellFact = () => {
           <div
             class="inline-block px-4 py-1 mb-4 bg-accent/30 text-text font-bold rounded-full text-xs md:text-sm uppercase tracking-widest"
           >
-            Sự thật lịch sử mỗi ngày
+            {{ $t("daily_fact.tag") }}
           </div>
           <h3
             class="text-2xl md:text-4xl font-black text-text mb-4 leading-tight"
@@ -65,7 +65,7 @@ const tellFact = () => {
           >
             <span class="flex items-center text-sm font-bold text-primary/60">
               <Icon name="fluent-emoji:bookmark-tabs" class="mr-2" />
-              Chủ đề: {{ dailyFact.category }}
+              {{ $t("daily_fact.category", { category: dailyFact.category }) }}
             </span>
           </div>
         </div>
@@ -80,7 +80,8 @@ const tellFact = () => {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
   50% {

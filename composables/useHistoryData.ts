@@ -1,60 +1,83 @@
-import type { HistoryMap, LessonContent } from "~/types/history";
-import historyMapData from "~/content/history-map.json";
+import type { HistoryMap, LessonContent, Era } from "~/types/history";
 
 export const useHistoryData = () => {
-  const historyMap = historyMapData as HistoryMap;
+  const { locale } = useI18n();
+  const historyMap = ref<HistoryMap | null>(null);
 
-  // Use import.meta.glob to find all available lesson JSON files
-  // This allows us to know which lessons have content without hardcoding
-  const lessonFiles = import.meta.glob("~/content/lessons/**/*.json", {
-    eager: true,
-  });
+  // Use import.meta.glob to find all available lesson JSON files lazily
+  const lessonFiles = import.meta.glob<{ default: LessonContent }>("~/content/lessons/**/*.json");
+  const lessonThumbnails = ref<Record<string, string>>({});
 
-  /**
-   * Returns a list of all lesson IDs that have a corresponding JSON file.
-   */
+  const loadHistoryMap = async () => {
+    try {
+      const data = await import(`../content/${locale.value}/history-map.json`);
+      historyMap.value = data.default as HistoryMap;
+    } catch (e) {
+      console.error(`Failed to load history map for locale ${locale.value}`, e);
+      // Fallback to vi
+      const data = await import("../content/vi/history-map.json");
+      historyMap.value = data.default as HistoryMap;
+    }
+  };
+
+  // Watch locale changes to reload the map
+  watch(locale, () => {
+    loadHistoryMap();
+  }, { immediate: true });
+
   const availableLessonIds = computed(() => {
-    return Object.keys(lessonFiles).map((path) => {
-      const filename = path.split("/").pop() || "";
-      return filename.replace(".json", "");
-    });
+    return Object.keys(lessonFiles)
+      .filter((path) => path.includes(`/${locale.value}/`))
+      .map((path) => {
+        const filename = path.split("/").pop() || "";
+        return filename.replace(".json", "");
+      });
   });
 
-  /**
-   * Checks if a lesson has content available.
-   */
   const isLessonAvailable = (lessonId: string) => {
     return availableLessonIds.value.includes(lessonId);
   };
 
-  /**
-   * Gets the thumbnail for an era.
-   */
   const getEraThumbnail = (eraId: string) => {
     return `/images/eras/${eraId}.webp`;
   };
 
-  /**
-   * Gets the thumbnail for a specific lesson by reading its JSON content.
-   */
   const getLessonThumbnail = (lessonId: string): string | undefined => {
+    if (lessonThumbnails.value[lessonId]) {
+      return lessonThumbnails.value[lessonId];
+    }
+
     const fileKey = Object.keys(lessonFiles).find((path) =>
-      path.endsWith(`/${lessonId}.json`)
+      path.includes(`/${locale.value}/`) && path.endsWith(`/${lessonId}.json`)
     );
 
-    if (fileKey) {
-      const mod = lessonFiles[fileKey] as { default?: LessonContent } | LessonContent;
-      const data = ("default" in mod ? mod.default : mod) as LessonContent;
-      return data.image;
+    if (fileKey && typeof lessonFiles[fileKey] === "function" && lessonThumbnails.value[lessonId] !== "") {
+      // Mark as loading to prevent duplicate requests
+      lessonThumbnails.value[lessonId] = ""; 
+      
+      const loader = lessonFiles[fileKey] as () => Promise<{ default: LessonContent }>;
+      loader().then((mod) => {
+        if (mod && mod.default && mod.default.image) {
+          lessonThumbnails.value[lessonId] = mod.default.image;
+        }
+      }).catch(e => console.error("Error loading lesson thumbnail:", e));
     }
-    return undefined;
+    
+    return lessonThumbnails.value[lessonId] || undefined;
   };
 
+  const eras = computed((): Era[] => {
+    if (!historyMap.value) return [];
+    return historyMap.value.eras.filter((era) => era.enabled);
+  });
+
   return {
-    eras: computed(() => historyMap.eras.filter((era) => era.enabled)),
+    historyMap,
+    eras,
     availableLessonIds,
     isLessonAvailable,
     getEraThumbnail,
     getLessonThumbnail,
+    loadHistoryMap,
   };
 };

@@ -1,0 +1,69 @@
+{
+  "id": "co-loa-citadel",
+  "title": "Co Loa Citadel",
+  "period": "Nation Building",
+  "summary": "A magnificent ancient construction technique featuring a unique spiral-shaped citadel, the most fortified in Southeast Asia at the time.",
+  "image": "/images/history/thumbnails/founding/co-loa-citadel.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "To protect his capital, An Duong Vuong ordered the construction of a massive citadel. Strangely, parts of the wall collapsed as soon as they were built.",
+      "image": "/images/history/lessons/founding/co-loa-citadel/0.png",
+      "imagePrompt": "Ancient workers building a wall, but sections are collapsing, frustration and mystery, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "With the help of the Golden Turtle (Kim Quy God), An Duong Vuong defeated the evil spirits and completed the citadel in a very short time.",
+      "image": "/images/history/lessons/founding/co-loa-citadel/1.png",
+      "imagePrompt": "Golden Turtle appearing with a glowing light, helping the King, magical scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The citadel was built in a spiral shape, consisting of 3 fortified concentric rings. Because of this shape, it was named Co Loa (Spiral Citadel).",
+      "image": "/images/history/lessons/founding/co-loa-citadel/2.png",
+      "imagePrompt": "Aerial view of Co Loa citadel, spiral shape, wide moats, children book illustration, cartoon style, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Surrounding the citadel were deep moats connecting to the Hoang River, allowing the army to deploy its naval forces easily.",
+      "image": "/images/history/lessons/founding/co-loa-citadel/3.png",
+      "imagePrompt": "Deep moats with water, soldiers on boats, effective defense system, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Co Loa was not only a military fortress but also a wonderful architectural work reflecting the wisdom of our ancestors.",
+      "image": "/images/history/lessons/founding/co-loa-citadel/4.png",
+      "imagePrompt": "Close up of the massive stone and clay walls of Co Loa, impressive and grand, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What special shape does Co Loa Citadel have?",
+      "options": [
+        "Square",
+        "Round",
+        "Spiral"
+      ],
+      "answer": "Spiral"
+    },
+    {
+      "type": "quiz",
+      "question": "Who helped An Duong Vuong build the Co Loa Citadel?",
+      "options": [
+        "Son Tinh",
+        "Golden Turtle (Kim Quy God)",
+        "Lac Long Quan"
+      ],
+      "answer": "Golden Turtle (Kim Quy God)"
+    },
+    {
+      "type": "quiz",
+      "question": "How many fortified rings does Co Loa Citadel have?",
+      "options": [
+        "1 ring",
+        "3 rings",
+        "9 rings"
+      ],
+      "answer": "3 rings"
+    }
+  ]
+}

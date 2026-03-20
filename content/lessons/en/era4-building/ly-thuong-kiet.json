@@ -1,0 +1,54 @@
+{
+  "id": "ly-thuong-kiet",
+  "title": "Ly Thuong Kiet Fighting the Song Army",
+  "heroId": "ly-thuong-kiet",
+  "period": "Building",
+  "summary": "The famous general Ly Thuong Kiet led the Ly Dynasty's army and people to crush the Song invasion, featuring the legendary poem 'Nam Quoc Son Ha'.",
+  "image": "/images/history/thumbnails/building/ly-thuong-kiet.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Ly Thuong Kiet was a brilliant general who took the initiative by advancing into Song territory to block their invasion plans.",
+      "image": "/images/history/lessons/building/ly-thuong-kiet/0.png",
+      "imagePrompt": "General Ly Thuong Kiet riding a horse, pointing his sword forward, leading an army through a pass, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "At the Nhu Nguyet River defense line, the enemy was forced to a halt by the staunch resistance of our troops.",
+      "image": "/images/history/lessons/building/ly-thuong-kiet/1.png",
+      "imagePrompt": "The defensive line at Nhu Nguyet river, soldiers guarding with spears and shields, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In the dead of night, a divine poem echoed from a nearby temple: 'The Southern Mountains and Rivers are where the Southern Emperor dwells...', proclaiming the nation's sovereignty.",
+      "image": "/images/history/lessons/building/ly-thuong-kiet/2.png",
+      "imagePrompt": "An ancient temple by the river at night, mystical voice manifesting the poem 'Nam Quoc Son Ha', glowing text in the sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Song soldiers were confused and petrified upon hearing the poem, and were subsequently defeated by our counter-attack, forcing them to retreat to their country.",
+      "image": "/images/history/lessons/building/ly-thuong-kiet/3.png",
+      "imagePrompt": "Terrified Song soldiers retreating across the river, victory for Dai Viet army, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "At which river did the poem 'Nam Quoc Son Ha' echo?",
+      "options": [
+        "Nhu Nguyet",
+        "Bach Dang",
+        "Red River"
+      ],
+      "answer": "Nhu Nguyet"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Ly Thuong Kiet do to block the invaders?",
+      "options": [
+        "Take the initiative to advance into Song territory",
+        "Wait for the enemy to arrive before fighting",
+        "Ask for peace"
+      ],
+      "answer": "Take the initiative to advance into Song territory"
+    }
+  ]
+}

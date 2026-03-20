@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dong-son-drum",
+    "lessonId": "dong-son-drum",
+    "title": "Dong Son Bronze Drum",
+    "description": "An exquisite cultural symbol of the ancient Lac Viet people.",
+    "icon": "fluent-emoji:radio-button",
+    "rarity": "epic"
+  },
+  {
+    "id": "magic-crossbow",
+    "lessonId": "magic-crossbow",
+    "title": "Magical Crossbow",
+    "description": "A wonderful weapon that helped An Duong Vuong protect Co Loa Citadel.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "legendary"
+  },
+  {
+    "id": "magic-sword",
+    "lessonId": "lam-son-uprising",
+    "title": "Heaven's Will Magic Sword",
+    "description": "The sword that helped King Le Loi drive out the Ming invaders.",
+    "icon": "fluent-emoji:dagger",
+    "rarity": "legendary"
+  },
+  {
+    "id": "tank-390",
+    "lessonId": "ho-chi-minh-campaign",
+    "title": "Tank 390",
+    "description": "The tank that crashed through the gates of Independence Palace on April 30, 1975.",
+    "icon": "fluent-emoji:tank",
+    "rarity": "epic"
+  },
+  {
+    "id": "peach-blossom",
+    "lessonId": "ngoc-hoi-dong-da",
+    "title": "Victory Peach Blossom",
+    "description": "A gift sent from afar by Quang Trung to Ngoc Han after his victory.",
+    "icon": "fluent-emoji:cherry-blossom",
+    "rarity": "rare"
+  },
+  {
+    "id": "stake-trap",
+    "lessonId": "bach-dang-938",
+    "title": "Bach Dang Wooden Stake",
+    "description": "A brilliant tactic by Ngo Quyen on the Bach Dang River.",
+    "icon": "fluent-emoji:wood",
+    "rarity": "rare"
+  }
+]

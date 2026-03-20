@@ -1,0 +1,330 @@
+[
+  {
+    "id": "apprentice-historian",
+    "title": "Junior Historian",
+    "description": "Start your journey with your first lesson.",
+    "icon": "fluent-emoji:brain",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 1 }
+  },
+  {
+    "id": "five-lessons",
+    "title": "Good Start",
+    "description": "Complete your first 5 history lessons.",
+    "icon": "fluent-emoji:seedling",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 5 }
+  },
+  {
+    "id": "ten-lessons",
+    "title": "Small Steps",
+    "description": "Complete 10 history lessons.",
+    "icon": "fluent-emoji:hiking-boot",
+    "rarity": "common",
+    "requirement": { "type": "count", "value": 10 }
+  },
+  {
+    "id": "twenty-five-lessons",
+    "title": "Eager Learner",
+    "description": "Complete 25 history lessons.",
+    "icon": "fluent-emoji:books",
+    "rarity": "rare",
+    "requirement": { "type": "count", "value": 25 }
+  },
+  {
+    "id": "fifty-lessons",
+    "title": "History Master",
+    "description": "Complete 50 lessons - A true treasure trove of knowledge!",
+    "icon": "fluent-emoji:crown",
+    "rarity": "legendary",
+    "requirement": { "type": "count", "value": 50 }
+  },
+  {
+    "id": "founding-explorer",
+    "title": "Blood of Lac Hong",
+    "description": "Complete the entire Founding of the Nation era.",
+    "icon": "fluent-emoji:dragon-face",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "founding" }
+  },
+  {
+    "id": "thanh-giong-badge",
+    "title": "Power of Giong",
+    "description": "Complete the lesson about Saint Giong defeating the An invaders.",
+    "icon": "fluent-emoji:horse",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "thanh-giong" }
+  },
+  {
+    "id": "magic-crossbow-badge",
+    "title": "Magical Crossbow",
+    "description": "Complete the lesson about the Magical Crossbow of Au Lac.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "magic-crossbow" }
+  },
+  {
+    "id": "northern-domination-survivor",
+    "title": "Unbreakable Spirit",
+    "description": "Complete the entire Northern Domination era.",
+    "icon": "fluent-emoji:shield",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "northern-domination" }
+  },
+  {
+    "id": "hai-ba-trung-badge",
+    "title": "Spirit of the Queens",
+    "description": "Complete the lesson about the Trung Sisters' uprising.",
+    "icon": "fluent-emoji:elephant",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "hai-ba-trung" }
+  },
+  {
+    "id": "bach-dang-hero",
+    "title": "Hero of Bach Dang",
+    "description": "Complete the lesson about the Battle of Bach Dang in 938.",
+    "icon": "fluent-emoji:ship",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "bach-dang-938" }
+  },
+  {
+    "id": "co-lau-badge",
+    "title": "Reed Flag General",
+    "description": "Complete the lesson about Dinh Bo Linh unifying the country.",
+    "icon": "fluent-emoji:flags",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "dinh-bo-linh" }
+  },
+  {
+    "id": "thang-long-witness",
+    "title": "Witness of Thang Long",
+    "description": "Complete the lesson about moving the capital to Thang Long.",
+    "icon": "fluent-emoji:castle",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "move-capital" }
+  },
+  {
+    "id": "van-mieu-scholar",
+    "title": "Talented Scholar",
+    "description": "Complete the lesson about the Temple of Literature (Van Mieu).",
+    "icon": "fluent-emoji:mortar-board",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "van-mieu" }
+  },
+  {
+    "id": "mongol-warrior",
+    "title": "Dong A Spirit",
+    "description": "Complete the lesson about the Great Victory of Bach Dang in 1288 against the Mongols.",
+    "icon": "fluent-emoji:crossed-swords",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "bach-dang-1288" }
+  },
+  {
+    "id": "building-era-complete",
+    "title": "Glorious Era",
+    "description": "Complete the entire Ly - Tran - Ho eras.",
+    "icon": "fluent-emoji:classical-building",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "building" }
+  },
+  {
+    "id": "lam-son-knight",
+    "title": "Lam Son Warrior",
+    "description": "Complete the entire Le - Tay Son era.",
+    "icon": "fluent-emoji:bow-and-arrow",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "independence-restored" }
+  },
+  {
+    "id": "quang-trung-hero",
+    "title": "Hero in Common Clothes",
+    "description": "Complete the lesson about the Great Victory of Ngoc Hoi - Dong Da.",
+    "icon": "fluent-emoji:fire",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "ngoc-hoi-dong-da" }
+  },
+  {
+    "id": "resistance-era-complete",
+    "title": "Patriotic Flame",
+    "description": "Complete the Nguyen Dynasty & Anti-French Resistance era.",
+    "icon": "fluent-emoji:crossed-flags",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "resistance" }
+  },
+  {
+    "id": "modern-independence",
+    "title": "Freedom & Independence",
+    "description": "Complete the Revolution & Anti-French War era.",
+    "icon": "fluent-emoji:flag-vietnam",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "ho-chi-minh-era" }
+  },
+  {
+    "id": "dien-bien-phu-badge",
+    "title": "Dien Bien Fortress",
+    "description": "Complete the lesson about the Great Victory of Dien Bien Phu.",
+    "icon": "fluent-emoji:mountain",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "dien-bien-phu" }
+  },
+  {
+    "id": "reunification-joy",
+    "title": "Joy of Reunification",
+    "description": "Complete the lesson about the Ho Chi Minh Campaign of 1975.",
+    "icon": "fluent-emoji:clinking-glasses",
+    "rarity": "rare",
+    "requirement": { "type": "lesson", "value": "ho-chi-minh-campaign" }
+  },
+  {
+    "id": "anti-us-era-complete",
+    "title": "A Reunified Land",
+    "description": "Complete the Resistance War against the US era.",
+    "icon": "fluent-emoji:handshake",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "anti-us-war" }
+  },
+  {
+    "id": "modern-era-complete",
+    "title": "Vietnam Rising",
+    "description": "Complete the Reunification & Renewal era.",
+    "icon": "fluent-emoji:rocket",
+    "rarity": "epic",
+    "requirement": { "type": "era", "value": "unified-vietnam" }
+  },
+  {
+    "id": "first-hero",
+    "title": "Meeting a Hero",
+    "description": "Unlock your first historical hero.",
+    "icon": "fluent-emoji:waving-hand",
+    "rarity": "common",
+    "requirement": { "type": "hero-count", "value": 1 }
+  },
+  {
+    "id": "collector",
+    "title": "History Collector",
+    "description": "Meet 5 different historical heroes.",
+    "icon": "fluent-emoji:card-index-dividers",
+    "rarity": "rare",
+    "requirement": { "type": "hero-count", "value": 5 }
+  },
+  {
+    "id": "ten-heroes",
+    "title": "Roll of Honor",
+    "description": "Meet 10 national heroes.",
+    "icon": "fluent-emoji:trophy",
+    "rarity": "epic",
+    "requirement": { "type": "hero-count", "value": 10 }
+  },
+  {
+    "id": "master-collector",
+    "title": "History Ambassador",
+    "description": "Meet 15 great national heroes.",
+    "icon": "fluent-emoji:star-struck",
+    "rarity": "legendary",
+    "requirement": { "type": "hero-count", "value": 15 }
+  },
+  {
+    "id": "mastery-founding",
+    "title": "Master of Origins",
+    "description": "Complete the Founding Era Arena with a perfect score.",
+    "icon": "fluent-emoji:crown",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "founding" }
+  },
+  {
+    "id": "mastery-northern-domination",
+    "title": "Master of Resistance",
+    "description": "Conquer the Northern Domination Arena - A true feat!",
+    "icon": "fluent-emoji:shield",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "northern-domination" }
+  },
+  {
+    "id": "mastery-building",
+    "title": "Master of Nation-Building",
+    "description": "Master all knowledge about the Ly - Tran construction period.",
+    "icon": "fluent-emoji:classical-building",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "building" }
+  },
+  {
+    "id": "lac-hong-wisdom",
+    "title": "Lac Hong Wisdom",
+    "description": "You are so smart! You answered all Quiz questions correctly 3 times in a row!",
+    "icon": "fluent-emoji:brain",
+    "rarity": "epic",
+    "requirement": { "type": "perfect_quiz_streak", "value": 3 }
+  },
+  {
+    "id": "glossary-explorer",
+    "title": "Friend of the Glossary",
+    "description": "You are very diligent in looking up ancient words to learn more about history.",
+    "icon": "fluent-emoji:books",
+    "rarity": "rare",
+    "requirement": { "type": "glossary_view_count", "value": 5 }
+  },
+  {
+    "id": "heritage-collector",
+    "title": "Heritage Collector",
+    "description": "You have completed 10 different history lessons.",
+    "icon": "fluent-emoji:scroll",
+    "rarity": "rare",
+    "requirement": { "type": "count", "value": 10 }
+  },
+  {
+    "id": "mastery-autonomy",
+    "title": "Master of Autonomy",
+    "description": "Master all knowledge about the period of gaining autonomy by the Khuc, Duong, and Ngo families.",
+    "icon": "fluent-emoji:victory-hand",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "autonomy" }
+  },
+  {
+    "id": "mastery-independence-restored",
+    "title": "Master of Prosperity",
+    "description": "Conquer all knowledge about the powerful Early Le and Tay Son periods.",
+    "icon": "fluent-emoji:sun",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "independence-restored" }
+  },
+  {
+    "id": "mastery-resistance",
+    "title": "Master of Resilience",
+    "description": "Understand clearly about the resilient struggle of our people during the Nguyen and anti-French periods.",
+    "icon": "fluent-emoji:fire",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "resistance" }
+  },
+  {
+    "id": "mastery-patriotic-movements",
+    "title": "Master of Patriotism",
+    "description": "Master the patriotic movements of the early 20th century and Uncle Ho's journey.",
+    "icon": "fluent-emoji:compass",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "patriotic-movements" }
+  },
+  {
+    "id": "mastery-ho-chi-minh-era",
+    "title": "Master of Independence",
+    "description": "Master knowledge about the August Revolution and the long anti-French resistance.",
+    "icon": "fluent-emoji:flag-vietnam",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "ho-chi-minh-era" }
+  },
+  {
+    "id": "mastery-anti-us-war",
+    "title": "Master of Reunification",
+    "description": "Conquer all challenges regarding the resistance war against the US to save the country.",
+    "icon": "fluent-emoji:peace-symbol",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "anti-us-war" }
+  },
+  {
+    "id": "mastery-unified-vietnam",
+    "title": "Master of Renewal",
+    "description": "Master knowledge about Vietnam during the period of unification and modern development.",
+    "icon": "fluent-emoji:rocket",
+    "rarity": "legendary",
+    "requirement": { "type": "mastery", "value": "unified-vietnam" }
+  }
+]

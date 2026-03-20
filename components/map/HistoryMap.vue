@@ -4,6 +4,8 @@ import { useQuizStore } from "~/stores/quizStore";
 import { useHistoryData } from "~/composables/useHistoryData";
 import type { HistoryMapProps } from "~/types/props/map";
 
+const { t } = useI18n();
+
 const props = defineProps<HistoryMapProps>();
 
 const progressStore = useProgressStore();
@@ -31,7 +33,9 @@ const totalLessons = computed(() => {
 });
 
 const currentEra = computed(() => {
-  if (!props.eras || props.eras.length === 0) return { title: "Đang tải..." };
+  if (!props.eras || props.eras.length === 0) {
+    return { title: t("common.loading") };
+  }
   // Find the first era with an uncompleted lesson
   for (const era of props.eras) {
     if (
@@ -96,6 +100,12 @@ const progressLineHeightPercent = computed(() => {
       v-for="(era, eraIndex) in eras"
       :key="era.id"
       class="w-full flex flex-col items-center mb-32 last:mb-0 relative"
+      :class="{
+        'opacity-50 grayscale pointer-events-none': !progressStore.isEraEnabled(
+          era.id,
+          eras,
+        ),
+      }"
     >
       <div
         class="mb-16 md:mb-24 w-full flex justify-start md:justify-center z-20 px-4 md:px-0"
@@ -103,6 +113,26 @@ const progressLineHeightPercent = computed(() => {
         <div
           class="relative w-full max-w-[calc(100%-1rem)] md:max-w-2xl bg-white p-6 md:p-8 rounded-[30px] md:rounded-[50px] shadow-2xl overflow-hidden border-4 md:border-8 border-white group hover:scale-[1.05] transition-transform duration-500 ml-2 md:ml-0"
         >
+          <!-- Locked Overlay for Era -->
+          <div
+            v-if="!progressStore.isEraEnabled(era.id, eras)"
+            class="absolute inset-0 bg-slate-900/10 backdrop-blur-[2px] z-30 flex items-center justify-center"
+          >
+            <div
+              class="bg-white/90 p-4 rounded-3xl shadow-xl flex items-center gap-3"
+            >
+              <Icon
+                name="fluent:lock-closed-24-filled"
+                class="text-3xl text-primary"
+              />
+              <span
+                class="font-black text-text uppercase tracking-widest text-sm"
+              >
+                {{ $t("map.era_locked") }}
+              </span>
+            </div>
+          </div>
+
           <!-- Decorative Background Blobs -->
           <div
             class="absolute -top-10 -right-10 w-40 h-40 bg-accent/20 rounded-full blur-3xl group-hover:scale-110 transition-transform"
@@ -154,10 +184,13 @@ const progressLineHeightPercent = computed(() => {
             :is-completed="
               progressStore.completedLessons.includes(level.lesson)
             "
-            :is-unlocked="isLessonAvailable(level.lesson)"
+            :is-unlocked="
+              isLessonAvailable(level.lesson) &&
+              progressStore.isLessonUnlocked(level.lesson, eras)
+            "
             :is-current="
               !progressStore.completedLessons.includes(level.lesson) &&
-              getGlobalIndex(eraIndex, levelIndex) === totalCompletedNodes
+              progressStore.isLessonUnlocked(level.lesson, eras)
             "
             :year="level.year"
             :align="

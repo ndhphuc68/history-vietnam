@@ -3,7 +3,30 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
 
-  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxt/eslint", "@nuxt/icon"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@pinia/nuxt",
+    "@nuxt/eslint",
+    "@nuxt/icon",
+    "@nuxtjs/i18n",
+  ],
+
+  i18n: {
+    locales: [
+      { code: "vi", iso: "vi-VN", file: "vi.json", name: "Tiếng Việt" },
+      { code: "en", iso: "en-US", file: "en.json", name: "English" },
+    ],
+    defaultLocale: "vi",
+    langDir: "locales/",
+    lazy: true,
+    strategy: "prefix_except_default",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      alwaysRedirect: true,
+      fallbackLocale: "vi",
+    },
+  },
 
   eslint: {
     config: {
@@ -14,6 +37,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       autoSubfolderIndex: false,
+      concurrency: 1,
+      interval: 100,
     },
   },
 

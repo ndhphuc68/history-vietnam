@@ -1,0 +1,53 @@
+{
+  "id": "ming-rule",
+  "title": "The Ming Occupation",
+  "period": "Restoration",
+  "summary": "In 1407, the failure of the Ho Dynasty fell our country into slavery under the Ming Dynasty with extremely brutal policies.",
+  "image": "/images/history/thumbnails/independence-restored/ming-rule.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! After the brilliant Tran Dynasty, our country faced difficulties and was invaded by the Ming Dynasty from the North. They imposed very strict rules.",
+      "image": "/images/history/lessons/independence-restored/ming-rule/0.png",
+      "imagePrompt": "Enemy soldiers in dark armor building a heavy wall, people working with chains, oppressive atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Ming invaders forced our people to pay heavy taxes, seizing all the gold, silver, treasures, and even the talented people of our country to take back to their land.",
+      "image": "/images/history/lessons/independence-restored/ming-rule/1.png",
+      "imagePrompt": "Carts loaded with treasures and books leaving a village, sad villagers watching, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In particular, they tried every way to erase Vietnamese culture, burning all precious books and forcing our people to follow their customs. Life for the people was miserable.",
+      "image": "/images/history/lessons/independence-restored/ming-rule/2.png",
+      "imagePrompt": "A pile of scrolls being burned (symbolic, not scary), a child hiding a small Vietnamese book behind their back, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The pain of losing the country and the brutality of the invaders fueled the people's will to fight. Everyone was quietly preparing for a great uprising.",
+      "image": "/images/history/lessons/independence-restored/ming-rule/3.png",
+      "imagePrompt": "People talking secretly under the moon, eyes full of hope and fire, a hidden sword, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "When did the Ming Dynasty begin their occupation of our country?",
+      "options": [
+        "1407",
+        "1010",
+        "938"
+      ],
+      "answer": "1407"
+    },
+    {
+      "type": "quiz",
+      "question": "Which brutal policy of the Ming invaders did our people hate the most?",
+      "options": [
+        "Giving candy to children",
+        "Burning precious books and erasing Vietnamese culture",
+        "Teaching people how to plant flowers"
+      ],
+      "answer": "Burning precious books and erasing Vietnamese culture"
+    }
+  ]
+}

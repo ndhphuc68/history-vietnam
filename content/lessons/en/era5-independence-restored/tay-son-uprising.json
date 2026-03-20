@@ -1,0 +1,53 @@
+{
+  "id": "tay-son-uprising",
+  "title": "The Tay Son Uprising",
+  "period": "Restoration",
+  "summary": "The three Tay Son brothers: Nguyen Nhac, Nguyen Hue, and Nguyen Lu, together with the people, rose up against injustice, opening a heroic chapter in history.",
+  "image": "/images/history/thumbnails/independence-restored/tay-son-uprising.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! In the 18th century, our country was divided into the Inner Realm (Dang Trong) and Outer Realm (Dang Ngoai). People lived in misery due to unfair rule.",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/0.png",
+      "imagePrompt": "A divided map of Vietnam with two dark shadows, sad farmers working under a hot sun, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In the Tay Son region (Binh Dinh), there were three brothers of the Nguyen family: Nguyen Nhac, Nguyen Hue, and Nguyen Lu, who were martial arts masters and great patriots.",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/1.png",
+      "imagePrompt": "Three brothers in red warrior clothes practicing martial arts together, strong and united, mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "With the slogan: 'Take from the rich to give to the poor', the Tay Son uprising received enthusiastic support from tens of thousands of people.",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/2.png",
+      "imagePrompt": "A large crowd of enthusiastic people following the red flag of Tay Son, giving food to children, joy and hope, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 1771, starting from the lower Tay Son mountain region, the insurgent army began their journey to sweep away factions and unify the nation.",
+      "image": "/images/history/lessons/independence-restored/tay-son-uprising/3.png",
+      "imagePrompt": "The Tay Son army marching with many red flags, elephants leading the way, sunrise over the mountains, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who were the three Tay Son brothers?",
+      "options": [
+        "Nguyen Nhac, Nguyen Hue, Nguyen Lu",
+        "Le Loi, Nguyen Trai, Le Thanh Tong",
+        "Ly Thai To, Ly Thai Tông, Ly Thanh Tong"
+      ],
+      "answer": "Nguyen Nhac, Nguyen Hue, Nguyen Lu"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the famous slogan of the Tay Son insurgent army?",
+      "options": [
+        "Take from the rich to give to the poor",
+        "Take from the poor to give to the rich",
+        "Keep everything for ourselves"
+      ],
+      "answer": "Take from the rich to give to the poor"
+    }
+  ]
+}

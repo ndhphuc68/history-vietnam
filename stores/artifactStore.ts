@@ -1,23 +1,35 @@
 import { defineStore } from 'pinia';
-import artifactsData from '~/content/artifacts.json';
-
-export interface Artifact {
-  id: string;
-  lessonId: string;
-  title: string;
-  description: string;
-  icon: string;
-  rarity: 'common' | 'rare' | 'epic' | 'legendary';
-}
+import type { Artifact } from '~/types/history';
 
 export const useArtifactStore = defineStore('artifact', () => {
   const unlockedArtifactIds = ref<string[]>([]);
   const lastUnlockedArtifact = ref<Artifact | null>(null);
   const showUnlockModal = ref(false);
+  const artifactsData = ref<Artifact[]>([]);
 
   const STORAGE_KEY = 'history-artifacts';
 
-  const initialize = () => {
+  const initialize = async () => {
+    const { locale } = useI18n();
+    
+    const loadData = async () => {
+      try {
+        const data = await import(`../content/${locale.value}/artifacts.json`);
+        artifactsData.value = data.default as Artifact[];
+      } catch (e) {
+        console.error('Failed to load localized artifacts', e);
+        const data = await import(`../content/vi/artifacts.json`);
+        artifactsData.value = data.default as Artifact[];
+      }
+    };
+
+    await loadData();
+
+    // Re-load when locale changes
+    watch(locale, async () => {
+      await loadData();
+    });
+
     if (typeof window === 'undefined') return;
     const saved = localStorage.getItem(STORAGE_KEY);
     if (!saved) return;
@@ -34,7 +46,7 @@ export const useArtifactStore = defineStore('artifact', () => {
   };
 
   const checkArtifactUnlock = (lessonId: string) => {
-    const artifact = artifactsData.find(a => a.lessonId === lessonId);
+    const artifact = artifactsData.value.find(a => a.lessonId === lessonId);
     if (artifact && !unlockedArtifactIds.value.includes(artifact.id)) {
       unlockedArtifactIds.value.push(artifact.id);
       lastUnlockedArtifact.value = artifact as Artifact;
@@ -49,7 +61,7 @@ export const useArtifactStore = defineStore('artifact', () => {
     unlockedArtifactIds,
     lastUnlockedArtifact,
     showUnlockModal,
-    allArtifacts: artifactsData as Artifact[],
+    allArtifacts: computed(() => artifactsData.value),
     initialize,
     checkArtifactUnlock
   };

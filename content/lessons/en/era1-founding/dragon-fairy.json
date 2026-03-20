@@ -1,0 +1,92 @@
+{
+  "id": "dragon-fairy",
+  "title": "Dragon and Fairy Descendants",
+  "heroId": "hung-vuong",
+  "period": "Nation Building",
+  "summary": "The legend of the noble origins of the Vietnamese people, as children of the Dragon and grandchildren of the Fairy.",
+  "image": "/images/history/thumbnails/founding/dragon-fairy.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Once upon a time, in the land of Lac Viet, there was a god named Lac Long Quan, belonging to the Dragon lineage, with matchless strength.",
+      "image": "/images/history/lessons/founding/dragon-fairy/0.png",
+      "imagePrompt": "Lac Long Quan, a powerful dragon god in ancient Vietnamese style, standing near the sea, water swirling, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "In the high northern mountains lived the exceptionally beautiful Au Co, who belonged to the Fairy lineage.",
+      "image": "/images/history/lessons/founding/dragon-fairy/1.png",
+      "imagePrompt": "Au Co, a beautiful fairy goddess, standing on a lush green mountain with flowers, ethereal atmosphere, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lac Long Quan and Au Co met, fell in love, and became husband and wife.",
+      "image": "/images/history/lessons/founding/dragon-fairy/2.png",
+      "imagePrompt": "Lac Long Quan and Au Co meeting in a beautiful landscape combining mountains and sea, romantic and mythical, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "A short time later, Au Co gave birth to a sack of one hundred eggs. Miraculously, the egg sack hatched into one hundred healthy sons.",
+      "image": "/images/history/lessons/founding/dragon-fairy/3.png",
+      "imagePrompt": "Au Co with a magical glowing sack of 100 eggs, children hatching out, miraculous scene, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "Lac Long Quan said: 'I am a Dragon, you are a Fairy; it is difficult for us to stay in one place long'. He took 50 children to the sea, and she took 50 to the mountains.",
+      "image": "/images/history/lessons/founding/dragon-fairy/4.png",
+      "imagePrompt": "Lac Long Quan leading 50 children to the sea, Au Co leading 50 children to the mountains, split scene, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "The eldest son who followed Au Co was honored as king, with the title of Hung King, naming the country Van Lang.",
+      "image": "/images/history/lessons/founding/dragon-fairy/5.png",
+      "imagePrompt": "The eldest son crowned as Hung King, villagers cheering, flags flying, ancient Vietnamese setting, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "story",
+      "text": "From then on, the Vietnamese people have always proudly called themselves the 'Children of the Dragon and Grandchildren of the Fairy'.",
+      "image": "/images/history/lessons/founding/dragon-fairy/6.png",
+      "imagePrompt": "Vietnamese people from all walks of life standing together, unity, pride, dragon and fairy silhouettes in the sky, children book illustration, cartoon style, bright colors, flat design"
+    },
+    {
+      "type": "quiz",
+      "question": "Which lineage did Lac Long Quan belong to?",
+      "options": [
+        "Dragon lineage",
+        "Fairy lineage",
+        "Mortal lineage"
+      ],
+      "answer": "Dragon lineage"
+    },
+    {
+      "type": "quiz",
+      "question": "What special thing did Au Co give birth to?",
+      "options": [
+        "A single egg",
+        "A sack of one hundred eggs",
+        "10 children"
+      ],
+      "answer": "A sack of one hundred eggs"
+    },
+    {
+      "type": "quiz",
+      "question": "How many children followed their mother to the mountains?",
+      "options": [
+        "100 children",
+        "50 children",
+        "10 children"
+      ],
+      "answer": "50 children"
+    },
+    {
+      "type": "quiz",
+      "question": "What do Vietnamese people proudly call themselves?",
+      "options": [
+        "Children of the Dragon and Grandchildren of the Fairy",
+        "Children of the sky and earth",
+        "Heroic people"
+      ],
+      "answer": "Children of the Dragon and Grandchildren of the Fairy"
+    }
+  ]
+}

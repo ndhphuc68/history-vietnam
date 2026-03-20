@@ -1,0 +1,53 @@
+{
+  "id": "minh-mang",
+  "title": "The Decisive King Minh Mang",
+  "period": "The Nguyen Dynasty",
+  "summary": "The second King of the Nguyen Dynasty, famous for his hard work, important administrative reforms, and love for poetry and literature.",
+  "image": "/images/history/thumbnails/resistance/minh-mang.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! Do you know who King Gia Long's son was? That was King Minh Mang - an extremely smart and hardworking person.",
+      "image": "/images/history/lessons/resistance/minh-mang/0.png",
+      "imagePrompt": "King Minh Mang sitting at a desk late at night, many scrolls around him, a single candle, looking determined, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He divided our country into 31 provinces to make it easier to manage. This was a very smart way of geographic division that we still learn from today.",
+      "image": "/images/history/lessons/resistance/minh-mang/1.png",
+      "imagePrompt": "A large wooden map of Vietnam with 31 colorful pieces, King Minh Mang pointing at it with a wand, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Minh Mang loved poetry and literature. He built Quoc Tu Giam in Hue to encourage scholars to study and develop their talents.",
+      "image": "/images/history/lessons/resistance/minh-mang/2.png",
+      "imagePrompt": "Minh Mang Reading a poem in a beautiful garden, scholarly atmosphere, scholars around, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "During his reign, the Nguyen court was very strong. However, he was also very strict and always worried about outside influences.",
+      "image": "/images/history/lessons/resistance/minh-mang/3.png",
+      "imagePrompt": "The majestic face of Minh Mang, crown with pearls, background of a strong citadel, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "How many provinces did King Minh Mang divide our country into?",
+      "options": [
+        "10 provinces",
+        "31 provinces",
+        "63 provinces"
+      ],
+      "answer": "31 provinces"
+    },
+    {
+      "type": "quiz",
+      "question": "King Minh Mang was which King of the Nguyen Dynasty?",
+      "options": [
+        "The first",
+        "The second",
+        "The third"
+      ],
+      "answer": "The second"
+    }
+  ]
+}

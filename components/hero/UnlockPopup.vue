@@ -67,10 +67,10 @@ watch(
           >
             <Icon name="fluent-emoji:sparkles" class="text-4xl text-primary" />
           </div>
-          <h2 class="text-3xl font-black text-white leading-tight">
-            BẠN ĐÃ MỞ KHÓA <br />
-            THẺ TƯỚNG MỚI!
-          </h2>
+          <h2
+            class="text-3xl font-black text-white leading-tight"
+            v-html="$t('hero_unlock.header')"
+          ></h2>
         </div>
 
         <!-- Hero Card Preview -->
@@ -104,7 +104,7 @@ watch(
             @click="close"
             class="w-full py-4 bg-secondary text-white font-black rounded-2xl shadow-lg hover:scale-[1.05] active:scale-[0.95] transition-all text-xl uppercase"
           >
-            TUYỆT VỜI!
+            {{ $t("hero_unlock.button") }}
           </button>
         </div>
 

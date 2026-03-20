@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hung-vuong-letter",
+    "heroId": "hung-vuong",
+    "lessonId": "dragon-fairy",
+    "title": "A Message from Hung King",
+    "content": "My dear grandchild, it warms my heart to see you diligently learning about our Dragon and Fairy origins. Always remember that we are all brothers and sisters of one house, sharing the same Lac Hong bloodline. Live with love and protect one another!",
+    "signature": "The 18th Hung King",
+    "date": "Van Lang Era",
+    "icon": "fluent-emoji:dragon-face"
+  },
+  {
+    "id": "hai-ba-trung-letter",
+    "heroId": "hai-ba-trung",
+    "lessonId": "hai-ba-trung",
+    "title": "A Message from the Trung Sisters",
+    "content": "Did you know? Patriotism knows no age or gender. We are very proud to see you understand the indomitable will of Vietnamese women. Always be brave in protecting what is right and cherish your motherland.",
+    "signature": "Trung Trac & Trung Nhi",
+    "date": "40 AD",
+    "icon": "fluent-emoji:elephant"
+  },
+  {
+    "id": "ngo-quyen-letter",
+    "heroId": "ngo-quyen",
+    "lessonId": "bach-dang-938",
+    "title": "A Message from Ngo Quyen",
+    "content": "Congratulations on passing the challenge on the Bach Dang River! Intelligence and thorough preparation are the keys to every victory. Study hard so that in the future, you can contribute your wisdom to building a powerful Vietnam.",
+    "signature": "Ngo Quyen",
+    "date": "938 AD",
+    "icon": "fluent-emoji:ship"
+  },
+  {
+    "id": "ly-thai-to-letter",
+    "heroId": "ly-thai-to",
+    "lessonId": "move-capital",
+    "title": "A Message from Ly Thai To",
+    "content": "The thousand-year civilization of Thang Long - Hanoi is thanks to the long-term vision of our ancestors. I hope you always have grand dreams and never stop striving to turn those dreams into reality, just as I chose the land of the Rising Dragon as the capital.",
+    "signature": "Ly Thai To",
+    "date": "1010 AD",
+    "icon": "fluent-emoji:castle"
+  },
+  {
+    "id": "tran-hung-dao-letter",
+    "heroId": "tran-hung-dao",
+    "lessonId": "bach-dang-1288",
+    "title": "A Message from Tran Hung Dao",
+    "content": "The Dong A spirit is the power of solidarity. When millions of people act as one, no enemy can defeat us. Join hands with your friends, progress together, and be worthy descendants of the resilient Tran family!",
+    "signature": "Hung Dao Dai Vuong",
+    "date": "13th Century",
+    "icon": "fluent-emoji:crossed-swords"
+  },
+  {
+    "id": "quang-trung-letter",
+    "heroId": "quang-trung",
+    "lessonId": "ngoc-hoi-dong-da",
+    "title": "A Message from Quang Trung",
+    "content": "Speed and decisiveness! That is how I protected our borders. The same applies to your studies: you need high focus and determination. Never back down before difficult problems or new knowledge. Move forward, my child!",
+    "signature": "Emperor Quang Trung",
+    "date": "1789 AD",
+    "icon": "fluent-emoji:fire"
+  },
+  {
+    "id": "ho-chi-minh-letter",
+    "heroId": "ho-chi-minh",
+    "lessonId": "independence-declaration",
+    "title": "A Message from Uncle Ho",
+    "content": "Whether the mountains and rivers of Vietnam become beautiful, whether the Vietnamese nation steps onto the stage of glory to stand side by side with the powers of the five continents, depends largely on your diligence in study. I believe you can do it!",
+    "signature": "Beloved Uncle Ho",
+    "date": "September 2, 1945",
+    "icon": "fluent-emoji:flag-vietnam"
+  }
+]

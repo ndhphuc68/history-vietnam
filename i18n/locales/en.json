@@ -1,0 +1,460 @@
+{
+  "nav": {
+    "home": "Home",
+    "lesson": "Lessons",
+    "heroes": "Heroes",
+    "badges": "Badges",
+    "mailbox": "Mailbox",
+    "quiz": "Quiz",
+    "dictionary": "Dictionary",
+    "collection": "Collection",
+    "explore": "Explore",
+    "start_now": "Start Now"
+  },
+  "hero": {
+    "subtitle": "Discover 4000 Years of History",
+    "title_main": "Journey Back in Time",
+    "title_sub": "with your Child!",
+    "description": "Learn Vietnamese history through interesting stories, vivid images, and engaging educational games.",
+    "start_journey": "Start the Journey",
+    "lesson_list": "Lesson List"
+  },
+  "lesson_hero": {
+    "title": "Lac Hong Bloodline",
+    "subtitle": "Discover the 4000-year heroic journey of the Vietnamese people through vivid storytelling.",
+    "banner_alt": "Map of Vietnamese National Heroes"
+  },
+  "lesson_card": {
+    "completed": "COMPLETED",
+    "review": "Review lesson",
+    "start": "Learn now",
+    "locked": "Locked",
+    "coming_soon": "Coming Soon",
+    "draft": "Coming soon...",
+    "default_summary": "Historical story waiting for you to explore..."
+  },
+  "quiz": {
+    "title": "FUN QUIZ",
+    "correct_feedback": "Awesome! You're so good!",
+    "wrong_feedback": "Oops, not quite right!",
+    "retry": "Try again",
+    "back": "Back",
+    "mascot_happy": "Exactly right! You're brilliant!",
+    "mascot_thinking": "Hmm, not quite. Let's think a bit more!"
+  },
+  "rescue_modal": {
+    "title": "Continue Journey",
+    "description": "Save or transfer your progress to another device!",
+    "export_title": "Your Rescue Code",
+    "copy": "COPY",
+    "note": "* Write down this code to continue playing on any other computer!",
+    "or": "OR",
+    "import_title": "Enter existing code",
+    "input_placeholder": "Enter code HV-xxxx-xxxx...",
+    "button": "START SYNC",
+    "success": "Sync successful! Congratulations explorer!",
+    "error": "The code is incorrect, please check again!"
+  },
+  "completion": {
+    "awesome": "AWESOME!",
+    "completed_text": "You have completed the lesson",
+    "continue": "CONTINUE EXPLORING"
+  },
+  "user_titles": {
+    "legendary": "Legendary Historian",
+    "lac_hong": "Lac Hong Master",
+    "dai_co_viet": "Dai Co Viet Scholar",
+    "thang_long": "Thang Long Warrior",
+    "rookie": "Junior Archaeologist",
+    "default_name": "Traveler"
+  },
+  "lesson_container": {
+    "step": "Step {current}/{total}"
+  },
+  "hero_card": {
+    "locked": "Locked",
+    "explore": "Explore biography"
+  },
+  "mailbox": {
+    "title": "History Mailbox",
+    "seo_title": "History Mailbox - Messages from the Past",
+    "seo_desc": "Meaningful letters from National Heroes dedicated to our future stars.",
+    "page_hero": {
+      "tag": "Commemorative",
+      "title_primary": "History",
+      "title_highlight": "Mailbox",
+      "subtitle": "Warm messages from ancestors sent to the generations of tomorrow."
+    },
+    "empty": {
+      "title": "The mailbox is currently empty...",
+      "subtitle": "Excel in your lessons to receive heartfelt messages!",
+      "button": "Go to School!"
+    },
+    "locked_header": "Locked Letters ({count})",
+    "uncollected_from": "From: {name}",
+    "close_button": "Put the letter away 📥"
+  },
+  "glossary": {
+    "title": "History Glossary",
+    "seo_title": "Vietnam History Glossary for Kids",
+    "seo_desc": "Search and decode Vietnamese historical terms and concepts in the easiest way.",
+    "seo_og_desc": "A treasure trove of knowledge about titles, artifacts, and heroic historical concepts.",
+    "page_hero": {
+      "tag": "KNOWLEDGE BASE",
+      "title_primary": "History",
+      "title_highlight": "Glossary",
+      "subtitle": "Decoding ancient words to better understand our heritage."
+    },
+    "search_placeholder": "What term would you like to find today?...",
+    "categories": {
+      "all": "All",
+      "title": "Titles",
+      "object": "Artifacts",
+      "concept": "Concepts",
+      "location": "Locations",
+      "period": "Eras"
+    },
+    "empty": {
+      "title": "Couldn't find this term!",
+      "subtitle": "Try entering another word or clearing the filters.",
+      "button": "View full glossary"
+    }
+  },
+  "hero_gallery": {
+    "stats": {
+      "unlocked": "Explored",
+      "total": "Total Heroes"
+    },
+    "motivation": {
+      "title": "You have more heroes to meet!",
+      "subtitle": "Keep exploring history lessons to unlock more heroic figures.",
+      "button": "Explore Lessons Now"
+    }
+  },
+  "hero_detail": {
+    "real_name": "Real Name",
+    "position": "Position",
+    "years": "Years (Birth - Death)",
+    "hometown": "Hometown",
+    "fun_fact_title": "Did you know? (Fun Fact)",
+    "biography_title": "Historical Story",
+    "achievements_title": "Glorious Achievements"
+  },
+  "gallery": {
+    "title": "Hero Collection",
+    "seo_title": "Hero Collection - National Heroes of Vietnam",
+    "seo_desc": "Meet and honor the heroic national icons in Vietnamese history through this vivid card collection.",
+    "seo_og_desc": "How many heroes have you unlocked? Discover your personal collection now!",
+    "page_hero": {
+      "tag": "Personal Collection",
+      "title_primary": "Hero",
+      "title_highlight": "Collection",
+      "subtitle": "Meet the talented generals and outstanding heroes who wrote the brilliant golden pages of Vietnamese history."
+    }
+  },
+  "badges": {
+    "title": "Warrior Badges",
+    "seo_title": "Warrior Profile - Badges & Achievements",
+    "seo_desc": "Admire the collection of prestigious badges and historical treasures you have conquered.",
+    "seo_og_desc": "Each badge is a testament to your patriotism and hard work.",
+    "page_hero": {
+      "tag": "Prestigious Achievements",
+      "title_primary": "Warrior",
+      "title_highlight": "Profile",
+      "subtitle": "Each badge and treasure is a testament to your hard work and patriotism on the journey to discover 4000 years of history."
+    }
+  },
+  "map": {
+    "title": "History Map",
+    "seo_title": "Vietnam History Map - 4000 Years Journey",
+    "seo_desc": "Explore the 4000-year journey of Vietnamese history through an interactive and intuitive map.",
+    "seo_og_desc": "Trace our ancestors' footsteps through heroic historical periods on the map of knowledge.",
+    "back_home": "BACK TO HOME",
+    "my_journey": "My Journey",
+    "lessons_count": "{count}/{total} Lessons",
+    "currently_exploring": "Exploring: {era}",
+    "era_locked": "This chapter is locked",
+    "vn_flag": "Vietnam Flag",
+    "node": {
+      "conquered": "You've conquered this milestone!",
+      "explore_desc": "Explore the heroic stories of our national origins.",
+      "drafting": "Content is being drafted, please wait!",
+      "completed": "Completed",
+      "current": "You are here",
+      "explore_btn": "EXPLORE"
+    }
+  },
+  "layout": {
+    "brand": {
+      "first": "History",
+      "second": "Kids"
+    },
+    "mobile": {
+      "home": "Home",
+      "lesson": "Lessons",
+      "heroes": "Heroes",
+      "badges": "Badges",
+      "mailbox": "Mailbox",
+      "quiz": "Quiz",
+      "glossary": "Glossary"
+    },
+    "footer": {
+      "mission": "Igniting national pride through the most vivid and accessible Vietnamese history stories for children.",
+      "about_project": {
+        "title": "About Project",
+        "description": "\"A heart-filled project built by PhucNDH with love for Vietnamese history.\"",
+        "location": "Binh Dinh - Gia Lai, Vietnam"
+      },
+      "disclaimer": {
+        "title": "Note",
+        "content": "Content and images are supported by AI technology and reviewed by the author. Any feedback on errors is welcome."
+      },
+      "links": {
+        "terms": "Terms",
+        "report": "Report Bug"
+      }
+    }
+  },
+  "features": {
+    "title": "Why Kids Love History Kids?",
+    "storytelling": {
+      "title": "Engaging Stories",
+      "desc": "Learn about the Hùng Kings, Saint Gióng, and the Trưng Sisters through vivid comics that take kids into a magical fairytale world."
+    },
+    "quiz": {
+      "title": "Fun Quiz Games",
+      "desc": "Challenge your intelligence with fun questions. The more you play, the better you become at earning cool historical hero badges!"
+    },
+    "heroes": {
+      "title": "Historical Heroes",
+      "desc": "Meet and collect heroic national characters, learning from the great achievements that made the country famous."
+    }
+  },
+  "footer": {
+    "mission": "Inspiring national pride through vivid and accessible Vietnamese history stories for children.",
+    "explore": "Explore",
+    "quick_links": {
+      "lesson_list": "Lesson List",
+      "hero_collection": "Hero Collection",
+      "badges": "Hero Badges",
+      "quiz": "Quiz Challenges",
+      "about_us": "About Us",
+      "glossary": "Glossary"
+    },
+    "about_project": {
+      "title": "About Project",
+      "desc": "\"A passion project built by PhucNDH with love for Vietnamese history.\"",
+      "location": "Binh Dinh - Gia Lai, Vietnam"
+    },
+    "notice": {
+      "title": "Notice",
+      "desc": "Content and images are supported by AI technology and reviewed individually. Any feedback on errors is welcome."
+    },
+    "copyright": "© {year} Lac Hong Bloodline. Made with {heart} by PhucNDH.",
+    "links": {
+      "terms": "Terms",
+      "report": "Report Bug"
+    }
+  },
+  "daily_fact": {
+    "tag": "Daily History Fact",
+    "category": "Category: {category}"
+  },
+  "level_badge": {
+    "level_progress": "Level Progress",
+    "rank_master": "Master",
+    "level": "Level {level}",
+    "next_level_needed": "You need {xp} more XP to reach the next level!"
+  },
+  "artifact_unlock": {
+    "title": "New Treasure!",
+    "button": "That's Amazing!",
+    "view_all": "View Treasure Collection",
+    "mascot_congrat": "Congratulations! You've found the treasure \"{title}\"!"
+  },
+  "hero_letter_modal": {
+    "button": "Put in Mailbox 📥"
+  },
+  "avatar_selection": {
+    "header": "Hello Little Friend!",
+    "subtitle": "Please set your name and choose a character!",
+    "nickname_label": "Your Nickname",
+    "nickname_placeholder": "E.g., Little Historian...",
+    "avatar_label": "Choose your Avatar",
+    "submit_button": "READY TO EXPLORE!",
+    "avatars": {
+      "lac-long": "Lac Long",
+      "au-co": "Au Co",
+      "warrior": "Warrior",
+      "scholar": "Scholar"
+    }
+  },
+  "badge_unlock": {
+    "default_title": "UNLOCK",
+    "new_badge": "NEW BADGE!",
+    "got_it": "GOT IT!"
+  },
+  "badge_gallery": {
+    "title": "Honor Badges",
+    "subtitle": "Your journey of effort and proud milestones.",
+    "no_results": "No badges matched your filters!",
+    "locked": "Waiting for you..."
+  },
+  "artifact_gallery": {
+    "title": "Treasure Museum",
+    "subtitle": "Priceless artifacts you found on your time-travel journey.",
+    "not_found": "Finding soon..."
+  },
+  "hero_unlock": {
+    "header": "YOU UNLOCKED A NEW HERO CARD!",
+    "button": "AWESOME!"
+  },
+  "glossary_ui": {
+    "category_default": "Explanation",
+    "got_it": "Got it!"
+  },
+  "achievement_filter": {
+    "status": {
+      "all": "All",
+      "earned": "Earned",
+      "locked": "Locked"
+    },
+    "rarity_all": "All Tiers"
+  },
+  "mascot": {
+    "welcome": "Hello little friend! I am the Golden Turtle God, very happy to accompany you on the journey to learn Vietnamese history!",
+    "idle_messages": [
+      "Did you know Vietnam has over 4000 years of civilization?",
+      "Read each slide carefully to find secret treasures!",
+      "Don't forget to check the glossary if you encounter hard words!",
+      "Learning history is really interesting, isn't it?",
+      "I'm always here to help you!"
+    ]
+  },
+  "hero_stats": {
+    "progress_title": "Warrior Progress",
+    "completed": "Completed",
+    "earned": "Badges"
+  },
+  "error_page": {
+    "title": "Oops! It seems you're lost in time?",
+    "description": "This page might have drifted far into the past or never existed. Don't worry, let's head back to the present together!",
+    "back_home": "Back to Home",
+    "view_map": "View Map",
+    "did_you_know": "Did you know? Thang Long Capital (today's Hanoi) was chosen by King Ly Thai To in 1010!"
+  },
+  "report_page": {
+    "title": "Quick",
+    "title_highlight": "Report",
+    "subtitle": "Thanks for helping us improve History Kids for everyone.",
+    "seo_title": "Report Bug & Feedback - Helping History Kids Improve",
+    "seo_desc": "Send feedback or report bugs to help us build the best historical learning environment for kids.",
+    "seo_og_desc": "Thank you for accompanying and helping History Kids get better every day!",
+    "guide_title": "Suggested content for bug reports",
+    "tip_1": "Which page you're on (automatically included in the email)",
+    "tip_2": "Steps to reproduce the error",
+    "tip_3": "Screenshots (if any)",
+    "button": "Send bug report email",
+    "back_home": "Back to Home",
+    "note": "Note: please update the recipient email in `pages/report.vue` before publishing.",
+    "email_subject": "[History Kids] Bug Report ({path})",
+    "email_body": "Error description:\n- (Briefly describe the error you encountered)\n\nSteps to produce the error:\n1) ...\n2) ...\n\nDevice/Browser:\n- Windows/macOS/iOS/Android, Chrome/Edge/Safari...\n\nScreenshot (if any):\n- ..."
+  },
+  "privacy_page": {
+    "title": "Privacy",
+    "title_highlight": "Policy",
+    "subtitle": "Your safety is our top priority!",
+    "seo_title": "Privacy Policy - History Kids",
+    "seo_desc": "Committed to protecting privacy and absolute safety for children using the History Kids app.",
+    "seo_og_desc": "Your safety is our priority. Learn how we protect your data.",
+    "commitment": "100% Safety Guarantee",
+    "commitment_quote": "\"We do NOT collect personal data, do NOT require registration, and have NO annoying advertisements.\"",
+    "section_1_title": "1. No Data Collection",
+    "section_1_desc": "History Kids operates entirely based on free experience. You can view lessons and quizzes without providing your name, age, or any personal information.",
+    "section_2_title": "2. Local Device Storage",
+    "section_2_desc": "To continue your journey next time, the app saves progress data (e.g., nickname, selected character, completed lessons) **directly in your browser memory** (Local Storage). This data stays on your device; we do not send it to any servers.",
+    "section_3_title": "3. Rescue Code Management",
+    "section_3_desc": "The sync feature via Rescue Code works by compressing your progress data into a string. This code is **managed by you and your parents**. The system does not store these codes on servers, so if the code is lost and browser data is cleared, progress cannot be restored.",
+    "section_4_title": "4. External Links",
+    "section_4_desc": "All external links are carefully reviewed to ensure safety for children. Parents should always accompany children when using the internet!",
+    "section_5_title": "5. For Parents",
+    "section_5_desc": "We encourage parents to spend time exploring the app with their children. Any privacy concerns, please contact via email: **phucndh.dev{'@'}gmail.com**."
+  },
+  "terms_page": {
+    "title": "Terms of",
+    "title_highlight": "Use",
+    "subtitle": "Small \"rules of play\" to help us explore history together in the most fun way!",
+    "seo_title": "Terms of Use - History Kids",
+    "seo_desc": "Rules and guidelines for using the History Kids app safely and effectively for children and parents.",
+    "seo_og_desc": "Fair rules for an exciting journey of historical discovery.",
+    "section_1_title": "1. Purpose of History Kids",
+    "section_1_desc": "This website was created to help children learn about Vietnamese history through vivid stories, images, and fun quiz games. All content is intended for education and inspiring national pride.",
+    "section_2_title": "2. Content Ownership",
+    "section_2_desc": "All images and stories on the website are copyrighted by **History Kids**. You and your parents are free to view and learn, but please do not copy or use for commercial purposes without permission.",
+    "section_3_title": "3. Rescue Code Responsibility",
+    "section_3_desc": "When using the progress sync feature, you and your parents are responsible for storing and securing your **Rescue Code**. Since the system does not store this code on servers, we cannot reissue it if lost.",
+    "section_4_title": "4. User Responsibility",
+    "section_4_desc": "We aim to create a positive learning environment. Please use the website in a civilized way and provide sincere feedback to help us improve.",
+    "footer_note": "If you have any questions, parents please contact us via the email address at the bottom of the page!"
+  },
+  "about": {
+    "title": "About History Kids Project",
+    "seo_title": "About Vietnam History for Kids",
+    "seo_desc": "Learn about the mission to inspire national pride and love for history in the young generation.",
+    "seo_og_desc": "History is an adventure! Discover the heart behind the History Kids project.",
+    "hero": {
+      "tag": "Seed of History",
+      "title_primary": "History is an",
+      "title_highlight": "adventure!",
+      "subtitle": "Did you know that every road we take has heroic stories waiting for you to discover?"
+    },
+    "mission": {
+      "title": "You are the pride of Vietnam",
+      "p1": "A long time ago, our ancestors and heroes were very brave to protect our country. They fought off invaders and built beautiful cities so that today we can live in peace.",
+      "p2": "We created this website to tell you those stories in a fun and easy-to-remember way. We hope you will love the Vietnamese language more, love the national flag more, and always be proud to be Vietnamese!"
+    },
+    "values": {
+      "storytelling": {
+        "title": "Storytelling",
+        "desc": "Dry events are transformed into vivid, easy-to-remember stories."
+      },
+      "visuals": {
+        "title": "Visuals",
+        "desc": "Delicate illustrations, rich in cultural identity yet modern and close to children."
+      },
+      "truth": {
+        "title": "Truth",
+        "desc": "Ensuring absolute historical accuracy, helping children have a solid knowledge foundation."
+      }
+    },
+    "proverbs": {
+      "title": "Lullaby of Mother Earth",
+      "q1": "People have their roots and ancestors,\nLike trees have their source, like rivers have their origins.",
+      "q2": "The red cloth covers the mirror frame,\nPeople of one country must love each other.",
+      "q3": "When eating fruit, remember the planter,\nWhen drinking water, remember the source.",
+      "q4": "Our people must know our history,\nTo understand the origins of the Vietnamese nation."
+    },
+    "developer": {
+      "title": "Passion & Technology",
+      "p1": "The History Kids project was built by PhucNDH with the desire to bring a fresh, colorful, and never-boring way of learning history to children.",
+      "p2": "To create vivid illustrations, I combined historical knowledge with AI technology. However, since AI is still learning, sometimes images may have small details that do not perfectly match historical reality.",
+      "quote": "My mission is accuracy and joy. If you find any errors, please provide feedback so I can improve it via email: phucndh.dev{'@'}gmail.com"
+    },
+    "final": {
+      "title": "Are you ready to start the journey?",
+      "explore_map": "Explore Map",
+      "lesson_list": "View Lesson List"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "retry": "Retry",
+    "back": "Back",
+    "rarity": {
+      "common": "Common",
+      "rare": "Rare",
+      "epic": "Epic",
+      "legendary": "Legendary"
+    }
+  }
+}

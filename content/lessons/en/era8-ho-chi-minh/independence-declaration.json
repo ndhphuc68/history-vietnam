@@ -1,0 +1,54 @@
+{
+  "id": "independence-declaration",
+  "title": "The Declaration of Independence",
+  "heroId": "ho-chi-minh",
+  "period": "Anti-French Resistance",
+  "summary": "On September 2, 1945, at Ba Dinh Square, Uncle Ho read the Declaration of Independence, giving birth to the Democratic Republic of Vietnam.",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/independence-declaration.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Tens of thousands of people from everywhere converged on the historic Ba Dinh Square in the joyous victory of the August Revolution.",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/0.png",
+      "imagePrompt": "Huge crowd of people with red flags at Ba Dinh square, sunny day, ocean of flags, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Uncle Ho, in his simple khaki clothes, stepped onto the high podium and spoke in his warm, dear voice.",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/1.png",
+      "imagePrompt": "Ho Chi Minh standing at the podium on Ba Dinh square, simple khaki clothes, speaking into a microphone, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When Uncle Ho asked: 'Can the fellow countrymen hear me clearly?', the whole square replied in unison: 'Yes!', echoing across the sky.",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/2.png",
+      "imagePrompt": "Uncle Ho smiling and pointing to the crowd, people shouting 'Yes!' in unison, emotional moment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The declaration of independence opened a new era, an era of freedom and happiness for the entire Vietnamese nation.",
+      "image": "/images/history/lessons/ho-chi-minh-era/independence-declaration/3.png",
+      "imagePrompt": "Birds flying over Ba Dinh square, symbol of peace and newly born independence, beautiful sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "On which day did Uncle Ho read the Declaration of Independence?",
+      "options": [
+        "September 2",
+        "August 19",
+        "January 1"
+      ],
+      "answer": "September 2"
+    },
+    {
+      "type": "quiz",
+      "question": "At which square did Uncle Ho read the Declaration of Independence?",
+      "options": [
+        "Ba Dinh Square",
+        "Dong Kinh Nghia Thuc Square",
+        "Lam Son Square"
+      ],
+      "answer": "Ba Dinh Square"
+    }
+  ]
+}

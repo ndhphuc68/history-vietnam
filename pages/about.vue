@@ -2,17 +2,18 @@
 /**
  * About page explaining the mission and meaning of the project.
  */
+const { t } = useI18n();
+const localePath = useLocalePath();
+
 useHead({
-  title: "Về dự án Lịch sử Nhí",
+  title: t("about.title"),
 });
 
 useSeoMeta({
-  title: "Về dự án Lịch sử Việt Nam cho Bé",
-  ogTitle: "Về dự án Lịch sử Việt Nam cho Bé",
-  description:
-    "Tìm hiểu về sứ mệnh khơi gợi lòng tự hào dân tộc và tình yêu lịch sử nước nhà cho thế hệ mầm non.",
-  ogDescription:
-    "Lịch sử là một chuyến phiêu lưu! Khám phá tâm huyết đằng sau dự án Lịch sử Nhí.",
+  title: t("about.seo_title"),
+  ogTitle: t("about.seo_title"),
+  description: t("about.seo_desc"),
+  ogDescription: t("about.seo_og_desc"),
   ogImage: "/images/about/mission.png",
 });
 </script>
@@ -35,19 +36,21 @@ useSeoMeta({
         <div
           class="inline-block px-6 py-2 mb-8 bg-accent text-text font-black rounded-full text-lg shadow-sm border-2 border-white transform -rotate-1"
         >
-          <Icon name="fluent-emoji:seedling" class="mr-2" /> Hạt giống Lịch sử
+          <Icon name="fluent-emoji:seedling" class="mr-2" />
+          {{ $t("about.hero.tag") }}
         </div>
         <h1
           class="text-5xl md:text-7xl font-black text-text mb-8 leading-tight drop-shadow-sm"
         >
-          Lịch sử là một <br />
-          <span class="text-primary">chuyến phiêu lưu!</span>
+          {{ $t("about.hero.title_primary") }} <br />
+          <span class="text-primary">{{
+            $t("about.hero.title_highlight")
+          }}</span>
         </h1>
         <p
           class="text-xl md:text-2xl text-text font-medium leading-relaxed max-w-3xl mx-auto opacity-90"
         >
-          Bé có biết, mỗi con đường chúng ta đi <br />
-          đều có những câu chuyện anh hùng chờ bé khám phá không?
+          {{ $t("about.hero.subtitle") }}
         </p>
       </div>
     </section>
@@ -57,22 +60,16 @@ useSeoMeta({
       <div class="grid md:grid-cols-2 gap-16 items-center mb-32">
         <div class="animate-slide-up">
           <h2 class="text-4xl font-black text-text mb-6">
-            Bé là niềm tự hào của Việt Nam
+            {{ $t("about.mission.title") }}
           </h2>
           <div
             class="space-y-6 text-lg text-gray-700 leading-relaxed font-medium"
           >
             <p>
-              Ngày xưa, ông bà và các vị anh hùng đã rất dũng cảm để bảo vệ đất
-              nước mình. Họ đã đánh đuổi giặc ngoại xâm, xây dựng những thành
-              phố xinh đẹp để hôm nay chúng ta được sống trong hòa bình.
+              {{ $t("about.mission.p1") }}
             </p>
             <p>
-              Chúng mình tạo ra trang web này để kể cho bé nghe những chuyện ấy
-              một cách thật vui và dễ nhớ. Hy vọng bé sẽ yêu thêm tiếng Việt,
-              yêu thêm màu cờ Tổ quốc và luôn tự hào mình là
-              <span class="text-primary font-black">người Việt Nam</span>
-              nhé!
+              {{ $t("about.mission.p2") }}
             </p>
           </div>
         </div>
@@ -103,10 +100,11 @@ useSeoMeta({
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:open-book" />
           </div>
-          <h3 class="text-2xl font-black text-text mb-4">Kể chuyện</h3>
+          <h3 class="text-2xl font-black text-text mb-4">
+            {{ $t("about.values.storytelling.title") }}
+          </h3>
           <p class="font-medium text-gray-600">
-            Những sự kiện khô khan được chuyển thể thành các mẩu chuyện kể sinh
-            động, dễ nhớ.
+            {{ $t("about.values.storytelling.desc") }}
           </p>
         </div>
 
@@ -116,10 +114,11 @@ useSeoMeta({
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:artist-palette" />
           </div>
-          <h3 class="text-2xl font-black text-text mb-4">Hình ảnh</h3>
+          <h3 class="text-2xl font-black text-text mb-4">
+            {{ $t("about.values.visuals.title") }}
+          </h3>
           <p class="font-medium text-gray-600">
-            Minh họa tinh tế, mang đậm bản sắc văn hóa nhưng vẫn hiện đại và gần
-            gũi với trẻ em.
+            {{ $t("about.values.visuals.desc") }}
           </p>
         </div>
 
@@ -129,10 +128,11 @@ useSeoMeta({
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:shield" />
           </div>
-          <h3 class="text-2xl font-black text-text mb-4">Sự thật</h3>
+          <h3 class="text-2xl font-black text-text mb-4">
+            {{ $t("about.values.truth.title") }}
+          </h3>
           <p class="font-medium text-gray-600">
-            Đảm bảo tính chính xác lịch sử tuyệt đối, giúp các bé có nền tảng
-            kiến thức vững chắc.
+            {{ $t("about.values.truth.desc") }}
           </p>
         </div>
       </div>
@@ -142,7 +142,7 @@ useSeoMeta({
         <h2
           class="text-3xl md:text-4xl font-black text-text mb-12 relative inline-block"
         >
-          Lời ru của Đất Mẹ
+          {{ $t("about.proverbs.title") }}
           <div
             class="absolute -bottom-4 left-0 w-full h-2 bg-accent rounded-full opacity-50"
           ></div>
@@ -154,9 +154,10 @@ useSeoMeta({
             class="bg-orange-50/50 p-8 rounded-[30px] border-l-8 border-primary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
-            <p class="text-xl font-bold text-text leading-relaxed italic">
-              Con người có tổ có tông,<br />
-              Như cây có cội, như sông có nguồn.
+            <p
+              class="text-xl font-bold text-text leading-relaxed italic whitespace-pre-line"
+            >
+              {{ $t("about.proverbs.q1") }}
             </p>
           </div>
 
@@ -165,9 +166,10 @@ useSeoMeta({
             class="bg-teal-50 p-8 rounded-[30px] border-l-8 border-secondary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
-            <p class="text-xl font-bold text-text leading-relaxed italic">
-              Nhiễu điều phủ lấy giá gương,<br />
-              Người trong một nước phải thương nhau cùng.
+            <p
+              class="text-xl font-bold text-text leading-relaxed italic whitespace-pre-line"
+            >
+              {{ $t("about.proverbs.q2") }}
             </p>
           </div>
 
@@ -176,9 +178,10 @@ useSeoMeta({
             class="bg-yellow-50 p-8 rounded-[30px] border-l-8 border-accent shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
-            <p class="text-xl font-bold text-text leading-relaxed italic">
-              Ăn quả nhớ kẻ trồng cây,<br />
-              Uống nước nhớ nguồn.
+            <p
+              class="text-xl font-bold text-text leading-relaxed italic whitespace-pre-line"
+            >
+              {{ $t("about.proverbs.q3") }}
             </p>
           </div>
 
@@ -187,13 +190,16 @@ useSeoMeta({
             class="bg-pink-50 p-8 rounded-[30px] border-l-8 border-pink-500 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
-            <p class="text-xl font-bold text-text leading-relaxed italic">
-              Dân ta phải biết sử ta,<br />
-              Cho tường gốc tích nước nhà Việt Nam.
+            <p
+              class="text-xl font-bold text-text leading-relaxed italic whitespace-pre-line"
+            >
+              {{ $t("about.proverbs.q4") }}
             </p>
           </div>
         </div>
       </div>
+
+      <!-- Developer Section -->
       <div
         class="mt-24 bg-white/60 backdrop-blur-sm rounded-[50px] p-8 md:p-12 border-4 border-dashed border-text/10 animate-slide-up"
       >
@@ -202,28 +208,21 @@ useSeoMeta({
             <h2
               class="text-3xl font-black text-text mb-6 flex items-center gap-3"
             >
-              <Icon name="fluent-emoji:rocket" /> Nỗ lực cá nhân & Công nghệ
+              <Icon name="fluent-emoji:rocket" />
+              {{ $t("about.developer.title") }}
             </h2>
             <div class="space-y-4 text-gray-700 font-medium leading-relaxed">
               <p>
-                Dự án này được xây dựng hoàn toàn bởi
-                <strong>PhucNDH</strong> với tâm huyết mang lại một cách học sử
-                mới mẻ cho các em nhỏ.
+                {{ $t("about.developer.p1") }}
               </p>
               <p>
-                Vì là dự án cá nhân, mình đã sử dụng
-                <strong>công nghệ AI</strong> để tạo ra các hình ảnh minh họa
-                sinh động. Tuy nhiên, hình ảnh do AI tạo ra đôi khi có thể có
-                những chi tiết chưa hoàn toàn chính xác về mặt lịch sử hoặc văn
-                hóa.
+                {{ $t("about.developer.p2") }}
               </p>
               <div
                 class="p-6 bg-primary/10 rounded-3xl border-2 border-primary/20"
               >
                 <p class="text-primary font-black italic">
-                  "Nếu bạn phát hiện bất kỳ sai sót nào về nội dung hoặc hình
-                  ảnh, xin hãy vui lòng báo lại cho mình. Mình sẽ sửa đổi ngay
-                  lập tức để hoàn thiện hơn!"
+                  "{{ $t("about.developer.quote") }}"
                 </p>
               </div>
             </div>
@@ -253,22 +252,23 @@ useSeoMeta({
         ></div>
 
         <h2 class="text-4xl md:text-5xl font-black mb-8 relative z-10">
-          Bạn đã sẵn sàng bước vào hành trình?
+          {{ $t("about.final.title") }}
         </h2>
         <div
           class="flex flex-col sm:flex-row gap-6 justify-center relative z-10"
         >
           <NuxtLink
-            to="/map"
+            :to="localePath('/map')"
             class="px-12 py-5 bg-primary text-white font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
           >
-            Khám phá Bản đồ <Icon name="fluent-emoji:world-map" class="ml-2" />
+            {{ $t("about.final.explore_map") }}
+            <Icon name="fluent-emoji:world-map" class="ml-2" />
           </NuxtLink>
           <NuxtLink
-            to="/lesson"
+            :to="localePath('/lesson')"
             class="px-12 py-5 bg-white text-text font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
           >
-            Xem Danh sách Bài học
+            {{ $t("about.final.lesson_list") }}
           </NuxtLink>
         </div>
       </div>

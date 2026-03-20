@@ -1,0 +1,69 @@
+{
+  "id": "trieu-da-invasion",
+  "title": "Trieu Da's Invasion",
+  "period": "Nation Building",
+  "summary": "A painful story of how a lack of vigilance led to the loss of the Au Lac kingdom, marking the beginning of the long Northern domination period.",
+  "image": "/images/history/thumbnails/founding/trieu-da-invasion.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Trieu Da - the king of Nam Viet in the North - repeatedly led his troops to attack Au Lac, but he consistently failed because of the magical crossbow.",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/0.png",
+      "imagePrompt": "Invading army failing at Co Loa walls, arrows in the air, Triệu Đà looking frustrated, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Trieu Da then used a scheme to fane peace, sending his son Trong Thuy to marry An Duong Vuong's daughter and find a way to switch the magical crossbow.",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/1.png",
+      "imagePrompt": "Trong Thuy and My Nuong together, romantic but secret, Trong Thuy looking at the crossbow, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Trusting his son-in-law too much, An Duong Vuong allowed Trong Thuy to see the magical crossbow. Trong Thuy secretly swapped the real trigger with a fake one.",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/2.png",
+      "imagePrompt": "Trong Thuy swapping the glowing claw for a plain one, dark background, suspense, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Once he held the secret, Trieu Da immediately sent his troops to attack. Overconfident, An Duong Vuong brought out the crossbow to fire, but its magic was gone.",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/3.png",
+      "imagePrompt": "An Dương Vương holding the crossbow, shocked as it fails to fire magical arrows, enemy army approaching, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The citadel was lost, the nation fell. An Duong Vuong and My Nuong fled toward the sea. Au Lac fell into enemy hands, beginning a tragic era.",
+      "image": "/images/history/lessons/founding/trieu-da-invasion/4.png",
+      "imagePrompt": "King and Princess on a horse galloping towards the sea, palace burning in distance, sad scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What scheme did Trieu Da use to defeat An Duong Vuong?",
+      "options": [
+        "A frontal military attack",
+        "A marriage alliance (sending Trong Thuy as son-in-law)",
+        "Bribing the soldiers"
+      ],
+      "answer": "A marriage alliance (sending Trong Thuy as son-in-law)"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Trong Thuy steal from Au Lac?",
+      "options": [
+        "The map of the citadel",
+        "The trigger of the Magic Crossbow",
+        "The King's crown"
+      ],
+      "answer": "The trigger of the Magic Crossbow"
+    },
+    {
+      "type": "quiz",
+      "question": "Why did An Duong Vuong lose the battle?",
+      "options": [
+        "Because the soldiers were lazy",
+        "Because of overconfidence and too much trust in others",
+        "Because the citadel walls were not high enough"
+      ],
+      "answer": "Because of overconfidence and too much trust in others"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "can-vuong",
+  "title": "The Can Vuong Movement",
+  "period": "Anti-French",
+  "summary": "King Ham Nghi's call to the entire country to help the King save the nation awakened patriotism in people from all walks of life.",
+  "image": "/images/history/thumbnails/resistance/can-vuong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "When the Hue Imperial Citadel was occupied by French troops, the very young King Ham Nghi, along with high mandarin Ton That Thuyet, fled to the mountainous region of Quang Tri.",
+      "image": "/images/history/lessons/resistance/can-vuong/0.png",
+      "imagePrompt": "Young King Ham Nghi on a horse traveling through dark mountains at night, Ton That Thuyet leading the way, torches, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "There, King Ham Nghi issued the 'Can Vuong' (meaning 'Help the King') decree, calling on the people across the country to rise up and drive out the French colonialists.",
+      "image": "/images/history/lessons/resistance/can-vuong/1.png",
+      "imagePrompt": "King Ham Nghi reading a decree from a cave entrance, officials listening, rugged terrain, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The King's call was like a blazing fire, igniting the patriotism of scholars and people from Central to North Vietnam.",
+      "image": "/images/history/lessons/resistance/can-vuong/2.png",
+      "imagePrompt": "Small fires spreading across a map of Vietnam, representative of uprisings in different provinces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite many hardships in the deep forests, the Can Vuong movement recorded heroic chapters about the unyielding will of the Vietnamese nation.",
+      "image": "/images/history/lessons/resistance/can-vuong/3.png",
+      "imagePrompt": "A group of patriots hiding in a lush forest, sharpening spears, looking determined, sunlight through leaves, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the meaning of the 'Can Vuong' decree?",
+      "options": [
+        "Inviting everyone to a party",
+        "Helping the King save the country",
+        "Calling everyone to go trading"
+      ],
+      "answer": "Helping the King save the country"
+    },
+    {
+      "type": "quiz",
+      "question": "Which King issued the Can Vuong decree?",
+      "options": [
+        "King Gia Long",
+        "King Ham Nghi",
+        "King Minh Mang"
+      ],
+      "answer": "King Ham Nghi"
+    }
+  ]
+}

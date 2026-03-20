@@ -1,0 +1,53 @@
+{
+  "id": "french-invasion",
+  "title": "French Invasion of Vietnam",
+  "period": "Anti-French",
+  "summary": "In 1858, the sounds of French colonizer gunfire echoed in Da Nang, beginning a difficult era as our nation faced a new enemy.",
+  "image": "/images/history/thumbnails/resistance/french-invasion.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In the mid-19th century, Western countries wanted to occupy other lands to seize resources. On September 1, 1858, French troops opened fire on the Son Tra Peninsula (Da Nang).",
+      "image": "/images/history/lessons/resistance/french-invasion/0.png",
+      "imagePrompt": "French warships with large chimneys smoke in Da Nang bay, firing cannons towards the shore, dramatic sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Our army and people in Da Nang, under the command of General Nguyen Tri Phuong, bravely fought back, preventing the French from advancing deep inland.",
+      "image": "/images/history/lessons/resistance/french-invasion/1.png",
+      "imagePrompt": "General Nguyen Tri Phuong commanding soldiers behind sandbags near the beach, cannons firing back, dust and energy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "However, with modern weapons such as rifles and large ships, the French later redirected their attack towards Gia Dinh (modern-day Ho Chi Minh City).",
+      "image": "/images/history/lessons/resistance/french-invasion/2.png",
+      "imagePrompt": "French troops marching with rifles, tropical palm trees background, sense of challenge, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "From here, our people's resistance to protect the country entered a new stage, full of hardship but also extremely heroic.",
+      "image": "/images/history/lessons/resistance/french-invasion/3.png",
+      "imagePrompt": "Vietnamese peasants sharpening bamboo stakes under the rain, faces full of determination, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did French colonialists first open fire to invade our country?",
+      "options": [
+        "Hanoi",
+        "Da Nang",
+        "Hue"
+      ],
+      "answer": "Da Nang"
+    },
+    {
+      "type": "quiz",
+      "question": "In what year did the French colonization of Vietnam begin?",
+      "options": [
+        "1858",
+        "1802",
+        "1945"
+      ],
+      "answer": "1858"
+    }
+  ]
+}

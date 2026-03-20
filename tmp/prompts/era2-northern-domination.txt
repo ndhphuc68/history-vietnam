@@ -1,0 +1,120 @@
+# Prompts with STRENGTHENED CONSISTENCY: era2-northern-domination
+
+> NOTICE: All prompts now use the Master Style Prefix and Suffix for visual unity.
+
+### Lesson: Chính sách đồng hóa
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Han schoolroom in ancient Vietnam, teacher teaching Chinese characters, Vietnamese students looking thoughtful, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các triều đại phương" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A marketplace where Chinese and Vietnamese people interact, mixing of clothes and customs, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Họ đưa người Hán" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient Vietnamese grandmother teaching a grandchild secret legends in their own language, resisting cultural loss, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Họ muốn xóa bỏ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese people performing traditional rituals in secret, unity and preservation of spirit, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tuy nhiên, người Việt" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Khởi nghĩa Bà Triệu
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young Lady Trieu practicing martial arts in the mountains, determined look, beautiful landscape, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà Triệu tên thật" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Lady Trieu standing on a high cliff, wind blowing her hair, symbolic image of riding wind and waves, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà nổi tiếng với" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Lady Trieu in golden armor, riding a white elephant with 3 tusks, leading her army to battle, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà thường mặc áo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Enemies fleeing in fear as Lady Trieu approaches, heroic and majestic presence, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hình ảnh oai phong" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Khởi nghĩa Hai Bà Trưng
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Trung Sisters taking a sacred oath in front of their army, solemn ceremony, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 40, Hai Bà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Trung Sisters riding two big elephants, leading a massive army of Vietnamese people, epic battle scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hàng nghìn người từ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trung Trac being crowned as Queen, Me Linh capital celebration, people cheering, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân giặc sợ hãi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Hán cai trị
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient map of Vietnam divided into Han districts (Giao Chi, Cuu Chan, Nhat Nam), Han officials and soldiers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 111 TCN, nhà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A stern Han official collecting taxes (rice, precious goods) from poor Vietnamese villagers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các viên quan đô" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese people diving for pearls or hunting in dangerous forests to find products for invaders, risky and sad, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng bắt dân ta" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Villagers gathering in secret, looking determined and angry, preparing for a long struggle, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sự cai trị tàn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Cuộc sống thời Bắc thuộc
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Farmers in traditional clothes working hard in fields, looking tired, Han tax collectors waiting nearby, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới ách cai trị" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese women weaving silk and pottery makers at work, colorful fabrics and pots, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù bị đàn áp," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient fishing boats at sea, trading goods, sunset, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Làng chài và các" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Village gathering at night, fire in the middle, elders telling stories to children, sense of community, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trong những ngôi làng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Các cuộc nổi dậy khác
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ly Bi (Ly Nam De) being crowned, Vạn Xuân flag, festive atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thế kỷ VI, Lý" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Collage of different heroes leading their people, determined expressions, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau đó là Mai" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large bonfire where stories of past heroes are passed down, glowing energy, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Mỗi cuộc khởi nghĩa," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Symbolic image of diverse Vietnamese people (men, women, children) standing together in solidarity, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Giai đoạn này là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+

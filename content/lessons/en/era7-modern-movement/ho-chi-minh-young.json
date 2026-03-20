@@ -1,0 +1,53 @@
+{
+  "id": "ho-chi-minh-young",
+  "title": "The Boy Nguyen Sinh Cung",
+  "period": "Uncle Ho",
+  "summary": "Uncle Ho's childhood in Sen Village and Hoang Tru Village, where he learned his first lessons about love for the homeland.",
+  "image": "/images/history/thumbnails/patriotic-movements/ho-chi-minh-young.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! Do you know what our beloved Uncle Ho's childhood name was? It was Nguyen Sinh Cung, born into a poor scholarly family in rural Nghe An province.",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/0.png",
+      "imagePrompt": "A simple thatched house in a village with many lotus flowers (Làng Sen), a young boy with bright eyes sitting on the porch, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "From a young age, Cung listened to his father tell stories of heroes and witnessed French troops mistreating the people. His hatred for the invaders grew from then on.",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/1.png",
+      "imagePrompt": "Young boy listening to his father by a lamp, shadows of heroes on the wall, serious and thoughtful face, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He was very studious and always curious about the world outside. He wondered: 'Why is our country ruled by others? How can I save my people?'",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/2.png",
+      "imagePrompt": "Nguyen Sinh Cung reading a book under a banyan tree, looking at the distant mountains, atmosphere of curiosity and purpose, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The moral lessons and love from his family forged a young man with a great heart later in life.",
+      "image": "/images/history/lessons/patriotic-movements/ho-chi-minh-young/3.png",
+      "imagePrompt": "A warm family portrait, parents and children together, soft glowing light, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What was Uncle Ho's childhood name?",
+      "options": [
+        "Nguyen Tat Thanh",
+        "Nguyen Sinh Cung",
+        "Van Ba"
+      ],
+      "answer": "Nguyen Sinh Cung"
+    },
+    {
+      "type": "quiz",
+      "question": "Which famous flower is found in Uncle Ho's paternal hometown?",
+      "options": [
+        "Roses",
+        "Lotus",
+        "Daisy"
+      ],
+      "answer": "Lotus"
+    }
+  ]
+}

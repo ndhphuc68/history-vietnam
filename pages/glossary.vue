@@ -1,33 +1,32 @@
 <script setup lang="ts">
 import { useGlossary } from "~/composables/useGlossary";
 
+const { t, locale } = useI18n();
 const { glossary } = useGlossary();
 const searchQuery = ref("");
-const selectedCategory = ref("Tất cả");
+const selectedCategory = ref(t("glossary.categories.all"));
 const activeLetter = ref("");
 
 useHead({
-  title: "Từ điển Lịch sử",
+  title: t("glossary.title"),
 });
 
 useSeoMeta({
-  title: "Từ điển Lịch sử Việt Nam cho Bé",
-  ogTitle: "Từ điển Lịch sử Việt Nam cho Bé",
-  description:
-    "Tra cứu và giải mã những từ ngữ, khái niệm lịch sử Việt Nam một cách dễ hiểu nhất.",
-  ogDescription:
-    "Kho tàng kiến thức về các chức danh, sự vật và khái niệm lịch sử hào hùng.",
+  title: t("glossary.seo_title"),
+  ogTitle: t("glossary.seo_title"),
+  description: t("glossary.seo_desc"),
+  ogDescription: t("glossary.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 
-const categories = [
-  "Tất cả",
-  "Chức danh",
-  "Sự vật",
-  "Khái niệm",
-  "Địa danh",
-  "Thời kỳ",
-];
+const categories = computed(() => [
+  t("glossary.categories.all"),
+  t("glossary.categories.title"),
+  t("glossary.categories.object"),
+  t("glossary.categories.concept"),
+  t("glossary.categories.location"),
+  t("glossary.categories.period"),
+]);
 
 // Group filtered glossary by first letter
 const groupedGlossary = computed(() => {
@@ -36,14 +35,14 @@ const groupedGlossary = computed(() => {
       item.term.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
       item.definition.toLowerCase().includes(searchQuery.value.toLowerCase());
     const matchesCategory =
-      selectedCategory.value === "Tất cả" ||
+      selectedCategory.value === t("glossary.categories.all") ||
       item.category === selectedCategory.value;
     return matchesSearch && matchesCategory;
   });
 
   const groups: Record<string, typeof filtered> = {};
   filtered
-    .sort((a, b) => a.term.localeCompare(b.term, "vi"))
+    .sort((a, b) => a.term.localeCompare(b.term, locale.value))
     .forEach((item) => {
       const firstLetter = item.term.charAt(0).toUpperCase();
       if (!groups[firstLetter]) groups[firstLetter] = [];
@@ -101,10 +100,10 @@ onMounted(() => {
     ></div>
 
     <UiPageHero
-      title-primary="Từ điển"
-      title-highlight="Tình Việt"
-      subtitle="Giải mã những từ ngữ cổ xưa để hiểu hơn về dòng máu Lạc Hồng."
-      tag="KHO KIẾN THỨC"
+      :title-primary="$t('glossary.page_hero.title_primary')"
+      :title-highlight="$t('glossary.page_hero.title_highlight')"
+      :subtitle="$t('glossary.page_hero.subtitle')"
+      :tag="$t('glossary.page_hero.tag')"
       icon="fluent-emoji:books"
       accent-color="secondary"
     />
@@ -124,7 +123,7 @@ onMounted(() => {
             <input
               v-model="searchQuery"
               type="text"
-              placeholder="Hôm nay bé muốn tìm từ gì nào?..."
+              :placeholder="$t('glossary.search_placeholder')"
               class="w-full pl-14 pr-8 py-5 bg-background/50 rounded-2xl border-4 border-transparent focus:border-secondary focus:bg-white transition-all outline-none font-black text-xl text-text placeholder:text-text/20"
             />
           </div>
@@ -206,19 +205,19 @@ onMounted(() => {
               />
             </div>
             <h3 class="text-4xl font-black text-text/40 mb-4">
-              Không tìm thấy từ này bạn ơi!
+              {{ $t("glossary.empty.title") }}
             </h3>
             <p class="text-xl text-text/30 font-bold">
-              Hãy thử nhập một từ khác hoặc xóa bộ lọc nhé.
+              {{ $t("glossary.empty.subtitle") }}
             </p>
             <button
               @click="
                 searchQuery = '';
-                selectedCategory = 'Tất cả';
+                selectedCategory = $t('glossary.categories.all');
               "
               class="mt-10 px-10 py-4 bg-secondary text-white font-black rounded-2xl hover:scale-110 active:scale-95 transition-all shadow-xl"
             >
-              Xem tất cả từ điển
+              {{ $t("glossary.empty.button") }}
             </button>
           </div>
         </div>

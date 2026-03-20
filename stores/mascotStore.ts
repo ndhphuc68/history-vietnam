@@ -3,10 +3,25 @@ import { defineStore } from "pinia";
 export type MascotMood = "idle" | "happy" | "thinking" | "talking";
 
 export const useMascotStore = defineStore("mascot", () => {
+  const { t, tm, locale } = useI18n();
   const isVisible = ref(true);
-  const message = ref("Chào bạn nhỏ! Mình là Thần Kim Quy, rất vui được đồng hành cùng bạn trên con đường tìm hiểu lịch sử Việt Nam!");
+  const message = ref("");
   const mood = ref<MascotMood>("idle");
   const isTyping = ref(false);
+
+  const updateWelcome = () => {
+    if (mood.value === "idle" && !isTyping.value) {
+      message.value = t("mascot.welcome");
+    }
+  };
+
+  onMounted(() => {
+    updateWelcome();
+  });
+
+  watch(locale, () => {
+    updateWelcome();
+  });
 
   const say = (text: string, newMood: MascotMood = "talking", duration = 5000) => {
     message.value = text;
@@ -18,6 +33,7 @@ export const useMascotStore = defineStore("mascot", () => {
       if (message.value === text) {
         mood.value = "idle";
         isTyping.value = false;
+        updateWelcome();
       }
     }, duration);
   };
@@ -27,14 +43,13 @@ export const useMascotStore = defineStore("mascot", () => {
   };
 
   const congratulate = (badgeTitle: string) => {
-    const congratulations = [
-      `Tuyệt vời! Bạn đã nhận được huy hiệu "${badgeTitle}" rồi đấy!`,
-      `Gút chóp! Huy hiệu "${badgeTitle}" đã thuộc về bạn!`,
-      `Bạn đúng là một sử gia nhí tài ba! Huy hiệu "${badgeTitle}" rất xứng đáng với bạn.`,
-    ];
-    const randomMsg = congratulations[
+    const congratulations = tm("mascot.congratulations") as string[];
+    const randomMsgTemplate = congratulations[
       Math.floor(Math.random() * congratulations.length)
     ] as string;
+    
+    // Simple replacement since t() with params doesn't work on tm() results easily
+    const randomMsg = randomMsgTemplate.replace("{title}", badgeTitle);
     say(randomMsg, "happy", 6000);
   };
 

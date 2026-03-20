@@ -1,0 +1,63 @@
+{
+  "id": "magic-crossbow",
+  "title": "Magical Crossbow of Kim Quy",
+  "period": "Nation Building",
+  "summary": "The legendary weapon that helped Au Lac defeat tens of thousands of invaders, a symbol of pride in ancient military technology.",
+  "image": "/images/history/thumbnails/founding/magic-crossbow.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Before departing, the Golden Turtle gave An Duong Vuong a turtle claw and instructed: 'Use this claw as the trigger for a crossbow; you will have no worries when the enemy comes'.",
+      "image": "/images/history/lessons/founding/magic-crossbow/0.png",
+      "imagePrompt": "Golden Turtle handing a glowing claw to An Dương Vương, sacred moment, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The King ordered General Cao Lo - a master of weapons - to create the Magic Crossbow. Each shot could destroy tens of thousands of enemy soldiers.",
+      "image": "/images/history/lessons/founding/magic-crossbow/1.png",
+      "imagePrompt": "General Cao Lo demonstrating the large Magic Crossbow, glowing arrows, amazing power, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Ancient records state that the magical crossbow was named 'Linh Quang Than Co'. It symbolizes the pinnacle of weapon innovation of the Au Lac people.",
+      "image": "/images/history/lessons/founding/magic-crossbow/2.png",
+      "imagePrompt": "Detailed view of the crossbow mechanics, ancient engineering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thanks to the magical crossbow and high citadel walls, the Au Lac army repeatedly defeated invasions from the North and protected the borders.",
+      "image": "/images/history/lessons/founding/magic-crossbow/3.png",
+      "imagePrompt": "Invading soldiers retreating from arrows flying from Co Loa citadel, victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who was directly responsible for creating the Magic Crossbow?",
+      "options": [
+        "An Duong Vuong",
+        "Cao Lo",
+        "Ly Thuong Kiet"
+      ],
+      "answer": "Cao Lo"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the trigger of the Magic Crossbow made of?",
+      "options": [
+        "Deer antlers",
+        "Golden Turtle's claw",
+        "Black bronze"
+      ],
+      "answer": "Golden Turtle's claw"
+    },
+    {
+      "type": "quiz",
+      "question": "What did the Magic Crossbow symbolize for the Au Lac people?",
+      "options": [
+        "Wealth",
+        "Military power and creativity",
+        "Love for peace"
+      ],
+      "answer": "Military power and creativity"
+    }
+  ]
+}

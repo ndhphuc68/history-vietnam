@@ -1,0 +1,53 @@
+{
+  "id": "dien-hong",
+  "title": "The Dien Hong Conference",
+  "period": "Building",
+  "summary": "When the invaders returned for the second time, the elders shouted in unison: 'FIGHT!', expressing the will of the entire nation.",
+  "image": "/images/history/thumbnails/building/dien-hong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1284, the Mongol-Yuan army prepared to invade our country again with a force many times larger than before. The nation faced a grave danger.",
+      "image": "/images/history/lessons/building/dien-hong/0.png",
+      "imagePrompt": "Huge dark clouds gathering over a peaceful village, symbol of an approaching storm/danger, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Tran Nhan Tong invited elders (respected elderly people) from all over to the Dien Hong Palace to ask for their opinion: 'Should we surrender or fight?'.",
+      "image": "/images/history/lessons/building/dien-hong/1.png",
+      "imagePrompt": "King Tran Nhan Tong sitting among many elderly wise men with white beards, atmosphere of respect and gravity, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Without any hesitation, thousands of elders raised their fists and shouted in unison: 'FIGHT!'. The shout echoed throughout the land!",
+      "image": "/images/history/lessons/building/dien-hong/2.png",
+      "imagePrompt": "Elderly men raising their fists, determined faces, glowing energy/spirit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Dien Hong Conference is a beautiful symbol of the unity of the Vietnamese people. When the people's hearts are decided, no enemy can stop them!",
+      "image": "/images/history/lessons/building/dien-hong/3.png",
+      "imagePrompt": "A large crowd of people of all ages standing together, looking strong and united, sunset glow, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who invited the elders to the Dien Hong Conference?",
+      "options": [
+        "King Tran Nhan Tong",
+        "King Ly Thai To",
+        "King Ngo Quyen"
+      ],
+      "answer": "King Tran Nhan Tong"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the elders' answer at the conference?",
+      "options": [
+        "Surrender!",
+        "Fight!",
+        "Run!"
+      ],
+      "answer": "Fight!"
+    }
+  ]
+}

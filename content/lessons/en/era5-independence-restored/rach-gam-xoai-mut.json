@@ -1,0 +1,53 @@
+{
+  "id": "rach-gam-xoai-mut",
+  "title": "The Victory at Rach Gam - Xoai Mut",
+  "period": "Restoration",
+  "summary": "In just one night, the Tay Son army under the command of Nguyen Hue defeated 50,000 Siamese invaders in the Western river region.",
+  "image": "/images/history/thumbnails/independence-restored/rach-gam-xoai-mut.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1785, the Siamese army from the South invaded our country. They were very aggressive and relied on their large numbers and strong ships.",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/0.png",
+      "imagePrompt": "Many large war boats with distinct southern style flags entering a wide river, aggressive atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Nguyen Hue chose the Rach Gam - Xoai Mut river section (Tien Giang) as the site for the decisive battle. He secretly ambushed soldiers and cannons on both riverbanks.",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/1.png",
+      "imagePrompt": "A bird's eye view of a winding river with dense coconut trees on both banks, hidden cannons peeking through the leaves, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the enemy entered the trap, cannons from both banks fired simultaneously. The enemy ships went up in flames, unable to react.",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/2.png",
+      "imagePrompt": "River battle at night, fire on water, cannons firing from the banks, enemy boats sinking, heroic and intense, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In a short period, 50,000 Siamese soldiers were defeated. From then on, they 'feared the Tay Son army like tigers'!",
+      "image": "/images/history/lessons/independence-restored/rach-gam-xoai-mut/3.png",
+      "imagePrompt": "Enemies running away on land towards the border, looking back in fear, victorious Tay Son soldiers on the river, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did the battle of Rach Gam - Xoai Mut take place?",
+      "options": [
+        "The river region of Tien Giang",
+        "The mountains of Lang Son",
+        "Ha Long Bay"
+      ],
+      "answer": "The river region of Tien Giang"
+    },
+    {
+      "type": "quiz",
+      "question": "Which general commanded the victory at Rach Gam - Xoai Mut?",
+      "options": [
+        "Nguyen Hue",
+        "Le Loi",
+        "Tran Hung Dao"
+      ],
+      "answer": "Nguyen Hue"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "twelve-warlords",
+  "title": "The Anarchy of the 12 Warlords",
+  "period": "Building",
+  "summary": "The country was divided into 12 different regions, with everyone wanting to be king, making life for the people very difficult.",
+  "image": "/images/history/thumbnails/building/twelve-warlords.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Did you know? After King Ngo Quyen passed away, our country fell into a very sad situation: the 'Anarchy of the 12 Warlords'.",
+      "image": "/images/history/lessons/building/twelve-warlords/0.png",
+      "imagePrompt": "Map of Vietnam divided into 12 colorful regions with different family banners, smoke rising from some areas, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "12 leaders from different regions all wanted to compete for power, declared themselves kings, and fought each other. The country was split into 12 small pieces.",
+      "image": "/images/history/lessons/building/twelve-warlords/1.png",
+      "imagePrompt": "Different warlords arguing and pointing at each other across their boundaries, intense atmosphere but not scary, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Wars occurred constantly, fields were abandoned, and the people could not live or work in peace. Everyone was waiting for a hero to appear.",
+      "image": "/images/history/lessons/building/twelve-warlords/2.png",
+      "imagePrompt": "A sad farmer looking at an empty field, a ruined fence, gray sky but still in cartoon style, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "This was the greatest challenge since we regained independence, requiring a brave heart and wisdom to unify the land.",
+      "image": "/images/history/lessons/building/twelve-warlords/3.png",
+      "imagePrompt": "Sunlight breaking through the clouds over a divided land, a symbol of hope (like a blooming flower), children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Why is this period called the 'Anarchy of the 12 Warlords'?",
+      "options": [
+        "Because there were 12 good kings",
+        "Because the country was divided and contested by 12 leaders",
+        "Because there were 12 days of festivals"
+      ],
+      "answer": "Because the country was divided and contested by 12 leaders"
+    },
+    {
+      "type": "quiz",
+      "question": "What was life like for the people during this period?",
+      "options": [
+        "Hard and fearful due to constant war",
+        "Very wealthy and prosperous",
+        "Peaceful and happy"
+      ],
+      "answer": "Hard and fearful due to constant war"
+    }
+  ]
+}

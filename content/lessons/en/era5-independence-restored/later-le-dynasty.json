@@ -1,0 +1,53 @@
+{
+  "id": "later-le-dynasty",
+  "title": "Prosperity of the Early Le Dynasty",
+  "period": "Restoration",
+  "summary": "Under the building hands of King Le Thai To and his successors, our country became wealthy and powerful with many brilliant achievements.",
+  "image": "/images/history/thumbnails/independence-restored/later-le-dynasty.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "After ascending the throne (as King Le Thai To), Le Loi immediately set to work helping the people recover their lives. Lush green rice fields reappeared everywhere.",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/0.png",
+      "imagePrompt": "Vast green rice fields, farmers smiling, irrigation canals with water flowing, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Thang Long imperial citadel was renovated and became even more magnificent. The King held examinations to choose talented people to help the country, encouraging everyone to study.",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/1.png",
+      "imagePrompt": "The imperial palace in Thang Long with colorful flags, a busy school with students and teachers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "To protect the country, the King also ordered the mapping of the territory and set fair laws so that everyone could live together in harmony.",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/2.png",
+      "imagePrompt": "An ancient map of Vietnam being unrolled on a large wooden table, officials examining it, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "During this period, our country was not only strong militarily but also brilliant in culture and education. This was one of the most developed stages in our national history.",
+      "image": "/images/history/lessons/independence-restored/later-le-dynasty/3.png",
+      "imagePrompt": "A panoramic view of a prosperous Thang Long city under the sun, colorful buildings, busy streets, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who was the first king of the Later Le Dynasty?",
+      "options": [
+        "Le Thai To (Le Loi)",
+        "Le Thanh Tong",
+        "Le Thai Tong"
+      ],
+      "answer": "Le Thai To (Le Loi)"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following activities was of special concern to the Early Le Dynasty?",
+      "options": [
+        "Organizing examinations to choose talented people",
+        "Building entertainment areas",
+        "Going shopping"
+      ],
+      "answer": "Organizing examinations to choose talented people"
+    }
+  ]
+}

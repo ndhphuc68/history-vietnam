@@ -1,0 +1,53 @@
+{
+  "id": "resistance-war-france",
+  "title": "Resistance War Against the French (1945-1954)",
+  "period": "Anti-French",
+  "summary": "To protect the newly gained independence, our entire nation entered a long-term resistance war against the return of the French colonialists.",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/resistance-war-france.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Not wanting us to be free, the French colonialists sent their troops to invade our country once again. Uncle Ho called out: 'We would rather sacrifice everything than lose our country'.",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/0.png",
+      "imagePrompt": "Vietnamese people from all walks of life gathering under a banner 'QUYET TU CHO TO QUOC QUYET SINH', determined faces, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The whole country entered a arduous resistance. Families had to leave the cities for the resistance bases (mountainous regions) to protect our forces.",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/1.png",
+      "imagePrompt": "A family traveling through mountain pass at night with torches, carrying simple belongings, moonlit forest, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite the lack of food and clothes, our army and people remained optimistic, producing food together and fighting bravely everywhere.",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/2.png",
+      "imagePrompt": "Soldiers and peasants planting corn and rice together in a forest clearing, singing and working, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Resounding victories like the Viet Bac and Border campaigns made the French troops falter, affirming the power of people's warfare.",
+      "image": "/images/history/lessons/ho-chi-minh-era/resistance-war-france/3.png",
+      "imagePrompt": "Vietnamese soldiers in green uniforms and pith helmets (mũ cối) using clever tactics in the jungle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which call from Uncle Ho inspired the people to stand up against the French?",
+      "options": [
+        "The Call for National Resistance",
+        "An invitation to travel",
+        "A call to exercise"
+      ],
+      "answer": "The Call for National Resistance"
+    },
+    {
+      "type": "quiz",
+      "question": "What did our people do to support the resistance?",
+      "options": [
+        "Stayed in the city for fun",
+        "Went to resistance bases to produce and fight",
+        "Went to see movies"
+      ],
+      "answer": "Went to resistance bases to produce and fight"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "move-capital",
+  "title": "Moving the Capital to Thang Long",
+  "period": "Building",
+  "summary": "King Ly Thai To saw a vision of a golden dragon rising and decided to move the capital from Hoa Lu to the new land of Thang Long.",
+  "image": "/images/history/thumbnails/building/move-capital.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Although Hoa Lu was beautiful, it was cramped. King Ly Thai To wanted to find a larger place for the country to develop strongly. He turned his attention to the land of Dai La.",
+      "image": "/images/history/lessons/building/move-capital/0.png",
+      "imagePrompt": "King Ly Thai To on a ship traveling across a wide river, looking at a beautiful landscape, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "According to the legned, when the King's boat arrived at Dai La, he saw a miraculous sight: A Golden Dragon soaring into the high sky!",
+      "image": "/images/history/lessons/building/move-capital/1.png",
+      "imagePrompt": "A majestic golden dragon made of clouds or light rising from the river bank towards the sky, King and soldiers pointing in awe, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Seeing this as a good omen, the King decided to move the capital here and named the land 'Thang Long' (meaning 'Rising Dragon').",
+      "image": "/images/history/lessons/building/move-capital/2.png",
+      "imagePrompt": "Ancient city construction scene, stone walls rising, the name 'THANG LONG' written in golden characters in the sky, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thang Long became a bustling center, a gathering place for talented and patriotic people until today (Hanoi!).",
+      "image": "/images/history/lessons/building/move-capital/3.png",
+      "imagePrompt": "Busy and happy market in ancient Thang Long, colorful stalls, people trading, pagodas in the background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Why did King Ly Thai To name the new capital Thang Long?",
+      "options": [
+        "Because he saw a dragon rising",
+        "Because it was the name of a flower",
+        "Because he liked dragons"
+      ],
+      "answer": "Because he saw a dragon rising"
+    },
+    {
+      "type": "quiz",
+      "question": "What city is Thang Long today?",
+      "options": [
+        "Da Nang",
+        "Ho Chi Minh City",
+        "Hanoi"
+      ],
+      "answer": "Hanoi"
+    },
+    {
+      "type": "quiz",
+      "question": "What year did King Ly Thai To move the capital?",
+      "options": [
+        "1010",
+        "938",
+        "1428"
+      ],
+      "answer": "1010"
+    }
+  ]
+}

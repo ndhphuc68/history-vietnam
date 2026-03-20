@@ -1,0 +1,53 @@
+{
+  "id": "phan-boi-chau",
+  "title": "The Patriot Phan Boi Chau",
+  "period": "Patriotic",
+  "summary": "Phan Boi Chau was the initiator of the Dong Du movement, sending patriotic youth to Japan to study and return to save the country.",
+  "image": "/images/history/thumbnails/patriotic-movements/phan-boi-chau.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Phan Boi Chau believed that to gain independence, one must have knowledge. He sought ways to go to progressive countries to learn.",
+      "image": "/images/history/lessons/patriotic-movements/phan-boi-chau/0.png",
+      "imagePrompt": "Phan Boi Chau studying in a library with modern books, looking thoughtful, traditional scholar outfit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He founded the Dong Du movement, encouraging youth to study abroad in Japan to hone their talents.",
+      "image": "/images/history/lessons/patriotic-movements/phan-boi-chau/1.png",
+      "imagePrompt": "Young Vietnamese students on a boat traveling to Japan, Phan Boi Chau waving goodbye, hope and ambition, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite facing many difficulties, Phan Boi Chau never stopped writing books and poems to awaken the national spirit.",
+      "image": "/images/history/lessons/patriotic-movements/phan-boi-chau/2.png",
+      "imagePrompt": "Phan Boi Chau writing patriotic poems by candlelight, glowing words in the air, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He was a great patriot who laid the first bricks for the modern journey of seeking national salvation.",
+      "image": "/images/history/lessons/patriotic-movements/phan-boi-chau/3.png",
+      "imagePrompt": "Portrait of Phan Boi Chau with symbols of education and books, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which movement did Phan Boi Chau initiate?",
+      "options": [
+        "Dong Du movement",
+        "Can Vuong movement",
+        "Tay Son movement"
+      ],
+      "answer": "Dong Du movement"
+    },
+    {
+      "type": "quiz",
+      "question": "Which country did he send patriotic youth to for studying?",
+      "options": [
+        "Japan",
+        "France",
+        "China"
+      ],
+      "answer": "Japan"
+    }
+  ]
+}

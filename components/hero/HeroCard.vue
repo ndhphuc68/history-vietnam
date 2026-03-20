@@ -42,7 +42,7 @@ const handleCardClick = () => {
           <Icon name="fluent-emoji:lock" class="text-6xl text-gray-400" />
         </div>
         <p class="text-gray-400 font-black uppercase tracking-widest text-lg">
-          Chưa mở khóa
+          {{ $t("hero_card.locked") }}
         </p>
       </div>
 
@@ -86,9 +86,9 @@ const handleCardClick = () => {
           <div
             class="mt-3 text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-2"
           >
-            <span class="text-xs font-black uppercase tracking-widest"
-              >Khám phá tiểu sử</span
-            >
+            <span class="text-xs font-black uppercase tracking-widest">{{
+              $t("hero_card.explore")
+            }}</span>
             <Icon name="fluent:chevron-right-24-filled" class="text-lg" />
           </div>
         </div>

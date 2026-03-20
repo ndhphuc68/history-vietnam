@@ -1,0 +1,53 @@
+{
+  "id": "chi-lang-victory",
+  "title": "The Victory at Chi Lang Pass",
+  "period": "Restoration",
+  "summary": "At the treacherous Chi Lang Pass, our troops cleverly defeated the Ming reinforcements, protecting the achievements of the uprising.",
+  "image": "/images/history/thumbnails/independence-restored/chi-lang-victory.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1427, the Ming Dynasty sent a large reinforcement army to our country under General Lieu Thang. They hoped to save the situation.",
+      "image": "/images/history/lessons/independence-restored/chi-lang-victory/0.png",
+      "imagePrompt": "Large army with many flags entering a narrow mountain pass, arrogance of the enemy general, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Le Loi and Nguyen Trai chose Chi Lang Pass - a place with high mountains and deep abysses - as the ambush site. Our troops waited on the mountain slopes.",
+      "image": "/images/history/lessons/independence-restored/chi-lang-victory/1.png",
+      "imagePrompt": "Narrow Chi Lang pass with steep mountains, Vietnamese soldiers hidden behind rocks and trees, silence before the battle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the enemy reached the middle of the valley, our troops attacked simultaneously. The enemy general Lieu Thang was killed at Ma Yen Hill. The enemy was crushed!",
+      "image": "/images/history/lessons/independence-restored/chi-lang-victory/2.png",
+      "imagePrompt": "Action scene in the valley, rocks and arrows falling from the mountains, enemy formation broken, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The victory at Chi Lang Pass shattered the Ming Dynasty's final will to invade, paving the way for our country's return to complete independence.",
+      "image": "/images/history/lessons/independence-restored/chi-lang-victory/3.png",
+      "imagePrompt": "Vietnamese soldiers celebrating on the high ground, the sun breaking through the clouds over the mountains, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What characteristic of Chi Lang Pass made the enemy afraid?",
+      "options": [
+        "It was very spacious",
+        "It was extremely treacherous with high mountains and deep abysses",
+        "It had many flowers"
+      ],
+      "answer": "It was extremely treacherous with high mountains and deep abysses"
+    },
+    {
+      "type": "quiz",
+      "question": "Which enemy general was killed at Ma Yen Hill (Chi Lang)?",
+      "options": [
+        "Hoang Thao",
+        "Lieu Thang",
+        "Toghon"
+      ],
+      "answer": "Lieu Thang"
+    }
+  ]
+}

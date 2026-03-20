@@ -1,0 +1,1390 @@
+# MASTER PROMPT LIST (All 296+ Missing Images)
+
+> NOTICE: This file contains ALL missing images in one place, optimized for bulk generation.
+
+## ERA: era1-founding
+
+## ERA: era10-unified
+
+### Lesson: Việt Nam ngày nay
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/unified-vietnam/modern-vietnam.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Một Việt Nam hòa bình, xinh đẹp và hiện đại, nơi thế hệ trẻ đang nỗ lực học tập để xây dựng đất nước rạng rỡ hơn., with Vietnamese text overlay: "Việt Nam ngày nay" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Panoramic view of a modern Vietnamese city at night, bright lights, skyscrapers, a river with bridges, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Việt Nam ngày nay" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Beautiful Ha Long Bay with limestone islands and turquoise water, a scenic cruise boat, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng ta vẫn luôn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Children playing with a robot, using tablets, in a futuristic classroom, curious and happy faces, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thế hệ trẻ Việt" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/modern-vietnam/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A child looking at a history book while standing in a modern city, symbolic bridge between past and future, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù đất nước có" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đất nước trọn niềm vui
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/unified-vietnam/reunification.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sau ngày 30/4, cả nước bước vào thời kỳ mới, chung tay xây dựng lại quê hương và ổn định cuộc sống sau nhiều năm chiến tranh., with Vietnamese text overlay: "Đất nước trọn niềm vui" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A long red and yellow train traveling through beautiful landscapes (mountains and sea), kids waving from windows, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hòa bình lập lại," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People working together to plant trees and rebuild a village, blooming flowers, new roofs, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Người dân cùng nhau" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large welcome sign with the new name of the country, modern buildings and traditional pagodas, city and nature, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1976, tên nước" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/unified-vietnam/reunification/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A golden horizon, children of all ethnicities in traditional clothes standing together, looking at the future, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng ta đã thực" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era2-northern-domination
+
+### Lesson: Chính sách đồng hóa
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Han schoolroom in ancient Vietnam, teacher teaching Chinese characters, Vietnamese students looking thoughtful, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các triều đại phương" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A marketplace where Chinese and Vietnamese people interact, mixing of clothes and customs, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Họ đưa người Hán" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient Vietnamese grandmother teaching a grandchild secret legends in their own language, resisting cultural loss, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Họ muốn xóa bỏ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/assimilation-policy/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese people performing traditional rituals in secret, unity and preservation of spirit, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tuy nhiên, người Việt" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Khởi nghĩa Bà Triệu
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young Lady Trieu practicing martial arts in the mountains, determined look, beautiful landscape, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà Triệu tên thật" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Lady Trieu standing on a high cliff, wind blowing her hair, symbolic image of riding wind and waves, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà nổi tiếng với" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Lady Trieu in golden armor, riding a white elephant with 3 tusks, leading her army to battle, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bà thường mặc áo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/ba-trieu/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Enemies fleeing in fear as Lady Trieu approaches, heroic and majestic presence, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hình ảnh oai phong" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Khởi nghĩa Hai Bà Trưng
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Trung Sisters taking a sacred oath in front of their army, solemn ceremony, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 40, Hai Bà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Trung Sisters riding two big elephants, leading a massive army of Vietnamese people, epic battle scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hàng nghìn người từ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/hai-ba-trung/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trung Trac being crowned as Queen, Me Linh capital celebration, people cheering, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân giặc sợ hãi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Hán cai trị
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient map of Vietnam divided into Han districts (Giao Chi, Cuu Chan, Nhat Nam), Han officials and soldiers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 111 TCN, nhà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A stern Han official collecting taxes (rice, precious goods) from poor Vietnamese villagers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các viên quan đô" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese people diving for pearls or hunting in dangerous forests to find products for invaders, risky and sad, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chúng bắt dân ta" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/han-rule/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Villagers gathering in secret, looking determined and angry, preparing for a long struggle, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sự cai trị tàn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Cuộc sống thời Bắc thuộc
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Farmers in traditional clothes working hard in fields, looking tired, Han tax collectors waiting nearby, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới ách cai trị" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese women weaving silk and pottery makers at work, colorful fabrics and pots, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù bị đàn áp," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient fishing boats at sea, trading goods, sunset, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Làng chài và các" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/life-under-rule/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Village gathering at night, fire in the middle, elders telling stories to children, sense of community, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trong những ngôi làng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Các cuộc nổi dậy khác
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ly Bi (Ly Nam De) being crowned, Vạn Xuân flag, festive atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thế kỷ VI, Lý" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Collage of different heroes leading their people, determined expressions, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau đó là Mai" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large bonfire where stories of past heroes are passed down, glowing energy, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Mỗi cuộc khởi nghĩa," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/northern-domination/other-rebellions/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Symbolic image of diverse Vietnamese people (men, women, children) standing together in solidarity, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Giai đoạn này là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era3-autonomy
+
+### Lesson: Chiến thắng Bạch Đằng 938
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/autonomy/bach-dang-938.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 938, với chiến thuật đóng cọc gỗ trên sông Bạch Đằng, Ngô Quyền đã đánh tan quân Nam Hán, mở ra kỷ nguyên độc lập lâu dài cho dân tộc Việt Nam., with Vietnamese text overlay: "Chiến thắng Bạch Đằng 938" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/autonomy/bach-dang-938/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ngo Quyền and his generals looking at a map of Bach Dang river, planning the trap, intelligent look, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nghe tin quân Nam" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/autonomy/bach-dang-938/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers sharpening large wooden stakes and hammering them into the river bed, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông cho quân đẽo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/autonomy/bach-dang-938/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese small boats leading large South Han warships into the trap, high tide hiding the stakes, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi thủy triều lên," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/autonomy/bach-dang-938/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, South Han warships crashing against the wooden stakes as tide goes down, Ngo Quyen's army attacking from the banks, epic win, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đến khi thủy triều" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Ngô xây dựng đất nước
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/autonomy/ngo-dynasty.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Mùa xuân độc lập đầu tiên: Ngô Quyền lên ngôi vua, đóng đô ở Cổ Loa, đặt nền móng cho nền độc lập lâu dài., with Vietnamese text overlay: "Nhà Ngô xây dựng đất nước" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-dynasty/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Coronation of King NGO QUYEN, ceremony in an ancient courtyard, citizens kneeling in respect, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 939, Ngô Quyền" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-dynasty/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King NGO QUYEN entering the gates of Co Loa citadel, standard with 'NGO' character flying high, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông chọn Cổ Loa" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-dynasty/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, NGO QUYEN issuing decrees to protect the poor, setting up a new administration, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Ngô Quyền bãi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-dynasty/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Statue or painting of NGO QUYEN looking into the distance with pride, historical legacy, sunset, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù thời gian trị" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Ngô Quyền chuẩn bị trận Bạch Đằng
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-quyen-prep/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Bach Dang river at sunset, showing the dramatic rise and fall of water levels, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông chọn hạ lưu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-quyen-prep/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Soldiers and villagers working hard in the forest, sharpening giant wooden stakes and attaching iron tips, smoke from forges, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngô Quyền huy động" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/autonomy/ngo-quyen-prep/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Stakes being hammered into the river bed, water rising to cover them, peaceful on the surface but dangerous below, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Những chiếc cọc này" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era4-building
+
+### Lesson: Đại thắng Bạch Đằng 1288
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/bach-dang-1288.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 1288, Hưng Đạo Vương Trần Quốc Tuấn đã lập lại kỳ tích trên sông Bạch Đằng, đánh tan quân Nguyên Mông hùng mạnh, giữ vững chủ quyền dân tộc., with Vietnamese text overlay: "Đại thắng Bạch Đằng 1288" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/bach-dang-1288/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Large Mongol fleet with many ships sailing into Vietnam, powerful and threatening, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân Nguyên Mông xâm" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/bach-dang-1288/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, General Tran Hung Dao pointing at the river, soldiers hammering iron headed wooden stakes into the river bed at low tide, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trần Hưng Đạo đã" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/bach-dang-1288/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese small agile boats leading large Mongol ships towards the hidden stakes, river water level dropping, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trận chiến diễn ra" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/bach-dang-1288/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Mongol ships crashing on wooden stakes, soldiers falling, Tran Hung Dao's army attacking from both sides, heroic victory scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thuyền giặc bị cọc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Hội nghị Diên Hồng
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/dien-hong.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Khi quân giặc lại kéo sang lần thứ hai, các vị bô lão đã cùng đồng thanh hô vang: 'ĐÁNH!', thể hiện ý chí của toàn dân tộc., with Vietnamese text overlay: "Hội nghị Diên Hồng" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/dien-hong/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Huge dark clouds gathering over a peaceful village, symbol of an approaching storm/danger, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1284, quân Nguyên" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/dien-hong/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Tran Nhan Tong sitting among many elderly wise men with white beards, atmosphere of respect and gravity, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Trần Nhân Tông" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/dien-hong/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Elderly men raising their fists, determined faces, glowing energy/spirit, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Không một chút do" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/dien-hong/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large crowd of people of all ages standing together, looking strong and united, sunset glow, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hội nghị Diên Hồng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đinh Bộ Lĩnh thống nhất
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/dinh-bo-linh.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Đinh Bộ Lĩnh, người anh hùng từ trò chơi cờ lau, đã dẹp loạn 12 sứ quân, thống nhất đất nước và lên ngôi hoàng đế, lập nên nhà Đinh., with Vietnamese text overlay: "Đinh Bộ Lĩnh thống nhất" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/dinh-bo-linh/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A group of children playing in a field, boy Dinh Bo Linh holding a reed flower flag, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi còn nhỏ, Đinh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/dinh-bo-linh/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, General Dinh Bo Linh leading his army to unify divided lands, landscape of ancient Vietnam, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lớn lên, ông là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/dinh-bo-linh/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Dinh Bo Linh's coronation ceremony as Emperor, royal guards, Hoa Lu city, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 968, ông thống" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/dinh-bo-linh/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient city of Hoa Lu with mountains and palaces, peaceful Dai Co Viet kingdom, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đặt tên nước" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Đinh thành lập
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/dinh-dynasty.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 968, Đinh Bộ Lĩnh lên ngôi vua, đặt tên nước là Đại Cồ Việt, khẳng định đất nước ta là một quốc gia độc lập., with Vietnamese text overlay: "Nhà Đinh thành lập" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/dinh-dynasty/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Imperial ceremony at Hoa Lu citadel, golden banners, King Dinh sitting on the throne, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đại thắng 12 sứ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/dinh-dynasty/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Landscape of Hoa Lu ancient capital, limestone mountains, peaceful river, ancient palace roofs peeking through, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông chọn Hoa Lư" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/dinh-dynasty/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Close-up of ancient round coins with a square hole in the middle, shine of copper, happy market scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Đinh còn cho" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/dinh-dynasty/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese farmers celebrating a harvest, smiling faces, sun shining, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đất nước thống nhất," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Lê Hoàn chống quân Tống
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/le-hoan.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 981, tướng quân Lê Hoàn lên ngôi vua, chỉ huy quân dân Đại Cồ Việt đánh tan cuộc xâm lược của nhà Tống, giữ vững nền độc lập của tổ quốc., with Vietnamese text overlay: "Lê Hoàn chống quân Tống" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/le-hoan/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Queen Mother Duong Van Nga handing the royal robe to General Le Hoan, historical ceremony, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đất nước gặp nguy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/le-hoan/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Le Hoan in armor leading his army in battle, brave and strong, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lê Hoàn trực tiếp" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/le-hoan/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers launching a surprise attack against Song army, confusion in enemy ranks, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông cho quân giả" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/le-hoan/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The King plowing a field during 'Tich Dien' festival, promoting agriculture, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau chiến thắng, ông" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Lý Công Uẩn lên ngôi
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/ly-cong-uan.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 1009, Lý Công Uẩn được triều đình tôn làm vua, mở ra vương triều Lý hùng mạnh và thực hiện cuộc dời đô lịch sử về Thăng Long., with Vietnamese text overlay: "Lý Công Uẩn lên ngôi" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/ly-cong-uan/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ly Cong Uan being invited by mandarins to be the King, respectful ceremony in ancient palace, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lý Công Uẩn là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/ly-cong-uan/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Ly Cong Uan standing on a boat, traveling on the Red River, looking towards a new land, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngay khi lên ngôi," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/ly-cong-uan/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A golden dragon rising from the ground into the sky, King Ly Cong Uan and his entourage amazed, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi thuyền rồng đến" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/ly-cong-uan/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient Thang Long citadel with bustling markets and beautiful temples, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thăng Long từ đó" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Lý Thường Kiệt chống Tống
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/ly-thuong-kiet.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Danh tướng Lý Thường Kiệt đã chỉ huy quân dân nhà Lý đánh tan quân xâm lược nhà Tống, nổi tiếng với bài thơ thần 'Nam quốc sơn hà'., with Vietnamese text overlay: "Lý Thường Kiệt chống Tống" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/ly-thuong-kiet/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, General Ly Thuong Kiet riding a horse, pointing his sword forward, leading an army through a pass, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lý Thường Kiệt là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/ly-thuong-kiet/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The defensive line at Nhu Nguyet river, soldiers guarding with spears and shields, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại phòng tuyến sông" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/ly-thuong-kiet/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, An ancient temple by the river at night, mystical voice manifesting the poem 'Nam Quoc Son Ha', glowing text in the sky, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trong đêm tối, từ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/ly-thuong-kiet/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Terrified Song soldiers retreating across the river, victory for Dai Viet army, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân Tống nghe thấy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Kháng chiến chống Nguyên Mông lần 1
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/mongol-war-1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Quân xâm lược Nguyên Mông hùng mạnh nhất thế giới lúc bấy giờ đã phải nếm mùi thất bại đầu tiên tại Đại Việt năm 1258., with Vietnamese text overlay: "Kháng chiến chống Nguyên Mông lần 1" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-1/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Map of the world with a huge red area (Mongol Empire) spreading, shadows over other lands, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-1/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Empty ancient streets of Thang Long, houses with doors closed, no one around, silence, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi chúng kéo quân" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-1/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Mongol soldiers looking tired and hungry in an empty city, rain falling, campfire with no food, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân giặc vào thành" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-1/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese cavalry charging at the retreating Mongol soldiers, banners of the Tran dynasty flying high, victory, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1258, tại Đông" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Kháng chiến chống Nguyên Mông lần 2
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/mongol-war-2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trần Hưng Đạo với bài 'Hịch tướng sĩ' đã khơi dậy lòng yêu nước, dẫn dắt quân dân đánh bại 50 vạn quân giặc., with Vietnamese text overlay: "Kháng chiến chống Nguyên Mông lần 2" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-2/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A vast sea of Mongol soldiers and horses at the border, dust rising, overwhelming numbers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lần này, quân Nguyên" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-2/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Soldiers around a campfire, showing their arms with 'SAT THAT' tattoos, look of determination and brotherhood, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trước thế giặc mạnh," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-2/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Victorious battle at a river port, enemy flags falling, Tran soldiers cheering, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau nhiều trận chiến" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/mongol-war-2/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Enemies carrying a large copper tube, a scared face looking out from one end, humorous cartoon style, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thoát Hoan - tướng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Dời đô về Thăng Long
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/move-capital.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vua Lý Thái Tổ đã nhìn thấy hình ảnh rồng vàng bay lên và quyết định dời đô từ Hoa Lư về vùng đất mới Thăng Long., with Vietnamese text overlay: "Dời đô về Thăng Long" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/move-capital/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Ly Thai To on a ship traveling across a wide river, looking at a beautiful landscape, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hoa Lư tuy đẹp" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/move-capital/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A majestic golden dragon made of clouds or light rising from the river bank towards the sky, King and soldiers pointing in awe, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Theo lời kể, khi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/move-capital/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient city construction scene, stone walls rising, the name 'THANG LONG' written in golden characters in the sky, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vì thấy đây là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/move-capital/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Busy and happy market in ancient Thang Long, colorful stalls, people trading, pagodas in the background, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thăng Long đã trở" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Trần thành lập
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/tran-foundation.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sự chuyển giao quyền lực đặc biệt từ nhà Lý sang nhà Trần, mở ra một triều đại với hào khí 'Đông A' rực lửa., with Vietnamese text overlay: "Nhà Trần thành lập" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/tran-foundation/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young Queen Ly Chieu Hoang handing a golden scroll to young Tran Canh, both in royal robes, elegant palace setting, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi nhà Lý yếu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/tran-foundation/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Tran Thai Tong on the throne, with wise advisor Tran Thu Do standing nearby, strong and united look, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1225, triều đại" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/tran-foundation/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The King dining with his generals and citizens, a sense of equality and brotherhood, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới thời nhà Trần," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/tran-foundation/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Soldiers training hard, sharpening swords, strong fortifications, atmosphere of readiness, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nhà Trần đã chuẩn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Loạn 12 sứ quân
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/twelve-warlords.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Đất nước bị chia cắt làm 12 vùng khác nhau, ai cũng muốn làm vua khiến cuộc sống nhân dân vất vả., with Vietnamese text overlay: "Loạn 12 sứ quân" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/twelve-warlords/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Map of Vietnam divided into 12 colorful regions with different family banners, smoke rising from some areas, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/twelve-warlords/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Different warlords arguing and pointing at each other across their boundaries, intense atmosphere but not scary, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "12 vị thủ lĩnh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/twelve-warlords/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A sad farmer looking at an empty field, a ruined fence, gray sky but still in cartoon style, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chiến tranh xảy ra" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/twelve-warlords/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sunlight breaking through the clouds over a divided land, a symbol of hope (like a blooming flower), children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đây là giai đoạn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Chiến thắng Vân Đồn
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/van-don-victory.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vị tướng trẻ Trần Khánh Dư đã mưu trí đánh tan đoàn thuyền lương của giặc, khiến chúng rơi vào cảnh đói khát., with Vietnamese text overlay: "Chiến thắng Vân Đồn" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/van-don-victory/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Large transport ships heavily loaded with rice bags and barrels, slow moving on the sea, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/van-don-victory/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Small Vietnamese boats hidden behind rocky islands in Ha Long bay style, waiting for the enemy, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tướng Trần Khánh Dư" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/van-don-victory/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sea battle, fire on the transport ships, bags of rice falling into the water, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi đoàn thuyền lương" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/van-don-victory/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Hungry enemy soldiers looking at the empty sea, stomachs growling (visual effect), children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Mất hết lương ăn," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Văn Miếu Quốc Tử Giám
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/building/van-mieu.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trường đại học đầu tiên của nước ta, nơi rèn luyện những người tài giỏi để giúp vua xây dựng đất nước., with Vietnamese text overlay: "Văn Miếu Quốc Tử Giám" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/building/van-mieu/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Khue Van Cac pavilion with its round window, ancient architecture, beautiful gardens, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có thích" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/building/van-mieu/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ancient classroom, students wearing traditional gowns and hats, writing with brushes on scrolls, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vài năm sau, Quốc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/building/van-mieu/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Stone stelae on turtle backs (bia tiến sĩ), a student proudly pointing at a name, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Những người học giỏi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/building/van-mieu/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A wise old teacher with young students in the sunlit garden of Van Mieu, atmosphere of learning and respect, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Văn Miếu Quốc Tử" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era5-independence-restored
+
+### Lesson: Luật Hồng Đức
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/hong-duc-law/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, An official reading a decree to a diverse group of happy villagers, including women and elderly, atmosphere of fairness, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đây là bộ luật" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/hong-duc-law/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Students studying in a sunny courtyard, a teacher pointing to the sky, a well-managed village scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Luật Hồng Đức quy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/hong-duc-law/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large ancient library or archive with scrolls, sunlight streaming through windows, a feeling of wisdom and order, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nhờ có bộ luật" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Lê Lợi khởi nghĩa Lam Sơn
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/lam-son-uprising.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Tại vùng núi Lam Sơn, vị anh hùng Lê Lợi đã tập hợp nhân dân khởi nghĩa chống lại quân Minh xâm lược, giành lại độc lập sau 10 năm gian khổ., with Vietnamese text overlay: "Lê Lợi khởi nghĩa Lam Sơn" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Lê sơ phát triển
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/later-le-dynasty.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Dưới bàn tay xây dựng của vua Lê Thái Tổ và các vị vua kế nghiệp, đất nước ta đã trở nên giàu mạnh và có nhiều thành tựu rực rỡ., with Vietnamese text overlay: "Nhà Lê sơ phát triển" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/later-le-dynasty/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vast green rice fields, farmers smiling, irrigation canals with water flowing, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau khi lên ngôi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/later-le-dynasty/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The imperial palace in Thang Long with colorful flags, a busy school with students and teachers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Kinh thành Thăng Long" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/later-le-dynasty/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, An ancient map of Vietnam being unrolled on a large wooden table, officials examining it, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Để bảo vệ đất" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/later-le-dynasty/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A panoramic view of a prosperous Thang Long city under the sun, colorful buildings, busy streets, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thời kỳ này, nước" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đại thắng Ngọc Hồi Đống Đa
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/ngoc-hoi-dong-da.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 1789, trong chuyến hành quân thần tốc, vua Quang Trung đã chỉ huy quân Tây Sơn đánh tan 29 vạn quân Thanh, giải phóng Thăng Long trong dịp Tết Nguyên Đán., with Vietnamese text overlay: "Đại thắng Ngọc Hồi Đống Đa" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/ngoc-hoi-dong-da/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Tây Sơn army marching rapidly through mountains and rivers, King Quang Trung on his horse leading, dynamic movement, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Để kịp đánh giặc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/ngoc-hoi-dong-da/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Quang Trung in a dark robe riding a war elephant, charging towards a fortress, battle flames, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Quang Trung mặc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/ngoc-hoi-dong-da/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers holding large wet bamboo shields, storming enemy lines, bravery, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân Tây Sơn dùng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/ngoc-hoi-dong-da/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Quang Trung entering Thang Long citadel, people holding flowers and flags, celebration of Tet victory, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đến sáng mồng 5" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nguyễn Huệ lên ngôi Quang Trung
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/nguyen-hue.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyễn Huệ là vị thiên tài quân sự, sau khi đánh tan quân Xiêm đã lên ngôi hoàng đế Quang Trung để huy động toàn quân đánh đuổi quân Thanh., with Vietnamese text overlay: "Nguyễn Huệ lên ngôi Quang Trung" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-hue/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The three Tay Son brothers standing in front of traditional martial arts masters, mountain background, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nguyễn Huệ cùng hai" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-hue/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Naval battle on the Mekong river, Tay Son fleet winning, great heroism, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại Rạch Gầm -" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-hue/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Coronation of King Quang Trung at Mount Ban, huge crowd, solemn atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1788, khi giặc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-hue/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Heroic portrait of King Quang Trung, symbols of victory and power, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Quang Trung chính" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nguyễn Trãi giúp khởi nghĩa
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/nguyen-trai.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyễn Trãi là nhà quân sự, nhà thơ lớn, người đã dâng 'Bình Ngô sách' cho Lê Lợi và giúp cuộc khởi nghĩa Lam Sơn giành thắng lợi hoàn toàn., with Vietnamese text overlay: "Nguyễn Trãi giúp khởi nghĩa" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-trai/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyen Trai meeting Le Loi in a secret forest camp, discussing strategy over a map, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nguyễn Trãi đã vượt" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-trai/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyen Trai writing with a brush on a long scroll, looking inspired, traditional scholar outfit, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông là người viết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-trai/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyen Trai talking to captured enemy soldiers, showing mercy and wisdom, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Với tư tưởng 'lấy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/nguyen-trai/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Statue or portrait of Nguyen Trai with a background of books and symbols of culture, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nguyễn Trãi không chỉ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Chiến thắng Rạch Gầm - Xoài Mút
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/rach-gam-xoai-mut.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Chỉ trong một đêm, quân Tây Sơn dưới sự chỉ huy của Nguyễn Huệ đã đánh tan 5 vạn quân Xiêm xâm lược vùng sông nước miền Tây., with Vietnamese text overlay: "Chiến thắng Rạch Gầm - Xoài Mút" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/rach-gam-xoai-mut/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Many large war boats with distinct southern style flags entering a wide river, aggressive atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1785, quân Xiêm" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/rach-gam-xoai-mut/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A bird's eye view of a winding river with dense coconut trees on both banks, hidden cannons peeking through the leaves, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nguyễn Huệ đã chọn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/rach-gam-xoai-mut/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, River battle at night, fire on water, cannons firing from the banks, enemy boats sinking, heroic and intense, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi giặc lọt vào" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/rach-gam-xoai-mut/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Enemies running away on land towards the border, looking back in fear, victorious Tay Son soldiers on the river, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chỉ trong một thời" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Khởi nghĩa Tây Sơn
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/independence-restored/tay-son-uprising.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ba anh em nhà Tây Sơn: Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ đã cùng nhân dân đứng lên chống lại sự bất công, mở đầu một trang sử oai hùng., with Vietnamese text overlay: "Khởi nghĩa Tây Sơn" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/independence-restored/tay-son-uprising/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A divided map of Vietnam with two dark shadows, sad farmers working under a hot sun, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé ơi, vào" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/independence-restored/tay-son-uprising/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Three brothers in red warrior clothes practicing martial arts together, strong and united, mountain background, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại vùng Tây Sơn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/independence-restored/tay-son-uprising/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large crowd of enthusiastic people following the red flag of Tay Son, giving food to children, joy and hope, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Với khẩu hiệu: 'Lấy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/independence-restored/tay-son-uprising/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The Tay Son army marching with many red flags, elephants leading the way, sunrise over the mountains, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1771, từ vùng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era6-resistance
+
+### Lesson: Phong trào Cần Vương
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/can-vuong.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Lời kêu gọi cả nước đứng lên giúp vua cứu nước của vua Hàm Nghi đã khơi dậy lòng yêu nước của nhân dân khắp mọi miền., with Vietnamese text overlay: "Phong trào Cần Vương" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/can-vuong/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young King Ham Nghi on a horse traveling through dark mountains at night, Ton That Thuyet leading the way, torches, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi kinh thành Huế" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/can-vuong/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Ham Nghi reading a decree from a cave entrance, officials listening, rugged terrain, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại đây, vua Hàm" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/can-vuong/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Small fires spreading across a map of Vietnam, representative of uprisings in different provinces, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lời kêu gọi của" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/can-vuong/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A group of patriots hiding in a lush forest, sharpening spears, looking determined, sunlight through leaves, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù gặp nhiều gian" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Pháp xâm lược Việt Nam
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/french-invasion.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 1858, tiếng súng của thực dân Pháp vang lên tại Đà Nẵng, mở đầu thời kỳ khó khăn khi dân tộc ta phải đối mặt với kẻ thù mới., with Vietnamese text overlay: "Pháp xâm lược Việt Nam" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/french-invasion/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, French warships with large chimneys smoke in Da Nang bay, firing cannons towards the shore, dramatic sky, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vào giữa thế kỷ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/french-invasion/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, General Nguyen Tri Phuong commanding soldiers behind sandbags near the beach, cannons firing back, dust and energy, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân dân ta ở" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/french-invasion/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, French troops marching with rifles, tropical palm trees background, sense of challenge, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tuy nhiên, với vũ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/french-invasion/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese peasants sharpening bamboo stakes under the rain, faces full of determination, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Từ đây, cuộc kháng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Vua Gia Long xây dựng đất nước
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/gia-long.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vị vua đầu triều Nguyễn với công lao thống nhất lãnh thổ và xây dựng những công trình vĩ đại., with Vietnamese text overlay: "Vua Gia Long xây dựng đất nước" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/gia-long/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Map of Vietnam with a golden thread connecting the north and south, King Gia Long holding a compass, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/gia-long/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People building a strong stone dike by a river, green fields, a bustling river market, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã cho xây" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/gia-long/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large ancient legal book, an official reading a scroll to a crowd, atmosphere of law and order, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đặc biệt, vua Gia" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/gia-long/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Gia Long standing on a cliff by the sea, looking at the islands in the distance, ancient navy boats, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới thời ông, lãnh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Vua Hàm Nghi yêu nước
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/ham-nghi.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Dù còn nhỏ tuổi, vua Hàm Nghi đã dũng cảm rời kinh thành Huế lên chiến khu, hạ chiếu Cần Vương kêu gọi nhân dân đứng lên đổ Pháp cứu nước., with Vietnamese text overlay: "Vua Hàm Nghi yêu nước" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/ham-nghi/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young King Ham Nghi being carried in a palanquin through a dark forest at night, looking worried but determined, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1885, trước sự" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/ham-nghi/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Ham Nghi reading a royal decree (Chieu Can Vuong), patriotic scholars listening, mountain base camp, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại đây, vua đã" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/ham-nghi/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The King wearing simple clothes, living in a wooden hut in the mountains, brave and unyielding, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù sống trong rừng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/ham-nghi/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Portrait of young King Ham Nghi with a background of bamboo forests and stars, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Hàm Nghi là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Vua Minh Mạng quyết đoán
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/minh-mang.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vị vua thứ hai của triều Nguyễn, nổi tiếng với sự chăm chỉ, những cải cách hành chính quan trọng và lòng yêu thích thơ văn., with Vietnamese text overlay: "Vua Minh Mạng quyết đoán" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/minh-mang/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Minh Mang sitting at a desk late at night, many scrolls around him, a single candle, looking determined, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/minh-mang/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large wooden map of Vietnam with 31 colorful pieces, King Minh Mang pointing at it with a wand, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã chia đất" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/minh-mang/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Minh Mang Reading a poem in a beautiful garden, scholarly atmosphere, scholars around, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vua Minh Mạng rất" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/minh-mang/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The majestic face of Minh Mang, crown with pearls, background of a strong citadel, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới thời ông, triều" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà Nguyễn thành lập
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/nguyen-foundation.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Năm 1802, sau thời kỳ chiến tranh kéo dài, Nguyễn Ánh đã lên ngôi vương, đặt niên hiệu là Gia Long, mở đầu triều đại nhà Nguyễn., with Vietnamese text overlay: "Nhà Nguyễn thành lập" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/nguyen-foundation/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Coronation of King Gia Long in Hue, ancient palace with yellow tiles, golden banners, solemn atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé ơi, sau" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/nguyen-foundation/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Imperial City of Hue, the Forbidden Purple City, Perfume River (Sông Hương) with a dragon boat, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã chọn Phú" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/nguyen-foundation/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, King Gia Long writing the characters 'VIET NAM' in gold on a large scroll, Map of a united Vietnam in the background, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1804, nhà vua" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/nguyen-foundation/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Close-up of the masonry walls of Hue Citadel, soldiers on patrol, large flags flying, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Triều đình nhà Nguyễn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Anh hùng Trương Định
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/resistance/truong-dinh.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trương Định thà cãi lệnh vua chứ không bỏ rơi nhân dân trong cuộc kháng chiến chống Pháp tại vùng đất Nam Bộ., with Vietnamese text overlay: "Anh hùng Trương Định" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/resistance/truong-dinh/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People presenting a commander flag to Truong Dinh, huge crowd in Nam Bo landscape, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi triều đình ký" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/resistance/truong-dinh/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Truong Dinh holding his sword, looking towards his soldiers, determined and resolute, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã dũng cảm" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/resistance/truong-dinh/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Insurrection army hiding in dense bamboo groves, preparing an ambush for French soldiers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới sự chỉ huy" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/resistance/truong-dinh/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Truong Dinh's memorial statue with blooming flowers, peaceful countryside background, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Trương Định là biểu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era7-modern-movement
+
+### Lesson: Bác Hồ ra đi tìm đường cứu nước
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/patriotic-movements/departure-1911.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Người thanh niên Nguyễn Tất Thành với hai bàn tay trắng đã bắt đầu cuộc hành trình vạn dặm trên con tàu buôn để tìm ánh sáng cho dân tộc., with Vietnamese text overlay: "Bác Hồ ra đi tìm đường cứu nước" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/departure-1911/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyen Tat Thanh in a simple brown suit, standing at the Nha Rong wharf, looking at a large steamship, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1911, người thanh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/departure-1911/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Văn Ba (Nguyen Tat Thanh) carrying a heavy bag onto a ship, determined face, busy dock scene, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại bến cảng Nhà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/departure-1911/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Van Ba working in the ship's kitchen, steam rising, looking out of a small window at the sea, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù công việc rất" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/departure-1911/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, The large ship sailing out into the wide ocean, sunset, a trail of white foam, a symbol of a new era beginning, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngày 5 tháng 6" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Phong trào Đông Du
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/patriotic-movements/dong-du.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Cuộc hành trình sang Nhật Bản của những người con yêu nước để học hỏi kiến thức mới nhằm đưa đất nước đi lên., with Vietnamese text overlay: "Phong trào Đông Du" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/dong-du/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A boat heading east towards a rising sun over the sea, people on the boat looking excited, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Để đánh thắng giặc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/dong-du/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese students in traditional hats combined with modern umbrellas in a Japanese street with cherry blossoms, fusion of cultures, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã tổ chức" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/dong-du/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Students studying science and military tactics in a classroom, drawings of machines and maps, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù cuộc sống ở" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/dong-du/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Symbolic image of a book and a torch lighting the way across the sea, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Phong trào Đông Du" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Cậu bé Nguyễn Sinh Cung
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/patriotic-movements/ho-chi-minh-young.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Thuở nhỏ của Bác Hồ tại làng Sen quê nội và làng Hoàng Trù quê ngoại với những bài học đầu đời về tình yêu quê hương., with Vietnamese text overlay: "Cậu bé Nguyễn Sinh Cung" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/ho-chi-minh-young/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A simple thatched house in a village with many lotus flowers (Làng Sen), a young boy with bright eyes sitting on the porch, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/ho-chi-minh-young/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young boy listening to his father by a lamp, shadows of heroes on the wall, serious and thoughtful face, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngay từ nhỏ, cậu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/ho-chi-minh-young/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Nguyen Sinh Cung reading a book under a banyan tree, looking at the distant mountains, atmosphere of curiosity and purpose, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Cậu rất chăm học" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/ho-chi-minh-young/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A warm family portrait, parents and children together, soft glowing light, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Những bài học đạo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà yêu nước Phan Bội Châu
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/patriotic-movements/phan-boi-chau.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Phan Bội Châu là người khởi xướng phong trào Đông Du, đưa thanh niên yêu nước sang Nhật Bản học tập để trở về cứu nước., with Vietnamese text overlay: "Nhà yêu nước Phan Bội Châu" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-boi-chau/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Phan Boi Chau studying in a library with modern books, looking thoughtful, traditional scholar outfit, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Phan Bội Châu cho" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-boi-chau/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young Vietnamese students on a boat traveling to Japan, Phan Boi Chau waving goodbye, hope and ambition, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đã thành lập" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-boi-chau/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Phan Boi Chau writing patriotic poems by candlelight, glowing words in the air, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù gặp nhiều khó" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-boi-chau/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Portrait of Phan Boi Chau with symbols of education and books, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông là một nhà" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Nhà cải cách Phan Châu Trinh
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/patriotic-movements/phan-chau-trinh.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vị chí sĩ với tư tưởng 'Khai dân trí, chấn dân khí, hậu dân sinh' - mong muốn đổi mới đất nước bằng con đường giáo dục và văn hóa., with Vietnamese text overlay: "Nhà cải cách Phan Châu Trinh" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-chau-trinh/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Phan Chau Trinh in a modern style suite and short hair, looking at a group of people reading newspapers, progressive look, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khác với ông Phan" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-chau-trinh/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Three icons representing knowledge (a book), spirit (a rising sun), and life (a bowl of rice), glowing and interconnected, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông đưa ra khẩu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-chau-trinh/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A busy community school (Duy Tân trường học), people cutting their long hair, wearing modern clothes, sense of excitement, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Phan Châu Trinh rất" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/patriotic-movements/phan-chau-trinh/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large golden key made of light unlocking a library door, symbol of enlightenment, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tư tưởng của ông" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era8-ho-chi-minh
+
+### Lesson: Cách mạng tháng Tám 1945
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/ho-chi-minh-era/august-revolution.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Cuộc tổng khởi nghĩa thần tốc trên khắp cả nước, đập tan xiềng xích nô lệ và giành lại chính quyền về tay nhân dân., with Vietnamese text overlay: "Cách mạng tháng Tám 1945" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/august-revolution/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People in a village street holding red flags with yellow stars, rushing towards a government building, sunset, energy and hope, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé biết không?" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/august-revolution/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Masses of people in front of an old French-style building (Phủ Khâm sai), waving flags, diverse group of workers and peasants, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tại Hà Nội, hàng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/august-revolution/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large chain being broken by a golden light, background showing landmarks of Hue and Saigon, symbolic victory, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chỉ trong vòng 15" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/august-revolution/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A new sun rising over a peaceful Vietnamese landscape, people cheering, sense of a fresh beginning, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Thắng lợi của Cách" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Chiến dịch Biên giới 1950
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/ho-chi-minh-era/border-campaign.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Chiến thắng quan trọng giúp giải phóng vùng biên giới phía Bắc, khai thông đường liên lạc với các nước bạn và thế giới., with Vietnamese text overlay: "Chiến dịch Biên giới 1950" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/border-campaign/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Uncle Ho and General Vo Nguyen Giap looking at a map on a wooden table in a cave, candles, strategic atmosphere, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 1950, để phá" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/border-campaign/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Uncle Ho in a simple brown suit, sitting on a rock with binoculars, looking at the distant mountains, sunrise, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bác Hồ đã trực" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/border-campaign/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers charging through smoke, French soldiers retreating, rugged mountain terrain, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân ta đã anh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/border-campaign/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large iron gate opening on a mountain road, trucks carrying supplies entering, people waving, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chiến thắng này đã" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đại thắng Điện Biên Phủ
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/ho-chi-minh-era/dien-bien-phu.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Chiến thắng 'lừng lẫy năm châu, chấn động địa cầu' năm 1954 đã kết thúc cuộc kháng chiến chống Pháp gian khổ của nhân dân ta., with Vietnamese text overlay: "Đại thắng Điện Biên Phủ" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/dien-bien-phu/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, General Vo Nguyen Giap at the campaign headquarters, looking at a terrain model of Dien Bien Phu, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tướng quân Võ Nguyên" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/dien-bien-phu/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Civilians pushing bicycles loaded with heavy supplies over steep mountains, unity and strength, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hàng vạn dân công" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/dien-bien-phu/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers waving the red flag with yellow star on top of De Castries' bunker, smoke and victory, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân ta đã dũng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/dien-bien-phu/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People celebrating the victory at Dien Bien Phu, fireworks, mountains in the background, happy faces, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Điện Biên Phủ là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Tuyên ngôn Độc lập
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/ho-chi-minh-era/independence-declaration.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ngày 2/9/1945, tại quảng trường Ba Đình, Bác Hồ đã đọc bản Tuyên ngôn Độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa., with Vietnamese text overlay: "Tuyên ngôn Độc lập" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/independence-declaration/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Huge crowd of people with red flags at Ba Dinh square, sunny day, ocean of flags, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hàng vạn người từ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/independence-declaration/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ho Chi Minh standing at the podium on Ba Dinh square, simple khaki clothes, speaking into a microphone, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bác Hồ trong bộ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/independence-declaration/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Uncle Ho smiling and pointing to the crowd, people shouting 'Yes!' in unison, emotional moment, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi Bác hỏi: 'Tôi" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/independence-declaration/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Birds flying over Ba Dinh square, symbol of peace and newly born independence, beautiful sky, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lời tuyên bố độc" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Kháng chiến chống Pháp (1945-1954)
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/ho-chi-minh-era/resistance-war-france.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Để bảo vệ nền độc lập vừa giành được, toàn dân ta đã bước vào cuộc kháng chiến trường kỳ chống lại sự quay trở lại của thực dân Pháp., with Vietnamese text overlay: "Kháng chiến chống Pháp (1945-1954)" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/resistance-war-france/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese people from all walks of life gathering under a banner 'QUYET TU CHO TO QUOC QUYET SINH', determined faces, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Không muốn chúng ta" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/resistance-war-france/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A family traveling through mountain pass at night with torches, carrying simple belongings, moonlit forest, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Cả nước bước vào" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/resistance-war-france/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Soldiers and peasants planting corn and rice together in a forest clearing, singing and working, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù thiếu thốn thức" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/ho-chi-minh-era/resistance-war-france/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers in green uniforms and pith helmets (mũ cối) using clever tactics in the jungle, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Những trận đánh vang" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: era9-anti-us
+
+### Lesson: Điện Biên Phủ trên không
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/hanoi-dien-bien-phu.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, 12 ngày đêm cuối năm 1972, bầu trời Hà Nội rực sáng lửa đạn khi quân dân ta đánh tan cuộc tập kích bằng máy bay B-52 của Mỹ., with Vietnamese text overlay: "Điện Biên Phủ trên không" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/hanoi-dien-bien-phu/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Night sky over Hanoi with many bright spots like stars, but they are silhouettes of large airplanes, searchlights scanning the sky, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/hanoi-dien-bien-phu/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A missile launching into the night sky, a trail of fire, a small fighter jet alongside, heroic and dynamic, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Nhân dân Hà Nội" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/hanoi-dien-bien-phu/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large broken wing of an airplane in a lake (Huub Tiep lake), sunset glow, victory of the city, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Sau 12 ngày đêm" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/hanoi-dien-bien-phu/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People dancing and singing around One Pillar Pagoda, colorful banners, feeling of light and pride, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Hà Nội rực sáng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/hanoi-dien-bien-phu/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A monument with a missile pointing up, children paying respect, bright blue sky, feeling of peace and history, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "12 ngày đêm khói" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Phong trào Đồng khởi 1960
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/dong-khoi-movement.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ngọn lửa nổi dậy của nhân dân miền Nam, bắt đầu từ Bến Tre, đã làm lung lay tận gốc chính quyền tay sai của Mỹ., with Vietnamese text overlay: "Phong trào Đồng khởi 1960" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/dong-khoi-movement/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People in a dark coconut forest holding torches, faces illuminated by fire, sense of secret meeting and power, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Vào cuối năm 1959," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/dong-khoi-movement/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A group of women in black 'áo bà ba' marching with banners, long hair flowing, looking firm and dignified, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bắt đầu từ Bến" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/dong-khoi-movement/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Farmers reclaiming their land, tearing down enemy signs, children playing in a liberated village, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bằng gậy gộc, giáo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/dong-khoi-movement/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large flame rising from a coconut grove, symbolic sparks flying across a map of Southern Vietnam, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Từ Bến Tre, ngọn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/dong-khoi-movement/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A group of people from different backgrounds (farmers, students, workers) standing under a new flag (red/blue with yellow star), children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Phong trào này đã" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Chiến dịch Hồ Chí Minh 1975
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/ho-chi-minh-campaign.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Chiến dịch Hồ Chí Minh lịch sử đã kết thúc hoàn toàn cuộc kháng chiến chống Mỹ, thống nhất hai miền Nam - Bắc về một mối., with Vietnamese text overlay: "Chiến dịch Hồ Chí Minh 1975" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-campaign/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A column of tanks moving through a city gate, people waving flags, colorful flowers, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Mùa xuân năm 1975," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-campaign/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large green tank smashing through a white iron gate of a colonial-style palace, red flag popping out of the hatch, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đúng 11 giờ 30" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-campaign/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Red and blue flag with a yellow star on top of the palace roof, thousands of people cheering in the plaza below, bright sun, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Lá cờ Mặt trận" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-campaign/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, People from the North and South embracing, children holding flowers, a unified map of Vietnam in the back, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Bắc Nam đã sum" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-campaign/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese flag waving high, children of different ethnic groups singing together, rainbow, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngày 30/4 mãi là" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Đường mòn Hồ Chí Minh huyền thoại
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/ho-chi-minh-trail.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Con đường bí mật xuyên qua dãy Trường Sơn hùng vĩ, là mạch máu giao thông nối liền hai miền Nam - Bắc., with Vietnamese text overlay: "Đường mòn Hồ Chí Minh huyền thoại" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-trail/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A narrow path winding through a deep green jungle, mountains in the back, sunlight through leaves, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Để đưa thuốc men," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-trail/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Convoy of trucks with camouflage leaves moving at night, headlight beams, dynamic energy, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dưới làn bom đạn" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-trail/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Young people (thanh niên xung phong) with shovels and pickaxes, smiling in the dust, camaraderie, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các cô chú thanh" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-trail/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large map of Vietnam with a glowing golden path from North to South along the mountains, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đường Trường Sơn không" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/ho-chi-minh-trail/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A modern highway winding through green mountains, a tourist bus, sunset, peace and development, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngày nay, con đường" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Hiệp định Paris 1973
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/paris-agreement.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sau nhiều năm đấu tranh trên cả mặt trận quân sự và ngoại giao, Mỹ đã phải ký hiệp định rút quân về nước, công nhận độc lập của Việt Nam., with Vietnamese text overlay: "Hiệp định Paris 1973" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/paris-agreement/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Eiffel Tower in the background, a grand building with many flags, diplomats in suits entering, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Để ép Mỹ phải" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/paris-agreement/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Madam Nguyen Thi Bin in a traditional Ao Dai, sitting at a long table, speaking firmly, focus of the room, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Cuộc đàm phán kéo" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/paris-agreement/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Hands signing a large golden document, fountain pen, background of Vietnamese and International flags, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ngày 27/1/1973, Hiệp định" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/paris-agreement/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Last American soldiers boarding a ship to go home, Vietnamese people standing on the shore, sunset, sense of victory, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đây là một thắng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/paris-agreement/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A dove flying over a peaceful Vietnamese village, blooming flowers, children laughing, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Niềm vui chiến thắng" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Kháng chiến chống Mỹ cứu nước
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/resistance-war-us.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Sau năm 1954, đất nước ta bị chia cắt làm hai miền. Nhân dân cả nước lại bước vào cuộc kháng chiến trường kỳ để thống nhất non sông., with Vietnamese text overlay: "Kháng chiến chống Mỹ cứu nước" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/resistance-war-us/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Map of Vietnam with a dashed line at the center (latitude 17), a bridge over a river (Hien Luong bridge), symbolic separation, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Các bé có biết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/resistance-war-us/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Protest in a southern city, people holding banners 'THONG NHAT DAT NUOC', peaceful but firm, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đế quốc Mỹ đã" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/resistance-war-us/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trucks carrying goods and food moving along a mountain road, sunlit peaks, sense of shared purpose, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Miền Bắc vừa xây" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/resistance-war-us/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A bird flying over a peaceful field, shadow of an airplane but the bird remains steady, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Dù kẻ thù có" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/resistance-war-us/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Two children from North and South holding hands across a map, colorful background, hope and unity, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Cuộc kháng chiến trường" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+### Lesson: Tổng tiến công Mậu Thân 1968
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/thumbnails/anti-us-war/tet-offensive.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Cuộc tấn công bất ngờ và đồng loạt của quân ta vào các thành phố lớn ở miền Nam, làm chấn động cả thế giới và thay đổi cục diện cuộc chiến., with Vietnamese text overlay: "Tổng tiến công Mậu Thân 1968" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/lessons/anti-us-war/tet-offensive/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Fireworks in the night sky over a city silhouette, mixed with flashes of energy, sense of sudden movement, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đêm giao thừa Tết" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/lessons/anti-us-war/tet-offensive/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Commandos (biệt động) moving skillfully in a city street, shadows at night, atmosphere of courage and surprise, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Đặc biệt tại Sài" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/lessons/anti-us-war/tet-offensive/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Newspapers around the world with headlines about Vietnam, a globe with a bright spot over Vietnam, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Tiếng súng Tết Mậu" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/lessons/anti-us-war/tet-offensive/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, A large negotiation table with many flags, diplomats talking, sun setting over the city, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chiến thắng Mậu Thân" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/lessons/anti-us-war/tet-offensive/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Large crowd in a major world city holding banners 'PEACE FOR VIETNAM', doves flying overhead, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Phong trào phản đối" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+
+## ERA: General
+
+### Lesson: Ngô Quyền và trận Bạch Đằng
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/ngo-quyen-bach-dang.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trận chiến 'bẫy cọc gỗ' thông minh trên sông Bạch Đằng đã kết thúc hoàn toàn nghìn năm Bắc thuộc., with Vietnamese text overlay: "Ngô Quyền và trận Bạch Đằng" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Big fleet of enemy ships approaching, Ngô Quyền standing on the shore looking at the river, planning a secret trap, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 938, quân Nam" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers placing giant sharpened wooden stakes into the river bed, mud splashes, hard work, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông bảo quân sĩ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Small Vietnamese boats leading the big enemy ships into the area where stakes are hidden under water, suspense, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi nước dâng cao," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Water level dropping, enemy ships getting stuck on the sharp stakes and tilting, fire and chaos for invaders, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chờ khi thủy triều" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ngô Quyền standing heroically on his ship, soldiers cheering, victory on the river, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân Nam Hán đại" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+

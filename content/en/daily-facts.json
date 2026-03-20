@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hung-vuong-18",
+    "title": "Secret of the 18 Hung Kings",
+    "content": "Legend says there were 18 generations of Hung Kings, but in reality, each 'generation' was not a single person but an entire dynasty lasting several centuries!",
+    "category": "Legends",
+    "icon": "fluent-emoji:crown"
+  },
+  {
+    "id": "thanh-giong-iron",
+    "title": "The Boy from Giong Village",
+    "content": "Saint Giong not only rode an iron horse but also used the bamboo groves along the road to drive out the An invaders and save the country.",
+    "category": "Legends",
+    "icon": "fluent-emoji:horse"
+  },
+  {
+    "id": "co-loa-spiral",
+    "title": "Magical Co Loa Citadel",
+    "content": "Co Loa Citadel was built in a spiral shape with 9 solid concentric rings, a military masterpiece of our ancestors during the Au Lac era.",
+    "category": "Architecture",
+    "icon": "fluent-emoji:castle"
+  },
+  {
+    "id": "hai-ba-trung-female",
+    "title": "The Trung Sisters on Elephants",
+    "content": "The Trung Sisters were the nation's first Queens, who led the people to drive out the Han army and regain independence in 40 AD.",
+    "category": "Heroes",
+    "icon": "fluent-emoji:elephant"
+  },
+  {
+    "id": "ngo-quyen-stakes",
+    "title": "The Miraculous Stakes Battle",
+    "content": "In 938 AD, Ngo Quyen used a clever tactic of driving sharpened wooden stakes into the bed of the Bach Dang River to destroy the Southern Han war fleet.",
+    "category": "Achievements",
+    "icon": "fluent-emoji:anchor"
+  },
+  {
+    "id": "dinh-bo-linh-reeds",
+    "title": "Reed Flag Maneuvers",
+    "content": "When he was young, Dinh Bo Linh used to play with fellow buffalo boys using reed flowers as flags to practice mock battles; later, he unified the 12 warlords.",
+    "category": "Heroes",
+    "icon": "fluent-emoji:flag-in-hole"
+  },
+  {
+    "id": "ly-thai-to-dragon",
+    "title": "A Golden Dragon Appears",
+    "content": "When moving the capital to Dai La, King Ly Thai To saw a golden dragon rising into the sky, so he renamed the new capital Thang Long (Rising Dragon).",
+    "category": "History",
+    "icon": "fluent-emoji:dragon"
+  },
+  {
+    "id": "ly-thuong-kiet-poem",
+    "title": "Divine Poem on the River",
+    "content": "The poem 'Nam Quoc Son Ha' by Ly Thuong Kiet is considered our first Declaration of Independence, echoed across the Nhu Nguyet River.",
+    "category": "Culture",
+    "icon": "fluent-emoji:scroll"
+  },
+  {
+    "id": "le-loi-sword",
+    "title": "Legend of Sword Lake",
+    "content": "After defeating the Ming invaders, King Le Loi returned the magical sword to the Golden Turtle at Ta Vong Lake, which was then renamed Hoan Kiem Lake (Lake of the Restored Sword).",
+    "category": "Legends",
+    "icon": "fluent-emoji:turtle"
+  },
+  {
+    "id": "quang-trung-speed",
+    "title": "The Lightning March",
+    "content": "King Quang Trung conducted a lightning-fast march from Hue to Thang Long and defeated 290,000 Qing troops in just 5 short Tet days.",
+    "category": "Achievements",
+    "icon": "fluent-emoji:zap"
+  },
+  {
+    "id": "ho-chi-minh-reading",
+    "title": "Independence Day",
+    "content": "On September 2, 1945, at Ba Dinh Square, Uncle Ho read the Declaration of Independence, giving birth to the Democratic Republic of Vietnam.",
+    "category": "History",
+    "icon": "fluent-emoji:star"
+  }
+]

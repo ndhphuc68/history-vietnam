@@ -1,0 +1,53 @@
+{
+  "id": "dinh-dynasty",
+  "title": "The Establishment of the Dinh Dynasty",
+  "period": "Building",
+  "summary": "In 968, Dinh Bo Linh ascended the throne, named the country Dai Co Viet, and reaffirmed our country as an independent nation.",
+  "image": "/images/history/thumbnails/building/dinh-dynasty.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "After defeating the 12 warlords, Dinh Bo Linh officially ascended the throne and became Emperor, taking the title Dinh Tien Hoang. This was a monumental event!",
+      "image": "/images/history/lessons/building/dinh-dynasty/0.png",
+      "imagePrompt": "Imperial ceremony at Hoa Lu citadel, golden banners, King Dinh sitting on the throne, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He chose Hoa Lu as the capital. This place is surrounded by towering limestone mountains that serve as natural fortress walls to protect the King.",
+      "image": "/images/history/lessons/building/dinh-dynasty/1.png",
+      "imagePrompt": "Landscape of Hoa Lu ancient capital, limestone mountains, peaceful river, ancient palace roofs peeking through, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Dinh also ordered the minting of copper coins to make it easier for people to buy and sell. These were the first coins in our country's history!",
+      "image": "/images/history/lessons/building/dinh-dynasty/2.png",
+      "imagePrompt": "Close-up of ancient round coins with a square hole in the middle, shine of copper, happy market scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "With the country unified, people's lives became stable and prosperous. Everyone was grateful to the gifted 'King of Ten Thousand Victories'.",
+      "image": "/images/history/lessons/building/dinh-dynasty/3.png",
+      "imagePrompt": "Vietnamese farmers celebrating a harvest, smiling faces, sun shining, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which place did Dinh Bo Linh choose as the capital?",
+      "options": [
+        "Co Loa",
+        "Hoa Lu",
+        "Thang Long"
+      ],
+      "answer": "Hoa Lu"
+    },
+    {
+      "type": "quiz",
+      "question": "What did Dinh Bo Linh do to help the economy develop?",
+      "options": [
+        "Minted the first copper coins",
+        "Built supermarkets",
+        "Called for foreign investment"
+      ],
+      "answer": "Minted the first copper coins"
+    }
+  ]
+}

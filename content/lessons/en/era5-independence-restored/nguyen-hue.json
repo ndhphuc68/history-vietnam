@@ -1,0 +1,54 @@
+{
+  "id": "nguyen-hue",
+  "title": "Nguyen Hue Ascends the Throne as Quang Trung",
+  "heroId": "quang-trung",
+  "period": "Restoration",
+  "summary": "Nguyen Hue was a military genius. After defeating the Siamese army, he ascended the throne as Emperor Quang Trung to mobilize the entire army to drive out the Qing invaders.",
+  "image": "/images/history/thumbnails/independence-restored/nguyen-hue.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Nguyen Hue and his two brothers raised the flag of uprising in the land of Tay Son, a name that became famous in history.",
+      "image": "/images/history/lessons/independence-restored/nguyen-hue/0.png",
+      "imagePrompt": "The three Tay Son brothers standing in front of traditional martial arts masters, mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "At Rach Gam - Xoai Mut, he led the naval and ground forces to a heroic victory over 50,000 Siamese troops.",
+      "image": "/images/history/lessons/independence-restored/nguyen-hue/1.png",
+      "imagePrompt": "Naval battle on the Mekong river, Tay Son fleet winning, great heroism, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 1788, when the Qing invaders swarmed in, he ascended the throne at Mount Ban to officially lead the resistance.",
+      "image": "/images/history/lessons/independence-restored/nguyen-hue/2.png",
+      "imagePrompt": "Coronation of King Quang Trung at Mount Ban, huge crowd, solemn atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Quang Trung is a symbol of the unyielding spirit and the will to victory of our nation.",
+      "image": "/images/history/lessons/independence-restored/nguyen-hue/3.png",
+      "imagePrompt": "Heroic portrait of King Quang Trung, symbols of victory and power, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did Nguyen Hue ascend the throne as Emperor?",
+      "options": [
+        "Mount Ban (Hue)",
+        "Thang Long",
+        "Hoa Lu"
+      ],
+      "answer": "Mount Ban (Hue)"
+    },
+    {
+      "type": "quiz",
+      "question": "The three Tay Son brothers were Nguyen Hue, Nguyen Nhac, and who else?",
+      "options": [
+        "Nguyen Lu",
+        "Nguyen Anh",
+        "Nguyen Trai"
+      ],
+      "answer": "Nguyen Lu"
+    }
+  ]
+}

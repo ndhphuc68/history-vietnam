@@ -1,0 +1,53 @@
+{
+  "id": "mongol-war-2",
+  "title": "The Second Resistance Against the Mongol-Yuan",
+  "period": "Building",
+  "summary": "Tran Hung Dao with his 'Proclamation to the Officers' awakened patriotism, leading the army and people to defeat 500,000 enemy troops.",
+  "image": "/images/history/thumbnails/building/mongol-war-2.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "This time, the Mongol-Yuan army brought 500,000 soldiers - a massive number! They aggressively demanded passage through our country to attack others.",
+      "image": "/images/history/lessons/building/mongol-war-2/0.png",
+      "imagePrompt": "A vast sea of Mongol soldiers and horses at the border, dust rising, overwhelming numbers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Facing a strong enemy, Hung Dao Vuong Tran Hung Dao wrote the 'Proclamation to the Officers' (Hich Tuong Si) to boost morale. Soldiers tattooed 'Sat That' (Kill the Mongols) on their arms.",
+      "image": "/images/history/lessons/building/mongol-war-2/1.png",
+      "imagePrompt": "Soldiers around a campfire, showing their arms with 'SAT THAT' tattoos, look of determination and brotherhood, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "After many fierce battles, our troops won resounding victories at Ham Tu and Chuong Duong. The enemy panicked and scattered.",
+      "image": "/images/history/lessons/building/mongol-war-2/2.png",
+      "imagePrompt": "Victorious battle at a river port, enemy flags falling, Tran soldiers cheering, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Toghon - the enemy general - had to hide inside a copper tube for his soldiers to carry him away, escaping our pursuit. What a ridiculous sight for an invader!",
+      "image": "/images/history/lessons/building/mongol-war-2/3.png",
+      "imagePrompt": "Enemies carrying a large copper tube, a scared face looking out from one end, humorous cartoon style, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Why did the Tran Dynasty soldiers tattoo 'Sat That' on their arms?",
+      "options": [
+        "To make themselves look pretty",
+        "To show their determination to kill the enemy and save the country",
+        "To recognize each other during battle"
+      ],
+      "answer": "To show their determination to kill the enemy and save the country"
+    },
+    {
+      "type": "quiz",
+      "question": "How did the enemy general Toghon escape?",
+      "options": [
+        "Riding a flying horse",
+        "Hiding inside a copper tube",
+        "Sailing a boat"
+      ],
+      "answer": "Hiding inside a copper tube"
+    }
+  ]
+}

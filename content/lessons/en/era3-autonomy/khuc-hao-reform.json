@@ -1,0 +1,53 @@
+{
+  "id": "khuc-hao-reform",
+  "title": "Khuc Hao's Reforms",
+  "period": "Autonomy",
+  "summary": "The successor of the Khuc family with 'tolerant and simple' policies, bringing prosperity to the people.",
+  "image": "/images/history/thumbnails/autonomy/khuc-hao-reform.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Continuing his father's work, Khuc Hao took power and began a 'fresh start' for the country. He wanted everyone to have a better life.",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/0.png",
+      "imagePrompt": "Khuc Hao standing with his advisors, pointing at a map of administrative reforms, hopeful and focused, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He re-divided the country into smaller units for easier management and abolished many heavy taxes previously imposed by Northern invaders.",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/1.png",
+      "imagePrompt": "Old tax records being burned or put away, officials talking kindly to villagers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "During this time, land was distributed to farmers. Everyone was excited to increase production, and the villages were filled with laughter.",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/2.png",
+      "imagePrompt": "Bountiful harvest scene, golden rice fields, happy villagers working together, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Khuc Hao proved that when the Vietnamese manage their own country, we can make it strong, wealthy, and peaceful.",
+      "image": "/images/history/lessons/autonomy/khuc-hao-reform/3.png",
+      "imagePrompt": "A panoramic view of a prosperous ancient Vietnamese village under the sun, birds flying, peaceful and thriving, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which words summarize Khuc Hao's ruling policies?",
+      "options": [
+        "Strict and tough",
+        "Tolerant and simple",
+        "Free and liberal"
+      ],
+      "answer": "Tolerant and simple"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the purpose of Khuc Hao's administrative re-division?",
+      "options": [
+        "For easier exploitation",
+        "To manage the country effectively and help the people",
+        "To prepare for conquering other countries"
+      ],
+      "answer": "To manage the country effectively and help the people"
+    }
+  ]
+}

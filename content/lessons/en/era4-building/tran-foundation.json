@@ -1,0 +1,53 @@
+{
+  "id": "tran-foundation",
+  "title": "The Establishment of the Tran Dynasty",
+  "period": "Building",
+  "summary": "The unique transfer of power from the Ly to the Tran Dynasty, opening an era of the fiery 'Dong A' spirit.",
+  "image": "/images/history/thumbnails/building/tran-foundation.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "When the Ly Dynasty weakened, Queen Ly Chieu Hoang (the only queen regnant in our history) abdicated the throne to her husband, Tran Canh.",
+      "image": "/images/history/lessons/building/tran-foundation/0.png",
+      "imagePrompt": "Young Queen Ly Chieu Hoang handing a golden scroll to young Tran Canh, both in royal robes, elegant palace setting, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In 1225, the Tran Dynasty officially began. This dynasty is famous for its spirit of unity and courage in protecting the country.",
+      "image": "/images/history/lessons/building/tran-foundation/1.png",
+      "imagePrompt": "King Tran Thai Tong on the throne, with wise advisor Tran Thu Do standing nearby, strong and united look, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Under the Tran Dynasty, our country developed strongly in all aspects. In particular, the spirit of 'King and subject of one mind, brothers in harmony' was always upheld.",
+      "image": "/images/history/lessons/building/tran-foundation/2.png",
+      "imagePrompt": "The King dining with his generals and citizens, a sense of equality and brotherhood, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Tran Dynasty was ready to face the greatest challenges in history: the invasions by the powerful Mongol-Yuan army.",
+      "image": "/images/history/lessons/building/tran-foundation/3.png",
+      "imagePrompt": "Soldiers training hard, sharpening swords, strong fortifications, atmosphere of readiness, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Who was the only queen regnant in Vietnamese history?",
+      "options": [
+        "Hai Ba Trung",
+        "Lady Trieu",
+        "Ly Chieu Hoang"
+      ],
+      "answer": "Ly Chieu Hoang"
+    },
+    {
+      "type": "quiz",
+      "question": "What year did the Tran Dynasty begin?",
+      "options": [
+        "1225",
+        "1010",
+        "1428"
+      ],
+      "answer": "1225"
+    }
+  ]
+}

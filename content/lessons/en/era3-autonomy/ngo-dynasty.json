@@ -1,0 +1,64 @@
+{
+  "id": "ngo-dynasty",
+  "title": "The Ngo Dynasty Building the Nation",
+  "heroId": "ngo-quyen",
+  "period": "Autonomy",
+  "summary": "The first spring of independence: Ngo Quyen ascended the throne and established the capital in Co Loa, laying the foundation for long-term independence.",
+  "image": "/images/history/thumbnails/autonomy/ngo-dynasty.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 939, Ngo Quyen officially ascended the throne, opening the Ngo Dynasty. This was the first time in over 1,000 years that Vietnam had a truly autonomous king.",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/0.png",
+      "imagePrompt": "Coronation of King NGO QUYEN, ceremony in an ancient courtyard, citizens kneeling in respect, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He chose Co Loa - the former capital of An Duong Vuong - as his capital as a statement: We are continuing our ancestors' heroic tradition!",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/1.png",
+      "imagePrompt": "King NGO QUYEN entering the gates of Co Loa citadel, standard with 'NGO' character flying high, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Ngo Quyen abolished the colonial officials, established new administrative positions, and enacted regulations to protect the people's peaceful lives.",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/2.png",
+      "imagePrompt": "NGO QUYEN issuing decrees to protect the poor, setting up a new administration, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Although his reign was short, historical records honor Ngo Quyen as the 'Progenitor of National Restoration' for the Vietnamese nation.",
+      "image": "/images/history/lessons/autonomy/ngo-dynasty/3.png",
+      "imagePrompt": "Statue or painting of NGO QUYEN looking into the distance with pride, historical legacy, sunset, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which location did Ngo Quyen choose as his capital when he ascended the throne?",
+      "options": [
+        "Me Linh",
+        "Co Loa",
+        "Thang Long"
+      ],
+      "answer": "Co Loa"
+    },
+    {
+      "type": "quiz",
+      "question": "What year did Ngo Quyen ascend the throne?",
+      "options": [
+        "938",
+        "939",
+        "905"
+      ],
+      "answer": "939"
+    },
+    {
+      "type": "quiz",
+      "question": "What title is Ngo Quyen praised as in historical records?",
+      "options": [
+        "Bo Cai Dai Vuong",
+        "Progenitor of National Restoration",
+        "Jade Emperor"
+      ],
+      "answer": "Progenitor of National Restoration"
+    }
+  ]
+}

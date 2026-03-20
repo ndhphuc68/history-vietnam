@@ -1,0 +1,524 @@
+{
+  "eras": [
+    {
+      "id": "founding",
+      "title": "Early Nation Building: Van Lang - Au Lac",
+      "levels": [
+        {
+          "id": "dragon-fairy",
+          "title": "Dragon and Fairy Descendants",
+          "lesson": "dragon-fairy",
+          "year": "Primordial time"
+        },
+        {
+          "id": "hung-kings",
+          "title": "Hung Kings Found Van Lang",
+          "lesson": "hung-kings",
+          "year": "2879 BC"
+        },
+        {
+          "id": "banh-chung-banh-day",
+          "title": "The Legend of Banh Chung and Banh Day",
+          "lesson": "banh-chung-banh-day",
+          "year": "Hung King VI"
+        },
+        {
+          "id": "thanh-giong",
+          "title": "Saint Giong Defeats the An",
+          "lesson": "thanh-giong",
+          "year": "Hung King VI"
+        },
+        {
+          "id": "lac-viet-life",
+          "title": "Life of the Lac Viet People",
+          "lesson": "lac-viet-life",
+          "year": "Van Lang era"
+        },
+        {
+          "id": "dong-son-drum",
+          "title": "Dong Son Bronze Drum",
+          "lesson": "dong-son-drum",
+          "year": "7th Century BC"
+        },
+        {
+          "id": "son-tinh-thuy-tinh",
+          "title": "Son Tinh and Thuy Tinh",
+          "lesson": "son-tinh-thuy-tinh",
+          "year": "Hung King XVIII"
+        },
+        {
+          "id": "an-duong-vuong",
+          "title": "An Duong Vuong Founds Au Lac",
+          "lesson": "an-duong-vuong",
+          "year": "257 BC"
+        },
+        {
+          "id": "co-loa-citadel",
+          "title": "Co Loa Citadel",
+          "lesson": "co-loa-citadel",
+          "year": "3rd Century BC"
+        },
+        {
+          "id": "magic-crossbow",
+          "title": "Magical Crossbow",
+          "lesson": "magic-crossbow",
+          "year": "Au Lac era"
+        },
+        {
+          "id": "trieu-da-invasion",
+          "title": "Trieu Da's Invasion",
+          "lesson": "trieu-da-invasion",
+          "year": "179 BC"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "northern-domination",
+      "title": "1,000 Years of Northern Rule & Struggle",
+      "levels": [
+        {
+          "id": "han-rule",
+          "title": "Han Dynasty Rule",
+          "lesson": "han-rule",
+          "year": "111 BC"
+        },
+        {
+          "id": "assimilation-policy",
+          "title": "Assimilation Policies",
+          "lesson": "assimilation-policy",
+          "year": "1st - 10th Century"
+        },
+        {
+          "id": "life-under-rule",
+          "title": "Life of Native Vietnamese",
+          "lesson": "life-under-rule",
+          "year": "Northern rule era"
+        },
+        {
+          "id": "hai-ba-trung",
+          "title": "The Trung Sisters' Uprising",
+          "lesson": "hai-ba-trung",
+          "year": "40 AD"
+        },
+        {
+          "id": "ba-trieu",
+          "title": "Lady Trieu's Uprising",
+          "lesson": "ba-trieu",
+          "year": "248 AD"
+        },
+        {
+          "id": "other-rebellions",
+          "title": "Other National Rebellions",
+          "lesson": "other-rebellions",
+          "year": "5th - 9th Century"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "autonomy",
+      "title": "Turning Point: Gaining Autonomy",
+      "levels": [
+        {
+          "id": "khuc-thua-du",
+          "title": "Khuc Clan Reclaims Autonomy",
+          "lesson": "khuc-thua-du",
+          "year": "905 AD"
+        },
+        {
+          "id": "khuc-hao-reform",
+          "title": "Khuc Hao's Reforms",
+          "lesson": "khuc-hao-reform",
+          "year": "907 AD"
+        },
+        {
+          "id": "duong-dinh-nghe",
+          "title": "Duong Dinh Nghe vs. Southern Han",
+          "lesson": "duong-dinh-nghe",
+          "year": "931 AD"
+        },
+        {
+          "id": "ngo-quyen-prep",
+          "title": "Ngo Quyen Prepares for Battle",
+          "lesson": "ngo-quyen-prep",
+          "year": "938 AD"
+        },
+        {
+          "id": "bach-dang-938",
+          "title": "The Victory of Bach Dang (938)",
+          "lesson": "bach-dang-938",
+          "year": "938 AD"
+        },
+        {
+          "id": "ngo-dynasty",
+          "title": "Ngo Dynasty Builds the Nation",
+          "lesson": "ngo-dynasty",
+          "year": "939 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "building",
+      "title": "A Glorious Age: Ly - Tran - Ho",
+      "levels": [
+        {
+          "id": "twelve-warlords",
+          "title": "The 12 Warlords' Rebellion",
+          "lesson": "twelve-warlords",
+          "year": "944 AD"
+        },
+        {
+          "id": "dinh-bo-linh",
+          "title": "Dinh Bo Linh's Unification",
+          "lesson": "dinh-bo-linh",
+          "year": "968 AD"
+        },
+        {
+          "id": "dinh-dynasty",
+          "title": "Founding of the Dinh Dynasty",
+          "lesson": "dinh-dynasty",
+          "year": "968 AD"
+        },
+        {
+          "id": "le-hoan",
+          "title": "Le Hoan vs. Song Invaders",
+          "lesson": "le-hoan",
+          "year": "981 AD"
+        },
+        {
+          "id": "ly-cong-uan",
+          "title": "Accession of Ly Cong Uan",
+          "lesson": "ly-cong-uan",
+          "year": "1009 AD"
+        },
+        {
+          "id": "move-capital",
+          "title": "Moving Capital to Thang Long",
+          "lesson": "move-capital",
+          "year": "1010 AD"
+        },
+        {
+          "id": "van-mieu",
+          "title": "Temple of Literature (Van Mieu)",
+          "lesson": "van-mieu",
+          "year": "1070 AD"
+        },
+        {
+          "id": "ly-thuong-kiet",
+          "title": "Ly Thuong Kiet vs. Song",
+          "lesson": "ly-thuong-kiet",
+          "year": "1075 AD"
+        },
+        {
+          "id": "tran-foundation",
+          "title": "Founding of the Tran Dynasty",
+          "lesson": "tran-foundation",
+          "year": "1225 AD"
+        },
+        {
+          "id": "mongol-war-1",
+          "title": "1st War Against the Mongols",
+          "lesson": "mongol-war-1",
+          "year": "1258 AD"
+        },
+        {
+          "id": "dien-hong",
+          "title": "Dien Hong Conference",
+          "lesson": "dien-hong",
+          "year": "1284 AD"
+        },
+        {
+          "id": "mongol-war-2",
+          "title": "2nd War Against the Mongols",
+          "lesson": "mongol-war-2",
+          "year": "1285 AD"
+        },
+        {
+          "id": "van-don-victory",
+          "title": "Victory at Van Don",
+          "lesson": "van-don-victory",
+          "year": "1287 AD"
+        },
+        {
+          "id": "bach-dang-1288",
+          "title": "Victory of Bach Dang (1288)",
+          "lesson": "bach-dang-1288",
+          "year": "1288 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "independence-restored",
+      "title": "Renaissance: Le - Tay Son",
+      "levels": [
+        {
+          "id": "ming-rule",
+          "title": "Ming Dynasty Occupation",
+          "lesson": "ming-rule",
+          "year": "1407 AD"
+        },
+        {
+          "id": "lam-son-uprising",
+          "title": "Le Loi's Lam Son Uprising",
+          "lesson": "lam-son-uprising",
+          "year": "1418 AD"
+        },
+        {
+          "id": "nguyen-trai",
+          "title": "Nguyen Trai Aids the Uprising",
+          "lesson": "nguyen-trai",
+          "year": "1420 AD"
+        },
+        {
+          "id": "chi-lang-victory",
+          "title": "Victory at Chi Lang",
+          "lesson": "chi-lang-victory",
+          "year": "1427 AD"
+        },
+        {
+          "id": "binh-ngo",
+          "title": "Binh Ngo Dai Cao (Edict)",
+          "lesson": "binh-ngo",
+          "year": "1428 AD"
+        },
+        {
+          "id": "later-le-dynasty",
+          "title": "Development of Early Le",
+          "lesson": "later-le-dynasty",
+          "year": "1428 AD"
+        },
+        {
+          "id": "hong-duc-law",
+          "title": "The Hong Duc Code",
+          "lesson": "hong-duc-law",
+          "year": "1483 AD"
+        },
+        {
+          "id": "tay-son-uprising",
+          "title": "The Tay Son Uprising",
+          "lesson": "tay-son-uprising",
+          "year": "1771 AD"
+        },
+        {
+          "id": "rach-gam-xoai-mut",
+          "title": "Victory of Rach Gam - Xoai Mut",
+          "lesson": "rach-gam-xoai-mut",
+          "year": "1785 AD"
+        },
+        {
+          "id": "nguyen-hue",
+          "title": "Nguyen Hue as Emperor Quang Trung",
+          "lesson": "nguyen-hue",
+          "year": "1788 AD"
+        },
+        {
+          "id": "ngoc-hoi-dong-da",
+          "title": "Victory of Ngoc Hoi - Dong Da",
+          "lesson": "ngoc-hoi-dong-da",
+          "year": "1789 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "resistance",
+      "title": "Nguyen Dynasty & Anti-French Resistance",
+      "levels": [
+        {
+          "id": "nguyen-foundation",
+          "title": "Founding of the Nguyen Dynasty",
+          "lesson": "nguyen-foundation",
+          "year": "1802 AD"
+        },
+        {
+          "id": "gia-long",
+          "title": "Gia Long Builds the Nation",
+          "lesson": "gia-long",
+          "year": "1802 AD"
+        },
+        {
+          "id": "minh-mang",
+          "title": "Decisive Rule of Minh Mang",
+          "lesson": "minh-mang",
+          "year": "1820 AD"
+        },
+        {
+          "id": "french-invasion",
+          "title": "French Invasion of Vietnam",
+          "lesson": "french-invasion",
+          "year": "1858 AD"
+        },
+        {
+          "id": "truong-dinh",
+          "title": "The Hero Truong Dinh",
+          "lesson": "truong-dinh",
+          "year": "1862 AD"
+        },
+        {
+          "id": "can-vuong",
+          "title": "The Can Vuong Movement",
+          "lesson": "can-vuong",
+          "year": "1885 AD"
+        },
+        {
+          "id": "ham-nghi",
+          "title": "Patriotic King Ham Nghi",
+          "lesson": "ham-nghi",
+          "year": "1885 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "patriotic-movements",
+      "title": "Early 20th Century Patriotic Movements",
+      "levels": [
+        {
+          "id": "phan-boi-chau",
+          "title": "The Patriot Phan Boi Chau",
+          "lesson": "phan-boi-chau",
+          "year": "1904 AD"
+        },
+        {
+          "id": "dong-du",
+          "title": "The Dong Du Movement",
+          "lesson": "dong-du",
+          "year": "1905 AD"
+        },
+        {
+          "id": "phan-chau-trinh",
+          "title": "The Reformist Phan Chau Trinh",
+          "lesson": "phan-chau-trinh",
+          "year": "1906 AD"
+        },
+        {
+          "id": "ho-chi-minh-young",
+          "title": "The Boy Nguyen Sinh Cung",
+          "lesson": "ho-chi-minh-young",
+          "year": "1890 AD"
+        },
+        {
+          "id": "departure-1911",
+          "title": "Uncle Ho Searches for Salvation",
+          "lesson": "departure-1911",
+          "year": "1911 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ho-chi-minh-era",
+      "title": "Independence & Resistance vs. France",
+      "levels": [
+        {
+          "id": "august-revolution",
+          "title": "August Revolution (1945)",
+          "lesson": "august-revolution",
+          "year": "1945 AD"
+        },
+        {
+          "id": "independence-declaration",
+          "title": "Declaration of Independence",
+          "lesson": "independence-declaration",
+          "year": "1945 AD"
+        },
+        {
+          "id": "nationwide-resistance",
+          "title": "Nationwide Resistance Edict",
+          "lesson": "nationwide-resistance",
+          "year": "1946 AD"
+        },
+        {
+          "id": "border-campaign",
+          "title": "The Border Campaign",
+          "lesson": "border-campaign",
+          "year": "1950 AD"
+        },
+        {
+          "id": "dien-bien-phu",
+          "title": "Victory of Dien Bien Phu",
+          "lesson": "dien-bien-phu",
+          "year": "1954 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anti-us-war",
+      "title": "Resistance War against the US",
+      "levels": [
+        {
+          "id": "resistance-war-us",
+          "title": "A Divided Nation",
+          "lesson": "resistance-war-us",
+          "year": "1954 AD"
+        },
+        {
+          "id": "ho-chi-minh-trail",
+          "title": "Legendary Ho Chi Minh Trail",
+          "lesson": "ho-chi-minh-trail",
+          "year": "1959 AD"
+        },
+        {
+          "id": "dong-khoi-movement",
+          "title": "The Dong Khoi Movement",
+          "lesson": "dong-khoi-movement",
+          "year": "1960 AD"
+        },
+        {
+          "id": "tet-offensive",
+          "title": "The Tet Offensive (1968)",
+          "lesson": "tet-offensive",
+          "year": "1968 AD"
+        },
+        {
+          "id": "air-dien-bien-phu",
+          "title": "Dien Bien Phu in the Air",
+          "lesson": "air-dien-bien-phu",
+          "year": "1972 AD"
+        },
+        {
+          "id": "paris-agreement",
+          "title": "The Paris Agreement (1973)",
+          "lesson": "paris-agreement",
+          "year": "1973 AD"
+        },
+        {
+          "id": "ho-chi-minh-campaign",
+          "title": "The Ho Chi Minh Campaign",
+          "lesson": "ho-chi-minh-campaign",
+          "year": "1975 AD"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "unified-vietnam",
+      "title": "Unified Vietnam & Renewal",
+      "levels": [
+        {
+          "id": "reunification",
+          "title": "A Country Full of Joy",
+          "lesson": "reunification",
+          "year": "1975 AD"
+        },
+        {
+          "id": "doi-moi",
+          "title": "The Renewal Period (Doi Moi)",
+          "lesson": "doi-moi",
+          "year": "1986 AD"
+        },
+        {
+          "id": "modern-vietnam",
+          "title": "Vietnam Today",
+          "lesson": "modern-vietnam",
+          "year": "21st Century"
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

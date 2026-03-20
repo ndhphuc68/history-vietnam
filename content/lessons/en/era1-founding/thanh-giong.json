@@ -1,0 +1,60 @@
+{
+  "id": "thanh-giong",
+  "title": "Saint Giong Defeating the An Invaders",
+  "heroId": "thanh-giong",
+  "period": "Nation Building",
+  "summary": "The legend of the boy from Giong village who did not speak or smile, but when invaders threatened, he grew into a giant hero, riding an iron horse to crush the enemy.",
+  "image": "/images/history/thumbnails/founding/thanh-giong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "During the reign of the sixth Hung King, a young child suddenly spoke when the king's messengers were searching for talented people to fight invaders.",
+      "image": "/images/history/lessons/founding/thanh-giong/0.png",
+      "imagePrompt": "A little boy Giong sitting silently, then suddenly speaking to the royal messenger, amazed parents, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Giong had an extraordinary appetite and grew as fast as the wind. The entire village contributed rice to feed him so he could fight for the country.",
+      "image": "/images/history/lessons/founding/thanh-giong/1.png",
+      "imagePrompt": "Young Giong growing up rapidly, eating big bowls of rice, villagers bringing food, happy and caring community, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the enemy arrived, Giong suddenly transformed into a giant hero, wearing iron armor, wielding an iron whip, and riding a fire-breathing iron horse.",
+      "image": "/images/history/lessons/founding/thanh-giong/2.png",
+      "imagePrompt": "Giong transforming into a giant hero, wearing iron armor, holding an iron whip, riding a flaming iron horse, epic transformation, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Hero Giong charged into the enemy lines. When his iron whip broke, he uprooted bamboo groves along the road to continue the fight.",
+      "image": "/images/history/lessons/founding/thanh-giong/3.png",
+      "imagePrompt": "Hero Giong using a bamboo bush as a weapon to fight enemies, iron horse breathing fire, brave and powerful, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The invaders fled in terror. Giong pursued them to the foot of Soc Mountain, took off his armor, and flew to heaven with his horse.",
+      "image": "/images/history/lessons/founding/thanh-giong/4.png",
+      "imagePrompt": "Giong on his horse flying to the sky from Soc Son mountain, leaving armor behind, heroic departure, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "During which Hung King's reign did Saint Giong fight the invaders?",
+      "options": [
+        "The Sixth",
+        "The Eighteenth",
+        "The First"
+      ],
+      "answer": "The Sixth"
+    },
+    {
+      "type": "quiz",
+      "question": "When his iron whip broke, what did Saint Giong use as a weapon?",
+      "options": [
+        "Bamboo",
+        "Stone",
+        "Sword"
+      ],
+      "answer": "Bamboo"
+    }
+  ]
+}

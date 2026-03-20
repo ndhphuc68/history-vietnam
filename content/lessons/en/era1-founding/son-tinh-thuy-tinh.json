@@ -1,0 +1,75 @@
+{
+  "id": "son-tinh-thuy-tinh",
+  "title": "Son Tinh and Thuy Tinh",
+  "period": "Nation Building",
+  "summary": "The competition between the Mountain God and the Sea God for My Nuong's hand, explaining the annual flooding phenomenon.",
+  "image": "/images/history/thumbnails/founding/son-tinh-thuy-tinh.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The 18th Hung King had a beautiful daughter named My Nuong. The King wanted to find a talented husband for her.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/0.png",
+      "imagePrompt": "Princess My Nuong standing in a garden, beautiful and elegant, ancient Vietnamese palace in background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Suddenly, two gods came to ask for her hand: Son Tinh - lord of the high mountains, and Thuy Tinh - lord of the deep waters. Both possessed matchless magic.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/1.png",
+      "imagePrompt": "Son Tinh (Mountain God) and Thuy Tinh (Sea God) standing before the King, one with earth powers, one with water powers, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The King set a condition: 'Whoever brings the offerings first (nine-tusked elephants, nine-spurred roosters, nine-red-haired horses) shall marry My Nuong'.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/2.png",
+      "imagePrompt": "Magical creatures: elephants with 9 tusks, roosters with 9 spurs, horses with red hair, glowing and legendary, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Son Tinh presented the offerings first and took My Nuong to the mountains. Thuy Tinh arrived later and, in a rage, raised the waters to pursue and reclaim the princess.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/3.png",
+      "imagePrompt": "Son Tinh leading My Nuong to the mountains, Thuy Tinh behind with a massive wave and sea monsters, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The two gods fought fiercely. As high as Thuy Tinh raised the water, Son Tinh raised the mountains even higher. Eventually, Thuy Tinh grew exhausted and had to retreat.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/4.png",
+      "imagePrompt": "Epic battle, mountains rising against floods, thunder and lightning, Son Tinh and Thuy Tinh clashing, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Since then, every year Thuy Tinh raises the water to cause floods as revenge but always fails against Son Tinh.",
+      "image": "/images/history/lessons/founding/son-tinh-thuy-tinh/5.png",
+      "imagePrompt": "Modern floods in Vietnam, people working together to build dikes and protect homes, symbolic struggle, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which region did Son Tinh rule?",
+      "options": [
+        "The sea",
+        "The high mountains",
+        "The coastal plains"
+      ],
+      "answer": "The high mountains"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following offerings was mentioned in the story?",
+      "options": [
+        "Nine-tusked elephant",
+        "Golden dragon",
+        "Red carp"
+      ],
+      "answer": "Nine-tusked elephant"
+    },
+    {
+      "type": "quiz",
+      "question": "What phenomenon does the story of Son Tinh and Thuy Tinh explain?",
+      "options": [
+        "Annual earthquakes",
+        "Annual flooding",
+        "Long droughts"
+      ],
+      "answer": "Annual flooding"
+    }
+  ]
+}

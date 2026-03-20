@@ -1,0 +1,54 @@
+{
+  "id": "an-duong-vuong",
+  "title": "An Duong Vuong Founds Au Lac",
+  "heroId": "an-duong-vuong",
+  "period": "Nation Building",
+  "summary": "Thuc Phan An Duong Vuong unified two tribes, established the Au Lac state, and built the solid Co Loa Citadel to protect the country.",
+  "image": "/images/history/thumbnails/founding/an-duong-vuong.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "After the Hung King era, Thuc Phan unified the West Au and Lac Viet tribes to establish the state of Au Lac.",
+      "image": "/images/history/lessons/founding/an-duong-vuong/0.png",
+      "imagePrompt": "Thuc Phan unifying West Au and Lac Viet tribes, creating Au Lac kingdom, ancient Vietnamese people celebrating, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "An Duong Vuong chose the Co Loa area to build his citadel. The citadel was built in a unique and solid spiral shape.",
+      "image": "/images/history/lessons/founding/an-duong-vuong/1.png",
+      "imagePrompt": "An Duong Vuong standing in front of the construction of Co Loa Citadel, spiral shape walls, ancient architecture, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Here, the King ordered the casting of the Kim Quy magic crossbow, which could take down tens of thousands of invaders with a single shot.",
+      "image": "/images/history/lessons/founding/an-duong-vuong/2.png",
+      "imagePrompt": "The Golden Turtle (Kim Quy) giving the magic claw to An Duong Vuong to create the magic crossbow, mystical glow, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Under An Duong Vuong, Au Lac was a strong nation, striking fear into Northern invaders many times.",
+      "image": "/images/history/lessons/founding/an-duong-vuong/3.png",
+      "imagePrompt": "The powerful army of Au Lac with magic crossbows guarding the Co Loa citadel, looking strong and brave, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which famous citadel did King An Duong Vuong build?",
+      "options": [
+        "Co Loa",
+        "Thang Long",
+        "Hue"
+      ],
+      "answer": "Co Loa"
+    },
+    {
+      "type": "quiz",
+      "question": "The state of Au Lac was formed from the unification of which two tribes?",
+      "options": [
+        "West Au and Lac Viet",
+        "Au Lac and Van Lang",
+        "Mong and Thai"
+      ],
+      "answer": "West Au and Lac Viet"
+    }
+  ]
+}

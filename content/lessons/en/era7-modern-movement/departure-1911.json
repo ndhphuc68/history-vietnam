@@ -1,0 +1,53 @@
+{
+  "id": "departure-1911",
+  "title": "Uncle Ho Leaves to Find a Way to Save the Nation",
+  "period": "Uncle Ho",
+  "summary": "The young man Nguyen Tat Thanh, with his bare hands, began a journey of ten thousand miles on a merchant ship to find enlightenment for the nation.",
+  "image": "/images/history/thumbnails/patriotic-movements/departure-1911.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1911, the young man Nguyen Tat Thanh (Nguyen Sinh Cung's new name) decided to leave his homeland for the West to find a new path to national salvation.",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/0.png",
+      "imagePrompt": "Nguyen Tat Thanh in a simple brown suit, standing at the Nha Rong wharf, looking at a large steamship, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "At Nha Rong Wharf (Saigon), he applied for a job as a kitchen assistant on a French merchant ship named Amiral Latouche-Tréville under the name Van Ba.",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/1.png",
+      "imagePrompt": "Văn Ba (Nguyen Tat Thanh) carrying a heavy bag onto a ship, determined face, busy dock scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite the extremely hard work, from early morning until late at night, he never forgot his single goal: to find out what other countries did to save their own nations.",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/2.png",
+      "imagePrompt": "Van Ba working in the ship's kitchen, steam rising, looking out of a small window at the sea, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "June 5, 1911, became a historic milestone. Uncle Ho's 30-year journey across the world began here!",
+      "image": "/images/history/lessons/patriotic-movements/departure-1911/3.png",
+      "imagePrompt": "The large ship sailing out into the wide ocean, sunset, a trail of white foam, a symbol of a new era beginning, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "From which wharf did Uncle Ho leave to go abroad?",
+      "options": [
+        "Nha Rong Wharf",
+        "Hai Phong Port",
+        "Da Nang Port"
+      ],
+      "answer": "Nha Rong Wharf"
+    },
+    {
+      "type": "quiz",
+      "question": "In what year did Uncle Ho go abroad to find a way to save the nation?",
+      "options": [
+        "1911",
+        "1945",
+        "1930"
+      ],
+      "answer": "1911"
+    }
+  ]
+}

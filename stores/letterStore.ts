@@ -1,23 +1,32 @@
 import { defineStore } from 'pinia';
-import letterData from '~/content/hero-letters.json';
-
-export interface HeroLetter {
-  id: string;
-  heroId: string;
-  lessonId: string;
-  title: string;
-  content: string;
-  signature: string;
-  date: string;
-  icon: string;
-}
+import type { HeroLetter } from '~/types/history';
 
 export const useLetterStore = defineStore('letter', () => {
   const collectedLetterIds = ref<string[]>([]);
-  const allLetters = ref<HeroLetter[]>(letterData as HeroLetter[]);
+  const allLetters = ref<HeroLetter[]>([]);
   const lastUnlockedLetter = ref<HeroLetter | null>(null);
 
-  const initialize = () => {
+  const initialize = async () => {
+    const { locale } = useI18n();
+    
+    const loadData = async () => {
+      try {
+        const data = await import(`../content/${locale.value}/hero-letters.json`);
+        allLetters.value = data.default as HeroLetter[];
+      } catch (e) {
+        console.error('Failed to load localized hero letters', e);
+        const data = await import(`../content/vi/hero-letters.json`);
+        allLetters.value = data.default as HeroLetter[];
+      }
+    };
+
+    await loadData();
+
+    // Re-load when locale changes
+    watch(locale, async () => {
+      await loadData();
+    });
+
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('collected-letters');
       if (saved) {

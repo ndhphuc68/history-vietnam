@@ -1,0 +1,776 @@
+[
+  {
+    "id": "vua",
+    "term": "King",
+    "definition": "The highest-ranking head of a country during the feudal period.",
+    "category": "Titles"
+  },
+  {
+    "id": "chua",
+    "term": "Lord",
+    "definition": "A person with the power to rule over a region, usually below the king but sometimes holding actual power.",
+    "category": "Titles"
+  },
+  {
+    "id": "hoang-de",
+    "term": "Emperor",
+    "definition": "Another name for a king, often used to assert independence and immense power.",
+    "category": "Titles"
+  },
+  {
+    "id": "thai-hau",
+    "term": "Queen Mother",
+    "definition": "The mother of the king, usually highly respected and holding an important voice in the court.",
+    "category": "Titles"
+  },
+  {
+    "id": "trang-nguyen",
+    "term": "First-rank Scholar (Trang nguyen)",
+    "definition": "The highest scorer in the ancient imperial court examination, considered the smartest person in the country.",
+    "category": "Titles"
+  },
+  {
+    "id": "bang-nhan",
+    "term": "Second-rank Scholar (Bang nhan)",
+    "definition": "The person who ranked second in the court examination, right after the First-rank Scholar.",
+    "category": "Titles"
+  },
+  {
+    "id": "tham-hoa",
+    "term": "Third-rank Scholar (Tham hoa)",
+    "definition": "The person who ranked third in the court examination during the feudal period.",
+    "category": "Titles"
+  },
+  {
+    "id": "lac-hau",
+    "term": "Lac Hau",
+    "definition": "Civilian officials who assisted the Hung Kings in managing important national affairs.",
+    "category": "Titles"
+  },
+  {
+    "id": "lac-tuong",
+    "term": "Lac Tuong",
+    "definition": "Locals leaders of tribes in ancient times who assisted the Hung Kings in overseeing lands.",
+    "category": "Titles"
+  },
+  {
+    "id": "thai-thu",
+    "term": "Prefect (Thai thu)",
+    "definition": "The head of a large administrative region in ancient times, appointed by Northern dynasties to rule.",
+    "category": "Titles"
+  },
+  {
+    "id": "toan-quyen",
+    "term": "Governor-General",
+    "definition": "The supreme ruler of all Indochina during the French colonial period.",
+    "category": "Titles"
+  },
+  {
+    "id": "kham-sai",
+    "term": "Imperial Envoy (Kham sai)",
+    "definition": "A trusted person appointed by the king to carry out a special mission.",
+    "category": "Titles"
+  },
+  {
+    "id": "lanh-binh",
+    "term": "Provincial Commander (Lanh binh)",
+    "definition": "A military officer commanding the army in a province during the Nguyen Dynasty.",
+    "category": "Titles"
+  },
+  {
+    "id": "thai-uy",
+    "term": "Commander-in-Chief (Thai uy)",
+    "definition": "The highest military rank, commanding the entire national army in ancient times.",
+    "category": "Titles"
+  },
+  {
+    "id": "tuong-quan",
+    "term": "General",
+    "definition": "A person who commands the army in battle.",
+    "category": "Titles"
+  },
+  {
+    "id": "thai-giam",
+    "term": "Eunuch",
+    "definition": "A servant in the royal palace who looked after the daily life and needs of the royal family.",
+    "category": "Titles"
+  },
+  {
+    "id": "quan-dai-than",
+    "term": "High Official",
+    "definition": "Senior officials who held very high positions and frequently discussed national affairs with the king.",
+    "category": "Titles"
+  },
+  {
+    "id": "su-gia",
+    "term": "Envoy",
+    "definition": "A person who represented the king to communicate and negotiate with other countries.",
+    "category": "Titles"
+  },
+  {
+    "id": "nu-vuong",
+    "term": "Queen Regnant",
+    "definition": "A woman who becomes the king and head of a country.",
+    "category": "Titles"
+  },
+  {
+    "id": "bo-chu",
+    "term": "Tribal Chief",
+    "definition": "The head of a tribe during the Van Lang - Au Lac period.",
+    "category": "Titles"
+  },
+  {
+    "id": "tho-hao",
+    "term": "Local Gentry (Tho hao)",
+    "definition": "Wealthy and prestigious people with local authority in ancient times.",
+    "category": "Titles"
+  },
+  {
+    "id": "tiet-do-su",
+    "term": "Jiedushi (Governor)",
+    "definition": "An official title for rulers of a large region during the Northern domination period.",
+    "category": "Titles"
+  },
+  {
+    "id": "ngu-su",
+    "term": "Censor (Ngu su)",
+    "definition": "An official tasked with supervising other officials and advising the king against wrongdoings.",
+    "category": "Titles"
+  },
+  {
+    "id": "cong-chua",
+    "term": "Princess",
+    "definition": "A daughter of the king.",
+    "category": "Titles"
+  },
+  {
+    "id": "hoang-tu",
+    "term": "Prince",
+    "definition": "A son of the king.",
+    "category": "Titles"
+  },
+  {
+    "id": "chu-tich",
+    "term": "President",
+    "definition": "The head of the state in modern Vietnam.",
+    "category": "Titles"
+  },
+  {
+    "id": "tong-bi-thu",
+    "term": "General Secretary",
+    "definition": "The leader of the Communist Party of Vietnam.",
+    "category": "Titles"
+  },
+  {
+    "id": "dai-tuong",
+    "term": "General",
+    "definition": "The highest military rank in the Vietnam People's Army (e.g., General Vo Nguyen Giap).",
+    "category": "Titles"
+  },
+  {
+    "id": "tong-tu-lenh",
+    "term": "Commander-in-Chief",
+    "definition": "The supreme commander of all armed forces.",
+    "category": "Titles"
+  },
+  {
+    "id": "chien-si",
+    "term": "Soldier / Fighter",
+    "definition": "People who directly fight with weapons to protect the fatherland.",
+    "category": "Titles"
+  },
+  {
+    "id": "dan-quan",
+    "term": "Self-Defense Militia",
+    "definition": "Mass armed forces who both work and protect their homeland.",
+    "category": "Titles"
+  },
+  {
+    "id": "biet-dong",
+    "term": "Commando (Biet dong)",
+    "definition": "A secret combat force that carries out surprise attacks within cities (e.g., Saigon Commandos).",
+    "category": "Titles"
+  },
+  {
+    "id": "giao-lien",
+    "term": "Communication Liaison",
+    "definition": "People who deliver messages and guide soldiers secretly.",
+    "category": "Titles"
+  },
+  {
+    "id": "tnxp",
+    "term": "Youth Volunteer (TNXP)",
+    "definition": "A force of young people who took the lead in difficult tasks like road opening and ammunition transport.",
+    "category": "Titles"
+  },
+  {
+    "id": "ba-me-vnah",
+    "term": "Vietnamese Heroic Mother",
+    "definition": "A noble title for mothers who made great sacrifices for the country.",
+    "category": "Titles"
+  },
+  {
+    "id": "chinh-uy",
+    "term": "Political Commissar",
+    "definition": "A person in charge of political and ideological work within military units.",
+    "category": "Titles"
+  },
+  {
+    "id": "ah-llvt",
+    "term": "Hero of the People's Armed Forces",
+    "definition": "A title for those who performed exceptionally outstanding feats of war.",
+    "category": "Titles"
+  },
+  {
+    "id": "du-kich",
+    "term": "Guerrilla",
+    "definition": "Local armed forces using surprise and flexible combat tactics.",
+    "category": "Titles"
+  },
+  {
+    "id": "doi-vien",
+    "term": "Young Pioneer Member",
+    "definition": "Members of youth organizations participating in small-scale revolutionary activities.",
+    "category": "Titles"
+  },
+  {
+    "id": "trong-dong-dong-son",
+    "term": "Dong Son Bronze Drum",
+    "definition": "A precious bronze drum, symbol of the long-standing civilization of the ancient Vietnamese.",
+    "category": "Objects"
+  },
+  {
+    "id": "no-than",
+    "term": "Magical Crossbow",
+    "definition": "The legendary weapon of King An Duong Vuong, capable of shooting thousands of arrows at once.",
+    "category": "Objects"
+  },
+  {
+    "id": "guom-than",
+    "term": "Magical Sword",
+    "definition": "A precious sword that Le Loi borrowed from Long Quan (Dragon Lord) to drive out the Ming army.",
+    "category": "Objects"
+  },
+  {
+    "id": "long-bao",
+    "term": "Imperial Robe (Long bao)",
+    "definition": "The robe worn by the king, usually embroidered with dragons using gold thread.",
+    "category": "Objects"
+  },
+  {
+    "id": "ngai-vang",
+    "term": "Throne",
+    "definition": "The most solemn seat reserved for the king during ceremonies or court meetings.",
+    "category": "Objects"
+  },
+  {
+    "id": "kim-an",
+    "term": "Golden Seal (Kim an)",
+    "definition": "A seal made of gold belonging to the king, used to stamp important documents.",
+    "category": "Objects"
+  },
+  {
+    "id": "moc-ban",
+    "term": "Woodblocks (Moc ban)",
+    "definition": "Wooden plates carved with reverse characters to print books in ancient times.",
+    "category": "Objects"
+  },
+  {
+    "id": "chau-ban",
+    "term": "Chau Ban (Imperial Archives)",
+    "definition": "Administrative documents with comments written in red ink by the king.",
+    "category": "Objects"
+  },
+  {
+    "id": "co-ngu-sac",
+    "term": "Five-colored Flag",
+    "definition": "A traditional flag with five colors, often seen at festivals and temples.",
+    "category": "Objects"
+  },
+  {
+    "id": "thanh-quach",
+    "term": "Citadels and Fortifications",
+    "definition": "Systems of high walls and deep moats built to protect capitals or important locations.",
+    "category": "Objects"
+  },
+  {
+    "id": "den-tho",
+    "term": "Temple / Shrine",
+    "definition": "A place established by the people to remember and worship heroes who contributed to the country.",
+    "category": "Objects"
+  },
+  {
+    "id": "bia-da",
+    "term": "Stone Steles",
+    "definition": "Stone slabs carved with the names of successful candidates or used to record major events.",
+    "category": "Objects"
+  },
+  {
+    "id": "thuyen-thung",
+    "term": "Basket Boat",
+    "definition": "A small round boat woven from bamboo, used for traveling on water.",
+    "category": "Objects"
+  },
+  {
+    "id": "xe-quet",
+    "term": "Wagon (Xe quet)",
+    "definition": "A simple transport vehicle pulled by cattle in ancient times.",
+    "category": "Objects"
+  },
+  {
+    "id": "luy-tre",
+    "term": "Bamboo Hedge (Luy tre)",
+    "definition": "Dense bamboo rows surrounding villages to block wind and protect against enemies.",
+    "category": "Objects"
+  },
+  {
+    "id": "coc-go",
+    "term": "Wooden Stakes",
+    "definition": "Unique weapons planted by Ngo Quyen in the Bach Dang River to defeat the enemy.",
+    "category": "Objects"
+  },
+  {
+    "id": "sach-dong",
+    "term": "Bronze Books",
+    "definition": "Books with pages made of bronze, often used to record royal genealogy or king's orders.",
+    "category": "Objects"
+  },
+  {
+    "id": "ao-dai",
+    "term": "Ao Dai",
+    "definition": "Traditional Vietnamese attire, embodying grace and elegance.",
+    "category": "Objects"
+  },
+  {
+    "id": "non-la",
+    "term": "Conical Hat (Non la)",
+    "definition": "A characteristic hat for sun and rain protection, closely associated with the image of Vietnamese people.",
+    "category": "Objects"
+  },
+  {
+    "id": "con-rong-chau-tien",
+    "term": "Dragon and Fairy Descendants",
+    "definition": "A poetic term referring to the noble origins of the Vietnamese people.",
+    "category": "Concepts"
+  },
+  {
+    "id": "chim-lac",
+    "term": "Lac Bird",
+    "definition": "A legendary bird species often found on the surface of Dong Son bronze drums.",
+    "category": "Objects"
+  },
+  {
+    "id": "canh-dieu",
+    "term": "Kite",
+    "definition": "A familiar folk game for children in rural Vietnam.",
+    "category": "Objects"
+  },
+  {
+    "id": "den-long",
+    "term": "Lantern",
+    "definition": "An object for decoration and lighting during traditional festivals.",
+    "category": "Objects"
+  },
+  {
+    "id": "chieu",
+    "term": "Imperial Edict (Chieu)",
+    "definition": "A document used by the king to issue important orders to the entire population.",
+    "category": "Objects"
+  },
+  {
+    "id": "hich",
+    "term": "Proclamation (Hich)",
+    "definition": "A document used by the king or generals to call upon and encourage the people to fight enemies.",
+    "category": "Objects"
+  },
+  {
+    "id": "doc-lap",
+    "term": "Independence",
+    "definition": "The status of a country being self-governing and not ruled by another country.",
+    "category": "Concepts"
+  },
+  {
+    "id": "tu-chu",
+    "term": "Autonomy",
+    "definition": "The ability to decide and manage one's own affairs.",
+    "category": "Concepts"
+  },
+  {
+    "id": "bac-thuoc",
+    "term": "Northern Domination",
+    "definition": "The period when our country was occupied and ruled by Northern dynasties for nearly 1,000 years.",
+    "category": "Periods"
+  },
+  {
+    "id": "khoi-nghia",
+    "term": "Uprising",
+    "definition": "A collective action to rise up and fight against invaders to regain freedom for the country.",
+    "category": "Concepts"
+  },
+  {
+    "id": "cach-mang",
+    "term": "Revolution",
+    "definition": "A great change, serving as a turning point in society.",
+    "category": "Concepts"
+  },
+  {
+    "id": "doi-moi",
+    "term": "Renewal (Doi Moi)",
+    "definition": "A process of change to make things better and more efficient.",
+    "category": "Concepts"
+  },
+  {
+    "id": "do-ho",
+    "term": "Domination",
+    "definition": "The act of a strong country occupying and ruling over another country.",
+    "category": "Concepts"
+  },
+  {
+    "id": "cong-nap",
+    "term": "Tribute (Cong nap)",
+    "definition": "The act of a weak country presenting precious gifts to a strong country to maintain peace.",
+    "category": "Concepts"
+  },
+  {
+    "id": "chieu-doi-do",
+    "term": "Edict on the Transfer of the Capital",
+    "definition": "A famous document by King Ly Thai To regarding the move of the capital to Thang Long.",
+    "category": "Concepts"
+  },
+  {
+    "id": "hich-tuong-si",
+    "term": "Proclamation to the Officers (Hich tuong si)",
+    "definition": "A heroic essay by Tran Hung Dao to inspire soldiers to fight the Mongol army.",
+    "category": "Concepts"
+  },
+  {
+    "id": "binh-ngo-dai-cao",
+    "term": "Great Proclamation upon the Pacification of the Wu",
+    "definition": "A declaration of independence written by Nguyen Trai after defeating the Ming army.",
+    "category": "Concepts"
+  },
+  {
+    "id": "nam-quoc-son-ha",
+    "term": "Mountains and Rivers of the Southern Empire",
+    "definition": "A divine poem affirming the sovereignty of the Southern land, attributed to Ly Thuong Kiet.",
+    "category": "Concepts"
+  },
+  {
+    "id": "tuyen-ngon-doc-lap",
+    "term": "Declaration of Independence",
+    "definition": "A solemn document declaring that a nation is fully independent.",
+    "category": "Concepts"
+  },
+  {
+    "id": "van-hoa",
+    "term": "Culture",
+    "definition": "Fine human values created and preserved through many generations.",
+    "category": "Concepts"
+  },
+  {
+    "id": "van-minh",
+    "term": "Civilization",
+    "definition": "A high degree of material and spiritual development of human beings.",
+    "category": "Concepts"
+  },
+  {
+    "id": "truyen-thong",
+    "term": "Tradition",
+    "definition": "Fine habits and customs passed down from generation to generation.",
+    "category": "Concepts"
+  },
+  {
+    "id": "yeu-nuoc",
+    "term": "Patriotism",
+    "definition": "Deep affection and actions taken to protect and build one's homeland.",
+    "category": "Concepts"
+  },
+  {
+    "id": "doan-ket",
+    "term": "Solidarity",
+    "definition": "Binding and helping each other to achieve common goals.",
+    "category": "Concepts"
+  },
+  {
+    "id": "bat-khuat",
+    "term": "Indomitability",
+    "definition": "A strong spirit of not bowing down to difficulties and enemies.",
+    "category": "Concepts"
+  },
+  {
+    "id": "anh-dung",
+    "term": "Heroism / Bravery",
+    "definition": "Courage and willingness to sacrifice for a great cause.",
+    "category": "Concepts"
+  },
+  {
+    "id": "chu-quyen",
+    "term": "Sovereignty",
+    "definition": "The supreme and complete right of a nation over its territory.",
+    "category": "Concepts"
+  },
+  {
+    "id": "lanh-tho",
+    "term": "Territory",
+    "definition": "Land, sea, and air areas under the jurisdiction of a nation.",
+    "category": "Locations"
+  },
+  {
+    "id": "bien-gioi",
+    "term": "Border",
+    "definition": "The line dividing territory between nations.",
+    "category": "Locations"
+  },
+  {
+    "id": "bien-dao",
+    "term": "Sea and Islands",
+    "definition": "Sea areas and islands belonging to the nation's sovereignty.",
+    "category": "Locations"
+  },
+  {
+    "id": "ngoai-giao",
+    "term": "Diplomacy",
+    "definition": "The act of negotiation and communication between countries.",
+    "category": "Concepts"
+  },
+  {
+    "id": "phong-chau",
+    "term": "Phong Chau",
+    "definition": "The capital of the Van Lang state during the Hung Kings' era (now in Phu Tho).",
+    "category": "Locations"
+  },
+  {
+    "id": "co-loa",
+    "term": "Co Loa",
+    "definition": "The capital of the Au Lac state with famous ancient spiral-shaped citadels.",
+    "category": "Locations"
+  },
+  {
+    "id": "hoa-lu",
+    "term": "Hoa Lu",
+    "definition": "The first capital of the Dai Co Viet state after Dinh Bo Linh unified the country.",
+    "category": "Locations"
+  },
+  {
+    "id": "thang-long",
+    "term": "Thang Long",
+    "definition": "The old name of the capital Hanoi, named by King Ly Thai To.",
+    "category": "Locations"
+  },
+  {
+    "id": "tay-do",
+    "term": "Tay Do (Western Capital)",
+    "definition": "The stone capital built by the Ho Dynasty (now in Thanh Hoa).",
+    "category": "Locations"
+  },
+  {
+    "id": "phu-xuan",
+    "term": "Phu Xuan",
+    "definition": "The old name of the ancient capital Hue, where the Nguyen royal court was located.",
+    "category": "Locations"
+  },
+  {
+    "id": "gia-dinh",
+    "term": "Gia Dinh",
+    "definition": "The old name of present-day Ho Chi Minh City.",
+    "category": "Locations"
+  },
+  {
+    "id": "lam-son",
+    "term": "Lam Son",
+    "definition": "The land where Le Loi's heroic uprising against the Ming army began.",
+    "category": "Locations"
+  },
+  {
+    "id": "dien-bien-phu",
+    "term": "Dien Bien Phu",
+    "definition": "The site of the famous battle that shook the world in 1954.",
+    "category": "Locations"
+  },
+  {
+    "id": "truong-son",
+    "term": "Truong Son",
+    "definition": "A majestic mountain range, home to the legendary trail that supported the South during the war.",
+    "category": "Locations"
+  },
+  {
+    "id": "song-bach-dang",
+    "term": "Bach Dang River",
+    "definition": "A historical river where three resounding victories against Northern invaders took place.",
+    "category": "Locations"
+  },
+  {
+    "id": "song-nhu-nguyet",
+    "term": "Nhu Nguyet River",
+    "definition": "The river where the decisive battle against the Song army took place during the Ly Dynasty.",
+    "category": "Locations"
+  },
+  {
+    "id": "ai-chi-lang",
+    "term": "Chi Lang Pass",
+    "definition": "A strategic narrow pass where our troops ambushed and killed the enemy general Lieu Thang.",
+    "category": "Locations"
+  },
+  {
+    "id": "ben-nha-rong",
+    "term": "Nha Rong Wharf",
+    "definition": "The place where beloved Uncle Ho left to search for national salvation.",
+    "category": "Locations"
+  },
+  {
+    "id": "pac-bo",
+    "term": "Pac Bo",
+    "definition": "A cave where Uncle Ho lived and worked after returning to the country.",
+    "category": "Locations"
+  },
+  {
+    "id": "van-lang",
+    "term": "Van Lang",
+    "definition": "The name of the very first state of our Vietnamese ancestors.",
+    "category": "Periods"
+  },
+  {
+    "id": "au-lac",
+    "term": "Au Lac",
+    "definition": "The state following Van Lang, led by Thuc Phan An Duong Vuong.",
+    "category": "Periods"
+  },
+  {
+    "id": "van-xuan",
+    "term": "Van Xuan",
+    "definition": "The name of the country given by Ly Bi, wishing for eternal peace like ten thousand springs.",
+    "category": "Periods"
+  },
+  {
+    "id": "dai-co-viet",
+    "term": "Dai Co Viet",
+    "definition": "The name of our country during the Dinh and Early Le dynasties.",
+    "category": "Periods"
+  },
+  {
+    "id": "dai-viet",
+    "term": "Dai Viet",
+    "definition": "The name our country held for the longest time in history, starting from the Ly Dynasty.",
+    "category": "Periods"
+  },
+  {
+    "id": "dai-nam",
+    "term": "Dai Nam",
+    "definition": "The official name of Vietnam during the reign of King Minh Mang.",
+    "category": "Periods"
+  },
+  {
+    "id": "viet-nam-dan-chu-cong-hoa",
+    "term": "Democratic Republic of Vietnam",
+    "definition": "The country's name after the August Revolution in 1945.",
+    "category": "Periods"
+  },
+  {
+    "id": "chxhcnvn",
+    "term": "Socialist Republic of Vietnam",
+    "definition": "The official name of our country from 1976 to the present.",
+    "category": "Periods"
+  },
+  {
+    "id": "thoi-ky-do-dong",
+    "term": "Bronze Age",
+    "definition": "A stage in human history when people began to cast items out of bronze.",
+    "category": "Periods"
+  },
+  {
+    "id": "thoi-ky-do-da",
+    "term": "Stone Age",
+    "definition": "The earliest stage when humans mainly used stone to make labor tools.",
+    "category": "Periods"
+  },
+  {
+    "id": "xe-tang",
+    "term": "Tank",
+    "definition": "A powerful armored vehicle, most famous being Tank 390 which crashed through the gates of Independence Palace.",
+    "category": "Objects"
+  },
+  {
+    "id": "dia-dao",
+    "term": "Tunnels (Dia dao)",
+    "definition": "Systems of secret tunnels underground used for living and fighting (e.g., Cu Chi Tunnels).",
+    "category": "Objects"
+  },
+  {
+    "id": "mu-coi",
+    "term": "Pith Helmet (Mu coi)",
+    "definition": "A characteristic helmet of Vietnamese soldiers, usually green.",
+    "category": "Objects"
+  },
+  {
+    "id": "vong",
+    "term": "Hammock",
+    "definition": "An item used for sleeping, hung between two trees, very familiar to soldiers in the jungle.",
+    "category": "Objects"
+  },
+  {
+    "id": "gay-truong-son",
+    "term": "Truong Son Walking Stick",
+    "definition": "A bamboo stick that helped soldiers march steadily across the majestic Truong Son mountains.",
+    "category": "Objects"
+  },
+  {
+    "id": "tuan-quoc-khang-chien",
+    "term": "Nationwide Resistance",
+    "definition": "The call by Uncle Ho for the entire population to stand up and fight the French in 1946.",
+    "category": "Concepts"
+  },
+  {
+    "id": "tong-tien-cong",
+    "term": "General Offensive",
+    "definition": "Large-scale and simultaneous attacks on all fronts to achieve final victory.",
+    "category": "Concepts"
+  },
+  {
+    "id": "hoa-binh",
+    "term": "Peace",
+    "definition": "A state where there is no war and the people live in happiness.",
+    "category": "Concepts"
+  },
+  {
+    "id": "thong-nhat",
+    "term": "Unification",
+    "definition": "The historical event when South and North Vietnam were reunited in 1975.",
+    "category": "Concepts"
+  },
+  {
+    "id": "vi-tuyen-17",
+    "term": "17th Parallel",
+    "definition": "The temporary boundary dividing South and North Vietnam after 1954.",
+    "category": "Locations"
+  },
+  {
+    "id": "duong-ho-chi-minh",
+    "term": "Ho Chi Minh Trail",
+    "definition": "A legendary trail running along the Truong Son range, used to transport food and weapons to the South.",
+    "category": "Locations"
+  },
+  {
+    "id": "hiep-dinh-geneve",
+    "term": "Geneva Accords",
+    "definition": "A peace document signed in 1954, ending the war with the French colonists.",
+    "category": "Concepts"
+  },
+  {
+    "id": "hiep-dinh-paris",
+    "term": "Paris Peace Accords",
+    "definition": "An important document signed in 1973, forcing the US military to withdraw from Vietnam.",
+    "category": "Concepts"
+  },
+  {
+    "id": "dinh-doc-lap",
+    "term": "Independence Palace",
+    "definition": "A large building in Saigon that witnessed the complete liberation of Southern Vietnam on April 30, 1975.",
+    "category": "Locations"
+  },
+  {
+    "id": "song-ben-hai",
+    "term": "Ben Hai River",
+    "definition": "The river flowing through the 17th parallel, where the Hien Luong Bridge once divided the country.",
+    "category": "Locations"
+  }
+]

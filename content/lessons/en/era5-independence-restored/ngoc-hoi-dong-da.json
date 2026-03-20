@@ -1,0 +1,54 @@
+{
+  "id": "ngoc-hoi-dong-da",
+  "title": "The Great Victory of Ngoc Hoi - Dong Da",
+  "heroId": "quang-trung",
+  "period": "Restoration",
+  "summary": "In 1789, during a lightning-fast march, King Quang Trung led the Tay Son army to crush 290,000 Qing troops, liberating Thang Long during the Lunar New Year (Tet).",
+  "image": "/images/history/thumbnails/independence-restored/ngoc-hoi-dong-da.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "To defeat the enemy exactly during the Tet holiday, King Quang Trung led his army in a lightning-fast march from South to North.",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/0.png",
+      "imagePrompt": "Tây Sơn army marching rapidly through mountains and rivers, King Quang Trung on his horse leading, dynamic movement, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Quang Trung, wearing a dark-colored robe, rode a war elephant to command the fierce battle at Ngoc Hoi fortress.",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/1.png",
+      "imagePrompt": "King Quang Trung in a dark robe riding a war elephant, charging towards a fortress, battle flames, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Tay Son army used wet bamboo shields to close in and shatter the Qing army's firepower positions.",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/2.png",
+      "imagePrompt": "Vietnamese soldiers holding large wet bamboo shields, storming enemy lines, bravery, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "By the morning of the 5th day of Tet, our troops achieved complete victory and entered Thang Long amidst the joyous celebration of the people.",
+      "image": "/images/history/lessons/independence-restored/ngoc-hoi-dong-da/3.png",
+      "imagePrompt": "King Quang Trung entering Thang Long citadel, people holding flowers and flags, celebration of Tet victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which northern invader did King Quang Trung defeat?",
+      "options": [
+        "Qing army",
+        "Ming army",
+        "Mongol army"
+      ],
+      "answer": "Qing army"
+    },
+    {
+      "type": "quiz",
+      "question": "During which holiday did the Ngoc Hoi - Dong Da victory take place?",
+      "options": [
+        "Lunar New Year (Tet)",
+        "Mid-Autumn Festival",
+        "Hung Kings' Festival"
+      ],
+      "answer": "Lunar New Year (Tet)"
+    }
+  ]
+}

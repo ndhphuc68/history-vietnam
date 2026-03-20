@@ -1,18 +1,28 @@
 <script setup lang="ts">
-import mapData from "~/content/history-map.json";
+const { t, locale } = useI18n();
+const localePath = useLocalePath();
+const mapData = ref<any>({ eras: [] });
 
-// Metatags for the map page
+onMounted(async () => {
+  try {
+    const data = await import(`../content/${locale.value}/history-map.json`);
+    mapData.value = data.default;
+  } catch (e) {
+    console.error("Failed to load map data", e);
+    const data = await import("../content/vi/history-map.json");
+    mapData.value = data.default;
+  }
+});
+
 useHead({
-  title: "Bản đồ Tiến trình",
+  title: t("map.title"),
 });
 
 useSeoMeta({
-  title: "Bản đồ Lịch sử Việt Nam - Hành trình 4000 năm",
-  ogTitle: "Bản đồ Lịch sử Việt Nam - Hành trình 4000 năm",
-  description:
-    "Khám phá hành trình 4000 năm lịch sử Việt Nam qua bản đồ tương tác thú vị và trực quan.",
-  ogDescription:
-    "Theo dấu chân cha ông qua các thời kỳ lịch sử hào hùng trên bản đồ tri thức.",
+  title: t("map.seo_title"),
+  ogTitle: t("map.seo_title"),
+  description: t("map.seo_desc"),
+  ogDescription: t("map.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 </script>
@@ -33,6 +43,18 @@ useSeoMeta({
       </div>
 
       <!-- Main Content -->
+      <h3 class="text-2xl font-black text-text mb-2">
+        {{ $t("hero_gallery.motivation.title") }}
+      </h3>
+      <p class="text-text/70 font-medium">
+        {{ $t("hero_gallery.motivation.subtitle") }}
+      </p>
+      <NuxtLink
+        :to="localePath('/lesson')"
+        class="mt-8 inline-block px-10 py-4 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all text-lg uppercase"
+      >
+        {{ $t("hero_gallery.motivation.button") }}
+      </NuxtLink>
       <div class="relative z-10 max-w-4xl mx-auto">
         <MapHistoryMap :eras="mapData.eras" />
       </div>
@@ -40,14 +62,14 @@ useSeoMeta({
       <!-- Navigation Footer -->
       <div class="mt-24 text-center relative z-20">
         <NuxtLink
-          to="/"
+          :to="useLocalePath()('/')"
           class="inline-flex items-center gap-3 px-12 py-5 bg-white text-text font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-xl border-4 border-text/5 group"
         >
           <Icon
             name="fluent-emoji:house"
             class="text-2xl group-hover:rotate-12 transition-transform"
           />
-          QUAY VỀ TRANG CHỦ
+          {{ $t("map.back_home") }}
         </NuxtLink>
       </div>
     </div>

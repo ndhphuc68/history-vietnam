@@ -1,19 +1,20 @@
 <script setup lang="ts">
-// Badges page for achievements
-const selectedStatus = ref<'all' | 'earned' | 'locked'>('all');
-const selectedRarity = ref('all');
+const { t } = useI18n();
+
+const selectedStatus = ref<"all" | "earned" | "locked">("all");
+const selectedRarity = ref<"all" | "common" | "rare" | "epic" | "legendary">(
+  "all",
+);
 
 useHead({
-  title: "Huy hiệu Dũng sĩ",
+  title: t("badges.title"),
 });
 
 useSeoMeta({
-  title: "Hồ sơ Dũng sĩ - Huy hiệu & Thành tựu",
-  ogTitle: "Hồ sơ Dũng sĩ - Huy hiệu & Thành tựu",
-  description:
-    "Chiêm ngưỡng bộ sưu tập huy hiệu danh giá và những báu vật lịch sử mà bé đã chinh phục được.",
-  ogDescription:
-    "Mỗi huy hiệu là một minh chứng cho lòng yêu nước và sự chăm chỉ của bé.",
+  title: t("badges.seo_title"),
+  ogTitle: t("badges.seo_title"),
+  description: t("badges.seo_desc"),
+  ogDescription: t("badges.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
 </script>
@@ -27,26 +28,23 @@ useSeoMeta({
 
     <div class="relative z-10 pt-10 pb-32">
       <UiPageHero
-        tag="Thành tựu danh giá"
-        titlePrimary="Hồ Sơ"
-        titleHighlight="Dũng Sĩ"
-        subtitle="Mỗi huy hiệu và báu vật là một minh chứng cho sự chăm chỉ và lòng yêu nước của bé trên hành trình khám phá 4000 năm lịch sử."
+        :tag="$t('badges.page_hero.tag')"
+        :titlePrimary="$t('badges.page_hero.title_primary')"
+        :titleHighlight="$t('badges.page_hero.title_highlight')"
+        :subtitle="$t('badges.page_hero.subtitle')"
         icon="fluent-emoji:military-medal"
         accentColor="primary"
       />
-      
+
       <HeroAchievementStats />
-      
-      <HeroAchievementFilter 
+
+      <HeroAchievementFilter
         v-model:status="selectedStatus"
         v-model:rarity="selectedRarity"
       />
 
-      <HeroBadgeGallery 
-        :status="selectedStatus"
-        :rarity="selectedRarity"
-      />
-      
+      <HeroBadgeGallery :status="selectedStatus" :rarity="selectedRarity" />
+
       <HeroArtifactGallery />
     </div>
   </div>

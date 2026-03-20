@@ -10,7 +10,9 @@ const props = defineProps({
   },
 });
 
-const handleError = () => clearError({ redirect: "/" });
+const { t } = useI18n();
+const localePath = useLocalePath();
+const handleError = () => clearError({ redirect: localePath("/") });
 </script>
 
 <template>
@@ -44,16 +46,15 @@ const handleError = () => clearError({ redirect: "/" });
         </div>
       </div>
 
-      <h1 class="text-4xl md:text-6xl font-black text-text mb-6 leading-tight">
-        Ôi! Hình như bé bị <br />
-        <span class="text-primary">lạc giữa dòng lịch sử?</span>
-      </h1>
+      <h1
+        class="text-4xl md:text-6xl font-black text-text mb-6 leading-tight"
+        v-html="$t('error_page.title')"
+      ></h1>
 
       <p
         class="text-xl text-text/70 font-medium mb-12 max-w-md mx-auto leading-relaxed"
       >
-        Trang này có thể đã trôi xa về quá khứ hoặc chưa từng tồn tại. Đừng lo,
-        chúng mình cùng quay lại hiện tại nhé!
+        {{ $t("error_page.description") }}
       </p>
 
       <div class="flex flex-col sm:flex-row gap-6 justify-center">
@@ -61,14 +62,14 @@ const handleError = () => clearError({ redirect: "/" });
           @click="handleError"
           class="px-10 py-4 bg-primary text-white font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3"
         >
-          <Icon name="fluent-emoji:house" /> Quay về Trang chủ
+          <Icon name="fluent-emoji:house" /> {{ $t("error_page.back_home") }}
         </button>
         <NuxtLink
-          to="/map"
+          :to="localePath('/map')"
           @click="clearError()"
           class="px-10 py-4 bg-white text-text font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-text/5"
         >
-          <Icon name="fluent-emoji:world-map" /> Xem Bản đồ
+          <Icon name="fluent-emoji:world-map" /> {{ $t("error_page.view_map") }}
         </NuxtLink>
       </div>
 
@@ -76,9 +77,8 @@ const handleError = () => clearError({ redirect: "/" });
       <div
         class="mt-20 p-6 bg-white/50 backdrop-blur-sm rounded-3xl border-2 border-dashed border-text/10 max-w-sm mx-auto"
       >
-        <p class="text-sm font-bold text-text/60 italic italic">
-          "Bé có biết? Kinh đô Thăng Long (Hà Nội ngày nay) được vua Lý Thái Tổ
-          chọn đóng đô từ năm 1010 đó!"
+        <p class="text-sm font-bold text-text/60 italic">
+          "{{ $t("error_page.did_you_know") }}"
         </p>
       </div>
     </div>

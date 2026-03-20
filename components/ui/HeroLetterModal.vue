@@ -43,7 +43,7 @@ const close = () => {
           <div
             class="absolute inset-0 opacity-10 pointer-events-none parchment-texture"
           ></div>
-          
+
           <!-- Wax Seal -->
           <div
             class="absolute top-8 right-8 w-20 h-20 bg-primary rounded-full shadow-lg flex items-center justify-center border-4 border-primary/20 transform rotate-12 z-20"
@@ -81,7 +81,7 @@ const close = () => {
               @click="close"
               class="mt-12 w-full py-4 bg-primary text-white font-black rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl uppercase tracking-[0.2em]"
             >
-              Cất vào Hòm thư 📥
+              {{ $t("hero_letter_modal.button") }}
             </button>
           </div>
         </div>
@@ -99,7 +99,8 @@ const close = () => {
 .letter-fade-leave-active {
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.letter-fade-enter-from, .letter-fade-leave-to {
+.letter-fade-enter-from,
+.letter-fade-leave-to {
   opacity: 0;
   transform: scale(0.9) translateY(40px);
 }

@@ -1,0 +1,54 @@
+{
+  "id": "ham-nghi",
+  "title": "The Patriotic King Ham Nghi",
+  "heroId": "ham-nghi",
+  "period": "Resistance",
+  "summary": "Despite his young age, King Ham Nghi bravely left the Hue Imperial Citadel for the resistance base, issuing the Can Vuong decree to call on the people to rise up against the French and save the country.",
+  "image": "/images/history/thumbnails/resistance/ham-nghi.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "In 1885, facing the threat of French troops, the young King Ham Nghi secretly left the Hue Imperial Citadel to go to the mountainous region of Quang Tri.",
+      "image": "/images/history/lessons/resistance/ham-nghi/0.png",
+      "imagePrompt": "Young King Ham Nghi being carried in a palanquin through a dark forest at night, looking worried but determined, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "There, the King issued the 'Can Vuong' Decree, awakening patriotism everywhere and attracting many scholars to join the resistance.",
+      "image": "/images/history/lessons/resistance/ham-nghi/1.png",
+      "imagePrompt": "King Ham Nghi reading a royal decree (Chieu Can Vuong), patriotic scholars listening, mountain base camp, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite living in the difficult mountains and forests, the King remained determined not to cooperate with the French invaders.",
+      "image": "/images/history/lessons/resistance/ham-nghi/2.png",
+      "imagePrompt": "The King wearing simple clothes, living in a wooden hut in the mountains, brave and unyielding, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "King Ham Nghi is a shining example of loyalty and the spirit of refusing to be a slave, even as a young king.",
+      "image": "/images/history/lessons/resistance/ham-nghi/3.png",
+      "imagePrompt": "Portrait of young King Ham Nghi with a background of bamboo forests and stars, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the meaning of the 'Can Vuong' Decree?",
+      "options": [
+        "Helping the King save the country",
+        "Helping the King build a palace",
+        "Helping the King go out for fun"
+      ],
+      "answer": "Helping the King save the country"
+    },
+    {
+      "type": "quiz",
+      "question": "Which movement did King Ham Nghi lead against the French?",
+      "options": [
+        "The Can Vuong movement",
+        "The Dong Du movement",
+        "The Duy Tan movement"
+      ],
+      "answer": "The Can Vuong movement"
+    }
+  ]
+}

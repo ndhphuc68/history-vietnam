@@ -1,30 +1,47 @@
 import { defineStore } from 'pinia';
-import badgeData from '~/content/badges.json';
 import { useQuizStore } from '~/stores/quizStore';
 import { useProgressStore } from '~/stores/progressStore';
 import { useHeroStore } from '~/stores/heroStore';
-import historyMapData from '~/content/history-map.json';
-
-export interface Badge {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  rarity: 'common' | 'rare' | 'epic' | 'legendary';
-  requirement: {
-    type: 'count' | 'lesson' | 'era' | 'hero-count' | 'mastery';
-    value: string | number;
-  };
-}
+import type { Badge, HistoryMap, Era } from '~/types/history';
 
 export const useBadgeStore = defineStore('badge', () => {
   const earnedBadgeIds = ref<string[]>([]);
-  const allBadges = ref<Badge[]>(badgeData as Badge[]);
+  const allBadges = ref<Badge[]>([]);
   const lastUnlockedBadge = ref<Badge | null>(null);
   const perfectQuizStreak = ref(0);
   const viewedGlossaryCount = ref(0);
+  const historyMapData = ref<HistoryMap | null>(null);
 
-  const initialize = () => {
+  const initialize = async () => {
+    const { locale } = useI18n();
+    
+    const loadData = async () => {
+      try {
+        const [badges, historyMap] = await Promise.all([
+          import(`../content/${locale.value}/badges.json`),
+          import(`../content/${locale.value}/history-map.json`)
+        ]);
+        allBadges.value = badges.default as Badge[];
+        historyMapData.value = historyMap.default as HistoryMap;
+      } catch (e) {
+        console.error('Failed to load localized badge data', e);
+        // Fallback to Vietnamese if English fails
+        const [badges, historyMap] = await Promise.all([
+          import(`../content/vi/badges.json`),
+          import(`../content/vi/history-map.json`)
+        ]);
+        allBadges.value = badges.default as Badge[];
+        historyMapData.value = historyMap.default as HistoryMap;
+      }
+    };
+
+    await loadData();
+
+    // Re-load when locale changes
+    watch(locale, async () => {
+      await loadData();
+    });
+
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('earned-badges');
       if (saved) {
@@ -52,7 +69,9 @@ export const useBadgeStore = defineStore('badge', () => {
     // Auto check badges
     const progressStore = useProgressStore();
     const heroStore = useHeroStore();
-    checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData);
+    if (historyMapData.value) {
+      checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData.value);
+    }
   };
 
   const trackQuizResult = (isPerfect: boolean) => {
@@ -66,10 +85,12 @@ export const useBadgeStore = defineStore('badge', () => {
     // Auto check badges
     const progressStore = useProgressStore();
     const heroStore = useHeroStore();
-    checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData);
+    if (historyMapData.value) {
+      checkNewBadges(progressStore.completedLessons, heroStore.unlockedHeroIds, historyMapData.value);
+    }
   };
 
-  const checkNewBadges = (completedLessons: string[], unlockedHeroes: string[], historyMap: any) => {
+  const checkNewBadges = (completedLessons: string[], unlockedHeroes: string[], historyMap: HistoryMap) => {
     const quizStore = useQuizStore();
     const newBadges: Badge[] = [];
 
@@ -87,17 +108,17 @@ export const useBadgeStore = defineStore('badge', () => {
         isEligible = unlockedHeroes.length >= (value as number);
       } else if (type === "era") {
         // Find the era in the map
-        const era = historyMap.eras.find((e: any) => e.id === value);
+        const era = historyMap.eras.find((e: Era) => e.id === value);
         if (era && era.levels) {
-          isEligible = era.levels.every((level: any) =>
+          isEligible = era.levels.every((level) =>
             completedLessons.includes(level.lesson),
           );
         }
       } else if (type === "mastery") {
         // Mastery check: all lessons in the era must be 100% (in quizStore.masteredQuizzes)
-        const era = historyMap.eras.find((e: any) => e.id === value);
+        const era = historyMap.eras.find((e: Era) => e.id === value);
         if (era && era.levels) {
-          isEligible = era.levels.every((level: any) =>
+          isEligible = era.levels.every((level) =>
             quizStore.masteredQuizzes.includes(level.lesson),
           );
         }
@@ -128,7 +149,7 @@ export const useBadgeStore = defineStore('badge', () => {
   );
 
   const stats = computed(() => {
-    const counts = {
+    const counts: Record<string, number> = {
       common: 0,
       rare: 0,
       epic: 0,
@@ -137,7 +158,10 @@ export const useBadgeStore = defineStore('badge', () => {
     
     allBadges.value.forEach(badge => {
       if (earnedBadgeIds.value.includes(badge.id)) {
-        counts[badge.rarity]++;
+        const rarity = badge.rarity as string;
+        if (rarity in counts) {
+          counts[rarity]++;
+        }
       }
     });
     

@@ -1,0 +1,98 @@
+{
+  "id": "hung-kings",
+  "title": "The Eighteen Hung King Generations",
+  "heroId": "hung-vuong",
+  "period": "Nation Building",
+  "summary": "After Lac Long Quan and Au Co separated, the eldest son ascended the throne, taking the title of Hung King and establishing the Van Lang state.",
+  "image": "/images/history/thumbnails/founding/hung-kings.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Lac Long Quan and Au Co parted ways; 50 children followed their father to the sea, and 50 followed their mother to the mountains to govern the land together.",
+      "image": "/images/history/lessons/founding/hung-kings/0.png",
+      "imagePrompt": "Lac Long Quan and Au Co saying goodbye, 50 children following father to the sea, 50 following mother to the mountains, mythical atmosphere, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The eldest son followed his mother to the mountains and was honored as king, with the title of Hung King, establishing the capital at Phong Chau (modern-day Phu Tho).",
+      "image": "/images/history/lessons/founding/hung-kings/1.png",
+      "imagePrompt": "The eldest son being crowned as Hung Vuong king, ancient Vietnamese ceremony, Phong Chau capital background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The first state of the Vietnamese people was named Van Lang, marking the beginning of our nation.",
+      "image": "/images/history/lessons/founding/hung-kings/2.png",
+      "imagePrompt": "Ancient Van Lang kingdom map or landscape, primitive but peaceful village, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Hung Kings and the people reclaimed wasteland, planted wet rice, and tamed wild beasts.",
+      "image": "/images/history/lessons/founding/hung-kings/3.png",
+      "imagePrompt": "Ancient Vietnamese people farming, planting rice, and taming a wild buffalo, hard working and happy, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Lac Viet people lived in villages, built dikes to prevent floods, and helped one another.",
+      "image": "/images/history/lessons/founding/hung-kings/4.png",
+      "imagePrompt": "Lac Viet people building a dike together to stop flood water, unity and community spirit, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Hung King era lasted through 18 generations of kings, each contributing to building a strong country.",
+      "image": "/images/history/lessons/founding/hung-kings/5.png",
+      "imagePrompt": "A succession of Hung Kings standing proudly, symbolizing 18 generations, strong and wise leaders, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Since then, our people have had the custom of worshipping ancestors, always remembering our roots and the merit of the nation's founders.",
+      "image": "/images/history/lessons/founding/hung-kings/6.png",
+      "imagePrompt": "Ancient Vietnamese family paying respect to their ancestors, traditional ceremony, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Every year, on the 10th day of the 3rd lunar month, the people across the country look toward the Hung Temple for the Ancestors' Anniversary.",
+      "image": "/images/history/lessons/founding/hung-kings/7.png",
+      "imagePrompt": "Modern day people celebrating Hung Kings Festival, colorful parade, Hung Temple mountain background, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did the Hung King establish the capital?",
+      "options": [
+        "Phong Chau",
+        "Co Loa",
+        "Thang Long"
+      ],
+      "answer": "Phong Chau"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the name of our nation's first state?",
+      "options": [
+        "Van Lang",
+        "Au Lac",
+        "Dai Viet"
+      ],
+      "answer": "Van Lang"
+    },
+    {
+      "type": "quiz",
+      "question": "How many Hung King generations were there in total?",
+      "options": [
+        "10 generations",
+        "18 generations",
+        "20 generations"
+      ],
+      "answer": "18 generations"
+    },
+    {
+      "type": "quiz",
+      "question": "When is the Hung Kings' Anniversary?",
+      "options": [
+        "The 1st day of Tet",
+        "The 10th day of the 3rd Lunar month",
+        "The Full Moon of the 8th month"
+      ],
+      "answer": "The 10th day of the 3rd Lunar month"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bach-dang-1288",
+  "title": "The Great Victory of Bach Dang 1288",
+  "heroId": "tran-hung-dao",
+  "period": "Building",
+  "summary": "In 1288, Hung Dao Vuong Tran Quoc Tuan repeated the miracle on the Bach Dang River, crushing the powerful Mongol-Yuan army and securing national sovereignty.",
+  "image": "/images/history/thumbnails/building/bach-dang-1288.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "The Mongol-Yuan army invaded our country for the third time with an unprecedentedly large naval force.",
+      "image": "/images/history/lessons/building/bach-dang-1288/0.png",
+      "imagePrompt": "Large Mongol fleet with many ships sailing into Vietnam, powerful and threatening, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Tran Hung Dao inherited Ngo Quyen's strategy, ordering the placement of wooden stakes in the Bach Dang River to prepare for the enemy.",
+      "image": "/images/history/lessons/building/bach-dang-1288/1.png",
+      "imagePrompt": "General Tran Hung Dao pointing at the river, soldiers hammering iron headed wooden stakes into the river bed at low tide, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The battle was fierce. Our troops feigned a retreat to lure the enemy ships into the stake field while the tide was receding.",
+      "image": "/images/history/lessons/building/bach-dang-1288/2.png",
+      "imagePrompt": "Vietnamese small agile boats leading large Mongol ships towards the hidden stakes, river water level dropping, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Enemy ships were pierced by the stakes and shattered. Tran Hung Dao commanded our troops in a powerful and valiant counter-attack.",
+      "image": "/images/history/lessons/building/bach-dang-1288/3.png",
+      "imagePrompt": "Mongol ships crashing on wooden stakes, soldiers falling, Tran Hung Dao's army attacking from both sides, heroic victory scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which general commanded the 1288 victory on the Bach Dang River?",
+      "options": [
+        "Tran Hung Dao",
+        "Ngo Quyen",
+        "Ly Thuong Kiet"
+      ],
+      "answer": "Tran Hung Dao"
+    },
+    {
+      "type": "quiz",
+      "question": "What powerful force did the Mongol-Yuan army bring when invading for the third time?",
+      "options": [
+        "Naval forces (ships and boats)",
+        "Cavalry (horses)",
+        "War elephants"
+      ],
+      "answer": "Naval forces (ships and boats)"
+    }
+  ]
+}

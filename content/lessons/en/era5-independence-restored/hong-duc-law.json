@@ -1,0 +1,53 @@
+{
+  "id": "hong-duc-law",
+  "title": "The Hong Duc Code",
+  "period": "Restoration",
+  "summary": "The extremely progressive legal code of King Le Thanh Tong, protecting the rights of the people and emphasizing education.",
+  "image": "/images/history/thumbnails/independence-restored/hong-duc-law.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Did you know? During the Le Dynasty, there was an extremely talented king named Le Thanh Tong. He ordered the drafting of a very famous collection of laws: The Hong Duc Code.",
+      "image": "/images/history/lessons/independence-restored/hong-duc-law/0.png",
+      "imagePrompt": "King Le Thanh Tong with his scholars, holding a large thick book titled 'LUAT HONG DUC', gold and red colors, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "This was a very fair set of laws. It not only protected the King but also the rights of all people, especially women and the poor!",
+      "image": "/images/history/lessons/independence-restored/hong-duc-law/1.png",
+      "imagePrompt": "An official reading a decree to a diverse group of happy villagers, including women and elderly, atmosphere of fairness, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Hong Duc Code clearly regulated the protection of land, the preservation of good customs, and encouraged everyone to study hard and practice morality.",
+      "image": "/images/history/lessons/independence-restored/hong-duc-law/2.png",
+      "imagePrompt": "Students studying in a sunny courtyard, a teacher pointing to the sky, a well-managed village scene, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thanks to this code, our country became very orderly and stable. It is considered one of the greatest legal works of ancient Vietnam.",
+      "image": "/images/history/lessons/independence-restored/hong-duc-law/3.png",
+      "imagePrompt": "A large ancient library or archive with scrolls, sunlight streaming through windows, a feeling of wisdom and order, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "The Hong Duc Code was named after the era name of which King?",
+      "options": [
+        "Le Thai To",
+        "Le Thanh Tong",
+        "Tran Hung Dao"
+      ],
+      "answer": "Le Thanh Tong"
+    },
+    {
+      "type": "quiz",
+      "question": "What made the Hong Duc Code very progressive at that time?",
+      "options": [
+        "It was only for the King",
+        "It protected the rights of many people, including women",
+        "It forced everyone to join the army"
+      ],
+      "answer": "It protected the rights of many people, including women"
+    }
+  ]
+}

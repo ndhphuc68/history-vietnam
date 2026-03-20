@@ -6,9 +6,16 @@ import type { LessonCardProps } from "~/types/props/lesson";
 const props = withDefaults(defineProps<LessonCardProps>(), {
   isCompleted: false,
   isLocked: false,
-  summary: "Câu chuyện lịch sử đang chờ bạn khám phá...",
-  period: "Lịch sử",
+  summary: "",
+  period: "History",
 });
+
+const { t } = useI18n();
+const localePath = useLocalePath();
+
+const displaySummary = computed(
+  () => props.summary || t("lesson_card.default_summary"),
+);
 </script>
 
 <template>
@@ -28,7 +35,7 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
       <div
         class="bg-green-500 text-white font-black text-xs py-1.5 w-[170%] text-center absolute top-9 right-[-60px] rotate-45 shadow-xl border-y border-white/20 uppercase tracking-[0.2em]"
       >
-        HOÀN THÀNH
+        {{ $t("lesson_card.completed") }}
       </div>
     </div>
     <!-- Same content as below, but for NuxtLink -->
@@ -62,14 +69,15 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
             v-if="isCompleted"
             class="flex items-center text-green-600 font-bold text-xs group-hover:translate-x-2 transition-transform"
           >
-            Xem lại bài học
+            {{ $t("lesson_card.review") }}
             <Icon name="lucide:refresh-cw" class="ml-1 w-3.5 h-3.5" />
           </div>
           <div
             v-else
             class="flex items-center text-primary font-bold text-xs group-hover:translate-x-2 transition-transform"
           >
-            Học ngay <Icon name="lucide:arrow-right" class="ml-1 w-3.5 h-3.5" />
+            {{ $t("lesson_card.start") }}
+            <Icon name="lucide:arrow-right" class="ml-1 w-3.5 h-3.5" />
           </div>
         </div>
       </div>
@@ -105,7 +113,7 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
         <span
           class="text-primary font-black text-[9px] uppercase tracking-wider bg-primary/10 px-2 py-0.5 rounded-md"
         >
-          Sắp ra mắt
+          {{ $t("lesson_card.coming_soon") }}
         </span>
       </div>
 
@@ -120,7 +128,7 @@ const props = withDefaults(defineProps<LessonCardProps>(), {
       </p>
 
       <div class="mt-auto pb-1 text-primary/40 font-bold text-xs italic">
-        Đang biên soạn...
+        {{ $t("lesson_card.draft") }}
       </div>
     </div>
   </div>

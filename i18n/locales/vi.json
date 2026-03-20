@@ -1,0 +1,460 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "lesson": "Bài học",
+    "heroes": "Anh hùng",
+    "badges": "Huy hiệu",
+    "mailbox": "Hòm thư",
+    "quiz": "Đố vui",
+    "dictionary": "Từ điển",
+    "collection": "Bộ sưu tập",
+    "explore": "Khám phá",
+    "start_now": "Bắt đầu ngay"
+  },
+  "hero": {
+    "subtitle": "Khám phá 4000 năm Lịch Sử",
+    "title_main": "Hành trình ngược thời gian",
+    "title_sub": "cùng Bé yêu!",
+    "description": "Học lịch sử Việt Nam qua những câu chuyện thú vị, hình ảnh sinh động và các trò chơi đố vui hấp dẫn.",
+    "start_journey": "Bắt đầu Hành Trình",
+    "lesson_list": "Danh sách Bài học"
+  },
+  "lesson_hero": {
+    "title": "Dòng Máu Lạc Hồng",
+    "subtitle": "Khám phá hành trình 4000 năm lịch sử hào hùng của dân tộc Việt Nam qua những câu chuyện kể sinh động.",
+    "banner_alt": "Bản đồ các anh hùng dân tộc Việt Nam"
+  },
+  "lesson_card": {
+    "completed": "HOÀN THÀNH",
+    "review": "Xem lại bài học",
+    "start": "Học ngay",
+    "locked": "Khóa",
+    "coming_soon": "Sắp ra mắt",
+    "draft": "Đang biên soạn...",
+    "default_summary": "Câu chuyện lịch sử đang chờ bạn khám phá..."
+  },
+  "quiz": {
+    "title": "CÂU ĐỐ VUI",
+    "correct_feedback": "Tình yêu ơi! Bạn giỏi quá!",
+    "wrong_feedback": "Ôi, chưa đúng rồi!",
+    "retry": "Thử lại ngay",
+    "back": "Quay lại",
+    "mascot_happy": "Cực kỳ chính xác! Bạn giỏi quá!",
+    "mascot_thinking": "Ôi, chưa đúng rồi. Bạn hãy suy nghĩ thêm một chút nhé!"
+  },
+  "rescue_modal": {
+    "title": "Tiếp Tục Hành Trình",
+    "description": "Lưu hoặc chuyển tiến độ sang máy khác nè!",
+    "export_title": "Mã Giải Cứu của bé",
+    "copy": "SAO CHÉP",
+    "note": "* Ghi chú mã này lại để có thể chơi tiếp ở bất kỳ máy tính nào khác nhé!",
+    "or": "HOẶC",
+    "import_title": "Nhập mã đã có",
+    "input_placeholder": "Nhập mã HV-xxxx-xxxx...",
+    "button": "BẮT ĐẦU ĐỒNG BỘ",
+    "success": "Đồng bộ thành công! Chúc mừng nhà du hành!",
+    "error": "Mã không đúng rồi, bé kiểm tra lại nhé!"
+  },
+  "completion": {
+    "awesome": "TUYỆT VỜI!",
+    "completed_text": "Bạn đã hoàn thành bài học",
+    "continue": "TIẾP TỤC KHÁM PHÁ"
+  },
+  "user_titles": {
+    "legendary": "Sử gia Truyền kỳ",
+    "lac_hong": "Bậc thầy Lạc Hồng",
+    "dai_co_viet": "Học giả Đại Cồ Việt",
+    "thang_long": "Dũng sĩ Thăng Long",
+    "rookie": "Nhà khảo cổ nhí",
+    "default_name": "Nhà du hành"
+  },
+  "lesson_container": {
+    "step": "Bước {current}/{total}"
+  },
+  "hero_card": {
+    "locked": "Chưa mở khóa",
+    "explore": "Khám phá tiểu sử"
+  },
+  "mailbox": {
+    "title": "Hòm thư Lịch sử",
+    "seo_title": "Hòm thư Lịch sử - Những lời nhắn từ Quá khứ",
+    "seo_desc": "Nơi lưu giữ những bức thư tay đầy ý nghĩa từ các vị Anh hùng dân tộc gửi đến bé yêu.",
+    "page_hero": {
+      "tag": "Kỷ niệm chương",
+      "title_primary": "Hòm Thư",
+      "title_highlight": "Lịch Sử",
+      "subtitle": "Nơi lưu giữ những lời nhắn nhủ thân thương từ các bậc tiền nhân gửi đến thế hệ mai sau."
+    },
+    "empty": {
+      "title": "Hòm thư hiện đang trống...",
+      "subtitle": "Bé hãy hoàn thành các bài học xuất sắc để nhận thư nhé!",
+      "button": "Đi học ngay thôi!"
+    },
+    "locked_header": "Những bức thư chưa mở khóa ({count})",
+    "uncollected_from": "Từ: {name}",
+    "close_button": "Cất thư đi 📥"
+  },
+  "glossary": {
+    "title": "Từ điển Lịch sử",
+    "seo_title": "Từ điển Lịch sử Việt Nam cho Bé",
+    "seo_desc": "Tra cứu và giải mã những từ ngữ, khái niệm lịch sử Việt Nam một cách dễ hiểu nhất.",
+    "seo_og_desc": "Kho tàng kiến thức về các chức danh, sự vật và khái niệm lịch sử hào hùng.",
+    "page_hero": {
+      "tag": "KHO KIẾN THỨC",
+      "title_primary": "Từ điển",
+      "title_highlight": "Tình Việt",
+      "subtitle": "Giải mã những từ ngữ cổ xưa để hiểu hơn về dòng máu Lạc Hồng."
+    },
+    "search_placeholder": "Hôm nay bé muốn tìm từ gì nào?...",
+    "categories": {
+      "all": "Tất cả",
+      "title": "Chức danh",
+      "object": "Sự vật",
+      "concept": "Khái niệm",
+      "location": "Địa danh",
+      "period": "Thời kỳ"
+    },
+    "empty": {
+      "title": "Không tìm thấy từ này bạn ơi!",
+      "subtitle": "Hãy thử nhập một từ khác hoặc xóa bộ lọc nhé.",
+      "button": "Xem tất cả từ điển"
+    }
+  },
+  "hero_gallery": {
+    "stats": {
+      "unlocked": "Đã khám phá",
+      "total": "Tổng số anh hùng"
+    },
+    "motivation": {
+      "title": "Bạn còn nhiều vị anh hùng chưa gặp đấy!",
+      "subtitle": "Hãy tiếp tục khám phá các bài học lịch sử để mở khóa thêm nhiều anh hùng hào kiệt nữa nhé.",
+      "button": "Khám phá bài học ngay"
+    }
+  },
+  "hero_detail": {
+    "real_name": "Tên thật",
+    "position": "Chức vụ",
+    "years": "Năm sinh - Năm mất",
+    "hometown": "Quê quán",
+    "fun_fact_title": "Bạn có biết? (Sự thật thú vị)",
+    "biography_title": "Câu chuyện lịch sử",
+    "achievements_title": "Thành tựu rạng danh"
+  },
+  "gallery": {
+    "title": "Sổ tay Anh hùng",
+    "seo_title": "Sổ tay Anh hùng - Danh tướng Việt Nam",
+    "seo_desc": "Gặp gỡ và tri ân những vị anh hùng dân tộc hào hùng trong lịch sử Việt Nam qua bộ sưu tập thẻ tướng sinh động.",
+    "seo_og_desc": "Bé đã mở khóa được bao nhiêu vị Anh hùng rồi? Khám phá ngay bộ sưu tập cá nhân!",
+    "page_hero": {
+      "tag": "Bộ sưu tập cá nhân",
+      "title_primary": "Sổ Tay",
+      "title_highlight": "Anh Hùng",
+      "subtitle": "Gặp gỡ những vị tướng tài ba và những anh hùng kiệt xuất đã viết nên những trang sử vàng chói lọi của dân tộc Việt Nam."
+    }
+  },
+  "badges": {
+    "title": "Huy hiệu Dũng sĩ",
+    "seo_title": "Hồ sơ Dũng sĩ - Huy hiệu & Thành tựu",
+    "seo_desc": "Chiêm ngưỡng bộ sưu tập huy hiệu danh giá và những báu vật lịch sử mà bé đã chinh phục được.",
+    "seo_og_desc": "Mỗi huy hiệu là một minh chứng cho lòng yêu nước và sự chăm chỉ của bé.",
+    "page_hero": {
+      "tag": "Thành tựu danh giá",
+      "title_primary": "Hồ Sơ",
+      "title_highlight": "Dũng Sĩ",
+      "subtitle": "Mỗi huy hiệu và báu vật là một minh chứng cho sự chăm chỉ và lòng yêu nước của bé trên hành trình khám phá 4000 năm lịch sử."
+    }
+  },
+  "map": {
+    "title": "Bản đồ Tiến trình",
+    "seo_title": "Bản đồ Lịch sử Việt Nam - Hành trình 4000 năm",
+    "seo_desc": "Khám phá hành trình 4000 năm lịch sử Việt Nam qua bản đồ tương tác thú vị và trực quan.",
+    "seo_og_desc": "Theo dấu chân cha ông qua các thời kỳ lịch sử hào hùng trên bản đồ tri thức.",
+    "back_home": "QUAY VỀ TRANG CHỦ",
+    "my_journey": "Hành trình của bé",
+    "lessons_count": "{count}/{total} Bài",
+    "currently_exploring": "Đang khám phá: {era}",
+    "era_locked": "Chương này đang khóa",
+    "vn_flag": "Cờ Việt Nam",
+    "node": {
+      "conquered": "Bạn đã chinh phục cột mốc này!",
+      "explore_desc": "Khám phá câu chuyện hào hùng về nguồn gốc dân tộc.",
+      "drafting": "Nội dung đang được soạn thảo, hãy chờ nhé!",
+      "completed": "Hoàn thành",
+      "current": "Bé đang ở đây",
+      "explore_btn": "KHÁM PHÁ"
+    }
+  },
+  "layout": {
+    "brand": {
+      "first": "Lịch Sử",
+      "second": "Nhí"
+    },
+    "mobile": {
+      "home": "Trang chủ",
+      "lesson": "Bài học",
+      "heroes": "Anh hùng",
+      "badges": "Huy hiệu",
+      "mailbox": "Hòm thư",
+      "quiz": "Đố vui",
+      "glossary": "Từ điển"
+    },
+    "footer": {
+      "mission": "Khơi dậy lòng tự hào dân tộc qua những câu chuyện lịch sử Việt Nam sống động và gần gũi nhất dành cho trẻ em.",
+      "about_project": {
+        "title": "Về Dự án",
+        "description": "\"Dự án tâm huyết được xây dựng bởi PhucNDH với tình yêu dành cho lịch sử Việt Nam.\"",
+        "location": "Bình Định - Gia Lai, Việt Nam"
+      },
+      "disclaimer": {
+        "title": "Lưu ý",
+        "content": "Nội dung và hình ảnh được hỗ trợ bởi công nghệ AI và có sự rà soát của cá nhân. Mọi ý kiến đóng góp về sai sót xin vui lòng gửi về cho chúng mình."
+      },
+      "links": {
+        "terms": "Điều khoản",
+        "report": "Báo lỗi"
+      }
+    }
+  },
+  "features": {
+    "title": "Tại sao bé sẽ thích Lịch sử Nhí?",
+    "storytelling": {
+      "title": "Câu chuyện hấp dẫn",
+      "desc": "Tìm hiểu về các đời vua Hùng, Thánh Gióng, Hai Bà Trưng qua những mẩu truyện tranh sinh động, đưa bé vào thế giới cổ tích nhiệm màu."
+    },
+    "quiz": {
+      "title": "Trò chơi đố vui",
+      "desc": "Thử thách trí thông minh với các câu hỏi lý thú. Càng chơi càng giỏi để nhận được những huy hiệu dũng sĩ lịch sử cực ngầu!"
+    },
+    "heroes": {
+      "title": "Dũng sĩ lịch sử",
+      "desc": "Gặp gỡ và sưu tầm các anh hùng dân tộc hào hùng, học hỏi từ những chiến công vĩ đại đã làm nên tên tuổi nước nhà."
+    }
+  },
+  "footer": {
+    "mission": "Khơi dậy lòng tự hào dân tộc qua những câu chuyện lịch sử Việt Nam sống động và gần gũi nhất dành cho trẻ em.",
+    "explore": "Khám phá",
+    "quick_links": {
+      "lesson_list": "Danh sách Bài học",
+      "hero_collection": "Bộ sưu tập Anh hùng",
+      "badges": "Huy hiệu Dũng sĩ",
+      "quiz": "Thử thách Đố vui",
+      "about_us": "Về chúng mình",
+      "glossary": "Từ điển Tình Việt"
+    },
+    "about_project": {
+      "title": "Về Dự án",
+      "desc": "\"Dự án tâm huyết được xây dựng bởi PhucNDH với tình yêu dành cho lịch sử Việt Nam.\"",
+      "location": "Bình Định - Gia Lai, Việt Nam"
+    },
+    "notice": {
+      "title": "Lưu ý",
+      "desc": "Nội dung và hình ảnh được hỗ trợ bởi công nghệ AI và có sự rà soát của cá nhân. Mọi ý kiến đóng góp về sai sót xin vui lòng gửi về cho chúng mình."
+    },
+    "copyright": "© {year} Dòng Máu Lạc Hồng. Made with {heart} by PhucNDH.",
+    "links": {
+      "terms": "Điều khoản",
+      "report": "Báo lỗi"
+    }
+  },
+  "daily_fact": {
+    "tag": "Sự thật lịch sử mỗi ngày",
+    "category": "Chủ đề: {category}"
+  },
+  "level_badge": {
+    "level_progress": "Tiến trình level",
+    "rank_master": "Bậc Thầy",
+    "level": "Cấp {level}",
+    "next_level_needed": "Bé cần thêm {xp} XP nữa để lên cấp tiếp theo đó!"
+  },
+  "artifact_unlock": {
+    "title": "Báu vật mới!",
+    "button": "Thật tuyệt vời!",
+    "view_all": "Xem bộ sưu tập báu vật",
+    "mascot_congrat": "Chúc mừng nhé! Bạn đã tìm thấy báu vật \"{title}\" rồi đấy!"
+  },
+  "hero_letter_modal": {
+    "button": "Cất vào Hòm thư 📥"
+  },
+  "avatar_selection": {
+    "header": "Chào Bạn Nhỏ!",
+    "subtitle": "Bé hãy đặt tên và chọn nhân vật nhé!",
+    "nickname_label": "Biệt hiệu của bé",
+    "nickname_placeholder": "Ví dụ: Tí Sử, Bé Sen...",
+    "avatar_label": "Chọn nhân vật đại diện",
+    "submit_button": "SẴN SÀNG KHÁM PHÁ!",
+    "avatars": {
+      "lac-long": "Lạc Long",
+      "au-co": "Âu Cơ",
+      "warrior": "Dũng Sĩ",
+      "scholar": "Học Giả"
+    }
+  },
+  "badge_unlock": {
+    "default_title": "MỞ KHÓA",
+    "new_badge": "HUY HIỆU MỚI!",
+    "got_it": "ĐÃ HIỂU!"
+  },
+  "badge_gallery": {
+    "title": "Huy hiệu Danh giá",
+    "subtitle": "Hành trình nỗ lực và những cột mốc đáng tự hào của bé.",
+    "no_results": "Không tìm thấy huy hiệu nào khớp với bộ lọc nè!",
+    "locked": "Đang chờ bé..."
+  },
+  "artifact_gallery": {
+    "title": "Bảo tàng Báu vật",
+    "subtitle": "Những cổ vật vô giá bé đã tìm thấy trên hành trình xuyên không.",
+    "not_found": "Sắp tìm thấy..."
+  },
+  "hero_unlock": {
+    "header": "BẠN ĐÃ MỞ KHÓA THẺ TƯỚNG MỚI!",
+    "button": "TUYỆT VỜI!"
+  },
+  "glossary_ui": {
+    "category_default": "Giải nghĩa",
+    "got_it": "Đã hiểu!"
+  },
+  "achievement_filter": {
+    "status": {
+      "all": "Tất cả",
+      "earned": "Đã đạt",
+      "locked": "Đang khóa"
+    },
+    "rarity_all": "Mọi cấp độ"
+  },
+  "mascot": {
+    "welcome": "Chào bạn nhỏ! Mình là Thần Kim Quy, rất vui được đồng hành cùng bạn trên con đường tìm hiểu lịch sử Việt Nam!",
+    "idle_messages": [
+      "Bạn có biết Việt Nam có hơn 4000 năm văn hiến không?",
+      "Hãy đọc kỹ từng slide để tìm báu vật bí mật nhé!",
+      "Đừng quên tra từ điển nếu gặp từ khó nhé!",
+      "Học lịch sử thật là thú vị đúng không nào?",
+      "Mình luôn ở đây để giúp đỡ bạn!"
+    ]
+  },
+  "hero_stats": {
+    "progress_title": "Tiến độ Dũng sĩ",
+    "completed": "Hoàn thành",
+    "earned": "Huy hiệu"
+  },
+  "error_page": {
+    "title": "Ôi! Hình như bé bị lạc giữa dòng lịch sử?",
+    "description": "Trang này có thể đã trôi xa về quá khứ hoặc chưa từng tồn tại. Đừng lo, chúng mình cùng quay lại hiện tại nhé!",
+    "back_home": "Quay về Trang chủ",
+    "view_map": "Xem Bản đồ",
+    "did_you_know": "Bé có biết? Kinh đô Thăng Long (Hà Nội ngày nay) được vua Lý Thái Tổ chọn đóng đô từ năm 1010 đó!"
+  },
+  "report_page": {
+    "title": "Báo lỗi",
+    "title_highlight": "nhanh",
+    "subtitle": "Cảm ơn bạn đã giúp Lịch sử Nhí tốt hơn cho các bé.",
+    "seo_title": "Báo lỗi & Góp ý - Giúp Lịch sử Nhí hoàn thiện hơn",
+    "seo_desc": "Gửi góp ý hoặc báo lỗi để chúng mình cùng xây dựng một môi trường học tập lịch sử tuyệt vời nhất cho các bé.",
+    "seo_og_desc": "Cảm ơn bạn đã đồng hành và giúp đỡ Lịch sử Nhí ngày càng tốt hơn!",
+    "guide_title": "Gợi ý nội dung khi báo lỗi",
+    "tip_1": "Bạn đang ở trang nào (mình sẽ tự điền trong email)",
+    "tip_2": "Các bước để tái hiện lỗi",
+    "tip_3": "Ảnh chụp màn hình (nếu có)",
+    "button": "Gửi email báo lỗi",
+    "back_home": "Quay về trang chủ",
+    "note": "Lưu ý: hãy thay email nhận báo lỗi trong `pages/report.vue` trước khi public.",
+    "email_subject": "[Lịch sử Nhí] Báo lỗi ({path})",
+    "email_body": "Mô tả lỗi:\n- (Bạn mô tả ngắn gọn lỗi gặp phải)\n\nCác bước để gặp lỗi:\n1) ...\n2) ...\n\nThiết bị/Trình duyệt:\n- Windows/macOS/iOS/Android, Chrome/Edge/Safari...\n\nẢnh chụp màn hình (nếu có):\n- ..."
+  },
+  "privacy_page": {
+    "title": "Chính sách",
+    "title_highlight": "Bảo mật",
+    "subtitle": "An toàn của các bé là ưu tiên hàng đầu của chúng mình!",
+    "seo_title": "Chính sách bảo mật - Lịch sử Nhí",
+    "seo_desc": "Cam kết bảo vệ quyền riêng tư và an toàn tuyệt đối cho trẻ em khi sử dụng ứng dụng Lịch sử Nhí.",
+    "seo_og_desc": "An toàn của bé là ưu tiên hàng đầu. Tìm hiểu cách chúng mình bảo vệ dữ liệu của bé.",
+    "commitment": "Cam kết an toàn 100%",
+    "commitment_quote": "\"Chúng mình KHÔNG thu thập dữ liệu cá nhân, KHÔNG yêu cầu đăng ký và KHÔNG có quảng cáo gây phiền nhiễu.\"",
+    "section_1_title": "1. Không thu thập dữ liệu",
+    "section_1_desc": "Lịch sử Nhí hoạt động hoàn toàn dựa trên sự trải nghiệm tự do. Bé có thể vào xem bài học và đố vui mà không cần khai báo tên, tuổi hay bất kỳ thông tin cá nhân nào.",
+    "section_2_title": "2. Lưu tiến trình trên thiết bị",
+    "section_2_desc": "Để bé có thể tiếp tục hành trình vào lần sau, ứng dụng lưu dữ liệu tiến trình (ví dụ: tên biệt hiệu, nhân vật đã chọn, bài học đã hoàn thành) **ngay tại bộ nhớ trình duyệt** (Local Storage). Dữ liệu này chỉ nằm trên máy của bé, chúng mình không gửi lên bất kỳ máy chủ nào.",
+    "section_3_title": "3. Mã Giải Cứu (Rescue Code)",
+    "section_3_desc": "Chức năng đồng bộ qua Mã Giải Cứu hoạt động bằng cách nén dữ liệu tiến trình của bé thành một đoạn mã ký tự. Mã này **do bé và phụ huynh tự quản lý**. Hệ thống không lưu trữ các mã này trên máy chủ, vì vậy nếu mất mã và xóa dữ liệu trình duyệt, tiến trình sẽ không thể khôi phục.",
+    "section_4_title": "4. Liên kết bên ngoài",
+    "section_4_desc": "Mọi liên kết dẫn ra ngoài đều được kiểm duyệt kỹ để đảm bảo an toàn cho trẻ em. Ba mẹ hãy luôn đồng hành cùng bé khi bé sử dụng internet nhé!",
+    "section_5_title": "5. Dành cho Phụ huynh",
+    "section_5_desc": "Chúng mình khuyến khích ba mẹ dành thời gian khám phá ứng dụng cùng con. Mọi thắc mắc về bảo mật, xin liên hệ qua email: **phucndh.dev{'@'}gmail.com**."
+  },
+  "terms_page": {
+    "title": "Điều khoản",
+    "title_highlight": "Sử dụng",
+    "subtitle": "Những \"luật chơi\" nhỏ để chúng mình cùng nhau khám phá lịch sử một cách vui vẻ nhất!",
+    "seo_title": "Điều khoản sử dụng - Lịch sử Nhí",
+    "seo_desc": "Các quy định và hướng dẫn sử dụng ứng dụng Lịch sử Nhí một cách an toàn và hiệu quả cho bé và phụ huynh.",
+    "seo_og_desc": "Luật chơi công bằng cho hành trình khám phá lịch sử đầy thú vị.",
+    "section_1_title": "1. Mục đích của Lịch sử Nhí",
+    "section_1_desc": "Trang web này được tạo ra để giúp các bé tìm hiểu về lịch sử Việt Nam qua những câu chuyện, hình ảnh và trò chơi đố vui sinh động. Mọi nội dung đều hướng đến sự giáo dục và khơi gợi niềm tự hào dân tộc.",
+    "section_2_title": "2. Quyền sở hữu nội dung",
+    "section_2_desc": "Tất cả hình ảnh và câu chuyện trên trang web đều thuộc bản quyền của **Lịch sử Nhí**. Các bé và phụ huynh có thể tự do xem và học tập, nhưng vui lòng không sao chép hoặc sử dụng cho mục đích thương mại khi chưa có sự cho phép nhé.",
+    "section_3_title": "3. Tự quản lý Mã Giải Cứu",
+    "section_3_desc": "Khi sử dụng chức năng đồng bộ tiến độ, bé và phụ huynh có trách nhiệm lưu trữ và bảo mật **Mã Giải Cứu** của mình. Vì hệ thống không lưu trữ mã này trên máy chủ nên chúng mình không thể cấp lại mã nếu bị mất.",
+    "section_4_title": "4. Trách nhiệm người dùng",
+    "section_4_desc": "Chúng mình mong muốn tạo ra một môi trường học tập tích cực. Các bé hãy sử dụng trang web một cách văn minh, góp ý chân thành để chúng mình ngày càng hoàn thiện hơn.",
+    "footer_note": "Nếu có bất kỳ câu hỏi nào, ba mẹ hãy liên hệ với chúng mình qua địa chỉ email ở chân trang nhé!"
+  },
+  "about": {
+    "title": "Về dự án Lịch sử Nhí",
+    "seo_title": "Về dự án Lịch sử Việt Nam cho Bé",
+    "seo_desc": "Tìm hiểu về sứ mệnh khơi gợi lòng tự hào dân tộc và tình yêu lịch sử nước nhà cho thế hệ mầm non.",
+    "seo_og_desc": "Lịch sử là một chuyến phiêu lưu! Khám phá tâm huyết đằng sau dự án Lịch sử Nhí.",
+    "hero": {
+      "tag": "Hạt giống Lịch sử",
+      "title_primary": "Lịch sử là một",
+      "title_highlight": "chuyến phiêu lưu!",
+      "subtitle": "Bé có biết, mỗi con đường chúng ta đi đều có những câu chuyện anh hùng chờ bé khám phá không?"
+    },
+    "mission": {
+      "title": "Bé là niềm tự hào của Việt Nam",
+      "p1": "Ngày xưa, ông bà và các vị anh hùng đã rất dũng cảm để bảo vệ đất nước mình. Họ đã đánh đuổi giặc ngoại xâm, xây dựng những thành phố xinh đẹp để hôm nay chúng ta được sống trong hòa bình.",
+      "p2": "Chúng mình tạo ra trang web này để kể cho bé nghe những chuyện ấy một cách thật vui và dễ nhớ. Hy vọng bé sẽ yêu thêm tiếng Việt, yêu thêm màu cờ Tổ quốc và luôn tự hào mình là người Việt Nam nhé!"
+    },
+    "values": {
+      "storytelling": {
+        "title": "Kể chuyện",
+        "desc": "Những sự kiện khô khan được chuyển thể thành các mẩu chuyện kể sinh động, dễ nhớ."
+      },
+      "visuals": {
+        "title": "Hình ảnh",
+        "desc": "Minh họa tinh tế, mang đậm bản sắc văn hóa nhưng vẫn hiện đại và gần gũi với trẻ em."
+      },
+      "truth": {
+        "title": "Sự thật",
+        "desc": "Đảm bảo tính chính xác lịch sử tuyệt đối, giúp các bé có nền tảng kiến thức vững chắc."
+      }
+    },
+    "proverbs": {
+      "title": "Lời ru của Đất Mẹ",
+      "q1": "Con người có tổ có tông,\nNhư cây có cội, như sông có nguồn.",
+      "q2": "Nhiễu điều phủ lấy giá gương,\nNgười trong một nước phải thương nhau cùng.",
+      "q3": "Ăn quả nhớ kẻ trồng cây,\nUống nước nhớ nguồn.",
+      "q4": "Dân ta phải biết sử ta,\nCho tường gốc tích nước nhà Việt Nam."
+    },
+    "developer": {
+      "title": "Tâm huyết & Công nghệ",
+      "p1": "Dự án Lịch sử Nhí được xây dựng bởi PhucNDH với mong muốn mang lại một cách học sử mới mẻ, đầy màu sắc và không bao giờ nhàm chán cho các em nhỏ.",
+      "p2": "Để có những hình ảnh minh họa sống động, mình đã kết hợp giữa kiến thức lịch sử và công nghệ AI. Tuy nhiên, vì AI vẫn đang trong quá trình học hỏi, đôi khi hình ảnh có thể có những chi tiết nhỏ chưa hoàn toàn khớp với thực tế lịch sử.",
+      "quote": "Sứ mệnh của mình là độ chính xác và niềm vui. Nếu bạn phát hiện bất kỳ sai sót nào, xin hãy góp ý để mình hoàn thiện hơn qua email: phucndh.dev{'@'}gmail.com"
+    },
+    "final": {
+      "title": "Bạn đã sẵn sàng bước vào hành trình?",
+      "explore_map": "Khám phá Bản đồ",
+      "lesson_list": "Xem Danh sách Bài học"
+    }
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "retry": "Thử lại",
+    "back": "Quay lại",
+    "rarity": {
+      "common": "Cơ bản",
+      "rare": "Hiếm",
+      "epic": "Sử thi",
+      "legendary": "Huyền thoại"
+    }
+  }
+}

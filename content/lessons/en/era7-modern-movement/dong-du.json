@@ -1,0 +1,53 @@
+{
+  "id": "dong-du",
+  "title": "The Dong Du Movement",
+  "period": "Modernization",
+  "summary": "The journey of patriotic youth to Japan to learn new knowledge to advance the country.",
+  "image": "/images/history/thumbnails/patriotic-movements/dong-du.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "To defeat the French invaders, Phan Boi Chau believed that we needed to learn new things from advanced countries, especially Japan.",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/0.png",
+      "imagePrompt": "A boat heading east towards a rising sun over the sea, people on the boat looking excited, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "He organized the 'Dong Du' (meaning 'Travel East') movement - taking hundreds of Vietnamese youth to Japan to learn both knowledge and combat tactics.",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/1.png",
+      "imagePrompt": "Vietnamese students in traditional hats combined with modern umbrellas in a Japanese street with cherry blossoms, fusion of cultures, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Despite a very hard life in Japan, the young men studied diligently and underwent military training with the burning desire to return and save the country.",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/2.png",
+      "imagePrompt": "Students studying science and military tactics in a classroom, drawings of machines and maps, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The Dong Du movement is a wonderful testament to our people's spirit of learning and thirst for innovation in the early 20th century.",
+      "image": "/images/history/lessons/patriotic-movements/dong-du/3.png",
+      "imagePrompt": "Symbolic image of a book and a torch lighting the way across the sea, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Which country did the 'Dong Du' movement send Vietnamese youth to study in?",
+      "options": [
+        "Japan",
+        "France",
+        "China"
+      ],
+      "answer": "Japan"
+    },
+    {
+      "type": "quiz",
+      "question": "What was the main goal of the Dong Du movement?",
+      "options": [
+        "To go traveling",
+        "To learn new knowledge to save the country",
+        "To look for gold"
+      ],
+      "answer": "To learn new knowledge to save the country"
+    }
+  ]
+}

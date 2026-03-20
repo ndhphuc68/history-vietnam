@@ -80,7 +80,7 @@ onMounted(() => {
             <span
               class="text-[10px] font-black text-secondary uppercase tracking-widest"
             >
-              {{ termData.category || "Giải nghĩa" }}
+              {{ termData.category || $t("glossary_ui.category_default") }}
             </span>
           </div>
 
@@ -96,7 +96,7 @@ onMounted(() => {
               @click="isOpen = false"
               class="text-[10px] font-black text-text/40 hover:text-primary uppercase"
             >
-              Đã hiểu!
+              {{ $t("glossary_ui.got_it") }}
             </button>
           </div>
         </div>

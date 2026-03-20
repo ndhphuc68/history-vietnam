@@ -1,0 +1,32 @@
+# Prompts with STRENGTHENED CONSISTENCY: General
+
+> NOTICE: All prompts now use the Master Style Prefix and Suffix for visual unity.
+
+### Lesson: Ngô Quyền và trận Bạch Đằng
+
+TYPE: Thumbnail (16:9)
+FILE: /images/history/ngo-quyen-bach-dang.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Trận chiến 'bẫy cọc gỗ' thông minh trên sông Bạch Đằng đã kết thúc hoàn toàn nghìn năm Bắc thuộc., with Vietnamese text overlay: "Ngô Quyền và trận Bạch Đằng" in a playful educational font, landscape orientation, 16:9 aspect ratio, --ar 16:9, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 0 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/0.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Big fleet of enemy ships approaching, Ngô Quyền standing on the shore looking at the river, planning a secret trap, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Năm 938, quân Nam" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 1 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/1.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Vietnamese soldiers placing giant sharpened wooden stakes into the river bed, mud splashes, hard work, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Ông bảo quân sĩ" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 2 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/2.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Small Vietnamese boats leading the big enemy ships into the area where stakes are hidden under water, suspense, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Khi nước dâng cao," in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 3 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/3.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Water level dropping, enemy ships getting stuck on the sharp stakes and tilting, fire and chaos for invaders, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Chờ khi thủy triều" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+TYPE: Slide 4 (Vertical)
+FILE: /images/history/ngo-quyen-bach-dang/4.png
+PROMPT: children's book illustration, flat vector style, sunlit gold and emerald color palette, clean outlines, storybook aesthetic, friendly atmosphere, Vietnamese history context, Ngô Quyền standing heroically on his ship, soldiers cheering, victory on the river, children book illustration, cartoon style, bright colors, with Vietnamese text overlay: "Quân Nam Hán đại" in a playful educational font, portrait orientation, vertical layout, 2:3 aspect ratio, --ar 2:3, flat design, bright and vibrant colors, soft lighting, educational feel
+
+---
+

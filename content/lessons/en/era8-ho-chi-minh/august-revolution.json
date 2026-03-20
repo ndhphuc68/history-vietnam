@@ -1,0 +1,53 @@
+{
+  "id": "august-revolution",
+  "title": "The August Revolution of 1945",
+  "period": "Uncle Ho",
+  "summary": "The lightning-fast general uprising across the country, breaking the chains of slavery and reclaiming power for the people.",
+  "image": "/images/history/thumbnails/ho-chi-minh-era/august-revolution.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Hey kids! In August 1945, when the opportunity came, Uncle Ho ordered the General Uprising. Everywhere, our people rose up simultaneously to seize power.",
+      "image": "/images/history/lessons/ho-chi-minh-era/august-revolution/0.png",
+      "imagePrompt": "People in a village street holding red flags with yellow stars, rushing towards a government building, sunset, energy and hope, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In Hanoi, tens of thousands of people flocked to occupy the Kham Sai Palace (Phủ Khâm sai). The morale was soaring, with shouts of 'Independent Vietnam' echoing through the streets.",
+      "image": "/images/history/lessons/ho-chi-minh-era/august-revolution/1.png",
+      "imagePrompt": "Masses of people in front of an old French-style building (Phủ Khâm sai), waving flags, diverse group of workers and peasants, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "In just 15 days, from Hue to Saigon, colonial and feudal rule was completely dismantled. The people truly became the masters of their country.",
+      "image": "/images/history/lessons/ho-chi-minh-era/august-revolution/2.png",
+      "imagePrompt": "A large chain being broken by a golden light, background showing landmarks of Hue and Saigon, symbolic victory, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "The victory of the August Revolution opened a new era, preparing for the birth of the Democratic Republic of Vietnam.",
+      "image": "/images/history/lessons/ho-chi-minh-era/august-revolution/3.png",
+      "imagePrompt": "A new sun rising over a peaceful Vietnamese landscape, people cheering, sense of a fresh beginning, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "In what year did the August General Uprising take place?",
+      "options": [
+        "1945",
+        "1930",
+        "1954"
+      ],
+      "answer": "1945"
+    },
+    {
+      "type": "quiz",
+      "question": "From whom did the August Revolution reclaim power?",
+      "options": [
+        "Colonizers and feudalists",
+        "Aliens",
+        "Ancient tribes"
+      ],
+      "answer": "Colonizers and feudalists"
+    }
+  ]
+}

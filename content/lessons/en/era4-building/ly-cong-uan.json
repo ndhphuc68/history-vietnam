@@ -1,0 +1,54 @@
+{
+  "id": "ly-cong-uan",
+  "title": "Ly Cong Uan Ascends the Throne",
+  "heroId": "ly-thai-to",
+  "period": "Building",
+  "summary": "In 1009, Ly Cong Uan was honored as King by the imperial court, opening the powerful Ly Dynasty and performing a historic move of the capital to Thang Long.",
+  "image": "/images/history/thumbnails/building/ly-cong-uan.png",
+  "slides": [
+    {
+      "type": "story",
+      "text": "Ly Cong Uan was a virtuous and talented man, trusted by the mandarins and honored as King after the death of King Le Long Dinh.",
+      "image": "/images/history/lessons/building/ly-cong-uan/0.png",
+      "imagePrompt": "Ly Cong Uan being invited by mandarins to be the King, respectful ceremony in ancient palace, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Upon ascending the throne, he decided to move the capital from the mountainous region of Hoa Lu to the Dai La Citadel to allow the country to develop further.",
+      "image": "/images/history/lessons/building/ly-cong-uan/1.png",
+      "imagePrompt": "King Ly Cong Uan standing on a boat, traveling on the Red River, looking towards a new land, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "When the dragon boat arrived, the King saw a golden dragon rising into the sky and named the new land Thang Long (Rising Dragon).",
+      "image": "/images/history/lessons/building/ly-cong-uan/2.png",
+      "imagePrompt": "A golden dragon rising from the ground into the sky, King Ly Cong Uan and his entourage amazed, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "story",
+      "text": "Thang Long thereafter became the brilliant and prosperous capital of Dai Viet for hundreds of years.",
+      "image": "/images/history/lessons/building/ly-cong-uan/3.png",
+      "imagePrompt": "Ancient Thang Long citadel with bustling markets and beautiful temples, children book illustration, cartoon style, bright colors"
+    },
+    {
+      "type": "quiz",
+      "question": "Where did Ly Cong Uan move the capital from Hoa Lu?",
+      "options": [
+        "Dai La (Thang Long)",
+        "Co Loa",
+        "Phu Xuan"
+      ],
+      "answer": "Dai La (Thang Long)"
+    },
+    {
+      "type": "quiz",
+      "question": "When moving the capital, what animal did the King see rising from the new land?",
+      "options": [
+        "A golden dragon",
+        "A phoenix",
+        "A white tiger"
+      ],
+      "answer": "A golden dragon"
+    }
+  ]
+}
