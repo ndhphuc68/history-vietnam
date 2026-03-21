@@ -11,10 +11,9 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
   ],
 
-  // Avoid bundling full @iconify-json sets into Nitro (OOM during build); fetch at runtime.
+  // Autodiscover icons from local @iconify-json dependencies
   icon: {
     serverBundle: {
-      remote: "jsdelivr",
       collections: ["fluent", "fluent-emoji", "lucide"],
     },
   },
