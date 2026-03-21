@@ -176,9 +176,10 @@
     "era_locked": "This chapter is locked",
     "vn_flag": "Vietnam Flag",
     "node": {
-      "conquered": "You've conquered this milestone!",
-      "explore_desc": "Explore the heroic stories of our national origins.",
-      "drafting": "Content is being drafted, please wait!",
+      "conquered": "Conquered!",
+      "explore_desc": "Explore historical events.",
+      "locked": "Locked",
+      "drafting": "Drafting content, please wait!",
       "completed": "Completed",
       "current": "You are here",
       "explore_btn": "EXPLORE"

@@ -178,6 +178,7 @@
     "node": {
       "conquered": "Bạn đã chinh phục cột mốc này!",
       "explore_desc": "Khám phá câu chuyện hào hùng về nguồn gốc dân tộc.",
+      "locked": "Cột mốc này đang khóa",
       "drafting": "Nội dung đang được soạn thảo, hãy chờ nhé!",
       "completed": "Hoàn thành",
       "current": "Bé đang ở đây",

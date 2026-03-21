@@ -11,6 +11,14 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
   ],
 
+  // Avoid bundling full @iconify-json sets into Nitro (OOM during build); fetch at runtime.
+  icon: {
+    serverBundle: {
+      remote: "jsdelivr",
+      collections: ["fluent", "fluent-emoji", "lucide"],
+    },
+  },
+
   i18n: {
     locales: [
       { code: "vi", iso: "vi-VN", file: "vi.json", name: "Tiếng Việt" },
@@ -18,12 +26,11 @@ export default defineNuxtConfig({
     ],
     defaultLocale: "vi",
     langDir: "locales/",
-    lazy: true,
     strategy: "prefix_except_default",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
-      alwaysRedirect: true,
+      alwaysRedirect: false,
       fallbackLocale: "vi",
     },
   },
@@ -93,16 +100,6 @@ export default defineNuxtConfig({
     },
   },
 
-  // Ensure directories are scanned correctly for Nuxt 4 or 3 matching the user's rules
-  dir: {
-    pages: "pages",
-    layouts: "layouts",
-    middleware: "middleware",
-    modules: "modules",
-    plugins: "plugins",
-    public: "public",
-    assets: "assets",
-  },
   vite: {
     optimizeDeps: {
       include: ["canvas-confetti"],
