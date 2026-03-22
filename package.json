@@ -25,6 +25,7 @@
   "devDependencies": {
     "@iconify-json/fluent": "^1.2.41",
     "@iconify-json/fluent-emoji": "^1.2.7",
+    "@iconify-json/lucide": "^1.2.98",
     "@nuxt/eslint": "^1.15.2",
     "@nuxt/icon": "^2.2.1",
     "@nuxtjs/i18n": "^10.2.3",
