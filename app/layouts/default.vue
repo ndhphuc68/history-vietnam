@@ -228,12 +228,6 @@ onMounted(() => {
             @open-avatar="showAvatarModal = true"
           />
 
-          <NuxtLink
-            :to="localePath('/lesson')"
-            class="btn-primary py-2 px-4 md:px-6 text-sm md:text-base whitespace-nowrap"
-            >{{ $t("nav.start_now") }}</NuxtLink
-          >
-
           <!-- Language Switcher -->
           <div
             class="flex items-center bg-gray-100 rounded-full p-1 border border-gray-200"

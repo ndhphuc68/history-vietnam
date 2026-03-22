@@ -27,7 +27,7 @@ const body = computed(() => {
 
 const mailtoHref = computed(() => {
   // TODO: thay email của bạn ở đây khi publish
-  const to = "phucndh@example.com";
+  const to = "ndanghoangphuc@gmail.com";
   return `mailto:${to}?subject=${encodeURIComponent(
     subject.value,
   )}&body=${encodeURIComponent(body.value)}`;

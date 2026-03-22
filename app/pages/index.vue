@@ -1,6 +1,30 @@
 <script setup lang="ts">
+import { useProgressStore } from "~/stores/progressStore";
+import { useHistoryStore } from "~/stores/historyStore";
+
 const { t } = useI18n();
 const localePath = useLocalePath();
+
+const progressStore = useProgressStore();
+const historyStore = useHistoryStore();
+
+const startJourneyLink = computed(() => {
+  if (!historyStore.eras || historyStore.eras.length === 0) {
+    return localePath("/lesson");
+  }
+
+  // Find first uncompleted era
+  for (const era of historyStore.eras) {
+    const isCompleted = era.levels.every((l: any) =>
+      progressStore.completedLessons.includes(l.lesson),
+    );
+    if (!isCompleted) {
+      return localePath(`/lesson/${era.id}`);
+    }
+  }
+
+  return localePath("/lesson");
+});
 
 // Landing page for the Vietnamese History Learning App
 useHead({
@@ -63,16 +87,16 @@ useSeoMeta({
         class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 sm:px-0"
       >
         <NuxtLink
-          :to="localePath('/lesson')"
+          :to="startJourneyLink"
           class="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 md:py-5 ring-offset-2 ring-primary focus:ring-4"
         >
           {{ $t("hero.start_journey") }}
         </NuxtLink>
         <NuxtLink
-          :to="localePath('/lesson')"
+          :to="localePath('/gallery')"
           class="bg-white border-4 border-secondary text-secondary text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full hover:bg-secondary hover:text-white transition-all shadow-lg flex items-center justify-center"
         >
-          {{ $t("hero.lesson_list") }}
+          {{ $t("nav.collection") }}
         </NuxtLink>
       </div>
 

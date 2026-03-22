@@ -6,38 +6,38 @@ const artifactStore = useArtifactStore();
 
 const isUnlocked = (id: string) => true; // Temporary unlock for preview
 
-// Colors for the pedestal levels based on rarity
-const rarityPedestal: Record<
-  string,
-  { top: string; body: string; base: string; shadow: string; glow: string }
+// Colors and styles for the display case based on level/rarity
+const rarityConfig: Record<
+  Artifact["rarity"],
+  { label: string; bg: string; text: string; border: string; glow: string }
 > = {
   common: {
-    top: "bg-gradient-to-b from-stone-200 to-stone-300",
-    body: "bg-gradient-to-r from-stone-400 via-stone-300 to-stone-400 border-stone-400",
-    base: "bg-stone-500",
-    shadow: "shadow-stone-500/30",
-    glow: "bg-stone-200/20",
+    label: "Thường",
+    bg: "bg-stone-200",
+    text: "text-stone-700",
+    border: "border-stone-300",
+    glow: "",
   },
   rare: {
-    top: "bg-gradient-to-b from-blue-300 to-blue-400",
-    body: "bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 border-blue-500",
-    base: "bg-blue-800",
-    shadow: "shadow-blue-600/40",
-    glow: "bg-blue-300/30",
+    label: "Hiếm",
+    bg: "bg-blue-100",
+    text: "text-blue-700",
+    border: "border-blue-300",
+    glow: "shadow-[0_0_15px_rgba(59,130,246,0.2)]",
   },
   epic: {
-    top: "bg-gradient-to-b from-purple-300 to-purple-400",
-    body: "bg-gradient-to-r from-purple-600 via-purple-400 to-purple-600 border-purple-500",
-    base: "bg-purple-800",
-    shadow: "shadow-purple-600/40",
-    glow: "bg-purple-300/30",
+    label: "Cực Hiếm",
+    bg: "bg-purple-100",
+    text: "text-purple-700",
+    border: "border-purple-300",
+    glow: "shadow-[0_0_20px_rgba(168,85,247,0.3)]",
   },
   legendary: {
-    top: "bg-gradient-to-b from-amber-300 to-amber-400",
-    body: "bg-gradient-to-r from-amber-600 via-amber-400 to-amber-600 border-amber-500",
-    base: "bg-amber-800",
-    shadow: "shadow-amber-600/50",
-    glow: "bg-amber-300/40",
+    label: "Huyền Thoại",
+    bg: "bg-gradient-to-r from-amber-300 to-yellow-400",
+    text: "text-amber-900",
+    border: "border-amber-400",
+    glow: "shadow-[0_0_30px_rgba(251,191,36,0.4)] ring-4 ring-amber-400/30",
   },
 };
 </script>
@@ -49,7 +49,7 @@ const rarityPedestal: Record<
       <div
         class="w-14 h-14 bg-accent rounded-[20px] flex items-center justify-center text-white shadow-xl shadow-accent/20"
       >
-        <Icon name="fluent-emoji:vase" class="text-3xl" />
+        <Icon name="fluent-emoji:crown" class="text-3xl" />
       </div>
       <div>
         <h2 class="text-3xl md:text-4xl font-black text-text font-heading">
@@ -72,16 +72,43 @@ const rarityPedestal: Record<
       >
         <!-- The Glass Display Case -->
         <div
-          class="w-full relative z-10 rounded-[40px] p-6 lg:p-8 flex flex-col items-center justify-center min-h-[280px] lg:min-h-[320px] shadow-sm backdrop-blur-2xl transition-all duration-300 group-hover:-translate-y-4 group-hover:shadow-xl border-[3px]"
+          class="w-full relative z-10 rounded-[40px] p-6 lg:p-8 flex flex-col items-center justify-center min-h-[300px] lg:min-h-[340px] shadow-sm backdrop-blur-2xl transition-all duration-300 group-hover:-translate-y-4 group-hover:shadow-xl border-[3px] mt-4"
           :class="[
             isUnlocked(item.id)
-              ? 'bg-white/70 border-white/80 cursor-pointer pointer-events-auto'
+              ? 'bg-white/70 cursor-pointer pointer-events-auto'
               : 'bg-slate-100/50 grayscale border-white/40 pointer-events-none',
-            item.rarity === 'legendary' && isUnlocked(item.id)
-              ? 'ring-4 ring-amber-400/30'
-              : '',
+            isUnlocked(item.id)
+              ? `${rarityConfig[item.rarity].border} ${rarityConfig[item.rarity].glow}`
+              : 'border-white/80',
           ]"
         >
+          <!-- Level/Rarity Badge -->
+          <div
+            v-if="isUnlocked(item.id)"
+            class="absolute -top-4 inset-x-0 mx-auto w-max px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest shadow-md z-30 flex items-center gap-1.5 border-[2px] border-white/80 backdrop-blur-md"
+            :class="[
+              rarityConfig[item.rarity].bg,
+              rarityConfig[item.rarity].text,
+            ]"
+          >
+            <Icon
+              v-if="item.rarity === 'legendary'"
+              name="fluent-emoji:star"
+              class="text-sm"
+            />
+            <Icon
+              v-else-if="item.rarity === 'epic'"
+              name="fluent-emoji:sparkles"
+              class="text-sm"
+            />
+            <Icon
+              v-else-if="item.rarity === 'rare'"
+              name="fluent-emoji:gem-stone"
+              class="text-sm"
+            />
+            {{ rarityConfig[item.rarity].label }}
+          </div>
+
           <!-- Floating Sparkles (Legendary only) -->
           <div
             v-if="item.rarity === 'legendary' && isUnlocked(item.id)"
@@ -99,7 +126,7 @@ const rarityPedestal: Record<
 
           <!-- Artifact Icon or Chest -->
           <div
-            class="w-24 h-24 lg:w-32 lg:h-32 mb-6 flex items-center justify-center relative transition-transform duration-500 group-hover:scale-110"
+            class="w-24 h-24 lg:w-32 lg:h-32 mb-6 mt-2 flex items-center justify-center relative transition-transform duration-500 group-hover:scale-110"
             :class="isUnlocked(item.id) ? 'group-hover:-rotate-6' : ''"
           >
             <template v-if="isUnlocked(item.id)">
