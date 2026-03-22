@@ -17,11 +17,9 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
 
-  // Autodiscover icons from local @iconify-json dependencies
+  // Let nuxt-icon handle discovery automatically to save build memory
   icon: {
-    serverBundle: {
-      collections: ["fluent", "fluent-emoji", "lucide"],
-    },
+    serverBundle: "auto",
   },
 
   i18n: {
