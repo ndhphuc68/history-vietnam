@@ -19,7 +19,7 @@ const tellFact = () => {
 <template>
   <div v-if="dailyFact" class="w-full max-w-4xl mx-auto px-4 py-8">
     <div
-      class="bg-white rounded-[40px] shadow-[0_20px_60px_rgba(0,0,0,0.08)] border-4 border-accent/20 overflow-hidden group hover:shadow-[0_30px_80px_rgba(0,0,0,0.12)] transition-all duration-500 relative"
+      class="bg-white dark:bg-slate-800 rounded-[40px] shadow-[0_20px_60px_rgba(0,0,0,0.08)] border-4 border-accent/20 overflow-hidden group hover:shadow-[0_30px_80px_rgba(0,0,0,0.12)] transition-all duration-500 relative"
     >
       <!-- Background highlights -->
       <div

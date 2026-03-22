@@ -63,12 +63,12 @@ const getConfettiIcon = () => {
       >
         <!-- Backdrop -->
         <div
-          class="absolute inset-0 bg-white/10 backdrop-blur-sm pointer-events-auto"
+          class="absolute inset-0 bg-white/10 dark:bg-slate-900/40 backdrop-blur-sm pointer-events-auto"
           @click="close"
         ></div>
 
         <div
-          class="relative bg-white rounded-[40px] shadow-[0_30px_100px_rgba(0,0,0,0.2)] p-10 max-w-sm w-full text-center border-[8px] border-primary pointer-events-auto animate-bounce-in"
+          class="relative bg-white dark:bg-slate-800 rounded-[40px] shadow-[0_30px_100px_rgba(0,0,0,0.2)] p-10 max-w-sm w-full text-center border-[8px] border-primary dark:border-primary/50 pointer-events-auto animate-bounce-in"
         >
           <!-- Confetti Effect -->
           <div

@@ -44,7 +44,7 @@ const colorClasses: Record<string, string> = {
       class="max-w-5xl mx-auto relative z-10 animate-fade-in flex flex-col items-center"
     >
       <div
-        class="inline-block px-6 py-2 mb-8 font-black rounded-full text-lg shadow-md border-2 border-white transform -rotate-1"
+        class="inline-block px-6 py-2 mb-8 font-black rounded-full text-lg shadow-md border-2 border-white dark:border-slate-800 transform -rotate-1"
         :class="colorClasses[accentColor]"
       >
         <Icon :name="icon" class="mr-2" /> {{ tag }}

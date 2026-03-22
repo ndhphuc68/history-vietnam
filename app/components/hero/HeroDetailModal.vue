@@ -39,19 +39,19 @@ watch(
       >
         <!-- Backdrop -->
         <div
-          class="absolute inset-0 bg-text/80 backdrop-blur-md"
+          class="absolute inset-0 bg-text/80 dark:bg-slate-950/90 backdrop-blur-md"
           @click="close"
         ></div>
 
         <!-- Modal Content -->
         <div
-          class="relative w-full max-w-5xl max-h-[90vh] bg-white rounded-[40px] shadow-2xl overflow-hidden flex flex-col md:flex-row animate-scale-up"
+          class="relative w-full max-w-5xl max-h-[90vh] bg-white dark:bg-slate-900 rounded-[40px] shadow-2xl overflow-hidden flex flex-col md:flex-row animate-scale-up"
         >
           <!-- Hero Portrait Section -->
           <div
             class="relative w-full md:w-[40%] h-64 md:h-auto bg-background overflow-hidden"
           >
-            <img
+            <NuxtImg
               :src="hero.image"
               :alt="hero.name"
               class="w-full h-full object-cover"
@@ -63,7 +63,7 @@ watch(
             <!-- Decoration -->
             <div class="absolute top-6 left-6 flex flex-col gap-2">
               <div
-                class="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-lg"
+                class="bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-lg"
               >
                 <span
                   class="text-[10px] font-black text-primary uppercase tracking-widest"
@@ -89,7 +89,7 @@ watch(
             <!-- Close Button -->
             <button
               @click="close"
-              class="absolute top-6 right-6 w-12 h-12 bg-background text-text rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-md group z-10"
+              class="absolute top-6 right-6 w-12 h-12 bg-background dark:bg-slate-800 text-text dark:text-gray-100 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-md group z-10"
             >
               <Icon
                 name="fluent:dismiss-24-filled"
@@ -100,7 +100,7 @@ watch(
             <div class="space-y-10">
               <!-- Basic Info Grid -->
               <div
-                class="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-background p-8 rounded-[32px] border-2 border-secondary/20"
+                class="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-background dark:bg-slate-800/50 p-8 rounded-[32px] border-2 border-secondary/20 dark:border-slate-700"
               >
                 <div class="flex flex-col gap-1">
                   <span
@@ -143,7 +143,7 @@ watch(
               <!-- Fun Fact Section (Standout Card) -->
               <section
                 v-if="hero.funFact"
-                class="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-[32px] border-2 border-amber-200 shadow-inner"
+                class="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/40 dark:to-orange-950/40 p-8 rounded-[32px] border-2 border-amber-200 dark:border-amber-800/50 shadow-inner"
               >
                 <div
                   class="absolute -top-4 -right-4 w-24 h-24 bg-amber-200/20 rounded-full blur-2xl"
@@ -154,12 +154,14 @@ watch(
                   >
                     <Icon name="fluent-emoji:light-bulb" class="text-2xl" />
                   </div>
-                  <h3 class="text-xl font-black text-amber-900">
+                  <h3
+                    class="text-xl font-black text-amber-900 dark:text-amber-200"
+                  >
                     {{ $t("hero_detail.fun_fact_title") }}
                   </h3>
                 </div>
                 <p
-                  class="text-amber-800 text-lg leading-relaxed font-bold italic relative z-10"
+                  class="text-amber-800 dark:text-amber-300 text-lg leading-relaxed font-bold italic relative z-10"
                 >
                   "{{ hero.funFact }}"
                 </p>
@@ -178,7 +180,7 @@ watch(
                   </h3>
                 </div>
                 <p
-                  class="text-text/80 text-lg leading-relaxed font-medium text-justify bg-white/50 p-6 rounded-3xl border border-primary/10"
+                  class="text-text/80 dark:text-gray-300 text-lg leading-relaxed font-medium text-justify bg-white/50 dark:bg-slate-800/50 p-6 rounded-3xl border border-primary/10 dark:border-slate-700"
                 >
                   {{ hero.description }}
                 </p>
@@ -200,7 +202,7 @@ watch(
                   <li
                     v-for="(achievement, idx) in hero.achievements"
                     :key="idx"
-                    class="bg-white p-5 rounded-3xl border-2 border-secondary/10 flex items-start gap-4 transition-all hover:border-secondary/40 hover:bg-secondary/5 group/item"
+                    class="bg-white dark:bg-slate-800/50 p-5 rounded-3xl border-2 border-secondary/10 dark:border-slate-700 flex items-start gap-4 transition-all hover:border-secondary/40 hover:bg-secondary/5 group/item"
                   >
                     <div
                       class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center group-hover/item:scale-125 transition-transform"

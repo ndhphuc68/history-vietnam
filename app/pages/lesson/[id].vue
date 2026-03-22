@@ -74,7 +74,7 @@ const finishLesson = () => {
       class="flex-1 flex items-center justify-center p-6 z-10 animate-fade-in"
     >
       <div
-        class="bg-white rounded-[50px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] p-6 md:p-10 max-w-2xl w-full mx-auto border-8 border-white text-center flex flex-col items-center"
+        class="bg-white dark:bg-slate-800 rounded-[50px] shadow-[rgba(0,0,0,0.16)_0px_1px_4px] p-6 md:p-10 max-w-2xl w-full mx-auto border-8 border-white dark:border-slate-800 text-center flex flex-col items-center"
       >
         <!-- Lesson Thumbnail -->
         <div

@@ -76,7 +76,7 @@ onUnmounted(() => {
     <transition name="fade-pop">
       <div
         v-if="showBubble && mascotStore.message"
-        class="mb-4 max-w-[200px] md:max-w-xs bg-white p-4 rounded-3xl shadow-2xl border-4 border-primary/20 relative pointer-events-auto cursor-pointer group"
+        class="mb-4 max-w-[200px] md:max-w-xs bg-white dark:bg-slate-800 p-4 rounded-3xl shadow-2xl border-4 border-primary/20 relative pointer-events-auto cursor-pointer group"
         @click="showBubble = false"
       >
         <p class="text-sm md:text-base font-bold text-text leading-tight">
@@ -84,7 +84,7 @@ onUnmounted(() => {
         </p>
         <!-- Triangle tail -->
         <div
-          class="absolute bottom-[-16px] right-8 w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[16px] border-t-white"
+          class="absolute bottom-[-16px] right-8 w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[16px] border-t-white dark:border-t-slate-800"
         ></div>
 
         <!-- Close hint -->

@@ -43,7 +43,7 @@ useSeoMeta({
       <div class="grid grid-cols-1 gap-8">
         <!-- Section 1 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-accent transform hover:scale-[1.01] transition-transform"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-accent transform hover:scale-[1.01] transition-transform"
         >
           <div class="flex items-start gap-6">
             <div
@@ -68,7 +68,7 @@ useSeoMeta({
 
         <!-- Section 2 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-secondary transform hover:scale-[1.01] transition-transform"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-secondary transform hover:scale-[1.01] transition-transform"
         >
           <div class="flex items-start gap-6">
             <div
@@ -90,7 +90,7 @@ useSeoMeta({
 
         <!-- Section 3 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-primary transform hover:scale-[1.01] transition-transform"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-primary transform hover:scale-[1.01] transition-transform"
         >
           <div class="flex items-start gap-6">
             <div
@@ -112,7 +112,7 @@ useSeoMeta({
 
         <!-- Section 4 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-text transform hover:scale-[1.01] transition-transform"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-b-8 border-text transform hover:scale-[1.01] transition-transform"
         >
           <div class="flex items-start gap-6">
             <div

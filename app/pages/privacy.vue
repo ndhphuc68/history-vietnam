@@ -46,7 +46,7 @@ useSeoMeta({
           class="bg-gradient-to-r from-secondary to-text p-1 rounded-[40px] shadow-2xl"
         >
           <div
-            class="bg-white p-8 md:p-10 rounded-[38px] flex flex-col md:flex-row items-center gap-8"
+            class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[38px] flex flex-col md:flex-row items-center gap-8"
           >
             <div
               class="w-32 h-32 bg-secondary/10 rounded-full flex items-center justify-center flex-shrink-0 animate-bounce-slow"
@@ -66,7 +66,7 @@ useSeoMeta({
 
         <!-- Section 1 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-secondary"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-secondary"
         >
           <div class="flex items-start gap-6">
             <div
@@ -88,7 +88,7 @@ useSeoMeta({
 
         <!-- Section 2 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-accent"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-accent"
         >
           <div class="flex items-start gap-6">
             <div
@@ -113,11 +113,11 @@ useSeoMeta({
 
         <!-- New Section: Rescue Code -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-blue-500"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-blue-500"
         >
           <div class="flex items-start gap-6">
             <div
-              class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center flex-shrink-0"
+              class="w-14 h-14 bg-blue-50 dark:bg-blue-900/30 rounded-2xl flex items-center justify-center flex-shrink-0"
             >
               <Icon name="fluent-emoji:key" class="text-3xl" />
             </div>
@@ -135,7 +135,7 @@ useSeoMeta({
 
         <!-- Section 4 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-primary"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-primary"
         >
           <div class="flex items-start gap-6">
             <div
@@ -157,7 +157,7 @@ useSeoMeta({
 
         <!-- Section 5 -->
         <div
-          class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-text"
+          class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-text"
         >
           <div class="flex items-start gap-6">
             <div

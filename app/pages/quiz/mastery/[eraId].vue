@@ -145,7 +145,7 @@ onMounted(loadEraQuestions);
       </NuxtLink>
 
       <div
-        class="flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-md border-2 border-primary/10 transition-all"
+        class="flex items-center gap-4 bg-white dark:bg-slate-800 px-6 py-3 rounded-full shadow-md border-2 border-primary/10 dark:border-slate-700 transition-all"
       >
         <div class="flex items-center gap-1">
           <Icon
@@ -188,7 +188,7 @@ onMounted(loadEraQuestions);
           <!-- Success Screen -->
           <div
             v-if="quizFinished"
-            class="bg-white rounded-[50px] p-12 text-center shadow-2xl border-8 border-amber-400 relative overflow-hidden"
+            class="bg-white dark:bg-slate-800 rounded-[50px] p-12 text-center shadow-2xl border-8 border-amber-400 relative overflow-hidden"
           >
             <div
               class="absolute -top-10 -right-10 w-40 h-40 bg-amber-400/10 rounded-full blur-3xl"
@@ -214,7 +214,7 @@ onMounted(loadEraQuestions);
           <!-- Game Over Screen -->
           <div
             v-else
-            class="bg-white rounded-[50px] p-12 text-center shadow-2xl border-8 border-red-400"
+            class="bg-white dark:bg-slate-800 rounded-[50px] p-12 text-center shadow-2xl border-8 border-red-400"
           >
             <Icon name="fluent-emoji:ghost" class="text-9xl mb-6 mx-auto" />
             <h2

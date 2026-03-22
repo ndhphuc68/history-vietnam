@@ -42,7 +42,7 @@ const rarities = [
   >
     <!-- Status Filter -->
     <div
-      class="flex p-2 bg-white/50 backdrop-blur-md rounded-[24px] border-2 border-primary/5 shadow-inner w-full md:w-auto overflow-x-auto no-scrollbar"
+      class="flex p-2 bg-white/50 dark:bg-slate-800/50 backdrop-blur-md rounded-[24px] border-2 border-primary/5 dark:border-slate-700 shadow-inner w-full md:w-auto overflow-x-auto no-scrollbar"
     >
       <button
         v-for="statusItem in statuses"
@@ -52,7 +52,7 @@ const rarities = [
         :class="
           status === statusItem.id
             ? 'bg-primary text-white shadow-lg'
-            : 'text-text/40 hover:text-text hover:bg-white/50'
+            : 'text-text/40 hover:text-text hover:bg-white/50 dark:hover:bg-slate-700/50'
         "
       >
         <Icon :name="statusItem.icon" />
@@ -65,7 +65,7 @@ const rarities = [
       <select
         :value="rarity"
         @change="(e: any) => emit('update:rarity', e.target.value)"
-        class="w-full pl-6 pr-12 py-3 bg-white/50 backdrop-blur-md rounded-2xl font-black text-text border-2 border-primary/5 outline-none appearance-none focus:border-primary/30 transition-all cursor-pointer"
+        class="w-full pl-6 pr-12 py-3 bg-white/50 dark:bg-slate-800/50 backdrop-blur-md rounded-2xl font-black text-text border-2 border-primary/5 dark:border-slate-700 outline-none appearance-none focus:border-primary/30 transition-all cursor-pointer"
       >
         <option v-for="r in rarities" :key="r.id" :value="r.id">
           {{ $t(r.label) }}

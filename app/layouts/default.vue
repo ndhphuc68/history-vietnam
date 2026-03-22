@@ -28,6 +28,11 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 
+const colorMode = useColorMode();
+const toggleTheme = () => {
+  colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
+};
+
 // Close menu when route changes
 watch(
   () => route.path,
@@ -57,7 +62,9 @@ onMounted(() => {
 <template>
   <div class="min-h-screen flex flex-col bg-background">
     <!-- Navigation Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <header
+      class="bg-white dark:bg-slate-900 shadow-sm sticky top-0 z-50 transition-colors"
+    >
       <nav
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
       >
@@ -111,17 +118,17 @@ onMounted(() => {
               />
             </button>
             <div
-              class="absolute top-full left-0 w-64 bg-white border-4 border-primary/5 shadow-2xl rounded-[24px] py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all z-[60]"
+              class="absolute top-full left-0 w-64 bg-white dark:bg-slate-800 border-4 border-primary/5 shadow-2xl rounded-[24px] py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all z-[60]"
             >
               <!-- Arrow handle -->
               <div
-                class="absolute -top-2 left-8 w-4 h-4 bg-white rotate-45 border-l-4 border-t-4 border-primary/5"
+                class="absolute -top-2 left-8 w-4 h-4 bg-white dark:bg-slate-800 rotate-45 border-l-4 border-t-4 border-primary/5"
               ></div>
 
               <NuxtLink
                 :to="localePath('/gallery')"
-                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-primary/10 hover:text-primary transition-all active:scale-95"
-                active-class="text-primary bg-primary/10"
+                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-primary/10 hover:text-primary dark:hover:bg-primary/20 dark:hover:text-primary transition-all active:scale-95"
+                active-class="text-primary bg-primary/10 dark:bg-primary/20"
               >
                 <div
                   class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center transition-transform group-hover:scale-110"
@@ -132,8 +139,8 @@ onMounted(() => {
               </NuxtLink>
               <NuxtLink
                 :to="localePath('/badges')"
-                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-amber-50 hover:text-amber-600 transition-all active:scale-95"
-                active-class="text-amber-600 bg-amber-50"
+                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-amber-50 hover:text-amber-600 dark:hover:bg-amber-900/20 dark:hover:text-amber-400 transition-all active:scale-95"
+                active-class="text-amber-600 bg-amber-50 dark:text-amber-400 dark:bg-amber-900/20"
               >
                 <div
                   class="w-12 h-12 rounded-xl bg-amber-100/50 flex items-center justify-center transition-transform group-hover:scale-110"
@@ -147,8 +154,8 @@ onMounted(() => {
               </NuxtLink>
               <NuxtLink
                 :to="localePath('/mailbox')"
-                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-blue-50 hover:text-blue-600 transition-all active:scale-95"
-                active-class="text-blue-600 bg-blue-50"
+                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-blue-50 hover:text-blue-600 dark:hover:bg-blue-900/20 dark:hover:text-blue-400 transition-all active:scale-95"
+                active-class="text-blue-600 bg-blue-50 dark:text-blue-400 dark:bg-blue-900/20"
               >
                 <div
                   class="w-12 h-12 rounded-xl bg-blue-100/50 flex items-center justify-center transition-transform group-hover:scale-110"
@@ -180,17 +187,17 @@ onMounted(() => {
               />
             </button>
             <div
-              class="absolute top-full left-0 w-64 bg-white border-4 border-primary/5 shadow-2xl rounded-[24px] py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all z-[60]"
+              class="absolute top-full left-0 w-64 bg-white dark:bg-slate-800 border-4 border-primary/5 shadow-2xl rounded-[24px] py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all z-[60]"
             >
               <!-- Arrow handle -->
               <div
-                class="absolute -top-2 left-8 w-4 h-4 bg-white rotate-45 border-l-4 border-t-4 border-primary/5"
+                class="absolute -top-2 left-8 w-4 h-4 bg-white dark:bg-slate-800 rotate-45 border-l-4 border-t-4 border-primary/5"
               ></div>
 
               <NuxtLink
                 :to="localePath('/quiz')"
-                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-purple-50 hover:text-purple-600 transition-all active:scale-95"
-                active-class="text-purple-600 bg-purple-50"
+                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-purple-50 hover:text-purple-600 dark:hover:bg-purple-900/20 dark:hover:text-purple-400 transition-all active:scale-95"
+                active-class="text-purple-600 bg-purple-50 dark:text-purple-400 dark:bg-purple-900/20"
               >
                 <div
                   class="w-12 h-12 rounded-xl bg-purple-100/50 flex items-center justify-center transition-transform group-hover:scale-110"
@@ -204,8 +211,8 @@ onMounted(() => {
               </NuxtLink>
               <NuxtLink
                 :to="localePath('/glossary')"
-                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-emerald-50 hover:text-emerald-600 transition-all active:scale-95"
-                active-class="text-emerald-600 bg-emerald-50"
+                class="flex items-center gap-4 px-4 py-4 mx-3 rounded-2xl text-lg font-black text-text hover:bg-emerald-50 hover:text-emerald-600 dark:hover:bg-emerald-900/20 dark:hover:text-emerald-400 transition-all active:scale-95"
+                active-class="text-emerald-600 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20"
               >
                 <div
                   class="w-12 h-12 rounded-xl bg-emerald-100/50 flex items-center justify-center transition-transform group-hover:scale-110"
@@ -228,9 +235,35 @@ onMounted(() => {
             @open-avatar="showAvatarModal = true"
           />
 
+          <!-- Theme Toggle -->
+          <ClientOnly>
+            <button
+              @click="toggleTheme"
+              aria-label="Toggle Dark Mode"
+              class="w-10 h-10 flex flex-shrink-0 items-center justify-center rounded-full bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 transition-all border border-gray-200 dark:border-slate-700 shadow-sm"
+            >
+              <Icon
+                v-if="$colorMode.value === 'dark'"
+                name="fluent-emoji:last-quarter-moon-face"
+                class="text-xl"
+              />
+              <Icon v-else name="fluent-emoji:sun-with-face" class="text-xl" />
+            </button>
+            <template #fallback>
+              <div
+                class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
+              >
+                <Icon
+                  name="fluent-emoji:sun-with-face"
+                  class="text-xl opacity-50"
+                />
+              </div>
+            </template>
+          </ClientOnly>
+
           <!-- Language Switcher -->
           <div
-            class="flex items-center bg-gray-100 rounded-full p-1 border border-gray-200"
+            class="flex items-center bg-gray-100 dark:bg-slate-800 rounded-full p-1 border border-gray-200 dark:border-slate-700"
           >
             <NuxtLink
               v-for="loc in locales"
@@ -275,7 +308,7 @@ onMounted(() => {
       >
         <div
           v-if="isMenuOpen"
-          class="md:hidden bg-white border-t border-gray-100 shadow-xl overflow-hidden"
+          class="md:hidden bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-slate-800 shadow-xl overflow-hidden"
         >
           <div class="px-4 py-6 space-y-4">
             <NuxtLink
@@ -350,7 +383,23 @@ onMounted(() => {
       @close="showAvatarModal = false"
     />
     <!-- Footer -->
-    <footer class="bg-text text-white pt-20 pb-10 relative overflow-hidden">
+    <footer
+      class="bg-[#1A535C] dark:bg-slate-950 text-white pt-20 pb-10 relative overflow-hidden transition-colors duration-500"
+    >
+      <!-- Premium Decorative Background -->
+      <div
+        class="absolute inset-0 opacity-[0.03] dark:opacity-[0.05] pointer-events-none"
+      >
+        <div
+          class="absolute inset-0 bg-[url('/images/pattern-dots.png')] bg-repeat"
+        ></div>
+      </div>
+      <div
+        class="absolute -top-24 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl"
+      ></div>
+      <div
+        class="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"
+      ></div>
       <!-- Decoration -->
       <div
         class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-accent to-secondary"

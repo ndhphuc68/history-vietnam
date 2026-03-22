@@ -19,7 +19,7 @@ const progressPercent = computed(() => {
     class="fixed top-24 left-1/2 -translate-x-1/2 z-[40] w-full max-w-xl px-4 pointer-events-none"
   >
     <div
-      class="bg-white/90 backdrop-blur-xl rounded-[32px] shadow-2xl border-4 border-white p-6 pointer-events-auto transform hover:scale-[1.02] transition-all duration-500"
+      class="bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl rounded-[32px] shadow-2xl border-4 border-white dark:border-slate-800 p-6 pointer-events-auto transform hover:scale-[1.02] transition-all duration-500"
     >
       <div class="flex items-center gap-6">
         <!-- Progress Circle/Icon -->
@@ -69,7 +69,7 @@ const progressPercent = computed(() => {
 
           <!-- Progress Bar -->
           <div
-            class="h-4 bg-background rounded-full overflow-hidden border-2 border-white mb-2 shadow-inner"
+            class="h-4 bg-background dark:bg-slate-800 rounded-full overflow-hidden border-2 border-white dark:border-slate-700 mb-2 shadow-inner"
           >
             <div
               class="h-full bg-gradient-to-r from-primary to-secondary transition-all duration-1000 ease-out relative"

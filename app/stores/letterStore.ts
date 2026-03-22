@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import type { HeroLetter } from '~/types/history';
+import localforage from 'localforage';
 
 export const useLetterStore = defineStore('letter', () => {
   const collectedLetterIds = ref<string[]>([]);
@@ -28,16 +29,20 @@ export const useLetterStore = defineStore('letter', () => {
     });
 
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('collected-letters');
+      let saved = await localforage.getItem<string>('collected-letters');
+      if (!saved) {
+        saved = localStorage.getItem('collected-letters');
+        if (saved) await localforage.setItem('collected-letters', saved);
+      }
       if (saved) {
         collectedLetterIds.value = JSON.parse(saved);
       }
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('collected-letters', JSON.stringify(collectedLetterIds.value));
+      await localforage.setItem('collected-letters', JSON.stringify(collectedLetterIds.value));
     }
   };
 

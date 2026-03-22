@@ -61,7 +61,7 @@ const uncollectedLetters = computed(() => {
       <!-- Empty State -->
       <div
         v-if="collectedLetters.length === 0"
-        class="text-center py-20 bg-white/50 rounded-[40px] border-4 border-dashed border-primary/20"
+        class="text-center py-20 bg-white/50 dark:bg-slate-800/50 rounded-[40px] border-4 border-dashed border-primary/20"
       >
         <Icon
           name="fluent-emoji:empty-mailbox"
@@ -128,7 +128,7 @@ const uncollectedLetters = computed(() => {
           <div
             v-for="letter in uncollectedLetters"
             :key="letter.id"
-            class="aspect-[3/4] bg-white/20 rounded-xl border-2 border-dashed border-text/10 flex flex-col items-center justify-center p-4 text-center group"
+            class="aspect-[3/4] bg-white/20 dark:bg-slate-800/20 rounded-xl border-2 border-dashed border-text/10 dark:border-slate-700 flex flex-col items-center justify-center p-4 text-center group"
           >
             <Icon
               name="fluent-emoji:closed-mailbox-with-lowered-flag"

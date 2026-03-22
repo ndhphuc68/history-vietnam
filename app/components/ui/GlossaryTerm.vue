@@ -62,12 +62,12 @@ onMounted(() => {
     >
       <div
         v-if="isOpen && termData"
-        class="absolute z-[100] bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 md:w-80 bg-white rounded-2xl shadow-2xl p-5 border-2 border-secondary/20 animate-float"
+        class="absolute z-[100] bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 md:w-80 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-5 border-2 border-secondary/20 animate-float"
         @click.stop
       >
         <!-- Arrow -->
         <div
-          class="absolute top-full left-1/2 -translate-x-1/2 w-4 h-4 bg-white border-r-2 border-b-2 border-secondary/20 rotate-45 -mt-2"
+          class="absolute top-full left-1/2 -translate-x-1/2 w-4 h-4 bg-white dark:bg-slate-800 border-r-2 border-b-2 border-secondary/20 rotate-45 -mt-2"
         ></div>
 
         <div class="relative">
@@ -84,17 +84,19 @@ onMounted(() => {
             </span>
           </div>
 
-          <h4 class="text-xl font-black text-text mb-2">
+          <h4 class="text-xl font-black text-text dark:text-white mb-2">
             {{ termData.term }}
           </h4>
-          <p class="text-text/80 text-sm font-bold leading-relaxed">
+          <p
+            class="text-text/80 dark:text-slate-300 text-sm font-bold leading-relaxed"
+          >
             {{ termData.definition }}
           </p>
 
           <div class="mt-4 flex justify-end">
             <button
               @click="isOpen = false"
-              class="text-[10px] font-black text-text/40 hover:text-primary uppercase"
+              class="text-[10px] font-black text-text/40 dark:text-slate-500 hover:text-primary dark:hover:text-primary uppercase"
             >
               {{ $t("glossary_ui.got_it") }}
             </button>

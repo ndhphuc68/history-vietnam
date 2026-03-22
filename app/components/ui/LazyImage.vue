@@ -46,7 +46,7 @@ onUnmounted(() => {
 <template>
   <div ref="imgRef" class="lazy-image-container relative">
     <transition name="fade">
-      <img
+      <NuxtImg
         v-if="isVisible"
         :src="props.src"
         :alt="props.alt"
@@ -54,15 +54,16 @@ onUnmounted(() => {
         loading="lazy"
         v-bind="$attrs"
         @error="
-          (e) => {
-            (e.target as HTMLImageElement).src =
-              '/images/history/default-thumb.png';
+          (e: Event) => {
+            if (e.target)
+              (e.target as HTMLImageElement).src =
+                '/images/history/default-thumb.png';
           }
         "
       />
       <div
         v-else
-        class="absolute inset-0 bg-gray-100/50 animate-pulse flex items-center justify-center"
+        class="absolute inset-0 bg-gray-100/50 dark:bg-slate-800/50 animate-pulse flex items-center justify-center"
       >
         <!-- Optional: Add a small icon or loading state -->
         <span class="text-2xl opacity-20">🖼️</span>

@@ -56,7 +56,7 @@ useSeoMeta({
       <div class="mt-24 text-center relative z-20">
         <NuxtLink
           :to="localePath('/')"
-          class="inline-flex items-center gap-3 px-12 py-5 bg-white text-text font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-xl border-4 border-text/5 group"
+          class="inline-flex items-center gap-3 px-12 py-5 bg-white dark:bg-slate-800 text-text dark:text-gray-100 font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-xl border-4 border-text/5 dark:border-slate-700 group"
         >
           <Icon
             name="fluent-emoji:house"

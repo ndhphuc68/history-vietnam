@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import type { Artifact } from '~/types/history';
+import localforage from 'localforage';
 
 export const useArtifactStore = defineStore('artifact', () => {
   const unlockedArtifactIds = ref<string[]>([]);
@@ -31,7 +32,11 @@ export const useArtifactStore = defineStore('artifact', () => {
     });
 
     if (typeof window === 'undefined') return;
-    const saved = localStorage.getItem(STORAGE_KEY);
+    let saved = await localforage.getItem<string>(STORAGE_KEY);
+    if (!saved) {
+      saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) await localforage.setItem(STORAGE_KEY, saved);
+    }
     if (!saved) return;
     try {
       unlockedArtifactIds.value = JSON.parse(saved);
@@ -40,9 +45,9 @@ export const useArtifactStore = defineStore('artifact', () => {
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window === 'undefined') return;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(unlockedArtifactIds.value));
+    await localforage.setItem(STORAGE_KEY, JSON.stringify(unlockedArtifactIds.value));
   };
 
   const checkArtifactUnlock = (lessonId: string) => {

@@ -3,6 +3,7 @@ import { useQuizStore } from '~/stores/quizStore';
 import { useProgressStore } from '~/stores/progressStore';
 import { useHeroStore } from '~/stores/heroStore';
 import type { Badge, HistoryMap, Era } from '~/types/history';
+import localforage from 'localforage';
 
 export const useBadgeStore = defineStore('badge', () => {
   const earnedBadgeIds = ref<string[]>([]);
@@ -39,22 +40,25 @@ export const useBadgeStore = defineStore('badge', () => {
     });
 
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('earned-badges');
-      if (saved) {
-        earnedBadgeIds.value = JSON.parse(saved);
-      }
-      const streak = localStorage.getItem('quiz-streak');
+      let saved = await localforage.getItem<string>('earned-badges');
+      if (!saved) { saved = localStorage.getItem('earned-badges'); if(saved) await localforage.setItem('earned-badges', saved); }
+      if (saved) earnedBadgeIds.value = JSON.parse(saved);
+
+      let streak = await localforage.getItem<string>('quiz-streak');
+      if (!streak) { streak = localStorage.getItem('quiz-streak'); if(streak) await localforage.setItem('quiz-streak', streak); }
       if (streak) perfectQuizStreak.value = parseInt(streak);
-      const views = localStorage.getItem('glossary-views');
+
+      let views = await localforage.getItem<string>('glossary-views');
+      if (!views) { views = localStorage.getItem('glossary-views'); if(views) await localforage.setItem('glossary-views', views); }
       if (views) viewedGlossaryCount.value = parseInt(views);
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('earned-badges', JSON.stringify(earnedBadgeIds.value));
-      localStorage.setItem('quiz-streak', perfectQuizStreak.value.toString());
-      localStorage.setItem('glossary-views', viewedGlossaryCount.value.toString());
+      await localforage.setItem('earned-badges', JSON.stringify(earnedBadgeIds.value));
+      await localforage.setItem('quiz-streak', perfectQuizStreak.value.toString());
+      await localforage.setItem('glossary-views', viewedGlossaryCount.value.toString());
     }
   };
 

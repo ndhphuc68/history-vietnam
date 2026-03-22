@@ -1,4 +1,5 @@
 import { useHistoryStore } from './historyStore';
+import localforage from 'localforage';
 
 export const useProgressStore = defineStore('progress', () => {
   const completedLessons = ref<string[]>([]);
@@ -11,11 +12,20 @@ export const useProgressStore = defineStore('progress', () => {
 
   const STORAGE_KEY = 'history-progress';
 
-  const initialize = () => {
+  const initialize = async () => {
     if (typeof window === 'undefined') return;
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) return;
     try {
+      let saved = await localforage.getItem<string>(STORAGE_KEY);
+      
+      // Fallback migration from localStorage
+      if (!saved) {
+        saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          await localforage.setItem(STORAGE_KEY, saved);
+        }
+      }
+
+      if (!saved) return;
       const parsed = JSON.parse(saved);
       completedLessons.value = Array.isArray(parsed.completedLessons) ? parsed.completedLessons : [];
       unlockedBadges.value = Array.isArray(parsed.unlockedBadges) ? parsed.unlockedBadges : [];
@@ -28,7 +38,7 @@ export const useProgressStore = defineStore('progress', () => {
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window === 'undefined') return;
     const payload = {
       completedLessons: completedLessons.value,
@@ -38,7 +48,7 @@ export const useProgressStore = defineStore('progress', () => {
       userName: userName.value,
       selectedAvatar: selectedAvatar.value,
     };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+    await localforage.setItem(STORAGE_KEY, JSON.stringify(payload));
   };
 
   const completeLesson = async (lessonId: string, options?: { quizBonus?: boolean }) => {

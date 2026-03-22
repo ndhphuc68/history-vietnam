@@ -12,33 +12,33 @@ const categoryConfig: Record<
 > = {
   "Chức danh": {
     icon: "fluent-emoji:crown",
-    color: "text-amber-600",
-    bg: "bg-amber-50",
-    border: "border-amber-200",
+    color: "text-amber-600 dark:text-amber-400",
+    bg: "bg-amber-50 dark:bg-amber-900/40",
+    border: "border-amber-200 dark:border-amber-800/50",
   },
   "Sự vật": {
     icon: "fluent-emoji:shield",
-    color: "text-primary",
-    bg: "bg-primary/5",
-    border: "border-primary/10",
+    color: "text-primary dark:text-primary",
+    bg: "bg-primary/5 dark:bg-primary/20",
+    border: "border-primary/10 dark:border-primary/30",
   },
   "Khái niệm": {
     icon: "fluent-emoji:light-bulb",
-    color: "text-secondary",
-    bg: "bg-secondary/5",
-    border: "border-secondary/10",
+    color: "text-secondary dark:text-cyan-400",
+    bg: "bg-secondary/5 dark:bg-cyan-900/40",
+    border: "border-secondary/10 dark:border-cyan-800/50",
   },
   "Địa danh": {
     icon: "fluent-emoji:world-map",
-    color: "text-emerald-600",
-    bg: "bg-emerald-50",
-    border: "border-emerald-200",
+    color: "text-emerald-600 dark:text-emerald-400",
+    bg: "bg-emerald-50 dark:bg-emerald-950/40",
+    border: "border-emerald-200 dark:border-emerald-800/50",
   },
   "Thời kỳ": {
     icon: "fluent-emoji:hourglass-done",
-    color: "text-rose-600",
-    bg: "bg-rose-50",
-    border: "border-rose-200",
+    color: "text-rose-600 dark:text-rose-400",
+    bg: "bg-rose-50 dark:bg-rose-950/40",
+    border: "border-rose-200 dark:border-rose-800/50",
   },
 };
 
@@ -46,9 +46,9 @@ const config = computed(() => {
   return (
     categoryConfig[props.item.category || ""] || {
       icon: "fluent-emoji:scroll",
-      color: "text-text/60",
-      bg: "bg-background",
-      border: "border-text/10",
+      color: "text-text/60 dark:text-slate-400",
+      bg: "bg-background dark:bg-slate-900",
+      border: "border-text/10 dark:border-slate-800",
     }
   );
 });
@@ -56,7 +56,9 @@ const config = computed(() => {
 
 <template>
   <div
-    class="relative group bg-white rounded-[40px] p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-secondary/20 flex flex-col h-full"
+    v-if="item"
+    class="relative group bg-white dark:bg-slate-800/80 backdrop-blur-md rounded-[40px] p-8 shadow-sm h-full flex flex-col transition-all duration-300 border-2 border-transparent dark:border-slate-700 hover:border-secondary/40 shadow-xl"
+    role="article"
     :id="'term-' + item.id"
   >
     <!-- Category Icon Floating -->
@@ -76,14 +78,14 @@ const config = computed(() => {
         {{ item.category || "Chung" }}
       </span>
       <h3
-        class="text-3xl font-black text-text group-hover:text-secondary transition-colors leading-tight"
+        class="text-3xl font-black text-text dark:text-gray-100 group-hover:text-secondary transition-colors leading-tight"
       >
         {{ item.term }}
       </h3>
     </div>
 
     <!-- Definition -->
-    <p class="text-text/70 font-bold leading-relaxed flex-1">
+    <p class="text-text/70 dark:text-gray-300 font-bold leading-relaxed flex-1">
       {{ item.definition }}
     </p>
 
@@ -96,7 +98,7 @@ const config = computed(() => {
 
     <!-- Bottom Ornament -->
     <div
-      class="mt-6 pt-6 border-t-2 border-dashed border-text/5 flex items-center gap-2"
+      class="mt-6 pt-6 border-t-2 border-dashed border-text/5 dark:border-white/10 flex items-center gap-2"
     >
       <div class="w-2 h-2 rounded-full bg-secondary/30"></div>
       <div class="flex-1 h-0.5 bg-secondary/10"></div>

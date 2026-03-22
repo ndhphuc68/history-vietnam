@@ -31,7 +31,7 @@ const statusText = computed(() => {
   >
     <!-- The Unified Card Container -->
     <div
-      class="relative w-full max-w-[340px] md:max-w-none bg-white rounded-[2.5rem] shadow-xl md:shadow-none border-[6px] border-white md:border-0 overflow-hidden transition-all duration-500 hover:shadow-2xl md:hover:shadow-none"
+      class="relative w-full max-w-[340px] md:max-w-none bg-white dark:bg-slate-800 rounded-[2.5rem] shadow-xl md:shadow-none border-[6px] border-white dark:border-slate-800 md:border-0 overflow-hidden transition-all duration-500 hover:shadow-2xl md:hover:shadow-none"
       :class="[
         isCurrent
           ? 'ring-4 ring-primary ring-offset-4 animate-[pulse-soft_3s_infinite]'
@@ -68,7 +68,7 @@ const statusText = computed(() => {
           <!-- Done Ribbon (Pinned to Top-Left of Image) -->
           <div v-if="isCompleted" class="absolute top-4 left-4 z-10">
             <div
-              class="bg-green-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg border-2 border-white flex items-center gap-1 uppercase tracking-widest"
+              class="bg-green-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg border-2 border-white dark:border-slate-800 flex items-center gap-1 uppercase tracking-widest"
             >
               <Icon name="fluent-emoji:check-mark-button" />
               {{ $t("map.node.completed") }}
@@ -81,7 +81,7 @@ const statusText = computed(() => {
             class="absolute top-4 right-4 z-10 animate-bounce"
           >
             <div
-              class="bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full shadow-lg border-2 border-white flex items-center gap-1 uppercase tracking-widest"
+              class="bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full shadow-lg border-2 border-white dark:border-slate-800 flex items-center gap-1 uppercase tracking-widest"
             >
               <Icon name="fluent-emoji:star" /> {{ $t("map.node.current") }}
             </div>

@@ -27,6 +27,25 @@ const filteredBadges = computed(() => {
   });
 });
 
+const itemsPerPage = 10;
+const visibleCount = ref(itemsPerPage);
+
+const visibleBadges = computed(() => {
+  return filteredBadges.value.slice(0, visibleCount.value);
+});
+
+const loadMore = () => {
+  visibleCount.value += itemsPerPage;
+};
+
+// Reset count when filters change
+watch(
+  () => [props.status, props.rarity],
+  () => {
+    visibleCount.value = itemsPerPage;
+  },
+);
+
 const rarityConfig = {
   common: {
     classes: "bg-slate-100 text-slate-600 border-slate-200",
@@ -70,7 +89,7 @@ const rarityConfig = {
 
     <div
       v-if="filteredBadges.length === 0"
-      class="text-center py-20 bg-white/30 backdrop-blur-md rounded-[40px] border-4 border-dashed border-primary/10"
+      class="text-center py-20 bg-white/30 dark:bg-slate-800/30 backdrop-blur-md rounded-[40px] border-4 border-dashed border-primary/10 dark:border-slate-700"
     >
       <Icon
         name="fluent-emoji:magnifying-glass-tilted-left"
@@ -88,18 +107,18 @@ const rarityConfig = {
       class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8"
     >
       <div
-        v-for="(badge, index) in filteredBadges"
+        v-for="(badge, index) in visibleBadges"
         :key="badge.id"
         class="group relative"
         :style="{ transitionDelay: `${index * 30}ms` }"
       >
         <!-- Badge Card Wrapper -->
         <div
-          class="aspect-[4/5] bg-white/70 backdrop-blur-md rounded-[48px] p-8 sm:p-10 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 relative overflow-hidden h-full group-hover:shadow-2xl group-hover:-translate-y-2"
+          class="aspect-[4/5] bg-white/70 dark:bg-slate-800/70 backdrop-blur-md rounded-[48px] p-8 sm:p-10 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 relative overflow-hidden h-full group-hover:shadow-2xl group-hover:-translate-y-2"
           :class="[
             getBadgeStatus(badge.id)
-              ? `border-white shadow-xl ${rarityConfig[badge.rarity]?.glow} scale-100`
-              : 'border-slate-100 opacity-60 grayscale scale-95 hover:grayscale-0 hover:opacity-100 hover:scale-100',
+              ? `border-white dark:border-slate-700 shadow-xl ${rarityConfig[badge.rarity]?.glow} scale-100`
+              : 'border-slate-100 dark:border-slate-800 opacity-60 grayscale scale-95 hover:grayscale-0 hover:opacity-100 hover:scale-100',
           ]"
         >
           <!-- Shiny Glint Effect for Rare+ -->
@@ -114,7 +133,7 @@ const rarityConfig = {
             :class="
               getBadgeStatus(badge.id)
                 ? 'bg-background shadow-lg shadow-primary/5'
-                : 'bg-slate-100/50'
+                : 'bg-slate-100/50 dark:bg-slate-700/50'
             "
           >
             <Icon
@@ -164,6 +183,18 @@ const rarityConfig = {
         </div>
       </div>
     </TransitionGroup>
+
+    <div
+      v-if="visibleCount < filteredBadges.length"
+      class="flex justify-center mt-12"
+    >
+      <button
+        @click="loadMore"
+        class="px-8 py-3 bg-white/80 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-700 text-secondary font-bold rounded-full border-2 border-secondary/20 dark:border-slate-700 transition-all shadow-sm"
+      >
+        Xem thêm Huy hiệu
+      </button>
+    </div>
   </div>
 </template>
 

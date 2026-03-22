@@ -9,7 +9,13 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/icon",
     "@nuxtjs/i18n",
+    "@nuxt/image",
+    "@nuxtjs/color-mode",
   ],
+
+  colorMode: {
+    classSuffix: "",
+  },
 
   // Autodiscover icons from local @iconify-json dependencies
   icon: {
@@ -101,7 +107,10 @@ export default defineNuxtConfig({
 
   vite: {
     optimizeDeps: {
-      include: ["canvas-confetti"],
+      include: [
+        "canvas-confetti",
+        "localforage", // CJS
+      ],
     },
   },
 });

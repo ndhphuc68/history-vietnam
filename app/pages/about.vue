@@ -81,7 +81,7 @@ useSeoMeta({
             class="absolute inset-0 bg-primary rounded-[50px] rotate-3 group-hover:rotate-1 transition-transform duration-500"
           ></div>
           <div
-            class="relative bg-white p-2 rounded-[50px] shadow-2xl border-8 border-white overflow-hidden aspect-square flex items-center justify-center"
+            class="relative bg-white dark:bg-slate-800 p-2 rounded-[50px] shadow-2xl border-8 border-white dark:border-slate-800 overflow-hidden aspect-square flex items-center justify-center"
           >
             <UiLazyImage
               src="/images/about/mission.png"
@@ -95,7 +95,7 @@ useSeoMeta({
       <!-- Values Grid -->
       <div class="grid md:grid-cols-3 gap-8">
         <div
-          class="bg-white p-10 rounded-[40px] shadow-xl border-t-8 border-secondary hover:scale-[1.02] transition-all"
+          class="bg-white dark:bg-slate-800 p-10 rounded-[40px] shadow-xl border-t-8 border-secondary hover:scale-[1.02] transition-all"
         >
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:open-book" />
@@ -109,7 +109,7 @@ useSeoMeta({
         </div>
 
         <div
-          class="bg-white p-10 rounded-[40px] shadow-xl border-t-8 border-accent hover:scale-[1.02] transition-all"
+          class="bg-white dark:bg-slate-800 p-10 rounded-[40px] shadow-xl border-t-8 border-accent hover:scale-[1.02] transition-all"
         >
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:artist-palette" />
@@ -123,7 +123,7 @@ useSeoMeta({
         </div>
 
         <div
-          class="bg-white p-10 rounded-[40px] shadow-xl border-t-8 border-primary hover:scale-[1.02] transition-all"
+          class="bg-white dark:bg-slate-800 p-10 rounded-[40px] shadow-xl border-t-8 border-primary hover:scale-[1.02] transition-all"
         >
           <div class="text-5xl mb-6">
             <Icon name="fluent-emoji:shield" />
@@ -151,7 +151,7 @@ useSeoMeta({
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
           <!-- Quote 1 -->
           <div
-            class="bg-orange-50/50 p-8 rounded-[30px] border-l-8 border-primary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-orange-50/50 dark:bg-orange-950/20 p-8 rounded-[30px] border-l-8 border-primary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p
@@ -163,7 +163,7 @@ useSeoMeta({
 
           <!-- Quote 2 -->
           <div
-            class="bg-teal-50 p-8 rounded-[30px] border-l-8 border-secondary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-teal-50 dark:bg-teal-950/20 p-8 rounded-[30px] border-l-8 border-secondary shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p
@@ -175,7 +175,7 @@ useSeoMeta({
 
           <!-- Quote 3 -->
           <div
-            class="bg-yellow-50 p-8 rounded-[30px] border-l-8 border-accent shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-yellow-50 dark:bg-yellow-950/20 p-8 rounded-[30px] border-l-8 border-accent shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p
@@ -187,7 +187,7 @@ useSeoMeta({
 
           <!-- Quote 4 -->
           <div
-            class="bg-pink-50 p-8 rounded-[30px] border-l-8 border-pink-500 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
+            class="bg-pink-50 dark:bg-pink-950/20 p-8 rounded-[30px] border-l-8 border-pink-500 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow"
           >
             <span class="text-4xl opacity-50">“</span>
             <p
@@ -201,7 +201,7 @@ useSeoMeta({
 
       <!-- Developer Section -->
       <div
-        class="mt-24 bg-white/60 backdrop-blur-sm rounded-[50px] p-8 md:p-12 border-4 border-dashed border-text/10 animate-slide-up"
+        class="mt-24 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm rounded-[50px] p-8 md:p-12 border-4 border-dashed border-text/10 animate-slide-up"
       >
         <div class="flex flex-col md:flex-row items-center gap-12">
           <div class="flex-1">
@@ -228,7 +228,7 @@ useSeoMeta({
             </div>
           </div>
           <div
-            class="w-32 h-32 md:w-48 md:h-48 bg-secondary rounded-full flex items-center justify-center shadow-inner animate-pulse overflow-hidden border-4 border-white"
+            class="w-32 h-32 md:w-48 md:h-48 bg-secondary rounded-full flex items-center justify-center shadow-inner animate-pulse overflow-hidden border-4 border-white dark:border-slate-800"
           >
             <UiLazyImage
               src="https://avatars.githubusercontent.com/u/56473628?s=400&u=2dcf6cce3f2b30203a1dbf669dd7c4175bbecb77&v=4"
@@ -241,7 +241,7 @@ useSeoMeta({
 
       <!-- Final Message -->
       <div
-        class="mt-32 bg-text rounded-[60px] p-12 md:p-20 text-center text-white relative overflow-hidden group"
+        class="mt-32 bg-slate-900 dark:bg-slate-950 rounded-[60px] p-12 md:p-20 text-center text-white relative overflow-hidden group"
       >
         <!-- Decoration -->
         <div
@@ -266,7 +266,7 @@ useSeoMeta({
           </NuxtLink>
           <NuxtLink
             :to="localePath('/lesson')"
-            class="px-12 py-5 bg-white text-text font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
+            class="px-12 py-5 bg-white dark:bg-slate-800 text-text dark:text-gray-100 font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
           >
             {{ $t("about.final.lesson_list") }}
           </NuxtLink>

@@ -112,7 +112,7 @@ onMounted(() => {
     <div class="max-w-7xl mx-auto px-4 md:px-8 -mt-8 relative z-20">
       <!-- Search & Category Filter (Fixed/Sticky for ease of use) -->
       <div
-        class="sticky top-24 z-30 bg-white/80 backdrop-blur-xl rounded-[32px] shadow-2xl p-4 md:p-6 mb-12 border-2 border-secondary/10 flex flex-col items-center gap-6"
+        class="sticky top-24 z-30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-[32px] shadow-2xl p-4 md:p-6 mb-12 border-2 border-secondary/10 dark:border-slate-800 flex flex-col items-center gap-6"
       >
         <div class="flex flex-col md:flex-row w-full gap-4 items-center">
           <div class="relative flex-1 w-full group">
@@ -124,7 +124,7 @@ onMounted(() => {
               v-model="searchQuery"
               type="text"
               :placeholder="$t('glossary.search_placeholder')"
-              class="w-full pl-14 pr-8 py-5 bg-background/50 rounded-2xl border-4 border-transparent focus:border-secondary focus:bg-white transition-all outline-none font-black text-xl text-text placeholder:text-text/20"
+              class="w-full pl-14 pr-8 py-5 bg-background/50 dark:bg-slate-900/50 rounded-2xl border-4 border-transparent focus:border-secondary focus:bg-white dark:focus:bg-slate-800 transition-all outline-none font-black text-xl text-text dark:text-white placeholder:text-text/20 dark:placeholder:text-slate-500"
             />
           </div>
 
@@ -139,9 +139,10 @@ onMounted(() => {
               class="px-6 py-2 rounded-2xl font-bold whitespace-nowrap transition-all duration-300 shadow-[0px_2px_8px_0px_rgba(99,99,99,0.2)]"
               :class="
                 selectedCategory === cat
-                  ? 'bg-secondary text-white scale-105'
-                  : 'bg-white text-text hover:bg-secondary/5 border-2 border-transparent hover:shadow-md'
+                  ? 'bg-secondary text-slate-50 scale-105'
+                  : 'bg-white dark:bg-slate-800 text-text dark:text-gray-100 hover:bg-secondary/5 border-2 border-transparent hover:shadow-md'
               "
+              :title="`Lọc theo danh mục ${cat}`"
             >
               {{ cat }}
             </button>
@@ -167,16 +168,19 @@ onMounted(() => {
               :key="letter"
               :id="'section-' + letter"
               class="scroll-mt-32 mb-10"
+              role="region"
+              :aria-labelledby="`letter-header-${letter}`"
             >
               <!-- Letter Header (Ancient Tablet Style) -->
               <div class="flex items-center gap-6 mb-10 group">
                 <div
-                  class="w-20 h-20 bg-text text-white rounded-3xl flex items-center justify-center text-5xl font-black shadow-2xl transform transition-transform group-hover:rotate-12"
+                  :id="`letter-header-${letter}`"
+                  class="w-20 h-20 bg-text dark:bg-slate-700 text-slate-50 dark:text-white rounded-3xl flex items-center justify-center text-5xl font-black shadow-2xl transform transition-transform group-hover:rotate-12"
                 >
                   {{ letter }}
                 </div>
                 <div
-                  class="flex-1 h-1 bg-gradient-to-r from-text/20 to-transparent rounded-full"
+                  class="flex-1 h-1 bg-gradient-to-r from-text/20 dark:from-slate-700 to-transparent rounded-full font-heading"
                 ></div>
               </div>
 
@@ -194,20 +198,23 @@ onMounted(() => {
           <!-- Empty State -->
           <div
             v-else
-            class="text-center py-32 bg-white/50 backdrop-blur-md rounded-[60px] border-4 border-dashed border-text/10"
+            class="text-center py-32 bg-white/50 dark:bg-slate-900/40 backdrop-blur-md rounded-[60px] border-4 border-dashed border-text/10 dark:border-slate-800"
           >
             <div
               class="inline-flex items-center justify-center w-40 h-40 bg-background rounded-full mb-8 animate-bounce-slow"
             >
               <Icon
                 name="fluent-emoji:magnifying-glass-tilted-left"
-                class="text-8xl opacity-40"
+                class="text-8xl opacity-60"
+                title="Không tìm thấy kết quả"
               />
             </div>
-            <h3 class="text-4xl font-black text-text/40 mb-4">
+            <h3
+              class="text-4xl font-black text-text/40 dark:text-slate-400 mb-4"
+            >
               {{ $t("glossary.empty.title") }}
             </h3>
-            <p class="text-xl text-text/30 font-bold">
+            <p class="text-xl text-text/30 dark:text-slate-500 font-bold">
               {{ $t("glossary.empty.subtitle") }}
             </p>
             <button
@@ -215,7 +222,8 @@ onMounted(() => {
                 searchQuery = '';
                 selectedCategory = $t('glossary.categories.all');
               "
-              class="mt-10 px-10 py-4 bg-secondary text-white font-black rounded-2xl hover:scale-110 active:scale-95 transition-all shadow-xl"
+              class="mt-10 px-10 py-4 bg-secondary text-slate-50 font-black rounded-2xl hover:scale-110 active:scale-95 transition-all shadow-xl"
+              title="Xóa bộ lọc và tìm lại"
             >
               {{ $t("glossary.empty.button") }}
             </button>

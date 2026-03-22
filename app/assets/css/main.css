@@ -12,6 +12,14 @@
   --text: #1A535C;
 }
 
+.dark {
+  --primary: #FF6B6B;
+  --secondary: #4ECDC4;
+  --accent: #FDE047;
+  --background: #0F172A;
+  --text: #F8FAFC;
+}
+
 body {
   @apply bg-background text-text font-body;
 }
@@ -25,5 +33,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  @apply bg-white rounded-2xl shadow-md p-6 border-b-4 border-gray-200;
+  @apply bg-white dark:bg-slate-800 rounded-2xl shadow-md p-6 border-b-4 border-gray-200 dark:border-slate-700;
 }

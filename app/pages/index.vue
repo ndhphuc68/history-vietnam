@@ -48,7 +48,7 @@ useSeoMeta({
       class="relative pt-20 pb-32 flex flex-col items-center text-center px-4"
     >
       <div
-        class="absolute inset-0 -z-10 bg-gradient-to-b from-background to-white"
+        class="absolute inset-0 -z-10 bg-gradient-to-b from-background to-white dark:to-slate-950"
       />
 
       <div
@@ -94,7 +94,7 @@ useSeoMeta({
         </NuxtLink>
         <NuxtLink
           :to="localePath('/gallery')"
-          class="bg-white border-4 border-secondary text-secondary text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full hover:bg-secondary hover:text-white transition-all shadow-lg flex items-center justify-center"
+          class="bg-white dark:bg-slate-800 border-4 border-secondary text-secondary dark:text-secondary-light text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full hover:bg-secondary hover:text-white transition-all shadow-lg flex items-center justify-center"
         >
           {{ $t("nav.collection") }}
         </NuxtLink>
@@ -102,7 +102,7 @@ useSeoMeta({
 
       <!-- Hero Image -->
       <div
-        class="mt-16 md:mt-20 w-full max-w-[1600px] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-[8px] md:border-[16px] border-white transform hover:scale-[1.005] transition-all duration-700 ease-out cursor-pointer group px-0"
+        class="mt-16 md:mt-20 w-full max-w-[1600px] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-[8px] md:border-[16px] border-white dark:border-slate-800 transform hover:scale-[1.005] transition-all duration-700 ease-out cursor-pointer group px-0"
       >
         <UiLazyImage
           src="/images/banner/banner.png"
@@ -141,7 +141,7 @@ useSeoMeta({
         >
           <!-- Card 1 -->
           <div
-            class="group bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-accent hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group bg-white dark:bg-slate-800 rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-accent hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
           >
             <div
               class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"
@@ -169,7 +169,7 @@ useSeoMeta({
 
           <!-- Card 2 -->
           <div
-            class="group bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-secondary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group bg-white dark:bg-slate-800 rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-secondary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
             style="transition-delay: 100ms"
           >
             <div
@@ -198,7 +198,7 @@ useSeoMeta({
 
           <!-- Card 3 -->
           <div
-            class="group sm:col-span-2 lg:col-span-1 bg-white rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-primary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            class="group sm:col-span-2 lg:col-span-1 bg-white dark:bg-slate-800 rounded-[40px] md:rounded-[50px] p-6 md:p-8 lg:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border-b-[12px] border-primary hover:shadow-[0_40px_80px_rgba(0,0,0,0.1)] hover:-translate-y-4 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
             style="transition-delay: 200ms"
           >
             <div

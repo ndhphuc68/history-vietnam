@@ -66,7 +66,7 @@ const rarityClasses = {
       class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-text/40 backdrop-blur-md"
     >
       <div
-        class="bg-white rounded-[48px] shadow-2xl max-w-lg w-full overflow-hidden relative border-8 border-white"
+        class="bg-white dark:bg-slate-800 rounded-[48px] shadow-2xl max-w-lg w-full overflow-hidden relative border-8 border-white dark:border-slate-800"
       >
         <!-- Shine effect -->
         <div

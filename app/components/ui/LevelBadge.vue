@@ -35,7 +35,7 @@ const progressWidth = computed(() => `${progressStore.levelProgress}%`);
   >
     <!-- Main Badge -->
     <div
-      class="flex items-center gap-3 bg-white/80 backdrop-blur-md border-2 border-slate-100 p-1.5 pr-4 rounded-full shadow-sm hover:shadow-md transition-all"
+      class="flex items-center gap-3 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-2 border-slate-100 dark:border-slate-800 p-1.5 pr-4 rounded-full shadow-sm hover:shadow-md transition-all"
     >
       <div
         class="w-10 h-10 rounded-full flex items-center justify-center relative overflow-hidden shrink-0 cursor-pointer active:scale-95 transition-transform"
@@ -64,10 +64,14 @@ const progressWidth = computed(() => `${progressStore.levelProgress}%`);
             stroke-width="3"
             class="transition-colors duration-500"
             :class="{
-              'text-slate-200': progressStore.avatarFrame === 'slate',
-              'text-blue-200': progressStore.avatarFrame === 'blue',
-              'text-purple-200': progressStore.avatarFrame === 'purple',
-              'text-amber-200': progressStore.avatarFrame === 'amber',
+              'text-slate-200 dark:text-slate-700':
+                progressStore.avatarFrame === 'slate',
+              'text-blue-200 dark:text-blue-900':
+                progressStore.avatarFrame === 'blue',
+              'text-purple-200 dark:text-purple-900':
+                progressStore.avatarFrame === 'purple',
+              'text-amber-200 dark:text-amber-900':
+                progressStore.avatarFrame === 'amber',
             }"
           />
           <circle
@@ -94,16 +98,16 @@ const progressWidth = computed(() => `${progressStore.levelProgress}%`);
 
       <!-- Info -->
       <div
-        class="hidden sm:block cursor-pointer hover:bg-slate-50/50 px-2 py-1 rounded-xl transition-colors active:scale-95"
+        class="hidden sm:block cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-800/50 px-2 py-1 rounded-xl transition-colors active:scale-95"
         @click="emit('open-avatar')"
       >
         <div
-          class="text-[10px] font-black text-text/40 uppercase tracking-widest leading-none mb-1"
+          class="text-[10px] font-black text-text/40 dark:text-text/60 uppercase tracking-widest leading-none mb-1"
         >
           {{ $t(progressStore.userTitle) }}
         </div>
         <div
-          class="text-sm font-black text-text leading-none flex items-center gap-1"
+          class="text-sm font-black text-text dark:text-gray-100 leading-none flex items-center gap-1"
         >
           {{ progressStore.userName || $t("user_titles.default_name") }}
           <span class="text-[10px] font-bold text-primary ml-1">
@@ -124,7 +128,7 @@ const progressWidth = computed(() => `${progressStore.levelProgress}%`);
     >
       <div
         v-if="isHovered"
-        class="absolute top-full right-0 mt-3 w-64 bg-white rounded-[24px] shadow-2xl p-5 border-4 border-primary/5 z-50 overflow-hidden"
+        class="absolute top-full right-0 mt-3 w-64 bg-white dark:bg-slate-800 rounded-[24px] shadow-2xl p-5 border-4 border-primary/5 dark:border-slate-700 z-50 overflow-hidden"
       >
         <div class="relative z-10">
           <div class="flex justify-between items-end mb-4">

@@ -111,7 +111,7 @@ const progressLineHeightPercent = computed(() => {
         class="mb-16 md:mb-24 w-full flex justify-start md:justify-center z-20 px-4 md:px-0"
       >
         <div
-          class="relative w-full max-w-[calc(100%-1rem)] md:max-w-2xl bg-white p-6 md:p-8 rounded-[30px] md:rounded-[50px] shadow-2xl overflow-hidden border-4 md:border-8 border-white group hover:scale-[1.05] transition-transform duration-500 ml-2 md:ml-0"
+          class="relative w-full max-w-[calc(100%-1rem)] md:max-w-2xl bg-white dark:bg-slate-800 p-6 md:p-8 rounded-[30px] md:rounded-[50px] shadow-2xl overflow-hidden border-4 md:border-8 border-white dark:border-slate-800 group hover:scale-[1.05] transition-transform duration-500 ml-2 md:ml-0"
         >
           <!-- Locked Overlay for Era -->
           <div
@@ -119,7 +119,7 @@ const progressLineHeightPercent = computed(() => {
             class="absolute inset-0 bg-slate-900/10 backdrop-blur-[2px] z-30 flex items-center justify-center"
           >
             <div
-              class="bg-white/90 p-4 rounded-3xl shadow-xl flex items-center gap-3"
+              class="bg-white/90 dark:bg-slate-800/90 p-4 rounded-3xl shadow-xl flex items-center gap-3"
             >
               <Icon
                 name="fluent:lock-closed-24-filled"
@@ -143,7 +143,7 @@ const progressLineHeightPercent = computed(() => {
 
           <div class="relative flex flex-col items-center text-center gap-4">
             <div
-              class="w-20 h-20 md:w-24 md:h-24 bg-white rounded-2xl md:rounded-3xl flex items-center justify-center p-1 shadow-xl group-hover:scale-110 transition-transform duration-500 overflow-hidden border-4 border-background"
+              class="w-20 h-20 md:w-24 md:h-24 bg-white dark:bg-slate-800 rounded-2xl md:rounded-3xl flex items-center justify-center p-1 shadow-xl group-hover:scale-110 transition-transform duration-500 overflow-hidden border-4 border-background dark:border-slate-700"
             >
               <UiLazyImage
                 src="/images/vn-flag-official.png"
@@ -200,7 +200,7 @@ const progressLineHeightPercent = computed(() => {
         </div>
 
         <div
-          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white border-[6px] border-primary rounded-full shadow-2xl z-30 transition-all hover:scale-125 flex items-center justify-center p-1"
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white dark:bg-slate-800 border-[6px] border-primary rounded-full shadow-2xl z-30 transition-all hover:scale-125 flex items-center justify-center p-1"
         >
           <div
             class="w-full h-full bg-primary/20 rounded-full animate-ping"

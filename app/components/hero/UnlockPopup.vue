@@ -58,7 +58,7 @@ watch(
 
       <!-- Content -->
       <div
-        class="relative w-full max-w-sm bg-white rounded-[40px] overflow-hidden shadow-2xl animate-scale-up"
+        class="relative w-full max-w-sm bg-white dark:bg-slate-800 rounded-[40px] overflow-hidden shadow-2xl animate-scale-up border-8 border-white dark:border-slate-800"
       >
         <!-- Celebration Header -->
         <div class="bg-gradient-to-br from-accent to-primary p-6 text-center">
@@ -78,7 +78,7 @@ watch(
           <div
             class="w-48 h-64 bg-background rounded-3xl border-8 border-accent shadow-inner mb-6 flex items-center justify-center relative overflow-hidden group"
           >
-            <img
+            <NuxtImg
               :src="unlockedHero?.image"
               :alt="unlockedHero?.name"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

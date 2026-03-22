@@ -6,6 +6,17 @@ const artifactStore = useArtifactStore();
 
 const isUnlocked = (id: string) => true; // Temporary unlock for preview
 
+const itemsPerPage = 8;
+const visibleCount = ref(itemsPerPage);
+
+const visibleArtifacts = computed(() => {
+  return artifactStore.allArtifacts.slice(0, visibleCount.value);
+});
+
+const loadMore = () => {
+  visibleCount.value += itemsPerPage;
+};
+
 // Colors and styles for the display case based on level/rarity
 const rarityConfig: Record<
   Artifact["rarity"],
@@ -66,7 +77,7 @@ const rarityConfig: Record<
       class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-20 lg:gap-x-10 lg:gap-y-24"
     >
       <div
-        v-for="item in artifactStore.allArtifacts"
+        v-for="item in visibleArtifacts"
         :key="item.id"
         class="group relative flex flex-col items-center"
       >
@@ -75,17 +86,17 @@ const rarityConfig: Record<
           class="w-full relative z-10 rounded-[40px] p-6 lg:p-8 flex flex-col items-center justify-center min-h-[300px] lg:min-h-[340px] shadow-sm backdrop-blur-2xl transition-all duration-300 group-hover:-translate-y-4 group-hover:shadow-xl border-[3px] mt-4"
           :class="[
             isUnlocked(item.id)
-              ? 'bg-white/70 cursor-pointer pointer-events-auto'
-              : 'bg-slate-100/50 grayscale border-white/40 pointer-events-none',
+              ? 'bg-white/70 dark:bg-slate-800/70 cursor-pointer pointer-events-auto'
+              : 'bg-slate-100/50 dark:bg-slate-900/50 grayscale border-white/40 dark:border-slate-800 pointer-events-none',
             isUnlocked(item.id)
               ? `${rarityConfig[item.rarity].border} ${rarityConfig[item.rarity].glow}`
-              : 'border-white/80',
+              : 'border-white/80 dark:border-slate-800',
           ]"
         >
           <!-- Level/Rarity Badge -->
           <div
             v-if="isUnlocked(item.id)"
-            class="absolute -top-4 inset-x-0 mx-auto w-max px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest shadow-md z-30 flex items-center gap-1.5 border-[2px] border-white/80 backdrop-blur-md"
+            class="absolute -top-4 inset-x-0 mx-auto w-max px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest shadow-md z-30 flex items-center gap-1.5 border-[2px] border-white/80 dark:border-slate-700 backdrop-blur-md"
             :class="[
               rarityConfig[item.rarity].bg,
               rarityConfig[item.rarity].text,
@@ -144,7 +155,7 @@ const rarityConfig: Record<
                 class="absolute inset-0 flex items-center justify-center z-10"
               >
                 <div
-                  class="bg-black/10 w-12 h-12 rounded-full flex items-center justify-center backdrop-blur-md border border-white/20"
+                  class="bg-black/10 dark:bg-white/10 w-12 h-12 rounded-full flex items-center justify-center backdrop-blur-md border border-white/20 dark:border-white/10"
                 >
                   <Icon
                     name="ph:lock-key-fill"
@@ -176,13 +187,25 @@ const rarityConfig: Record<
           </div>
           <div v-else class="mt-4 flex items-center justify-center h-10">
             <span
-              class="text-[10px] uppercase tracking-widest font-black text-text/30 bg-black/5 px-4 py-2 rounded-full border border-black/5 shadow-inner"
+              class="text-[10px] uppercase tracking-widest font-black text-text/30 bg-black/5 dark:bg-white/5 px-4 py-2 rounded-full border border-black/5 dark:border-white/5 shadow-inner"
             >
               {{ $t("artifact_gallery.not_found") }}
             </span>
           </div>
         </div>
       </div>
+    </div>
+
+    <div
+      v-if="visibleCount < artifactStore.allArtifacts.length"
+      class="flex justify-center mt-20"
+    >
+      <button
+        @click="loadMore"
+        class="px-8 py-3 bg-white/80 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-700 text-secondary font-bold rounded-full border-2 border-secondary/20 dark:border-slate-700 transition-all shadow-sm"
+      >
+        Xem thêm Báu vật
+      </button>
     </div>
   </div>
 </template>

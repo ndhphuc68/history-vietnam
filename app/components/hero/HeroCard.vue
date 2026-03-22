@@ -28,7 +28,9 @@ const handleCardClick = () => {
     <div
       class="w-full h-full transition-all duration-300 shadow-xl rounded-[40px] overflow-hidden border-8 transform group-hover:-translate-y-3 group-hover:shadow-2xl"
       :class="
-        isUnlocked ? 'border-accent bg-white' : 'border-gray-200 bg-gray-50'
+        isUnlocked
+          ? 'border-accent bg-white dark:bg-slate-800'
+          : 'border-gray-200 bg-gray-50 dark:bg-slate-900'
       "
     >
       <!-- Locked State -->
@@ -50,7 +52,7 @@ const handleCardClick = () => {
       <template v-else>
         <!-- Image Section: Enlarged to 75% height -->
         <div class="relative h-[72%] overflow-hidden">
-          <img
+          <NuxtImg
             :src="hero.image"
             :alt="hero.name"
             class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
@@ -61,7 +63,7 @@ const handleCardClick = () => {
 
           <!-- Era Badge -->
           <div
-            class="absolute top-6 right-6 px-4 py-1.5 bg-white/95 backdrop-blur-sm rounded-full text-xs font-black text-text uppercase tracking-wider shadow-md"
+            class="absolute top-6 right-6 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-lg text-xs font-black text-text uppercase tracking-wider"
           >
             {{ hero.era }}
           </div>
@@ -69,10 +71,10 @@ const handleCardClick = () => {
 
         <!-- Info Section: Refined for larger scale -->
         <div
-          class="p-6 flex flex-col items-center text-center justify-center h-[28%] bg-white"
+          class="p-6 flex flex-col items-center text-center justify-center h-[28%] bg-white dark:bg-slate-800"
         >
           <h3
-            class="text-2xl md:text-3xl font-black text-text leading-tight mb-1 group-hover:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
+            class="text-2xl md:text-3xl font-black text-text dark:text-gray-100 leading-tight mb-1 group-hover:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
           >
             {{ hero.name }}
           </h3>

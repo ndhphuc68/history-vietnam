@@ -22,13 +22,13 @@ const isEraReadyForMastery = (eraId: string) => {
     <div v-for="era in historyData.eras.value" :key="era.id" class="mb-20">
       <!-- Era Header -->
       <div
-        class="flex items-end justify-between mb-10 border-b-4 border-gray-100 pb-6"
+        class="flex items-end justify-between mb-10 border-b-4 border-gray-100 dark:border-slate-800 pb-6"
       >
         <div class="flex items-center gap-6">
           <div
-            class="w-20 h-20 rounded-[32px] bg-white shadow-xl flex items-center justify-center border-4 border-white overflow-hidden transform rotate-3"
+            class="w-20 h-20 rounded-[32px] bg-white dark:bg-slate-800 shadow-xl flex items-center justify-center border-4 border-white dark:border-slate-800 overflow-hidden transform rotate-3"
           >
-            <img
+            <NuxtImg
               :src="historyData.getEraThumbnail(era.id)"
               class="w-full h-full object-cover"
             />
@@ -80,7 +80,7 @@ const isEraReadyForMastery = (eraId: string) => {
               )
             "
             :to="localePath(`/lesson/${level.lesson}`)"
-            class="block h-full bg-white rounded-[32px] p-6 border-4 transition-all hover:scale-[1.03] active:scale-[0.97] group border-primary/20 shadow-lg"
+            class="block h-full bg-white dark:bg-slate-800 rounded-[32px] p-6 border-4 transition-all hover:scale-[1.03] active:scale-[0.97] group border-primary/20 dark:border-slate-700 shadow-lg"
           >
             <div class="flex flex-col h-full">
               <div class="flex items-start justify-between mb-4">
@@ -131,12 +131,12 @@ const isEraReadyForMastery = (eraId: string) => {
           </NuxtLink>
           <div
             v-else
-            class="h-full bg-white rounded-[32px] p-6 border-4 border-gray-50 opacity-60 grayscale cursor-not-allowed"
+            class="h-full bg-white dark:bg-slate-800/50 rounded-[32px] p-6 border-4 border-gray-50 dark:border-slate-800 opacity-60 grayscale cursor-not-allowed"
           >
             <div class="flex flex-col h-full">
               <div class="flex items-start justify-between mb-4">
                 <div
-                  class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shadow-inner bg-gray-50"
+                  class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shadow-inner bg-gray-50 dark:bg-slate-900"
                 >
                   <Icon name="fluent-emoji:locked" class="text-gray-400" />
                 </div>
@@ -158,7 +158,7 @@ const isEraReadyForMastery = (eraId: string) => {
 
       <!-- Mastery Quiz CTA -->
       <div
-        class="bg-gradient-to-r from-secondary/5 to-primary/5 rounded-[40px] p-8 md:p-12 border-4 border-dashed border-gray-100 flex flex-col md:flex-row items-center justify-between gap-8"
+        class="bg-gradient-to-r from-secondary/5 to-primary/5 rounded-[40px] p-8 md:p-12 border-4 border-dashed border-gray-100 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-8"
         :class="{
           'opacity-50 grayscale pointer-events-none': !isEraReadyForMastery(
             era.id,

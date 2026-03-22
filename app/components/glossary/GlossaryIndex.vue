@@ -10,19 +10,20 @@ defineEmits<{
 </script>
 
 <template>
-  <div class="relative">
+  <div id="glossary-index" class="relative">
     <!-- Desktop Vertical Index -->
-    <div class="hidden lg:flex flex-col gap-3 sticky top-40">
+    <div class="hidden lg:flex flex-col gap-3">
       <button
         v-for="letter in availableLetters"
         :key="letter"
         @click="$emit('select', letter)"
-        class="w-11 h-11 rounded-2xl flex items-center justify-center font-black transition-all hover:scale-110 shadow-sm"
+        class="w-11 h-11 rounded-2xl flex items-center justify-center font-black transition-all hover:scale-110 shadow-sm border-2 border-transparent"
         :class="
           activeLetter === letter
-            ? 'bg-secondary text-white shadow-lg'
-            : 'bg-white text-text/40 hover:bg-secondary/10 hover:text-secondary'
+            ? 'bg-secondary text-slate-50 shadow-lg border-secondary/20'
+            : 'bg-white dark:bg-slate-800 text-text/40 dark:text-slate-400 hover:bg-secondary/10 hover:text-secondary dark:hover:bg-secondary/20 border-slate-100 dark:border-slate-700'
         "
+        :title="`Cuộn đến chữ ${letter}`"
       >
         {{ letter }}
       </button>
@@ -34,12 +35,13 @@ defineEmits<{
         v-for="letter in availableLetters"
         :key="letter"
         @click="$emit('select', letter)"
-        class="min-w-[44px] h-11 rounded-2xl flex items-center justify-center font-black transition-all shadow-sm flex-shrink-0"
+        class="min-w-[44px] h-11 rounded-2xl flex items-center justify-center font-black transition-all shadow-sm flex-shrink-0 border-2 border-transparent"
         :class="
           activeLetter === letter
-            ? 'bg-secondary text-white shadow-lg'
-            : 'bg-white text-text/40'
+            ? 'bg-secondary text-slate-50 shadow-lg border-secondary/20'
+            : 'bg-white dark:bg-slate-800 text-text/40 dark:text-slate-400 border-slate-100 dark:border-slate-700'
         "
+        :title="`Cuộn đến chữ ${letter}`"
       >
         {{ letter }}
       </button>

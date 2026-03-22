@@ -21,7 +21,7 @@ const rarityColors = {
 <template>
   <div class="max-w-7xl mx-auto px-6 mb-16">
     <div
-      class="bg-white/80 backdrop-blur-xl rounded-[40px] p-8 md:p-12 shadow-2xl border-4 border-primary/10 relative overflow-hidden group"
+      class="bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-[40px] p-8 md:p-12 shadow-2xl border-4 border-primary/10 dark:border-slate-700 relative overflow-hidden group"
     >
       <!-- Background Glow -->
       <div
@@ -40,7 +40,7 @@ const rarityColors = {
                 stroke="currentColor"
                 stroke-width="12"
                 fill="transparent"
-                class="text-slate-100"
+                class="text-slate-100 dark:text-slate-700"
               />
               <circle
                 cx="64"
@@ -85,7 +85,7 @@ const rarityColors = {
             <div
               v-for="(count, rarity) in badgeStore.stats"
               :key="rarity"
-              class="p-4 rounded-3xl bg-background border-2 border-primary/5 hover:border-primary/20 transition-all group/stat"
+              class="p-4 rounded-3xl bg-background border-2 border-primary/5 dark:border-slate-700 hover:border-primary/20 transition-all group/stat"
             >
               <div class="flex items-center gap-3 mb-2">
                 <div

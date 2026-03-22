@@ -1,4 +1,5 @@
 import { useHistoryStore } from './historyStore';
+import localforage from 'localforage';
 
 export const useHeroStore = defineStore('hero', () => {
   const unlockedHeroIds = ref<string[]>([]);
@@ -7,9 +8,13 @@ export const useHeroStore = defineStore('hero', () => {
 
   const STORAGE_KEY = 'history-hero-collection';
 
-  const initialize = () => {
+  const initialize = async () => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      let saved = await localforage.getItem<string>(STORAGE_KEY);
+      if (!saved) {
+        saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) await localforage.setItem(STORAGE_KEY, saved);
+      }
       if (saved) {
         try {
           unlockedHeroIds.value = JSON.parse(saved);
@@ -20,9 +25,9 @@ export const useHeroStore = defineStore('hero', () => {
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(unlockedHeroIds.value));
+      await localforage.setItem(STORAGE_KEY, JSON.stringify(unlockedHeroIds.value));
     }
   };
 

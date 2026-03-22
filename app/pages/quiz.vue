@@ -6,7 +6,7 @@ const localePath = useLocalePath();
     class="min-h-screen bg-background flex flex-col items-center justify-center p-4"
   >
     <div
-      class="text-center max-w-2xl bg-white p-12 rounded-[3rem] border-8 border-accent shadow-2xl transform rotate-1"
+      class="text-center max-w-2xl bg-white dark:bg-slate-800 p-12 rounded-[3rem] border-8 border-accent shadow-2xl transform rotate-1"
     >
       <Icon
         name="fluent-emoji:thinking-face"

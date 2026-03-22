@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import type { QuizAttempt } from "~/types/history";
+import localforage from "localforage";
 
 export const useQuizStore = defineStore("quiz", () => {
   // Record of best scores for each lesson/mastery quiz
@@ -13,19 +14,22 @@ export const useQuizStore = defineStore("quiz", () => {
   const currentLives = ref(3);
   const isGameOver = ref(false);
 
-  const initialize = () => {
+  const initialize = async () => {
     if (typeof window !== "undefined") {
-      const savedScores = localStorage.getItem("quiz-scores");
+      let savedScores = await localforage.getItem<string>("quiz-scores");
+      if (!savedScores) { savedScores = localStorage.getItem("quiz-scores"); if(savedScores) await localforage.setItem("quiz-scores", savedScores); }
       if (savedScores) quizScores.value = JSON.parse(savedScores);
-      const savedMastery = localStorage.getItem("mastered-quizzes");
+
+      let savedMastery = await localforage.getItem<string>("mastered-quizzes");
+      if (!savedMastery) { savedMastery = localStorage.getItem("mastered-quizzes"); if(savedMastery) await localforage.setItem("mastered-quizzes", savedMastery); }
       if (savedMastery) masteredQuizzes.value = JSON.parse(savedMastery);
     }
   };
 
-  const saveToStorage = () => {
+  const saveToStorage = async () => {
     if (typeof window !== "undefined") {
-      localStorage.setItem("quiz-scores", JSON.stringify(quizScores.value));
-      localStorage.setItem("mastered-quizzes", JSON.stringify(masteredQuizzes.value));
+      await localforage.setItem("quiz-scores", JSON.stringify(quizScores.value));
+      await localforage.setItem("mastered-quizzes", JSON.stringify(masteredQuizzes.value));
     }
   };
 

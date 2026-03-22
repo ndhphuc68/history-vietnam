@@ -67,7 +67,7 @@ const handleError = () => clearError({ redirect: localePath("/") });
         <NuxtLink
           :to="localePath('/map')"
           @click="clearError()"
-          class="px-10 py-4 bg-white text-text font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-text/5"
+          class="px-10 py-4 bg-white dark:bg-slate-800 text-text dark:text-gray-100 font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 border-2 border-text/5 dark:border-slate-700"
         >
           <Icon name="fluent-emoji:world-map" /> {{ $t("error_page.view_map") }}
         </NuxtLink>
@@ -75,7 +75,7 @@ const handleError = () => clearError({ redirect: localePath("/") });
 
       <!-- Secret Historical Fact -->
       <div
-        class="mt-20 p-6 bg-white/50 backdrop-blur-sm rounded-3xl border-2 border-dashed border-text/10 max-w-sm mx-auto"
+        class="mt-20 p-6 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm rounded-3xl border-2 border-dashed border-text/10 dark:border-slate-700 max-w-sm mx-auto"
       >
         <p class="text-sm font-bold text-text/60 italic">
           "{{ $t("error_page.did_you_know") }}"

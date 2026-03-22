@@ -65,7 +65,7 @@ const handleImport = () => {
       @click.self="emit('close')"
     >
       <div
-        class="bg-white w-full max-w-lg rounded-[40px] shadow-2xl overflow-hidden border-8 border-white animate-pop-in"
+        class="bg-white dark:bg-slate-800 w-full max-w-lg rounded-[40px] shadow-2xl overflow-hidden border-8 border-white dark:border-slate-800 animate-pop-in"
       >
         <!-- Header -->
         <div class="bg-primary p-8 text-center relative overflow-hidden">
@@ -109,7 +109,7 @@ const handleImport = () => {
 
             <div class="flex flex-col sm:flex-row gap-2">
               <div
-                class="flex-1 bg-slate-50 border-2 border-slate-100 rounded-2xl px-4 py-3 font-mono font-bold text-sm sm:text-base text-primary select-all break-all leading-relaxed"
+                class="flex-1 bg-slate-50 dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-700 rounded-2xl px-4 py-3 font-mono font-bold text-sm sm:text-base text-primary select-all break-all leading-relaxed"
               >
                 {{ rescueCode }}
               </div>
@@ -128,12 +128,12 @@ const handleImport = () => {
 
           <!-- Divider -->
           <div class="flex items-center gap-4 py-2">
-            <div class="flex-1 h-px bg-slate-100"></div>
+            <div class="flex-1 h-px bg-slate-100 dark:bg-slate-700"></div>
             <span
               class="text-[10px] font-black text-text/20 uppercase tracking-[0.2em]"
               >{{ $t("rescue_modal.or") }}</span
             >
-            <div class="flex-1 h-px bg-slate-100"></div>
+            <div class="flex-1 h-px bg-slate-100 dark:bg-slate-700"></div>
           </div>
 
           <!-- Import Section -->
@@ -156,7 +156,7 @@ const handleImport = () => {
                 v-model="importCode"
                 type="text"
                 :placeholder="$t('rescue_modal.input_placeholder')"
-                class="w-full bg-white border-4 border-slate-100 rounded-2xl px-6 py-4 font-bold text-text focus:border-secondary outline-none transition-all"
+                class="w-full bg-white dark:bg-slate-900 border-4 border-slate-100 dark:border-slate-700 rounded-2xl px-6 py-4 font-bold text-text focus:border-secondary outline-none transition-all"
                 :class="{
                   'border-red-200': status === 'error',
                   'border-green-200': status === 'success',

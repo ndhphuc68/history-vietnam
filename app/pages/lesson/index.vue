@@ -47,7 +47,7 @@ useSeoMeta({
             v-for="era in eras"
             :key="era.id"
             :href="`#${era.id}`"
-            class="px-6 py-3 bg-white rounded-full shadow-md font-black text-text hover:bg-primary hover:text-white transition-all whitespace-nowrap border-2 border-white hover:border-primary"
+            class="px-6 py-3 bg-white dark:bg-slate-800 rounded-full shadow-md font-black text-text hover:bg-primary hover:text-white transition-all whitespace-nowrap border-2 border-white dark:border-slate-800 hover:border-primary"
           >
             {{ era.title }}
           </a>

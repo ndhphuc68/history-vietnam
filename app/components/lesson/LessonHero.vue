@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-text pt-24 pb-32 px-4 relative overflow-hidden">
+  <div
+    class="bg-slate-900 dark:bg-slate-950 pt-24 pb-32 px-4 relative overflow-hidden"
+  >
     <!-- Decorative Elements -->
     <div
       class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none"

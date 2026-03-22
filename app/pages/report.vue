@@ -55,7 +55,7 @@ const mailtoHref = computed(() => {
       </div>
 
       <div
-        class="bg-white p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-primary"
+        class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-[40px] shadow-xl border-t-8 border-primary"
       >
         <div class="space-y-6">
           <div class="space-y-2">

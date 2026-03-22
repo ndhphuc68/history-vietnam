@@ -9,9 +9,20 @@ const localePath = useLocalePath();
 const selectedHero = ref<any>(null);
 const showModal = ref(false);
 
+const itemsPerPage = 12;
+const visibleCount = ref(itemsPerPage);
+
 const heroes = computed(() => {
   return historyStore.heroes;
 });
+
+const visibleHeroes = computed(() => {
+  return heroes.value.slice(0, visibleCount.value);
+});
+
+const loadMore = () => {
+  visibleCount.value += itemsPerPage;
+};
 
 const openDetail = (hero: any) => {
   selectedHero.value = hero;
@@ -23,7 +34,7 @@ const openDetail = (hero: any) => {
   <div class="w-full max-w-7xl mx-auto px-4">
     <!-- Stats Header (Keep for motivation) -->
     <div
-      class="flex items-center justify-center gap-12 mb-16 px-4 py-8 bg-white/40 backdrop-blur-sm rounded-[40px] border-2 border-dashed border-primary/20 max-w-2xl mx-auto"
+      class="flex items-center justify-center gap-12 mb-16 px-4 py-8 bg-white/40 dark:bg-slate-800/40 backdrop-blur-sm rounded-[40px] border-2 border-dashed border-primary/20 max-w-2xl mx-auto"
     >
       <div class="flex flex-col items-center">
         <span class="text-4xl font-black text-primary">
@@ -53,12 +64,21 @@ const openDetail = (hero: any) => {
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:gap-16"
     >
       <HeroCard
-        v-for="hero in heroes"
+        v-for="hero in visibleHeroes"
         :key="hero.id"
         :hero="hero"
         :is-unlocked="heroStore.isUnlocked(hero.id)"
         @show-detail="openDetail"
       />
+    </div>
+
+    <div v-if="visibleCount < heroes.length" class="flex justify-center mt-12">
+      <button
+        @click="loadMore"
+        class="px-8 py-3 bg-white/80 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-700 text-secondary font-bold rounded-full border-2 border-secondary/20 dark:border-slate-700 transition-all shadow-sm"
+      >
+        Xem thêm
+      </button>
     </div>
 
     <!-- Hero Detail Modal -->
@@ -71,7 +91,7 @@ const openDetail = (hero: any) => {
     <!-- Empty State / Motivation -->
     <div
       v-if="heroStore.totalUnlocked < heroes.length"
-      class="mt-20 p-10 bg-white rounded-[40px] border-4 border-dashed border-accent text-center"
+      class="mt-20 p-10 bg-white dark:bg-slate-800 rounded-[40px] border-4 border-dashed border-accent dark:border-accent/40 text-center"
     >
       <Icon
         name="fluent-emoji:magnifying-glass-tilted-left"

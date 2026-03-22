@@ -76,7 +76,7 @@ watch(
       @click.self="emit('close')"
     >
       <div
-        class="bg-white w-full max-w-md rounded-[40px] shadow-2xl overflow-hidden border-8 border-white animate-pop-in"
+        class="bg-white dark:bg-slate-800 w-full max-w-md rounded-[40px] shadow-2xl overflow-hidden border-8 border-white dark:border-slate-800 animate-pop-in"
       >
         <!-- Header -->
         <div class="bg-accent p-8 text-center relative overflow-hidden">
@@ -105,7 +105,7 @@ watch(
               type="text"
               :placeholder="$t('avatar_selection.nickname_placeholder')"
               maxlength="15"
-              class="w-full bg-slate-50 border-4 border-slate-100 rounded-2xl px-6 py-4 font-black text-text text-xl focus:border-accent outline-none transition-all placeholder:text-text/20"
+              class="w-full bg-slate-50 dark:bg-slate-900 border-4 border-slate-100 dark:border-slate-700 rounded-2xl px-6 py-4 font-black text-text text-xl focus:border-accent outline-none transition-all placeholder:text-text/20"
             />
           </div>
 
@@ -125,7 +125,7 @@ watch(
                 :class="
                   selectedId === avatar.id
                     ? 'border-accent bg-accent/5'
-                    : 'border-slate-100 hover:border-slate-200 bg-white'
+                    : 'border-slate-100 dark:border-slate-700 hover:border-slate-200 dark:hover:border-slate-600 bg-white dark:bg-slate-800'
                 "
               >
                 <!-- Selection Indicator -->
