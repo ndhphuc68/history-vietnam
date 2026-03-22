@@ -38,7 +38,7 @@ const rarities = [
 
 <template>
   <div
-    class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row gap-6 items-center justify-between"
+    class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 items-center justify-between"
   >
     <!-- Status Filter -->
     <div

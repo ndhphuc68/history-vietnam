@@ -44,7 +44,7 @@ useSeoMeta({
       </p>
       <NuxtLink
         :to="localePath('/lesson')"
-        class="mt-8 inline-block px-10 py-4 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all text-lg uppercase"
+        class="mt-8 inline-block px-6 sm:px-10 py-3 sm:py-4 bg-secondary text-white font-black rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all text-base sm:text-lg uppercase"
       >
         {{ $t("hero_gallery.motivation.button") }}
       </NuxtLink>
@@ -56,7 +56,7 @@ useSeoMeta({
       <div class="mt-24 text-center relative z-20">
         <NuxtLink
           :to="localePath('/')"
-          class="inline-flex items-center gap-3 px-12 py-5 bg-white dark:bg-slate-800 text-text dark:text-gray-100 font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-xl border-4 border-text/5 dark:border-slate-700 group"
+          class="inline-flex items-center gap-2 sm:gap-3 px-8 sm:px-12 py-3 sm:py-5 bg-white dark:bg-slate-800 text-text dark:text-gray-100 font-black rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 text-lg sm:text-xl border-4 border-text/5 dark:border-slate-700 group"
         >
           <Icon
             name="fluent-emoji:house"

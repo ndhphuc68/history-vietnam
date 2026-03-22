@@ -74,7 +74,7 @@ const rarityConfig: Record<
 
     <!-- Gallery Grid -->
     <div
-      class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-20 lg:gap-x-10 lg:gap-y-24"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-20 lg:gap-x-10 lg:gap-y-24"
     >
       <div
         v-for="item in visibleArtifacts"
@@ -83,7 +83,7 @@ const rarityConfig: Record<
       >
         <!-- The Glass Display Case -->
         <div
-          class="w-full relative z-10 rounded-[40px] p-6 lg:p-8 flex flex-col items-center justify-center min-h-[300px] lg:min-h-[340px] shadow-sm backdrop-blur-2xl transition-all duration-300 group-hover:-translate-y-4 group-hover:shadow-xl border-[3px] mt-4"
+          class="w-full relative z-10 rounded-[40px] p-6 sm:p-7 md:p-8 flex flex-col items-center justify-center min-h-[280px] sm:min-h-[300px] md:min-h-[320px] lg:min-h-[340px] shadow-sm backdrop-blur-2xl transition-all duration-300 group-hover:-translate-y-4 group-hover:shadow-xl border-[3px] mt-4"
           :class="[
             isUnlocked(item.id)
               ? 'bg-white/70 dark:bg-slate-800/70 cursor-pointer pointer-events-auto'

@@ -51,7 +51,7 @@ const colorClasses: Record<string, string> = {
       </div>
 
       <h1
-        class="text-4xl sm:text-5xl md:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
+        class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
       >
         {{ titlePrimary }} <br v-if="titleHighlight" />
         <span
@@ -77,7 +77,7 @@ const colorClasses: Record<string, string> = {
       </h1>
 
       <p
-        class="text-xl md:text-2xl text-text font-medium leading-relaxed max-w-3xl mx-auto opacity-90 mt-4"
+        class="text-base sm:text-xl md:text-2xl text-text font-medium leading-relaxed max-w-3xl mx-auto opacity-90 mt-4 px-2"
       >
         {{ subtitle }}
       </p>

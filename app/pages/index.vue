@@ -59,10 +59,10 @@ useSeoMeta({
       </div>
 
       <h1
-        class="text-4xl sm:text-5xl md:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
+        class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-text leading-[1.1] md:leading-tight mb-8"
       >
         {{ $t("hero.title_main") }} <br />
-        <span class="text-primary relative">
+        <span class="text-primary relative inline-block mt-2">
           {{ $t("hero.title_sub") }}
           <svg
             class="absolute -bottom-2 left-0 w-full"
@@ -79,7 +79,9 @@ useSeoMeta({
         </span>
       </h1>
 
-      <p class="text-lg md:text-2xl text-text opacity-80 max-w-2xl mb-12 px-2">
+      <p
+        class="text-base sm:text-lg md:text-2xl text-text opacity-80 max-w-2xl mb-12 px-2"
+      >
         {{ $t("hero.description") }}
       </p>
 

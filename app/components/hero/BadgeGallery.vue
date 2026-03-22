@@ -104,7 +104,7 @@ const rarityConfig = {
       v-else
       tag="div"
       name="stagger"
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8"
     >
       <div
         v-for="(badge, index) in visibleBadges"
@@ -114,7 +114,7 @@ const rarityConfig = {
       >
         <!-- Badge Card Wrapper -->
         <div
-          class="aspect-[4/5] bg-white/70 dark:bg-slate-800/70 backdrop-blur-md rounded-[48px] p-8 sm:p-10 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 relative overflow-hidden h-full group-hover:shadow-2xl group-hover:-translate-y-2"
+          class="aspect-[4/5] bg-white/70 dark:bg-slate-800/70 backdrop-blur-md rounded-[48px] p-6 sm:p-8 md:p-10 flex flex-col items-center justify-center text-center transition-all duration-500 border-4 relative overflow-hidden h-full group-hover:shadow-2xl group-hover:-translate-y-2"
           :class="[
             getBadgeStatus(badge.id)
               ? `border-white dark:border-slate-700 shadow-xl ${rarityConfig[badge.rarity]?.glow} scale-100`
@@ -149,7 +149,7 @@ const rarityConfig = {
           </div>
 
           <h3
-            class="font-black text-text text-base md:text-xl leading-tight px-2 mb-4"
+            class="font-black text-text text-sm sm:text-base md:text-xl leading-tight px-2 mb-4"
           >
             {{ badge.title }}
           </h3>

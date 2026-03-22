@@ -17,7 +17,7 @@
     <div class="max-w-5xl mx-auto text-center relative z-10 animate-fade-in">
       <slot name="title">
         <h1
-          class="text-5xl md:text-7xl font-black text-white mb-6 drop-shadow-lg"
+          class="text-3xl sm:text-4xl md:text-7xl font-black text-white mb-6 drop-shadow-lg"
         >
           {{ $t("lesson_hero.title") }}
         </h1>

@@ -235,12 +235,12 @@ onMounted(() => {
             @open-avatar="showAvatarModal = true"
           />
 
-          <!-- Theme Toggle -->
+          <!-- Theme Toggle (Desktop) -->
           <ClientOnly>
             <button
               @click="toggleTheme"
               aria-label="Toggle Dark Mode"
-              class="w-10 h-10 flex flex-shrink-0 items-center justify-center rounded-full bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 transition-all border border-gray-200 dark:border-slate-700 shadow-sm"
+              class="hidden md:flex w-10 h-10 flex-shrink-0 items-center justify-center rounded-full bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 transition-all border border-gray-200 dark:border-slate-700 shadow-sm"
             >
               <Icon
                 v-if="$colorMode.value === 'dark'"
@@ -251,7 +251,7 @@ onMounted(() => {
             </button>
             <template #fallback>
               <div
-                class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
+                class="hidden md:flex w-10 h-10 rounded-full bg-gray-100 items-center justify-center"
               >
                 <Icon
                   name="fluent-emoji:sun-with-face"
@@ -261,9 +261,9 @@ onMounted(() => {
             </template>
           </ClientOnly>
 
-          <!-- Language Switcher -->
+          <!-- Language Switcher (Desktop) -->
           <div
-            class="flex items-center bg-gray-100 dark:bg-slate-800 rounded-full p-1 border border-gray-200 dark:border-slate-700"
+            class="hidden md:flex items-center bg-gray-100 dark:bg-slate-800 rounded-full p-1 border border-gray-200 dark:border-slate-700"
           >
             <NuxtLink
               v-for="loc in locales"
@@ -360,6 +360,61 @@ onMounted(() => {
             >
               {{ $t("layout.mobile.glossary") }}
             </NuxtLink>
+
+            <!-- Mobile Divider -->
+            <div class="h-px bg-gray-100 dark:bg-slate-800 my-4"></div>
+
+            <!-- Mobile Settings -->
+            <div class="space-y-4 pt-2">
+              <span
+                class="text-xs font-black uppercase tracking-widest text-text/40 px-2"
+              >
+                Cài đặt
+              </span>
+
+              <div class="flex items-center justify-between px-2">
+                <span class="font-bold text-text">Giao diện</span>
+                <button
+                  @click="toggleTheme"
+                  class="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 dark:bg-slate-800 border-2 border-primary/5 shadow-sm active:scale-95 transition-all"
+                >
+                  <Icon
+                    v-if="$colorMode.value === 'dark'"
+                    name="fluent-emoji:last-quarter-moon-face"
+                    class="text-xl"
+                  />
+                  <Icon
+                    v-else
+                    name="fluent-emoji:sun-with-face"
+                    class="text-xl"
+                  />
+                  <span class="font-black text-sm">
+                    {{ $colorMode.value === "dark" ? "Tối" : "Sáng" }}
+                  </span>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between px-2">
+                <span class="font-bold text-text">Ngôn ngữ</span>
+                <div
+                  class="flex bg-gray-100 dark:bg-slate-800 rounded-xl p-1 border-2 border-primary/5 shadow-sm"
+                >
+                  <NuxtLink
+                    v-for="loc in locales"
+                    :key="loc.code"
+                    :to="switchLocalePath(loc.code)"
+                    class="px-4 py-1.5 rounded-lg text-xs font-black transition-all"
+                    :class="
+                      locale === loc.code
+                        ? 'bg-white shadow text-primary'
+                        : 'text-gray-500'
+                    "
+                  >
+                    {{ loc.code.toUpperCase() }}
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Transition>

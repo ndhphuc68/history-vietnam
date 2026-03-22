@@ -10,7 +10,7 @@ const progressStore = useProgressStore();
   <div :id="era.id" class="mb-24 scroll-mt-24">
     <!-- Era Header -->
     <div
-      class="flex flex-col md:flex-row items-center gap-10 mb-12 animate-slide-up"
+      class="flex flex-col lg:flex-row items-center gap-6 sm:gap-10 mb-12 animate-slide-up"
       :style="{ animationDelay: `${index * 100}ms` }"
     >
       <div
@@ -27,7 +27,7 @@ const progressStore = useProgressStore();
       </div>
       <div class="flex-1 text-center md:text-left">
         <h2
-          class="text-3xl md:text-5xl font-black text-text mb-6 drop-shadow-sm"
+          class="text-2xl sm:text-3xl md:text-5xl font-black text-text mb-6 drop-shadow-sm"
         >
           {{ era.title }}
         </h2>

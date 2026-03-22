@@ -51,7 +51,7 @@ const handleCardClick = () => {
       <!-- Unlocked State -->
       <template v-else>
         <!-- Image Section: Enlarged to 75% height -->
-        <div class="relative h-[72%] overflow-hidden">
+        <div class="relative h-[75%] overflow-hidden">
           <NuxtImg
             :src="hero.image"
             :alt="hero.name"
@@ -63,35 +63,39 @@ const handleCardClick = () => {
 
           <!-- Era Badge -->
           <div
-            class="absolute top-6 right-6 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-lg text-xs font-black text-text uppercase tracking-wider"
+            class="absolute top-4 right-4 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-lg text-[10px] font-black text-text uppercase tracking-wider"
           >
             {{ hero.era }}
           </div>
         </div>
 
-        <!-- Info Section: Refined for larger scale -->
+        <!-- Info Section: Balanced height and centering -->
         <div
-          class="p-6 flex flex-col items-center text-center justify-center h-[28%] bg-white dark:bg-slate-800"
+          class="px-4 py-2 sm:p-4 flex flex-col items-center text-center justify-center h-[25%] bg-white dark:bg-slate-800 relative"
         >
           <h3
-            class="text-2xl md:text-3xl font-black text-text dark:text-gray-100 leading-tight mb-1 group-hover:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
+            class="text-lg sm:text-xl md:text-2xl font-black text-text dark:text-gray-100 leading-tight mb-0.5 group-hover:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis w-full"
           >
             {{ hero.name }}
           </h3>
           <p
-            class="text-base font-bold text-primary opacity-90 uppercase tracking-tight"
+            class="text-[10px] sm:text-xs md:text-sm font-bold text-primary opacity-90 uppercase tracking-tight"
           >
             {{ hero.title }}
           </p>
 
-          <!-- Interaction Hint -->
+          <!-- Interaction Hint: Subtle bottom placement -->
           <div
-            class="mt-3 text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-2"
+            class="absolute bottom-1 sm:bottom-2 left-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-1 text-secondary"
           >
-            <span class="text-xs font-black uppercase tracking-widest">{{
-              $t("hero_card.explore")
-            }}</span>
-            <Icon name="fluent:chevron-right-24-filled" class="text-lg" />
+            <span
+              class="text-[9px] sm:text-[10px] font-black uppercase tracking-widest"
+              >{{ $t("hero_card.explore") }}</span
+            >
+            <Icon
+              name="fluent:chevron-right-24-filled"
+              class="text-xs sm:text-sm"
+            />
           </div>
         </div>
       </template>
