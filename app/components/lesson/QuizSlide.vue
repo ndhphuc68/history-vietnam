@@ -70,6 +70,15 @@ const parsedSegments = computed(() => {
       (p): p is { type: string; content: string; id?: string } => p !== null,
     );
 });
+
+// Reset state when question changes
+watch(
+  () => props.question,
+  () => {
+    selectedOption.value = null;
+    isCorrect.value = null;
+  },
+);
 </script>
 
 <template>

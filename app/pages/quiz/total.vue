@@ -6,64 +6,58 @@ import { useProgressStore } from "~/stores/progressStore";
 import { useHeroStore } from "~/stores/heroStore";
 import type { QuizSlide, LessonContent } from "~/types/history";
 
-const route = useRoute();
-const router = useRouter();
-const eraId = route.params.eraId as string;
+import LessonQuizSlide from "~/components/lesson/QuizSlide.vue";
 
+const router = useRouter();
 const historyData = useHistoryData();
 const quizStore = useQuizStore();
+const badgeStore = useBadgeStore();
+const progressStore = useProgressStore();
+const heroStore = useHeroStore();
 const localePath = useLocalePath();
 
 // State
 const isLoading = ref(true);
-const eraQuestions = ref<QuizSlide[]>([]);
+const allAvailableQuestions = ref<QuizSlide[]>([]);
+const currentQuizQuestions = ref<QuizSlide[]>([]);
 const currentQuestionIndex = ref(0);
 const quizFinished = ref(false);
 const showResult = ref(false);
 const shouldShake = ref(false);
 
-const eraTitle = computed(() => {
-  return (
-    historyData.eras.value.find((e) => e.id === eraId)?.title || "Thời đại"
-  );
-});
-
 const currentQuestion = computed(() => {
   if (
-    eraQuestions.value.length > 0 &&
-    currentQuestionIndex.value < eraQuestions.value.length
+    currentQuizQuestions.value.length > 0 &&
+    currentQuestionIndex.value < currentQuizQuestions.value.length
   ) {
-    return eraQuestions.value[currentQuestionIndex.value];
+    return currentQuizQuestions.value[currentQuestionIndex.value];
   }
   return null;
 });
 
-const badgeStore = useBadgeStore();
-const progressStore = useProgressStore();
-const heroStore = useHeroStore();
-
-// Load all questions from the era
-const loadEraQuestions = async () => {
+// Load all questions from completed lessons
+const loadAllQuestions = async () => {
   isLoading.value = true;
   quizStore.resetQuizSession();
 
-  const era = historyData.eras.value.find((e) => e.id === eraId);
-  if (!era) {
+  if (progressStore.completedLessons.length === 0) {
     router.push(localePath("/quiz"));
     return;
   }
 
-  const allQuestions: QuizSlide[] = [];
-
-  // Lesson files mapping
+  const questions: QuizSlide[] = [];
   const lessonFiles = import.meta.glob<{ default: LessonContent }>(
     "~~/content/lessons/**/*.json",
   );
 
-  for (const level of era.levels) {
+  // Filter lessons that user has completed
+  const completedLessonIds = progressStore.completedLessons;
+
+  for (const lessonId of completedLessonIds) {
     const fileKey = Object.keys(lessonFiles).find((path) =>
-      path.endsWith(`/${level.lesson}.json`),
+      path.endsWith(`/${lessonId}.json`),
     );
+
     if (fileKey) {
       const loader = lessonFiles[fileKey];
       if (loader) {
@@ -72,15 +66,26 @@ const loadEraQuestions = async () => {
         const quizzes = content.slides.filter(
           (s) => s.type === "quiz",
         ) as QuizSlide[];
-        allQuestions.push(...quizzes);
+        questions.push(...quizzes);
       }
     }
   }
 
-  // Shuffle and pick 10
-  eraQuestions.value = allQuestions
+  allAvailableQuestions.value = questions;
+
+  if (questions.length === 0) {
+    console.error(
+      "No questions found for completed lessons:",
+      completedLessonIds,
+    );
+    setTimeout(() => router.push(localePath("/quiz")), 2000);
+    return;
+  }
+
+  // Shuffle and pick 15 (or fewer if not enough)
+  currentQuizQuestions.value = [...questions]
     .sort(() => Math.random() - 0.5)
-    .slice(0, 10);
+    .slice(0, 15);
 
   isLoading.value = false;
 };
@@ -100,16 +105,22 @@ const handleAnswer = (correct: boolean) => {
   }
 
   // Progress to next question after a delay
+  // Longer delay for incorrect answers to let user see the correct one
   const delay = correct ? 1200 : 2500;
 
   setTimeout(() => {
-    if (currentQuestionIndex.value < eraQuestions.value.length - 1) {
+    if (currentQuestionIndex.value < currentQuizQuestions.value.length - 1) {
       currentQuestionIndex.value++;
     } else {
       quizFinished.value = true;
       showResult.value = true;
-      // Save score (100% because they finished with lives)
-      quizStore.setScore(`mastery-${eraId}`, 10, 10);
+
+      // Save score for global challenge
+      quizStore.setScore(
+        "global-challenge",
+        currentQuizQuestions.value.length,
+        currentQuizQuestions.value.length,
+      );
 
       // Check for new badges
       badgeStore.checkNewBadges(
@@ -125,10 +136,10 @@ const restartQuiz = () => {
   currentQuestionIndex.value = 0;
   quizFinished.value = false;
   showResult.value = false;
-  loadEraQuestions();
+  loadAllQuestions();
 };
 
-onMounted(loadEraQuestions);
+onMounted(loadAllQuestions);
 </script>
 
 <template>
@@ -144,7 +155,7 @@ onMounted(loadEraQuestions);
         :to="localePath('/quiz')"
         class="flex items-center gap-2 text-text/60 font-bold hover:text-primary transition-colors"
       >
-        <Icon name="lucide:arrow-left" /> Thoát thách thức
+        <Icon name="lucide:arrow-left" /> Thoát thử thách
       </NuxtLink>
 
       <div
@@ -169,7 +180,7 @@ onMounted(loadEraQuestions);
         <div class="w-px h-6 bg-gray-200 mx-2"></div>
         <div class="text-xl font-black text-text">
           {{ currentQuestionIndex + 1
-          }}<span class="text-text/40">/{{ eraQuestions.length }}</span>
+          }}<span class="text-text/40">/{{ currentQuizQuestions.length }}</span>
         </div>
       </div>
     </div>
@@ -178,11 +189,10 @@ onMounted(loadEraQuestions);
     <div class="flex-1 flex flex-col items-center justify-center p-6 relative">
       <template v-if="isLoading">
         <div class="flex flex-col items-center gap-4">
-          <Icon
-            name="fluent-emoji:thinking-face"
-            class="text-8xl animate-bounce"
-          />
-          <p class="text-2xl font-black text-text">Đang chuẩn bị câu hỏi...</p>
+          <Icon name="fluent-emoji:brain" class="text-8xl animate-pulse" />
+          <p class="text-2xl font-black text-text">
+            Đang tổng hợp thử thách...
+          </p>
         </div>
       </template>
 
@@ -191,25 +201,29 @@ onMounted(loadEraQuestions);
           <!-- Success Screen -->
           <div
             v-if="quizFinished"
-            class="bg-white dark:bg-slate-800 rounded-[50px] p-12 text-center shadow-2xl border-8 border-amber-400 relative overflow-hidden"
+            class="bg-white dark:bg-slate-800 rounded-[50px] p-12 text-center shadow-2xl border-8 border-primary relative overflow-hidden"
           >
             <div
-              class="absolute -top-10 -right-10 w-40 h-40 bg-amber-400/10 rounded-full blur-3xl"
+              class="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"
             ></div>
-            <Icon name="fluent-emoji:trophy" class="text-9xl mb-6 mx-auto" />
+            <Icon
+              name="fluent-emoji:star-struck"
+              class="text-9xl mb-6 mx-auto"
+            />
             <h2 class="text-5xl font-black text-text mb-4 uppercase">
-              Tuyệt vời!
+              THÔNG THÁI QUÁ!
             </h2>
             <p class="text-2xl font-bold text-secondary mb-10 leading-relaxed">
-              Bạn đã vượt qua Thách thức <br />
-              <span class="text-primary">"{{ eraTitle }}"</span>!
+              Bạn đã hoàn thành Thử thách Toàn thư. <br />
+              Kiến thức của bạn thật đáng nể!
             </p>
             <div class="flex flex-col gap-4">
               <button
                 @click="router.push(localePath('/quiz'))"
                 class="w-full py-5 bg-primary text-white text-2xl font-black rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-all"
               >
-                VỀ ĐẤU TRƯỜNG <Icon name="lucide:arrow-right" class="ml-2" />
+                TIẾP TỤC KHÁM PHÁ
+                <Icon name="lucide:arrow-right" class="ml-2" />
               </button>
             </div>
           </div>
@@ -219,15 +233,18 @@ onMounted(loadEraQuestions);
             v-else
             class="bg-white dark:bg-slate-800 rounded-[50px] p-12 text-center shadow-2xl border-8 border-red-400"
           >
-            <Icon name="fluent-emoji:ghost" class="text-9xl mb-6 mx-auto" />
+            <Icon
+              name="fluent-emoji:disappointed-face"
+              class="text-9xl mb-6 mx-auto"
+            />
             <h2
               class="text-5xl font-black text-text mb-4 uppercase text-red-500"
             >
-              Tiếc quá!
+              HẾT LƯỢT RỒI!
             </h2>
             <p class="text-2xl font-bold text-secondary mb-10 leading-relaxed">
-              Bạn đã hết lượt rồi. Đừng bỏ cuộc, hãy ôn lại kiến thức và thử lại
-              nhé!
+              Thử thách Toàn thư rất khó, đừng nản lòng nhé. <br />
+              Ôn lại bài và phục thù sau nào!
             </p>
             <div class="flex flex-col gap-4">
               <button
@@ -250,7 +267,7 @@ onMounted(loadEraQuestions);
       <template v-else>
         <!-- Actual Question Component -->
         <div v-if="currentQuestion" class="w-full max-w-4xl">
-          <QuizSlide
+          <LessonQuizSlide
             :question="currentQuestion.question"
             :options="currentQuestion.options"
             :answer="currentQuestion.answer"
@@ -290,7 +307,7 @@ onMounted(loadEraQuestions);
     transform: translate3d(-2px, 0, 0);
   }
   20%,
-  80% {
+  90% {
     transform: translate3d(4px, 0, 0);
   }
   30%,

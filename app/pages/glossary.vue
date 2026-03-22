@@ -93,7 +93,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen pb-32 bg-background relative overflow-x-hidden">
+  <div class="min-h-screen pb-32 bg-background relative">
     <!-- Decorative Pattern -->
     <div
       class="fixed inset-0 pointer-events-none opacity-[0.05] parchment-pattern z-0"
@@ -112,7 +112,7 @@ onMounted(() => {
     <div class="max-w-7xl mx-auto px-4 md:px-8 -mt-8 relative z-20">
       <!-- Search & Category Filter (Fixed/Sticky for ease of use) -->
       <div
-        class="sticky top-24 z-30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-[32px] shadow-2xl p-4 md:p-6 mb-12 border-2 border-secondary/10 dark:border-slate-800 flex flex-col items-center gap-6"
+        class="sticky top-[82px] z-40 w-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl rounded-[32px] shadow-2xl p-4 md:p-6 mb-12 border-2 border-secondary/10 dark:border-slate-800 flex flex-col items-center gap-6 transition-all duration-300"
       >
         <div class="flex flex-col md:flex-row w-full gap-4 items-center">
           <div class="relative flex-1 w-full group">
@@ -157,7 +157,7 @@ onMounted(() => {
           :available-letters="availableLetters"
           :active-letter="activeLetter"
           @select="scrollToLetter"
-          class="lg:w-16 flex-shrink-0 z-20 sticky top-40"
+          class="lg:w-16 flex-shrink-0 z-40 sticky top-[225px]"
         />
 
         <!-- Content Area -->

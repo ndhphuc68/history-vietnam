@@ -30,12 +30,14 @@ defineEmits<{
     </div>
 
     <!-- Mobile Horizontal Index -->
-    <div class="flex lg:hidden gap-2 overflow-x-auto pb-4 no-scrollbar">
+    <div
+      class="flex lg:hidden gap-2 overflow-x-auto p-4 no-scrollbar bg-white/80 dark:bg-slate-900/80 backdrop-blur-md rounded-2xl shadow-lg border-2 border-secondary/10 dark:border-slate-800"
+    >
       <button
         v-for="letter in availableLetters"
         :key="letter"
         @click="$emit('select', letter)"
-        class="min-w-[44px] h-11 rounded-2xl flex items-center justify-center font-black transition-all shadow-sm flex-shrink-0 border-2 border-transparent"
+        class="min-w-[44px] h-11 rounded-2xl flex items-center justify-center font-black transition-all shadow-sm flex-shrink-0 border-2 border-transparent hover:scale-110 active:scale-95"
         :class="
           activeLetter === letter
             ? 'bg-secondary text-slate-50 shadow-lg border-secondary/20'
