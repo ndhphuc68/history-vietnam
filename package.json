@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deploy:pages": "pnpm build && wrangler pages deploy .output/public",
+    "pages:deploy": "pnpm deploy:pages"
   },
   "dependencies": {
     "@nuxt/image": "^2.0.0",
@@ -40,7 +42,8 @@
     "eslint-plugin-vue": "^10.8.0",
     "husky": "^9.1.7",
     "prettier": "^3.8.1",
-    "vue-eslint-parser": "^10.4.0"
+    "vue-eslint-parser": "^10.4.0",
+    "wrangler": "^4.28.0"
   },
   "overrides": {
     "serialize-javascript": "^7.0.4"

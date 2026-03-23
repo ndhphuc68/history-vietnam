@@ -57,3 +57,25 @@ pnpm preview
 ## Ghi chú
 
 - Trang **Báo lỗi**: `pages/report.vue` (nhớ thay email nhận báo lỗi trước khi public).
+
+## Deploy Cloudflare Pages
+
+Dự án dùng Nitro preset **`cloudflare-pages`** (`nuxt.config.ts` → `nitro.preset`).
+
+### Lỗi thường gặp: `wrangler deploy` + thông báo về `main` / `assets`
+
+- **`wrangler deploy`** là lệnh deploy **Cloudflare Workers** (cần entry `main` hoặc cấu hình `assets`).
+- Với Nuxt preset **cloudflare-pages**, sau `pnpm build` bạn phải deploy **Pages**, không phải Workers:
+
+```bash
+pnpm build
+pnpm exec wrangler pages deploy .output/public
+# hoặc: pnpm deploy:pages
+```
+
+### Cloudflare Dashboard (Git)
+
+- **Build command**: `pnpm install && pnpm build` (hoặc tương đương trên CI)
+- **Build output directory**: **`.output/public`** (quan trọng — không phải `dist`)
+
+File `wrangler.toml` trong repo đã khai báo `pages_build_output_dir = ".output/public"` để Wrangler/CI dễ đồng bộ.

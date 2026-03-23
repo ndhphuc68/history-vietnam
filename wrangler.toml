@@ -1,7 +1,11 @@
-#:schema node_modules/wrangler/config-schema.json
+# Cloudflare Pages (Nuxt + Nitro preset: cloudflare-pages)
+# Build: pnpm build  →  output: .output/public
+#
+# ❌ Không dùng `wrangler deploy` cho preset này (lệnh đó dành cho Workers,
+#    cần `main` hoặc `assets` — sẽ báo lỗi giống log bạn gặp).
+# ✅ Dùng: wrangler pages deploy .output/public
+#    hoặc kết nối Git trong Dashboard và đặt "Build output directory" = .output/public
+
 name = "history-vietnam"
 compatibility_date = "2024-11-01"
 pages_build_output_dir = ".output/public"
-
-[vars]
-NUXT_PUBLIC_SITE_URL = "https://history-vietnam.ndanghoangphuc.workers.dev"
