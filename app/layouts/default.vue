@@ -18,6 +18,24 @@ const historyStore = useHistoryStore();
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
+const { t } = useI18n();
+
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
+
+// Global SEO Configuration
+useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: siteUrl + route.path,
+    },
+  ],
+});
+
+useSeoMeta({
+  ogUrl: siteUrl + route.path,
+});
 
 const isMenuOpen = ref(false);
 

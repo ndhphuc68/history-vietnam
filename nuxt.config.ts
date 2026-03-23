@@ -45,6 +45,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: "cloudflare_pages",
     prerender: {
       autoSubfolderIndex: false,
       concurrency: 1,
@@ -60,8 +61,20 @@ export default defineNuxtConfig({
 
   // No need to auto-import Pinia helpers; stores import what they need.
 
+  runtimeConfig: {
+    public: {
+      siteUrl:
+        // @ts-expect-error - process.env is available in nuxt.config.ts
+        process.env.NUXT_PUBLIC_SITE_URL ||
+        "https://history-vietnam.ndanghoangphuc.workers.dev",
+    },
+  },
+
   app: {
     head: {
+      htmlAttrs: {
+        lang: "vi",
+      },
       titleTemplate: "%s | Lịch sử Việt Nam cho Bé",
       title: "Trang chủ",
       meta: [
@@ -72,7 +85,14 @@ export default defineNuxtConfig({
           content:
             "Ứng dụng học lịch sử Việt Nam thú vị, sinh động và bổ ích dành riêng cho trẻ em. Khám phá 4000 năm lịch sử hào hùng qua truyện kể và đố vui.",
         },
+        {
+          name: "keywords",
+          content:
+            "lịch sử Việt Nam, học lịch sử cho bé, truyện lịch sử, đố vui lịch sử, giáo dục trẻ em, sử Việt",
+        },
         { name: "format-detection", content: "telephone=no" },
+        { name: "author", content: "PhucNDH" },
+        { name: "theme-color", content: "#f8fafc" },
         // Open Graph
         { property: "og:site_name", content: "Lịch sử Việt Nam cho Bé" },
         { property: "og:type", content: "website" },
@@ -86,6 +106,8 @@ export default defineNuxtConfig({
             "Khám phá lịch sử Việt Nam qua những câu chuyện hấp dẫn và trò chơi đố vui sinh động.",
         },
         { property: "og:image", content: "/images/banner/banner.png" },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
         // Twitter
         { name: "twitter:card", content: "summary_large_image" },
         {

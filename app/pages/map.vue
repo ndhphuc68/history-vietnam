@@ -18,6 +18,9 @@ useSeoMeta({
   ogDescription: t("map.seo_og_desc"),
   ogImage: "/images/banner/banner.png",
 });
+
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
 </script>
 
 <template>

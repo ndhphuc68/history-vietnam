@@ -31,6 +31,9 @@ useHead({
   title: t("hero.title_main"),
 });
 
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
+
 useSeoMeta({
   title: t("hero.title_main") + " - " + t("hero.title_sub"),
   ogTitle: t("hero.title_main") + " - " + t("hero.title_sub"),
@@ -39,10 +42,21 @@ useSeoMeta({
   ogImage: "/images/banner/banner.png",
   twitterCard: "summary_large_image",
 });
+
+const homeStructuredData = computed(() => ({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Lịch sử Việt Nam cho Bé",
+  description: t("hero.description"),
+  url: siteUrl,
+}));
 </script>
 
 <template>
   <div class="relative overflow-hidden">
+    <!-- SEO Structured Data -->
+    <SeoStructuredData type="WebSite" :data="homeStructuredData" />
+
     <!-- Hero Section -->
     <section
       class="relative pt-20 pb-32 flex flex-col items-center text-center px-4"

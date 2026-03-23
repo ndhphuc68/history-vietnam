@@ -5,6 +5,9 @@ const route = useRoute();
 const router = useRouter();
 const lessonId = route.params.id as string;
 
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
+
 const {
   lessonData,
   currentSlideIndex,
@@ -58,6 +61,43 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 });
 
+const lessonUrl = computed(() => `${siteUrl}/lesson/${lessonId}`);
+
+const breadcrumbData = computed(() => ({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Trang chủ",
+      item: siteUrl,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Bài học",
+      item: `${siteUrl}/lesson`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: lessonData.value?.title || "Bài học",
+      item: lessonUrl.value,
+    },
+  ],
+}));
+
+const learningResourceData = computed(() => ({
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: lessonData.value?.title,
+  description: lessonData.value?.summary,
+  learningResourceType: "Lesson",
+  educationalLevel: "Children",
+  inLanguage: "vi",
+}));
+
 const localePath = useLocalePath();
 const finishLesson = () => {
   router.push(localePath("/lesson"));
@@ -68,6 +108,14 @@ const finishLesson = () => {
   <div
     class="min-h-screen bg-background relative overflow-hidden flex flex-col"
   >
+    <!-- SEO Structured Data -->
+    <SeoStructuredData type="BreadcrumbList" :data="breadcrumbData" />
+    <SeoStructuredData
+      v-if="lessonData"
+      type="LearningResource"
+      :data="learningResourceData"
+    />
+
     <!-- Intro Screen -->
     <div
       v-if="currentSlideIndex === -1 && lessonData"

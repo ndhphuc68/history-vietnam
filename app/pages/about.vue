@@ -16,6 +16,9 @@ useSeoMeta({
   ogDescription: t("about.seo_og_desc"),
   ogImage: "/images/about/mission.png",
 });
+
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
 </script>
 
 <template>
